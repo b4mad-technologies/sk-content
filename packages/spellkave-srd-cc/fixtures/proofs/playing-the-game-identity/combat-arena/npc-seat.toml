@@ -1,0 +1,128 @@
+[[actor_spatial_locations]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/goblin-warrior-seat-target_1"
+place_node_id = "srd_proof_scene/combat_arena_gate"
+selection_path = "manifest:srd_proof/goblin-warrior-seat-target_1"
+
+[[actors]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/goblin-warrior-seat-target_1"
+name = "Srd Proof Goblin Warrior Seat Target 1"
+
+[[entities]]
+bundle_id = "srd_proof"
+description = "TEST-ONLY spawned instance for the NPC-seat live proof (N3a)."
+entity_def_id = "srd_proof/goblin-warrior-seat-target"
+entity_key = "srd_proof/goblin-warrior-seat-target_1"
+kind = "npc"
+name = "Srd Proof Goblin Warrior Seat Target 1"
+owned_by_entity_key = ""
+place_node_id = "srd_proof_scene/combat_arena_gate"
+quantity = 1
+
+[[entity_definition_initial_equipment]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/goblin-warrior-seat-target"
+equipped_entity_def_id = "srd_proof/arena-training-weapon"
+slot_id = "srd/slot/main-hand"
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/goblin-warrior-seat-target"
+state_id = "srd/reach_mm"
+value_bool = true
+value_int = 1524
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/goblin-warrior-seat-target"
+state_id = "srd/str"
+value_bool = true
+value_int = 8
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/goblin-warrior-seat-target"
+state_id = "srd/dex"
+value_bool = true
+value_int = 15
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/goblin-warrior-seat-target"
+state_id = "srd/ac"
+value_bool = true
+value_int = 15
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/goblin-warrior-seat-target"
+state_id = "srd/hp"
+value_bool = true
+value_int = 10
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/goblin-warrior-seat-target"
+state_id = "srd/speed-walk"
+value_bool = true
+value_int = 6
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/goblin-warrior-seat-target"
+state_id = "srd/proficiency_bonus"
+value_bool = true
+value_int = 2
+
+[[entity_definition_tag]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/goblin-warrior-seat-target"
+source = "manifest"
+tag = "srd.creature"
+
+[[entity_definition_tag]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/goblin-warrior-seat-target"
+source = "manifest"
+tag = "srd.alignment.chaotic-neutral"
+
+[[entity_definition_tag]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/goblin-warrior-seat-target"
+source = "manifest"
+tag = "srd.language.common"
+
+[[entity_definition_tag]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/goblin-warrior-seat-target"
+source = "manifest"
+tag = "srd.language.goblin"
+
+[[entity_definition_tag]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/goblin-warrior-seat-target"
+source = "manifest"
+tag = "srd.monster"
+
+[[entity_definitions]]
+affordance_seed_id = ""
+bundle_id = "srd_proof"
+description = "TEST-ONLY combat-arena proof (N3a, NPC-seat live proof) monster — same Goblin Warrior stat block as Arena Goblin A/B/C (cache/markdown/monsters-A-Z.md:7327-7366): AC 15, HP 10, Speed 30 ft., STR 8, DEX 15. A DEDICATED, isolated instance (own entity_def, own session) so this proof's NPC-seat-driven fight never shares state with the scripted A/B/C narrative's claim identities, positions, or session."
+display_name = "Goblin Warrior (Arena, NPC-seat target)"
+entity_def_id = "srd_proof/goblin-warrior-seat-target"
+grants_capability_while_equipped = ""
+grants_capability_while_present_in_location = ""
+lineage_id = ""
+on_consume_consequence_id = ""
+on_destroy_consequence_id = ""
+on_equip_consequence_id = ""
+on_unequip_consequence_id = ""
+slot_compatibility_predicate = ""
+stackable = false
+
+[[entity_tag]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/goblin-warrior-seat-target_1"
+source = "manifest"
+tag = "srd.faction.monsters"

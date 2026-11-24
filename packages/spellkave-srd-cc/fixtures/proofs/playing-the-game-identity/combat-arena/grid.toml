@@ -1,0 +1,11 @@
+[[combat_grid_blueprints]]
+accepts_stacked_occupancy = false
+blueprint_id = "srd_proof/combat-grid/arena"
+bundle_id = "srd_proof"
+cell_size_m = 1.52400004863739
+edge_affordance_bindings_json = '{"movement_reach_resource":"srd/speed-walk","long_running_move_session":"srd/long_running_move"}'
+edge_affordance_template_id = "srd/affordance/grid-step"
+edge_overrides_json = '[{"from":"c_4_4","to":"c_5_4","movement_cost_cells":2,"label":"Difficult Terrain"},{"from":"c_5_4","to":"c_4_4","movement_cost_cells":2,"label":"Difficult Terrain"}]'
+height = 10
+topology = "8"
+width = 10

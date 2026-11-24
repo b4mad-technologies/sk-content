@@ -1,0 +1,473 @@
+#:schema https://spellkave.dev/schema/world-manifest-1.0.0.json
+applyset = "elven_mini.forest_lodge"
+schema_version = "1.0.0"
+
+[[bundles]]
+allow_flat_tags = false
+author = "spellkave-srd-cc"
+bundle_id = "elven_mini"
+default_extent_params_json = '{"extent_m": 4.5}'
+default_extent_shape_id = "core/area/cube"
+depends_on = [
+    "srd",
+    "dm",
+]
+description = "Playing-the-Game proof mini-world (elven multi-graph). Map art © Elven Tower Maps (CC BY 4.0). https://www.patreon.com/elventower/posts/creative-commons-153067169"
+display_name = "Playing the Game proof scene"
+version = "1.0.0"
+
+[[bundles.tag_prefixes]]
+prefix = "elven_mini"
+
+[metadata]
+bundle = "elven_mini"
+profile = "elven_mini_forest_lodge"
+
+[[movement_defaults]]
+affordance_template_id = "srd/affordance/step"
+bindings_json = '{"movement_reach_resource":"srd/speed-walk","long_running_move_session":"srd/long_running_move"}'
+bundle_id = "elven_mini"
+mode_id = ""
+place_graph_id = ""
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/forest_lodge/forest_path->elven_mini/forest_lodge/clearing"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/forest_lodge/forest_path"
+inherit_movement_default = true
+place_graph_id = "elven_mini/forest_lodge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/forest_lodge/clearing"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/forest_lodge/clearing->elven_mini/forest_lodge/forest_path"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/forest_lodge/clearing"
+inherit_movement_default = true
+place_graph_id = "elven_mini/forest_lodge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/forest_lodge/forest_path"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/forest_lodge/clearing->elven_mini/forest_lodge/porch"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/forest_lodge/clearing"
+inherit_movement_default = true
+place_graph_id = "elven_mini/forest_lodge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/forest_lodge/porch"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/forest_lodge/porch->elven_mini/forest_lodge/clearing"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/forest_lodge/porch"
+inherit_movement_default = true
+place_graph_id = "elven_mini/forest_lodge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/forest_lodge/clearing"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/forest_lodge/porch->elven_mini/forest_lodge/main_room"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/forest_lodge/porch"
+inherit_movement_default = true
+place_graph_id = "elven_mini/forest_lodge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/forest_lodge/main_room"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/forest_lodge/main_room->elven_mini/forest_lodge/porch"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/forest_lodge/main_room"
+inherit_movement_default = true
+place_graph_id = "elven_mini/forest_lodge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/forest_lodge/porch"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/forest_lodge/main_room->elven_mini/forest_lodge/hearth"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/forest_lodge/main_room"
+inherit_movement_default = true
+place_graph_id = "elven_mini/forest_lodge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/forest_lodge/hearth"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/forest_lodge/hearth->elven_mini/forest_lodge/main_room"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/forest_lodge/hearth"
+inherit_movement_default = true
+place_graph_id = "elven_mini/forest_lodge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/forest_lodge/main_room"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/forest_lodge/main_room->elven_mini/forest_lodge/loft"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/forest_lodge/main_room"
+inherit_movement_default = true
+place_graph_id = "elven_mini/forest_lodge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/forest_lodge/loft"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/forest_lodge/loft->elven_mini/forest_lodge/main_room"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/forest_lodge/loft"
+inherit_movement_default = true
+place_graph_id = "elven_mini/forest_lodge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/forest_lodge/main_room"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/forest_lodge/clearing->elven_mini/forest_lodge/woodshed"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/forest_lodge/clearing"
+inherit_movement_default = true
+place_graph_id = "elven_mini/forest_lodge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/forest_lodge/woodshed"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/forest_lodge/woodshed->elven_mini/forest_lodge/clearing"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/forest_lodge/woodshed"
+inherit_movement_default = true
+place_graph_id = "elven_mini/forest_lodge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/forest_lodge/clearing"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/forest_lodge/clearing->elven_mini/forest_lodge/tree_line"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/forest_lodge/clearing"
+inherit_movement_default = true
+place_graph_id = "elven_mini/forest_lodge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/forest_lodge/tree_line"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/forest_lodge/tree_line->elven_mini/forest_lodge/clearing"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/forest_lodge/tree_line"
+inherit_movement_default = true
+place_graph_id = "elven_mini/forest_lodge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/forest_lodge/clearing"
+
+[[place_graphs]]
+anchor_node_id = "elven_mini/forest_lodge/forest_path"
+bearing = 0.0
+blueprint_id = ""
+bundle_id = "elven_mini"
+description = "A gamekeeper's cottage in a forest clearing — porch, hearth, and a loft under the eaves."
+display_name = "Forest Lodge"
+is_ephemeral_instance = false
+metres_per_unit = 12.0
+origin_cell_res10 = 0
+origin_cell_res4 = 0
+origin_cell_res7 = 0
+parent_graph_id = "elven_mini/region"
+place_graph_id = "elven_mini/forest_lodge"
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 622215095456956415
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "A narrow forest path opens onto the lodge clearing, needles soft underfoot."
+display_name = "Forest Path"
+extent_params_json = '{"extent_m":3.81,"extent_x_m":3.048,"extent_y_m":3.81,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "forest_path"
+node_id = "elven_mini/forest_lodge/forest_path"
+place_graph_id = "elven_mini/forest_lodge"
+pos_present = true
+pos_x = 10
+pos_y = 30
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 622215095456956415
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "A packed-earth clearing ringed by tall pines, the lodge at its heart."
+display_name = "Lodge Clearing"
+extent_params_json = '{"radius_m":5.334,"radius_x_m":5.334,"radius_y_m":4.572,"radius_z_m":1.5}'
+extent_shape_id = "core/area/sphere"
+is_ephemeral = false
+local_id = "clearing"
+node_id = "elven_mini/forest_lodge/clearing"
+place_graph_id = "elven_mini/forest_lodge"
+pos_present = true
+pos_x = 18
+pos_y = 22
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 622215095456956415
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "A rough porch with a woodpile and a pair of muddy boots by the door."
+display_name = "Lodge Porch"
+extent_params_json = '{"extent_m":3.048,"extent_x_m":3.048,"extent_y_m":2.286,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "porch"
+node_id = "elven_mini/forest_lodge/porch"
+place_graph_id = "elven_mini/forest_lodge"
+pos_present = true
+pos_x = 20
+pos_y = 16
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 622215095456956415
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "The main room of the lodge — table, racks of tools, and a smell of pine resin."
+display_name = "Main Room"
+extent_params_json = '{"extent_m":4.572,"extent_x_m":4.572,"extent_y_m":3.81,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "main_room"
+node_id = "elven_mini/forest_lodge/main_room"
+place_graph_id = "elven_mini/forest_lodge"
+pos_present = true
+pos_x = 20
+pos_y = 12
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 622215095456956415
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "A stone hearth still warm, a kettle hanging empty over ash."
+display_name = "Hearth"
+extent_params_json = '{"extent_m":2.286,"extent_x_m":2.286,"extent_y_m":2.286,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "hearth"
+node_id = "elven_mini/forest_lodge/hearth"
+place_graph_id = "elven_mini/forest_lodge"
+pos_present = true
+pos_x = 16
+pos_y = 12
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 622215095456956415
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "A low sleeping loft under the eaves, blankets folded neat."
+display_name = "Sleeping Loft"
+extent_params_json = '{"extent_m":3.048,"extent_x_m":3.048,"extent_y_m":2.286,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "loft"
+node_id = "elven_mini/forest_lodge/loft"
+place_graph_id = "elven_mini/forest_lodge"
+pos_present = true
+pos_x = 22
+pos_y = 10
+pose_elevation = 3.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 622215095456956415
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "A lean-to woodshed stacked with split oak."
+display_name = "Woodshed"
+extent_params_json = '{"extent_m":2.286,"extent_x_m":2.286,"extent_y_m":2.286,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "woodshed"
+node_id = "elven_mini/forest_lodge/woodshed"
+place_graph_id = "elven_mini/forest_lodge"
+pos_present = true
+pos_x = 26
+pos_y = 18
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 622215095456956415
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "The tree line at the clearing's edge, where the forest closes in again."
+display_name = "Tree Line"
+extent_params_json = '{"extent_m":3.81,"extent_x_m":3.81,"extent_y_m":3.048,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "tree_line"
+node_id = "elven_mini/forest_lodge/tree_line"
+place_graph_id = "elven_mini/forest_lodge"
+pos_present = true
+pos_x = 28
+pos_y = 26
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"

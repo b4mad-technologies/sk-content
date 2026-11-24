@@ -1,0 +1,384 @@
+# pattern: condition-grant-and-suppression
+[[action_definitions]]
+action_id = "srd_proof/attack-roll"
+bundle_id = "srd_proof"
+cost_time_ms = 0
+display_name = "Attack roll (let-bound nat-20/nat-1 override, target.effective('srd/ac'))"
+on_failure = ""
+on_success = "srd_proof/attack-roll/success"
+required_capability = "srd_proof/check/attack-roll"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "srd_proof/cover-grant"
+bundle_id = "srd_proof"
+cost_time_ms = 0
+display_name = "Grant Cover (maxim-audit F1 live proof — lands the shipped srd/cover/half condition)"
+on_failure = ""
+on_success = "srd_proof/cover-grant/success"
+required_capability = "srd_proof/check/cover-grant"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "srd_proof/attack-roll-cover"
+bundle_id = "srd_proof"
+cost_time_ms = 0
+display_name = "Attack roll (target.effective('srd/ac'), vs a Half-Cover-conditioned target)"
+on_failure = ""
+on_success = "srd_proof/attack-roll-cover/success"
+required_capability = "srd_proof/check/attack-roll-cover"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "srd_proof/reaction-resolution"
+bundle_id = "srd_proof"
+cost_time_ms = 0
+description = "TEST-ONLY event-triggered reaction whose raw d20 versus target AC gives deterministic boundary hit/miss coverage for r_react; never base SRD content."
+display_name = "Proof-only stochastic reaction resolution"
+on_failure = "srd_proof/reaction-resolution/miss"
+on_success = "srd_proof/reaction-resolution/success"
+reaction_eligibility = "actor.has_capability('srd_proof/reaction-resolution')"
+reaction_trigger = "$event.kind == 'r_move' && $event.detail.on_exit == 'true'"
+reaction_window_ms = 30000
+required_capability = "srd_proof/reaction-resolution"
+resolution_mode = "Stochastic"
+resolution_predicate_source = "d20 >= target.effective('srd/ac')"
+resolution_scope = "srd/attack_roll"
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "srd_proof/reaction-suppression"
+bundle_id = "srd_proof"
+cost_time_ms = 0
+description = "TEST-ONLY self action that reserves the shared proof actors' reaction budget so out-of-session movement proofs do not open unrelated Opportunity Attack windows; combat-arena proves the shipped OA path in-session."
+display_name = "Reserve reaction for non-OA proof work"
+on_failure = ""
+on_success = "srd_proof/reaction-suppression/success"
+required_capability = "srd_proof/reaction-resolution"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = true
+session_def_id = ""
+spends_channel = "srd/economy_channel/reaction"
+
+[[action_definitions]]
+action_id = "srd_proof/combat-arena/cover-grant"
+bundle_id = "srd_proof"
+cost_time_ms = 0
+description = "TEST-ONLY combat-arena proof (Slice 2) action: lands the shipped srd/cover/half condition on the target, guaranteed (Deterministic — no roll), simulating a DM/environment cover declaration."
+display_name = "Grant Cover"
+on_failure = ""
+on_success = "srd_proof/combat-arena/cover-grant/success"
+required_capability = "srd_proof/combat-arena/cover-grant"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+spends_channel = "srd/economy_channel/primary"
+
+[[affordance_templates]]
+accepts_global_storm = true
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/attack-roll"
+display_name = "Attack roll (let-bound nat-20/nat-1 override, target.effective('srd/ac'))"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "capability:srd_proof/check/attack-roll"
+outcome_template_id = "srd_proof/attack-roll/outcome"
+predicate_bool = false
+predicate_source = "let attack_roll = d20; macro('srd/attack_roll_hits', attack_roll, attack_roll + macro('srd/strength_modifier') + macro('srd/proficiency_bonus', actor.stat('srd/level')), (target.effective('srd/ac')), cond(actor.has_capability('srd/class-feature/fighter/champion/improved-critical'), 19, 20))"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "srd_proof/attack-roll/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/cover-grant"
+display_name = "Grant Cover (maxim-audit F1 live proof — lands the shipped srd/cover/half condition)"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "capability:srd_proof/check/cover-grant"
+outcome_template_id = "srd_proof/cover-grant/outcome"
+predicate_bool = false
+predicate_source = "d20 + macro('srd/strength_modifier') + macro('srd/proficiency_bonus', actor.stat('srd/level')) >= 6"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "srd_proof/cover-grant/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = true
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/attack-roll-cover"
+display_name = "Attack roll (target.effective('srd/ac'), vs a Half-Cover-conditioned target)"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "capability:srd_proof/check/attack-roll-cover"
+outcome_template_id = "srd_proof/attack-roll-cover/outcome"
+predicate_bool = false
+predicate_source = "let attack_roll = d20; macro('srd/attack_roll_hits', attack_roll, attack_roll + macro('srd/strength_modifier') + macro('srd/proficiency_bonus', actor.stat('srd/level')), (target.effective('srd/ac')), cond(actor.has_capability('srd/class-feature/fighter/champion/improved-critical'), 19, 20))"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "srd_proof/attack-roll-cover/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = true
+bundle_id = "srd_proof"
+capability_id = "srd_proof/reaction-resolution"
+display_name = "Proof-only stochastic reaction resolution"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "srd.creature"
+outcome_template_id = "srd_proof/reaction-resolution/outcome"
+predicate_bool = false
+predicate_source = "1 == 1"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "srd_proof/reaction-resolution/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "srd_proof"
+capability_id = "srd_proof/reaction-resolution"
+display_name = "Reserve reaction for non-OA proof work"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "srd.creature"
+outcome_template_id = "srd_proof/reaction-suppression/outcome"
+predicate_bool = false
+predicate_source = "1 == 1"
+range_m = 0.0
+reads_occupancy = false
+spends_channel = "srd/economy_channel/reaction"
+stratification_ok = true
+template_id = "srd_proof/reaction-suppression/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "srd_proof"
+capability_id = "srd_proof/combat-arena/cover-grant"
+display_name = "Grant Cover"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "srd/niche/strikeable"
+outcome_template_id = "srd_proof/combat-arena/cover-grant/outcome"
+predicate_bool = true
+predicate_source = ""
+range_m = 45.720001220703125
+reads_occupancy = false
+spends_channel = "srd/economy_channel/primary"
+stratification_ok = true
+template_id = "srd_proof/combat-arena/cover-grant/affordance"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/attack-roll"
+default_visibility = "Public"
+description = "TEST-ONLY check capability for the Attack Rolls live proof (target-seeded AC 10, read via target.effective('srd/ac') — Equipment slice E1's F2 closure): proves the let-bound single-roll nat-20/nat-1 override parses through the verb layer and the wasm validator, and evaluates consistently with the engine's own admit/reject against a REAL target fact, not a baked literal."
+display_name = "Attack roll (let-bound nat-20/nat-1 override, target.effective('srd/ac'))"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/cover-grant"
+default_visibility = "Public"
+description = "TEST-ONLY check capability for the maxim-audit F1 Cover live proof: guaranteed-success gate (same boundary-DC trick as d20-easy/advantage-grant) whose success consequence lands the SHIPPED base-bundle 'srd/cover/half' condition on the manipulation's target via ApplyStatus — a cross-bundle reference, not a proof-authored condition."
+display_name = "Grant Cover (maxim-audit F1 live proof — lands the shipped srd/cover/half condition)"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/attack-roll-cover"
+default_visibility = "Public"
+description = "TEST-ONLY check capability for the maxim-audit F1 Cover live proof (target-seeded base AC 10; the 'srd/cover/half' condition, once landed by cover-grant, widens it to 12): SAME predicate shape as the plain attack-roll check — proves the shipped condition's own modifier composes into target.effective('srd/ac'), not a generation-time coverModifiedAcExpr transform (retired)."
+display_name = "Attack roll (target.effective('srd/ac'), vs a Half-Cover-conditioned target)"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "srd_proof"
+capability_id = "srd_proof/reaction-resolution"
+default_visibility = "Public"
+description = "TEST-ONLY gate isolating the generic reaction-resolution seam from unrelated creatures and proof scenes."
+display_name = "Resolve proof-only stochastic reactions"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "srd_proof"
+capability_id = "srd_proof/combat-arena/cover-grant"
+default_visibility = "Public"
+description = "TEST-ONLY combat-arena proof (Slice 2, denser monster roster) capability: lands the shipped srd/cover/half condition on a living goblin, simulating a DM/environment cover declaration mid-fight."
+display_name = "Grant Cover (combat-arena proof)"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "srd_proof/attack-roll/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "srd_proof/flexed"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "srd_proof/cover-grant/success"
+
+[consequence_frame_writes.frame_write.ApplyStatus]
+condition_definition_id = "srd/cover/half"
+target_kind = "entity"
+target_ref = "TargetActor"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "srd_proof/attack-roll-cover/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "srd_proof/flexed"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "srd_proof/reaction-resolution/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "-1"
+resource = "srd/hp"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "srd_proof/combat-arena/cover-grant/success"
+
+[consequence_frame_writes.frame_write.ApplyStatus]
+condition_definition_id = "srd/cover/half"
+target_kind = "entity"
+target_ref = "TargetActor"
+
+[[consequence_templates]]
+bundle_id = "srd_proof"
+template_id = "srd_proof/attack-roll/success"
+
+[[consequence_templates]]
+bundle_id = "srd_proof"
+template_id = "srd_proof/cover-grant/success"
+
+[[consequence_templates]]
+bundle_id = "srd_proof"
+template_id = "srd_proof/attack-roll-cover/success"
+
+[[consequence_templates]]
+bundle_id = "srd_proof"
+description = "TEST-ONLY miss branch for the event-triggered stochastic reaction seam; no state changes."
+template_id = "srd_proof/reaction-resolution/miss"
+
+[[consequence_templates]]
+bundle_id = "srd_proof"
+description = "TEST-ONLY hit branch: subtract one HP from the triggering mover."
+template_id = "srd_proof/reaction-resolution/success"
+
+[[consequence_templates]]
+bundle_id = "srd_proof"
+description = "Apply the shipped srd/cover/half condition to the manipulation's target."
+template_id = "srd_proof/combat-arena/cover-grant/success"
+
+[[outcome_templates]]
+bundle_id = "srd_proof"
+consequence_template_id = ""
+display_name = "Attack roll (let-bound nat-20/nat-1 override, target.effective('srd/ac'))"
+manipulation_action_id = "srd_proof/attack-roll"
+outcome_bool = true
+outcome_template_id = "srd_proof/attack-roll/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "srd_proof"
+consequence_template_id = ""
+display_name = "Grant Cover (maxim-audit F1 live proof — lands the shipped srd/cover/half condition)"
+manipulation_action_id = "srd_proof/cover-grant"
+outcome_bool = true
+outcome_template_id = "srd_proof/cover-grant/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "srd_proof"
+consequence_template_id = ""
+display_name = "Attack roll (target.effective('srd/ac'), vs a Half-Cover-conditioned target)"
+manipulation_action_id = "srd_proof/attack-roll-cover"
+outcome_bool = true
+outcome_template_id = "srd_proof/attack-roll-cover/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "srd_proof"
+consequence_template_id = ""
+display_name = "Proof-only stochastic reaction resolution"
+manipulation_action_id = "srd_proof/reaction-resolution"
+outcome_bool = true
+outcome_template_id = "srd_proof/reaction-resolution/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "srd_proof"
+consequence_template_id = ""
+display_name = "Grant Cover"
+manipulation_action_id = "srd_proof/combat-arena/cover-grant"
+outcome_bool = true
+outcome_template_id = "srd_proof/combat-arena/cover-grant/outcome"
+sense_visibility = "local"
+
+[[spatial_niche_attachments]]
+bundle_id = "srd_proof"
+condition_bool = true
+ecological_invariant = false
+niche_id = "capability:srd_proof/check/attack-roll"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "srd_proof_scene/cell_a"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "srd_proof"
+condition_bool = true
+ecological_invariant = false
+niche_id = "capability:srd_proof/check/cover-grant"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "srd_proof_scene/cell_a"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "srd_proof"
+condition_bool = true
+ecological_invariant = false
+niche_id = "capability:srd_proof/check/attack-roll-cover"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "srd_proof_scene/cell_a"
+visibility = "Public"

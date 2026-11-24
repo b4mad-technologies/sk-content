@@ -1,0 +1,89 @@
+[[actor_spatial_locations]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/combatant-alpha_1"
+place_node_id = "srd_proof_scene/cell_a"
+selection_path = "manifest:srd_proof/combatant-alpha_1"
+
+[[actor_spatial_locations]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/combatant-beta_1"
+place_node_id = "srd_proof_scene/cell_a"
+selection_path = "manifest:srd_proof/combatant-beta_1"
+
+[[actors]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/combatant-alpha_1"
+name = "Srd Proof Combatant Alpha 1"
+
+[[actors]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/combatant-beta_1"
+name = "Srd Proof Combatant Beta 1"
+
+[[entities]]
+bundle_id = "srd_proof"
+description = "TEST-ONLY spawned instance for the Initiative live proof (Alpha)."
+entity_def_id = "srd_proof/combatant-alpha"
+entity_key = "srd_proof/combatant-alpha_1"
+kind = "npc"
+name = "Srd Proof Combatant Alpha 1"
+owned_by_entity_key = ""
+place_node_id = "srd_proof_scene/cell_a"
+quantity = 1
+
+[[entities]]
+bundle_id = "srd_proof"
+description = "TEST-ONLY spawned instance for the Initiative live proof (Beta)."
+entity_def_id = "srd_proof/combatant-beta"
+entity_key = "srd_proof/combatant-beta_1"
+kind = "npc"
+name = "Srd Proof Combatant Beta 1"
+owned_by_entity_key = ""
+place_node_id = "srd_proof_scene/cell_a"
+quantity = 1
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/combatant-alpha"
+state_id = "srd/dex"
+value_bool = true
+value_int = 10
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/combatant-beta"
+state_id = "srd/dex"
+value_bool = true
+value_int = 20
+
+[[entity_definitions]]
+affordance_seed_id = ""
+bundle_id = "srd_proof"
+description = "TEST-ONLY session participant for the finding #26 Initiative live proof — spawned FIRST (the lower entity_id) but seeded with a LOW srd/dex, so a deterministic actor.stat('srd/dex') order_roll_source ranks it LAST — deliberately the opposite pairing of spawn-order and Dex, so the assertion actually falsifies a shared/unpopulated-facts regression (which would fall back to the entity_id tiebreak and rank this one first instead)."
+display_name = "Initiative Proof Combatant (Alpha, low Dex)"
+entity_def_id = "srd_proof/combatant-alpha"
+grants_capability_while_equipped = ""
+grants_capability_while_present_in_location = ""
+lineage_id = ""
+on_consume_consequence_id = ""
+on_destroy_consequence_id = ""
+on_equip_consequence_id = ""
+on_unequip_consequence_id = ""
+slot_compatibility_predicate = ""
+stackable = false
+
+[[entity_definitions]]
+affordance_seed_id = ""
+bundle_id = "srd_proof"
+description = "TEST-ONLY session participant for the finding #26 Initiative live proof — spawned SECOND (the higher entity_id) and seeded with a HIGH srd/dex, so a deterministic actor.stat('srd/dex') order_roll_source must rank it FIRST on Dex alone — a regression that fell back to `rank_initiative`'s ascending-entity_id tiebreak would rank Alpha first instead, diverging from this."
+display_name = "Initiative Proof Combatant (Beta, high Dex)"
+entity_def_id = "srd_proof/combatant-beta"
+grants_capability_while_equipped = ""
+grants_capability_while_present_in_location = ""
+lineage_id = ""
+on_consume_consequence_id = ""
+on_destroy_consequence_id = ""
+on_equip_consequence_id = ""
+on_unequip_consequence_id = ""
+slot_compatibility_predicate = ""
+stackable = false

@@ -1,0 +1,83 @@
+[[session_definitions]]
+auto_join_on_targeting = false
+bundle_id = "srd_proof"
+combat_grid_blueprint_id = ""
+grid_edge_affordance_bindings_json = "{}"
+grid_edge_affordance_template_id = ""
+initial_state = ""
+legal_moves_csv = ""
+on_terminate = ""
+participants_pred = ""
+round_duration_ms = 6000
+session_def_id = "srd_proof/session/action-economy"
+stakes_required = ""
+termination_pred = ""
+turn_eligibility_pred = "macro('srd/takes-turn')"
+turn_rule = "Sequential"
+turn_scheduler_id = "srd_proof/turn/action-economy-round-robin"
+visibility_policy = "Public"
+winner_predicate = ""
+
+[[session_definitions]]
+auto_join_on_targeting = false
+bundle_id = "srd_proof"
+combat_grid_blueprint_id = ""
+grid_edge_affordance_bindings_json = "{}"
+grid_edge_affordance_template_id = ""
+initial_state = ""
+legal_moves_csv = ""
+on_terminate = ""
+participants_pred = ""
+round_duration_ms = 6000
+session_def_id = "srd_proof/session/initiative-deterministic"
+stakes_required = ""
+termination_pred = ""
+turn_eligibility_pred = "macro('srd/takes-turn')"
+turn_rule = ""
+turn_scheduler_id = "srd_proof/turn/initiative-deterministic"
+visibility_policy = "Public"
+winner_predicate = ""
+
+[[session_definitions]]
+auto_join_on_targeting = false
+bundle_id = "srd_proof"
+combat_grid_blueprint_id = ""
+grid_edge_affordance_bindings_json = "{}"
+grid_edge_affordance_template_id = ""
+initial_state = ""
+legal_moves_csv = ""
+on_terminate = ""
+participants_pred = ""
+round_duration_ms = 6000
+session_def_id = "srd_proof/session/initiative-idiom"
+stakes_required = ""
+termination_pred = ""
+turn_eligibility_pred = "macro('srd/takes-turn')"
+turn_rule = ""
+turn_scheduler_id = "srd_proof/turn/initiative-idiom"
+visibility_policy = "Public"
+winner_predicate = ""
+
+[[turn_scheduler]]
+active = false
+bundle_id = "srd_proof"
+description = "TEST-ONLY two-participant scheduler for proving that Dodge budget and owner-relative expiry follow real combat-session turn rotation."
+id = "srd_proof/turn/action-economy-round-robin"
+order_roll_source = ""
+scheduler_kind = "round_robin"
+
+[[turn_scheduler]]
+active = false
+bundle_id = "srd_proof"
+description = "TEST-ONLY finding #26 live proof: no dice — order_roll_source reads ONLY the rolling participant's own srd/dex, so the resulting ordinal order is fully deterministic in a single run."
+id = "srd_proof/turn/initiative-deterministic"
+order_roll_source = "actor.stat('srd/dex')"
+scheduler_kind = "rolled_order"
+
+[[turn_scheduler]]
+active = false
+bundle_id = "srd_proof"
+description = "TEST-ONLY finding #26 live proof: the REAL SRD-faithful d20 + Dex-modifier idiom this chapter ships (order-of-combat-units.ts's initiativeRollExpr), wired for the first time — genuinely stochastic, only success + a valid ordinal permutation is asserted (no draw provenance to recompute exact order)."
+id = "srd_proof/turn/initiative-idiom"
+order_roll_source = "d20 + (macro('srd/dexterity_modifier'))"
+scheduler_kind = "rolled_order"

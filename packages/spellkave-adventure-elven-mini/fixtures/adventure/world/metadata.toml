@@ -1,0 +1,355 @@
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "place.note"
+payload_json = '{"template":"Elven Tower map 259","composition":"Outdoor composition root; real H3 origin."}'
+source = "manifest"
+target_kind = "place_graph"
+target_ref = "elven_mini/region"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "place.note"
+payload_json = '{"template":"Elven Tower map 306","composition":"Outdoor child of region (composition)."}'
+source = "manifest"
+target_kind = "place_graph"
+target_ref = "elven_mini/hamlet"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "place.note"
+payload_json = '{"template":"Elven Tower map 267","composition":"Indoor child of hamlet (composition)."}'
+source = "manifest"
+target_kind = "place_graph"
+target_ref = "elven_mini/inn"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "place.note"
+payload_json = '{"template":"Elven Tower map 251","composition":"Indoor child of hamlet (composition)."}'
+source = "manifest"
+target_kind = "place_graph"
+target_ref = "elven_mini/tomb"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "place.note"
+payload_json = '{"template":"Elven Tower map 15","composition":"Outdoor child of hamlet (composition)."}'
+source = "manifest"
+target_kind = "place_graph"
+target_ref = "elven_mini/village"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "place.note"
+payload_json = '{"template":"Elven Tower map 34","composition":"Outdoor child of region (composition)."}'
+source = "manifest"
+target_kind = "place_graph"
+target_ref = "elven_mini/river_crossing"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "place.note"
+payload_json = '{"template":"Elven Tower map 131","composition":"Indoor child of river_crossing (composition)."}'
+source = "manifest"
+target_kind = "place_graph"
+target_ref = "elven_mini/mill"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "place.note"
+payload_json = '{"template":"Elven Tower maps 211 + 197","composition":"Indoor child of hamlet; two elevations."}'
+source = "manifest"
+target_kind = "place_graph"
+target_ref = "elven_mini/well"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "place.note"
+payload_json = '{"template":"Elven Tower maps 319 + 27","composition":"Indoor child of region; two sheets joined."}'
+source = "manifest"
+target_kind = "place_graph"
+target_ref = "elven_mini/goblin_warren"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "place.note"
+payload_json = '{"template":"Elven Tower map 37","composition":"Outdoor child of region; lodge rooms on sheet."}'
+source = "manifest"
+target_kind = "place_graph"
+target_ref = "elven_mini/forest_lodge"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "place.note"
+payload_json = '{"template":"Elven Tower map 17","composition":"Outdoor child of region (composition)."}'
+source = "manifest"
+target_kind = "place_graph"
+target_ref = "elven_mini/hobgoblin_camp"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "place.note"
+payload_json = '{"template":"Elven Tower map 257","composition":"Outdoor child of region (downstream)."}'
+source = "manifest"
+target_kind = "place_graph"
+target_ref = "elven_mini/swamp"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "place.note"
+payload_json = '{"template":"Elven Tower maps 36 + 219","composition":"Indoor child of region; multi-z."}'
+source = "manifest"
+target_kind = "place_graph"
+target_ref = "elven_mini/mine"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "place.note"
+payload_json = '{"template":"Elven Tower maps 235 + 24","composition":"Indoor child of region; forest-heart approach on sheet."}'
+source = "manifest"
+target_kind = "place_graph"
+target_ref = "elven_mini/shrine"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "place.note"
+payload_json = '{"template":"Elven Tower map 46","composition":"Indoor child of hamlet near the tomb hill."}'
+source = "manifest"
+target_kind = "place_graph"
+target_ref = "elven_mini/cursed_crypt"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "place.note"
+payload_json = '{"template":"Elven Tower map 60","composition":"Indoor child of tomb (level below 251)."}'
+source = "manifest"
+target_kind = "place_graph"
+target_ref = "elven_mini/deep_tomb"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "dialogue.prompt"
+payload_json = """{"question":"Aldwin taps the ledger. The cellar is overrun with rats — a giant one, and a swarm in the casks. Clear them and the inn keeps a room for you.","responses":{"dm/dialog/choice/1":"The cellar is overrun — I'll clear it.","dm/dialog/choice/2":"Not today."}}"""
+source = "manifest"
+target_kind = "prompt_definition"
+target_ref = "elven_mini/prompt/quest/q1"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "dialogue.prompt"
+payload_json = """{"question":"Captain Ysolde Farwind nods from the gate. Jory is stranded at the river.","responses":{"dm/dialog/choice/1":"I'll escort Jory to the gate.","dm/dialog/choice/2":"Another time."}}"""
+source = "manifest"
+target_kind = "prompt_definition"
+target_ref = "elven_mini/prompt/quest/q2"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "dialogue.prompt"
+payload_json = """{"question":"Old Tamsin clutches an empty basket. Moonpetal only opens at night on the green.","responses":{"dm/dialog/choice/1":"I'll fetch the moonpetal.","dm/dialog/choice/2":"Not tonight."}}"""
+source = "manifest"
+target_kind = "prompt_definition"
+target_ref = "elven_mini/prompt/quest/q3"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "dialogue.prompt"
+payload_json = """{"question":"Ysolde's jaw tightens. The mill is silent for the wrong reasons.","responses":{"dm/dialog/choice/1":"I'll end the Windmill cult.","dm/dialog/choice/2":"Later."}}"""
+source = "manifest"
+target_kind = "prompt_definition"
+target_ref = "elven_mini/prompt/quest/q4"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "dialogue.prompt"
+payload_json = """{"question":"Raid smoke on the road. Ghorza's banners.","responses":{"dm/dialog/choice/1":"I'll stop Ghorza's raids.","dm/dialog/choice/2":"Not yet."}}"""
+source = "manifest"
+target_kind = "prompt_definition"
+target_ref = "elven_mini/prompt/quest/q5"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "dialogue.prompt"
+payload_json = """{"question":"Hesper of the Lodge regards you. Work needs doing — The Lodge Fire.","responses":{"dm/dialog/choice/1":"I'll stand with you at dusk.","dm/dialog/choice/2":"I must pass."}}"""
+source = "manifest"
+target_kind = "prompt_definition"
+target_ref = "elven_mini/prompt/quest/q6"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "dialogue.prompt"
+payload_json = """{"question":"Vessk hisses from the brush. Grubnash grows bold.","responses":{"dm/dialog/choice/1":"I'll clear the warren.","dm/dialog/choice/2":"Not my fight."}}"""
+source = "manifest"
+target_kind = "prompt_definition"
+target_ref = "elven_mini/prompt/quest/q7"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "dialogue.prompt"
+payload_json = """{"question":"Tamsin lowers her voice. Mother Ulda has the cult's relic.","responses":{"dm/dialog/choice/1":"I'll recover the cult relic.","dm/dialog/choice/2":"Too dangerous."}}"""
+source = "manifest"
+target_kind = "prompt_definition"
+target_ref = "elven_mini/prompt/quest/q8"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "dialogue.prompt"
+payload_json = """{"question":"Ysolde and Caddoc share a look. The mine holds Durgan's key.","responses":{"dm/dialog/choice/1":"I'll take the mine and the key.","dm/dialog/choice/2":"Not ready."}}"""
+source = "manifest"
+target_kind = "prompt_definition"
+target_ref = "elven_mini/prompt/quest/q9"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "dialogue.prompt"
+payload_json = """{"question":"Brother Caddoc wrings his hands. The shrine is dark.","responses":{"dm/dialog/choice/1":"I'll cleanse the shrine.","dm/dialog/choice/2":"Another day."}}"""
+source = "manifest"
+target_kind = "prompt_definition"
+target_ref = "elven_mini/prompt/quest/q10"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "dialogue.prompt"
+payload_json = """{"question":"Mira leans in. Something scratches under the well.","responses":{"dm/dialog/choice/1":"I'll see what's under the well.","dm/dialog/choice/2":"Keep the drinks coming."}}"""
+source = "manifest"
+target_kind = "prompt_definition"
+target_ref = "elven_mini/prompt/quest/q11"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "dialogue.prompt"
+payload_json = """{"question":"The deep tomb is open enough to enter. What sleeps under the Warden answers to the Pale Steward. End it, and the valley may breathe again.","responses":{"dm/dialog/choice/1":"I'll open the deep tomb.","dm/dialog/choice/2":"Not yet."}}"""
+source = "manifest"
+target_kind = "prompt_definition"
+target_ref = "elven_mini/prompt/quest/q12"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.maps.poi"
+payload_json = '{"icon":"portal","category":"transit","label":"Crossroads","color":"#a855f7"}'
+source = "manifest"
+target_kind = "place_node"
+target_ref = "elven_mini/region/crossroads"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.maps.poi"
+payload_json = '{"icon":"inn","category":"hospitality","label":"Mountain View Inn","color":"#f59e0b"}'
+source = "manifest"
+target_kind = "place_node"
+target_ref = "elven_mini/hamlet/inn_front"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.maps.poi"
+payload_json = '{"icon":"well","category":"water","label":"Old Well","color":"#0284c7"}'
+source = "manifest"
+target_kind = "place_node"
+target_ref = "elven_mini/hamlet/well"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.maps.poi"
+payload_json = '{"icon":"dungeon","category":"tomb","label":"Tomb Hill","color":"#dc2626"}'
+source = "manifest"
+target_kind = "place_node"
+target_ref = "elven_mini/hamlet/tomb_hill"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.maps.poi"
+payload_json = '{"icon":"skull","category":"danger","label":"Wererat Nest","color":"#b91c1c"}'
+source = "manifest"
+target_kind = "place_node"
+target_ref = "elven_mini/well/wererat_nest"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.maps.poi"
+payload_json = '{"icon":"crypt","category":"dungeon","label":"Ironfold Tomb","color":"#dc2626"}'
+source = "manifest"
+target_kind = "place_node"
+target_ref = "elven_mini/tomb/entrance"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.maps.poi"
+payload_json = '{"icon":"tactical","category":"hazard","label":"Stagnant Pool","color":"#e11d48"}'
+source = "manifest"
+target_kind = "place_node"
+target_ref = "elven_mini/tomb/pool"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.maps.poi"
+payload_json = '{"icon":"temple","category":"shrine","label":"Sun & Moon Altar","color":"#eab308"}'
+source = "manifest"
+target_kind = "place_node"
+target_ref = "elven_mini/shrine/altar"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.maps.poi"
+payload_json = '{"icon":"crypt","category":"dungeon","label":"Cursed Crypt","color":"#dc2626"}'
+source = "manifest"
+target_kind = "place_node"
+target_ref = "elven_mini/cursed_crypt/entrance"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.maps.poi"
+payload_json = """{"icon":"dungeon","category":"tomb","label":"Pale Steward's Court","color":"#ef4444"}"""
+source = "manifest"
+target_kind = "place_node"
+target_ref = "elven_mini/deep_tomb/steward_court"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.maps.poi"
+payload_json = '{"icon":"cave","category":"cavern","label":"Goblin Warren","color":"#78716c"}'
+source = "manifest"
+target_kind = "place_node"
+target_ref = "elven_mini/goblin_warren/entrance"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.maps.poi"
+payload_json = '{"icon":"cave","category":"mine","label":"Abandoned Mine","color":"#78716c"}'
+source = "manifest"
+target_kind = "place_node"
+target_ref = "elven_mini/mine/adit"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.maps.poi"
+payload_json = '{"icon":"shop","category":"industry","label":"Old Mill","color":"#10b981"}'
+source = "manifest"
+target_kind = "place_node"
+target_ref = "elven_mini/mill/yard"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.maps.poi"
+payload_json = """{"icon":"camp","category":"shelter","label":"Gamekeeper's Lodge","color":"#84cc16"}"""
+source = "manifest"
+target_kind = "place_node"
+target_ref = "elven_mini/forest_lodge/forest_path"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.maps.poi"
+payload_json = '{"icon":"camp","category":"danger","label":"Hobgoblin Camp","color":"#ef4444"}'
+source = "manifest"
+target_kind = "place_node"
+target_ref = "elven_mini/hobgoblin_camp/approach"
+
+[[metadata_namespaces]]
+audience = "frontier.apply_manifest"
+bundle_id = "elven_mini"
+description = "Author notes on place rows."
+namespace = "place.note"
+
+[[metadata_namespaces]]
+audience = "public"
+bundle_id = "elven_mini"
+description = "Public point of interest presentation metadata (icon, category, color, badge, label)."
+namespace = "elven_mini.maps.poi"

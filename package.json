@@ -1,0 +1,22 @@
+{
+  "name": "sk-content",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.22.1 <25"
+  },
+  "packageManager": "pnpm@11.13.1",
+  "scripts": {
+    "test": "vitest run && pnpm run validate",
+    "validate": "node scripts/validate-content.mjs",
+    "build": "pnpm --filter @spellkave/srd-cc run export && pnpm --filter @spellkave/adventure-elven-mini run export",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@spellkave/validate-wasm": "0.1.0",
+    "smol-toml": "1.9.1",
+    "@types/node": "24.12.4",
+    "typescript": "~5.9.3",
+    "vitest": "3.2.6"
+  }
+}

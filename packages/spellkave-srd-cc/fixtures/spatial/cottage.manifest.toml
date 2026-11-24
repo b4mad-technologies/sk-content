@@ -1,0 +1,316 @@
+#:schema https://spellkave.dev/schema/world-manifest-1.0.0.json
+applyset = "srd_proof.cottage"
+schema_version = "1.0.0"
+
+[[actor_spatial_locations]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/cottage/coat_pegs_1"
+place_node_id = "srd_proof/cottage/foyer"
+selection_path = "manifest:srd_proof/cottage/coat_pegs_1"
+
+[[actor_spatial_locations]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/cottage/table_1"
+place_node_id = "srd_proof/cottage/kitchen"
+selection_path = "manifest:srd_proof/cottage/table_1"
+
+[[actor_spatial_locations]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/cottage/stove_1"
+place_node_id = "srd_proof/cottage/kitchen"
+selection_path = "manifest:srd_proof/cottage/stove_1"
+
+[[actor_spatial_locations]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/cottage/chest_1"
+place_node_id = "srd_proof/cottage/cellar"
+selection_path = "manifest:srd_proof/cottage/chest_1"
+
+[[actors]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/cottage/coat_pegs_1"
+name = "Npc 1"
+
+[[actors]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/cottage/table_1"
+name = "Npc 1"
+
+[[actors]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/cottage/stove_1"
+name = "Npc 1"
+
+[[actors]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/cottage/chest_1"
+name = "Npc 1"
+
+[[bundles]]
+allow_flat_tags = false
+author = "spellkave-srd-cc"
+bundle_id = "srd_proof"
+default_extent_params_json = '{"extent_m": 4.5}'
+default_extent_shape_id = "core/area/cube"
+depends_on = ["srd"]
+description = "Foyer–hall–kitchen with cellar under kitchen (shared x,y, z=-3)."
+display_name = "Cottage (multi-floor indoor)"
+tag_prefixes = []
+version = "1.0.0"
+
+[[entities]]
+bundle_id = "srd_proof"
+entity_def_id = ""
+entity_key = "srd_proof/cottage/coat_pegs_1"
+kind = "npc"
+name = "Npc 1"
+owned_by_entity_key = ""
+place_node_id = "srd_proof/cottage/foyer"
+quantity = 1
+
+[[entities]]
+bundle_id = "srd_proof"
+entity_def_id = ""
+entity_key = "srd_proof/cottage/table_1"
+kind = "npc"
+name = "Npc 1"
+owned_by_entity_key = ""
+place_node_id = "srd_proof/cottage/kitchen"
+quantity = 1
+
+[[entities]]
+bundle_id = "srd_proof"
+entity_def_id = ""
+entity_key = "srd_proof/cottage/stove_1"
+kind = "npc"
+name = "Npc 1"
+owned_by_entity_key = ""
+place_node_id = "srd_proof/cottage/kitchen"
+quantity = 1
+
+[[entities]]
+bundle_id = "srd_proof"
+entity_def_id = ""
+entity_key = "srd_proof/cottage/chest_1"
+kind = "npc"
+name = "Npc 1"
+owned_by_entity_key = ""
+place_node_id = "srd_proof/cottage/cellar"
+quantity = 1
+
+[[movement_defaults]]
+affordance_template_id = "srd/affordance/step"
+bindings_json = '{"movement_reach_resource":"srd/speed-walk","long_running_move_session":"srd/long_running_move"}'
+bundle_id = "srd_proof"
+mode_id = ""
+place_graph_id = ""
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof/cottage/foyer->srd_proof/cottage/hall"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof/cottage/foyer"
+inherit_movement_default = true
+place_graph_id = "srd_proof/cottage"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof/cottage/hall"
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof/cottage/hall->srd_proof/cottage/foyer"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof/cottage/hall"
+inherit_movement_default = true
+place_graph_id = "srd_proof/cottage"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof/cottage/foyer"
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof/cottage/hall->srd_proof/cottage/kitchen"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof/cottage/hall"
+inherit_movement_default = true
+place_graph_id = "srd_proof/cottage"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof/cottage/kitchen"
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof/cottage/kitchen->srd_proof/cottage/hall"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof/cottage/kitchen"
+inherit_movement_default = true
+place_graph_id = "srd_proof/cottage"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof/cottage/hall"
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof/cottage/kitchen->srd_proof/cottage/cellar"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof/cottage/kitchen"
+inherit_movement_default = true
+place_graph_id = "srd_proof/cottage"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof/cottage/cellar"
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof/cottage/cellar->srd_proof/cottage/kitchen"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof/cottage/cellar"
+inherit_movement_default = true
+place_graph_id = "srd_proof/cottage"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof/cottage/kitchen"
+
+[[place_graphs]]
+anchor_node_id = "srd_proof/cottage/foyer"
+bearing = 0.0
+blueprint_id = ""
+bundle_id = "srd_proof"
+description = "Small cottage with cellar"
+display_name = "Cottage"
+is_ephemeral_instance = false
+metres_per_unit = 1.0
+origin_cell_res10 = 0
+origin_cell_res4 = 0
+origin_cell_res7 = 0
+parent_graph_id = ""
+place_graph_id = "srd_proof/cottage"
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "srd_proof"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = ""
+display_name = "Foyer"
+extent_params_json = ""
+extent_shape_id = ""
+is_ephemeral = false
+local_id = "foyer"
+node_id = "srd_proof/cottage/foyer"
+place_graph_id = "srd_proof/cottage"
+pos_present = true
+pos_x = 0
+pos_y = 0
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "srd_proof"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = ""
+display_name = "Hall"
+extent_params_json = ""
+extent_shape_id = ""
+is_ephemeral = false
+local_id = "hall"
+node_id = "srd_proof/cottage/hall"
+place_graph_id = "srd_proof/cottage"
+pos_present = true
+pos_x = 0
+pos_y = 4
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "srd_proof"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = ""
+display_name = "Kitchen"
+extent_params_json = ""
+extent_shape_id = ""
+is_ephemeral = false
+local_id = "kitchen"
+node_id = "srd_proof/cottage/kitchen"
+place_graph_id = "srd_proof/cottage"
+pos_present = true
+pos_x = 4
+pos_y = 4
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "srd_proof"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = ""
+display_name = "Cellar"
+extent_params_json = ""
+extent_shape_id = ""
+is_ephemeral = false
+local_id = "cellar"
+node_id = "srd_proof/cottage/cellar"
+place_graph_id = "srd_proof/cottage"
+pos_present = true
+pos_x = 4
+pos_y = 4
+pose_elevation = -3.0
+pose_elevation_present = true
+substrate_id = "indoor"

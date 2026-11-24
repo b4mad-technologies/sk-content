@@ -1,0 +1,836 @@
+[[map_layers]]
+asset_module = "ccc3-maps"
+asset_path = "maps/259 Crossroads Encounter-grid.jpg"
+bundle_id = "elven_mini"
+description = "Backdrop maps/259 Crossroads Encounter-grid.jpg (ccc3-maps)"
+display_name = "Crossroads Encounter"
+grid_distance_m = 1.5240000486373901
+grid_size_px = 80
+image_height_px = 2000
+image_origin_x = 0.0
+image_origin_y = 0.0
+image_width_px = 2000
+local_height_cells = 25.0
+local_width_cells = 25.0
+map_layer_id = "elven_mini/region/elven_tower_backdrop"
+max_zoom = 0.0
+min_zoom = 0.0
+place_graph_id = "elven_mini/region"
+posture = "cc-by-4.0"
+rotation_deg = 0.0
+source_kind = "elven-tower-ccc"
+state = "aligned"
+
+[[place_edge_affordance]]
+affordance_template_id = "srd/affordance/fly"
+bindings_json = '{"movement_reach_resource":"srd/speed-fly","long_running_move_session":"srd/long_running_move"}'
+edge_key = "elven_mini/region/road_west->elven_mini/region/ravine_edge"
+mode_id = "fly"
+
+[[place_edge_affordance]]
+affordance_template_id = "srd/affordance/fly"
+bindings_json = '{"movement_reach_resource":"srd/speed-fly","long_running_move_session":"srd/long_running_move"}'
+edge_key = "elven_mini/region/ravine_edge->elven_mini/region/road_west"
+mode_id = "fly"
+
+[[place_edge_affordance]]
+affordance_template_id = "srd/affordance/swim"
+bindings_json = '{"movement_reach_resource":"srd/speed-swim","long_running_move_session":"srd/long_running_move"}'
+edge_key = "elven_mini/region/road_east->elven_mini/region/river_ford"
+mode_id = "swim"
+
+[[place_edge_affordance]]
+affordance_template_id = "srd/affordance/swim"
+bindings_json = '{"movement_reach_resource":"srd/speed-swim","long_running_move_session":"srd/long_running_move"}'
+edge_key = "elven_mini/region/river_ford->elven_mini/region/road_east"
+mode_id = "swim"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/region/crossroads->elven_mini/region/road_north"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/region/crossroads"
+inherit_movement_default = true
+place_graph_id = "elven_mini/region"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/region/road_north"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/region/road_north->elven_mini/region/crossroads"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/region/road_north"
+inherit_movement_default = true
+place_graph_id = "elven_mini/region"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/region/crossroads"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/region/crossroads->elven_mini/region/road_east"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/region/crossroads"
+inherit_movement_default = true
+place_graph_id = "elven_mini/region"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/region/road_east"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/region/road_east->elven_mini/region/crossroads"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/region/road_east"
+inherit_movement_default = true
+place_graph_id = "elven_mini/region"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/region/crossroads"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/region/crossroads->elven_mini/region/road_south"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/region/crossroads"
+inherit_movement_default = true
+place_graph_id = "elven_mini/region"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/region/road_south"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/region/road_south->elven_mini/region/crossroads"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/region/road_south"
+inherit_movement_default = true
+place_graph_id = "elven_mini/region"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/region/crossroads"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/region/crossroads->elven_mini/region/road_west"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/region/crossroads"
+inherit_movement_default = true
+place_graph_id = "elven_mini/region"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/region/road_west"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/region/road_west->elven_mini/region/crossroads"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/region/road_west"
+inherit_movement_default = true
+place_graph_id = "elven_mini/region"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/region/crossroads"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/region/road_east->elven_mini/region/river_ford"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/region/road_east"
+inherit_movement_default = true
+place_graph_id = "elven_mini/region"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/region/river_ford"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/region/river_ford->elven_mini/region/road_east"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/region/river_ford"
+inherit_movement_default = true
+place_graph_id = "elven_mini/region"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/region/road_east"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/region/road_east->elven_mini/region/road_to_river"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/region/road_east"
+inherit_movement_default = true
+place_graph_id = "elven_mini/region"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/region/road_to_river"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/region/road_to_river->elven_mini/region/road_east"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/region/road_to_river"
+inherit_movement_default = true
+place_graph_id = "elven_mini/region"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/region/road_east"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/region/road_north->elven_mini/region/road_to_warren"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/region/road_north"
+inherit_movement_default = true
+place_graph_id = "elven_mini/region"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/region/road_to_warren"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/region/road_to_warren->elven_mini/region/road_north"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/region/road_to_warren"
+inherit_movement_default = true
+place_graph_id = "elven_mini/region"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/region/road_north"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/region/road_north->elven_mini/region/road_to_forest"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/region/road_north"
+inherit_movement_default = true
+place_graph_id = "elven_mini/region"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/region/road_to_forest"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/region/road_to_forest->elven_mini/region/road_north"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/region/road_to_forest"
+inherit_movement_default = true
+place_graph_id = "elven_mini/region"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/region/road_north"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/region/road_east->elven_mini/region/road_to_swamp"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/region/road_east"
+inherit_movement_default = true
+place_graph_id = "elven_mini/region"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/region/road_to_swamp"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/region/road_to_swamp->elven_mini/region/road_east"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/region/road_to_swamp"
+inherit_movement_default = true
+place_graph_id = "elven_mini/region"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/region/road_east"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/region/road_north->elven_mini/region/road_to_mine"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/region/road_north"
+inherit_movement_default = true
+place_graph_id = "elven_mini/region"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/region/road_to_mine"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/region/road_to_mine->elven_mini/region/road_north"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/region/road_to_mine"
+inherit_movement_default = true
+place_graph_id = "elven_mini/region"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/region/road_north"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/region/road_to_forest->elven_mini/region/road_to_shrine"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/region/road_to_forest"
+inherit_movement_default = true
+place_graph_id = "elven_mini/region"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/region/road_to_shrine"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/region/road_to_shrine->elven_mini/region/road_to_forest"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/region/road_to_shrine"
+inherit_movement_default = true
+place_graph_id = "elven_mini/region"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/region/road_to_forest"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/region/road_to_forest->elven_mini/region/road_to_camp"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/region/road_to_forest"
+inherit_movement_default = true
+place_graph_id = "elven_mini/region"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/region/road_to_camp"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/region/road_to_camp->elven_mini/region/road_to_forest"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/region/road_to_camp"
+inherit_movement_default = true
+place_graph_id = "elven_mini/region"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/region/road_to_forest"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/region/road_west->elven_mini/region/ravine_edge"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/region/road_west"
+inherit_movement_default = false
+place_graph_id = "elven_mini/region"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/region/ravine_edge"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/region/ravine_edge->elven_mini/region/road_west"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/region/ravine_edge"
+inherit_movement_default = false
+place_graph_id = "elven_mini/region"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/region/road_west"
+
+[[place_graphs]]
+anchor_node_id = "elven_mini/region/crossroads"
+bearing = 0.0
+blueprint_id = ""
+bundle_id = "elven_mini"
+description = "Open country where the road forks four ways — north, east, south toward the hamlet, and west into the wild."
+display_name = "Region"
+is_ephemeral_instance = false
+metres_per_unit = 12.0
+origin_cell_res10 = 622215095455350783
+origin_cell_res4 = 595193501273030655
+origin_cell_res7 = 608704296581595135
+parent_graph_id = ""
+place_graph_id = "elven_mini/region"
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 622215095455350783
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "A rutted crossroads out in open country. A leaning signpost names the roads: Hamlet Road back to the palisade; East Road to the River Bridge, the ford and the swamp; Upland Road to the warren, the forest and the mine; West Road to the ravine. The carved arrows were knocked askew long ago, so read the names, not the arrows."
+display_name = "Crossroads"
+extent_params_json = '{"radius_m":4.267,"radius_x_m":4.267,"radius_y_m":3.353,"radius_z_m":1.5}'
+extent_shape_id = "core/area/sphere"
+is_ephemeral = false
+local_id = "crossroads"
+node_id = "elven_mini/region/crossroads"
+place_graph_id = "elven_mini/region"
+pos_present = true
+pos_x = 13
+pos_y = 13
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 622215095455547391
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "The upland road climbs away from the crossroads through low scrub, the hamlet already lost behind a rise."
+display_name = "Upland Road"
+extent_params_json = '{"extent_m":5.334,"extent_x_m":2.286,"extent_y_m":5.334,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "road_north"
+node_id = "elven_mini/region/road_north"
+place_graph_id = "elven_mini/region"
+pos_present = true
+pos_x = 13
+pos_y = 4
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 622215095455416319
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "The east road runs flat and empty toward a treeline, wind hissing through roadside grass."
+display_name = "East Road"
+extent_params_json = '{"extent_m":5.334,"extent_x_m":5.334,"extent_y_m":2.286,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "road_east"
+node_id = "elven_mini/region/road_east"
+place_graph_id = "elven_mini/region"
+pos_present = true
+pos_x = 22
+pos_y = 13
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 622215095455449087
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "The hamlet road drops gently toward the palisade, smoke from its chimneys visible ahead."
+display_name = "Hamlet Road"
+extent_params_json = '{"extent_m":5.334,"extent_x_m":2.286,"extent_y_m":5.334,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "road_south"
+node_id = "elven_mini/region/road_south"
+place_graph_id = "elven_mini/region"
+pos_present = true
+pos_x = 13
+pos_y = 22
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 622215095455383551
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "The west road fades into wilder country, the packed earth giving way to root and bramble underfoot."
+display_name = "West Road"
+extent_params_json = '{"extent_m":5.334,"extent_x_m":5.334,"extent_y_m":2.286,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "road_west"
+node_id = "elven_mini/region/road_west"
+place_graph_id = "elven_mini/region"
+pos_present = true
+pos_x = 4
+pos_y = 13
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "Beyond the west road the ground drops away into a jagged ravine, too wide to leap and too sheer to climb down — only wings cross it."
+display_name = "Ravine's Edge"
+extent_params_json = '{"extent_m":2.286,"extent_x_m":2.286,"extent_y_m":2.286,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "ravine_edge"
+node_id = "elven_mini/region/ravine_edge"
+place_graph_id = "elven_mini/region"
+pos_present = true
+pos_x = -2
+pos_y = 13
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "Beyond the east road a shallow, cold stream cuts across the wild grass — a ford shallow enough to wade, or swim if the footing gives way."
+display_name = "River Ford"
+extent_params_json = '{"extent_m":2.286,"extent_x_m":2.286,"extent_y_m":2.286,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "river_ford"
+node_id = "elven_mini/region/river_ford"
+place_graph_id = "elven_mini/region"
+pos_present = true
+pos_x = 28
+pos_y = 13
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 622215095456497663
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "A packed spur leaves the east road toward the river bridge and the mill beyond."
+display_name = "Road to River Bridge"
+extent_params_json = '{"extent_m":2.286,"extent_x_m":2.286,"extent_y_m":2.286,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "road_to_river"
+node_id = "elven_mini/region/road_to_river"
+place_graph_id = "elven_mini/region"
+pos_present = true
+pos_x = 32
+pos_y = 13
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 622215095457087487
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "A hill track climbs north into scrub where goblin smoke sometimes smudges the sky."
+display_name = "Hill Road to Warren"
+extent_params_json = '{"extent_m":2.286,"extent_x_m":2.286,"extent_y_m":2.286,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "road_to_warren"
+node_id = "elven_mini/region/road_to_warren"
+place_graph_id = "elven_mini/region"
+pos_present = true
+pos_x = 13
+pos_y = -4
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 622215095456956415
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "The forest road ducks under old oaks toward the gamekeeper's lodge."
+display_name = "Forest Road"
+extent_params_json = '{"extent_m":2.286,"extent_x_m":2.286,"extent_y_m":2.286,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "road_to_forest"
+node_id = "elven_mini/region/road_to_forest"
+place_graph_id = "elven_mini/region"
+pos_present = true
+pos_x = 21
+pos_y = 0
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 622215095456006143
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "Downstream the river frays into reed and standing water — the hag's country."
+display_name = "Downstream to Swamp"
+extent_params_json = '{"extent_m":2.286,"extent_x_m":2.286,"extent_y_m":2.286,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "road_to_swamp"
+node_id = "elven_mini/region/road_to_swamp"
+place_graph_id = "elven_mini/region"
+pos_present = true
+pos_x = 32
+pos_y = 19
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 622215095456038911
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "The north pass road climbs toward a dark mine adit cut into the rock."
+display_name = "North Pass to Mine"
+extent_params_json = '{"extent_m":2.286,"extent_x_m":2.286,"extent_y_m":2.286,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "road_to_mine"
+node_id = "elven_mini/region/road_to_mine"
+place_graph_id = "elven_mini/region"
+pos_present = true
+pos_x = 7
+pos_y = -4
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 622215095456333823
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "A pilgrim path threads the forest heart toward the Sun-and-Moon shrine."
+display_name = "Pilgrim Path to Shrine"
+extent_params_json = '{"extent_m":2.286,"extent_x_m":2.286,"extent_y_m":2.286,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "road_to_shrine"
+node_id = "elven_mini/region/road_to_shrine"
+place_graph_id = "elven_mini/region"
+pos_present = true
+pos_x = 23
+pos_y = -2
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 622215095456268287
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "A side trail off the forest road shows hobgoblin boot-prints and worg scat."
+display_name = "Trail to Hobgoblin Camp"
+extent_params_json = '{"extent_m":2.286,"extent_x_m":2.286,"extent_y_m":2.286,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "road_to_camp"
+node_id = "elven_mini/region/road_to_camp"
+place_graph_id = "elven_mini/region"
+pos_present = true
+pos_x = 25
+pos_y = 2
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"

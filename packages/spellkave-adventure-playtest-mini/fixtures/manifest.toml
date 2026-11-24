@@ -1,0 +1,298 @@
+#:schema https://spellkave.dev/schema/world-manifest-1.0.0.json
+applyset = "playtest_mini"
+schema_version = "1.0.0"
+
+[[bundles]]
+allow_flat_tags = false
+author = "spellkave-adventure-playtest-mini"
+bundle_id = "playtest_mini"
+default_extent_params_json = '{"extent_m": 4.5}'
+default_extent_shape_id = "core/area/cube"
+depends_on = ["srd"]
+description = "Two rooms, one door, one chest, one potion, one weapon. No NPCs. Proof adventure for the author play-test loop (sk-jay0.3.26)."
+display_name = "Play-test Mini"
+tag_prefixes = []
+version = "1.0.0"
+
+[[entities]]
+bundle_id = "playtest_mini"
+entity_def_id = "srd/item/chest"
+entity_key = "playtest_mini/item/vault_chest"
+kind = "item"
+name = "Chest"
+owned_by_entity_key = ""
+place_node_id = "playtest_mini/cellar/vault"
+quantity = 1
+
+[[entities]]
+bundle_id = "playtest_mini"
+entity_def_id = "srd/item/potion-of-healing"
+entity_key = "playtest_mini/item/vault_potion"
+kind = "item"
+name = "Potion of Healing"
+owned_by_entity_key = ""
+place_node_id = "playtest_mini/cellar/vault"
+quantity = 1
+
+[[entities]]
+bundle_id = "playtest_mini"
+entity_def_id = "srd/weapon/longsword"
+entity_key = "playtest_mini/item/stair_longsword"
+kind = "item"
+name = "Longsword"
+owned_by_entity_key = ""
+place_node_id = "playtest_mini/cellar/stair"
+quantity = 1
+
+[[entity_containment]]
+container_entity_key = "playtest_mini/item/vault_chest"
+direction = ""
+entity_key = "playtest_mini/item/vault_potion"
+slot_id = ""
+
+[[metadata_attachments]]
+bundle_id = "playtest_mini"
+namespace = "place.door"
+payload_json = '{"kind":"door","locked":false,"secret":false,"note":"E-prep: lock/secret mechanics not wired yet"}'
+source = "manifest"
+target_kind = "place_edge"
+target_ref = "playtest_mini/cellar/stair->playtest_mini/cellar/vault"
+
+[[metadata_attachments]]
+bundle_id = "playtest_mini"
+namespace = "place.door"
+payload_json = '{"kind":"door","locked":false,"secret":false,"note":"E-prep: lock/secret mechanics not wired yet"}'
+source = "manifest"
+target_kind = "place_edge"
+target_ref = "playtest_mini/cellar/vault->playtest_mini/cellar/stair"
+
+[[metadata_namespaces]]
+audience = "frontier.apply_manifest"
+bundle_id = "playtest_mini"
+description = "Door/portal annotation (locks not enforced yet)."
+namespace = "place.door"
+
+[[movement_defaults]]
+affordance_template_id = "srd/affordance/step"
+bindings_json = '{"movement_reach_resource":"srd/speed-walk","long_running_move_session":"srd/long_running_move"}'
+bundle_id = "playtest_mini"
+mode_id = ""
+place_graph_id = ""
+
+[[place_edges]]
+bundle_id = "playtest_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+description = "A heavy oak door, standing open."
+edge_key = "playtest_mini/cellar/stair->playtest_mini/cellar/vault"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "playtest_mini/cellar/stair"
+inherit_movement_default = true
+place_graph_id = "playtest_mini/cellar"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "playtest_mini/cellar/vault"
+
+[[place_edges]]
+bundle_id = "playtest_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+description = "A heavy oak door, standing open."
+edge_key = "playtest_mini/cellar/vault->playtest_mini/cellar/stair"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "playtest_mini/cellar/vault"
+inherit_movement_default = true
+place_graph_id = "playtest_mini/cellar"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "playtest_mini/cellar/stair"
+
+[[place_graphs]]
+anchor_node_id = "playtest_mini/cellar/stair"
+bearing = 0.0
+blueprint_id = ""
+bundle_id = "playtest_mini"
+description = "A two-room cellar under an abandoned farmhouse."
+display_name = "Cellar"
+is_ephemeral_instance = false
+metres_per_unit = 1.0
+origin_cell_res10 = 0
+origin_cell_res4 = 0
+origin_cell_res7 = 0
+parent_graph_id = ""
+place_graph_id = "playtest_mini/cellar"
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "playtest_mini"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "Damp stone steps come down into a low room. A heavy oak door stands open in the east wall."
+display_name = "Stair Room"
+extent_params_json = ""
+extent_shape_id = ""
+is_ephemeral = false
+local_id = "stair"
+node_id = "playtest_mini/cellar/stair"
+place_graph_id = "playtest_mini/cellar"
+pos_present = true
+pos_x = 0
+pos_y = 0
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "playtest_mini"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A cramped vault behind the oak door. Shelves of rotten sacks line the walls."
+display_name = "Vault"
+extent_params_json = ""
+extent_shape_id = ""
+is_ephemeral = false
+local_id = "vault"
+node_id = "playtest_mini/cellar/vault"
+place_graph_id = "playtest_mini/cellar"
+pos_present = true
+pos_x = 10
+pos_y = 0
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[entities]]
+bundle_id = "playtest_mini"
+entity_def_id = "srd/pregen/fighter"
+entity_key = "playtest_mini/hero_a"
+kind = "player"
+name = "Ada"
+owned_by_entity_key = ""
+place_node_id = "playtest_mini/cellar/stair"
+quantity = 1
+
+[[actors]]
+bundle_id = "playtest_mini"
+entity_key = "playtest_mini/hero_a"
+name = "Ada"
+
+[[actor_spatial_locations]]
+bundle_id = "playtest_mini"
+entity_key = "playtest_mini/hero_a"
+place_node_id = "playtest_mini/cellar/stair"
+selection_path = "manifest:playtest_mini/hero_a"
+
+[[entities]]
+bundle_id = "playtest_mini"
+entity_def_id = "srd/pregen/fighter"
+entity_key = "playtest_mini/hero_b"
+kind = "player"
+name = "Bram"
+owned_by_entity_key = ""
+place_node_id = "playtest_mini/cellar/stair"
+quantity = 1
+
+[[actors]]
+bundle_id = "playtest_mini"
+entity_key = "playtest_mini/hero_b"
+name = "Bram"
+
+[[actor_spatial_locations]]
+bundle_id = "playtest_mini"
+entity_key = "playtest_mini/hero_b"
+place_node_id = "playtest_mini/cellar/stair"
+selection_path = "manifest:playtest_mini/hero_b"
+
+[[role_bindings]]
+binding_id = "playtest_mini/operator/cellar"
+bundle_id = "playtest_mini"
+subject = "$sender"
+role_id = "system-author"
+extent_kind_ref = "place_graph"
+extent_ref = "playtest_mini/cellar"
+description = "Publisher system-author authority over playtest_mini/cellar."
+
+[[action_definitions]]
+action_id = "playtest_mini/act/wield"
+bundle_id = "playtest_mini"
+cost_time_ms = 0
+description = "Take a carried weapon in your main hand."
+display_name = "Wield"
+on_failure = ""
+on_success = "playtest_mini/act/wield/success"
+required_capability = "srd/action/utilize"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "playtest_mini"
+capability_id = "srd/action/utilize"
+display_name = "Wield"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "srd/item"
+outcome_template_id = "playtest_mini/act/wield/outcome"
+predicate_bool = false
+predicate_source = "target.has_tag('srd.weapon.range.melee')"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "playtest_mini/act/wield/affordance"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "playtest_mini/act/wield/success"
+
+[consequence_frame_writes.frame_write.EquipItem]
+actor_ref = "Actor"
+slot_id = "srd/slot/main-hand"
+
+[consequence_frame_writes.frame_write.EquipItem.source.TargetItem]
+
+[[consequence_templates]]
+bundle_id = "playtest_mini"
+description = "The actor takes the weapon in the main hand."
+template_id = "playtest_mini/act/wield/success"
+
+[[outcome_templates]]
+bundle_id = "playtest_mini"
+consequence_template_id = ""
+description = "{actor_name} takes the {target_name} in hand, ready to fight."
+display_name = "Wield"
+manipulation_action_id = "playtest_mini/act/wield"
+outcome_bool = true
+outcome_template_id = "playtest_mini/act/wield/outcome"
+sense_visibility = "local"
+
+[[entity_resource_bound]]
+bundle_id = "playtest_mini"
+entity_key = "playtest_mini/hero_a"
+max_value = 11
+min_value = 0
+resource_definition_id = "srd/hp"
+
+[[entity_resource_bound]]
+bundle_id = "playtest_mini"
+entity_key = "playtest_mini/hero_b"
+max_value = 11
+min_value = 0
+resource_definition_id = "srd/hp"

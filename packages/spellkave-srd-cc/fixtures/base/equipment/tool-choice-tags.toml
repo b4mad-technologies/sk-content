@@ -1,0 +1,234 @@
+[[metadata_attachments]]
+bundle_id = "srd"
+namespace = "srd.equipment_proficiency"
+payload_json = '{"capabilityId":"srd/proficiency/tool/alchemists-supplies"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/tool/alchemists-supplies"
+
+[[metadata_attachments]]
+bundle_id = "srd"
+namespace = "srd.equipment_proficiency"
+payload_json = '{"capabilityId":"srd/proficiency/tool/brewers-supplies"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/tool/brewers-supplies"
+
+[[metadata_attachments]]
+bundle_id = "srd"
+namespace = "srd.equipment_proficiency"
+payload_json = '{"capabilityId":"srd/proficiency/tool/calligraphers-supplies"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/tool/calligraphers-supplies"
+
+[[metadata_attachments]]
+bundle_id = "srd"
+namespace = "srd.equipment_proficiency"
+payload_json = '{"capabilityId":"srd/proficiency/tool/carpenters-tools"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/tool/carpenters-tools"
+
+[[metadata_attachments]]
+bundle_id = "srd"
+namespace = "srd.equipment_proficiency"
+payload_json = '{"capabilityId":"srd/proficiency/tool/cartographers-tools"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/tool/cartographers-tools"
+
+[[metadata_attachments]]
+bundle_id = "srd"
+namespace = "srd.equipment_proficiency"
+payload_json = '{"capabilityId":"srd/proficiency/tool/cobblers-tools"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/tool/cobblers-tools"
+
+[[metadata_attachments]]
+bundle_id = "srd"
+namespace = "srd.equipment_proficiency"
+payload_json = '{"capabilityId":"srd/proficiency/tool/cooks-utensils"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/tool/cooks-utensils"
+
+[[metadata_attachments]]
+bundle_id = "srd"
+namespace = "srd.equipment_proficiency"
+payload_json = '{"capabilityId":"srd/proficiency/tool/glassblowers-tools"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/tool/glassblowers-tools"
+
+[[metadata_attachments]]
+bundle_id = "srd"
+namespace = "srd.equipment_proficiency"
+payload_json = '{"capabilityId":"srd/proficiency/tool/jewelers-tools"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/tool/jewelers-tools"
+
+[[metadata_attachments]]
+bundle_id = "srd"
+namespace = "srd.equipment_proficiency"
+payload_json = '{"capabilityId":"srd/proficiency/tool/leatherworkers-tools"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/tool/leatherworkers-tools"
+
+[[metadata_attachments]]
+bundle_id = "srd"
+namespace = "srd.equipment_proficiency"
+payload_json = '{"capabilityId":"srd/proficiency/tool/masons-tools"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/tool/masons-tools"
+
+[[metadata_attachments]]
+bundle_id = "srd"
+namespace = "srd.equipment_proficiency"
+payload_json = '{"capabilityId":"srd/proficiency/tool/painters-supplies"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/tool/painters-supplies"
+
+[[metadata_attachments]]
+bundle_id = "srd"
+namespace = "srd.equipment_proficiency"
+payload_json = '{"capabilityId":"srd/proficiency/tool/potters-tools"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/tool/potters-tools"
+
+[[metadata_attachments]]
+bundle_id = "srd"
+namespace = "srd.equipment_proficiency"
+payload_json = '{"capabilityId":"srd/proficiency/tool/smiths-tools"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/tool/smiths-tools"
+
+[[metadata_attachments]]
+bundle_id = "srd"
+namespace = "srd.equipment_proficiency"
+payload_json = '{"capabilityId":"srd/proficiency/tool/tinkers-tools"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/tool/tinkers-tools"
+
+[[metadata_attachments]]
+bundle_id = "srd"
+namespace = "srd.equipment_proficiency"
+payload_json = '{"capabilityId":"srd/proficiency/tool/weavers-tools"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/tool/weavers-tools"
+
+[[metadata_attachments]]
+bundle_id = "srd"
+namespace = "srd.equipment_proficiency"
+payload_json = '{"capabilityId":"srd/proficiency/tool/woodcarvers-tools"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/tool/woodcarvers-tools"
+
+[[metadata_attachments]]
+bundle_id = "srd"
+namespace = "srd.equipment_proficiency"
+payload_json = '{"capabilityId":"srd/proficiency/tool/musical-instrument-bagpipes"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/tool/musical-instrument-bagpipes"
+
+[[metadata_attachments]]
+bundle_id = "srd"
+namespace = "srd.equipment_proficiency"
+payload_json = '{"capabilityId":"srd/proficiency/tool/musical-instrument-drum"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/tool/musical-instrument-drum"
+
+[[metadata_attachments]]
+bundle_id = "srd"
+namespace = "srd.equipment_proficiency"
+payload_json = '{"capabilityId":"srd/proficiency/tool/musical-instrument-dulcimer"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/tool/musical-instrument-dulcimer"
+
+[[metadata_attachments]]
+bundle_id = "srd"
+namespace = "srd.equipment_proficiency"
+payload_json = '{"capabilityId":"srd/proficiency/tool/musical-instrument-flute"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/tool/musical-instrument-flute"
+
+[[metadata_attachments]]
+bundle_id = "srd"
+namespace = "srd.equipment_proficiency"
+payload_json = '{"capabilityId":"srd/proficiency/tool/musical-instrument-horn"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/tool/musical-instrument-horn"
+
+[[metadata_attachments]]
+bundle_id = "srd"
+namespace = "srd.equipment_proficiency"
+payload_json = '{"capabilityId":"srd/proficiency/tool/musical-instrument-lute"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/tool/musical-instrument-lute"
+
+[[metadata_attachments]]
+bundle_id = "srd"
+namespace = "srd.equipment_proficiency"
+payload_json = '{"capabilityId":"srd/proficiency/tool/musical-instrument-lyre"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/tool/musical-instrument-lyre"
+
+[[metadata_attachments]]
+bundle_id = "srd"
+namespace = "srd.equipment_proficiency"
+payload_json = '{"capabilityId":"srd/proficiency/tool/musical-instrument-pan-flute"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/tool/musical-instrument-pan-flute"
+
+[[metadata_attachments]]
+bundle_id = "srd"
+namespace = "srd.equipment_proficiency"
+payload_json = '{"capabilityId":"srd/proficiency/tool/musical-instrument-shawm"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/tool/musical-instrument-shawm"
+
+[[metadata_attachments]]
+bundle_id = "srd"
+namespace = "srd.equipment_proficiency"
+payload_json = '{"capabilityId":"srd/proficiency/tool/musical-instrument-viol"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/tool/musical-instrument-viol"
+
+[[metadata_namespaces]]
+audience = "public"
+bundle_id = "srd"
+description = "Explicit physical tool to proficiency capability reference consumed by character creation."
+namespace = "srd.equipment_proficiency"
+on_demand = true
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Tool choice category: artisan."
+prefix = "srd.tool.category"
+tag = "srd.tool.category.artisan"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Tool choice category: instrument."
+prefix = "srd.tool.category"
+tag = "srd.tool.category.instrument"

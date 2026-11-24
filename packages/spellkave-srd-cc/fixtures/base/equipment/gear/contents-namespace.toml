@@ -1,0 +1,6 @@
+[[metadata_namespaces]]
+audience = "public"
+bundle_id = "srd"
+description = "Source-derived initial equipment contents consumed by character creation."
+namespace = "srd.equipment_contents"
+on_demand = true

@@ -1,0 +1,60 @@
+#:schema https://spellkave.dev/schema/world-manifest-1.0.0.json
+applyset = "srd_proof"
+schema_version = "1.0.0"
+
+[[bundles]]
+allow_flat_tags = false
+author = "spellkave-srd-cc"
+bundle_id = "srd_proof"
+default_extent_params_json = '{"extent_m": 4.5}'
+default_extent_shape_id = "core/area/cube"
+depends_on = ["srd"]
+description = "TEST-ONLY proof scene for the Playing the Game ability/skill identity rows (str/wis + srd/skill/perception). Loaded explicitly by the live-self-seeding identity test — never shipped in fixtures/manifest.toml."
+display_name = "Playing the Game identity proof scene"
+tag_prefixes = []
+version = "0.1.0"
+
+[[include]]
+path = "playing-the-game-identity/shared/spatial.toml"
+
+[[include]]
+path = "playing-the-game-identity/identity/hero.toml"
+
+[[include]]
+path = "playing-the-game-identity/exploration/object-interaction.toml"
+
+[[include]]
+path = "playing-the-game-identity/checks/actions.toml"
+
+[[include]]
+path = "playing-the-game-identity/checks/resources.toml"
+
+[[include]]
+path = "playing-the-game-identity/checks/pressure-plate.toml"
+
+[[include]]
+path = "playing-the-game-identity/checks/training-dummies.toml"
+
+[[include]]
+path = "playing-the-game-identity/combat/actions.toml"
+
+[[include]]
+path = "playing-the-game-identity/combat/guard.toml"
+
+[[include]]
+path = "playing-the-game-identity/initiative/combatants.toml"
+
+[[include]]
+path = "playing-the-game-identity/initiative/session.toml"
+
+[[include]]
+path = "playing-the-game-identity/combat-arena/combatants.toml"
+
+[[include]]
+path = "playing-the-game-identity/combat-arena/grid.toml"
+
+[[include]]
+path = "playing-the-game-identity/combat-arena/npc-seat.toml"
+
+[[include]]
+path = "playing-the-game-identity/combat-arena/session.toml"

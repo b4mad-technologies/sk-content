@@ -1,0 +1,332 @@
+#:schema https://spellkave.dev/schema/world-manifest-1.0.0.json
+applyset = "srd_proof.dungeon"
+schema_version = "1.0.0"
+
+[[actor_spatial_locations]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/dungeon/skeleton_1"
+place_node_id = "srd_proof/dungeon/guard"
+selection_path = "manifest:srd_proof/dungeon/skeleton_1"
+
+[[actor_spatial_locations]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/dungeon/wight_1"
+place_node_id = "srd_proof/dungeon/crypt"
+selection_path = "manifest:srd_proof/dungeon/wight_1"
+
+[[actors]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/dungeon/skeleton_1"
+name = "Npc 1"
+
+[[actors]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/dungeon/wight_1"
+name = "Npc 1"
+
+[[bundles]]
+allow_flat_tags = false
+author = "spellkave-srd-cc"
+bundle_id = "srd_proof"
+default_extent_params_json = '{"extent_m": 4.5}'
+default_extent_shape_id = "core/area/cube"
+depends_on = ["srd"]
+description = "Unpositioned rooms — adjacency layout only (phase D)."
+display_name = "Dungeon (topology-only)"
+tag_prefixes = []
+version = "1.0.0"
+
+[[entities]]
+bundle_id = "srd_proof"
+entity_def_id = ""
+entity_key = "srd_proof/dungeon/skeleton_1"
+kind = "npc"
+name = "Npc 1"
+owned_by_entity_key = ""
+place_node_id = "srd_proof/dungeon/guard"
+quantity = 1
+
+[[entities]]
+bundle_id = "srd_proof"
+entity_def_id = ""
+entity_key = "srd_proof/dungeon/wight_1"
+kind = "npc"
+name = "Npc 1"
+owned_by_entity_key = ""
+place_node_id = "srd_proof/dungeon/crypt"
+quantity = 1
+
+[[movement_defaults]]
+affordance_template_id = "srd/affordance/step"
+bindings_json = '{"movement_reach_resource":"srd/speed-walk","long_running_move_session":"srd/long_running_move"}'
+bundle_id = "srd_proof"
+mode_id = ""
+place_graph_id = ""
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof/dungeon/entrance->srd_proof/dungeon/guard"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof/dungeon/entrance"
+inherit_movement_default = true
+place_graph_id = "srd_proof/dungeon"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof/dungeon/guard"
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof/dungeon/guard->srd_proof/dungeon/entrance"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof/dungeon/guard"
+inherit_movement_default = true
+place_graph_id = "srd_proof/dungeon"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof/dungeon/entrance"
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof/dungeon/guard->srd_proof/dungeon/hall"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof/dungeon/guard"
+inherit_movement_default = true
+place_graph_id = "srd_proof/dungeon"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof/dungeon/hall"
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof/dungeon/hall->srd_proof/dungeon/guard"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof/dungeon/hall"
+inherit_movement_default = true
+place_graph_id = "srd_proof/dungeon"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof/dungeon/guard"
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof/dungeon/hall->srd_proof/dungeon/crypt"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof/dungeon/hall"
+inherit_movement_default = true
+place_graph_id = "srd_proof/dungeon"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof/dungeon/crypt"
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof/dungeon/crypt->srd_proof/dungeon/hall"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof/dungeon/crypt"
+inherit_movement_default = true
+place_graph_id = "srd_proof/dungeon"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof/dungeon/hall"
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof/dungeon/hall->srd_proof/dungeon/treasury"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof/dungeon/hall"
+inherit_movement_default = true
+place_graph_id = "srd_proof/dungeon"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof/dungeon/treasury"
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof/dungeon/treasury->srd_proof/dungeon/hall"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof/dungeon/treasury"
+inherit_movement_default = true
+place_graph_id = "srd_proof/dungeon"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof/dungeon/hall"
+
+[[place_graphs]]
+anchor_node_id = "srd_proof/dungeon/entrance"
+bearing = 0.0
+blueprint_id = ""
+bundle_id = "srd_proof"
+description = "Topology-only dungeon (no metric positions)"
+display_name = "Forgotten Crypt"
+is_ephemeral_instance = false
+metres_per_unit = 1.0
+origin_cell_res10 = 0
+origin_cell_res4 = 0
+origin_cell_res7 = 0
+parent_graph_id = ""
+place_graph_id = "srd_proof/dungeon"
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "srd_proof"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = ""
+display_name = "Entrance"
+extent_params_json = ""
+extent_shape_id = ""
+is_ephemeral = false
+local_id = "entrance"
+node_id = "srd_proof/dungeon/entrance"
+place_graph_id = "srd_proof/dungeon"
+pos_present = false
+pos_x = 0
+pos_y = 0
+pose_elevation = 0.0
+pose_elevation_present = false
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "srd_proof"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = ""
+display_name = "Guard Room"
+extent_params_json = ""
+extent_shape_id = ""
+is_ephemeral = false
+local_id = "guard"
+node_id = "srd_proof/dungeon/guard"
+place_graph_id = "srd_proof/dungeon"
+pos_present = false
+pos_x = 0
+pos_y = 0
+pose_elevation = 0.0
+pose_elevation_present = false
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "srd_proof"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = ""
+display_name = "Great Hall"
+extent_params_json = ""
+extent_shape_id = ""
+is_ephemeral = false
+local_id = "hall"
+node_id = "srd_proof/dungeon/hall"
+place_graph_id = "srd_proof/dungeon"
+pos_present = false
+pos_x = 0
+pos_y = 0
+pose_elevation = 0.0
+pose_elevation_present = false
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "srd_proof"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = ""
+display_name = "Crypt"
+extent_params_json = ""
+extent_shape_id = ""
+is_ephemeral = false
+local_id = "crypt"
+node_id = "srd_proof/dungeon/crypt"
+place_graph_id = "srd_proof/dungeon"
+pos_present = false
+pos_x = 0
+pos_y = 0
+pose_elevation = 0.0
+pose_elevation_present = false
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "srd_proof"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = ""
+display_name = "Treasury"
+extent_params_json = ""
+extent_shape_id = ""
+is_ephemeral = false
+local_id = "treasury"
+node_id = "srd_proof/dungeon/treasury"
+place_graph_id = "srd_proof/dungeon"
+pos_present = false
+pos_x = 0
+pos_y = 0
+pose_elevation = 0.0
+pose_elevation_present = false
+substrate_id = "indoor"

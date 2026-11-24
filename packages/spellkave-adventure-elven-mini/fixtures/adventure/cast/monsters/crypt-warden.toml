@@ -1,0 +1,45 @@
+[[actor_spatial_locations]]
+bundle_id = "elven_mini"
+entity_key = "elven_mini/adventure/npc/crypt_warden_1"
+place_node_id = "elven_mini/tomb/crypt"
+selection_path = "manifest:elven_mini/adventure/npc/crypt_warden_1"
+
+[[actors]]
+bundle_id = "elven_mini"
+entity_key = "elven_mini/adventure/npc/crypt_warden_1"
+name = "Crypt Warden"
+
+[[entities]]
+bundle_id = "elven_mini"
+description = "A goblin sentinel standing watch over the crypt's lowest niches."
+entity_def_id = "srd/creature/goblin-warrior"
+entity_key = "elven_mini/adventure/npc/crypt_warden_1"
+kind = "npc"
+name = "Crypt Warden"
+owned_by_entity_key = ""
+place_node_id = "elven_mini/tomb/crypt"
+quantity = 1
+
+[[entity_tag]]
+bundle_id = "elven_mini"
+entity_key = "elven_mini/adventure/npc/crypt_warden_1"
+source = "manifest"
+tag = "srd.faction.monsters"
+
+[[object_state]]
+bundle_id = "elven_mini"
+entity_key = "elven_mini/adventure/npc/crypt_warden_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "srd/xp_value"
+value_bool = true
+value_int = 300
+
+[[object_state]]
+bundle_id = "elven_mini"
+entity_key = "elven_mini/adventure/npc/crypt_warden_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "srd/hp"
+value_bool = true
+value_int = 11

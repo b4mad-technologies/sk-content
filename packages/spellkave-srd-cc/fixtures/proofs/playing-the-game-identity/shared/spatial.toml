@@ -1,0 +1,408 @@
+[[niche_definitions]]
+bundle_id = "srd_proof"
+description = "TEST-ONLY traversal niche for the two open directed edges. The edge affordance is only a movement gate; destination-node attachments own entry dispatch."
+display_name = "Open proof-scene edge"
+niche_id = "srd_proof/edge/open"
+predicate_source = ""
+
+[[niche_definitions]]
+bundle_id = "srd_proof"
+description = "WA-CAP-002 (sk-0m4.69): capability:* niches require an explicit provider. Proof-scene checks remain place-attached at the identity node."
+display_name = "Flex (Strength check gate) (proof, place-provided)"
+niche_id = "capability:srd_proof/check/flex-str"
+predicate_source = ""
+provider = "place"
+
+[[niche_definitions]]
+bundle_id = "srd_proof"
+description = "WA-CAP-002 (sk-0m4.69): capability:* niches require an explicit provider. Proof-scene checks remain place-attached at the identity node."
+display_name = "Flex (Wisdom check gate) (proof, place-provided)"
+niche_id = "capability:srd_proof/check/flex-wis"
+predicate_source = ""
+provider = "place"
+
+[[niche_definitions]]
+bundle_id = "srd_proof"
+description = "WA-CAP-002 (sk-0m4.69): capability:* niches require an explicit provider. Proof-scene checks remain place-attached at the identity node."
+display_name = "Attack roll (let-bound nat-20/nat-1 override, target.effective('srd/ac')) (proof, place-provided)"
+niche_id = "capability:srd_proof/check/attack-roll"
+predicate_source = ""
+provider = "place"
+
+[[niche_definitions]]
+bundle_id = "srd_proof"
+description = "WA-CAP-002 (sk-0m4.69): capability:* niches require an explicit provider. Proof-scene checks remain place-attached at the identity node."
+display_name = "Grant Cover (maxim-audit F1 live proof — lands the shipped srd/cover/half condition) (proof, place-provided)"
+niche_id = "capability:srd_proof/check/cover-grant"
+predicate_source = ""
+provider = "place"
+
+[[niche_definitions]]
+bundle_id = "srd_proof"
+description = "WA-CAP-002 (sk-0m4.69): capability:* niches require an explicit provider. Proof-scene checks remain place-attached at the identity node."
+display_name = "Attack roll (target.effective('srd/ac'), vs a Half-Cover-conditioned target) (proof, place-provided)"
+niche_id = "capability:srd_proof/check/attack-roll-cover"
+predicate_source = ""
+provider = "place"
+
+[[niche_definitions]]
+bundle_id = "srd_proof"
+description = "WA-CAP-002 (sk-0m4.69): capability:* niches require an explicit provider. Proof-scene checks remain place-attached at the identity node."
+display_name = "Resolve pressure plate (Dexterity Saving Throw) (proof, place-provided)"
+niche_id = "capability:srd_proof/check/pressure-plate-save"
+predicate_source = ""
+provider = "place"
+
+[[niche_definitions]]
+bundle_id = "srd_proof"
+description = "WA-CAP-002 (sk-0m4.69): capability:* niches require an explicit provider. Proof-scene checks remain place-attached at the identity node."
+display_name = "Grant Advantage (finding #23 live proof — lands a condition on the target) (proof, place-provided)"
+niche_id = "capability:srd_proof/check/advantage-grant"
+predicate_source = ""
+provider = "place"
+
+[[niche_definitions]]
+bundle_id = "srd_proof"
+description = "WA-CAP-002 (sk-0m4.69): capability:* niches require an explicit provider. Proof-scene checks remain place-attached at the identity node."
+display_name = "Strength check (Advantage-biased, bare d20 — finding #23 live proof) (proof, place-provided)"
+niche_id = "capability:srd_proof/check/advantage-check"
+predicate_source = ""
+provider = "place"
+
+[[niche_definitions]]
+bundle_id = "srd_proof"
+description = "WA-CAP-002 (sk-0m4.69): capability:* niches require an explicit provider. Proof-scene checks remain place-attached at the identity node."
+display_name = "Guard Dexterity (Stealth) vs Hero Passive Perception (C5 live proof) (proof, place-provided)"
+niche_id = "capability:srd_proof/check/stealth-vs-passive-perception"
+predicate_source = ""
+provider = "place"
+
+[[niche_definitions]]
+bundle_id = "srd_proof"
+description = "WA-CAP-002 (sk-0m4.69): capability:* niches require an explicit provider. Proof-scene checks remain place-attached at the identity node."
+display_name = "Grant Poisoned (CONDITIONS PACKAGE live proof — lands the shipped srd/condition/poisoned condition) (proof, place-provided)"
+niche_id = "capability:srd_proof/check/poisoned-grant"
+predicate_source = ""
+provider = "place"
+
+[[niche_definitions]]
+bundle_id = "srd_proof"
+description = "WA-CAP-002 (sk-0m4.69): capability:* niches require an explicit provider. Proof-scene checks remain place-attached at the identity node."
+display_name = "Strength check (Poisoned-biased, bare d20 — CONDITIONS PACKAGE live proof) (proof, place-provided)"
+niche_id = "capability:srd_proof/check/poisoned-check"
+predicate_source = ""
+provider = "place"
+
+[[niche_definitions]]
+bundle_id = "srd_proof"
+description = "WA-CAP-002 (sk-0m4.69): capability:* niches require an explicit provider. Proof-scene checks remain place-attached at the identity node."
+display_name = "Cure Poisoned (test cleanup — two independent RemoveCondition writes) (proof, place-provided)"
+niche_id = "capability:srd_proof/check/poisoned-cure"
+predicate_source = ""
+provider = "place"
+
+[[niche_definitions]]
+bundle_id = "srd_proof"
+description = "WA-CAP-002 (sk-0m4.69): capability:* niches require an explicit provider. Proof-scene checks remain place-attached at the identity node."
+display_name = "Grant false-predicate modifier condition (finding #76 proof) (proof, place-provided)"
+niche_id = "capability:srd_proof/check/false-modifier-grant"
+predicate_source = ""
+provider = "place"
+
+[[niche_definitions]]
+bundle_id = "srd_proof"
+description = "WA-CAP-002 (sk-0m4.69): capability:* niches require an explicit provider. Proof-scene checks remain place-attached at the identity node."
+display_name = "Strength check with a false-predicate modifier (finding #76 proof) (proof, place-provided)"
+niche_id = "capability:srd_proof/check/false-modifier-check"
+predicate_source = ""
+provider = "place"
+
+[[niche_definitions]]
+bundle_id = "srd_proof"
+description = "WA-CAP-002 (sk-0m4.69): capability:* niches require an explicit provider. Proof-scene checks remain place-attached at the identity node."
+display_name = "Grant zero movement reach (finding #90 proof) (proof, place-provided)"
+niche_id = "capability:srd_proof/check/zero-reach-grant"
+predicate_source = ""
+provider = "place"
+
+[[niche_definitions]]
+bundle_id = "srd_proof"
+description = "WA-CAP-002 (sk-0m4.69): capability:* niches require an explicit provider. Proof-scene checks remain place-attached at the identity node."
+display_name = "Remove zero movement reach (finding #90 cleanup) (proof, place-provided)"
+niche_id = "capability:srd_proof/check/zero-reach-cure"
+predicate_source = ""
+provider = "place"
+
+[[niche_definitions]]
+bundle_id = "srd_proof"
+description = "WA-CAP-002 (sk-0m4.69): capability:* niches require an explicit provider. This proof-only clear-prone verb stays place-attached at the arena anchor."
+display_name = "Clear Prone (proof, place-provided)"
+niche_id = "capability:srd_proof/combat-arena/clear-prone"
+predicate_source = ""
+provider = "place"
+
+[[place_edge_affordance]]
+affordance_template_id = "srd_proof/edge/open/affordance"
+bindings_json = '{"movement_reach_resource":"srd_proof/movement_reach","long_running_move_session":"srd/long_running_move"}'
+edge_key = "srd_proof_scene/cell_a->srd_proof_scene/pressure_plate"
+mode_id = ""
+
+[[place_edge_affordance]]
+affordance_template_id = "srd_proof/edge/open/affordance"
+bindings_json = '{"movement_reach_resource":"srd_proof/movement_reach","long_running_move_session":"srd/long_running_move"}'
+edge_key = "srd_proof_scene/pressure_plate->srd_proof_scene/cell_a"
+mode_id = ""
+
+[[place_edge_affordance]]
+affordance_template_id = "srd_proof/edge/open/affordance"
+bindings_json = '{"movement_reach_resource":"srd_proof/movement_reach","long_running_move_session":"srd/long_running_move"}'
+edge_key = "srd_proof_scene/cell_a->srd_proof_scene/cell_b"
+mode_id = ""
+
+[[place_edge_affordance]]
+affordance_template_id = "srd_proof/edge/open/affordance"
+bindings_json = '{"movement_reach_resource":"srd_proof/movement_reach","long_running_move_session":"srd/long_running_move"}'
+edge_key = "srd_proof_scene/cell_b->srd_proof_scene/cell_a"
+mode_id = ""
+
+[[place_edge_affordance]]
+affordance_template_id = "srd_proof/edge/open/affordance"
+bindings_json = '{"movement_reach_resource":"srd_proof/movement_reach","long_running_move_session":"srd/long_running_move"}'
+edge_key = "srd_proof_scene/cell_b->srd_proof_scene/cell_far"
+mode_id = ""
+
+[[place_edge_affordance]]
+affordance_template_id = "srd_proof/edge/open/affordance"
+bindings_json = '{"movement_reach_resource":"srd_proof/movement_reach","long_running_move_session":"srd/long_running_move"}'
+edge_key = "srd_proof_scene/cell_far->srd_proof_scene/cell_b"
+mode_id = ""
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof_scene/cell_a->srd_proof_scene/pressure_plate"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof_scene/cell_a"
+inherit_movement_default = true
+place_graph_id = "srd_proof_scene"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof_scene/pressure_plate"
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof_scene/pressure_plate->srd_proof_scene/cell_a"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof_scene/pressure_plate"
+inherit_movement_default = true
+place_graph_id = "srd_proof_scene"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof_scene/cell_a"
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof_scene/cell_a->srd_proof_scene/cell_b"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof_scene/cell_a"
+inherit_movement_default = true
+place_graph_id = "srd_proof_scene"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof_scene/cell_b"
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof_scene/cell_b->srd_proof_scene/cell_a"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof_scene/cell_b"
+inherit_movement_default = true
+place_graph_id = "srd_proof_scene"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof_scene/cell_a"
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof_scene/cell_b->srd_proof_scene/cell_far"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof_scene/cell_b"
+inherit_movement_default = true
+place_graph_id = "srd_proof_scene"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof_scene/cell_far"
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof_scene/cell_far->srd_proof_scene/cell_b"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof_scene/cell_far"
+inherit_movement_default = true
+place_graph_id = "srd_proof_scene"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof_scene/cell_b"
+
+[[place_graphs]]
+anchor_node_id = "srd_proof_scene/cell_a"
+bearing = 0.0
+blueprint_id = ""
+bundle_id = "srd_proof"
+description = "TEST-ONLY four-cell scene: a safe reset point, a clean reaction exit cell, a pressure-plate node for the automatic Saving Throw proof, and a far cell two hops from the reset point for hall-scale shout proofs."
+display_name = "Scene"
+is_ephemeral_instance = false
+metres_per_unit = 1.0
+origin_cell_res10 = 0
+origin_cell_res4 = 0
+origin_cell_res7 = 0
+parent_graph_id = ""
+place_graph_id = "srd_proof_scene"
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "srd_proof"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = ""
+display_name = "Proof Cell"
+extent_params_json = ""
+extent_shape_id = ""
+is_ephemeral = false
+local_id = "cell_a"
+node_id = "srd_proof_scene/cell_a"
+place_graph_id = "srd_proof_scene"
+pos_present = true
+pos_x = 0
+pos_y = 0
+pose_elevation = 0.0
+pose_elevation_present = false
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "srd_proof"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = ""
+display_name = "Reaction Exit Cell"
+extent_params_json = ""
+extent_shape_id = ""
+is_ephemeral = false
+local_id = "cell_b"
+node_id = "srd_proof_scene/cell_b"
+place_graph_id = "srd_proof_scene"
+pos_present = true
+pos_x = 1
+pos_y = 1
+pose_elevation = 0.0
+pose_elevation_present = false
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "srd_proof"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = ""
+display_name = "Pressure Plate"
+extent_params_json = ""
+extent_shape_id = ""
+is_ephemeral = false
+local_id = "pressure_plate"
+node_id = "srd_proof_scene/pressure_plate"
+place_graph_id = "srd_proof_scene"
+pos_present = true
+pos_x = 1
+pos_y = 0
+pose_elevation = 0.0
+pose_elevation_present = false
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "srd_proof"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = ""
+display_name = "Far Cell"
+extent_params_json = ""
+extent_shape_id = ""
+is_ephemeral = false
+local_id = "cell_far"
+node_id = "srd_proof_scene/cell_far"
+place_graph_id = "srd_proof_scene"
+pos_present = true
+pos_x = 30
+pos_y = 0
+pose_elevation = 0.0
+pose_elevation_present = false
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "srd_proof"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = ""
+display_name = "Combat Arena Gate"
+extent_params_json = ""
+extent_shape_id = ""
+is_ephemeral = false
+local_id = "combat_arena_gate"
+node_id = "srd_proof_scene/combat_arena_gate"
+place_graph_id = "srd_proof_scene"
+pos_present = false
+pos_x = 0
+pos_y = 0
+pose_elevation = 0.0
+pose_elevation_present = false
+substrate_id = "outdoor"

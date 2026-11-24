@@ -1,0 +1,25 @@
+packages:
+  - packages/*
+
+engineStrict: true
+autoInstallPeers: false
+
+allowBuilds:
+  esbuild: true
+
+# Exact Spellkave releases approved for this dependency cut.
+minimumReleaseAgeExclude:
+  - '@spellkave/bindings@2.1.0'
+  - '@spellkave/agent-observability@0.1.2'
+  - '@spellkave/authoring-wasm@0.1.0'
+  - '@spellkave/sdk@0.1.2'
+  - '@spellkave/session@0.1.2'
+  - '@spellkave/tool-authoring@0.1.2'
+  - '@spellkave/tool-contracts@0.1.2'
+  - '@spellkave/tool-node@0.1.2'
+  - '@spellkave/tool-player@0.1.2'
+  - '@spellkave/tool-runtime@0.1.2'
+  - '@spellkave/validate-wasm@0.1.0'
+  - '@spellkave/world-author@0.1.2'
+  - '@spellkave/world-events@0.1.2'
+  - '@spellkave/world-map@0.1.2'

@@ -1,0 +1,1337 @@
+# pattern: condition-grant-and-suppression
+[[action_definitions]]
+action_id = "srd_proof/flex-str"
+bundle_id = "srd_proof"
+cost_time_ms = 0
+display_name = "Flex (Strength check gate)"
+on_failure = ""
+on_success = "srd_proof/flex-str/success"
+required_capability = "srd_proof/check/flex-str"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "srd_proof/flex-wis"
+bundle_id = "srd_proof"
+cost_time_ms = 0
+display_name = "Flex (Wisdom check gate)"
+on_failure = ""
+on_success = "srd_proof/flex-wis/success"
+required_capability = "srd_proof/check/flex-wis"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "srd_proof/pressure-plate-save"
+bundle_id = "srd_proof"
+cost_time_ms = 0
+display_name = "Resolve pressure plate (Dexterity Saving Throw)"
+on_failure = "srd_proof/pressure-plate-save/failure"
+on_success = "srd_proof/pressure-plate-save/success"
+required_capability = "srd_proof/check/pressure-plate-save"
+resolution_mode = "Stochastic"
+resolution_predicate_source = "d20 + macro('srd/dexterity_modifier') + cond(actor.has_capability('srd_proof/save-proficiency/dex'), macro('srd/proficiency_bonus', actor.stat('srd/level')), 0) >= (target.stat('srd_proof/save_dc'))"
+resolution_scope = "srd/dex_save"
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "srd_proof/advantage-grant"
+bundle_id = "srd_proof"
+cost_time_ms = 0
+display_name = "Grant Advantage (finding #23 live proof — lands a condition on the target)"
+on_failure = ""
+on_success = "srd_proof/advantage-grant/success"
+required_capability = "srd_proof/check/advantage-grant"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "srd_proof/advantage-check"
+bundle_id = "srd_proof"
+cost_time_ms = 0
+display_name = "Strength check (Advantage-biased, bare d20 — finding #23 live proof)"
+on_failure = ""
+on_success = "srd_proof/advantage-check/success"
+required_capability = "srd_proof/check/advantage-check"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "srd_proof/stealth-vs-passive-perception"
+bundle_id = "srd_proof"
+cost_time_ms = 0
+display_name = "Guard Dexterity (Stealth) vs Hero Passive Perception (C5 live proof)"
+on_failure = ""
+on_success = "srd_proof/stealth-vs-passive-perception/success"
+required_capability = "srd_proof/check/stealth-vs-passive-perception"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "srd_proof/poisoned-grant"
+bundle_id = "srd_proof"
+cost_time_ms = 0
+display_name = "Grant Poisoned (CONDITIONS PACKAGE live proof — lands the shipped srd/condition/poisoned condition)"
+on_failure = ""
+on_success = "srd_proof/poisoned-grant/success"
+required_capability = "srd_proof/check/poisoned-grant"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "srd_proof/poisoned-check"
+bundle_id = "srd_proof"
+cost_time_ms = 0
+display_name = "Strength check (Poisoned-biased, bare d20 — CONDITIONS PACKAGE live proof)"
+on_failure = ""
+on_success = "srd_proof/poisoned-check/success"
+required_capability = "srd_proof/check/poisoned-check"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resolution_scope = "srd/ability_check"
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "srd_proof/poisoned-cure"
+bundle_id = "srd_proof"
+cost_time_ms = 0
+display_name = "Cure Poisoned (test cleanup — two independent RemoveCondition writes)"
+on_failure = ""
+on_success = "srd_proof/poisoned-cure/success"
+required_capability = "srd_proof/check/poisoned-cure"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "srd_proof/false-modifier-grant"
+bundle_id = "srd_proof"
+cost_time_ms = 0
+display_name = "Grant false-predicate modifier condition (finding #76 proof)"
+on_failure = ""
+on_success = "srd_proof/false-modifier-grant/success"
+required_capability = "srd_proof/check/false-modifier-grant"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "srd_proof/false-modifier-check"
+bundle_id = "srd_proof"
+cost_time_ms = 0
+display_name = "Strength check with a false-predicate modifier (finding #76 proof)"
+on_failure = ""
+on_success = "srd_proof/false-modifier-check/success"
+required_capability = "srd_proof/check/false-modifier-check"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resolution_scope = "srd_proof/false-modifier-scope"
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "srd_proof/zero-reach-grant"
+bundle_id = "srd_proof"
+cost_time_ms = 0
+display_name = "Grant zero movement reach (finding #90 proof)"
+on_failure = ""
+on_success = "srd_proof/zero-reach-grant/success"
+required_capability = "srd_proof/check/zero-reach-grant"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "srd_proof/zero-reach-cure"
+bundle_id = "srd_proof"
+cost_time_ms = 0
+display_name = "Remove zero movement reach (finding #90 cleanup)"
+on_failure = ""
+on_success = "srd_proof/zero-reach-cure/success"
+required_capability = "srd_proof/check/zero-reach-cure"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "srd_proof/dodge-negative-attack"
+bundle_id = "srd_proof"
+cost_time_ms = 0
+description = "TEST-ONLY unmetered Unarmed Strike predicate proving the dodger's Dexterity-save Advantage does not leak onto its own attacks."
+display_name = "Dodge actor-scope negative-control attack"
+on_failure = ""
+on_success = "srd_proof/dodge-negative-attack/success"
+required_capability = "srd/action/attack"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resolution_scope = "srd/attack_roll"
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "srd_proof/combat-arena/clear-prone"
+bundle_id = "srd_proof"
+cost_time_ms = 0
+description = "TEST-ONLY combat-arena proof (Slice B item 4) action: removes srd/condition/prone from the acting creature, guaranteed (Deterministic — no roll)."
+display_name = "Clear Prone"
+on_failure = ""
+on_success = "srd_proof/combat-arena/clear-prone/success"
+required_capability = "srd_proof/combat-arena/clear-prone"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = true
+self_only = true
+session_def_id = ""
+spends_channel = "srd/economy_channel/primary"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "srd_proof"
+capability_id = "srd_proof/move/proof-edge"
+display_name = "Traverse open proof-scene edge"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "srd_proof/edge/open"
+outcome_template_id = "srd_proof/edge/open/outcome"
+predicate_bool = false
+predicate_source = "actor.has_capability('srd_proof/move/proof-edge') && target.has_niche('srd_proof/edge/open')"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "srd_proof/edge/open/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/flex-str"
+display_name = "Flex (Strength check gate)"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "capability:srd_proof/check/flex-str"
+outcome_template_id = "srd_proof/flex-str/outcome"
+predicate_bool = false
+predicate_source = "(macro('srd/strength_modifier')) == 2"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "srd_proof/flex-str/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/flex-wis"
+display_name = "Flex (Wisdom check gate)"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "capability:srd_proof/check/flex-wis"
+outcome_template_id = "srd_proof/flex-wis/outcome"
+predicate_bool = false
+predicate_source = "(macro('srd/wisdom_modifier')) == 2"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "srd_proof/flex-wis/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/pressure-plate-save"
+display_name = "Resolve pressure plate (Dexterity Saving Throw)"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "capability:srd_proof/check/pressure-plate-save"
+outcome_template_id = "srd_proof/pressure-plate-save/outcome"
+predicate_bool = false
+predicate_source = "1 == 1"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "srd_proof/pressure-plate-save/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/advantage-grant"
+display_name = "Grant Advantage (finding #23 live proof — lands a condition on the target)"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "capability:srd_proof/check/advantage-grant"
+outcome_template_id = "srd_proof/advantage-grant/outcome"
+predicate_bool = false
+predicate_source = "d20 + macro('srd/strength_modifier') + macro('srd/proficiency_bonus', actor.stat('srd/level')) >= 6"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "srd_proof/advantage-grant/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/advantage-check"
+display_name = "Strength check (Advantage-biased, bare d20 — finding #23 live proof)"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "capability:srd_proof/check/advantage-check"
+outcome_template_id = "srd_proof/advantage-check/outcome"
+predicate_bool = false
+predicate_source = "d20 + macro('srd/strength_modifier') + macro('srd/proficiency_bonus', actor.stat('srd/level')) >= 15"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "srd_proof/advantage-check/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/stealth-vs-passive-perception"
+display_name = "Guard Dexterity (Stealth) vs Hero Passive Perception (C5 live proof)"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "capability:srd_proof/check/stealth-vs-passive-perception"
+outcome_template_id = "srd_proof/stealth-vs-passive-perception/outcome"
+predicate_bool = false
+predicate_source = "d20 + macro('srd/dexterity_modifier') + cond(actor.has_capability('srd/expertise/stealth'), 2, cond(actor.has_capability('srd/skill/stealth'), 1, cond(actor.has_capability('srd/class-feature/bard/jack-of-all-trades'), 1, 0))) * (macro('srd/proficiency_bonus', actor.stat('srd/level'))) / cond(actor.has_capability('srd/expertise/stealth'), 1, cond(actor.has_capability('srd/skill/stealth'), 1, cond(actor.has_capability('srd/class-feature/bard/jack-of-all-trades'), 2, 1))) >= (10 + macro('srd/ability_modifier', target.stat('srd/wis')) + cond(target.has_capability('srd/skill/perception'), macro('srd/proficiency_bonus', target.stat('srd/level')), 0))"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "srd_proof/stealth-vs-passive-perception/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/poisoned-grant"
+display_name = "Grant Poisoned (CONDITIONS PACKAGE live proof — lands the shipped srd/condition/poisoned condition)"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "capability:srd_proof/check/poisoned-grant"
+outcome_template_id = "srd_proof/poisoned-grant/outcome"
+predicate_bool = false
+predicate_source = "d20 + macro('srd/strength_modifier') + macro('srd/proficiency_bonus', actor.stat('srd/level')) >= 6"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "srd_proof/poisoned-grant/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/poisoned-check"
+display_name = "Strength check (Poisoned-biased, bare d20 — CONDITIONS PACKAGE live proof)"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "capability:srd_proof/check/poisoned-check"
+outcome_template_id = "srd_proof/poisoned-check/outcome"
+predicate_bool = false
+predicate_source = "d20 + macro('srd/strength_modifier') + macro('srd/proficiency_bonus', actor.stat('srd/level')) >= 15"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "srd_proof/poisoned-check/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/poisoned-cure"
+display_name = "Cure Poisoned (test cleanup — two independent RemoveCondition writes)"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "capability:srd_proof/check/poisoned-cure"
+outcome_template_id = "srd_proof/poisoned-cure/outcome"
+predicate_bool = false
+predicate_source = "1 == 1"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "srd_proof/poisoned-cure/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/false-modifier-grant"
+display_name = "Grant false-predicate modifier condition (finding #76 proof)"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "capability:srd_proof/check/false-modifier-grant"
+outcome_template_id = "srd_proof/false-modifier-grant/outcome"
+predicate_bool = false
+predicate_source = "1 == 1"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "srd_proof/false-modifier-grant/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/false-modifier-check"
+display_name = "Strength check with a false-predicate modifier (finding #76 proof)"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "capability:srd_proof/check/false-modifier-check"
+outcome_template_id = "srd_proof/false-modifier-check/outcome"
+predicate_bool = false
+predicate_source = "d20 + macro('srd/strength_modifier') + macro('srd/proficiency_bonus', actor.stat('srd/level')) >= 15"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "srd_proof/false-modifier-check/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/zero-reach-grant"
+display_name = "Grant zero movement reach (finding #90 proof)"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "capability:srd_proof/check/zero-reach-grant"
+outcome_template_id = "srd_proof/zero-reach-grant/outcome"
+predicate_bool = false
+predicate_source = "1 == 1"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "srd_proof/zero-reach-grant/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/zero-reach-cure"
+display_name = "Remove zero movement reach (finding #90 cleanup)"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "capability:srd_proof/check/zero-reach-cure"
+outcome_template_id = "srd_proof/zero-reach-cure/outcome"
+predicate_bool = false
+predicate_source = "1 == 1"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "srd_proof/zero-reach-cure/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = true
+bundle_id = "srd_proof"
+capability_id = "srd/action/attack"
+display_name = "Dodge actor-scope negative-control attack"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "srd.creature"
+outcome_template_id = "srd_proof/dodge-negative-attack/outcome"
+predicate_bool = false
+predicate_source = "let attack_roll = d20; macro('srd/attack_roll_hits', attack_roll, attack_roll + macro('srd/strength_modifier') + (actor.stat('srd/proficiency_bonus')), (target.effective('srd/ac')), cond(actor.has_capability('srd/class-feature/fighter/champion/improved-critical'), 19, 20))"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "srd_proof/dodge-negative-attack/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "srd_proof"
+capability_id = "srd_proof/combat-arena/clear-prone"
+display_name = "Clear Prone"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "capability:srd_proof/combat-arena/clear-prone"
+outcome_template_id = "srd_proof/combat-arena/clear-prone/outcome"
+predicate_bool = true
+predicate_source = ""
+range_m = 0.0
+reads_occupancy = false
+spends_channel = "srd/economy_channel/primary"
+stratification_ok = true
+template_id = "srd_proof/combat-arena/clear-prone/affordance"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "srd_proof"
+capability_id = "srd_proof/save-proficiency/dex"
+default_visibility = "Public"
+description = "TEST-ONLY creature-owned proficiency identity used to prove the generic d20TestExpr capability gate. Class-authored proficiency grants are outside this chapter slice."
+display_name = "Dexterity Saving Throw Proficiency (proof)"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "srd_proof"
+capability_id = "srd_proof/move/proof-edge"
+default_visibility = "Public"
+description = "TEST-ONLY movement eligibility for the two directed proof-scene edges. It does not dispatch the pressure-plate effect."
+display_name = "Traverse proof-scene edge"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/flex-str"
+default_visibility = "Public"
+description = "TEST-ONLY check capability for the slice-1b modifier proof (flex-str): holder sees the flex verb iff the gating ability modifier evaluates to +2 on the live engine (floor-correction idiom from modifier-units.ts)."
+display_name = "Flex (Strength check gate)"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/flex-wis"
+default_visibility = "Public"
+description = "TEST-ONLY check capability for the slice-1b modifier proof (flex-wis): holder sees the flex verb iff the gating ability modifier evaluates to +2 on the live engine (floor-correction idiom from modifier-units.ts)."
+display_name = "Flex (Wisdom check gate)"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/pressure-plate-save"
+default_visibility = "Public"
+description = "TEST-ONLY automatic entry resolver for the Fire-Casting Statue pressure plate (`cache/markdown/gameplay-toolbox.md:593-600`): the generic d20TestExpr reads Dexterity, level, and save proficiency from Actor; only DC 15 is read from TargetActor's 'srd_proof/save_dc'. Stochastic resolution applies 5 HP damage on success or the source's full 11 HP damage on failure."
+display_name = "Resolve pressure plate (Dexterity Saving Throw)"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/advantage-grant"
+default_visibility = "Public"
+description = "TEST-ONLY check capability for the finding #23 Advantage live proof: guaranteed-success gate (same boundary-DC trick as d20-easy) whose success consequence lands a TEST-ONLY, unconditionally-active Advantage condition on the manipulation's target via ApplyStatus."
+display_name = "Grant Advantage (finding #23 live proof — lands a condition on the target)"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/advantage-check"
+default_visibility = "Public"
+description = "TEST-ONLY check capability for the finding #23 Advantage live proof (contested DC 15): the TEST targets the SAME entity advantage-grant lands its condition on, so resolve_manipulation_gate_bias's target-keyed lookup picks it up live."
+display_name = "Strength check (Advantage-biased, bare d20 — finding #23 live proof)"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/stealth-vs-passive-perception"
+default_visibility = "Public"
+description = "TEST-ONLY check capability for the C5 Passive Perception live proof (character-creation.md:590): the SECOND ACTOR (guard) rolls a proficient Dexterity (Stealth) check against the HERO's own target-derived Passive Perception (passivePerceptionExpr('target'), character-creation/derived-units.ts) — the consumer this chapter's own 'vocabulary never ships unattached' addendum requires."
+display_name = "Guard Dexterity (Stealth) vs Hero Passive Perception (C5 live proof)"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/poisoned-grant"
+default_visibility = "Public"
+description = "TEST-ONLY check capability for the CONDITIONS PACKAGE Poisoned live proof: guaranteed-success gate (same boundary-DC trick as d20-easy/advantage-grant) whose success consequence lands BOTH the SHIPPED 'srd/condition/poisoned' condition AND its sibling 'srd/condition/poisoned/ability-check-disadvantage' onto the ACTING creature itself (target_ref: 'Actor') via TWO explicit ApplyStatus writes — Dodge's own actual twin-condition shape retained by the shipped proof. Round-3 d020 now admits implied-child removal; new content need not copy the historical separate-primary-row workaround."
+display_name = "Grant Poisoned (CONDITIONS PACKAGE live proof — lands the shipped srd/condition/poisoned condition)"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/poisoned-check"
+default_visibility = "Public"
+description = "TEST-ONLY check capability for the CONDITIONS PACKAGE Poisoned live proof (contested DC 15): poisoned-grant already landed the condition on THIS same acting creature, so its internal ability-check-disadvantage sub-condition's actor-side Disadvantage modifier composes into this roll via the 'srd/ability_check' resolution scope."
+display_name = "Strength check (Poisoned-biased, bare d20 — CONDITIONS PACKAGE live proof)"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/poisoned-cure"
+default_visibility = "Public"
+description = "TEST-ONLY cleanup capability: unconditionally removes BOTH conditions poisoned-grant landed on the ACTING creature — 'srd/condition/poisoned' and its sibling 'srd/condition/poisoned/ability-check-disadvantage' — via TWO explicit RemoveCondition writes. Each targets a PRIMARY row (`parent_row_id = None`, since poisoned-grant applies both via twin ApplyStatus, never `implies`) — `RemoveCondition`'s own `primary_condition_matches` (`remove_condition.rs`) only ever matches primary rows, so an implies-cascaded child could never have been targeted this way (confirmed live on this proof's first attempt, when the sibling WAS `implies`-linked: the cure silently no-opped on the child, corrupting later checks sharing the 'srd/ability_check' resolution scope) — the reason POISONED_DESCRIPTION's own removability finding rules out `implies` for this condition."
+display_name = "Cure Poisoned (test cleanup — two independent RemoveCondition writes)"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/false-modifier-grant"
+default_visibility = "Public"
+description = "TEST-ONLY grant for finding #76: applies a condition whose Disadvantage modifier has predicate_source = '1 == 0'."
+display_name = "Grant false-predicate modifier condition (finding #76 proof)"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/false-modifier-check"
+default_visibility = "Public"
+description = "TEST-ONLY contested check for finding #76: the actor carries a Disadvantage modifier, but its false predicate must keep the roll at one d20."
+display_name = "Strength check with a false-predicate modifier (finding #76 proof)"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/zero-reach-grant"
+default_visibility = "Public"
+description = "TEST-ONLY grant for finding #90: applies a FlatSet(0) modifier to the movement reach resource consumed by r_move."
+display_name = "Grant zero movement reach (finding #90 proof)"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/zero-reach-cure"
+default_visibility = "Public"
+description = "TEST-ONLY cleanup for finding #90: removes the zero-reach condition so later movement proofs remain independent."
+display_name = "Remove zero movement reach (finding #90 cleanup)"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "srd_proof"
+capability_id = "srd_proof/combat-arena/clear-prone"
+default_visibility = "Public"
+description = "TEST-ONLY combat-arena proof (Slice B item 4) capability: removes the acting creature's own srd/condition/prone, ending the causal-Disadvantage demonstration between narrative blocks — NOT the SRD's Stand Up (half-Speed cost, not modelable, finding #27)."
+display_name = "Clear Prone (combat-arena proof)"
+
+[[condition_definitions]]
+bundle_id = "srd_proof"
+condition_definition_id = "srd_proof/advantage_condition"
+description = "TEST-ONLY condition for the finding #23 Advantage live proof — unconditionally active once landed on a target; grants Advantage on the ResolutionCheck axis via its own modifier_templates row."
+display_name = "TEST-ONLY: Advantage (finding #23 live proof)"
+gate_predicate_source = "1 == 1"
+grants_capability_while_active = []
+hooks = []
+implies = []
+modifier_template_id = "srd_proof/advantage_modifier"
+observable = true
+remove_time_policy = "srd/remove_policy/independent_lifetime"
+stacking_rule = "srd/stacking/single"
+suppresses_capability_while_active = []
+
+[[condition_definitions]]
+bundle_id = "srd_proof"
+condition_definition_id = "srd_proof/false-modifier-condition"
+description = "Finding #76 regression carrier: the condition is active, but its modifier predicate is false and must prevent composition."
+display_name = "TEST-ONLY: false-predicate Disadvantage"
+gate_predicate_source = "1 == 1"
+grants_capability_while_active = []
+hooks = []
+implies = []
+modifier_template_id = "srd_proof/false-modifier-disadvantage"
+observable = true
+remove_time_policy = "srd/remove_policy/independent_lifetime"
+stacking_rule = "srd/stacking/single"
+suppresses_capability_while_active = []
+
+[[condition_definitions]]
+bundle_id = "srd_proof"
+condition_definition_id = "srd_proof/zero-reach-condition"
+description = "Finding #90 regression carrier: FlatSet(0) must replace the movement resource's base value before r_move checks reach."
+display_name = "TEST-ONLY: zero movement reach"
+gate_predicate_source = "1 == 1"
+grants_capability_while_active = []
+hooks = []
+implies = []
+modifier_template_id = "srd_proof/zero-reach"
+observable = true
+remove_time_policy = "srd/remove_policy/independent_lifetime"
+stacking_rule = "srd/stacking/single"
+suppresses_capability_while_active = []
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "srd_proof/pressure-plate-save/failure"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "-11"
+resource = "srd/hp"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "srd_proof/flex-str/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "srd_proof/flexed"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "srd_proof/flex-wis/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "srd_proof/flexed"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "srd_proof/pressure-plate-save/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "-5"
+resource = "srd/hp"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "srd_proof/advantage-grant/success"
+
+[consequence_frame_writes.frame_write.ApplyStatus]
+condition_definition_id = "srd_proof/advantage_condition"
+target_kind = "entity"
+target_ref = "TargetActor"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "srd_proof/advantage-check/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "srd_proof/flexed"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "srd_proof/stealth-vs-passive-perception/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "1"
+resource = "srd_proof/flexed"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "srd_proof/poisoned-grant/success"
+
+[consequence_frame_writes.frame_write.ApplyStatus]
+condition_definition_id = "srd/condition/poisoned"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "srd_proof/poisoned-grant/success"
+
+[consequence_frame_writes.frame_write.ApplyStatus]
+condition_definition_id = "srd/condition/poisoned/ability-check-disadvantage"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "srd_proof/poisoned-check/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "srd_proof/flexed"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "srd_proof/poisoned-cure/success"
+
+[consequence_frame_writes.frame_write.RemoveCondition]
+condition_definition_id = "srd/condition/poisoned"
+source_match = "Any"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "srd_proof/poisoned-cure/success"
+
+[consequence_frame_writes.frame_write.RemoveCondition]
+condition_definition_id = "srd/condition/poisoned/ability-check-disadvantage"
+source_match = "Any"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "srd_proof/false-modifier-grant/success"
+
+[consequence_frame_writes.frame_write.ApplyStatus]
+condition_definition_id = "srd_proof/false-modifier-condition"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "srd_proof/false-modifier-check/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "srd_proof/flexed"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "srd_proof/zero-reach-grant/success"
+
+[consequence_frame_writes.frame_write.ApplyStatus]
+condition_definition_id = "srd_proof/zero-reach-condition"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "srd_proof/zero-reach-cure/success"
+
+[consequence_frame_writes.frame_write.RemoveCondition]
+condition_definition_id = "srd_proof/zero-reach-condition"
+source_match = "Any"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "srd_proof/reaction-suppression/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "0"
+resource = "srd/hp"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "srd_proof/combat-arena/clear-prone/success"
+
+[consequence_frame_writes.frame_write.RemoveCondition]
+condition_definition_id = "srd/condition/prone"
+source_match = "Any"
+target_kind = "entity"
+target_ref = "TargetActor"
+
+[[consequence_templates]]
+bundle_id = "srd_proof"
+template_id = "srd_proof/pressure-plate-save/failure"
+
+[[consequence_templates]]
+bundle_id = "srd_proof"
+template_id = "srd_proof/flex-str/success"
+
+[[consequence_templates]]
+bundle_id = "srd_proof"
+template_id = "srd_proof/flex-wis/success"
+
+[[consequence_templates]]
+bundle_id = "srd_proof"
+template_id = "srd_proof/pressure-plate-save/success"
+
+[[consequence_templates]]
+bundle_id = "srd_proof"
+template_id = "srd_proof/advantage-grant/success"
+
+[[consequence_templates]]
+bundle_id = "srd_proof"
+template_id = "srd_proof/advantage-check/success"
+
+[[consequence_templates]]
+bundle_id = "srd_proof"
+template_id = "srd_proof/stealth-vs-passive-perception/success"
+
+[[consequence_templates]]
+bundle_id = "srd_proof"
+template_id = "srd_proof/poisoned-grant/success"
+
+[[consequence_templates]]
+bundle_id = "srd_proof"
+template_id = "srd_proof/poisoned-check/success"
+
+[[consequence_templates]]
+bundle_id = "srd_proof"
+template_id = "srd_proof/poisoned-cure/success"
+
+[[consequence_templates]]
+bundle_id = "srd_proof"
+template_id = "srd_proof/false-modifier-grant/success"
+
+[[consequence_templates]]
+bundle_id = "srd_proof"
+template_id = "srd_proof/false-modifier-check/success"
+
+[[consequence_templates]]
+bundle_id = "srd_proof"
+template_id = "srd_proof/zero-reach-grant/success"
+
+[[consequence_templates]]
+bundle_id = "srd_proof"
+template_id = "srd_proof/zero-reach-cure/success"
+
+[[consequence_templates]]
+bundle_id = "srd_proof"
+description = "TEST-ONLY zero-delta HP write keeps this reservation non-steering while the action-economy gate spends the reaction channel."
+template_id = "srd_proof/reaction-suppression/success"
+
+[[consequence_templates]]
+bundle_id = "srd_proof"
+template_id = "srd_proof/dodge-negative-attack/success"
+
+[[consequence_templates]]
+bundle_id = "srd_proof"
+description = "Remove srd/condition/prone from the acting creature."
+template_id = "srd_proof/combat-arena/clear-prone/success"
+
+[[modifier_target_definitions]]
+bundle_id = "srd_proof"
+display_name = "False-predicate roll scope (proof)"
+shape = "Numeric"
+target_id = "srd_proof/false-modifier-scope"
+
+[[modifier_target_definitions]]
+bundle_id = "srd_proof"
+display_name = "Movement reach (proof)"
+shape = "Numeric"
+target_id = "srd_proof/movement_reach"
+
+[[modifier_template_tag]]
+bundle_id = "srd_proof"
+modifier_template_id = "srd_proof/advantage_modifier"
+source = "manifest"
+tag = "srd.roll_bias.advantage"
+
+[[modifier_template_tag]]
+bundle_id = "srd_proof"
+modifier_template_id = "srd_proof/false-modifier-disadvantage"
+source = "manifest"
+tag = "srd.roll_bias.disadvantage"
+
+[[modifier_templates]]
+applies_to = "ResolutionCheck"
+bundle_id = "srd_proof"
+delta_kind = "Advantage"
+display_name = "TEST-ONLY: Advantage on the resolution check"
+modifier_expression_source = "let unused = 0; unused"
+modifier_template_id = "srd_proof/advantage_modifier"
+predicate_source = ""
+priority = 0
+
+[[modifier_templates]]
+applies_to = "srd_proof/false-modifier-scope"
+bundle_id = "srd_proof"
+delta_kind = "Disadvantage"
+display_name = "TEST-ONLY: gated-off Disadvantage"
+modifier_expression_source = "let unused = 0; unused"
+modifier_template_id = "srd_proof/false-modifier-disadvantage"
+predicate_source = "1 == 0"
+priority = 0
+
+[[modifier_templates]]
+applies_to = "srd_proof/movement_reach"
+bundle_id = "srd_proof"
+delta_kind = "FlatSet"
+display_name = "TEST-ONLY: movement reach 0"
+modifier_expression_source = "let zero = 0; zero"
+modifier_template_id = "srd_proof/zero-reach"
+predicate_source = ""
+priority = 0
+
+[[outcome_templates]]
+bundle_id = "srd_proof"
+consequence_template_id = ""
+display_name = "Traverse open proof-scene edge"
+movement_descriptor = "move"
+outcome_bool = true
+outcome_template_id = "srd_proof/edge/open/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "srd_proof"
+consequence_template_id = ""
+display_name = "Flex (Strength check gate)"
+manipulation_action_id = "srd_proof/flex-str"
+outcome_bool = true
+outcome_template_id = "srd_proof/flex-str/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "srd_proof"
+consequence_template_id = ""
+display_name = "Flex (Wisdom check gate)"
+manipulation_action_id = "srd_proof/flex-wis"
+outcome_bool = true
+outcome_template_id = "srd_proof/flex-wis/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "srd_proof"
+consequence_template_id = ""
+display_name = "Resolve pressure plate (Dexterity Saving Throw)"
+manipulation_action_id = "srd_proof/pressure-plate-save"
+outcome_bool = true
+outcome_template_id = "srd_proof/pressure-plate-save/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "srd_proof"
+consequence_template_id = ""
+display_name = "Grant Advantage (finding #23 live proof — lands a condition on the target)"
+manipulation_action_id = "srd_proof/advantage-grant"
+outcome_bool = true
+outcome_template_id = "srd_proof/advantage-grant/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "srd_proof"
+consequence_template_id = ""
+display_name = "Strength check (Advantage-biased, bare d20 — finding #23 live proof)"
+manipulation_action_id = "srd_proof/advantage-check"
+outcome_bool = true
+outcome_template_id = "srd_proof/advantage-check/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "srd_proof"
+consequence_template_id = ""
+display_name = "Guard Dexterity (Stealth) vs Hero Passive Perception (C5 live proof)"
+manipulation_action_id = "srd_proof/stealth-vs-passive-perception"
+outcome_bool = true
+outcome_template_id = "srd_proof/stealth-vs-passive-perception/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "srd_proof"
+consequence_template_id = ""
+display_name = "Grant Poisoned (CONDITIONS PACKAGE live proof — lands the shipped srd/condition/poisoned condition)"
+manipulation_action_id = "srd_proof/poisoned-grant"
+outcome_bool = true
+outcome_template_id = "srd_proof/poisoned-grant/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "srd_proof"
+consequence_template_id = ""
+display_name = "Strength check (Poisoned-biased, bare d20 — CONDITIONS PACKAGE live proof)"
+manipulation_action_id = "srd_proof/poisoned-check"
+outcome_bool = true
+outcome_template_id = "srd_proof/poisoned-check/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "srd_proof"
+consequence_template_id = ""
+display_name = "Cure Poisoned (test cleanup — two independent RemoveCondition writes)"
+manipulation_action_id = "srd_proof/poisoned-cure"
+outcome_bool = true
+outcome_template_id = "srd_proof/poisoned-cure/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "srd_proof"
+consequence_template_id = ""
+display_name = "Grant false-predicate modifier condition (finding #76 proof)"
+manipulation_action_id = "srd_proof/false-modifier-grant"
+outcome_bool = true
+outcome_template_id = "srd_proof/false-modifier-grant/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "srd_proof"
+consequence_template_id = ""
+display_name = "Strength check with a false-predicate modifier (finding #76 proof)"
+manipulation_action_id = "srd_proof/false-modifier-check"
+outcome_bool = true
+outcome_template_id = "srd_proof/false-modifier-check/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "srd_proof"
+consequence_template_id = ""
+display_name = "Grant zero movement reach (finding #90 proof)"
+manipulation_action_id = "srd_proof/zero-reach-grant"
+outcome_bool = true
+outcome_template_id = "srd_proof/zero-reach-grant/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "srd_proof"
+consequence_template_id = ""
+display_name = "Remove zero movement reach (finding #90 cleanup)"
+manipulation_action_id = "srd_proof/zero-reach-cure"
+outcome_bool = true
+outcome_template_id = "srd_proof/zero-reach-cure/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "srd_proof"
+consequence_template_id = ""
+display_name = "Reserve reaction for non-OA proof work"
+manipulation_action_id = "srd_proof/reaction-suppression"
+outcome_bool = true
+outcome_template_id = "srd_proof/reaction-suppression/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "srd_proof"
+consequence_template_id = ""
+display_name = "Dodge actor-scope negative-control attack"
+manipulation_action_id = "srd_proof/dodge-negative-attack"
+outcome_bool = true
+outcome_template_id = "srd_proof/dodge-negative-attack/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "srd_proof"
+consequence_template_id = ""
+display_name = "Clear Prone"
+manipulation_action_id = "srd_proof/combat-arena/clear-prone"
+outcome_bool = true
+outcome_template_id = "srd_proof/combat-arena/clear-prone/outcome"
+sense_visibility = "local"
+
+[[spatial_niche_attachments]]
+bundle_id = "srd_proof"
+condition_bool = true
+ecological_invariant = false
+niche_id = "srd_proof/edge/open"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_edge_id = 0
+place_node_id = ""
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "srd_proof"
+condition_bool = true
+ecological_invariant = false
+niche_id = "capability:srd_proof/check/flex-str"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "srd_proof_scene/cell_a"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "srd_proof"
+condition_bool = true
+ecological_invariant = false
+niche_id = "capability:srd_proof/check/flex-wis"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "srd_proof_scene/cell_a"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "srd_proof"
+condition_bool = true
+ecological_invariant = false
+niche_id = "capability:srd_proof/check/pressure-plate-save"
+on_entry_action_id = "srd_proof/pressure-plate-save"
+on_entry_target_entity_key = "srd_proof/pressure-plate_1"
+place_node_id = "srd_proof_scene/pressure_plate"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "srd_proof"
+condition_bool = true
+ecological_invariant = false
+niche_id = "capability:srd_proof/check/advantage-grant"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "srd_proof_scene/cell_a"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "srd_proof"
+condition_bool = true
+ecological_invariant = false
+niche_id = "capability:srd_proof/check/advantage-check"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "srd_proof_scene/cell_a"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "srd_proof"
+condition_bool = true
+ecological_invariant = false
+niche_id = "capability:srd_proof/check/stealth-vs-passive-perception"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "srd_proof_scene/cell_a"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "srd_proof"
+condition_bool = true
+ecological_invariant = false
+niche_id = "capability:srd_proof/check/poisoned-grant"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "srd_proof_scene/cell_a"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "srd_proof"
+condition_bool = true
+ecological_invariant = false
+niche_id = "capability:srd_proof/check/poisoned-check"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "srd_proof_scene/cell_a"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "srd_proof"
+condition_bool = true
+ecological_invariant = false
+niche_id = "capability:srd_proof/check/poisoned-cure"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "srd_proof_scene/cell_a"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "srd_proof"
+condition_bool = true
+ecological_invariant = false
+niche_id = "capability:srd_proof/check/false-modifier-grant"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "srd_proof_scene/cell_a"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "srd_proof"
+condition_bool = true
+ecological_invariant = false
+niche_id = "capability:srd_proof/check/false-modifier-check"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "srd_proof_scene/cell_a"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "srd_proof"
+condition_bool = true
+ecological_invariant = false
+niche_id = "capability:srd_proof/check/zero-reach-grant"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "srd_proof_scene/cell_a"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "srd_proof"
+condition_bool = true
+ecological_invariant = false
+niche_id = "capability:srd_proof/check/zero-reach-cure"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "srd_proof_scene/cell_a"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "srd_proof"
+condition_bool = true
+ecological_invariant = false
+niche_id = "srd.creature"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "srd_proof_scene/cell_a"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "srd_proof"
+condition_bool = true
+ecological_invariant = false
+niche_id = "capability:srd/action/dodge"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "srd_proof_scene/cell_a"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "srd_proof"
+condition_bool = true
+ecological_invariant = false
+niche_id = "capability:srd/action/short-rest"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "srd_proof_scene/cell_a"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "srd_proof"
+condition_bool = true
+ecological_invariant = false
+niche_id = "capability:srd/action/long-rest"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "srd_proof_scene/cell_a"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "srd_proof"
+condition_bool = true
+ecological_invariant = false
+niche_id = "capability:srd/class-feature/fighter/second-wind"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "srd_proof_scene/cell_a"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "srd_proof"
+condition_bool = true
+ecological_invariant = false
+niche_id = "srd/niche/traversable-square"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_edge_id = 0
+place_node_id = ""
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "srd_proof"
+condition_bool = true
+ecological_invariant = false
+niche_id = "srd/niche/strikeable"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "srd_proof_scene/combat_arena_gate"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "srd_proof"
+condition_bool = true
+ecological_invariant = false
+niche_id = "capability:srd/action/drop-prone"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "srd_proof_scene/combat_arena_gate"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "srd_proof"
+condition_bool = true
+ecological_invariant = false
+niche_id = "capability:srd_proof/combat-arena/clear-prone"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "srd_proof_scene/combat_arena_gate"
+visibility = "Public"

@@ -1,0 +1,69 @@
+{
+  "name": "@spellkave/adventure-runtime",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Adventure-generic authoring library: DM data and act plans, hero stage helpers, combat-role catalog (ADR-0115 D-3/D-4).",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./dm/companion-bond": "./src/dm/companion-bond/index.ts",
+    "./dm/creation": "./src/dm/creation/index.ts",
+    "./dm/data": "./src/dm/data/index.ts",
+    "./dm/dialog": "./src/dm/dialog/index.ts",
+    "./dm/dialog/ids": "./src/dm/dialog/ids.ts",
+    "./dm/creation/companion": "./src/dm/creation/companion.ts",
+    "./dm/creation/draft-state": "./src/dm/creation/draft-state.ts",
+    "./dm/host-act": "./src/dm/host-act/index.ts",
+    "./dm/level-up": "./src/dm/level-up/index.ts",
+    "./dm/lib": "./src/dm/lib/index.ts",
+    "./dm/loot": "./src/dm/loot/index.ts",
+    "./dm/watches": "./src/dm/watches/index.ts",
+    "./dm/xp": "./src/dm/xp/index.ts",
+    "./dm/*": "./src/dm/*",
+    "./srd-ids": "./src/srd-ids.ts",
+    "./npc-kinds": "./src/npc-kinds/combat-role-catalog.ts",
+    "./author/dm": "./src/author/dm/aldwin.ts",
+    "./author/dm/*": "./src/author/dm/*",
+    "./stage": "./src/stage/index.ts",
+    "./stage/hero-discovery": "./src/stage/hero-discovery.ts",
+    "./dm/lib/dm-act-plan": "./src/dm/lib/dm-act-plan.ts",
+    "./dm/data/srd-catalog": "./src/dm/data/srd-catalog.ts",
+    "./dm/creation/selected-equipment": "./src/dm/creation/selected-equipment.ts",
+    "./dm/creation/pregen-confirm": "./src/dm/creation/pregen-confirm.ts",
+    "./author/dm/authored-act": "./src/author/dm/authored-act.ts",
+    "./dm/creation/confirmation-plan": "./src/dm/creation/confirmation-plan.ts",
+    "./author/dm/creation-composition": "./src/author/dm/creation-composition.ts",
+    "./author/dm/selected-equipment": "./src/author/dm/selected-equipment.ts",
+    "./stage/hero-bootstrap": "./src/stage/hero-bootstrap.ts",
+    "./stage/actor-connection": "./src/stage/actor-connection.ts",
+    "./author/dm/quest-xp-acts": "./src/author/dm/quest-xp-acts.ts"
+  },
+  "files": [
+    "src",
+    "LICENSE.md",
+    "NOTICE.md",
+    "LICENSES"
+  ],
+  "scripts": {
+    "author:dm": "tsx src/author/dm/generate.ts",
+    "author:dm:check": "tsx src/author/dm/generate.ts --check",
+    "stage-adventure": "tsx src/stage/stage-adventure.ts",
+    "orient-adventure": "tsx src/stage/orient-adventure.ts"
+  },
+  "dependencies": {
+    "@spellkave/tool-authoring": "0.1.2",
+    "@spellkave/sdk": "0.1.2",
+    "@spellkave/session": "0.1.2",
+    "@spellkave/tool-node": "0.1.2",
+    "@spellkave/agent-observability": "0.1.2",
+    "@spellkave/world-author": "0.1.2",
+    "smol-toml": "^1.9.1",
+    "tsx": "^4.19.2"
+  },
+  "license": "(CC-BY-4.0 AND PolyForm-Shield-1.0.0)"
+}

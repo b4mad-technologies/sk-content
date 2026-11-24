@@ -1,0 +1,33 @@
+[[entities]]
+bundle_id = "srd_proof"
+description = "TEST-ONLY pressure plate target for automatic Saving Throw resolution."
+entity_def_id = "srd_proof/pressure-plate"
+entity_key = "srd_proof/pressure-plate_1"
+kind = "item"
+name = "Srd Proof Pressure Plate 1"
+owned_by_entity_key = ""
+place_node_id = "srd_proof_scene/pressure_plate"
+quantity = 1
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/pressure-plate"
+state_id = "srd_proof/save_dc"
+value_bool = true
+value_int = 15
+
+[[entity_definitions]]
+affordance_seed_id = ""
+bundle_id = "srd_proof"
+description = "TEST-ONLY source-backed pressure plate. Its sole initial state is the effect's DC; the entering creature owns every Saving Throw input and affected resource."
+display_name = "Fire-Casting Statue Pressure Plate"
+entity_def_id = "srd_proof/pressure-plate"
+grants_capability_while_equipped = ""
+grants_capability_while_present_in_location = ""
+lineage_id = ""
+on_consume_consequence_id = ""
+on_destroy_consequence_id = ""
+on_equip_consequence_id = ""
+on_unequip_consequence_id = ""
+slot_compatibility_predicate = ""
+stackable = false

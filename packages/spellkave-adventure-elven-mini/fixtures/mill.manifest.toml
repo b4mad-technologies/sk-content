@@ -1,0 +1,743 @@
+#:schema https://spellkave.dev/schema/world-manifest-1.0.0.json
+applyset = "elven_mini.mill"
+schema_version = "1.0.0"
+
+[[bundles]]
+allow_flat_tags = false
+author = "spellkave-srd-cc"
+bundle_id = "elven_mini"
+default_extent_params_json = '{"extent_m": 4.5}'
+default_extent_shape_id = "core/area/cube"
+depends_on = [
+    "srd",
+    "dm",
+]
+description = "Playing-the-Game proof mini-world (elven multi-graph). Map art © Elven Tower Maps (CC BY 4.0). https://www.patreon.com/elventower/posts/creative-commons-153067169"
+display_name = "Playing the Game proof scene"
+version = "1.0.0"
+
+[[bundles.tag_prefixes]]
+prefix = "elven_mini"
+
+[metadata]
+bundle = "elven_mini"
+profile = "elven_mini_mill"
+
+[[movement_defaults]]
+affordance_template_id = "srd/affordance/step"
+bindings_json = '{"movement_reach_resource":"srd/speed-walk","long_running_move_session":"srd/long_running_move"}'
+bundle_id = "elven_mini"
+mode_id = ""
+place_graph_id = ""
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/mill/yard->elven_mini/mill/windmill_lv1"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/mill/yard"
+inherit_movement_default = true
+place_graph_id = "elven_mini/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/mill/windmill_lv1"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/mill/windmill_lv1->elven_mini/mill/yard"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/mill/windmill_lv1"
+inherit_movement_default = true
+place_graph_id = "elven_mini/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/mill/yard"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/mill/windmill_lv1->elven_mini/mill/windmill_lv2"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/mill/windmill_lv1"
+inherit_movement_default = true
+place_graph_id = "elven_mini/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/mill/windmill_lv2"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/mill/windmill_lv2->elven_mini/mill/windmill_lv1"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/mill/windmill_lv2"
+inherit_movement_default = true
+place_graph_id = "elven_mini/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/mill/windmill_lv1"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/mill/yard->elven_mini/mill/inn_building"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/mill/yard"
+inherit_movement_default = true
+place_graph_id = "elven_mini/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/mill/inn_building"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/mill/inn_building->elven_mini/mill/yard"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/mill/inn_building"
+inherit_movement_default = true
+place_graph_id = "elven_mini/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/mill/yard"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/mill/yard->elven_mini/mill/sentry_post"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/mill/yard"
+inherit_movement_default = true
+place_graph_id = "elven_mini/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/mill/sentry_post"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/mill/sentry_post->elven_mini/mill/yard"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/mill/sentry_post"
+inherit_movement_default = true
+place_graph_id = "elven_mini/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/mill/yard"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/mill/sentry_post->elven_mini/mill/tunnels"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/mill/sentry_post"
+inherit_movement_default = true
+place_graph_id = "elven_mini/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/mill/tunnels"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/mill/tunnels->elven_mini/mill/sentry_post"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/mill/tunnels"
+inherit_movement_default = true
+place_graph_id = "elven_mini/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/mill/sentry_post"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/mill/tunnels->elven_mini/mill/intersection"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/mill/tunnels"
+inherit_movement_default = true
+place_graph_id = "elven_mini/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/mill/intersection"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/mill/intersection->elven_mini/mill/tunnels"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/mill/intersection"
+inherit_movement_default = true
+place_graph_id = "elven_mini/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/mill/tunnels"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/mill/intersection->elven_mini/mill/sacrifice_room"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/mill/intersection"
+inherit_movement_default = true
+place_graph_id = "elven_mini/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/mill/sacrifice_room"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/mill/sacrifice_room->elven_mini/mill/intersection"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/mill/sacrifice_room"
+inherit_movement_default = true
+place_graph_id = "elven_mini/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/mill/intersection"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/mill/intersection->elven_mini/mill/storage"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/mill/intersection"
+inherit_movement_default = true
+place_graph_id = "elven_mini/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/mill/storage"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/mill/storage->elven_mini/mill/intersection"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/mill/storage"
+inherit_movement_default = true
+place_graph_id = "elven_mini/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/mill/intersection"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/mill/storage->elven_mini/mill/altar"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/mill/storage"
+inherit_movement_default = true
+place_graph_id = "elven_mini/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/mill/altar"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/mill/altar->elven_mini/mill/storage"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/mill/altar"
+inherit_movement_default = true
+place_graph_id = "elven_mini/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/mill/storage"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/mill/intersection->elven_mini/mill/gallery"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/mill/intersection"
+inherit_movement_default = true
+place_graph_id = "elven_mini/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/mill/gallery"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/mill/gallery->elven_mini/mill/intersection"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/mill/gallery"
+inherit_movement_default = true
+place_graph_id = "elven_mini/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/mill/intersection"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/mill/gallery->elven_mini/mill/secret_storage"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/mill/gallery"
+inherit_movement_default = true
+place_graph_id = "elven_mini/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/mill/secret_storage"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/mill/secret_storage->elven_mini/mill/gallery"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/mill/secret_storage"
+inherit_movement_default = true
+place_graph_id = "elven_mini/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/mill/gallery"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/mill/altar->elven_mini/mill/gallery"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/mill/altar"
+inherit_movement_default = true
+place_graph_id = "elven_mini/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/mill/gallery"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/mill/gallery->elven_mini/mill/altar"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/mill/gallery"
+inherit_movement_default = true
+place_graph_id = "elven_mini/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/mill/altar"
+
+[[place_graphs]]
+anchor_node_id = "elven_mini/mill/yard"
+bearing = 0.0
+blueprint_id = ""
+bundle_id = "elven_mini"
+description = "An abandoned windmill and roadside inn whose cellars open into cult tunnels beneath the hill."
+display_name = "Mill"
+is_ephemeral_instance = false
+metres_per_unit = 1.5240000486373901
+origin_cell_res10 = 0
+origin_cell_res4 = 0
+origin_cell_res7 = 0
+parent_graph_id = "elven_mini/river_crossing"
+place_graph_id = "elven_mini/mill"
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A wind-scoured yard between the mill and the roadside inn, cart ruts filled with rainwater."
+display_name = "Mill Yard"
+extent_params_json = '{"extent_m":3.81,"extent_x_m":3.81,"extent_y_m":3.048,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "yard"
+node_id = "elven_mini/mill/yard"
+place_graph_id = "elven_mini/mill"
+pos_present = true
+pos_x = 8
+pos_y = 8
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "The windmill's ground floor — gear teeth silent, flour dust long settled."
+display_name = "Windmill Level 1"
+extent_params_json = '{"extent_m":3.048,"extent_x_m":3.048,"extent_y_m":3.048,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "windmill_lv1"
+node_id = "elven_mini/mill/windmill_lv1"
+place_graph_id = "elven_mini/mill"
+pos_present = true
+pos_x = 6
+pos_y = 6
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "The upper mill chamber, vanes creaking overhead though no grain turns."
+display_name = "Windmill Level 2"
+extent_params_json = '{"extent_m":2.286,"extent_x_m":2.286,"extent_y_m":2.286,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "windmill_lv2"
+node_id = "elven_mini/mill/windmill_lv2"
+place_graph_id = "elven_mini/mill"
+pos_present = true
+pos_x = 6
+pos_y = 3
+pose_elevation = 3.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A shuttered roadside inn, tables shoved aside as if left in a hurry."
+display_name = "Cult Inn"
+extent_params_json = '{"extent_m":4.572,"extent_x_m":4.572,"extent_y_m":3.048,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "inn_building"
+node_id = "elven_mini/mill/inn_building"
+place_graph_id = "elven_mini/mill"
+pos_present = true
+pos_x = 26
+pos_y = 6
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A dug-in sentry niche overlooking the tunnel mouth under the mill."
+display_name = "Sentry Post"
+extent_params_json = '{"extent_m":2.286,"extent_x_m":2.286,"extent_y_m":1.829,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "sentry_post"
+node_id = "elven_mini/mill/sentry_post"
+place_graph_id = "elven_mini/mill"
+pos_present = true
+pos_x = 10
+pos_y = 12
+pose_elevation = -1.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "Rough-hewn cult tunnels smelling of lamp oil and old blood."
+display_name = "Cult Tunnels"
+extent_params_json = '{"extent_m":4.572,"extent_x_m":4.572,"extent_y_m":3.048,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "tunnels"
+node_id = "elven_mini/mill/tunnels"
+place_graph_id = "elven_mini/mill"
+pos_present = true
+pos_x = 16
+pos_y = 14
+pose_elevation = -2.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A four-way intersection where tunnel sentries once stood watch."
+display_name = "Intersection Sentries"
+extent_params_json = '{"extent_m":3.048,"extent_x_m":3.048,"extent_y_m":3.048,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "intersection"
+node_id = "elven_mini/mill/intersection"
+place_graph_id = "elven_mini/mill"
+pos_present = true
+pos_x = 18
+pos_y = 18
+pose_elevation = -2.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A low chamber with chains and a stained floor — the sacrifice room."
+display_name = "Sacrifice Room"
+extent_params_json = '{"extent_m":4.572,"extent_x_m":4.572,"extent_y_m":3.81,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "sacrifice_room"
+node_id = "elven_mini/mill/sacrifice_room"
+place_graph_id = "elven_mini/mill"
+pos_present = true
+pos_x = 8
+pos_y = 22
+pose_elevation = -3.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "Crates and oil jars stacked against damp stone."
+display_name = "Storage Room"
+extent_params_json = '{"extent_m":3.048,"extent_x_m":3.048,"extent_y_m":2.286,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "storage"
+node_id = "elven_mini/mill/storage"
+place_graph_id = "elven_mini/mill"
+pos_present = true
+pos_x = 24
+pos_y = 14
+pose_elevation = -2.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A carved altar to something older than the valley's gods."
+display_name = "Old One Altar"
+extent_params_json = '{"extent_m":3.81,"extent_x_m":3.81,"extent_y_m":3.048,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "altar"
+node_id = "elven_mini/mill/altar"
+place_graph_id = "elven_mini/mill"
+pos_present = true
+pos_x = 30
+pos_y = 14
+pose_elevation = -2.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A grand gallery sloping down toward a sunken pass."
+display_name = "Grand Gallery"
+extent_params_json = '{"extent_m":4.572,"extent_x_m":4.572,"extent_y_m":3.81,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "gallery"
+node_id = "elven_mini/mill/gallery"
+place_graph_id = "elven_mini/mill"
+pos_present = true
+pos_x = 24
+pos_y = 22
+pose_elevation = -3.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A cramped secret store behind a false wall of crates."
+display_name = "Secret Storage"
+extent_params_json = '{"extent_m":2.286,"extent_x_m":2.286,"extent_y_m":2.286,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "secret_storage"
+node_id = "elven_mini/mill/secret_storage"
+place_graph_id = "elven_mini/mill"
+pos_present = true
+pos_x = 32
+pos_y = 24
+pose_elevation = -3.0
+pose_elevation_present = true
+substrate_id = "indoor"

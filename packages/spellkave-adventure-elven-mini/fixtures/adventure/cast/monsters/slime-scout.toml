@@ -1,0 +1,30 @@
+[[actor_spatial_locations]]
+bundle_id = "elven_mini"
+entity_key = "elven_mini/adventure/npc/slime_scout_1"
+place_node_id = "elven_mini/tomb/hall"
+selection_path = "manifest:elven_mini/adventure/npc/slime_scout_1"
+
+[[actors]]
+bundle_id = "elven_mini"
+entity_key = "elven_mini/adventure/npc/slime_scout_1"
+name = "Slime Scout"
+
+[[entities]]
+bundle_id = "elven_mini"
+description = "A glistening scout ooze blocking the sarcophagus hall."
+entity_def_id = "srd/creature/gray-ooze"
+entity_key = "elven_mini/adventure/npc/slime_scout_1"
+kind = "npc"
+name = "Slime Scout"
+owned_by_entity_key = ""
+place_node_id = "elven_mini/tomb/hall"
+quantity = 1
+
+[[object_state]]
+bundle_id = "elven_mini"
+entity_key = "elven_mini/adventure/npc/slime_scout_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "srd/hp"
+value_bool = true
+value_int = 3

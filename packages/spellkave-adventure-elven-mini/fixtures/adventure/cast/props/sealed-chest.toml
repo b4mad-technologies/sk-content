@@ -1,0 +1,45 @@
+[[entities]]
+bundle_id = "elven_mini"
+description = "Sealed Chest"
+entity_def_id = "elven_mini/adventure/item/tomb_chest"
+entity_key = "elven_mini/adventure/item/tomb_chest_1"
+kind = "item"
+name = "Sealed Chest"
+owned_by_entity_key = ""
+place_node_id = "elven_mini/tomb/shrine"
+quantity = 1
+
+[[entity_definition_containment_policy]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/item/tomb_chest"
+policy_id = "elven_mini/containment/sealed"
+
+[[entity_definition_initial_state]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/item/tomb_chest"
+state_id = "srd/ac"
+value_bool = true
+value_int = 15
+
+[[entity_definition_initial_state]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/item/tomb_chest"
+state_id = "srd/hp"
+value_bool = true
+value_int = 10
+
+[[entity_definitions]]
+affordance_seed_id = ""
+bundle_id = "elven_mini"
+description = "A sealed wooden chest in the tomb's shrine."
+display_name = "Sealed Chest"
+entity_def_id = "elven_mini/adventure/item/tomb_chest"
+grants_capability_while_equipped = ""
+grants_capability_while_present_in_location = ""
+lineage_id = ""
+on_consume_consequence_id = ""
+on_destroy_consequence_id = ""
+on_equip_consequence_id = ""
+on_unequip_consequence_id = ""
+slot_compatibility_predicate = ""
+stackable = false

@@ -1,0 +1,628 @@
+#:schema https://spellkave.dev/schema/world-manifest-1.0.0.json
+applyset = "srd_proof.tavern"
+schema_version = "1.0.0"
+
+[[actor_spatial_locations]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/tavern/patron_1_1"
+place_node_id = "srd_proof/tavern/common"
+selection_path = "manifest:srd_proof/tavern/patron_1_1"
+
+[[actor_spatial_locations]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/tavern/patron_2_1"
+place_node_id = "srd_proof/tavern/common"
+selection_path = "manifest:srd_proof/tavern/patron_2_1"
+
+[[actor_spatial_locations]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/tavern/barkeep_1"
+place_node_id = "srd_proof/tavern/bar"
+selection_path = "manifest:srd_proof/tavern/barkeep_1"
+
+[[actor_spatial_locations]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/tavern/cook_1"
+place_node_id = "srd_proof/tavern/kitchen"
+selection_path = "manifest:srd_proof/tavern/cook_1"
+
+[[actor_spatial_locations]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/tavern/spy_1"
+place_node_id = "srd_proof/tavern/booth"
+selection_path = "manifest:srd_proof/tavern/spy_1"
+
+[[actor_spatial_locations]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/tavern/rat_1"
+place_node_id = "srd_proof/tavern/cellar_ale"
+selection_path = "manifest:srd_proof/tavern/rat_1"
+
+[[actors]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/tavern/patron_1_1"
+name = "Npc 1"
+
+[[actors]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/tavern/patron_2_1"
+name = "Npc 1"
+
+[[actors]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/tavern/barkeep_1"
+name = "Npc 1"
+
+[[actors]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/tavern/cook_1"
+name = "Npc 1"
+
+[[actors]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/tavern/spy_1"
+name = "Npc 1"
+
+[[actors]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/tavern/rat_1"
+name = "Npc 1"
+
+[[bundles]]
+allow_flat_tags = false
+author = "spellkave-srd-cc"
+bundle_id = "srd_proof"
+default_extent_params_json = '{"extent_m": 4.5}'
+default_extent_shape_id = "core/area/cube"
+depends_on = ["srd"]
+description = "Common room, bar, kitchen, stairs, private booth; cellar stores."
+display_name = "Tavern (detailed ground + cellar)"
+tag_prefixes = []
+version = "1.0.0"
+
+[[entities]]
+bundle_id = "srd_proof"
+entity_def_id = ""
+entity_key = "srd_proof/tavern/patron_1_1"
+kind = "npc"
+name = "Npc 1"
+owned_by_entity_key = ""
+place_node_id = "srd_proof/tavern/common"
+quantity = 1
+
+[[entities]]
+bundle_id = "srd_proof"
+entity_def_id = ""
+entity_key = "srd_proof/tavern/patron_2_1"
+kind = "npc"
+name = "Npc 1"
+owned_by_entity_key = ""
+place_node_id = "srd_proof/tavern/common"
+quantity = 1
+
+[[entities]]
+bundle_id = "srd_proof"
+entity_def_id = ""
+entity_key = "srd_proof/tavern/barkeep_1"
+kind = "npc"
+name = "Npc 1"
+owned_by_entity_key = ""
+place_node_id = "srd_proof/tavern/bar"
+quantity = 1
+
+[[entities]]
+bundle_id = "srd_proof"
+entity_def_id = ""
+entity_key = "srd_proof/tavern/cook_1"
+kind = "npc"
+name = "Npc 1"
+owned_by_entity_key = ""
+place_node_id = "srd_proof/tavern/kitchen"
+quantity = 1
+
+[[entities]]
+bundle_id = "srd_proof"
+entity_def_id = ""
+entity_key = "srd_proof/tavern/spy_1"
+kind = "npc"
+name = "Npc 1"
+owned_by_entity_key = ""
+place_node_id = "srd_proof/tavern/booth"
+quantity = 1
+
+[[entities]]
+bundle_id = "srd_proof"
+entity_def_id = ""
+entity_key = "srd_proof/tavern/rat_1"
+kind = "npc"
+name = "Npc 1"
+owned_by_entity_key = ""
+place_node_id = "srd_proof/tavern/cellar_ale"
+quantity = 1
+
+[[movement_defaults]]
+affordance_template_id = "srd/affordance/step"
+bindings_json = '{"movement_reach_resource":"srd/speed-walk","long_running_move_session":"srd/long_running_move"}'
+bundle_id = "srd_proof"
+mode_id = ""
+place_graph_id = ""
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof/tavern/common->srd_proof/tavern/bar"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof/tavern/common"
+inherit_movement_default = true
+place_graph_id = "srd_proof/tavern"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof/tavern/bar"
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof/tavern/bar->srd_proof/tavern/common"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof/tavern/bar"
+inherit_movement_default = true
+place_graph_id = "srd_proof/tavern"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof/tavern/common"
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof/tavern/bar->srd_proof/tavern/kitchen"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof/tavern/bar"
+inherit_movement_default = true
+place_graph_id = "srd_proof/tavern"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof/tavern/kitchen"
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof/tavern/kitchen->srd_proof/tavern/bar"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof/tavern/kitchen"
+inherit_movement_default = true
+place_graph_id = "srd_proof/tavern"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof/tavern/bar"
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof/tavern/common->srd_proof/tavern/booth"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof/tavern/common"
+inherit_movement_default = true
+place_graph_id = "srd_proof/tavern"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof/tavern/booth"
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof/tavern/booth->srd_proof/tavern/common"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof/tavern/booth"
+inherit_movement_default = true
+place_graph_id = "srd_proof/tavern"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof/tavern/common"
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof/tavern/common->srd_proof/tavern/stairs"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof/tavern/common"
+inherit_movement_default = true
+place_graph_id = "srd_proof/tavern"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof/tavern/stairs"
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof/tavern/stairs->srd_proof/tavern/common"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof/tavern/stairs"
+inherit_movement_default = true
+place_graph_id = "srd_proof/tavern"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof/tavern/common"
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof/tavern/bar->srd_proof/tavern/stairs"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof/tavern/bar"
+inherit_movement_default = true
+place_graph_id = "srd_proof/tavern"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof/tavern/stairs"
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof/tavern/stairs->srd_proof/tavern/bar"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof/tavern/stairs"
+inherit_movement_default = true
+place_graph_id = "srd_proof/tavern"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof/tavern/bar"
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof/tavern/stairs->srd_proof/tavern/cellar_hall"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof/tavern/stairs"
+inherit_movement_default = true
+place_graph_id = "srd_proof/tavern"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof/tavern/cellar_hall"
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof/tavern/cellar_hall->srd_proof/tavern/stairs"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof/tavern/cellar_hall"
+inherit_movement_default = true
+place_graph_id = "srd_proof/tavern"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof/tavern/stairs"
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof/tavern/cellar_hall->srd_proof/tavern/cellar_stores"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof/tavern/cellar_hall"
+inherit_movement_default = true
+place_graph_id = "srd_proof/tavern"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof/tavern/cellar_stores"
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof/tavern/cellar_stores->srd_proof/tavern/cellar_hall"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof/tavern/cellar_stores"
+inherit_movement_default = true
+place_graph_id = "srd_proof/tavern"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof/tavern/cellar_hall"
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof/tavern/cellar_hall->srd_proof/tavern/cellar_ale"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof/tavern/cellar_hall"
+inherit_movement_default = true
+place_graph_id = "srd_proof/tavern"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof/tavern/cellar_ale"
+
+[[place_edges]]
+bundle_id = "srd_proof"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "srd_proof/tavern/cellar_ale->srd_proof/tavern/cellar_hall"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "srd_proof/tavern/cellar_ale"
+inherit_movement_default = true
+place_graph_id = "srd_proof/tavern"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "srd_proof/tavern/cellar_hall"
+
+[[place_graphs]]
+anchor_node_id = "srd_proof/tavern/common"
+bearing = 0.0
+blueprint_id = ""
+bundle_id = "srd_proof"
+description = "Detailed tavern ground + cellar"
+display_name = "Tavern"
+is_ephemeral_instance = false
+metres_per_unit = 1.0
+origin_cell_res10 = 0
+origin_cell_res4 = 0
+origin_cell_res7 = 0
+parent_graph_id = ""
+place_graph_id = "srd_proof/tavern"
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "srd_proof"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = ""
+display_name = "Common Room"
+extent_params_json = ""
+extent_shape_id = ""
+is_ephemeral = false
+local_id = "common"
+node_id = "srd_proof/tavern/common"
+place_graph_id = "srd_proof/tavern"
+pos_present = true
+pos_x = 0
+pos_y = 0
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "srd_proof"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = ""
+display_name = "Bar"
+extent_params_json = ""
+extent_shape_id = ""
+is_ephemeral = false
+local_id = "bar"
+node_id = "srd_proof/tavern/bar"
+place_graph_id = "srd_proof/tavern"
+pos_present = true
+pos_x = 3
+pos_y = 0
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "srd_proof"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = ""
+display_name = "Kitchen"
+extent_params_json = ""
+extent_shape_id = ""
+is_ephemeral = false
+local_id = "kitchen"
+node_id = "srd_proof/tavern/kitchen"
+place_graph_id = "srd_proof/tavern"
+pos_present = true
+pos_x = 6
+pos_y = 0
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "srd_proof"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = ""
+display_name = "Private Booth"
+extent_params_json = ""
+extent_shape_id = ""
+is_ephemeral = false
+local_id = "booth"
+node_id = "srd_proof/tavern/booth"
+place_graph_id = "srd_proof/tavern"
+pos_present = true
+pos_x = 0
+pos_y = 3
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "srd_proof"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = ""
+display_name = "Stairs"
+extent_params_json = ""
+extent_shape_id = ""
+is_ephemeral = false
+local_id = "stairs"
+node_id = "srd_proof/tavern/stairs"
+place_graph_id = "srd_proof/tavern"
+pos_present = true
+pos_x = 3
+pos_y = 3
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "srd_proof"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = ""
+display_name = "Cellar Hall"
+extent_params_json = ""
+extent_shape_id = ""
+is_ephemeral = false
+local_id = "cellar_hall"
+node_id = "srd_proof/tavern/cellar_hall"
+place_graph_id = "srd_proof/tavern"
+pos_present = true
+pos_x = 3
+pos_y = 3
+pose_elevation = -3.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "srd_proof"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = ""
+display_name = "Cellar Stores"
+extent_params_json = ""
+extent_shape_id = ""
+is_ephemeral = false
+local_id = "cellar_stores"
+node_id = "srd_proof/tavern/cellar_stores"
+place_graph_id = "srd_proof/tavern"
+pos_present = true
+pos_x = 6
+pos_y = 3
+pose_elevation = -3.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "srd_proof"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = ""
+display_name = "Ale Casks"
+extent_params_json = ""
+extent_shape_id = ""
+is_ephemeral = false
+local_id = "cellar_ale"
+node_id = "srd_proof/tavern/cellar_ale"
+place_graph_id = "srd_proof/tavern"
+pos_present = true
+pos_x = 0
+pos_y = 3
+pose_elevation = -3.0
+pose_elevation_present = true
+substrate_id = "indoor"

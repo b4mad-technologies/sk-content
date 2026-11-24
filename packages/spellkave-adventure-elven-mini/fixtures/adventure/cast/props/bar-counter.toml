@@ -1,0 +1,40 @@
+[[entities]]
+bundle_id = "elven_mini"
+description = "Bar Counter"
+entity_def_id = "elven_mini/adventure/furniture/bar"
+entity_key = "elven_mini/adventure/furniture/bar_1"
+kind = "item"
+name = "Bar Counter"
+owned_by_entity_key = ""
+place_node_id = "elven_mini/inn/bar"
+quantity = 1
+
+[[entity_definition_initial_state]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/furniture/bar"
+state_id = "srd/ac"
+value_bool = true
+value_int = 15
+
+[[entity_definition_initial_state]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/furniture/bar"
+state_id = "srd/hp"
+value_bool = true
+value_int = 4
+
+[[entity_definitions]]
+affordance_seed_id = ""
+bundle_id = "elven_mini"
+description = "The oak counter of the Mountain View Inn's common room."
+display_name = "Bar Counter"
+entity_def_id = "elven_mini/adventure/furniture/bar"
+grants_capability_while_equipped = ""
+grants_capability_while_present_in_location = ""
+lineage_id = ""
+on_consume_consequence_id = ""
+on_destroy_consequence_id = ""
+on_equip_consequence_id = ""
+on_unequip_consequence_id = ""
+slot_compatibility_predicate = ""
+stackable = false

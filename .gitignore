@@ -1,0 +1,7 @@
+node_modules/
+dist/
+target/
+.cache/
+.check-tmp/
+*.tgz
+.local/

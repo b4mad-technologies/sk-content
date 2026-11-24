@@ -1,0 +1,156 @@
+[[actor_spatial_locations]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/dummy_1"
+place_node_id = "srd_proof_scene/cell_a"
+selection_path = "manifest:srd_proof/dummy_1"
+
+[[actor_spatial_locations]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/advantage-dummy_1"
+place_node_id = "srd_proof_scene/cell_a"
+selection_path = "manifest:srd_proof/advantage-dummy_1"
+
+[[actor_spatial_locations]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/cover-dummy_1"
+place_node_id = "srd_proof_scene/cell_a"
+selection_path = "manifest:srd_proof/cover-dummy_1"
+
+[[actors]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/dummy_1"
+name = "Srd Proof Training Dummy 1"
+
+[[actors]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/advantage-dummy_1"
+name = "Srd Proof Training Dummy 1"
+
+[[actors]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/cover-dummy_1"
+name = "Srd Proof Training Dummy 1"
+
+[[entities]]
+bundle_id = "srd_proof"
+description = "TEST-ONLY spawned training dummy for the modifier-proof pair."
+entity_def_id = "srd_proof/training-dummy"
+entity_key = "srd_proof/dummy_1"
+kind = "npc"
+name = "Srd Proof Training Dummy 1"
+owned_by_entity_key = ""
+place_node_id = "srd_proof_scene/cell_a"
+quantity = 1
+
+[[entities]]
+bundle_id = "srd_proof"
+description = "TEST-ONLY spawned training dummy, dedicated to the Advantage extension's grant/check pair (finding #23 live proof) — isolated from every other check's shared dummy so the permanent condition it carries cannot bias unrelated checks."
+entity_def_id = "srd_proof/training-dummy"
+entity_key = "srd_proof/advantage-dummy_1"
+kind = "npc"
+name = "Srd Proof Training Dummy 1"
+owned_by_entity_key = ""
+place_node_id = "srd_proof_scene/cell_a"
+quantity = 1
+
+[[entities]]
+bundle_id = "srd_proof"
+description = "TEST-ONLY spawned training dummy, dedicated to the Cover extension's cover-grant/attack-roll-cover pair (maxim-audit F1 live proof) — isolated from every other check's dummy so the permanent srd/cover/half condition it carries cannot bias unrelated checks."
+entity_def_id = "srd_proof/training-dummy"
+entity_key = "srd_proof/cover-dummy_1"
+kind = "npc"
+name = "Srd Proof Training Dummy 1"
+owned_by_entity_key = ""
+place_node_id = "srd_proof_scene/cell_a"
+quantity = 1
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/training-dummy"
+state_id = "srd/reach_mm"
+value_bool = true
+value_int = 1524
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/training-dummy"
+state_id = "srd_proof/flexed"
+value_bool = true
+value_int = 0
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/training-dummy"
+state_id = "srd/dc/athletics"
+value_bool = true
+value_int = 6
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/training-dummy"
+state_id = "srd/dc/ability-wis"
+value_bool = true
+value_int = 15
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/training-dummy"
+state_id = "srd/dc/perception"
+value_bool = true
+value_int = 4
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/training-dummy"
+state_id = "srd/dc/insight"
+value_bool = true
+value_int = 21
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/training-dummy"
+state_id = "srd/ac"
+value_bool = true
+value_int = 10
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/training-dummy"
+state_id = "srd/wis"
+value_bool = true
+value_int = 2
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/training-dummy"
+state_id = "srd/level"
+value_bool = true
+value_int = 5
+
+[[entity_definition_tag]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/training-dummy"
+source = "manifest"
+tag = "srd.creature"
+
+[[entity_definition_tag]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/training-dummy"
+source = "manifest"
+tag = "srd.creature_type.construct"
+
+[[entity_definitions]]
+affordance_seed_id = ""
+bundle_id = "srd_proof"
+description = "TEST-ONLY inert target for the slice-1b modifier-proof affordances — the flex actions are not self_eligible, so the pair needs a co-located target; carries the flexed counter the admitted act increments, (generic-check verb rework) the four DC-override states the Athletics-easy/WIS-contested/Perception-proficient/Insight-unproficient checks read, and (Equipment slice E1, F2 closure) its own seeded srd/ac — the unarmored formula's no-Dexterity branch, since this entity carries no srd/dex (finding finding #35: attack-roll/attack-roll-cover both now read target.effective('srd/ac'), so their target must carry the fact) — see the proof-scene design record for why seeding these here is harmless to every other check in this scene (none of them reads srd/dc/*, srd/int, or srd/ac)."
+display_name = "Training Dummy"
+entity_def_id = "srd_proof/training-dummy"
+grants_capability_while_equipped = ""
+grants_capability_while_present_in_location = ""
+lineage_id = ""
+on_consume_consequence_id = ""
+on_destroy_consequence_id = ""
+on_equip_consequence_id = ""
+on_unequip_consequence_id = ""
+slot_compatibility_predicate = ""
+stackable = false

@@ -1,0 +1,171 @@
+
+[[metadata.docs_facts_feats.entries]]
+ref = "srd/feat/ability-score-improvement"
+
+[[metadata.docs_facts_feats.entries.facts]]
+label = "Category"
+value = "General"
+
+[[metadata.docs_facts_feats.entries.facts]]
+label = "Prerequisite"
+value = "Level 4+"
+
+[[metadata.docs_facts_feats.entries]]
+ref = "srd/feat/alert"
+
+[[metadata.docs_facts_feats.entries.facts]]
+label = "Category"
+value = "Origin"
+
+[[metadata.docs_facts_feats.entries]]
+ref = "srd/feat/archery"
+
+[[metadata.docs_facts_feats.entries.facts]]
+label = "Category"
+value = "Fighting Style"
+
+[[metadata.docs_facts_feats.entries.facts]]
+label = "Prerequisite"
+value = "Fighting Style Feature"
+
+[[metadata.docs_facts_feats.entries]]
+ref = "srd/feat/boon-of-combat-prowess"
+
+[[metadata.docs_facts_feats.entries.facts]]
+label = "Category"
+value = "Epic Boon"
+
+[[metadata.docs_facts_feats.entries.facts]]
+label = "Prerequisite"
+value = "Level 19+"
+
+[[metadata.docs_facts_feats.entries]]
+ref = "srd/feat/boon-of-dimensional-travel"
+
+[[metadata.docs_facts_feats.entries.facts]]
+label = "Category"
+value = "Epic Boon"
+
+[[metadata.docs_facts_feats.entries.facts]]
+label = "Prerequisite"
+value = "Level 19+"
+
+[[metadata.docs_facts_feats.entries]]
+ref = "srd/feat/boon-of-fate"
+
+[[metadata.docs_facts_feats.entries.facts]]
+label = "Category"
+value = "Epic Boon"
+
+[[metadata.docs_facts_feats.entries.facts]]
+label = "Prerequisite"
+value = "Level 19+"
+
+[[metadata.docs_facts_feats.entries]]
+ref = "srd/feat/boon-of-irresistible-offense"
+
+[[metadata.docs_facts_feats.entries.facts]]
+label = "Category"
+value = "Epic Boon"
+
+[[metadata.docs_facts_feats.entries.facts]]
+label = "Prerequisite"
+value = "Level 19+"
+
+[[metadata.docs_facts_feats.entries]]
+ref = "srd/feat/boon-of-spell-recall"
+
+[[metadata.docs_facts_feats.entries.facts]]
+label = "Category"
+value = "Epic Boon"
+
+[[metadata.docs_facts_feats.entries.facts]]
+label = "Prerequisite"
+value = "Level 19+, Spellcasting Feature"
+
+[[metadata.docs_facts_feats.entries]]
+ref = "srd/feat/boon-of-the-night-spirit"
+
+[[metadata.docs_facts_feats.entries.facts]]
+label = "Category"
+value = "Epic Boon"
+
+[[metadata.docs_facts_feats.entries.facts]]
+label = "Prerequisite"
+value = "Level 19+"
+
+[[metadata.docs_facts_feats.entries]]
+ref = "srd/feat/boon-of-truesight"
+
+[[metadata.docs_facts_feats.entries.facts]]
+label = "Category"
+value = "Epic Boon"
+
+[[metadata.docs_facts_feats.entries.facts]]
+label = "Prerequisite"
+value = "Level 19+"
+
+[[metadata.docs_facts_feats.entries]]
+ref = "srd/feat/defense"
+
+[[metadata.docs_facts_feats.entries.facts]]
+label = "Category"
+value = "Fighting Style"
+
+[[metadata.docs_facts_feats.entries.facts]]
+label = "Prerequisite"
+value = "Fighting Style Feature"
+
+[[metadata.docs_facts_feats.entries]]
+ref = "srd/feat/grappler"
+
+[[metadata.docs_facts_feats.entries.facts]]
+label = "Category"
+value = "General"
+
+[[metadata.docs_facts_feats.entries.facts]]
+label = "Prerequisite"
+value = "Level 4+, Strength or Dexterity 13+"
+
+[[metadata.docs_facts_feats.entries]]
+ref = "srd/feat/great-weapon-fighting"
+
+[[metadata.docs_facts_feats.entries.facts]]
+label = "Category"
+value = "Fighting Style"
+
+[[metadata.docs_facts_feats.entries.facts]]
+label = "Prerequisite"
+value = "Fighting Style Feature"
+
+[[metadata.docs_facts_feats.entries]]
+ref = "srd/feat/magic-initiate"
+
+[[metadata.docs_facts_feats.entries.facts]]
+label = "Category"
+value = "Origin"
+
+[[metadata.docs_facts_feats.entries]]
+ref = "srd/feat/savage-attacker"
+
+[[metadata.docs_facts_feats.entries.facts]]
+label = "Category"
+value = "Origin"
+
+[[metadata.docs_facts_feats.entries]]
+ref = "srd/feat/skilled"
+
+[[metadata.docs_facts_feats.entries.facts]]
+label = "Category"
+value = "Origin"
+
+[[metadata.docs_facts_feats.entries]]
+ref = "srd/feat/two-weapon-fighting"
+
+[[metadata.docs_facts_feats.entries.facts]]
+label = "Category"
+value = "Fighting Style"
+
+[[metadata.docs_facts_feats.entries.facts]]
+label = "Prerequisite"
+value = "Fighting Style Feature"

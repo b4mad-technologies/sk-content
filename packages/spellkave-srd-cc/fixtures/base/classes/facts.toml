@@ -1,0 +1,216 @@
+
+[[metadata.docs_facts_classes.entries]]
+ref = "srd/class/barbarian"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Hit Die"
+value = "D12"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Caster Type"
+value = "NONE"
+
+[[metadata.docs_facts_classes.entries]]
+ref = "srd/class/bard"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Hit Die"
+value = "D8"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Caster Type"
+value = "FULL"
+
+[[metadata.docs_facts_classes.entries]]
+ref = "srd/class/cleric"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Hit Die"
+value = "D8"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Caster Type"
+value = "FULL"
+
+[[metadata.docs_facts_classes.entries]]
+ref = "srd/class/druid"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Hit Die"
+value = "D8"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Caster Type"
+value = "FULL"
+
+[[metadata.docs_facts_classes.entries]]
+ref = "srd/class/fighter"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Hit Die"
+value = "D10"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Caster Type"
+value = "NONE"
+
+[[metadata.docs_facts_classes.entries]]
+ref = "srd/class/monk"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Hit Die"
+value = "D8"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Caster Type"
+value = "NONE"
+
+[[metadata.docs_facts_classes.entries]]
+ref = "srd/class/paladin"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Hit Die"
+value = "D10"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Caster Type"
+value = "HALF"
+
+[[metadata.docs_facts_classes.entries]]
+ref = "srd/class/ranger"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Hit Die"
+value = "D10"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Caster Type"
+value = "HALF"
+
+[[metadata.docs_facts_classes.entries]]
+ref = "srd/class/rogue"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Hit Die"
+value = "D8"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Caster Type"
+value = "NONE"
+
+[[metadata.docs_facts_classes.entries]]
+ref = "srd/class/sorcerer"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Hit Die"
+value = "D6"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Caster Type"
+value = "FULL"
+
+[[metadata.docs_facts_classes.entries]]
+ref = "srd/class/warlock"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Hit Die"
+value = "D8"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Caster Type"
+value = "PACT"
+
+[[metadata.docs_facts_classes.entries]]
+ref = "srd/class/wizard"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Hit Die"
+value = "D6"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Caster Type"
+value = "FULL"
+
+[[metadata.docs_facts_classes.entries]]
+ref = "srd/subclass/champion"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Class"
+value = "Fighter"
+
+[[metadata.docs_facts_classes.entries]]
+ref = "srd/subclass/circle-of-the-land"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Class"
+value = "Druid"
+
+[[metadata.docs_facts_classes.entries]]
+ref = "srd/subclass/college-of-lore"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Class"
+value = "Bard"
+
+[[metadata.docs_facts_classes.entries]]
+ref = "srd/subclass/draconic-sorcery"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Class"
+value = "Sorcerer"
+
+[[metadata.docs_facts_classes.entries]]
+ref = "srd/subclass/evoker"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Class"
+value = "Wizard"
+
+[[metadata.docs_facts_classes.entries]]
+ref = "srd/subclass/fiend-patron"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Class"
+value = "Warlock"
+
+[[metadata.docs_facts_classes.entries]]
+ref = "srd/subclass/hunter"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Class"
+value = "Ranger"
+
+[[metadata.docs_facts_classes.entries]]
+ref = "srd/subclass/life-domain"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Class"
+value = "Cleric"
+
+[[metadata.docs_facts_classes.entries]]
+ref = "srd/subclass/oath-of-devotion"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Class"
+value = "Paladin"
+
+[[metadata.docs_facts_classes.entries]]
+ref = "srd/subclass/path-of-the-berserker"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Class"
+value = "Barbarian"
+
+[[metadata.docs_facts_classes.entries]]
+ref = "srd/subclass/thief"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Class"
+value = "Rogue"
+
+[[metadata.docs_facts_classes.entries]]
+ref = "srd/subclass/warrior-of-the-open-hand"
+
+[[metadata.docs_facts_classes.entries.facts]]
+label = "Class"
+value = "Monk"

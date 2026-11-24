@@ -1,0 +1,27 @@
+[[session_definitions]]
+auto_join_on_targeting = false
+bundle_id = "srd_proof"
+combat_grid_blueprint_id = "srd_proof/combat-grid/arena"
+grid_edge_affordance_bindings_json = "{}"
+grid_edge_affordance_template_id = ""
+initial_state = ""
+legal_moves_csv = ""
+on_terminate = ""
+participants_pred = ""
+round_duration_ms = 6000
+session_def_id = "srd_proof/session/combat-arena"
+stakes_required = ""
+termination_pred = 'participant_tag_group_count("srd.faction.") >= 2 && participant_tag_group_count("srd.faction.", "srd/condition/incapacitated") <= 1'
+turn_eligibility_pred = "macro('srd/takes-turn')"
+turn_rule = "Sequential"
+turn_scheduler_id = "srd_proof/turn/combat-arena"
+visibility_policy = "Public"
+winner_predicate = 'participant_tag_group_count("srd.faction.", "srd/condition/incapacitated") == 1'
+
+[[turn_scheduler]]
+active = false
+bundle_id = "srd_proof"
+description = "TEST-ONLY combat-arena proof scheduler: the real d20 + Dex-modifier Initiative idiom, rolled per-participant (finding #26)."
+id = "srd_proof/turn/combat-arena"
+order_roll_source = "d20 + (macro('srd/dexterity_modifier'))"
+scheduler_kind = "rolled_order"

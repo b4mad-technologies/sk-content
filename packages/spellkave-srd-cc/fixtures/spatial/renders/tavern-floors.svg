@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="421" height="760" viewBox="0 0 421 760" role="img" aria-label="srd_proof/tavern — all_floors_offset floors=[-3,0]">
+<style>
+svg{font-family:Inter,system-ui,Arial,sans-serif}
+.h3-cell{fill:#c9d8cf;fill-opacity:.32;stroke:#536758;stroke-width:1.4;stroke-opacity:.9}
+.h3-cell--root{fill:#9bb8a8;fill-opacity:.45}
+.h3-cell--settlement{fill:#d4b896;fill-opacity:.5}
+.h3-cell--wilderness{fill:#b7c9b0;fill-opacity:.38}
+.h3-cell--default{fill:#c9d8cf;fill-opacity:.28}
+.place-portal{fill:#8b4513;stroke:#fff;stroke-width:2}
+.portal-tag{fill:#6b3a12;font-size:9px;font-weight:600;text-anchor:middle}
+.label-portal{font-weight:700}
+.route{stroke:#b97012;stroke-width:3;stroke-linecap:round;opacity:.9}
+.route-stairs{stroke:#6b4f9a;stroke-width:2.5;stroke-linecap:round;stroke-dasharray:7 5;opacity:.95}
+.place{fill:#148284;stroke:#fff;stroke-width:2.2}
+.place-extent{fill:#148284;fill-opacity:.18;stroke:#0f5f61;stroke-width:1.5}
+.grid-cell{fill:#148284;fill-opacity:.06;stroke:#0f5f61;stroke-opacity:.55;stroke-width:1}
+.actor{fill:#245ebe;stroke:#fff;stroke-width:2}
+.label{fill:#1d2428;font-size:12px;font-weight:700;text-anchor:middle;paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round}
+.actor-label{fill:#fff;font-size:9px;font-weight:800;text-anchor:middle}
+.chrome-label{fill:#3a454b;font-size:11px;font-weight:600;text-anchor:start}
+.scale-bar{stroke:#3a454b;stroke-width:2;stroke-linecap:square}
+.scale-bar-label{fill:#3a454b;font-size:11px;font-weight:700;text-anchor:middle}
+.floor-box{fill:#e7efed;stroke:#7a9690;stroke-width:1.5;opacity:.95}
+.floor-label{fill:#1d3a36;font-size:13px;font-weight:800;text-anchor:start}
+.stairs-label{fill:#6b4f9a;font-size:11px;font-weight:700;text-anchor:middle;paint-order:stroke;stroke:#fff;stroke-width:3px}
+.title-main{fill:#14201e;font-size:15px;font-weight:800;text-anchor:start}
+.title-sub{fill:#4a5a56;font-size:12px;font-weight:600;text-anchor:start}
+.title-rule{stroke:#c5d0cc;stroke-width:1}
+</style>
+<rect width="100%" height="100%" fill="#f4f7f6" />
+<g class="title-bar">
+<text class="title-main" x="16" y="22">Tavern</text>
+<text class="title-sub" x="16" y="38">All floors (stacked panels) · indoor</text>
+<line class="title-rule" x1="12" y1="34" x2="409" y2="34" />
+</g>
+<g class="floor-panel" data-elevation="0"><rect x="58.19" y="92" width="304.62" height="243.69" rx="10" ry="10" class="floor-box" /><text x="70.19" y="110" class="floor-label">Ground floor (z=0)</text></g>
+<g class="floor-panel" data-elevation="-3"><rect x="58.19" y="420.31" width="304.62" height="243.69" rx="10" ry="10" class="floor-box" /><text x="70.19" y="438.31" class="floor-label">Below (z=-3)</text></g>
+
+
+<line data-from="srd_proof/tavern/common" data-to="srd_proof/tavern/bar" x1="108.96" y1="278.15" x2="210.50" y2="278.15" class="route" />
+<line data-from="srd_proof/tavern/bar" data-to="srd_proof/tavern/kitchen" x1="210.50" y1="278.15" x2="312.04" y2="278.15" class="route" />
+<line data-from="srd_proof/tavern/common" data-to="srd_proof/tavern/booth" x1="108.96" y1="278.15" x2="108.96" y2="176.62" class="route" />
+<line data-from="srd_proof/tavern/common" data-to="srd_proof/tavern/stairs" x1="108.96" y1="278.15" x2="210.50" y2="176.62" class="route" />
+<line data-from="srd_proof/tavern/bar" data-to="srd_proof/tavern/stairs" x1="210.50" y1="278.15" x2="210.50" y2="176.62" class="route" />
+<line data-from="srd_proof/tavern/stairs" data-to="srd_proof/tavern/cellar_hall" x1="210.50" y1="176.62" x2="210.50" y2="555.69" class="route-stairs" /><text x="210.50" y="360.15" class="stairs-label">stairs</text>
+<line data-from="srd_proof/tavern/cellar_hall" data-to="srd_proof/tavern/cellar_stores" x1="210.50" y1="555.69" x2="312.04" y2="555.69" class="route" />
+<line data-from="srd_proof/tavern/cellar_hall" data-to="srd_proof/tavern/cellar_ale" x1="210.50" y1="555.69" x2="108.96" y2="555.69" class="route" />
+<g data-node-id="srd_proof/tavern/common"><circle cx="108.96" cy="278.15" r="7" class="place" /><text x="108.96" y="298.15" class="label">Common Room</text></g>
+<g data-node-id="srd_proof/tavern/bar"><circle cx="210.50" cy="278.15" r="7" class="place" /><text x="210.50" y="298.15" class="label">Bar</text></g>
+<g data-node-id="srd_proof/tavern/kitchen"><circle cx="312.04" cy="278.15" r="7" class="place" /><text x="312.04" y="298.15" class="label">Kitchen</text></g>
+<g data-node-id="srd_proof/tavern/booth"><circle cx="108.96" cy="176.62" r="7" class="place" /><text x="108.96" y="196.62" class="label">Private Booth</text></g>
+<g data-node-id="srd_proof/tavern/stairs"><circle cx="210.50" cy="176.62" r="7" class="place" /><text x="210.50" y="196.62" class="label">Stairs</text></g>
+<g data-node-id="srd_proof/tavern/cellar_hall"><circle cx="210.50" cy="555.69" r="7" class="place" /><text x="210.50" y="575.69" class="label">Cellar Hall</text></g>
+<g data-node-id="srd_proof/tavern/cellar_stores"><circle cx="312.04" cy="555.69" r="7" class="place" /><text x="312.04" y="575.69" class="label">Cellar Stores</text></g>
+<g data-node-id="srd_proof/tavern/cellar_ale"><circle cx="108.96" cy="555.69" r="7" class="place" /><text x="108.96" y="575.69" class="label">Ale Casks</text></g>
+<g class="map-chrome" data-chrome="legend" transform="translate(0 720)">
+<line x1="12" y1="0.5" x2="409" y2="0.5" stroke="#c5d0cc" stroke-width="1" />
+<g class="scale-bar-group" data-scale-metres="2" data-scale-px="67.69">
+<line class="scale-bar" x1="12" y1="14" x2="79.69" y2="14" />
+<line class="scale-bar" x1="12" y1="9" x2="12" y2="19" />
+<line class="scale-bar" x1="79.69" y1="9" x2="79.69" y2="19" />
+<text class="scale-bar-label" x="45.85" y="30">2 m</text>
+</g>
+<g class="symbol-legend" transform="translate(107.69 0)">
+<circle cx="6" cy="14" r="6" class="place" />
+<text class="chrome-label" x="18" y="18">place</text>
+<line class="route" x1="62" y1="14" x2="86" y2="14" />
+<text class="chrome-label" x="92" y="18">route</text>
+<circle cx="148" cy="14" r="9" class="actor" />
+<text class="actor-label" x="148" y="17.5">n</text>
+<text class="chrome-label" x="164" y="18">occupants</text>
+<line class="route-stairs" x1="248" y1="14" x2="278" y2="14" />
+<text class="chrome-label" x="284" y="18">stairs / floor link</text>
+</g></g>
+</svg>

@@ -1,0 +1,3187 @@
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/armor/breastplate"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "medium"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Armor Class"
+value = "14"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Dexterity"
+value = "Adds Dexterity modifier"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Stealth"
+value = "No disadvantage"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Dexterity Cap"
+value = "+2"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "400 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "20 lb."
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/armor/chain-mail"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "heavy"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Armor Class"
+value = "16"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Dexterity"
+value = "No Dexterity modifier"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Stealth"
+value = "Disadvantage"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Strength Required"
+value = "13"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "75 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "55 lb."
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/armor/chain-shirt"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "medium"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Armor Class"
+value = "13"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Dexterity"
+value = "Adds Dexterity modifier"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Stealth"
+value = "No disadvantage"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Dexterity Cap"
+value = "+2"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "50 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "20 lb."
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/armor/half-plate-armor"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "medium"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Armor Class"
+value = "15"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Dexterity"
+value = "Adds Dexterity modifier"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Stealth"
+value = "Disadvantage"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Dexterity Cap"
+value = "+2"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "750 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "40 lb."
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/armor/hide-armor"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "medium"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Armor Class"
+value = "12"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Dexterity"
+value = "Adds Dexterity modifier"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Stealth"
+value = "No disadvantage"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Dexterity Cap"
+value = "+2"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "10 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "12 lb."
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/armor/leather-armor"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "light"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Armor Class"
+value = "11"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Dexterity"
+value = "Adds Dexterity modifier"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Stealth"
+value = "No disadvantage"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "10 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "10 lb."
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/armor/padded-armor"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "light"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Armor Class"
+value = "11"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Dexterity"
+value = "Adds Dexterity modifier"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Stealth"
+value = "Disadvantage"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "5 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "8 lb."
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/armor/plate-armor"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "heavy"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Armor Class"
+value = "18"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Dexterity"
+value = "No Dexterity modifier"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Stealth"
+value = "Disadvantage"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Strength Required"
+value = "15"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "1500 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "65 lb."
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/armor/ring-mail"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "heavy"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Armor Class"
+value = "14"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Dexterity"
+value = "No Dexterity modifier"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Stealth"
+value = "Disadvantage"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "30 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "40 lb."
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/armor/scale-mail"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "medium"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Armor Class"
+value = "14"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Dexterity"
+value = "Adds Dexterity modifier"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Stealth"
+value = "Disadvantage"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Dexterity Cap"
+value = "+2"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "50 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "45 lb."
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/armor/shield"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "shield"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Armor Class"
+value = "2"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Dexterity"
+value = "No Dexterity modifier"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Stealth"
+value = "No disadvantage"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "10 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "6 lb."
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/armor/splint-armor"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "heavy"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Armor Class"
+value = "17"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Dexterity"
+value = "No Dexterity modifier"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Stealth"
+value = "Disadvantage"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Strength Required"
+value = "15"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "200 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "60 lb."
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/armor/studded-leather-armor"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "light"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Armor Class"
+value = "12"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Dexterity"
+value = "Adds Dexterity modifier"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Stealth"
+value = "No disadvantage"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "45 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "13 lb."
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/acid"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "weapon"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "25.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "1.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/airship"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "wondrous-item"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "40000.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/alchemists-fire"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "weapon"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "50.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "1.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/antitoxin"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "potion"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "50.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/arrows-20"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "ammunition"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "1.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "1.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/backpack"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "equipment-pack"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "2.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "5.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/ball-bearings"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "1.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "2.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/barrel"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "2.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "70.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/basket"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "0.40"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "2.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/bedroll"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "1.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "7.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/bell"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "1.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/blanket"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "0.50"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "3.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/block-and-tackle"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "1.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "5.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/bolts-20"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "ammunition"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "1.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "1.500"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/book"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "25.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "5.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/bottle-glass"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "2.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "2.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/bucket"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "0.05"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "2.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/bullets-firearm-10"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "ammunition"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "3.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "2.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/bullets-sling-20"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "ammunition"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "0.04"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "1.500"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/burglars-pack"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "equipment-pack"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "16.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "42.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/caltrops"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "1.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "2.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/camel"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "mount"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "50.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/candle"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "0.01"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/carriage"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "land-vehicle"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "100.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "600.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/cart"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "land-vehicle"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "15.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "200.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/case-crossbow-bolt"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "1.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "1.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/case-map-or-scroll"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "scroll"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "1.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "1.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/chain"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "5.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "10.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/chariot"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "land-vehicle"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "250.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "100.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/chest"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "5.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "25.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/clothes-fine"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "15.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "6.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/clothes-travelers"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "2.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "4.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/component-pouch"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "25.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "2.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/costume"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "5.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "4.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/crowbar"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "2.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "5.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/diplomats-pack"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "equipment-pack"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "39.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "39.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/druidic-focus-sprig-of-mistletoe"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "spellcasting-focus"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "1.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/druidic-focus-yew-wand"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "spellcasting-focus"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "10.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "1.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/dungeoneers-pack"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "equipment-pack"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "12.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "55.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/elephant"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "mount"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "200.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/entertainers-pack"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "equipment-pack"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "40.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "58.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/explorers-pack"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "equipment-pack"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "10.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "55.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/feed-per-day"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "0.05"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "10.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/flask"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "0.02"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "1.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/galley"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "waterborne-vehicle"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "30000.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/grappling-hook"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "2.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "4.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/herbalism-kit"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "tools"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "5.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "3.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/holy-symbol-amulet"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "5.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "1.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/holy-symbol-emblem"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "5.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/holy-symbol-reliquary"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "5.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "2.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/holy-water"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "weapon"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "25.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "1.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/horse-draft"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "mount"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "50.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/horse-riding"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "mount"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "75.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/hunting-trap"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "5.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "25.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/ink"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "10.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/ink-pen"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "0.02"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/jug"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "0.02"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "4.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/keelboat"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "waterborne-vehicle"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "3000.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/ladder"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "0.10"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "25.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/lamp"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "0.50"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "1.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/lantern-bullseye"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "10.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "2.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/lantern-hooded"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "5.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "2.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/lock"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "10.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "1.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/longship"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "waterborne-vehicle"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "10000.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/magnifying-glass"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "100.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/manacles"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "2.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "6.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/map"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "1.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/mastiff"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "mount"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "25.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/mirror"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "5.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0.500"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/mule"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "mount"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "8.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/needles-50"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "ammunition"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "1.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "1.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/net"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "weapon"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "1.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "3.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/oil"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "weapon"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "0.10"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "1.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/paper"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "0.20"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/parchment"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "0.10"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/perfume"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "5.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/poison-basic"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "100.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/pole"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "0.05"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "7.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/pony"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "mount"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "30.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/pot-iron"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "2.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "10.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/potion-of-giant-strength"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "potion"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "0.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/potion-of-healing"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "potion"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "50.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0.500"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/pouch"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "0.50"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "1.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/priests-pack"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "equipment-pack"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "33.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "29.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/quiver"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "1.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "1.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/ram-portable"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "4.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "35.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/rations"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "0.50"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "2.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/robe"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "1.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "4.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/rope"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "1.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "5.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/rowboat"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "waterborne-vehicle"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "50.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "100.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/sack"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "0.01"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0.500"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/saddle-exotic"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "60.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "40.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/saddle-military"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "20.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "30.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/saddle-riding"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "10.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "25.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/sailing-ship"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "waterborne-vehicle"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "10000.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/scholars-pack"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "equipment-pack"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "40.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "22.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/shovel"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "2.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "5.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/signal-whistle"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "0.05"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/sled"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "land-vehicle"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "20.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "300.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/spikes-iron"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "1.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "5.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/spyglass"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "1000.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "1.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/string"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "0.10"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/tent"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "2.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "20.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/tinderbox"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "0.50"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "1.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/torch"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "weapon"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "0.01"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "1.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/vial"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "1.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/wagon"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "land-vehicle"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "35.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "400.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/warhorse"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "mount"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "400.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/warship"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "waterborne-vehicle"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "25000.00"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/item/waterskin"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Category"
+value = "adventuring-gear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "0.20"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "5.000"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/battleaxe"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d8 slashing"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "Melee"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "10 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "4 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Topple"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Versatile (1d10)"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/blowgun"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1 piercing"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "25/100 ft."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "10 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "1 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Ammunition (Range 25/100; Needle)"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Loading"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Vex"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/club"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d4 bludgeoning"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "Melee"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "0.10 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "2 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Light"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Slow"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/dagger"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d4 piercing"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "20/60 ft."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "2 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "1 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Finesse"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Light"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Nick"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Thrown (Range 20/60)"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/dart"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d4 piercing"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "20/60 ft."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "0.05 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "1 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Finesse"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Thrown (Range 20/60)"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Vex"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/flail"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d8 bludgeoning"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "Melee"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "10 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "2 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Sap"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/glaive"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d10 slashing"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "Melee"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "20 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "6 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Graze"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Heavy"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Reach"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Two-Handed"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/greataxe"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d12 slashing"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "Melee"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "30 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "7 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Cleave"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Heavy"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Two-Handed"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/greatclub"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d8 bludgeoning"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "Melee"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "0.20 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "10 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Push"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Two-Handed"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/greatsword"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "2d6 slashing"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "Melee"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "50 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "6 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Graze"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Heavy"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Two-Handed"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/halberd"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d10 slashing"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "Melee"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "20 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "6 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Cleave"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Heavy"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Reach"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Two-Handed"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/hand-crossbow"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d6 piercing"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "30/120 ft."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "75 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "3 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Ammunition (Range 30/120; Bolt)"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Light"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Loading"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Vex"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/handaxe"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d6 slashing"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "20/60 ft."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "5 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "2 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Light"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Thrown (Range 20/60)"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Vex"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/heavy-crossbow"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d10 piercing"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "100/400 ft."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "50 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "18 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Ammunition (Range 100/400; Bolt)"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Heavy"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Loading"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Push"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Two-Handed"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/javelin"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d6 piercing"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "30/120 ft."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "0.50 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "2 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Slow"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Thrown (Range 30/120)"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/lance"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d10 piercing"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "Melee"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "10 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "6 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Heavy"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Reach"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Topple"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Two-Handed (unless mounted)"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/light-crossbow"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d8 piercing"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "80/320 ft."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "25 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "5 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Ammunition (Range 80/320; Bolt)"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Loading"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Slow"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Two-Handed"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/light-hammer"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d4 bludgeoning"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "20/60 ft."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "2 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "2 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Light"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Nick"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Thrown (Range 20/60)"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/longbow"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d8 piercing"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "150/600 ft."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "50 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "2 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Ammunition (Range 150/600; Arrow)"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Heavy"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Slow"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Two-Handed"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/longsword"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d8 slashing"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "Melee"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "15 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "3 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Sap"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Versatile (1d10)"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/mace"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d6 bludgeoning"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "Melee"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "5 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "4 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Sap"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/maul"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "2d6 bludgeoning"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "Melee"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "10 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "10 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Heavy"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Topple"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Two-Handed"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/morningstar"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d8 piercing"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "Melee"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "15 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "4 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Sap"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/musket"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d12 piercing"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "40/120 ft."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "500 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "10 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Ammunition (Range 40/120; Bullet)"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Loading"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Slow"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Two-Handed"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/pike"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d10 piercing"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "Melee"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "5 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "18 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Heavy"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Push"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Reach"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Two-Handed"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/pistol"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d10 piercing"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "30/90 ft."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "250 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "3 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Ammunition (Range 30/90; Bullet)"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Loading"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Vex"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/quarterstaff"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d6 bludgeoning"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "Melee"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "0.20 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "4 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Topple"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Versatile (1d8)"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/rapier"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d8 piercing"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "Melee"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "25 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "2 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Finesse"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Vex"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/scimitar"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d6 slashing"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "Melee"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "25 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "3 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Finesse"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Light"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Nick"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/shortbow"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d6 piercing"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "80/320 ft."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "25 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "2 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Ammunition (Range 80/320; Arrow)"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Two-Handed"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Vex"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/shortsword"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d6 piercing"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "Melee"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "10 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "2 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Finesse"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Light"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Vex"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/sickle"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d4 slashing"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "Melee"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "1 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "2 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Light"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Nick"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/sling"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d4 bludgeoning"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "30/120 ft."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "0.10 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "0 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Ammunition (Range 30/120; Bullet)"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Slow"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/spear"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d6 piercing"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "20/60 ft."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "1 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "3 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Sap"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Thrown (Range 20/60)"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Versatile (1d8)"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/trident"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d8 piercing"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "20/60 ft."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "5 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "4 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Thrown (Range 20/60)"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Topple"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Versatile (1d10)"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/war-pick"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d8 piercing"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "Melee"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "5 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "2 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Sap"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Versatile (1d10)"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/warhammer"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d8 bludgeoning"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "Melee"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "15 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "5 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Push"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Versatile (1d10)"
+
+[[metadata.docs_facts_equipment.entries]]
+ref = "srd/weapon/whip"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Damage"
+value = "1d4 slashing"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Range"
+value = "Melee"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Cost"
+value = "2 GP"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Weight"
+value = "3 lb."
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Finesse"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Property"
+value = "Reach"
+
+[[metadata.docs_facts_equipment.entries.facts]]
+label = "Mastery"
+value = "Slow"

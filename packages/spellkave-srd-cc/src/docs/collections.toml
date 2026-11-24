@@ -1,0 +1,23 @@
+[[collections]]
+page_id = "monsters-a-z-black-dragons"
+intro = "Browse the related reference entries below."
+
+[[collections.subjects]]
+kind = "entity_definition"
+ref = "srd/creature/black-dragon-wyrmling"
+view = "compact"
+
+[[collections.subjects]]
+kind = "entity_definition"
+ref = "srd/creature/young-black-dragon"
+view = "compact"
+
+[[collections.subjects]]
+kind = "entity_definition"
+ref = "srd/creature/adult-black-dragon"
+view = "compact"
+
+[[collections.subjects]]
+kind = "entity_definition"
+ref = "srd/creature/ancient-black-dragon"
+view = "compact"

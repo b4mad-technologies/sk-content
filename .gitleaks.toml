@@ -1,0 +1,9 @@
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Pinned Open5e cross-reference source key mistaken for an API key."
+condition = "AND"
+paths = ['^packages/spellkave-srd-cc/cache/open5e/CrossReference\.json$']
+regexTarget = "line"
+regexes = ['^\s*"source_object_key": "srd-2024_finesse-wp",?\s*$']

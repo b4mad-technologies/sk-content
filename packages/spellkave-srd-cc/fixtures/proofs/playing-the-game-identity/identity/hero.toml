@@ -1,0 +1,449 @@
+[[actor_capabilities]]
+actor_entity_key = "srd_proof/hero_1"
+bundle_id = "srd_proof"
+capability_id = "srd/action/utilize"
+elevation_class = ""
+extent_kind_ref = ""
+extent_ref = ""
+source = "srd_proof/object-interaction"
+source_args_hash = ""
+
+[[actor_spatial_locations]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/hero_1"
+place_node_id = "srd_proof_scene/cell_a"
+selection_path = "manifest:srd_proof/hero_1"
+
+[[actors]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/hero_1"
+name = "Srd Proof Hero 1"
+
+[[entities]]
+bundle_id = "srd_proof"
+description = "TEST-ONLY spawned instance for the ability/skill identity proof."
+entity_def_id = "srd_proof/hero"
+entity_key = "srd_proof/hero_1"
+kind = "player"
+name = "Srd Proof Hero 1"
+owned_by_entity_key = ""
+place_node_id = "srd_proof_scene/cell_a"
+quantity = 1
+
+[[entity_definition_initial_capability]]
+bundle_id = "srd_proof"
+capability_id = "srd/skill/perception"
+entity_def_id = "srd_proof/hero"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "srd_proof"
+capability_id = "srd/skill/athletics"
+entity_def_id = "srd_proof/hero"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "srd_proof"
+capability_id = "srd_proof/reaction-resolution"
+entity_def_id = "srd_proof/hero"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "srd_proof"
+capability_id = "srd_proof/save-proficiency/dex"
+entity_def_id = "srd_proof/hero"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "srd_proof"
+capability_id = "srd_proof/move/proof-edge"
+entity_def_id = "srd_proof/hero"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "srd_proof"
+capability_id = "srd/skill/stealth"
+entity_def_id = "srd_proof/hero"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/stealth-vs-passive-perception"
+entity_def_id = "srd_proof/hero"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "srd_proof"
+capability_id = "srd/skill/history"
+entity_def_id = "srd_proof/hero"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "srd_proof"
+capability_id = "srd/skill/investigation"
+entity_def_id = "srd_proof/hero"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "srd_proof"
+capability_id = "srd/skill/medicine"
+entity_def_id = "srd_proof/hero"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/flex-str"
+entity_def_id = "srd_proof/hero"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/flex-wis"
+entity_def_id = "srd_proof/hero"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/attack-roll"
+entity_def_id = "srd_proof/hero"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/cover-grant"
+entity_def_id = "srd_proof/hero"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/attack-roll-cover"
+entity_def_id = "srd_proof/hero"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/pressure-plate-save"
+entity_def_id = "srd_proof/hero"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/advantage-grant"
+entity_def_id = "srd_proof/hero"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/advantage-check"
+entity_def_id = "srd_proof/hero"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/stealth-vs-passive-perception"
+entity_def_id = "srd_proof/hero"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/poisoned-grant"
+entity_def_id = "srd_proof/hero"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/poisoned-check"
+entity_def_id = "srd_proof/hero"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/poisoned-cure"
+entity_def_id = "srd_proof/hero"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/false-modifier-grant"
+entity_def_id = "srd_proof/hero"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/false-modifier-check"
+entity_def_id = "srd_proof/hero"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/zero-reach-grant"
+entity_def_id = "srd_proof/hero"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "srd_proof"
+capability_id = "srd_proof/check/zero-reach-cure"
+entity_def_id = "srd_proof/hero"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "srd_proof"
+capability_id = "srd/skill/intimidation"
+entity_def_id = "srd_proof/hero"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "srd_proof"
+capability_id = "srd/proficiency/tool/gaming-set-dice"
+entity_def_id = "srd_proof/hero"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "srd_proof"
+capability_id = "srd/skill/arcana"
+entity_def_id = "srd_proof/hero"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "srd_proof"
+capability_id = "srd/class-feature/fighter/second-wind"
+entity_def_id = "srd_proof/hero"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "srd_proof"
+capability_id = "srd/action/communicate/telepathy"
+entity_def_id = "srd_proof/hero"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/hero"
+state_id = "srd/reach_mm"
+value_bool = true
+value_int = 1524
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/hero"
+state_id = "srd/str"
+value_bool = true
+value_int = 15
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/hero"
+state_id = "srd/dex"
+value_bool = true
+value_int = 14
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/hero"
+state_id = "srd/con"
+value_bool = true
+value_int = 13
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/hero"
+state_id = "srd/int"
+value_bool = true
+value_int = 8
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/hero"
+state_id = "srd/wis"
+value_bool = true
+value_int = 10
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/hero"
+state_id = "srd/level"
+value_bool = true
+value_int = 5
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/hero"
+state_id = "srd/proficiency_bonus"
+value_bool = true
+value_int = 3
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/hero"
+state_id = "srd/cha"
+value_bool = true
+value_int = 12
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/hero"
+state_id = "srd/hp"
+value_bool = true
+value_int = 999
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/hero"
+state_id = "srd/ac"
+value_bool = true
+value_int = 1
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/hero"
+state_id = "srd_proof/movement_reach"
+value_bool = true
+value_int = 1000000
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/hero"
+state_id = "srd/xp"
+value_bool = true
+value_int = 0
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/hero"
+state_id = "srd/hp_per_level"
+value_bool = true
+value_int = 6
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/hero"
+state_id = "srd/size"
+value_bool = true
+value_int = 3
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/hero"
+state_id = "srd/speed-walk"
+value_bool = true
+value_int = 6
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/hero"
+state_id = "srd/fighter/second-wind-uses"
+value_bool = true
+value_int = 2
+
+[[entity_definition_tag]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/hero"
+source = "manifest"
+tag = "srd.creature"
+
+[[entity_definition_tag]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/hero"
+source = "manifest"
+tag = "srd.player_character"
+
+[[entity_definition_tag]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/hero"
+source = "manifest"
+tag = "srd.alignment.lawful-good"
+
+[[entity_definition_tag]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/hero"
+source = "manifest"
+tag = "srd.language.common"
+
+[[entity_definition_tag]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/hero"
+source = "manifest"
+tag = "srd.language.elvish"
+
+[[entity_definition_tag]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/hero"
+source = "manifest"
+tag = "srd.background.soldier"
+
+[[entity_definition_tag]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/hero"
+source = "manifest"
+tag = "srd.species.human"
+
+[[entity_definition_tag]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/hero"
+source = "manifest"
+tag = "srd.creature_size.medium"
+
+[[entity_definition_tag]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/hero"
+source = "manifest"
+tag = "srd.communication.vocal"
+
+[[entity_definition_tag]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/hero"
+source = "manifest"
+tag = "srd.trait.resourceful"
+
+[[entity_definition_tag]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/hero"
+source = "manifest"
+tag = "srd.class.fighter"
+
+[[entity_definitions]]
+affordance_seed_id = ""
+bundle_id = "srd_proof"
+description = "TEST-ONLY hero blueprint carrying inherited srd/skill/perception + srd/skill/athletics capabilities, proof Dexterity-save proficiency, and definition-level str/dex/con/int/wis/cha/level plus srd/hp seeds (C3: all six ability scores are the Fighter Standard Array column, `character-creation.md:355`) — proves the Playing the Game ability/skill identity rows are usable by a real entity, not just well-formed TOML. Tagged with the C1/C2 identity vocabulary (C3 'vocabulary never ships unattached' addendum): one srd.alignment.* value and two srd.language.* values, both authorial choices (see this file's own header). O1 (Character Origins): also tagged with the Soldier background (srd.background.soldier, authorial choice) and granted its concrete Intimidation + Gaming Set (Dice) proficiency capabilities below. O2 (Character Origins Species): also tagged with the Human species (srd.species.human, srd.creature_size.medium, authorial choice) and seeded with its def-level srd/size (Medium) + srd/speed-walk (30 ft / 6 cells) structural facts — this file's own O2 header above. K1 (Classes): also tagged with the Fighter class (srd.class.fighter, authorial choice) — vocabulary only, this file's own K1 header above. K2 (Classes, Fighter vertical): also granted Second Wind's own capability + seeded with 2 srd/fighter/second-wind-uses — an EXPLICIT proof grant (this substrate has no class-definition inheritance), this file's own K2 header above."
+display_name = "Identity Proof Hero"
+entity_def_id = "srd_proof/hero"
+grants_capability_while_equipped = ""
+grants_capability_while_present_in_location = ""
+lineage_id = ""
+on_consume_consequence_id = ""
+on_destroy_consequence_id = ""
+on_equip_consequence_id = ""
+on_unequip_consequence_id = ""
+slot_compatibility_predicate = ""
+stackable = false

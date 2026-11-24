@@ -1,0 +1,212 @@
+{
+	"forks": {
+		"markdown": {
+			"name": "durandom/dnd-5e-srd-markdown",
+			"upstream": "https://github.com/downfallx/dnd-5e-srd-markdown",
+			"commit": "1b4b99dcb786cdd1a2fb26f8acec1551191f1ca4",
+			"commitDate": "2026-01-09T16:54:05-05:00",
+			"files": [
+				{
+					"path": "markdown/animals.md",
+					"sha256": "c42082103eb868c5b8b2f6c0cbdcc8146545c149cfc7af32524f9938eed658f9"
+				},
+				{
+					"path": "markdown/character-creation.md",
+					"sha256": "1c8f477398cc7ca5721542698d67147f303e4dd5a5dacdad7cb7cec1119f7c42"
+				},
+				{
+					"path": "markdown/character-origins.md",
+					"sha256": "76c92948e8e86011f3bab326d81faac5eaff9515016039cb33c3bf89e34163af"
+				},
+				{
+					"path": "markdown/classes.md",
+					"sha256": "faed31b122429262362f97cec71c0ada54786dc7d8c26ebfaa104d4e26325327"
+				},
+				{
+					"path": "markdown/equipment.md",
+					"sha256": "eef7cb0529d933ce10983fb2c16f51ce8b7ea8044bd0b5961fba5f472b6e9970"
+				},
+				{
+					"path": "markdown/feats.md",
+					"sha256": "3894f4a147df40adb8b090825b4c2e3e5ee2c67851aca42305b11f2477bcfbf7"
+				},
+				{
+					"path": "markdown/gameplay-toolbox.md",
+					"sha256": "977fce5f89d3dae00c56bcf9321d6df07a0fde0182d7cda3e5e71b6762891adc"
+				},
+				{
+					"path": "markdown/magic-items.md",
+					"sha256": "96c71ad35dddf0e79e47ac3d7bbe96704b5209c1f6e1bf01d543080789e18e98"
+				},
+				{
+					"path": "markdown/monsters-A-Z.md",
+					"sha256": "7ed4f82bc5991ac6aeebcd894e75872c8f4ce2b13fb22fe68838dc3ecd9ddfaa"
+				},
+				{
+					"path": "markdown/monsters.md",
+					"sha256": "784a7e14a1f667b5c187b1fee5ef09bf88316f7174e81b2f74d54742bab813d3"
+				},
+				{
+					"path": "markdown/playing-the-game.md",
+					"sha256": "fbef5175da6b47b89587739240ef40260d885bc52646dd299464a4dc965e8907"
+				},
+				{
+					"path": "markdown/rules-glossary.md",
+					"sha256": "9b25315ef6728518f55b5b0e016d2083091f648e955a4e2ad1c1cd5d31823b2f"
+				},
+				{
+					"path": "markdown/spells.md",
+					"sha256": "3431f5b8f50fdb0c65cdf98f0164301c8757d20983d32b5ae9b5be7dc634bffb"
+				}
+			]
+		},
+		"open5e": {
+			"name": "durandom/open5e-api",
+			"upstream": "https://github.com/open5e/open5e-api",
+			"commit": "d4276c586d79f2a27bf2b814aed151cf57605283",
+			"commitDate": "2026-06-13T10:50:56-04:00",
+			"files": [
+				{
+					"path": "open5e-core/Language.json",
+					"sha256": "021e3a59ada5426ccd4eee9d4f2153e78ef51c15ad4441421acdb1ca5114c5f5"
+				},
+				{
+					"path": "open5e/AbilityDescription.json",
+					"sha256": "d0d9d0b322cfbfede0ddbad8a9e6f014adeedc859072b5597a26a0a3e4803456"
+				},
+				{
+					"path": "open5e/AlignmentDescription.json",
+					"sha256": "458b51211c076daf11c63747cec260c939e63b5be241c067a2e126e9ea936b00"
+				},
+				{
+					"path": "open5e/Armor.json",
+					"sha256": "b1978065995aa5d44fd0f28a84d9537fe85f1a9c0a6f43baecf14ea1043d626b"
+				},
+				{
+					"path": "open5e/Background.json",
+					"sha256": "2e55d2f849487104f597a24b35db2a11d6f9ed04e50c3fe213775ba32bf8bcac"
+				},
+				{
+					"path": "open5e/BackgroundBenefit.json",
+					"sha256": "43d84260fd436d481bc317b37fe7e826930bae3eb6b772959701da0381108d23"
+				},
+				{
+					"path": "open5e/CharacterClass.json",
+					"sha256": "17a6be1d4bd783dce17b2f6fb5646562fa90a4590b7dd9d254b7ef8e1c56b4e1"
+				},
+				{
+					"path": "open5e/ClassFeature.json",
+					"sha256": "3e2b21d79e327ae8d2ec3afc3af5c92e0c62dee89dba58c19566ecf41534cf57"
+				},
+				{
+					"path": "open5e/ClassFeatureItem.json",
+					"sha256": "e7469e35c3d456be79f21c70dc2c5197a1d80905262d118a4107470a77ba4a61"
+				},
+				{
+					"path": "open5e/ConditionDescription.json",
+					"sha256": "45cb5ea5d74dbd99f62ac4d9d33ac60d44e91957bc76920b90b89ad651d295d5"
+				},
+				{
+					"path": "open5e/Creature.json",
+					"sha256": "1d0a4980f816390865b93894813bed9fd22a8104b579946c20fb9664510b9009"
+				},
+				{
+					"path": "open5e/CreatureAction.json",
+					"sha256": "28c82fabbf6b5cb83d9eb6ccb5b73dbb31ccdda131e77cafd0aafa0422024867"
+				},
+				{
+					"path": "open5e/CreatureActionAttack.json",
+					"sha256": "efcb9dc9e09fbdf6f1098a1d996de3f9b00b5d4a53f2621bbd5703cfa49bdeca"
+				},
+				{
+					"path": "open5e/CreatureTrait.json",
+					"sha256": "f9ad51a72a47a8ac9798694c34b422bfcd7e109917482ea25d884e4cf840223d"
+				},
+				{
+					"path": "open5e/CreatureTypeDescription.json",
+					"sha256": "5d4fe2d830b5c2695b4a7c7881abb5e1209ee212018dd47da482166d34dfea4e"
+				},
+				{
+					"path": "open5e/CrossReference.json",
+					"sha256": "5bc5f2c180df466f712b8ef32a9558318b5d4abc7e65dd6d5dd3f5d4efe1a88f"
+				},
+				{
+					"path": "open5e/DamageTypeDescription.json",
+					"sha256": "dad4b1108206edbbe123fded63410a1ad604987960ded7c0a9687c8638630895"
+				},
+				{
+					"path": "open5e/Document.json",
+					"sha256": "c9a85da12a2a90cf272f35f061f7ec60adf52f501312c45ee59fb17890611b1a"
+				},
+				{
+					"path": "open5e/Feat.json",
+					"sha256": "aabbd7864a90051c2298bfdda8e58675efe9f0944de9fb2cf5c4ac3113d3ebea"
+				},
+				{
+					"path": "open5e/FeatBenefit.json",
+					"sha256": "e294da40babae3c00683a8a0c43a2d04f51ba836bc3de18e2f74a297324915d1"
+				},
+				{
+					"path": "open5e/Item.json",
+					"sha256": "01a8bc82d2957d0aa9fc3a619e91e140b989bc5e3e47173ef1f7602ee58edbc0"
+				},
+				{
+					"path": "open5e/ItemCategory.json",
+					"sha256": "ae72b38eccae8f98a0719cfd8a70ae781e8eea0bab8506f5610b3e7106aa5bc3"
+				},
+				{
+					"path": "open5e/MagicItem.json",
+					"sha256": "416f8d2fa8bf0c67fcb1e93fb9adf52b43730fb015c91275561babe79e00af0a"
+				},
+				{
+					"path": "open5e/Rule.json",
+					"sha256": "a4bc45d015a06ea83b8acb7c81b588b56b5276c17bab17c22f960c7a6ef5a0d9"
+				},
+				{
+					"path": "open5e/RuleSet.json",
+					"sha256": "3882f9f0aa777ad6f8b08fdb27d31bc7b8b574d11fed0fd13cc421af6199e601"
+				},
+				{
+					"path": "open5e/Service.json",
+					"sha256": "df7186ba9c98ff6e19f1d2a0fe16727914d59e20b13a290b8957052fbce0aa72"
+				},
+				{
+					"path": "open5e/Services.json",
+					"sha256": "d061497b93c835c4b7ce653e87de170c3f28356cc988cb61506f87cf877bb4fd"
+				},
+				{
+					"path": "open5e/SkillDescription.json",
+					"sha256": "2d96dcf43218f49a82ecb0fda0f3b91722af11ca49a1385f7020d484bec415f0"
+				},
+				{
+					"path": "open5e/Species.json",
+					"sha256": "1330e8f5220f41773dadb231adcb109f223b79e25fd5be26952300364a0d90ca"
+				},
+				{
+					"path": "open5e/SpeciesTrait.json",
+					"sha256": "8e27011b56c2bacd2cf8cf4d707afd9d083ca9895d4ca043762c38702cf0d0c0"
+				},
+				{
+					"path": "open5e/Spell.json",
+					"sha256": "cd8eefbc2c497a07b4346c4c3f267eb7bd71dc1be06839174307b6959cdfdfbf"
+				},
+				{
+					"path": "open5e/SpellCastingOption.json",
+					"sha256": "3104db8c53c558cb5059caa7eacb4becc8a104b9706f534f5d42271e1b804153"
+				},
+				{
+					"path": "open5e/Weapon.json",
+					"sha256": "0582eb569c47f04593045d12eb8c39a2e20bd1caad8472de6d7604b1eabfb2ad"
+				},
+				{
+					"path": "open5e/WeaponProperty.json",
+					"sha256": "77b6a718fc6a2f7a92da63c85b5921635600ac72acc4ecc8861963e75755ce8e"
+				},
+				{
+					"path": "open5e/WeaponPropertyAssignment.json",
+					"sha256": "6a646a5dd8d32cd45dcf576940faa323b2b0d54cf1bd8992a4252f92a9dc09d0"
+				}
+			]
+		}
+	}
+}

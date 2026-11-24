@@ -1,0 +1,138 @@
+[[actor_spatial_locations]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/guard_1"
+place_node_id = "srd_proof_scene/cell_a"
+selection_path = "manifest:srd_proof/guard_1"
+
+[[actors]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/guard_1"
+name = "Srd Proof Guard 1"
+
+[[entities]]
+bundle_id = "srd_proof"
+description = "TEST-ONLY spawned second-actor target for the generic-check verb rework."
+entity_def_id = "srd_proof/guard"
+entity_key = "srd_proof/guard_1"
+kind = "npc"
+name = "Srd Proof Guard 1"
+owned_by_entity_key = ""
+place_node_id = "srd_proof_scene/cell_a"
+quantity = 1
+
+[[entity_definition_initial_capability]]
+bundle_id = "srd_proof"
+capability_id = "srd_proof/reaction-resolution"
+entity_def_id = "srd_proof/guard"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "srd_proof"
+capability_id = "srd_proof/move/proof-edge"
+entity_def_id = "srd_proof/guard"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/guard"
+state_id = "srd/reach_mm"
+value_bool = true
+value_int = 1524
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/guard"
+state_id = "srd/int"
+value_bool = true
+value_int = 22
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/guard"
+state_id = "srd/str"
+value_bool = true
+value_int = 15
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/guard"
+state_id = "srd/level"
+value_bool = true
+value_int = 5
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/guard"
+state_id = "srd/dc/athletics"
+value_bool = true
+value_int = 26
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/guard"
+state_id = "srd/dc/persuasion"
+value_bool = true
+value_int = 0
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/guard"
+state_id = "srd/ac"
+value_bool = true
+value_int = 21
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/guard"
+state_id = "srd/hp"
+value_bool = true
+value_int = 999
+
+[[entity_definition_initial_state]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/guard"
+state_id = "srd_proof/movement_reach"
+value_bool = true
+value_int = 1000000
+
+[[entity_definition_tag]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/guard"
+source = "manifest"
+tag = "srd.creature"
+
+[[entity_definition_tag]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/guard"
+source = "manifest"
+tag = "srd.creature_type.humanoid"
+
+[[entity_definition_tag]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/guard"
+source = "manifest"
+tag = "srd.language.common"
+
+[[entity_definition_tag]]
+bundle_id = "srd_proof"
+entity_def_id = "srd_proof/guard"
+source = "manifest"
+tag = "srd.advancement_trainer"
+
+[[entity_definitions]]
+affordance_seed_id = ""
+bundle_id = "srd_proof"
+description = "TEST-ONLY second actor for the generic-check verb rework (slice 2), plus the generic Unarmed Strike Damage live proof — a REAL actor blueprint, not an inert prop like training-dummy, carrying its own srd/int score, the srd/dc/athletics (guaranteed-failure override, the torn-down d20-impossible's own construction) and srd/dc/persuasion (0 sentinel, no override) states the Athletics-impossible and Persuasion-derived checks read against it (the design draft's own 'persuade the guard' shape), plus real srd/ac and srd/hp target facts for the shipped Unarmed Strike (finding #35 — every target an action can act against must carry every state its predicate and consequence touch, not just the ones it already needed). C5 (Step-5 derived numbers): also the CHECKING actor for the stealth-vs-passive-perception live proof (checks.ts) — carries its own srd/dex seed and srd/skill/stealth proficiency, chosen so its total Stealth modifier lands the guaranteed-success boundary trick exactly on the hero's own derived Passive Perception DC (checks.ts's own header)."
+display_name = "Guard"
+entity_def_id = "srd_proof/guard"
+grants_capability_while_equipped = ""
+grants_capability_while_present_in_location = ""
+lineage_id = ""
+on_consume_consequence_id = ""
+on_destroy_consequence_id = ""
+on_equip_consequence_id = ""
+on_unequip_consequence_id = ""
+slot_compatibility_predicate = ""
+stackable = false

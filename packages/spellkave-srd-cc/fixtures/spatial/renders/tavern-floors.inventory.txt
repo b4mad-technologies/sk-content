@@ -1,0 +1,15 @@
+B all floors
+Spatial inventory: 8 named places; 8 named connections; slice=all_floors_offset floors=[-3,0]
+1 graph unit = 1 m (place_graph.metres_per_unit)
+Δx 6 m (bbox)
+Δy 3 m (bbox)
+Floors (elevation): -3, 0
+NODES (id | name | x,y,z | occupants | adjacent)
+  srd_proof/tavern/bar  "Bar"  (3, 0, z=0)  actors=1  adjacent=[srd_proof/tavern/common, srd_proof/tavern/kitchen, srd_proof/tavern/stairs]
+  srd_proof/tavern/booth  "Private Booth"  (0, 3, z=0)  actors=1  adjacent=[srd_proof/tavern/common]
+  srd_proof/tavern/cellar_ale  "Ale Casks"  (0, 3, z=-3)  actors=1  adjacent=[srd_proof/tavern/cellar_hall]
+  srd_proof/tavern/cellar_hall  "Cellar Hall"  (3, 3, z=-3)  adjacent=[srd_proof/tavern/cellar_ale, srd_proof/tavern/cellar_stores, srd_proof/tavern/stairs]
+  srd_proof/tavern/cellar_stores  "Cellar Stores"  (6, 3, z=-3)  adjacent=[srd_proof/tavern/cellar_hall]
+  srd_proof/tavern/common  "Common Room"  (0, 0, z=0)  actors=2  adjacent=[srd_proof/tavern/bar, srd_proof/tavern/booth, srd_proof/tavern/stairs]
+  srd_proof/tavern/kitchen  "Kitchen"  (6, 0, z=0)  actors=1  adjacent=[srd_proof/tavern/bar]
+  srd_proof/tavern/stairs  "Stairs"  (3, 3, z=0)  adjacent=[srd_proof/tavern/bar, srd_proof/tavern/cellar_hall, srd_proof/tavern/common]

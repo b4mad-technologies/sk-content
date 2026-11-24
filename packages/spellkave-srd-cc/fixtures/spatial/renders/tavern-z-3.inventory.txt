@@ -1,0 +1,9 @@
+A cellar
+Spatial inventory: 3 named places; 2 named connections; slice=elevation_band z=-3±0.5
+1 graph unit = 1 m (place_graph.metres_per_unit)
+Δx 6 m (bbox)
+Floors (elevation): -3, 0
+NODES (id | name | x,y,z | occupants | adjacent)
+  srd_proof/tavern/cellar_ale  "Ale Casks"  (0, 3, z=-3)  actors=1  adjacent=[srd_proof/tavern/cellar_hall]
+  srd_proof/tavern/cellar_hall  "Cellar Hall"  (3, 3, z=-3)  adjacent=[srd_proof/tavern/cellar_ale, srd_proof/tavern/cellar_stores]
+  srd_proof/tavern/cellar_stores  "Cellar Stores"  (6, 3, z=-3)  adjacent=[srd_proof/tavern/cellar_hall]

@@ -1,0 +1,11 @@
+metric (stacked z — bad default)
+Spatial inventory: 4 named places; 3 named connections; slice=metric
+1 graph unit = 1 m (place_graph.metres_per_unit)
+Δx 4 m (bbox)
+Δy 4 m (bbox)
+Floors (elevation): -3, 0
+NODES (id | name | x,y,z | occupants | adjacent)
+  srd_proof/cottage/cellar  "Cellar"  (4, 4, z=-3)  actors=1  adjacent=[srd_proof/cottage/kitchen]
+  srd_proof/cottage/foyer  "Foyer"  (0, 0, z=0)  actors=1  adjacent=[srd_proof/cottage/hall]
+  srd_proof/cottage/hall  "Hall"  (0, 4, z=0)  adjacent=[srd_proof/cottage/foyer, srd_proof/cottage/kitchen]
+  srd_proof/cottage/kitchen  "Kitchen"  (4, 4, z=0)  actors=2  adjacent=[srd_proof/cottage/cellar, srd_proof/cottage/hall]

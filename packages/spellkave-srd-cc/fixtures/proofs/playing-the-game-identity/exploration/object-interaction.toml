@@ -1,0 +1,186 @@
+[[action_definitions]]
+action_id = "srd_proof/object-interaction/pull-free"
+bundle_id = "srd_proof"
+cost_time_ms = 0
+description = "Pull the nearby lever using this turn's one free object interaction."
+display_name = "Pull Lever — Free Interaction"
+on_failure = ""
+on_success = "srd_proof/object-interaction/pull-free/success"
+required_capability = "srd_proof/object-interaction/free"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+spends_channel = "srd/economy_channel/object_interaction"
+
+[[action_definitions]]
+action_id = "srd_proof/object-interaction/pull-utilize"
+bundle_id = "srd_proof"
+cost_time_ms = 0
+description = "Pull the nearby lever as an additional interaction by taking the Utilize action."
+display_name = "Pull Lever — Utilize"
+on_failure = ""
+on_success = "srd_proof/object-interaction/pull-utilize/success"
+required_capability = "srd/action/utilize"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+spends_channel = "srd/economy_channel/primary"
+
+[[actor_capabilities]]
+actor_entity_key = "srd_proof/hero_1"
+bundle_id = "srd_proof"
+capability_id = "srd_proof/object-interaction/free"
+elevation_class = ""
+extent_kind_ref = ""
+extent_ref = ""
+source = "srd_proof/object-interaction"
+source_args_hash = ""
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "srd_proof"
+capability_id = "srd_proof/object-interaction/free"
+display_name = "Pull Lever — Free Interaction"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "srd_proof/object-interaction/lever"
+outcome_template_id = "srd_proof/object-interaction/pull-free/outcome"
+predicate_bool = true
+predicate_source = ""
+range_m = 0.0
+reads_occupancy = false
+spends_channel = "srd/economy_channel/object_interaction"
+stratification_ok = true
+template_id = "srd_proof/object-interaction/pull-free/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "srd_proof"
+capability_id = "srd/action/utilize"
+display_name = "Pull Lever — Utilize"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "srd_proof/object-interaction/lever"
+outcome_template_id = "srd_proof/object-interaction/pull-utilize/outcome"
+predicate_bool = true
+predicate_source = ""
+range_m = 0.0
+reads_occupancy = false
+spends_channel = "srd/economy_channel/primary"
+stratification_ok = true
+template_id = "srd_proof/object-interaction/pull-utilize/affordance"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "srd_proof"
+capability_id = "srd_proof/object-interaction/free"
+default_visibility = "Public"
+description = "TEST-ONLY eligibility for the SRD's one free object interaction per turn."
+display_name = "Free Object Interaction (proof)"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "srd_proof/object-interaction/pull-free/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "srd_proof/object-interaction/lever-pulls"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "srd_proof/object-interaction/pull-utilize/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "srd_proof/object-interaction/lever-pulls"
+
+[[consequence_templates]]
+bundle_id = "srd_proof"
+description = "Move the proof lever once."
+template_id = "srd_proof/object-interaction/pull-free/success"
+
+[[consequence_templates]]
+bundle_id = "srd_proof"
+description = "Move the proof lever once."
+template_id = "srd_proof/object-interaction/pull-utilize/success"
+
+[[entities]]
+bundle_id = "srd_proof"
+description = "TEST-ONLY inanimate lever for the first playable Exploration object interaction."
+entity_def_id = ""
+entity_key = "srd_proof/lever_1"
+kind = "item"
+name = "Item 1"
+owned_by_entity_key = ""
+place_node_id = "srd_proof_scene/cell_a"
+quantity = 1
+
+[[entity_tag]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/lever_1"
+source = "manifest"
+tag = "srd_proof/object-interaction/lever"
+
+[[niche_definitions]]
+bundle_id = "srd_proof"
+description = "TEST-ONLY target niche for the concrete object-interaction vertical."
+display_name = "Interactable Lever (proof)"
+niche_id = "srd_proof/object-interaction/lever"
+predicate_source = ""
+
+[[object_state]]
+bundle_id = "srd_proof"
+entity_key = "srd_proof/lever_1"
+expires_at_tick = 0
+source_template_id = "srd_proof/object-interaction"
+state_id = "srd_proof/object-interaction/lever-pulls"
+value_bool = true
+value_int = 0
+visibility = "Public"
+
+[[outcome_templates]]
+bundle_id = "srd_proof"
+consequence_template_id = ""
+display_name = "Pull Lever — Free Interaction"
+manipulation_action_id = "srd_proof/object-interaction/pull-free"
+outcome_bool = true
+outcome_template_id = "srd_proof/object-interaction/pull-free/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "srd_proof"
+consequence_template_id = ""
+display_name = "Pull Lever — Utilize"
+manipulation_action_id = "srd_proof/object-interaction/pull-utilize"
+outcome_bool = true
+outcome_template_id = "srd_proof/object-interaction/pull-utilize/outcome"
+sense_visibility = "local"
+
+[[resource_definitions]]
+bundle_id = "srd_proof"
+description = "TEST-ONLY visible counter incremented by every admitted pull of the proof lever."
+display_name = "Lever pulls (proof counter)"
+initial_value = 0
+max_value = 1000000
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "srd_proof/object-interaction/lever-pulls"
+value_kind = "int"
+
+[[spatial_niche_attachments]]
+bundle_id = "srd_proof"
+condition_bool = true
+ecological_invariant = false
+niche_id = "srd_proof/object-interaction/lever"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "srd_proof_scene/cell_a"
+visibility = "Public"

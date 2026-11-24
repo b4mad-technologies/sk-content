@@ -1,0 +1,35 @@
+[[place_graphs]]
+anchor_node_id = "elven_mini/operator_offstage/station"
+bearing = 0.0
+blueprint_id = ""
+bundle_id = "elven_mini"
+description = "Offstage holding place for the publisher's observation body: one node, DELIBERATELY not connected to any playable geography."
+display_name = "Operator Offstage"
+is_ephemeral_instance = false
+metres_per_unit = 1.0
+origin_cell_res10 = 0
+origin_cell_res4 = 0
+origin_cell_res7 = 0
+parent_graph_id = ""
+place_graph_id = "elven_mini/operator_offstage"
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = ""
+display_name = "Operator Offstage"
+extent_params_json = ""
+extent_shape_id = ""
+is_ephemeral = false
+local_id = "station"
+node_id = "elven_mini/operator_offstage/station"
+place_graph_id = "elven_mini/operator_offstage"
+pos_present = true
+pos_x = 0
+pos_y = 0
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"

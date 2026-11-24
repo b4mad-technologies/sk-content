@@ -1,0 +1,531 @@
+#:schema https://spellkave.dev/schema/world-manifest-1.0.0.json
+applyset = "elven_mini.goblin_warren"
+schema_version = "1.0.0"
+
+[[bundles]]
+allow_flat_tags = false
+author = "spellkave-srd-cc"
+bundle_id = "elven_mini"
+default_extent_params_json = '{"extent_m": 4.5}'
+default_extent_shape_id = "core/area/cube"
+depends_on = [
+    "srd",
+    "dm",
+]
+description = "Playing-the-Game proof mini-world (elven multi-graph). Map art © Elven Tower Maps (CC BY 4.0). https://www.patreon.com/elventower/posts/creative-commons-153067169"
+display_name = "Playing the Game proof scene"
+version = "1.0.0"
+
+[[bundles.tag_prefixes]]
+prefix = "elven_mini"
+
+[metadata]
+bundle = "elven_mini"
+profile = "elven_mini_goblin_warren"
+
+[[movement_defaults]]
+affordance_template_id = "srd/affordance/step"
+bindings_json = '{"movement_reach_resource":"srd/speed-walk","long_running_move_session":"srd/long_running_move"}'
+bundle_id = "elven_mini"
+mode_id = ""
+place_graph_id = ""
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/goblin_warren/entrance->elven_mini/goblin_warren/guard_post"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/goblin_warren/entrance"
+inherit_movement_default = true
+place_graph_id = "elven_mini/goblin_warren"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/goblin_warren/guard_post"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/goblin_warren/guard_post->elven_mini/goblin_warren/entrance"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/goblin_warren/guard_post"
+inherit_movement_default = true
+place_graph_id = "elven_mini/goblin_warren"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/goblin_warren/entrance"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/goblin_warren/guard_post->elven_mini/goblin_warren/common_den"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/goblin_warren/guard_post"
+inherit_movement_default = true
+place_graph_id = "elven_mini/goblin_warren"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/goblin_warren/common_den"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/goblin_warren/common_den->elven_mini/goblin_warren/guard_post"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/goblin_warren/common_den"
+inherit_movement_default = true
+place_graph_id = "elven_mini/goblin_warren"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/goblin_warren/guard_post"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/goblin_warren/common_den->elven_mini/goblin_warren/trap_niche_a"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/goblin_warren/common_den"
+inherit_movement_default = true
+place_graph_id = "elven_mini/goblin_warren"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/goblin_warren/trap_niche_a"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/goblin_warren/trap_niche_a->elven_mini/goblin_warren/common_den"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/goblin_warren/trap_niche_a"
+inherit_movement_default = true
+place_graph_id = "elven_mini/goblin_warren"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/goblin_warren/common_den"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/goblin_warren/common_den->elven_mini/goblin_warren/trap_niche_b"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/goblin_warren/common_den"
+inherit_movement_default = true
+place_graph_id = "elven_mini/goblin_warren"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/goblin_warren/trap_niche_b"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/goblin_warren/trap_niche_b->elven_mini/goblin_warren/common_den"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/goblin_warren/trap_niche_b"
+inherit_movement_default = true
+place_graph_id = "elven_mini/goblin_warren"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/goblin_warren/common_den"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/goblin_warren/common_den->elven_mini/goblin_warren/tunnel_join"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/goblin_warren/common_den"
+inherit_movement_default = true
+place_graph_id = "elven_mini/goblin_warren"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/goblin_warren/tunnel_join"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/goblin_warren/tunnel_join->elven_mini/goblin_warren/common_den"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/goblin_warren/tunnel_join"
+inherit_movement_default = true
+place_graph_id = "elven_mini/goblin_warren"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/goblin_warren/common_den"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/goblin_warren/tunnel_join->elven_mini/goblin_warren/chief_anteroom"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/goblin_warren/tunnel_join"
+inherit_movement_default = true
+place_graph_id = "elven_mini/goblin_warren"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/goblin_warren/chief_anteroom"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/goblin_warren/chief_anteroom->elven_mini/goblin_warren/tunnel_join"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/goblin_warren/chief_anteroom"
+inherit_movement_default = true
+place_graph_id = "elven_mini/goblin_warren"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/goblin_warren/tunnel_join"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/goblin_warren/chief_anteroom->elven_mini/goblin_warren/chief_hall"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/goblin_warren/chief_anteroom"
+inherit_movement_default = true
+place_graph_id = "elven_mini/goblin_warren"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/goblin_warren/chief_hall"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/goblin_warren/chief_hall->elven_mini/goblin_warren/chief_anteroom"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/goblin_warren/chief_hall"
+inherit_movement_default = true
+place_graph_id = "elven_mini/goblin_warren"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/goblin_warren/chief_anteroom"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/goblin_warren/chief_hall->elven_mini/goblin_warren/loot_cache"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/goblin_warren/chief_hall"
+inherit_movement_default = true
+place_graph_id = "elven_mini/goblin_warren"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/goblin_warren/loot_cache"
+
+[[place_edges]]
+bundle_id = "elven_mini"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "elven_mini/goblin_warren/loot_cache->elven_mini/goblin_warren/chief_hall"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "elven_mini/goblin_warren/loot_cache"
+inherit_movement_default = true
+place_graph_id = "elven_mini/goblin_warren"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "elven_mini/goblin_warren/chief_hall"
+
+[[place_graphs]]
+anchor_node_id = "elven_mini/goblin_warren/entrance"
+bearing = 0.0
+blueprint_id = ""
+bundle_id = "elven_mini"
+description = "A goblin lair in the hills, joined by a tunnel to the chief's hideout deeper in the rock."
+display_name = "Goblin Warren"
+is_ephemeral_instance = false
+metres_per_unit = 1.5240000486373901
+origin_cell_res10 = 0
+origin_cell_res4 = 0
+origin_cell_res7 = 0
+parent_graph_id = "elven_mini/region"
+place_graph_id = "elven_mini/goblin_warren"
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A low cave mouth stinking of goblin and wet dog, scrap-wood stakes framing the dark."
+display_name = "Warren Mouth"
+extent_params_json = '{"extent_m":3.048,"extent_x_m":3.048,"extent_y_m":3.048,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "entrance"
+node_id = "elven_mini/goblin_warren/entrance"
+place_graph_id = "elven_mini/goblin_warren"
+pos_present = true
+pos_x = 10
+pos_y = 32
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A cramped guard niche with a gong and a pile of javelins."
+display_name = "Guard Post"
+extent_params_json = '{"extent_m":3.048,"extent_x_m":3.048,"extent_y_m":3.048,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "guard_post"
+node_id = "elven_mini/goblin_warren/guard_post"
+place_graph_id = "elven_mini/goblin_warren"
+pos_present = true
+pos_x = 14
+pos_y = 26
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "The common den — sleeping piles, cook-smoke, and too many eyes."
+display_name = "Common Den"
+extent_params_json = '{"extent_m":5.334,"extent_x_m":5.334,"extent_y_m":4.572,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "common_den"
+node_id = "elven_mini/goblin_warren/common_den"
+place_graph_id = "elven_mini/goblin_warren"
+pos_present = true
+pos_x = 18
+pos_y = 20
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A side niche where tripwires glitter faintly in the dark."
+display_name = "Trap Niche A"
+extent_params_json = '{"extent_m":1.829,"extent_x_m":1.829,"extent_y_m":1.829,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "trap_niche_a"
+node_id = "elven_mini/goblin_warren/trap_niche_a"
+place_graph_id = "elven_mini/goblin_warren"
+pos_present = true
+pos_x = 12
+pos_y = 18
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "Another trap niche opposite the first, staked and waiting."
+display_name = "Trap Niche B"
+extent_params_json = '{"extent_m":1.829,"extent_x_m":1.829,"extent_y_m":1.829,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "trap_niche_b"
+node_id = "elven_mini/goblin_warren/trap_niche_b"
+place_graph_id = "elven_mini/goblin_warren"
+pos_present = true
+pos_x = 24
+pos_y = 18
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A sloping tunnel joining the lair to the chief's halls."
+display_name = "Tunnel to Chief"
+extent_params_json = '{"extent_m":2.286,"extent_x_m":2.286,"extent_y_m":2.286,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "tunnel_join"
+node_id = "elven_mini/goblin_warren/tunnel_join"
+place_graph_id = "elven_mini/goblin_warren"
+pos_present = true
+pos_x = 28
+pos_y = 16
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "An anteroom hung with stolen banners before the chief's hall."
+display_name = "Chief Anteroom"
+extent_params_json = '{"extent_m":3.048,"extent_x_m":3.048,"extent_y_m":3.048,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "chief_anteroom"
+node_id = "elven_mini/goblin_warren/chief_anteroom"
+place_graph_id = "elven_mini/goblin_warren"
+pos_present = true
+pos_x = 32
+pos_y = 14
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "Grubnash's hall — a throne of crates and a fire that never quite goes out."
+display_name = "Grubnash's Hall"
+extent_params_json = '{"extent_m":4.572,"extent_x_m":4.572,"extent_y_m":3.81,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "chief_hall"
+node_id = "elven_mini/goblin_warren/chief_hall"
+place_graph_id = "elven_mini/goblin_warren"
+pos_present = true
+pos_x = 36
+pos_y = 10
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "elven_mini"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A loot cache of dented coin and cracked pottery."
+display_name = "Loot Cache"
+extent_params_json = '{"extent_m":2.286,"extent_x_m":2.286,"extent_y_m":2.286,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "loot_cache"
+node_id = "elven_mini/goblin_warren/loot_cache"
+place_graph_id = "elven_mini/goblin_warren"
+pos_present = true
+pos_x = 38
+pos_y = 16
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"

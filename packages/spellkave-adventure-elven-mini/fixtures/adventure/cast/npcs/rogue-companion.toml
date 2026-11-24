@@ -1,0 +1,412 @@
+[[entity_definition_containment_policy]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+policy_id = "srd/containment/corpse"
+
+[[entity_definition_containment_policy]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/item/rogue-field-kit"
+policy_id = "srd/containment/open"
+
+[[entity_definition_initial_capability]]
+bundle_id = "elven_mini"
+capability_id = "srd/creature/scout/action"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "elven_mini"
+capability_id = "srd/skill/stealth"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "elven_mini"
+capability_id = "srd/skill/investigation"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "elven_mini"
+capability_id = "srd/skill/sleight-of-hand"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "elven_mini"
+capability_id = "srd/skill/perception"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "elven_mini"
+capability_id = "srd/feat/alert"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+extent_kind_ref = ""
+extent_ref = ""
+
+[[entity_definition_initial_capability]]
+bundle_id = "elven_mini"
+capability_id = "elven_mini/party/sight"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+extent_kind_ref = "party"
+extent_ref = "srd.party.heroes"
+
+[[entity_definition_initial_containment]]
+bundle_id = "elven_mini"
+contained_entity_def_id = "elven_mini/item/torch"
+entity_def_id = "elven_mini/item/rogue-field-kit"
+quantity = 1
+
+[[entity_definition_initial_containment]]
+bundle_id = "elven_mini"
+contained_entity_def_id = "elven_mini/item/rations"
+entity_def_id = "elven_mini/item/rogue-field-kit"
+quantity = 3
+
+[[entity_definition_initial_containment]]
+bundle_id = "elven_mini"
+contained_entity_def_id = "elven_mini/item/rogue-field-kit"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+quantity = 1
+
+[[entity_definition_initial_containment]]
+bundle_id = "elven_mini"
+contained_entity_def_id = "srd/weapon/shortsword"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+quantity = 1
+
+[[entity_definition_initial_equipment]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+equipped_entity_def_id = "srd/weapon/longsword"
+slot_id = "srd/slot/main-hand"
+
+[[entity_definition_initial_state]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+state_id = "srd/reach_mm"
+value_bool = true
+value_int = 1524
+
+[[entity_definition_initial_state]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+state_id = "srd/str"
+value_bool = true
+value_int = 12
+
+[[entity_definition_initial_state]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+state_id = "srd/dex"
+value_bool = true
+value_int = 15
+
+[[entity_definition_initial_state]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+state_id = "srd/con"
+value_bool = true
+value_int = 13
+
+[[entity_definition_initial_state]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+state_id = "srd/int"
+value_bool = true
+value_int = 14
+
+[[entity_definition_initial_state]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+state_id = "srd/wis"
+value_bool = true
+value_int = 10
+
+[[entity_definition_initial_state]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+state_id = "srd/cha"
+value_bool = true
+value_int = 8
+
+[[entity_definition_initial_state]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+state_id = "srd/ac"
+value_bool = true
+value_int = 12
+
+[[entity_definition_initial_state]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+state_id = "srd/hp"
+value_bool = true
+value_int = 9
+
+[[entity_definition_initial_state]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+state_id = "srd/speed-walk"
+value_bool = true
+value_int = 6
+
+[[entity_definition_initial_state]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+state_id = "srd/proficiency_bonus"
+value_bool = true
+value_int = 2
+
+[[entity_definition_initial_state]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+state_id = "srd/xp_value"
+value_bool = true
+value_int = 100
+
+[[entity_definition_initial_state]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+state_id = "srd/level"
+value_bool = true
+value_int = 1
+
+[[entity_definition_initial_state]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+state_id = "srd/xp"
+value_bool = true
+value_int = 0
+
+[[entity_definition_initial_state]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+state_id = "srd/hp_per_level"
+value_bool = true
+value_int = 5
+
+[[entity_definition_initial_state]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+state_id = "srd/rogue/sneak-attack-dice"
+value_bool = true
+value_int = 1
+
+[[entity_definition_initial_state]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+state_id = "elven_mini/quest/Q1/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[entity_definition_initial_state]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+state_id = "elven_mini/quest/Q2/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[entity_definition_initial_state]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+state_id = "elven_mini/quest/Q3/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[entity_definition_initial_state]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+state_id = "elven_mini/quest/Q4/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[entity_definition_initial_state]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+state_id = "elven_mini/quest/Q5/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[entity_definition_initial_state]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+state_id = "elven_mini/quest/Q6/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[entity_definition_initial_state]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+state_id = "elven_mini/quest/Q7/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[entity_definition_initial_state]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+state_id = "elven_mini/quest/Q8/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[entity_definition_initial_state]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+state_id = "elven_mini/quest/Q9/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[entity_definition_initial_state]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+state_id = "elven_mini/quest/Q10/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[entity_definition_initial_state]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+state_id = "elven_mini/quest/Q11/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[entity_definition_initial_state]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+state_id = "elven_mini/quest/Q12/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[entity_definition_tag]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/item/rogue-field-kit"
+source = "manifest"
+tag = "srd.item.container"
+
+[[entity_definition_tag]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/item/rogue-field-kit"
+source = "manifest"
+tag = "srd.item.gear"
+
+[[entity_definition_tag]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+source = "manifest"
+tag = "srd.creature"
+
+[[entity_definition_tag]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+source = "manifest"
+tag = "srd.monster"
+
+[[entity_definition_tag]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+source = "manifest"
+tag = "srd.communication.vocal"
+
+[[entity_definition_tag]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+source = "manifest"
+tag = "srd.alignment.neutral"
+
+[[entity_definition_tag]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+source = "manifest"
+tag = "srd.creature_type.humanoid"
+
+[[entity_definition_tag]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+source = "manifest"
+tag = "srd.size.small"
+
+[[entity_definition_tag]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+source = "manifest"
+tag = "srd.cr.1-2"
+
+[[entity_definition_tag]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+source = "manifest"
+tag = "srd.language.common"
+
+[[entity_definition_tag]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+source = "manifest"
+tag = "srd.creature.role.skirmisher"
+
+[[entity_definition_tag]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+source = "manifest"
+tag = "srd.class.rogue"
+
+[[entity_definition_tag]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+source = "manifest"
+tag = "srd.species.human"
+
+[[entity_definition_tag]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+source = "manifest"
+tag = "srd.background.criminal"
+
+[[entity_definition_tag]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+source = "manifest"
+tag = "srd.faction.party"
+
+[[entity_definition_tag]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+source = "manifest"
+tag = "srd.party.heroes"
+
+[[entity_definitions]]
+affordance_seed_id = ""
+bundle_id = "elven_mini"
+description = "A worn traveler's pack."
+display_name = "Field Kit"
+entity_def_id = "elven_mini/item/rogue-field-kit"
+grants_capability_while_equipped = ""
+grants_capability_while_present_in_location = ""
+lineage_id = ""
+on_consume_consequence_id = ""
+on_destroy_consequence_id = ""
+on_equip_consequence_id = ""
+on_unequip_consequence_id = ""
+slot_compatibility_predicate = ""
+stackable = false
+
+[[entity_definitions]]
+affordance_seed_id = ""
+bundle_id = "elven_mini"
+description = "A quiet blade Aldwin trusts — joined the party at the hero's second rung (skirmisher companion; SRD Rogue L2 sheet via creation completeness)."
+display_name = "Aldwin's Blade"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+grants_capability_while_equipped = ""
+grants_capability_while_present_in_location = ""
+lineage_id = ""
+on_consume_consequence_id = ""
+on_destroy_consequence_id = ""
+on_equip_consequence_id = ""
+on_unequip_consequence_id = ""
+slot_compatibility_predicate = ""
+stackable = false

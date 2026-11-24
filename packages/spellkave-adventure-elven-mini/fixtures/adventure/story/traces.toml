@@ -1,0 +1,32 @@
+[[place_node_traces]]
+node_id = "elven_mini/tomb/entrance"
+trace_kind_id = "elven_mini/adventure/trace/slime_trail"
+
+[[trace_kind_definitions]]
+bundle_id = "elven_mini"
+description = "A typed companion command footprint, inscribed at the addressee's current place: 'command' is the authored command word, 'addressee' the bound companion's entity id (carry_addressee). Place-visible on purpose — addressing is not privacy, so bystanders at that place may perceive it; the addressee alone is expected to act on it. Perceptible to an arriving observer for 30 ticks; that window is discovery only and says nothing about whether the command is still valid."
+kind_id = "elven_mini/adventure/trace/companion_command"
+location_kinds = "place_node"
+perceptible_for_ticks = 30
+schema_json = '{"command":"string","addressee":"integer"}'
+
+[[trace_kind_definitions]]
+bundle_id = "elven_mini"
+description = "The chest lid creaks open."
+kind_id = "elven_mini/adventure/loft-chest/open-sound"
+location_kinds = "entity"
+schema_json = "{}"
+
+[[trace_kind_definitions]]
+bundle_id = "elven_mini"
+description = "The chest lid settles shut."
+kind_id = "elven_mini/adventure/loft-chest/close-sound"
+location_kinds = "entity"
+schema_json = "{}"
+
+[[trace_kind_definitions]]
+bundle_id = "elven_mini"
+description = "A glistening trail of translucent slime, still faintly wet — something crawled through here."
+kind_id = "elven_mini/adventure/trace/slime_trail"
+location_kinds = "place_node"
+schema_json = "{}"

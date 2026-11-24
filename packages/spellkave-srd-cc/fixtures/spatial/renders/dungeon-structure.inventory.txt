@@ -1,0 +1,10 @@
+D topology structure
+Spatial inventory: 5 named places; 4 named connections; slice=topology_only
+1 graph unit = 1 m (place_graph.metres_per_unit)
+Floors (elevation): 0
+NODES (id | name | x,y,z | occupants | adjacent)
+  srd_proof/dungeon/crypt  "Crypt"  (0, 0, z=0)  actors=1  adjacent=[srd_proof/dungeon/hall]
+  srd_proof/dungeon/entrance  "Entrance"  (0, 0, z=0)  adjacent=[srd_proof/dungeon/guard]
+  srd_proof/dungeon/guard  "Guard Room"  (0, 0, z=0)  actors=1  adjacent=[srd_proof/dungeon/entrance, srd_proof/dungeon/hall]
+  srd_proof/dungeon/hall  "Great Hall"  (0, 0, z=0)  adjacent=[srd_proof/dungeon/crypt, srd_proof/dungeon/guard, srd_proof/dungeon/treasury]
+  srd_proof/dungeon/treasury  "Treasury"  (0, 0, z=0)  adjacent=[srd_proof/dungeon/hall]

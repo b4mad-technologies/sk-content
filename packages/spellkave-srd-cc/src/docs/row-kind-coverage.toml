@@ -1,0 +1,629 @@
+# Reader coverage: every manifest row kind, deliberately classified.
+#
+# WHY THIS FILE EXISTS
+#
+# The documentation reader used to answer "which row kind becomes a page?" in
+# four places that disagreed with each other and were kept in step by hand.
+# This file is the single answer. Code reads it; nobody restates it.
+#
+# It is also the thing a gate can check. `docs-coverage-validator.ts` reads the
+# authoritative kind list from the KERNEL registry
+# (`crates/spellkave-schema/src/row_kinds.rs`, reachable from TypeScript through
+# `packages/spellkave-world-author/src/row-kinds.ts`) and fails when a kind
+# registered there, or present in any manifest, is missing below. Reading the
+# kernel rather than scanning the fixtures is deliberate: eleven registered
+# kinds have no authored rows yet, and a fixture scan would call them absent
+# and wave them through.
+#
+# THE FOUR SURFACES
+#
+#   page      The row is a subject in its own right and gets its own catalogue
+#             page plus a component that renders it at all three view levels.
+#   owner     The row is payload belonging to another row. It appears on that
+#             row's page. `owner` names the kind it belongs to.
+#   relation  The row is an edge between two other rows. It is never a page; it
+#             becomes a link, reachable from both endpoints.
+#   none      The row has no reader surface at all. `reason` says why, and the
+#             reason must be a property of the row kind, never "we did not get
+#             to it yet".
+#
+# WHAT IS NOT AUTHORED HERE
+#
+# The natural-key field per kind is NOT restated here. The kernel registry
+# already carries it for every kind it knows; code reads it from there.
+# `id_field` below appears only for kinds the kernel does not register, and
+# only when something needs to address the row individually.
+#
+# `owner_field` is the one exception that IS authored here: the column an
+# owner-surfaced row uses to point at its owner, when that column does not
+# repeat the owner's own natural-key name (most do — the default is the
+# owner's `ROW_KIND_NATURAL_KEY` column, and only a kind that disagrees with
+# it needs this key at all).
+#
+# `owner_candidates` is for a row that belongs to whichever of SEVERAL fixed
+# kinds it actually names (`spatial_environment_state`, below). Each candidate
+# carries its own `owner`/`owner_field` pair, same rule as the singular form.
+# It is not the same thing as `owner = "*"` (`metadata_attachments`): that
+# owner is ANY kind at all, resolved from generic target columns; this one is
+# a small, fixed set of typed columns, at most one of which a given row sets.
+#
+# `label` is the other authored exception: the reader-facing facet title on
+# the owner's page, for an owner-surfaced kind whose generic prefix-strip
+# label (drop the owner's table name off the front, title-case the rest)
+# either reads badly or cannot even apply (`entities`' irregular plural strips
+# to `entitie_`, which none of its owned kinds' columns start with). Editorial
+# wording is authored data like everything else here — never a code table
+# beside the projection that renders it — and applies wherever the kind is
+# owner-surfaced, carrier page or not.
+#
+# Placement (which docs section, which family) stays in `sections.toml`. This
+# file answers only whether a kind surfaces at all, and in what shape.
+#
+# TOML FOOTGUN, DO NOT REPEAT IT
+#
+# A bare `key = value` written after an `[[array_of_tables]]` header attaches to
+# that array's LAST ELEMENT, not to the document root. `no_page_namespaces` in
+# `sections.toml` was silently dead for exactly this reason. Root scalars belong
+# above the first `[[kinds]]` header, nowhere else.
+
+# ---------------------------------------------------------------------------
+# page — a subject of its own
+# ---------------------------------------------------------------------------
+
+[[kinds]]
+kind = "entity_definitions"
+surface = "page"
+note = "Spells, monsters, items, classes. The reader's oldest page kind."
+
+[[kinds]]
+kind = "resource_definitions"
+surface = "page"
+note = "Hit points, ability scores, feature pools."
+
+[[kinds]]
+kind = "tag_value_definitions"
+surface = "page"
+note = "The tag vocabulary, published hierarchically under its own section."
+
+[[kinds]]
+kind = "entities"
+surface = "page"
+entry_kind = "entity"
+note = "Concrete world instances, as opposed to their definitions. The one table whose entry kind is not its name minus a trailing s."
+
+[[kinds]]
+kind = "action_definitions"
+surface = "page"
+note = "The verb itself: what is attempted, what it costs, how it resolves."
+
+[[kinds]]
+kind = "affordance_templates"
+surface = "page"
+note = "The offer — whether the verb is even attemptable here and now."
+
+[[kinds]]
+kind = "prompt_definitions"
+surface = "page"
+note = "ADR-0142 D-1: the open question — selector, ordered response set, audience — behind a talker's own dialogue prompt."
+
+[[kinds]]
+kind = "outcome_templates"
+surface = "page"
+note = "What the world says happened."
+
+[[kinds]]
+kind = "consequence_templates"
+surface = "page"
+note = "What actually changes. Its frame writes render on this page."
+
+[[kinds]]
+kind = "capability_definitions"
+surface = "page"
+note = "What an actor is permitted to do at all."
+
+[[kinds]]
+kind = "condition_definitions"
+surface = "page"
+note = "Poisoned, prone, dead. Carries grants, suppressions and implications."
+
+[[kinds]]
+kind = "modifier_templates"
+surface = "page"
+note = "A numeric or categorical adjustment riding a channel."
+
+[[kinds]]
+kind = "modifier_target_definitions"
+surface = "page"
+note = "What a modifier is allowed to aim at."
+
+[[kinds]]
+kind = "niche_definitions"
+surface = "page"
+note = "Where a verb is offered from — the actor, a place, a target."
+
+[[kinds]]
+kind = "dsl_macro_definitions"
+surface = "page"
+note = "Named rule fragments. Heavily referenced from predicate text."
+
+[[kinds]]
+kind = "effect_definitions"
+surface = "page"
+
+[[kinds]]
+kind = "economy_channel_definitions"
+surface = "page"
+note = "Action, bonus action, reaction. What a verb spends."
+
+[[kinds]]
+kind = "equipment_slot_definitions"
+surface = "page"
+
+[[kinds]]
+kind = "stacking_discipline_definitions"
+surface = "page"
+note = "One row in the whole corpus, and it still names a real rule."
+
+[[kinds]]
+kind = "condition_remove_policy_definitions"
+surface = "page"
+
+[[kinds]]
+kind = "trace_kind_definitions"
+surface = "page"
+
+[[kinds]]
+kind = "roll_tables"
+surface = "page"
+note = "Its entries render here rather than each getting a page."
+
+[[kinds]]
+kind = "boundary_definitions"
+surface = "page"
+# The column really is `id`, not `boundary_id`. This kind is validated-only —
+# never applied to a server table — so the kernel registry does not name its
+# key and there was nothing to check the guess against. It was wrong, and the
+# kind published zero pages in silence until a reader looked at a real row.
+id_field = "id"
+
+[[kinds]]
+kind = "spatial_state_definitions"
+surface = "page"
+
+[[kinds]]
+kind = "combat_grid_blueprints"
+surface = "page"
+
+[[kinds]]
+kind = "place_graphs"
+surface = "page"
+
+[[kinds]]
+kind = "place_nodes"
+surface = "page"
+note = "Rooms and locations. Falls into the raw JSON dump today."
+
+[[kinds]]
+kind = "place_edges"
+surface = "page"
+note = "A door is a thing, not merely a line between two rooms: it carries its own affordances."
+
+[[kinds]]
+kind = "session_definitions"
+surface = "page"
+note = "Falls into the raw JSON dump today."
+
+[[kinds]]
+kind = "bundles"
+surface = "page"
+note = "Every page already prints an owning bundle; today that name links nowhere."
+
+[[kinds]]
+kind = "substrate_definitions"
+surface = "page"
+note = "Kernel-registered, no authored rows yet."
+
+[[kinds]]
+kind = "coordinate_kind_definitions"
+surface = "page"
+note = "Kernel-registered, no authored rows yet."
+
+[[kinds]]
+kind = "area_shape_definitions"
+surface = "page"
+note = "Referenced by ForEachActorInRadius frame writes; no authored rows yet."
+
+[[kinds]]
+kind = "distance_metric_definitions"
+surface = "page"
+note = "Named by combat_grid_blueprints.distance_metric_id (ADR-0134 D-1); core seeds the three metrics, no authored rows here yet."
+
+[[kinds]]
+kind = "audience_kind_definitions"
+surface = "page"
+note = "Named by prompt_definitions.audience_kind_ref (ADR-0142 D-1/D-4); core seeds directed_trace/broadcast, no authored rows here yet."
+
+[[kinds]]
+kind = "location_definitions"
+surface = "page"
+note = "Kernel-registered, no authored rows yet."
+
+[[kinds]]
+kind = "extent_kind_definitions"
+surface = "page"
+note = "Kernel-registered, no authored rows yet."
+
+[[kinds]]
+kind = "object_state_definitions"
+surface = "page"
+note = "Kernel-registered, no authored rows yet."
+
+[[kinds]]
+kind = "outcome_graphs"
+surface = "page"
+note = "Kernel-registered, no authored rows yet."
+
+# ---------------------------------------------------------------------------
+# owner — payload rendered on the page of the row it belongs to
+# ---------------------------------------------------------------------------
+
+[[kinds]]
+kind = "condition_capability_extent_grants"
+surface = "owner"
+owner = "condition_definitions"
+label = "Capability extent grants"
+note = "Authored extents contribute permission while the bearing condition is active."
+
+[[kinds]]
+kind = "affordance_template_participants"
+surface = "owner"
+owner = "affordance_templates"
+owner_field = "template_id"
+label = "Declared participants"
+note = "ADR-0132: open role bound to an exact equipment slot on the offering template."
+
+[[kinds]]
+kind = "consequence_frame_writes"
+surface = "owner"
+owner = "consequence_templates"
+note = "The actual mutations, ordered by ordinal, nested one level deep via ForEachActorInRadius.body."
+
+[[kinds]]
+kind = "entity_definition_initial_state"
+surface = "owner"
+owner = "entity_definitions"
+label = "Initial resources and state"
+
+[[kinds]]
+kind = "entity_definition_initial_capability"
+surface = "owner"
+owner = "entity_definitions"
+label = "Initial capabilities"
+
+[[kinds]]
+kind = "entity_definition_initial_equipment"
+surface = "owner"
+owner = "entity_definitions"
+label = "Initial equipment"
+
+[[kinds]]
+kind = "entity_definition_initial_containment"
+surface = "owner"
+owner = "entity_definitions"
+label = "Initial contents"
+
+[[kinds]]
+kind = "entity_definition_item_dsl_source"
+surface = "owner"
+owner = "entity_definitions"
+label = "Item behavior"
+
+[[kinds]]
+kind = "entity_definition_equip_modifier"
+surface = "owner"
+owner = "entity_definitions"
+label = "Equipment modifier links"
+
+[[kinds]]
+kind = "roll_table_entries"
+surface = "owner"
+owner = "roll_tables"
+note = "A table's rows are the table. Splitting them into 23 pages would explain nothing."
+
+[[kinds]]
+kind = "outcome_graph_nodes"
+surface = "owner"
+owner = "outcome_graphs"
+
+[[kinds]]
+kind = "place_edge_affordance"
+surface = "owner"
+owner = "place_edges"
+
+[[kinds]]
+kind = "actors"
+surface = "owner"
+owner = "entities"
+label = "Actor facet"
+
+[[kinds]]
+kind = "actor_identities"
+surface = "owner"
+owner = "entities"
+label = "Identity"
+
+[[kinds]]
+kind = "actor_spatial_locations"
+surface = "owner"
+owner = "entities"
+label = "Placement"
+
+[[kinds]]
+kind = "actor_capabilities"
+surface = "owner"
+owner = "entities"
+# The row's own column is `actor_entity_key`, not `entities`' natural key
+# `entity_key` — same value, different name. The server resolves it against
+# entity keys (`server/src/manifest/commit.rs`, `ActorCapabilityRow`'s doc
+# comment in `crates/spellkave-schema/src/lib.rs`). Without this, the default
+# join looks for a column named `entity_key` that this row never carries, and
+# every row falls into the overflow basin even though its holder entity has a
+# page.
+owner_field = "actor_entity_key"
+label = "Capabilities"
+
+[[kinds]]
+kind = "object_state"
+surface = "owner"
+owner = "entities"
+label = "Initial state"
+
+[[kinds]]
+kind = "movement_defaults"
+surface = "owner"
+owner = "bundles"
+
+[[kinds]]
+kind = "turn_scheduler"
+surface = "owner"
+owner = "session_definitions"
+# Authored the other way round from every other owned kind: the session names
+# its scheduler (`session_definitions.turn_scheduler_id`, crates/spellkave-schema
+# /src/lib.rs) and the scheduler carries no column back. `named_by` says so, and
+# the generic owner pass follows it (sk-jay0.3.5.76).
+named_by = "turn_scheduler_id"
+note = "The turn order a session uses: who rolls for initiative and how. Shown on the session's own page."
+
+[[kinds]]
+kind = "metadata_namespaces"
+surface = "owner"
+owner = "bundles"
+note = "Which metadata namespaces a bundle may attach. Shown in the bundle's own 'About this bundle' block (sk-jay0.3.5.76)."
+
+[[kinds]]
+kind = "entity_definition_initial_condition"
+surface = "owner"
+owner = "entity_definitions"
+label = "Initial conditions"
+
+[[kinds]]
+kind = "map_layers"
+surface = "owner"
+owner = "place_graphs"
+note = "Already rendered on the graph's page as a facet."
+
+[[kinds]]
+kind = "place_seals"
+surface = "owner"
+owner = "place_graphs"
+label = "Prepared place seal"
+public_fields = ["place_graph_id", "bundle_id", "description"]
+note = "Authored spatial policy belongs to the graph; runtime break overlays remain on the publisher inspection surface."
+
+[[kinds]]
+kind = "place_graph_instances"
+surface = "owner"
+owner = "place_graphs"
+# Two columns resolve to a `place_graphs` row — `blueprint_id` (the template
+# being cloned; required, every row carries it) and `parent_graph_id` (the
+# DIFFERENT relationship of nesting one instance's extent inside another's,
+# per `dm-oversight.md`/`osm-mapping.md`; optional, empty on a world-rooted
+# instance, which is the common case — see the mech_place_graph_instance_move
+# fixture). `blueprint_id` is the owner join: it is the one the row always
+# carries, so an authored instance is never left owned by nobody.
+owner_field = "blueprint_id"
+note = "An instantiation of a blueprint. It belongs on the blueprint's own page — the graph it clones from — not on a page of its own."
+
+[[kinds]]
+kind = "spatial_environment_state"
+surface = "owner"
+# THREE-way polymorphic: a row sets exactly one of `place_node_id` /
+# `place_edge_key` / `location_def_id` (`SpatialEnvironmentStateRow` in
+# `crates/spellkave-schema/src/lib.rs`, mutually exclusive per its own doc
+# comment). This is a SMALL, FIXED set of possible owners, each with its own
+# named column — unlike `metadata_attachments` (`owner = "*"`), which is any
+# kind at all through one generic target column. `owner_candidates` says so:
+# each candidate names the owner kind and, same rule as the singular
+# `owner_field` elsewhere in this file, the join column only when it does not
+# repeat that owner's own natural-key name.
+#
+# `place_nodes`' own natural key is `node_id`, so `place_node_id` needs
+# naming; `place_edges`' is `edge_key`, so `place_edge_key` needs naming too;
+# `location_definitions`' natural key is itself `location_def_id`, so that
+# candidate needs no override. `place_nodes` and `location_definitions` carry
+# no per-row page of their own to land on (place_nodes render as a raw list
+# on their graph's page; location_definitions has zero authored rows across
+# every registered root) — the reader wires up whichever candidates it can
+# reach a carrier for and leaves the rest visibly in the overflow basin
+# rather than inventing a page (sk-jay0.3.5.78).
+owner_candidates = [{ owner = "place_nodes", owner_field = "place_node_id" }, { owner = "place_edges", owner_field = "place_edge_key" }, { owner = "location_definitions" }]
+note = "Runtime state at a place, carrying updated_tick. Shown where it applies."
+
+# ---------------------------------------------------------------------------
+# relation — an edge, reachable from both endpoints, never a page
+# ---------------------------------------------------------------------------
+
+[[kinds]]
+kind = "entity_definition_tag"
+surface = "relation"
+note = "12827 rows in the SRD bundle. An edge between a definition and a tag, not a thing."
+
+[[kinds]]
+kind = "capability_definition_tag"
+surface = "relation"
+
+[[kinds]]
+kind = "resource_definition_tag"
+surface = "relation"
+
+[[kinds]]
+kind = "modifier_template_tag"
+surface = "relation"
+
+[[kinds]]
+kind = "action_definition_tag"
+surface = "relation"
+
+[[kinds]]
+kind = "entity_tag"
+surface = "relation"
+
+[[kinds]]
+kind = "niche_definition_tag"
+surface = "relation"
+
+[[kinds]]
+kind = "outcome_template_tag"
+surface = "relation"
+
+[[kinds]]
+kind = "object_state_definition_tag"
+surface = "relation"
+
+[[kinds]]
+kind = "roll_table_tag"
+surface = "relation"
+
+[[kinds]]
+kind = "roll_table_entry_tag"
+surface = "relation"
+
+[[kinds]]
+kind = "tag_capability_grant"
+surface = "relation"
+note = "A tag that hands out a capability. The edge runs tag -> capability."
+
+[[kinds]]
+kind = "spatial_niche_attachments"
+surface = "relation"
+note = "Binds a niche to a place, so a verb is offered there."
+
+[[kinds]]
+kind = "outcome_graph_edges"
+surface = "relation"
+
+[[kinds]]
+kind = "condition_definition_tag"
+surface = "relation"
+
+[[kinds]]
+kind = "actor_equipment_slots"
+surface = "relation"
+note = "Binds an actor, an item and a slot. Reachable from the actor and from the item."
+
+[[kinds]]
+kind = "entity_containment"
+surface = "relation"
+note = "What is inside what. Reachable from the container and from the contained thing."
+
+[[kinds]]
+kind = "location_traces"
+surface = "relation"
+note = "Edge from a location to a trace kind."
+
+[[kinds]]
+kind = "place_node_traces"
+surface = "relation"
+note = "Edge from a place to a trace kind; carries its own description, which renders on the link."
+
+# ---------------------------------------------------------------------------
+# none — no reader surface, and why
+# ---------------------------------------------------------------------------
+
+[[kinds]]
+kind = "item_definitions"
+surface = "none"
+reason = "Legacy authoring shape: item_definition_overlay writes it straight into the matching entity_definitions row (by item_def_id); no distinct row or table exists to show."
+
+[[kinds]]
+kind = "anchor_kind_definitions"
+surface = "none"
+reason = "Parse/resolution handler for a spatial anchor (H3Cell or PlaceNode); no authored rows and no reader page built for it yet. Kernel-registered (manifest-natural-keys 1.1), so sk diff -k can see an edit, but publishing a page is separate work."
+
+[[kinds]]
+kind = "metadata_attachments"
+surface = "owner"
+owner = "*"
+# The kernel registers no key for this table, and an attachment reaches a page
+# as a parsed payload rather than as the authored row, so whole-row comparison
+# can never recognise it. These three columns do: measured unique across all
+# 3444 authored rows in the SRD bundle.
+id_fields = ["target_kind", "target_ref", "namespace"]
+note = """
+Provenance: which source a subject's text came from, and under which licence.
+It already renders on every entry page through catalogueProvenanceCandidates,
+so calling it "no reader surface" was a contradiction inside this very file.
+
+The owner is polymorphic — each row names its own target through target_kind
+plus target_ref rather than belonging to one fixed kind — which is what the
+`*` means here.
+"""
+
+
+[[kinds]]
+kind = "autonomy_jobs"
+surface = "page"
+note = """
+Standing work the world does on its own: "damages every occupant of the room
+every 6 seconds for 3 pulses, attributed to the fire entity". A player meets
+that rule and a DM steers it. The row is authored with a description, an
+anchor place, a firing boundary and an enabled flag — not operational
+plumbing, which is what an earlier reading of this file wrongly called it.
+"""
+
+[[kinds]]
+kind = "role_definitions"
+surface = "owner"
+owner = "bundles"
+
+[[kinds]]
+kind = "role_aggregations"
+surface = "owner"
+owner = "bundles"
+
+[[kinds]]
+kind = "role_bindings"
+surface = "owner"
+owner = "bundles"
+public_fields = ["role_id", "extent_kind_ref", "extent_ref", "bundle_id"]
+
+[[kinds]]
+kind = "containment_policy_definition"
+surface = "owner"
+owner = "bundles"
+public_fields = ["policy_id"]
+note = "Bundle-owned exposure/access policy vocabulary; executable predicates stay in authoring documentation."
+
+[[kinds]]
+kind = "entity_definition_containment_policy"
+surface = "owner"
+owner = "entity_definitions"
+public_fields = ["policy_id"]
+note = "The blueprint's policy attachment also applies to runtime-created instances."
+
+[[kinds]]
+kind = "entity_containment_policy"
+surface = "owner"
+owner = "entities"
+public_fields = ["policy_id"]
+note = "An instance attachment overrides its definition's policy."

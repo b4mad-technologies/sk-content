@@ -1,0 +1,162 @@
+/** Creation equipment sourced from Markdown where Item.json has no exact identity. */
+import { readFileSync } from "node:fs";
+import path from "node:path";
+import { readGearFlavor } from "../../flavor/read";
+import { CACHE_MARKDOWN_DIR } from "../../markdown/paths.ts";
+import {
+	markdownHeadingBlock,
+	srdTextAttachmentWriteCall,
+	srdTextNamespaceWriteCall,
+} from "../../text";
+import type { ChapterUnitSummary } from "../chapter-types.ts";
+import { driveUnitScene, metadataCall, type VerbCall } from "../verb-runner.ts";
+
+export const EQUIPMENT_ALIAS_NAMESPACE = "srd.equipment_alias";
+
+export function focusGearSource() {
+	const equipment = readFileSync(path.join(CACHE_MARKDOWN_DIR, "equipment.md"), "utf8");
+	const classes = readFileSync(path.join(CACHE_MARKDOWN_DIR, "classes.md"), "utf8");
+	const arcane = /#### Arcane Focus \(Varies\)\n\n([^\n]+)/.exec(equipment)?.[1];
+	const holy = /#### Holy Symbol \(Varies\)\n\n([^\n]+)/.exec(equipment)?.[1];
+	const spellbook = /_Spellbook\._ ([^\n]+)/.exec(classes)?.[1];
+	if (
+		arcane === undefined ||
+		holy === undefined ||
+		spellbook === undefined ||
+		!equipment.includes("<td>Crystal</td>") ||
+		!equipment.includes("<td>Orb</td>") ||
+		!equipment.includes("<td>Rod</td>") ||
+		!equipment.includes("<td>Wand</td>") ||
+		!equipment.includes("Staff (also a Quarterstaff)") ||
+		!equipment.includes("Wooden staff (also a Quarterstaff)")
+	) {
+		throw new Error("focus-gear: required source headings or focus forms are missing.");
+	}
+	return [
+		{
+			slug: "arcane-focus-crystal",
+			name: "Arcane Focus (crystal)",
+			description: arcane,
+			source: "equipment.md:Arcane Focus",
+		},
+		{
+			slug: "arcane-focus-orb",
+			name: "Arcane Focus (orb)",
+			description: arcane,
+			source: "equipment.md:Arcane Focus",
+		},
+		{
+			slug: "arcane-focus-rod",
+			name: "Arcane Focus (rod)",
+			description: arcane,
+			source: "equipment.md:Arcane Focus",
+		},
+		{
+			slug: "arcane-focus-wand",
+			name: "Arcane Focus (wand)",
+			description: arcane,
+			source: "equipment.md:Arcane Focus",
+		},
+		{
+			slug: "holy-symbol",
+			name: "Holy Symbol",
+			description: holy,
+			source: "equipment.md:Holy Symbol",
+		},
+		{
+			slug: "spellbook",
+			name: "Spellbook",
+			description: spellbook,
+			source: "classes.md:Wizard Spellbook",
+		},
+	];
+}
+
+export async function buildFocusGearFragments(): Promise<{
+	fragments: Record<string, string>;
+	units: ChapterUnitSummary[];
+}> {
+	const extractedBySlug = {
+		"arcane-focus-crystal": markdownHeadingBlock("equipment.md", "Arcane Focus (Varies)"),
+		"arcane-focus-orb": markdownHeadingBlock("equipment.md", "Arcane Focus (Varies)"),
+		"arcane-focus-rod": markdownHeadingBlock("equipment.md", "Arcane Focus (Varies)"),
+		"arcane-focus-wand": markdownHeadingBlock("equipment.md", "Arcane Focus (Varies)"),
+		"holy-symbol": markdownHeadingBlock("equipment.md", "Holy Symbol (Varies)"),
+		spellbook: markdownHeadingBlock("classes.md", "Wizard"),
+	} as const;
+	const calls: VerbCall[] = [
+		srdTextNamespaceWriteCall(),
+		...focusGearSource().flatMap((item) => {
+			const extracted = extractedBySlug[item.slug as keyof typeof extractedBySlug];
+			return [
+				{
+					toolName: "spellkave_define_entity_type" as const,
+					label: `focus-gear:${item.slug}`,
+					params: {
+						bundle: "srd",
+						id: `item/${item.slug}`,
+						display_name: item.name,
+						description: readGearFlavor(item.slug).body,
+						tags: ["srd.item", "srd.item.gear"],
+					},
+				},
+				srdTextAttachmentWriteCall({
+					targetKind: "entity_definition",
+					targetRef: `srd/item/${item.slug}`,
+					extracted,
+				}),
+			];
+		}),
+	];
+	// Staff focus is the existing weapon, not a new inert duplicate. The same
+	// instance retains its authored damage, slots and weapon affordances.
+	const aliases: {
+		target_ref: string;
+		names: string[];
+		source_pks?: string[];
+	}[] = [
+		{
+			target_ref: "srd/weapon/quarterstaff",
+			names: ["Arcane Focus (Quarterstaff)", "Druidic Focus (Quarterstaff)"],
+			source_pks: ["srd-2024_druidic-focus-wooden-staff"],
+		},
+		{ target_ref: "srd/item/book", names: ["Book (occult lore)"] },
+		{
+			target_ref: "srd/item/druidic-focus-sprig-of-mistletoe",
+			names: ["Druidic Focus (sprig of mistletoe)"],
+		},
+	];
+	calls.push(
+		metadataCall("equipment-aliases", "srd", [
+			{
+				target: "namespace",
+				key: EQUIPMENT_ALIAS_NAMESPACE,
+				value: {
+					audience: "public",
+					description: "Source equipment names resolving to an existing physical item definition.",
+					on_demand: true,
+				},
+			},
+			...aliases.map((alias) => ({
+				target: { kind: "entity_definition", ref: alias.target_ref },
+				key: EQUIPMENT_ALIAS_NAMESPACE,
+				value: {
+					names: alias.names,
+					...(alias.source_pks === undefined ? {} : { source_pks: alias.source_pks }),
+				},
+			})),
+		]),
+	);
+	return {
+		fragments: {
+			"base/equipment/gear/focus-gear.toml":
+				"# GENERATED by src/chapters/equipment/focus-gear.ts — DO NOT EDIT BY HAND.\n" +
+				(await driveUnitScene("srd", calls)),
+		},
+		units: focusGearSource().map((item) => ({
+			kind: "entity_definitions",
+			id: `srd/item/${item.slug}`,
+			sourcePk: item.source,
+		})),
+	};
+}

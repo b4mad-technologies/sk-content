@@ -1,0 +1,1166 @@
+# Authored docs placement data for the SRD compendium catalogue
+# (sk-jay0.3.5.53). Loaded by ../docs/catalogue.ts the same way
+# ../compendium-metadata.ts loads collections.toml (smol-toml, PACKAGE_ROOT
+# relative path). This file is the single source of truth for WHERE a
+# catalogued subject lands and WHAT it is called; catalogue.ts contains no
+# hand-maintained placement or slug tables.
+
+# ---------------------------------------------------------------------------
+# Root-level scalars. TOML nesting rule: a bare `key = value` after any
+# `[[array_of_tables]]` header attaches to that array's MOST RECENT element,
+# not to this file's root table — so anything meant to be read as
+# `SECTIONS_FILE.<key>` (not `SECTIONS_FILE.<table>[i].<key>`) must be
+# declared here, before the first `[[entity_routes]]` below (found the hard
+# way, sk-jay0.3.5.66: the now-removed `no_page_namespaces` field had
+# silently nested inside the last `[[identity_namespaces]]` row since it was
+# authored, so `SECTIONS_FILE.no_page_namespaces` was `undefined` and the Set
+# built from it was empty; the real exclusion of `srd.dm_npc`/`srd.faction`/
+# `srd.party` from a docs page only ever worked by accident, because the
+# RETIRED `[[tag_sections]]` table also had no row for those namespaces, so
+# `tagSectionForId`'s "no matching namespace" fallback returned `undefined`
+# for them too. Consolidating tag placement onto one fixed `tags_section`
+# below removes that accidental fallback. sk-jay0.3.5.76 later removed
+# `no_page_namespaces` itself: the owner ruled those three namespaces get tag
+# pages like every other tag, so the exclusion mechanism had no remaining
+# consumer).
+
+# Every `tag_value_definition` catalogue subject routes to this ONE section
+# id (sk-jay0.3.5.66), published under its own multi-segment route
+# mirroring the tag id's own namespace structure (see `tagPathSlug` in
+# catalogue.ts). The former `[[tag_sections]]` table placed a tag beside its
+# related entities by namespace (`srd.cr` -> monsters, `srd.spell.school` ->
+# spells, …); that per-chapter scattering is retired along with the table —
+# every tag now lives under `/docs/srd/tags/...` instead, so there is no
+# longer a per-namespace decision to author.
+tags_section = "tags"
+
+# The one section every mechanics row kind publishes under. Its route carries
+# the kind as its first path segment, so `srd/attack/opportunity-attack` lands
+# at `/docs/srd/mechanics/actions/attack/opportunity-attack` and the namespace
+# index pages fall out of the path structure with no new page kind — the same
+# shape `tags_section` above gave the tag vocabulary.
+mechanics_section = "mechanics"
+
+
+# ---------------------------------------------------------------------------
+# resource_routes — placement for `resource_definition` catalogue subjects.
+#
+# First matching `prefix` wins (same precedence rule `entity_routes` uses). An
+# id no row matches falls to `mechanics_section` above, never to a hard-coded
+# default: that is what places a non-SRD bundle's own resources (`dm/...`,
+# `elven_mini/quest/...`) beside its other mechanics rows, the same way
+# `[[kind_sections]]` places every other mechanics row kind — those bundles
+# declare a `mechanics` section on their own docs page but no SRD-shaped id
+# namespace, so no row here should ever try to match their ids.
+#
+# The class rows exist because a class resource (barbarian rage uses, bard
+# inspiration die, ...) reads as part of that class's own page, not as a
+# generic "playing the game" mechanic. `magic_item`/`dragonborn`/`orc` route
+# their own per-item and per-species resources the same way. The final
+# `srd/` row is the catch-all every other SRD resource (ability scores, HP,
+# AC, XP, death saves, ...) falls through to — kept explicit, not implicit,
+# so an id matching no more specific SRD row still lands in `playing-the-game`
+# rather than accidentally falling all the way to `mechanics_section`.
+[[resource_routes]]
+prefix = "srd/barbarian/"
+section = "classes"
+
+[[resource_routes]]
+prefix = "srd/bard/"
+section = "classes"
+
+[[resource_routes]]
+prefix = "srd/cleric/"
+section = "classes"
+
+[[resource_routes]]
+prefix = "srd/druid/"
+section = "classes"
+
+[[resource_routes]]
+prefix = "srd/fighter/"
+section = "classes"
+
+[[resource_routes]]
+prefix = "srd/monk/"
+section = "classes"
+
+[[resource_routes]]
+prefix = "srd/paladin/"
+section = "classes"
+
+[[resource_routes]]
+prefix = "srd/ranger/"
+section = "classes"
+
+[[resource_routes]]
+prefix = "srd/rogue/"
+section = "classes"
+
+[[resource_routes]]
+prefix = "srd/sorcerer/"
+section = "classes"
+
+[[resource_routes]]
+prefix = "srd/warlock/"
+section = "classes"
+
+[[resource_routes]]
+prefix = "srd/wizard/"
+section = "classes"
+
+[[resource_routes]]
+prefix = "srd/magic_item/"
+section = "magic-items"
+
+[[resource_routes]]
+prefix = "srd/dragonborn/"
+section = "character-origins"
+
+[[resource_routes]]
+prefix = "srd/orc/"
+section = "character-origins"
+
+[[resource_routes]]
+prefix = "srd/cost_cp"
+section = "equipment"
+
+[[resource_routes]]
+prefix = "srd/weight_lb10"
+section = "equipment"
+
+[[resource_routes]]
+prefix = "srd/armor_"
+section = "equipment"
+
+[[resource_routes]]
+prefix = "srd/"
+section = "playing-the-game"
+
+# ---------------------------------------------------------------------------
+# entity_routes — placement for `entity_definition` catalogue subjects.
+#
+# Every catalogued entity id already lives under a root id prefix that names
+# its authored editorial home (`srd/spell/acid-arrow`, `srd/item/longsword`).
+# PRECEDENCE: catalogue.ts tries `prefix` first — the id namespace an entity
+# is generated under is a stronger placement signal than any tag it happens
+# to carry, because a tag is only a vocabulary claim ("this counts as a
+# weapon for rule-matching purposes") and one entity can honestly carry two
+# (`srd/item/potion-of-healing` is generated under the plain-item prefix but
+# also carries `srd.magic_item`, reusing the magic-item rarity/category tag
+# vocabulary for its own rules — that tag claim must not move it out of
+# equipment). `tag` is the fallback, used only when an entity's id matches
+# none of the prefixes below at all (hand-written unit-test fixtures that
+# omit a real `srd/...` id; every real generated entity always matches one
+# of these prefixes, verified against the committed fixtures — see the
+# sk-jay0.3.5.53 report for the full audit, which found prefix-first
+# reproduces all 1951 catalogued entities' served routes with zero
+# exceptions).
+[[entity_routes]]
+tag = "srd.class_feature"
+prefix = "srd/class-feature/"
+family = "class-feature"
+section = "classes"
+
+[[entity_routes]]
+tag = "srd.spell"
+prefix = "srd/spell/"
+family = "spell"
+section = "spells"
+
+[[entity_routes]]
+tag = "srd.monster"
+prefix = "srd/creature/"
+family = "monster"
+section = "monsters"
+
+[[entity_routes]]
+tag = "srd.magic_item"
+prefix = "srd/magic_item/"
+family = "magic-item"
+section = "magic-items"
+
+[[entity_routes]]
+tag = "srd.feat"
+prefix = "srd/feat/"
+family = "feat"
+section = "feats"
+
+[[entity_routes]]
+tag = "srd.class"
+prefix = "srd/class/"
+family = "class"
+section = "classes"
+
+[[entity_routes]]
+tag = "srd.subclass"
+prefix = "srd/subclass/"
+family = "subclass"
+section = "classes"
+
+[[entity_routes]]
+tag = "srd.species"
+prefix = "srd/species/"
+family = "species"
+section = "character-origins"
+
+[[entity_routes]]
+tag = "srd.background"
+prefix = "srd/background/"
+family = "background"
+section = "character-origins"
+
+[[entity_routes]]
+tag = "srd.trait"
+prefix = "srd/trait/"
+family = "trait"
+section = "character-origins"
+
+[[entity_routes]]
+tag = "srd.weapon"
+prefix = "srd/weapon/"
+family = "weapon"
+section = "equipment"
+
+[[entity_routes]]
+tag = "srd.armor"
+prefix = "srd/armor/"
+family = "armor"
+section = "equipment"
+
+[[entity_routes]]
+tag = "srd.tool"
+prefix = "srd/tool/"
+family = "tool"
+section = "equipment"
+
+# A pregenerated character is a finished character to read while making one, so
+# it lands beside character creation rather than beside the monsters its
+# `srd.creature` tag would otherwise have suggested. It carries no tag that
+# routes anywhere (`srd.creature` is not `srd.monster`), so the prefix is the
+# whole rule — sk-jay0.3.5.75.
+[[entity_routes]]
+prefix = "srd/pregen/"
+family = "pregen"
+section = "character-creation"
+
+# The four class-choice menus, added for sk-jay0.3.5.72. Every one of these 41
+# entities is a named option a player picks and then looks up by name — a
+# warlock builds a character around the invocation list — and none of them had
+# a page at all, because no route claimed their id namespace. They carry NO
+# tags in the manifest, so `tag` is deliberately absent rather than invented:
+# a route needs a prefix, and minting tag vocabulary nothing wears would be a
+# claim about the world, not a placement decision. They land in `classes`
+# beside `srd/class-feature/`, which is what their own descriptions call them.
+[[entity_routes]]
+prefix = "srd/eldritch-invocation/"
+family = "class-feature"
+section = "classes"
+
+[[entity_routes]]
+prefix = "srd/metamagic/"
+family = "class-feature"
+section = "classes"
+
+[[entity_routes]]
+prefix = "srd/divine-order/"
+family = "class-feature"
+section = "classes"
+
+[[entity_routes]]
+prefix = "srd/primal-order/"
+family = "class-feature"
+section = "classes"
+
+# `srd.item` is the generic "this is equipment" tag every weapon/armor/tool/gear/
+# magic-item ALSO carries, so it stays last: for the tag fallback pass (an
+# id matching none of the prefixes above), every more specific equipment/
+# magic-item tag must be tried first.
+[[entity_routes]]
+prefix = "srd/service/"
+family = "item"
+section = "equipment"
+
+[[entity_routes]]
+prefix = "srd/trinket/"
+family = "item"
+section = "equipment"
+
+[[entity_routes]]
+prefix = "srd/catalogue/"
+family = "item"
+section = "equipment"
+
+[[entity_routes]]
+tag = "srd.item"
+prefix = "srd/item/"
+family = "item"
+section = "equipment"
+
+# ---------------------------------------------------------------------------
+# section_primary_families — which catalogue `family` values ARE a section's
+# own subject, for the website's section-page listing (sk-jay0.3.5.64). This
+# is presentation grouping, not placement: it never moves an entry between
+# sections (`section` above already decided that), it only decides whether an
+# entry the section already carries renders in that section's headline list
+# or in a secondary, family-grouped list further down the same page. A
+# section absent here (only "character-creation" today, plus every non-SRD
+# bundle section, which never appears in this file at all) declares no
+# primary family, so its whole catalogue listing stays secondary — for
+# character-creation that is fine because its page already leads with its
+# authored Articles before any catalogue listing renders (see
+# DocsPageOverview.svelte); a non-SRD bundle keeps listing everything
+# ungrouped, exactly as before this table existed, because its section id
+# never matches an `entity_routes` row at all (and every tag now routes to
+# the one fixed `tags_section`, never through this table). This table
+# (plus `family_headings` below) is read ONLY at build time, by the
+# website's `project-metadata-docs.ts` (via `srd-sections.ts`), which
+# projects the per-section result onto `DocsSection.primary_families` and
+# the once-per-index `DocsIndexV1.family_headings` — the browser-side
+# `srd-catalogue-groups.ts` consumes only that already-projected plain data
+# and never reads this file itself (it must not: `srd-sections.ts` uses
+# `node:fs`, which cannot ship into the client bundle).
+[[section_primary_families]]
+section = "classes"
+family = "class"
+
+[[section_primary_families]]
+section = "monsters"
+family = "monster"
+
+[[section_primary_families]]
+section = "spells"
+family = "spell"
+
+[[section_primary_families]]
+section = "magic-items"
+family = "magic-item"
+
+[[section_primary_families]]
+section = "feats"
+family = "feat"
+
+[[section_primary_families]]
+section = "equipment"
+family = "weapon"
+
+[[section_primary_families]]
+section = "equipment"
+family = "armor"
+
+[[section_primary_families]]
+section = "equipment"
+family = "tool"
+
+[[section_primary_families]]
+section = "equipment"
+family = "item"
+
+[[section_primary_families]]
+section = "character-origins"
+family = "species"
+
+[[section_primary_families]]
+section = "character-origins"
+family = "background"
+
+[[section_primary_families]]
+section = "character-origins"
+family = "trait"
+
+[[section_primary_families]]
+section = "playing-the-game"
+family = "resource"
+
+[[section_primary_families]]
+section = "playing-the-game"
+family = "ability"
+
+# ---------------------------------------------------------------------------
+# family_headings — the heading text a secondary (non-primary) catalogue
+# group renders under on a section page, plus the singular/plural noun its
+# CatalogueList's own "N ___" count phrase uses (so a collapsed "Class
+# features (352)" `<details>` opens onto "352 class features", never the
+# generic "352 reference entries" — sk-jay0.3.5.64 round 2). Keyed by
+# `family` (never by section: a family that is secondary anywhere reads the
+# same heading and noun wherever it shows up). `noun_singular`/`noun_plural`
+# are authored explicitly rather than mechanically pluralized from `heading`
+# because English does not derive one from the other reliably here
+# ("Vocabulary" the heading vs. "vocabulary entry"/"vocabulary entries" the
+# noun; "Subclasses" vs. singular "subclass"). Only families that are ever
+# secondary for at least one SRD section need a row here; a family absent
+# from this table falls back to a plain humanized form of its own name (see
+# `headingForFamily`/`fallbackNoun` in the website's
+# `srd-catalogue-groups.ts`) rather than a hand-maintained TypeScript lookup
+# table.
+[[family_headings]]
+family = "pregen"
+heading = "Pregenerated characters"
+noun_singular = "pregenerated character"
+noun_plural = "pregenerated characters"
+
+[[family_headings]]
+family = "tag"
+heading = "Vocabulary"
+noun_singular = "vocabulary entry"
+noun_plural = "vocabulary entries"
+
+[[family_headings]]
+family = "class-feature"
+heading = "Class features"
+noun_singular = "class feature"
+noun_plural = "class features"
+
+[[family_headings]]
+family = "subclass"
+heading = "Subclasses"
+noun_singular = "subclass"
+noun_plural = "subclasses"
+
+[[family_headings]]
+family = "resource"
+heading = "Resources"
+noun_singular = "resource"
+noun_plural = "resources"
+
+# ---------------------------------------------------------------------------
+# identity_namespaces — which tag NAMESPACE names an entity of this family
+# itself, as opposed to a tag it merely carries as vocabulary or linkage
+# (sk-jay0.3.5.65, sk-jay0.3.5.61). The website's "belongs to this entity"
+# block on a catalogue entry page only fires for a family listed here: an
+# entity's own identity tag is the one tag among its own tags whose
+# NAMESPACE (everything before the last dot segment) is exactly the
+# `namespace` declared for its family below AND whose last segment equals
+# its own slug — both conditions, not either. Matching on the slug alone is
+# a coincidence detector, not an authored rule: the spell "Divination"
+# carries `srd.spell.school.divination` as ordinary school membership, and
+# that tag's last segment happens to equal the spell's own slug too; without
+# the namespace check the website would treat the other thirty Divination
+# spells as "belonging to" the spell Divination, which is wrong — they share
+# a school, they are not owned by it.
+#
+# Declared ONLY where the relationship really is ownership: a class owns its
+# subclasses and class features, a subclass owns its class features, a
+# species owns its traits. `class-feature` deliberately has NO row: the
+# same class feature id can legitimately appear once per class that grants
+# it (sk-jay0.3.5.61), so "this class feature's own page" is never itself an
+# owner — it only ever shows up as someone else's child. A family absent
+# from this table gets no "belongs to" block at all.
+[[identity_namespaces]]
+family = "class"
+namespace = "srd.class"
+
+[[identity_namespaces]]
+family = "subclass"
+namespace = "srd.subclass"
+
+[[identity_namespaces]]
+family = "species"
+namespace = "srd.species"
+
+# ---------------------------------------------------------------------------
+# class_feature_slug_overrides — existing short class-feature URLs that were
+# actually served before the metadata catalogue existed. They are an
+# explicit compatibility decision, not an exporter or UI winner-selection
+# rule. Every other member of one of these colliding feature names receives
+# an owner-qualified slug instead (see `classFeatureQualifiedSlug` in
+# catalogue.ts).
+[[class_feature_slug_overrides]]
+short_slug = "ability-score-improvement"
+ref = "srd/class-feature/barbarian/ability-score-improvement"
+
+[[class_feature_slug_overrides]]
+short_slug = "core-traits"
+ref = "srd/class-feature/barbarian/core-traits"
+
+[[class_feature_slug_overrides]]
+short_slug = "epic-boon"
+ref = "srd/class-feature/barbarian/epic-boon"
+
+[[class_feature_slug_overrides]]
+short_slug = "extra-attack"
+ref = "srd/class-feature/barbarian/extra-attack"
+
+[[class_feature_slug_overrides]]
+short_slug = "proficiency-bonus"
+ref = "srd/class-feature/barbarian/proficiency-bonus"
+
+[[class_feature_slug_overrides]]
+short_slug = "unarmored-defense"
+ref = "srd/class-feature/barbarian/unarmored-defense"
+
+[[class_feature_slug_overrides]]
+short_slug = "weapon-mastery"
+ref = "srd/class-feature/barbarian/weapon-mastery"
+
+[[class_feature_slug_overrides]]
+short_slug = "weapon-mastery-count"
+ref = "srd/class-feature/barbarian/weapon-mastery-count"
+
+[[class_feature_slug_overrides]]
+short_slug = "cantrips"
+ref = "srd/class-feature/bard/cantrips"
+
+[[class_feature_slug_overrides]]
+short_slug = "expertise"
+ref = "srd/class-feature/bard/expertise"
+
+[[class_feature_slug_overrides]]
+short_slug = "prepared-spells"
+ref = "srd/class-feature/bard/prepared-spells"
+
+[[class_feature_slug_overrides]]
+short_slug = "slots-1st"
+ref = "srd/class-feature/bard/slots-1st"
+
+[[class_feature_slug_overrides]]
+short_slug = "slots-2nd"
+ref = "srd/class-feature/bard/slots-2nd"
+
+[[class_feature_slug_overrides]]
+short_slug = "slots-3rd"
+ref = "srd/class-feature/bard/slots-3rd"
+
+[[class_feature_slug_overrides]]
+short_slug = "slots-4th"
+ref = "srd/class-feature/bard/slots-4th"
+
+[[class_feature_slug_overrides]]
+short_slug = "slots-5th"
+ref = "srd/class-feature/bard/slots-5th"
+
+[[class_feature_slug_overrides]]
+short_slug = "slots-6th"
+ref = "srd/class-feature/bard/slots-6th"
+
+[[class_feature_slug_overrides]]
+short_slug = "slots-7th"
+ref = "srd/class-feature/bard/slots-7th"
+
+[[class_feature_slug_overrides]]
+short_slug = "slots-8th"
+ref = "srd/class-feature/bard/slots-8th"
+
+[[class_feature_slug_overrides]]
+short_slug = "slots-9th"
+ref = "srd/class-feature/bard/slots-9th"
+
+[[class_feature_slug_overrides]]
+short_slug = "spellcasting"
+ref = "srd/class-feature/bard/spellcasting"
+
+[[class_feature_slug_overrides]]
+short_slug = "channel-divinity"
+ref = "srd/class-feature/cleric/channel-divinity"
+
+[[class_feature_slug_overrides]]
+short_slug = "channel-divinity-uses"
+ref = "srd/class-feature/cleric/channel-divinity-uses"
+
+[[class_feature_slug_overrides]]
+short_slug = "spell-list"
+ref = "srd/class-feature/druid/circle-of-the-land/spell-list"
+
+[[class_feature_slug_overrides]]
+short_slug = "fighting-style"
+ref = "srd/class-feature/fighter/fighting-style"
+
+[[class_feature_slug_overrides]]
+short_slug = "evasion"
+ref = "srd/class-feature/monk/evasion"
+
+# ---------------------------------------------------------------------------
+# exempt_entity_ids — retained for the legacy export's independent
+# completeness contract (src/export/catalog.ts owns its own copy and is the
+# one actually consulted there); the authored docs catalogue itself does not
+# use this list for placement.
+exempt_entity_ids = ["srd/item/gold-piece"]
+
+# ---------------------------------------------------------------------------
+# fact_namespaces — map from a catalogue fact's LABEL to the tag NAMESPACE
+# that backs its value (sk-jay0.3.5.54 step 2), for facts that are entirely
+# restatements of a tag the entity already carries. Equipment/feat/class
+# facts (weapon damage, item cost/weight, feat prerequisite, class hit die,
+# ...) have no tag counterpart and stay authored directly from typed source
+# rows in `catalogue.ts` — this table never claims them. Read by
+# `apps/website/src/compendium/project-metadata-docs.ts` at projection time:
+# for a catalogued entity, find the ONE tag among its own
+# `entity_definition_tag` rows matching `namespace` (itself or a
+# `namespace.*` child — same ambiguity-checked lookup the old
+# `factTagForNamespace` in `catalogue.ts` used; an entity that ALSO carries
+# `namespace` itself bare, as its own self-identity tag, is skipped rather
+# than treated as ambiguous or as a value — see `factTagForNamespace`'s own
+# doc comment), then derive the fact's display value from that tag id's own
+# last segment via `derive`. This is vocabulary-driven, not family-gated:
+# every row is tried against every catalogued entity, regardless of the
+# entity's own catalogue `family` string — a namespace unrelated to an
+# entity's own vocabulary simply contributes no fact, so no `family` column
+# is needed here to scope rows to "the spell rows" vs. "the monster rows".
+#
+# - "title": every word title-cased, space-joined (`evocation` -> "Evocation").
+# - "kebab": every word lowercase, hyphen-joined (`bonus_action` -> "bonus-action").
+# - "sentence": only the FIRST word capitalized, rest untouched, space-joined
+#   (`90_feet` -> "90 Feet"... except real SRD range/duration text is
+#   case-inconsistent at the source — see `fact_value_overrides` below for
+#   the handful this rule alone cannot reproduce).
+# - "level": spell level number -> "Cantrip" (0) or "Level <n>".
+# - "cr": Challenge Rating slug -> bare number or "<n>/<d>" fraction, no "CR "
+#   prefix (the prefix belongs to the tag CHIP label, not this fact).
+# - "attunement": `required`/`none` -> "Requires Attunement" / "No Attunement
+#   Required" (the two SRD magic-item attunement tag values).
+[[fact_namespaces]]
+label = "Level"
+namespace = "srd.spell.level"
+derive = "level"
+
+[[fact_namespaces]]
+label = "School"
+namespace = "srd.spell.school"
+derive = "title"
+
+[[fact_namespaces]]
+label = "Casting Time"
+namespace = "srd.spell.casting_time"
+derive = "kebab"
+
+[[fact_namespaces]]
+label = "Range"
+namespace = "srd.spell.range"
+derive = "sentence"
+
+[[fact_namespaces]]
+label = "Duration"
+namespace = "srd.spell.duration"
+derive = "sentence"
+
+[[fact_namespaces]]
+label = "Size"
+namespace = "srd.size"
+derive = "title"
+
+[[fact_namespaces]]
+label = "Type"
+namespace = "srd.creature_type"
+derive = "title"
+
+[[fact_namespaces]]
+label = "Challenge Rating"
+namespace = "srd.cr"
+derive = "cr"
+
+[[fact_namespaces]]
+label = "Category"
+namespace = "srd.magic_item.category"
+derive = "kebab"
+
+[[fact_namespaces]]
+label = "Rarity"
+namespace = "srd.magic_item.rarity"
+derive = "kebab"
+
+[[fact_namespaces]]
+label = "Attunement"
+namespace = "srd.magic_item.attunement"
+derive = "attunement"
+
+# Equipment E3 (sk-jay0.3.5.59): weapon Category is the one equipment fact
+# that DOES derive — `srd.weapon.category.<simple|martial>` reproduces it
+# exactly (title-case, verified against all 38 weapons), with no
+# self-identity collision (`srd.weapon.category` is never carried bare, only
+# its `.simple`/`.martial` children). Everything else equipment-shaped
+# (Range, Property, Mastery, Damage, Cost, Weight, all armor numbers, plain
+# item Category) and feat Category (blocked by the SAME self-identity guard
+# that keeps the subclass "Class" fact out — every feat entity carries the
+# bare `srd.feat` tag alongside its own `srd.feat.<category>` child) stays
+# authored in the residual — see `docs/catalogue.ts`'s own `equipmentFactsById`
+# header for the full per-row finding.
+[[fact_namespaces]]
+label = "Category"
+namespace = "srd.weapon.category"
+derive = "title"
+
+# ---------------------------------------------------------------------------
+# fact_value_overrides — authored exceptions where `derive` above cannot
+# mechanically reproduce the served wording, because the underlying SRD
+# source text is itself case-inconsistent (Range's freeform values are
+# capitalized — "Self", "Special" — while Duration's freeform values are not
+# — "instantaneous", "special" — so no single casing rule fits both) or uses
+# a different notation than the tag slug (Challenge Rating's fractional CRs
+# are tagged `srd.cr.1-8` but the served fact reads the decimal source value
+# "0.125", not "1/8"). Keyed by the shared TAG id, never by entity ref: every
+# entity carrying a given tag reads the SAME override row, so this stays a
+# small closed vocabulary override (7 rows, cache-verified against
+# `cache/open5e/Spell.json` and `cache/open5e/Creature.json`), not a
+# per-entity copy. Checked BEFORE the `derive` rule; an override always wins.
+[[fact_value_overrides]]
+tag = "srd.cr.1-8"
+value = "0.125"
+
+[[fact_value_overrides]]
+tag = "srd.cr.1-4"
+value = "0.250"
+
+[[fact_value_overrides]]
+tag = "srd.cr.1-2"
+value = "0.500"
+
+[[fact_value_overrides]]
+tag = "srd.spell.duration.instantaneous"
+value = "instantaneous"
+
+[[fact_value_overrides]]
+tag = "srd.spell.duration.special"
+value = "special"
+
+[[fact_value_overrides]]
+tag = "srd.spell.duration.until_dispelled"
+value = "until dispelled"
+
+[[fact_value_overrides]]
+tag = "srd.spell.duration.until_dispelled_or_triggered"
+value = "until dispelled or triggered"
+
+
+# ---------------------------------------------------------------------------
+# entity_owner_routes — entity definitions that render on ANOTHER entity's page
+# rather than getting one of their own (sk-jay0.3.5.72).
+#
+# `entity_routes` above answers "which section does this entity's own page land
+# in". This table answers the opposite question: which entity's page HOSTS a
+# family that deliberately has no page. A fighting-style option is a menu member
+# — "Archery" alone explains nothing, it is a thing you pick at Fighter level 1
+# — so it belongs on the Fighter's page, listed with its level and choice group.
+#
+# The host is NOT discoverable from the data. A natural weapon is named by the
+# creature that equips it, so the reader who names it can be found by looking;
+# nothing on a class page mentions its advancement choices at all. The link runs
+# the other way, through the option's own metadata attachment, and only an
+# authored row can say which field of which namespace carries it.
+#
+#   prefix       — the id namespace of the hosted family
+#   namespace    — the metadata attachment carrying the parent reference
+#   field        — the payload field naming the parent, as a bare slug
+#   owner_prefix — prepended to that slug to form the owning entity's id
+#   label        — the heading the hosted rows appear under
+[[entity_owner_routes]]
+prefix = "srd/advancement-choice-option/"
+namespace = "srd.advancement_choice"
+field = "class"
+owner_prefix = "srd/class/"
+label = "Advancement choices"
+
+
+# ---------------------------------------------------------------------------
+# kind_sections — placement for mechanics row kinds.
+#
+# `path` is the first segment of the route under `mechanics_section`, and it is
+# AUTHORED rather than derived: "actions" reads better than the pure-function
+# result "action-definitions" would, and naming what a reader sees is an
+# editorial decision. `family` is the presentation grouping, same axis
+# `section_primary_families` uses for entities.
+#
+# Which kinds may appear here at all is not decided here: a kind must be
+# classified `surface = "page"` in `row-kind-coverage.toml` first.
+#
+# KEEP THIS TABLE LAST. Everything below an `[[array_of_tables]]` header
+# attaches to that array, so a root scalar added after this point would
+# silently become a member of the final row — the bug that left
+# `no_page_namespaces` dead for months.
+# ---------------------------------------------------------------------------
+
+[[kind_sections]]
+kind = "action_definitions"
+path = "actions"
+family = "action"
+
+[[kind_sections]]
+kind = "affordance_templates"
+path = "affordances"
+family = "affordance"
+
+[[kind_sections]]
+kind = "outcome_templates"
+path = "outcomes"
+family = "outcome"
+
+[[kind_sections]]
+kind = "consequence_templates"
+path = "consequences"
+family = "consequence"
+
+[[kind_sections]]
+kind = "niche_definitions"
+path = "niches"
+family = "niche"
+
+[[kind_sections]]
+kind = "capability_definitions"
+path = "capabilities"
+family = "capability"
+
+[[kind_sections]]
+kind = "condition_definitions"
+path = "conditions"
+family = "condition"
+
+[[kind_sections]]
+kind = "modifier_templates"
+path = "modifiers"
+family = "modifier"
+
+[[kind_sections]]
+kind = "modifier_target_definitions"
+path = "modifier-targets"
+family = "modifier-target"
+
+[[kind_sections]]
+kind = "dsl_macro_definitions"
+path = "macros"
+family = "macro"
+
+[[kind_sections]]
+kind = "effect_definitions"
+path = "effects"
+family = "effect"
+
+[[kind_sections]]
+kind = "economy_channel_definitions"
+path = "channels"
+family = "channel"
+
+[[kind_sections]]
+kind = "equipment_slot_definitions"
+path = "slots"
+family = "slot"
+
+[[kind_sections]]
+kind = "roll_tables"
+path = "roll-tables"
+family = "roll-table"
+
+[[kind_sections]]
+kind = "trace_kind_definitions"
+path = "traces"
+family = "trace"
+
+[[kind_sections]]
+kind = "stacking_discipline_definitions"
+path = "stacking"
+family = "stacking-discipline"
+
+[[kind_sections]]
+kind = "condition_remove_policy_definitions"
+path = "condition-removal"
+family = "condition-remove-policy"
+
+[[kind_sections]]
+kind = "boundary_definitions"
+path = "boundaries"
+family = "boundary"
+
+[[kind_sections]]
+kind = "spatial_state_definitions"
+path = "spatial-states"
+family = "spatial-state"
+
+[[kind_sections]]
+kind = "area_shape_definitions"
+path = "area-shapes"
+family = "area-shape"
+
+[[kind_sections]]
+kind = "distance_metric_definitions"
+path = "distance-metrics"
+family = "distance-metric"
+
+[[kind_sections]]
+kind = "combat_grid_blueprints"
+path = "combat-grids"
+family = "combat-grid"
+
+[[kind_sections]]
+kind = "extent_kind_definitions"
+path = "extents"
+family = "extent"
+
+[[kind_sections]]
+kind = "location_definitions"
+path = "locations"
+family = "location"
+
+[[kind_sections]]
+kind = "object_state_definitions"
+path = "object-states"
+family = "object-state"
+
+[[kind_sections]]
+kind = "substrate_definitions"
+path = "substrates"
+family = "substrate"
+
+[[kind_sections]]
+kind = "coordinate_kind_definitions"
+path = "coordinate-kinds"
+family = "coordinate-kind"
+
+[[kind_sections]]
+kind = "outcome_graphs"
+path = "outcome-graphs"
+family = "outcome-graph"
+
+[[kind_sections]]
+kind = "autonomy_jobs"
+path = "standing-work"
+family = "autonomy-job"
+
+[[kind_sections]]
+kind = "prompt_definitions"
+path = "prompts"
+family = "prompt"
+
+[[kind_sections]]
+kind = "audience_kind_definitions"
+path = "audience-kinds"
+family = "audience-kind"
+
+# ---------------------------------------------------------------------------
+# resource_blocks / resource_groups — the order and grouping a subject's own
+# resource values are shown in on its page.
+#
+# A creature carries its authored numbers as `entity_definition_initial_state`
+# rows, which reach the page as resource rows with the creature's own value.
+# Listed the way a Map iterates them, that is alphabetical by id — ac, cha,
+# con, dex, hp, … — an order no reader of the printed block expects. The
+# printed stat block opens with defence, then movement, then the six ability
+# scores in their fixed order, then the challenge line. That sequence is an
+# editorial decision about presentation; nothing in the rows derives it, which
+# is why it is authored here rather than coded in the reader.
+#
+# A value no group names is NOT dropped: it lands in the block's trailing
+# group, named by `rest_title`. So authoring a new resource onto a creature
+# always reaches the reader, and this table only decides where it sits.
+#
+# Measured over the 331 creature fixtures, exactly 14 distinct state ids are
+# authored: the twelve every creature carries, plus `srd/spell_slot_1` and
+# `srd/spell_slot_2` on the 48 casters. The speed ids beyond walking are
+# defined resources that no creature seeds yet (sk-jay0.3.10); they are named
+# here so the day one is authored it appears beside the walking speed instead
+# of in the trailing group.
+# ---------------------------------------------------------------------------
+
+[[resource_blocks]]
+family = "monster"
+heading = "Statistics"
+rest_title = "Other authored values"
+
+[[resource_groups]]
+family = "monster"
+title = "Defense"
+resources = ["srd/ac", "srd/hp"]
+
+[[resource_groups]]
+family = "monster"
+title = "Speed"
+resources = ["srd/speed-walk", "srd/speed-fly", "srd/speed-swim", "srd/speed-climb", "srd/reach_mm"]
+
+[[resource_groups]]
+family = "monster"
+title = "Ability Scores"
+resources = ["srd/str", "srd/dex", "srd/con", "srd/int", "srd/wis", "srd/cha"]
+
+[[resource_groups]]
+family = "monster"
+title = "Challenge"
+resources = ["srd/xp_value", "srd/proficiency_bonus"]
+
+[[resource_groups]]
+family = "monster"
+title = "Spellcasting"
+resources = ["srd/spell_slot_1", "srd/spell_slot_2"]
+
+# ---------------------------------------------------------------------------
+# Article link vocabulary — which chapters running prose may link to.
+#
+# The reader links rules terms inside an article's text to the page that
+# defines them. The candidate labels are article titles, matched without regard
+# to case, because a rules term is not a proper noun: the chapter "Combat" is
+# written "combat" in a sentence.
+#
+# That match is only safe for a section whose article titles ARE rules terms.
+# The glossary is exactly that (156 definitions: Attack Roll, Difficult
+# Terrain, Prone). "Playing the Game" is too — its nine chapters are the
+# activities the rules are about, and its opening sentence names three of them
+# ("social interaction, exploration, and combat").
+#
+# Other sections title their articles by position in the book, not by meaning:
+# the spells chapter has articles called "Range", "Effects" and "Targets", and
+# linking every occurrence of "range" to the spellcasting chapter is wrong
+# wherever the word means a weapon's range. Those sections stay out, which is
+# why this is a list of what opts in rather than a list of exceptions.
+#
+# A section absent here still HAS its articles linked FROM elsewhere by ordinary
+# authored links; it only stops donating its titles as automatic targets.
+# ---------------------------------------------------------------------------
+
+[[article_link_sections]]
+section = "rules-glossary"
+
+[[article_link_sections]]
+section = "playing-the-game"
+
+# ---------------------------------------------------------------------------
+# Catalogue lists under a chapter — what this ruleset holds for what it just
+# described.
+#
+# A chapter prints a table of rules the bundle also defines as executable
+# entries, and the reader has no way from one to the other. The SRD's Actions
+# table is the case that prompted this: all twelve of its rows exist here as
+# capabilities, two of them (Dodge, Help) with a full action/affordance/outcome
+# chain, and the table reaches none of them. The table itself stays as the SRD
+# printed it; the list goes underneath.
+#
+# The refs are listed rather than derived because no rule picks out these twelve
+# and only these. They share the prefix `srd/action/` with twelve more entries
+# that are internal plumbing (Apply In Darkness, Drop Prone, the rest actions),
+# and they share the tag `srd.action` with all of them. What makes these twelve
+# a set is the source table, which is editorial, so it is authored — and
+# `article-catalogue-list.test.ts` reads that table out of the chapter body and
+# fails if the two ever disagree.
+# ---------------------------------------------------------------------------
+
+[[article_catalogue_lists]]
+section = "playing-the-game"
+article = "actions"
+title = "In this ruleset"
+refs = [
+  "srd/action/attack",
+  "srd/action/dash",
+  "srd/action/disengage",
+  "srd/action/dodge",
+  "srd/action/help",
+  "srd/action/hide",
+  "srd/action/influence",
+  "srd/action/magic",
+  "srd/action/ready",
+  "srd/action/search",
+  "srd/action/study",
+  "srd/action/utilize",
+]
+
+# A row either names its entries with `refs`, in the order the chapter prints
+# them, or derives them with `ref_prefix`. Derived is the better form and the
+# usual one: a weapon authored tomorrow reaches the reader without anyone
+# remembering to edit a list. `family` narrows a prefix that spans families —
+# `srd/armor/` names thirteen armors AND thirteen modifiers, `srd/feat/`
+# seventeen feats and two capabilities. Derived entries are ordered by name;
+# a named list keeps the chapter's own order.
+
+[[article_catalogue_lists]]
+section = "playing-the-game"
+article = "proficiency"
+title = "Skills in this ruleset"
+ref_prefix = "srd/skill/"
+
+[[article_catalogue_lists]]
+section = "character-creation"
+article = "character-creation-create-your-character"
+title = "Classes in this ruleset"
+ref_prefix = "srd/class/"
+
+[[article_catalogue_lists]]
+section = "character-creation"
+article = "character-creation-create-your-character"
+title = "Languages in this ruleset"
+ref_prefix = "srd.language."
+
+[[article_catalogue_lists]]
+section = "character-creation"
+article = "character-creation-create-your-character"
+title = "Alignments in this ruleset"
+ref_prefix = "srd.alignment."
+
+[[article_catalogue_lists]]
+section = "character-origins"
+article = "character-origins-character-backgrounds"
+title = "In this ruleset"
+ref_prefix = "srd/background/"
+
+[[article_catalogue_lists]]
+section = "character-origins"
+article = "character-origins-character-species"
+title = "In this ruleset"
+ref_prefix = "srd/species/"
+
+[[article_catalogue_lists]]
+section = "feats"
+article = "feats-feat-descriptions"
+title = "In this ruleset"
+ref_prefix = "srd/feat/"
+family = "feat"
+
+[[article_catalogue_lists]]
+section = "equipment"
+article = "equipment-weapons"
+title = "In this ruleset"
+ref_prefix = "srd/weapon/"
+
+[[article_catalogue_lists]]
+section = "equipment"
+article = "equipment-armor"
+title = "In this ruleset"
+ref_prefix = "srd/armor/"
+family = "armor"
+
+# The chapter names about thirty-six tools; twenty-nine exist. The missing seven
+# (Disguise Kit, Forgery Kit, Navigator's Tools, Poisoner's Kit and three Gaming
+# Set variants) are a content gap, filed separately — the list shows what the
+# ruleset actually holds rather than waiting for the rest.
+[[article_catalogue_lists]]
+section = "equipment"
+article = "equipment-tools"
+title = "In this ruleset"
+ref_prefix = "srd/tool/"
+
+[[article_catalogue_lists]]
+section = "spells"
+article = "spells-casting-spells"
+title = "Spell schools in this ruleset"
+ref_prefix = "srd.spell.school."
+
+# `tag` is the third form, for a set the data names but no ref prefix gathers.
+# The four origin feats are Alert, Magic Initiate, Savage Attacker and Skilled —
+# spread across `srd/feat/` with nothing in their ids to tell them from the
+# other thirteen. The tag `srd.feat.origin` is what says they belong together,
+# so the tag is what the row asks for.
+[[article_catalogue_lists]]
+section = "gameplay-toolbox"
+article = "gameplay-toolbox-creating-a-background"
+title = "Origin feats in this ruleset"
+tag = "srd.feat.origin"
+# The same tag rides on a capability that grants Alert's initiative proficiency.
+family = "feat"
+
+# The fourth form, and the one row that covers thirty chapters.
+#
+# A monster group chapter — Goblins, Bugbears, Black Dragons — introduces a
+# family whose members this bundle holds as creatures with their own pages, and
+# nothing in the data groups them: `srd.creature_type.fey` is shared by Goblins
+# AND Hobgoblins, `family` is "monster" for all 331, the role tags cut across
+# groups entirely, and no ref prefix survives the naming (a chapter's members
+# are `black-dragon-wyrmling` and `adult-black-dragon` — the age comes first).
+#
+# What DOES name them is the chapter's own text: one `###` heading per member,
+# the same text each creature page was authored from. So the rule is authored
+# once and the members are read out of each chapter, never copied into a list.
+# Verified over all 31 group chapters: 85 headings, 85 creatures, no miss and
+# nothing unwanted — and any heading that stops resolving fails the projection.
+#
+# `article_prefix` rather than `article` because this is one rule for a run of
+# chapters. Black Dragons is the exception that proves the shape: its stat
+# blocks were already replaced by embedded subjects (`collections.toml`), so it
+# has no headings left and simply gets no list.
+[[article_catalogue_lists]]
+section = "monsters"
+article_prefix = "monsters-a-z-"
+title = "In this ruleset"
+from_headings = "srd/creature/{slug}"

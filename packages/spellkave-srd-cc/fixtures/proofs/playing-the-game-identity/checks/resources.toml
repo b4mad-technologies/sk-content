@@ -1,0 +1,32 @@
+[[resource_definitions]]
+bundle_id = "srd_proof"
+description = "TEST-ONLY act-path observable for the slice-1b modifier proof: incremented by +1 on every ADMITTED flex act (both consequences write it; only the STR-gated predicate ever admits). Asserted relatively, never absolutely."
+display_name = "Flexed (proof counter)"
+initial_value = 0
+max_value = 1000000
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "srd_proof/flexed"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "srd_proof"
+description = "TEST-ONLY effect-owned DC for the source-backed Fire-Casting Statue pressure plate (15; cache/markdown/gameplay-toolbox.md:593-600). The pressure-plate entity is its only carrier; creature ability, level, save proficiency, and HP remain creature-owned."
+display_name = "Pressure-plate save DC (proof)"
+initial_value = 15
+max_value = 30
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "srd_proof/save_dc"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "srd_proof"
+description = "TEST-ONLY actor-owned reach budget required by r_move's traversal-affordance binding. Generous bounds keep the two-edge reset loop re-runnable."
+display_name = "Movement reach (proof)"
+initial_value = 1000000
+max_value = 1000000
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "srd_proof/movement_reach"
+value_kind = "int"

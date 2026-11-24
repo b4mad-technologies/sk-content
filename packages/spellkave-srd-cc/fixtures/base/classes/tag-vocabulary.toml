@@ -1,0 +1,1511 @@
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as one of the 12 SRD classes (classes.md (§ Classes — 12 classes, IDENTICAL section shape: Core Traits table -> Becoming a X -> Class Features table -> per-feature sections -> optional Spell List -> ONE subclass))."
+prefix = "srd"
+tag = "srd.class"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Barbarian class. Primary ability: Strength. Hit Point Die: d12."
+prefix = "srd.class"
+tag = "srd.class.barbarian"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Bard class. Primary ability: Charisma. Hit Point Die: d8."
+prefix = "srd.class"
+tag = "srd.class.bard"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Cleric class. Primary ability: Wisdom. Hit Point Die: d8."
+prefix = "srd.class"
+tag = "srd.class.cleric"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Druid class. Primary ability: Wisdom. Hit Point Die: d8."
+prefix = "srd.class"
+tag = "srd.class.druid"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Fighter class. Primary ability: Strength or Dexterity. Hit Point Die: d10."
+prefix = "srd.class"
+tag = "srd.class.fighter"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Monk class. Primary ability: Dexterity and Wisdom. Hit Point Die: d8."
+prefix = "srd.class"
+tag = "srd.class.monk"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Paladin class. Primary ability: Strength and Charisma. Hit Point Die: d10."
+prefix = "srd.class"
+tag = "srd.class.paladin"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Ranger class. Primary ability: Dexterity and Wisdom. Hit Point Die: d10."
+prefix = "srd.class"
+tag = "srd.class.ranger"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Rogue class. Primary ability: Dexterity. Hit Point Die: d8."
+prefix = "srd.class"
+tag = "srd.class.rogue"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Sorcerer class. Primary ability: Charisma. Hit Point Die: d6."
+prefix = "srd.class"
+tag = "srd.class.sorcerer"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Warlock class. Primary ability: Charisma. Hit Point Die: d8."
+prefix = "srd.class"
+tag = "srd.class.warlock"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Wizard class. Primary ability: Intelligence. Hit Point Die: d6."
+prefix = "srd.class"
+tag = "srd.class.wizard"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as one of the 12 SRD subclasses (classes.md (§ Classes — 12 classes, IDENTICAL section shape: Core Traits table -> Becoming a X -> Class Features table -> per-feature sections -> optional Spell List -> ONE subclass))."
+prefix = "srd"
+tag = "srd.subclass"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Champion subclass of the Fighter class."
+prefix = "srd.subclass"
+tag = "srd.subclass.champion"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Circle of the Land subclass of the Druid class."
+prefix = "srd.subclass"
+tag = "srd.subclass.circle-of-the-land"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD College of Lore subclass of the Bard class."
+prefix = "srd.subclass"
+tag = "srd.subclass.college-of-lore"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Draconic Sorcery subclass of the Sorcerer class."
+prefix = "srd.subclass"
+tag = "srd.subclass.draconic-sorcery"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Evoker subclass of the Wizard class."
+prefix = "srd.subclass"
+tag = "srd.subclass.evoker"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Fiend Patron subclass of the Warlock class."
+prefix = "srd.subclass"
+tag = "srd.subclass.fiend-patron"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Hunter subclass of the Ranger class."
+prefix = "srd.subclass"
+tag = "srd.subclass.hunter"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Life Domain subclass of the Cleric class."
+prefix = "srd.subclass"
+tag = "srd.subclass.life-domain"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Oath of Devotion subclass of the Paladin class."
+prefix = "srd.subclass"
+tag = "srd.subclass.oath-of-devotion"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Path of the Berserker subclass of the Barbarian class."
+prefix = "srd.subclass"
+tag = "srd.subclass.path-of-the-berserker"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Thief subclass of the Rogue class."
+prefix = "srd.subclass"
+tag = "srd.subclass.thief"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Warrior of the Open Hand subclass of the Monk class."
+prefix = "srd.subclass"
+tag = "srd.subclass.warrior-of-the-open-hand"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as one SRD class feature (classes.md:4579-4896 (§ Fighter + § Fighter Subclass: Champion), K2 exemplar)."
+prefix = "srd"
+tag = "srd.class_feature"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Ability Score Improvement class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.ability-score-improvement"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Action Surge class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.action-surge"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Core Traits class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.core-traits"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Epic Boon class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.epic-boon"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Extra Attack class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.extra-attack"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Fighter Subclass class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.fighter-subclass"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Fighting Style class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.fighting-style"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Indomitable class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.indomitable"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Proficiency Bonus class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.proficiency-bonus"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Second Wind class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.second-wind"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Second Wind Uses class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.second-wind-uses"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Studied Attacks class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.studied-attacks"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Tactical Master class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.tactical-master"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Tactical Mind class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.tactical-mind"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Tactical Shift class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.tactical-shift"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Three Extra Attacks class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.three-extra-attacks"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Two Extra Attacks class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.two-extra-attacks"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Weapon Mastery class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.weapon-mastery"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Weapon Mastery Count class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.weapon-mastery-count"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Additional Fighting Style class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.additional-fighting-style"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Heroic Warrior class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.heroic-warrior"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Improved Critical class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.improved-critical"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Remarkable Athlete class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.remarkable-athlete"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Superior Critical class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.superior-critical"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Survivor class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.survivor"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Barbarian Subclass class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.barbarian-subclass"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Brutal Strike class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.brutal-strike"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Danger Sense class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.danger-sense"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Fast Movement class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.fast-movement"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Feral Instinct class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.feral-instinct"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Improved Brutal Strike class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.improved-brutal-strike"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Improved Brutal Strike Enhanced class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.improved-brutal-strike-enhanced"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Indomitable Might class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.indomitable-might"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Instinctive Pounce class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.instinctive-pounce"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Persistent Rage class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.persistent-rage"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Primal Champion class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.primal-champion"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Primal Knowledge class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.primal-knowledge"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Rage class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.rage"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Rage Damage class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.rage-damage"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Rages class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.rages"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Reckless Attack class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.reckless-attack"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Relentless Rage class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.relentless-rage"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Unarmored Defense class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.unarmored-defense"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Frenzy class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.frenzy"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Intimidating Presence class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.intimidating-presence"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Mindless Rage class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.mindless-rage"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Retaliation class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.retaliation"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Bard Spell List class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.bard-spell-list"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Bard Subclass class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.bard-subclass"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Bardic Die class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.bardic-die"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Bardic Inspiration class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.bardic-inspiration"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Cantrips class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.cantrips"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Countercharm class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.countercharm"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Expertise class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.expertise"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Font Of Inspiration class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.font-of-inspiration"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Jack Of All Trades class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.jack-of-all-trades"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Magical Secrets class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.magical-secrets"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Prepared Spells class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.prepared-spells"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Level 1 Spell Slots class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.slots-1st"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Level 2 Spell Slots class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.slots-2nd"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Level 3 Spell Slots class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.slots-3rd"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Level 4 Spell Slots class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.slots-4th"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Level 5 Spell Slots class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.slots-5th"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Level 6 Spell Slots class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.slots-6th"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Level 7 Spell Slots class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.slots-7th"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Level 8 Spell Slots class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.slots-8th"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Level 9 Spell Slots class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.slots-9th"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Spellcasting class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.spellcasting"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Superior Inspiration class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.superior-inspiration"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Words Of Creation class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.words-of-creation"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Bonus Proficiencies class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.bonus-proficiencies"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Cutting Words class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.cutting-words"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Magical Discoveries class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.magical-discoveries"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Peerless Skill class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.peerless-skill"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Blessed Strikes class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.blessed-strikes"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Channel Divinity class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.channel-divinity"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Channel Divinity Uses class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.channel-divinity-uses"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Cleric Spell List class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.cleric-spell-list"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Cleric Subclasses class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.cleric-subclasses"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Divine Intervention class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.divine-intervention"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Divine Order class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.divine-order"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Greater Divine Intervention class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.greater-divine-intervention"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Improved Blessed Strikes class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.improved-blessed-strikes"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Sear Undead class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.sear-undead"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Blessed Healer class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.blessed-healer"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Disciple Of Life class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.disciple-of-life"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Life Domain Spells class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.life-domain-spells"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Preserve Life class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.preserve-life"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Supreme Healing class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.supreme-healing"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Archdruid class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.archdruid"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Beast Spells class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.beast-spells"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Druid Spell List class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.druid-spell-list"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Druid Subclass class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.druid-subclass"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Druidic class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.druidic"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Elemental Fury class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.elemental-fury"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Improved Elemental Fury class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.improved-elemental-fury"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Primal Order class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.primal-order"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Wild Companion class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.wild-companion"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Wild Resurgence class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.wild-resurgence"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Wild Shape class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.wild-shape"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Wild Shape Uses class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.wild-shape-uses"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Lands Aid class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.lands-aid"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Natural Recovery class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.natural-recovery"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Natures Sanctuary class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.natures-sanctuary"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Natures Ward class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.natures-ward"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Spell List class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.spell-list"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Acrobatic Movement class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.acrobatic-movement"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Body And Mind class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.body-and-mind"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Deflect Attacks class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.deflect-attacks"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Deflect Energy class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.deflect-energy"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Disciplined Survivor class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.disciplined-survivor"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Empowered Strikes class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.empowered-strikes"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Evasion class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.evasion"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Focus Points class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.focus-points"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Heightened Focus class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.heightened-focus"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Martial Arts class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.martial-arts"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Martial Arts Dice class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.martial-arts-dice"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Monk Subclass class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.monk-subclass"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Monks Focus class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.monks-focus"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Perfect Focus class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.perfect-focus"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Self Restoration class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.self-restoration"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Slow Fall class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.slow-fall"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Stunning Strike class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.stunning-strike"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Superior Defense class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.superior-defense"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Unarmored Movement class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.unarmored-movement"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Uncanny Metabolism class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.uncanny-metabolism"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Fleet Step class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.fleet-step"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Open Hand Technique class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.open-hand-technique"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Quivering Palm class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.quivering-palm"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Wholeness Of Body class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.wholeness-of-body"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Abjure Foes class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.abjure-foes"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Aura Expansion class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.aura-expansion"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Aura Of Courage class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.aura-of-courage"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Aura Of Protection class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.aura-of-protection"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Faithful Steed class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.faithful-steed"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Lay On Hands class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.lay-on-hands"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Paladin Subclass class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.paladin-subclass"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Paladins Smite class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.paladins-smite"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Radiant Strikes class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.radiant-strikes"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Restoring Touch class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.restoring-touch"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Aura Of Devotion class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.aura-of-devotion"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Holy Nimbus class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.holy-nimbus"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Sacred Weapon class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.sacred-weapon"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Smite Of Protection class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.smite-of-protection"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Spells class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.spells"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Deft Explorer class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.deft-explorer"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Favored Enemy class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.favored-enemy"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Favored Enemy Uses class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.favored-enemy-uses"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Feral Senses class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.feral-senses"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Foe Slayer class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.foe-slayer"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Natures Veil class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.natures-veil"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Precise Hunter class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.precise-hunter"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Ranger Subclass class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.ranger-subclass"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Relentless Hunter class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.relentless-hunter"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Roving class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.roving"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Tireless class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.tireless"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Defensive Tactics class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.defensive-tactics"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Hunters Lore class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.hunters-lore"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Hunters Prey class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.hunters-prey"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Superior Hunters Defense class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.superior-hunters-defense"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Superior Hunters Prey class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.superior-hunters-prey"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Cunning Action class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.cunning-action"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Cunning Strike class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.cunning-strike"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Devious Strikes class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.devious-strikes"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Elusive class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.elusive"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Improved Cunning Strike class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.improved-cunning-strike"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Reliable Talent class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.reliable-talent"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Rogue Subclass class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.rogue-subclass"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Slippery Mind class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.slippery-mind"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Sneak Attack class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.sneak-attack"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Sneak Attack Column Data class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.sneak-attack-column-data"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Steady Aim class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.steady-aim"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Stroke Of Luck class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.stroke-of-luck"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Thieves Cant class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.thieves-cant"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Uncanny Dodge class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.uncanny-dodge"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Fast Hands class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.fast-hands"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Second Story Work class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.second-story-work"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Supreme Sneak class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.supreme-sneak"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Thiefs Reflexes class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.thiefs-reflexes"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Use Magic Device class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.use-magic-device"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Arcane Apotheosis class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.arcane-apotheosis"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Font Of Magic class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.font-of-magic"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Innate Sorcery class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.innate-sorcery"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Metamagic class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.metamagic"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Metamagic Options class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.metamagic-options"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Sorcerer Spell List class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.sorcerer-spell-list"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Sorcerer Subclass class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.sorcerer-subclass"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Sorcerous Restoration class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.sorcerous-restoration"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Sorcery Incarnate class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.sorcery-incarnate"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Sorcery Points class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.sorcery-points"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Draconic Resilience class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.draconic-resilience"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Draconic Spells class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.draconic-spells"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Dragon Companion class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.dragon-companion"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Dragon Wings class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.dragon-wings"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Elemental Affinity class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.elemental-affinity"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Contact Patron class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.contact-patron"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Eldritch Invocation Count class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.eldritch-invocation-count"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Eldritch Invocation Options class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.eldritch-invocation-options"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Eldritch Invocations class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.eldritch-invocations"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Eldritch Master class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.eldritch-master"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Magical Cunning class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.magical-cunning"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Mystic Arcanum class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.mystic-arcanum"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Pact Magic class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.pact-magic"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Slot Level class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.slot-level"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Spell Slots class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.spell-slots"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Warlock Spell List class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.warlock-spell-list"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Warlock Subclass class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.warlock-subclass"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Dark Ones Blessing class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.dark-ones-blessing"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Dark Ones Own Luck class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.dark-ones-own-luck"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Fiend Spells class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.fiend-spells"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Fiendish Resilience class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.fiendish-resilience"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Hurl Through Hell class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.hurl-through-hell"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Arcane Recovery class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.arcane-recovery"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Memorize Spell class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.memorize-spell"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Ritual Adept class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.ritual-adept"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Scholar class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.scholar"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Signature Spells class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.signature-spells"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Spell Mastery class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.spell-mastery"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Wizard Spell List class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.wizard-spell-list"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Wizard Subclass class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.wizard-subclass"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Empowered Evocation class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.empowered-evocation"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Evocation Savant class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.evocation-savant"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Overchannel class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.overchannel"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Potent Cantrip class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.potent-cantrip"
+
+[[tag_value_definitions]]
+bundle_id = "srd"
+description = "Identifies an entity definition as the SRD Sculpt Spells class feature."
+prefix = "srd.class_feature"
+tag = "srd.class_feature.sculpt-spells"

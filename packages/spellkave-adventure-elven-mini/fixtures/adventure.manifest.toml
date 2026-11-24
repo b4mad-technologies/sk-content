@@ -1,0 +1,3068 @@
+#:schema https://spellkave.dev/schema/world-manifest-1.0.0.json
+applyset = "elven_mini"
+schema_version = "1.0.0"
+
+[[bundles]]
+allow_flat_tags = false
+author = "spellkave-srd-cc"
+bundle_id = "elven_mini"
+default_extent_params_json = '{"extent_m": 4.5}'
+default_extent_shape_id = "core/area/cube"
+depends_on = [
+    "srd",
+    "dm",
+]
+description = "Playing-the-Game proof mini-world (elven multi-graph). Map art © Elven Tower Maps (CC BY 4.0). https://www.patreon.com/elventower/posts/creative-commons-153067169"
+display_name = "Playing the Game proof scene"
+version = "1.0.0"
+
+[[bundles.tag_prefixes]]
+prefix = "elven_mini"
+
+[metadata]
+publisher_list_bundle = "elven_mini"
+
+[metadata.docs]
+intro = "The elven-mini adventure starts as the level-0 candidate in the creation limbo; the recorder creates the hero, then the inn/tomb/level-up arc."
+nav_group = "adventure"
+page_id = "elven-mini"
+source_base = "packages/spellkave-adventure-elven-mini/"
+title = "Elven Mini"
+version = 1
+
+[[metadata.docs.attributions]]
+body = "Elven Mini adventure material"
+
+[metadata.docs.attributions.source]
+anchor = "name-elven-mini"
+license = "CC-BY-4.0"
+path = "adventures/elven-mini.toml"
+
+[[metadata.docs.attributions]]
+body = "Map art by Derek Ruiz / Elven Tower Cartography. Resized/re-encoded and adapted by Spellkave. Per-file credits: assets/ccc3-maps/ATTRIBUTION.md. CC BY 4.0. Source: https://www.patreon.com/elventower/posts/creative-commons-153067169 Creator: https://www.patreon.com/elventower License: https://creativecommons.org/licenses/by/4.0/"
+
+[metadata.docs.attributions.source]
+anchor = "backdrops"
+license = "CC-BY-4.0"
+path = "author/backdrops.ts"
+
+[[metadata.docs.sections]]
+id = "adventure-subjects"
+intro = "Installed subjects from the adventure and its SRD dependency."
+title = "Adventure subjects"
+
+[[metadata.docs.sections.pages]]
+body = """
+The adventure installs an innkeeper instance.
+
+::subject{kind="entity" ref="elven_mini/adventure/innkeeper_1" view="compact"}"""
+id = "installed-subjects"
+title = "Installed subjects"
+
+[metadata.docs.sections.pages.source]
+anchor = "buildElvenMiniRootMetadata"
+license = "CC-BY-4.0"
+path = "author/docs.ts"
+
+[[metadata.docs.sections.pages]]
+body = "These SRD creatures and items appear in the adventure."
+id = "srd-subjects"
+title = "Creatures and gear from the SRD"
+
+[metadata.docs.sections.pages.source]
+anchor = "buildElvenMiniRootMetadata"
+license = "CC-BY-4.0"
+path = "author/docs.ts"
+
+[[metadata.docs.sections]]
+id = "mechanics"
+intro = "What this adventure itself can offer, resolve and change, beyond the SRD it builds on. Placed by the same rules as the SRD's own, so an action here reads the way an action there does."
+title = "Adventure rules"
+
+[[metadata.docs.sections]]
+id = "cast"
+intro = "Installed actors, the creation candidate blueprint, and the adventure descriptor."
+title = "Cast"
+
+[[metadata.docs.sections.catalogue]]
+description = "An unplaced blueprint for a world-owned hero, completed through authored DM acts."
+family = "cast"
+kind = "entity_definition"
+ref = "elven_mini/adventure/candidate"
+slug = "candidate"
+title = "Creation Candidate"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/candidate"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/players/candidate.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A hobgoblin warrior of Ghorza's road raiders."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/camp_hobgoblin_1"
+slug = "camp_hobgoblin_1"
+title = "Hobgoblin Warrior 1"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/hobgoblin-warrior"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/camp_hobgoblin_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A hobgoblin warrior of Ghorza's road raiders."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/camp_hobgoblin_2"
+slug = "camp_hobgoblin_2"
+title = "Hobgoblin Warrior 2"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/hobgoblin-warrior"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/camp_hobgoblin_2"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A hobgoblin warrior of Ghorza's road raiders."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/camp_hobgoblin_3"
+slug = "camp_hobgoblin_3"
+title = "Hobgoblin Warrior 3"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/hobgoblin-warrior"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/camp_hobgoblin_3"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A worg staked at the pens — second wave of the raid fight."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/camp_worg_1"
+slug = "camp_worg_1"
+title = "Worg 1"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/worg"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/camp_worg_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A worg staked at the pens — second wave of the raid fight."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/camp_worg_2"
+slug = "camp_worg_2"
+title = "Worg 2"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/worg"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/camp_worg_2"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A giant rat nesting among the cellar barrels, teeth bared at the lamplight."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/cellar_rat_1"
+slug = "cellar_rat_1"
+title = "Cellar Rat 1"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/giant-rat"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/cellar_rat_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/q1-cellar-rats.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A chittering swarm of rats pouring from a cracked cask."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/cellar_swarm_1"
+slug = "cellar_swarm_1"
+title = "Cellar Rat Swarm"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/swarm-of-rats"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/cellar_swarm_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/q1-cellar-rats.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "An ogre zombie waiting in the alcove."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/deep_ogre_zombie_1"
+slug = "deep_ogre_zombie_1"
+title = "Ogre Zombie"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/ogre-zombie"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/deep_ogre_zombie_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A wight bound to the Steward's left niche."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/deep_wight_1"
+slug = "deep_wight_1"
+title = "Bound Wight"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/wight"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/deep_wight_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A wight bound to the Steward's right niche."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/deep_wight_2"
+slug = "deep_wight_2"
+title = "Bound Wight"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/wight"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/deep_wight_2"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A zombie packing the deep-tomb hall."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/deep_zombie_1"
+slug = "deep_zombie_1"
+title = "Zombie 1"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/zombie"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/deep_zombie_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A zombie packing the deep-tomb hall."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/deep_zombie_2"
+slug = "deep_zombie_2"
+title = "Zombie 2"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/zombie"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/deep_zombie_2"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A zombie packing the deep-tomb hall."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/deep_zombie_3"
+slug = "deep_zombie_3"
+title = "Zombie 3"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/zombie"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/deep_zombie_3"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A zombie packing the deep-tomb hall."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/deep_zombie_4"
+slug = "deep_zombie_4"
+title = "Zombie 4"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/zombie"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/deep_zombie_4"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "Durgan Ironfold, last dwarf of the mine, wight-cursed."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/durgan_ironfold_1"
+slug = "durgan_ironfold_1"
+title = "Durgan Ironfold"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/wight"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/durgan_ironfold_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A blood-drinker stirge among the moonpetal."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/green_stirge_1"
+slug = "green_stirge_1"
+title = "Stirge 1"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/stirge"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/green_stirge_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "Grubnash, goblin boss of the warren."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/grubnash_1"
+slug = "grubnash_1"
+title = "Grubnash"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/goblin-boss"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/grubnash_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "An owlbear crashing into the lodge clearing (wave two)."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/lodge_owlbear_1"
+slug = "lodge_owlbear_1"
+title = "Owlbear"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/owlbear"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/lodge_owlbear_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A giant spider dropping from the tree line."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/lodge_spider_1"
+slug = "lodge_spider_1"
+title = "Giant Spider 1"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/giant-spider"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/lodge_spider_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A giant spider dropping from the tree line."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/lodge_spider_2"
+slug = "lodge_spider_2"
+title = "Giant Spider 2"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/giant-spider"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/lodge_spider_2"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A windmill cultist holding the tunnel intersection."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/mill_cultist_1"
+slug = "mill_cultist_1"
+title = "Cultist 1"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/cultist"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/mill_cultist_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A windmill cultist holding the tunnel intersection."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/mill_cultist_2"
+slug = "mill_cultist_2"
+title = "Cultist 2"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/cultist"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/mill_cultist_2"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A windmill cultist holding the tunnel intersection."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/mill_cultist_3"
+slug = "mill_cultist_3"
+title = "Cultist 3"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/cultist"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/mill_cultist_3"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A windmill cultist holding the tunnel intersection."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/mill_cultist_4"
+slug = "mill_cultist_4"
+title = "Cultist 4"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/cultist"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/mill_cultist_4"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A ghast haunting the lower hall."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/mine_ghast_1"
+slug = "mine_ghast_1"
+title = "Ghast"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/ghast"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/mine_ghast_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A ghoul in the side den."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/mine_ghoul_1"
+slug = "mine_ghoul_1"
+title = "Ghoul 1"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/ghoul"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/mine_ghoul_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A ghoul in the side den."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/mine_ghoul_2"
+slug = "mine_ghoul_2"
+title = "Ghoul 2"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/ghoul"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/mine_ghoul_2"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A skeleton pacing the mine gallery."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/mine_skeleton_1"
+slug = "mine_skeleton_1"
+title = "Skeleton 1"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/skeleton"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/mine_skeleton_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A skeleton pacing the mine gallery."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/mine_skeleton_2"
+slug = "mine_skeleton_2"
+title = "Skeleton 2"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/skeleton"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/mine_skeleton_2"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A skeleton pacing the mine gallery."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/mine_skeleton_3"
+slug = "mine_skeleton_3"
+title = "Skeleton 3"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/skeleton"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/mine_skeleton_3"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A skeleton pacing the mine gallery."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/mine_skeleton_4"
+slug = "mine_skeleton_4"
+title = "Skeleton 4"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/skeleton"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/mine_skeleton_4"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "Mother Ulda, green hag of the swamp."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/mother_ulda_1"
+slug = "mother_ulda_1"
+title = "Mother Ulda"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/green-hag"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/mother_ulda_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "The Pale Steward, specter bound under the tomb."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/pale_steward_1"
+slug = "pale_steward_1"
+title = "The Pale Steward"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/specter"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/pale_steward_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A lean wolf packing the bridge midspan."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/road_wolf_1"
+slug = "road_wolf_1"
+title = "Road Wolf 1"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/wolf"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/road_wolf_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A shadow clinging to the shrine crypt."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/shrine_shadow_1"
+slug = "shrine_shadow_1"
+title = "Shadow 1"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/shadow"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/shrine_shadow_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A shadow clinging to the shrine crypt."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/shrine_shadow_2"
+slug = "shrine_shadow_2"
+title = "Shadow 2"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/shadow"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/shrine_shadow_2"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A shadow clinging to the shrine crypt."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/shrine_shadow_3"
+slug = "shrine_shadow_3"
+title = "Shadow 3"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/shadow"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/shrine_shadow_3"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A specter haunting the shrine nave."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/shrine_specter_1"
+slug = "shrine_specter_1"
+title = "Shrine Specter"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/specter"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/shrine_specter_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "Sister Maelis, fanatic leader of the Windmill cult."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/sister_maelis_1"
+slug = "sister_maelis_1"
+title = "Sister Maelis"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/cultist-fanatic"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/sister_maelis_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A giant frog in the hag's pool."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/swamp_frog_1"
+slug = "swamp_frog_1"
+title = "Giant Frog 1"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/giant-frog"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/swamp_frog_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A giant frog in the hag's pool."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/swamp_frog_2"
+slug = "swamp_frog_2"
+title = "Giant Frog 2"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/giant-frog"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/swamp_frog_2"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A will-o'-wisp drifting the glade."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/swamp_wisp_1"
+slug = "swamp_wisp_1"
+title = "Will-o'-Wisp"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/will-o-wisp"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/swamp_wisp_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "Warcaptain Ghorza, leader of the road raids."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/warcaptain_ghorza_1"
+slug = "warcaptain_ghorza_1"
+title = "Warcaptain Ghorza"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/hobgoblin-captain"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/warcaptain_ghorza_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A scrawny goblin minion of Grubnash's warren, quick to flee and quicker to swarm."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/warren_minion_1"
+slug = "warren_minion_1"
+title = "Goblin Minion 1"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/goblin-minion"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/warren_minion_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A scrawny goblin minion of Grubnash's warren, quick to flee and quicker to swarm."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/warren_minion_2"
+slug = "warren_minion_2"
+title = "Goblin Minion 2"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/goblin-minion"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/warren_minion_2"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A scrawny goblin minion of Grubnash's warren, quick to flee and quicker to swarm."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/warren_minion_3"
+slug = "warren_minion_3"
+title = "Goblin Minion 3"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/goblin-minion"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/warren_minion_3"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A scrawny goblin minion of Grubnash's warren, quick to flee and quicker to swarm."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/warren_minion_4"
+slug = "warren_minion_4"
+title = "Goblin Minion 4"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/goblin-minion"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/warren_minion_4"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A scrawny goblin minion of Grubnash's warren, quick to flee and quicker to swarm."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/warren_minion_5"
+slug = "warren_minion_5"
+title = "Goblin Minion 5"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/goblin-minion"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/warren_minion_5"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A scrawny goblin minion of Grubnash's warren, quick to flee and quicker to swarm."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/warren_minion_6"
+slug = "warren_minion_6"
+title = "Goblin Minion 6"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/goblin-minion"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/warren_minion_6"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A goblin warrior at the warren guard post."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/warren_warrior_1"
+slug = "warren_warrior_1"
+title = "Goblin Warrior 1"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/goblin-warrior"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/warren_warrior_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A goblin warrior at the warren guard post."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/warren_warrior_2"
+slug = "warren_warrior_2"
+title = "Goblin Warrior 2"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/goblin-warrior"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/warren_warrior_2"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A gray ooze in the lowest pool under the well."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/well_ooze_1"
+slug = "well_ooze_1"
+title = "Gray Ooze"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/gray-ooze"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/well_ooze_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A giant rat in the well's depth hall."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/well_rat_1"
+slug = "well_rat_1"
+title = "Giant Rat 1"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/giant-rat"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/well_rat_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A giant rat in the well's depth hall."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/well_rat_2"
+slug = "well_rat_2"
+title = "Giant Rat 2"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/giant-rat"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/well_rat_2"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A giant rat in the well's depth hall."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/well_rat_3"
+slug = "well_rat_3"
+title = "Giant Rat 3"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/giant-rat"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/well_rat_3"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A giant rat in the well's depth hall."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/well_rat_4"
+slug = "well_rat_4"
+title = "Giant Rat 4"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/giant-rat"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/well_rat_4"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A wererat of the nest under the well."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/well_wererat_1"
+slug = "well_wererat_1"
+title = "Wererat 1"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/wererat"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/well_wererat_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A wererat of the nest under the well."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/encounter/well_wererat_2"
+slug = "well_wererat_2"
+title = "Wererat 2"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/wererat"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/encounter/well_wererat_2"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/storyline-encounters.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "Innkeeper Mira"
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/innkeeper_1"
+slug = "innkeeper_1"
+title = "Mira"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/commoner"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/innkeeper_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/npcs/mira.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "Aldwin sits by the hearth, ledger open on his knee."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/npc/aldwin_1"
+slug = "aldwin_1"
+title = "Aldwin, keeper of the hearth-ledger"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/commoner"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/npc/aldwin_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/npcs/aldwin.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "Acolyte of the Sun-and-Moon shrine, fled to the inn."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/npc/caddoc_1"
+slug = "caddoc_1"
+title = "Brother Caddoc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/priest-acolyte"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/npc/caddoc_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/npcs/storyline-cast.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A goblin sentinel standing watch over the crypt's lowest niches."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/npc/crypt_warden_1"
+slug = "crypt_warden_1"
+title = "Crypt Warden"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/goblin-warrior"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/npc/crypt_warden_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/crypt-warden.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "Gamekeeper of the forest lodge — companion candidate."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/npc/hesper_1"
+slug = "hesper_1"
+title = "Hesper of the Lodge"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/scout"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/npc/hesper_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/npcs/storyline-cast.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "Miller's son who escaped the silent mill."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/npc/jory_1"
+slug = "jory_1"
+title = "Jory Millwright"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/commoner"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/npc/jory_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/npcs/storyline-cast.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A glistening scout ooze blocking the sarcophagus hall."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/npc/slime_scout_1"
+slug = "slime_scout_1"
+title = "Slime Scout"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/gray-ooze"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/npc/slime_scout_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/monsters/slime-scout.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "Herbalist who knows the swamp and the green's moonpetal."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/npc/tamsin_1"
+slug = "tamsin_1"
+title = "Old Tamsin"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/commoner"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/npc/tamsin_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/npcs/storyline-cast.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "Kobold scout who wants Grubnash's warren gone."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/npc/vessk_1"
+slug = "vessk_1"
+title = "Vessk"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/kobold-warrior"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/npc/vessk_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/npcs/storyline-cast.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "Elven watch captain at the hamlet gate."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/npc/ysolde_1"
+slug = "ysolde_1"
+title = "Captain Ysolde Farwind"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/creature/guard-captain"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/npc/ysolde_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/npcs/storyline-cast.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "World operator character. Publisher authority lives on independent root-graph presences."
+family = "cast"
+kind = "entity"
+ref = "elven_mini/adventure/operator_1"
+slug = "operator_1"
+title = "World Operator"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "npc"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "elven_mini/adventure/operator"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/operator_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/npcs/operator.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A quiet blade Aldwin trusts — joined the party at the hero's second rung (skirmisher companion; SRD Rogue L2 sheet via creation completeness)."
+family = "cast"
+kind = "entity_definition"
+ref = "elven_mini/adventure/rogue-companion"
+slug = "rogue-companion"
+title = "Aldwin's Blade"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/rogue-companion"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/npcs/rogue-companion.toml"
+
+[[metadata.docs.sections.documents]]
+body = "The elven-mini adventure starts as the level-0 candidate in the creation limbo; the recorder creates the hero, then the inn/tomb/level-up arc."
+family = "adventure"
+id = "adventure"
+ref = "elven_mini/adventure"
+slug = "adventure"
+title = "elven-mini"
+
+[metadata.docs.sections.documents.source]
+anchor = "name-elven-mini"
+license = "CC-BY-4.0"
+path = "adventures/elven-mini.toml"
+
+[[metadata.docs.sections]]
+id = "items"
+intro = "Item instances installed by the adventure, plus item blueprints it defines but never places — the creation starter kit, handed to a hero at character creation rather than found in the world."
+title = "Items"
+
+[[metadata.docs.sections.catalogue]]
+description = "Bar Counter"
+family = "item"
+kind = "entity"
+ref = "elven_mini/adventure/furniture/bar_1"
+slug = "bar_1"
+title = "Bar Counter"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "item"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "elven_mini/adventure/furniture/bar"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/furniture/bar_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/props/bar-counter.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "Hearth"
+family = "item"
+kind = "entity"
+ref = "elven_mini/adventure/furniture/hearth_1"
+slug = "hearth_1"
+title = "Hearth"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "item"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "elven_mini/adventure/furniture/hearth"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/furniture/hearth_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/props/hearth.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A windmill-cult relic Mother Ulda bargains over."
+family = "item"
+kind = "entity"
+ref = "elven_mini/adventure/item/cult_relic_1"
+slug = "cult_relic_1"
+tags = ["quest-item"]
+title = "Cult Relic"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "item"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "elven_mini/adventure/item/cult_relic"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/item/cult_relic_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/props/quest-items.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A plain traveler's chest at the foot of the loft bed, with a hinged lid."
+family = "item"
+kind = "entity"
+ref = "elven_mini/adventure/item/loft_chest_1"
+slug = "loft_chest_1"
+title = "Chest"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "item"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/item/chest"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/item/loft_chest_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/props/loft-chest.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A corked vial of Potion of Healing, tucked in the loft chest."
+family = "item"
+kind = "entity"
+ref = "elven_mini/adventure/item/loft_chest_potion_1"
+slug = "loft_chest_potion_1"
+title = "Potion of Healing 1"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "item"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/item/potion-of-healing"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/item/loft_chest_potion_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/props/loft-chest.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A corked vial of Potion of Healing, tucked in the loft chest."
+family = "item"
+kind = "entity"
+ref = "elven_mini/adventure/item/loft_chest_potion_2"
+slug = "loft_chest_potion_2"
+title = "Potion of Healing 2"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "item"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/item/potion-of-healing"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/item/loft_chest_potion_2"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/props/loft-chest.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A pale night-bloom Tamsin needs for her basket."
+family = "item"
+kind = "entity"
+ref = "elven_mini/adventure/item/moonpetal_1"
+slug = "moonpetal_1"
+tags = ["quest-item"]
+title = "Moonpetal"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "item"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "elven_mini/adventure/item/moonpetal"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/item/moonpetal_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/props/quest-items.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A smooth river-stone strung on a leather cord, faintly warm. Hesper pressed it into your hand: keep it on you, and she can hear you across any distance — Aldwin keeps the bond in his hearth-ledger."
+family = "item"
+kind = "entity_definition"
+ref = "elven_mini/adventure/item/telepathy_stone"
+slug = "telepathy_stone"
+title = "Telepathy stone"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/item/telepathy_stone"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/props/telepathy-stone.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "Sealed Chest"
+family = "item"
+kind = "entity"
+ref = "elven_mini/adventure/item/tomb_chest_1"
+slug = "tomb_chest_1"
+title = "Sealed Chest"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "item"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "elven_mini/adventure/item/tomb_chest"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/item/tomb_chest_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/props/sealed-chest.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "Durgan's one-use ward-key. The socket in the upper tomb's crypt consumes it to open the deep stair for the whole party."
+family = "item"
+kind = "entity"
+ref = "elven_mini/adventure/item/tomb_key_1"
+slug = "tomb_key_1"
+tags = ["quest-item"]
+title = "Ironfold Tomb Key"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "item"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "elven_mini/adventure/item/tomb_key"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/item/tomb_key_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/props/quest-items.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "Sister Maelis's prize — Q4 boss table representative drop (srd/loot/boss/q4-fanatic)."
+family = "item"
+kind = "entity"
+ref = "elven_mini/adventure/loot/q4_fanatic_longsword_plus_1"
+slug = "q4_fanatic_longsword_plus_1"
+title = "Longsword (+1)"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Kind"
+value = "item"
+
+[[metadata.docs.sections.catalogue.facts]]
+label = "Definition"
+value = "srd/magic_item/longsword-plus-1"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/loot/q4_fanatic_longsword_plus_1"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/props/q4-fanatic-loot.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A worn traveler's pack."
+family = "item"
+kind = "entity_definition"
+ref = "elven_mini/item/field_kit"
+slug = "field_kit"
+title = "Field Kit"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/item/field_kit"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/props/field-kit.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "One day's travel rations."
+family = "item"
+kind = "entity_definition"
+ref = "elven_mini/item/rations"
+slug = "rations"
+title = "Rations"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/item/rations"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/props/rations.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A worn traveler's pack."
+family = "item"
+kind = "entity_definition"
+ref = "elven_mini/item/rogue-field-kit"
+slug = "rogue-field-kit"
+title = "Field Kit"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/item/rogue-field-kit"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/npcs/rogue-companion.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A pitch-soaked torch."
+family = "item"
+kind = "entity_definition"
+ref = "elven_mini/item/torch"
+slug = "torch"
+title = "Torch"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/item/torch"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/cast/props/torch.toml"
+
+[[metadata.docs.sections]]
+id = "places"
+intro = "Authored place graphs and their joined map layers."
+title = "Places"
+
+[[metadata.docs.sections.catalogue]]
+description = "A single, isolated advancement-limbo scene: one place node, DELIBERATELY not connected to this adventure's other geography. Aldwin relocates the accepting hero here (and himself alongside) via RelocateEntity — no door, no walk."
+family = "place"
+kind = "place_graph"
+ref = "elven_mini/advancement_limbo"
+slug = "advancement_limbo"
+title = "Advancement Limbo"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/advancement_limbo"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/world/advancement-limbo.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A quiet pause before the adventure, where Aldwin helps you choose who you will be before entering the inn."
+family = "place"
+kind = "place_graph"
+ref = "elven_mini/creation_limbo"
+slug = "creation_limbo"
+title = "Creation Limbo"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/creation_limbo"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/world/creation-limbo.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A cursed crypt on the hill road near the elven tomb — bone halls and a false grave."
+family = "place"
+kind = "place_graph"
+ref = "elven_mini/cursed_crypt"
+slug = "cursed_crypt"
+title = "Cursed Crypt"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/cursed_crypt"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/world/cursed_crypt.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "The level below the infested tomb — a processional to the Pale Steward's court."
+family = "place"
+kind = "place_graph"
+ref = "elven_mini/deep_tomb"
+slug = "deep_tomb"
+title = "Deep Tomb"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/deep_tomb"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/world/deep_tomb.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A gamekeeper's cottage in a forest clearing — porch, hearth, and a loft under the eaves."
+family = "place"
+kind = "place_graph"
+ref = "elven_mini/forest_lodge"
+slug = "forest_lodge"
+title = "Forest Lodge"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/forest_lodge"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/world/forest_lodge.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A goblin lair in the hills, joined by a tunnel to the chief's hideout deeper in the rock."
+family = "place"
+kind = "place_graph"
+ref = "elven_mini/goblin_warren"
+slug = "goblin_warren"
+title = "Goblin Warren"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/goblin_warren"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/world/goblin_warren.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A palisaded hamlet — a handful of houses and sheds huddled around a well and a muddy square, walled against whatever the road brings."
+family = "place"
+kind = "place_graph"
+ref = "elven_mini/hamlet"
+slug = "hamlet"
+title = "Hamlet"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/hamlet"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/world/hamlet.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A disciplined hobgoblin camp on the forest road — pickets, tents, and a captain's pavilion."
+family = "place"
+kind = "place_graph"
+ref = "elven_mini/hobgoblin_camp"
+slug = "hobgoblin_camp"
+title = "Hobgoblin Camp"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/hobgoblin_camp"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/world/hobgoblin_camp.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "The Mountain View Inn — three creaking floors of timber and lantern-light, tucked just off the hamlet square."
+family = "place"
+kind = "place_graph"
+ref = "elven_mini/inn"
+slug = "inn"
+title = "Inn"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/inn"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/world/inn.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "An abandoned windmill and roadside inn whose cellars open into cult tunnels beneath the hill."
+family = "place"
+kind = "place_graph"
+ref = "elven_mini/mill"
+slug = "mill"
+title = "Mill"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/mill"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/world/mill.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "An old dwarven mine on the north pass — galleries of undead and a wight who still keeps the key."
+family = "place"
+kind = "place_graph"
+ref = "elven_mini/mine"
+slug = "mine"
+title = "Mine"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/mine"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/world/mine.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "Offstage holding place for the publisher's observation body: one node, DELIBERATELY not connected to any playable geography."
+family = "place"
+kind = "place_graph"
+ref = "elven_mini/operator_offstage"
+slug = "operator_offstage"
+title = "Operator Offstage"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/operator_offstage"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/world/operator-offstage.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "Open country where the road forks four ways — north, east, south toward the hamlet, and west into the wild."
+family = "place"
+kind = "place_graph"
+ref = "elven_mini/region"
+slug = "region"
+title = "Region"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/region"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/world/region.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A stone-and-timber bridge spans the river where the road climbs toward the mill."
+family = "place"
+kind = "place_graph"
+ref = "elven_mini/river_crossing"
+slug = "river_crossing"
+title = "River Crossing"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/river_crossing"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/world/river_crossing.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "The forest opens on the Shrine of the Sun and Moon — nave, apses, and a shadowed crypt below."
+family = "place"
+kind = "place_graph"
+ref = "elven_mini/shrine"
+slug = "shrine"
+title = "Shrine"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/shrine"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/world/shrine.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A drowned reach of the river where a green hag keeps her hut among the reeds."
+family = "place"
+kind = "place_graph"
+ref = "elven_mini/swamp"
+slug = "swamp"
+title = "Swamp"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/swamp"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/world/swamp.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "A tomb cut into the hillside above the hamlet — old stone stairs down into a dark that smells of standing water and worse."
+family = "place"
+kind = "place_graph"
+ref = "elven_mini/tomb"
+slug = "tomb"
+title = "Tomb"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/tomb"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/world/tomb.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "The elven quarter above the walls — circular platforms and tree dwellings linked by rope bridges over the stream."
+family = "place"
+kind = "place_graph"
+ref = "elven_mini/village"
+slug = "village"
+title = "Village"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/village"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/world/village.toml"
+
+[[metadata.docs.sections.catalogue]]
+description = "The hamlet well drops into darkness — a shaft and nest of things that should not live under a village."
+family = "place"
+kind = "place_graph"
+ref = "elven_mini/well"
+slug = "well"
+title = "Well"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/well"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/world/well.toml"
+
+[[metadata.docs.sections]]
+id = "encounters"
+intro = "Authored session definitions."
+title = "Encounters"
+
+[[metadata.docs.sections.catalogue]]
+description = 'The crypt-hall Goblin ("Crypt Warden") turn-based grid fight.'
+family = "encounter"
+kind = "session_definition"
+ref = "elven_mini/adventure/session/crypt-fight"
+slug = "crypt-fight"
+title = "Crypt fight"
+
+[metadata.docs.sections.catalogue.source]
+anchor = "elven_mini/adventure/session/crypt-fight"
+license = "CC-BY-4.0"
+path = "fixtures/adventure/combat/crypt-fight.toml"
+
+[[metadata.docs.sections]]
+id = "quest-lines"
+intro = "The complete authored quest catalogue."
+title = "Quest lines"
+
+[[metadata.docs.sections.documents]]
+body = """
+Clear the inn cellar of a giant rat and the swarm.
+
+- Rung: I
+
+- Giver: Aldwin (elven_mini/adventure/npc/aldwin_1)
+
+- Reward XP: 100
+
+<details><summary>Technical details</summary><pre><code class="language-json">{
+  "rung": "I",
+  "giver_key": "elven_mini/adventure/npc/aldwin_1",
+  "giver_name": "Aldwin",
+  "accept_slot": 1,
+  "decline_slot": 2,
+  "accept_text": "The cellar is overrun — I'll clear it.",
+  "decline_text": "Not today.",
+  "terminal": {
+    "kind": "all_dead",
+    "deadKeys": [
+      "elven_mini/adventure/encounter/cellar_rat_1",
+      "elven_mini/adventure/encounter/cellar_swarm_1"
+    ]
+  },
+  "reward_xp": 100,
+  "kill_xp_creatures": [
+    {
+      "slug": "giant-rat",
+      "count": 1
+    },
+    {
+      "slug": "swarm-of-rats",
+      "count": 1
+    }
+  ]
+}</code></pre></details>"""
+family = "quest"
+id = "quest-q1"
+ref = "elven_mini/quest/Q1"
+slug = "Q1"
+tags = ["quest.rung.I"]
+title = "Rats in the Cellar"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity"
+ref = "elven_mini/adventure/npc/aldwin_1"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity_definition"
+ref = "srd/creature/giant-rat"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity_definition"
+ref = "srd/creature/swarm-of-rats"
+
+[metadata.docs.sections.documents.source]
+anchor = "QUESTS"
+license = "CC-BY-4.0"
+path = "author/quests.ts"
+
+[[metadata.docs.sections.documents]]
+body = """
+Escort Jory from the river crossing to the hamlet gate alive.
+
+- Rung: I
+
+- Giver: Captain Ysolde Farwind (elven_mini/adventure/npc/ysolde_1)
+
+- Reward XP: 75
+
+<details><summary>Technical details</summary><pre><code class="language-json">{
+  "rung": "I",
+  "giver_key": "elven_mini/adventure/npc/ysolde_1",
+  "giver_name": "Captain Ysolde Farwind",
+  "accept_slot": 1,
+  "decline_slot": 2,
+  "accept_text": "I'll escort Jory to the gate.",
+  "decline_text": "Another time.",
+  "terminal": {
+    "kind": "escort_alive_at",
+    "escortKey": "elven_mini/adventure/npc/jory_1",
+    "atNodeId": "elven_mini/hamlet/gate"
+  },
+  "reward_xp": 75,
+  "kill_xp_creatures": [
+    {
+      "slug": "wolf",
+      "count": 1
+    }
+  ]
+}</code></pre></details>"""
+family = "quest"
+id = "quest-q2"
+ref = "elven_mini/quest/Q2"
+slug = "Q2"
+tags = ["quest.rung.I"]
+title = "Road Watch"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity"
+ref = "elven_mini/adventure/npc/ysolde_1"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity_definition"
+ref = "srd/creature/wolf"
+
+[metadata.docs.sections.documents.source]
+anchor = "QUESTS"
+license = "CC-BY-4.0"
+path = "author/quests.ts"
+
+[[metadata.docs.sections.documents]]
+body = """
+Fetch moonpetal from the village green and deliver it.
+
+- Rung: I
+
+- Giver: Old Tamsin (elven_mini/adventure/npc/tamsin_1)
+
+- Reward XP: 25
+
+<details><summary>Technical details</summary><pre><code class="language-json">{
+  "rung": "I",
+  "giver_key": "elven_mini/adventure/npc/tamsin_1",
+  "giver_name": "Old Tamsin",
+  "accept_slot": 1,
+  "decline_slot": 2,
+  "accept_text": "I'll fetch the moonpetal.",
+  "decline_text": "Not tonight.",
+  "terminal": {
+    "kind": "has_item",
+    "itemKey": "elven_mini/adventure/item/moonpetal_1",
+    "flag": "q3_delivered"
+  },
+  "reward_xp": 25,
+  "kill_xp_creatures": [
+    {
+      "slug": "stirge",
+      "count": 1
+    }
+  ]
+}</code></pre></details>"""
+family = "quest"
+id = "quest-q3"
+ref = "elven_mini/quest/Q3"
+slug = "Q3"
+tags = ["quest.rung.I"]
+title = "Tamsin's Basket"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity"
+ref = "elven_mini/adventure/npc/tamsin_1"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity_definition"
+ref = "srd/creature/stirge"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity"
+ref = "elven_mini/adventure/item/moonpetal_1"
+
+[metadata.docs.sections.documents.source]
+anchor = "QUESTS"
+license = "CC-BY-4.0"
+path = "author/quests.ts"
+
+[[metadata.docs.sections.documents]]
+body = """
+End Sister Maelis — dead or surrendered.
+
+- Rung: II
+
+- Giver: Captain Ysolde Farwind (elven_mini/adventure/npc/ysolde_1)
+
+- Reward XP: 200
+
+<details><summary>Technical details</summary><pre><code class="language-json">{
+  "rung": "II",
+  "giver_key": "elven_mini/adventure/npc/ysolde_1",
+  "giver_name": "Captain Ysolde Farwind",
+  "accept_slot": 1,
+  "decline_slot": 2,
+  "accept_text": "I'll end the Windmill cult.",
+  "decline_text": "Later.",
+  "terminal": {
+    "kind": "any_dead_or_flag",
+    "anyDeadKeys": [
+      "elven_mini/adventure/encounter/sister_maelis_1"
+    ],
+    "flag": "q4_maelis_surrendered"
+  },
+  "reward_xp": 200,
+  "kill_xp_creatures": [
+    {
+      "slug": "cultist",
+      "count": 4
+    },
+    {
+      "slug": "cultist-fanatic",
+      "count": 1
+    }
+  ]
+}</code></pre></details>"""
+family = "quest"
+id = "quest-q4"
+ref = "elven_mini/quest/Q4"
+slug = "Q4"
+tags = ["quest.rung.II"]
+title = "The Silent Mill"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity"
+ref = "elven_mini/adventure/npc/ysolde_1"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity_definition"
+ref = "srd/creature/cultist"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity_definition"
+ref = "srd/creature/cultist-fanatic"
+
+[metadata.docs.sections.documents.source]
+anchor = "QUESTS"
+license = "CC-BY-4.0"
+path = "author/quests.ts"
+
+[[metadata.docs.sections.documents]]
+body = """
+Stop Warcaptain Ghorza — dead or camp burned.
+
+- Rung: II
+
+- Giver: Captain Ysolde Farwind (elven_mini/adventure/npc/ysolde_1)
+
+- Reward XP: 250
+
+<details><summary>Technical details</summary><pre><code class="language-json">{
+  "rung": "II",
+  "giver_key": "elven_mini/adventure/npc/ysolde_1",
+  "giver_name": "Captain Ysolde Farwind",
+  "accept_slot": 1,
+  "decline_slot": 2,
+  "accept_text": "I'll stop Ghorza's raids.",
+  "decline_text": "Not yet.",
+  "terminal": {
+    "kind": "any_dead_or_flag",
+    "anyDeadKeys": [
+      "elven_mini/adventure/encounter/warcaptain_ghorza_1"
+    ],
+    "flag": "q5_camp_burned"
+  },
+  "reward_xp": 250,
+  "kill_xp_creatures": [
+    {
+      "slug": "hobgoblin-warrior",
+      "count": 3
+    },
+    {
+      "slug": "hobgoblin-captain",
+      "count": 1
+    },
+    {
+      "slug": "worg",
+      "count": 2
+    }
+  ]
+}</code></pre></details>"""
+family = "quest"
+id = "quest-q5"
+ref = "elven_mini/quest/Q5"
+slug = "Q5"
+tags = ["quest.rung.II"]
+title = "Break the Raid"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity"
+ref = "elven_mini/adventure/npc/ysolde_1"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity_definition"
+ref = "srd/creature/hobgoblin-warrior"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity_definition"
+ref = "srd/creature/hobgoblin-captain"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity_definition"
+ref = "srd/creature/worg"
+
+[metadata.docs.sections.documents.source]
+anchor = "QUESTS"
+license = "CC-BY-4.0"
+path = "author/quests.ts"
+
+[[metadata.docs.sections.documents]]
+body = """
+Defend the lodge; Hesper survives.
+
+- Rung: II
+
+- Giver: Hesper of the Lodge (elven_mini/adventure/npc/hesper_1)
+
+- Reward XP: 100
+
+<details><summary>Technical details</summary><pre><code class="language-json">{
+  "rung": "II",
+  "giver_key": "elven_mini/adventure/npc/hesper_1",
+  "giver_name": "Hesper of the Lodge",
+  "accept_slot": 1,
+  "decline_slot": 2,
+  "accept_text": "I'll stand with you at dusk.",
+  "decline_text": "I must pass.",
+  "terminal": {
+    "kind": "all_dead_and_alive",
+    "deadKeys": [
+      "elven_mini/adventure/encounter/lodge_spider_1",
+      "elven_mini/adventure/encounter/lodge_spider_2",
+      "elven_mini/adventure/encounter/lodge_owlbear_1"
+    ],
+    "aliveKey": "elven_mini/adventure/npc/hesper_1"
+  },
+  "reward_xp": 100,
+  "kill_xp_creatures": [
+    {
+      "slug": "giant-spider",
+      "count": 2
+    },
+    {
+      "slug": "owlbear",
+      "count": 1
+    }
+  ]
+}</code></pre></details>"""
+family = "quest"
+id = "quest-q6"
+ref = "elven_mini/quest/Q6"
+slug = "Q6"
+tags = ["quest.rung.II"]
+title = "The Lodge Fire"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity"
+ref = "elven_mini/adventure/npc/hesper_1"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity_definition"
+ref = "srd/creature/giant-spider"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity_definition"
+ref = "srd/creature/owlbear"
+
+[metadata.docs.sections.documents.source]
+anchor = "QUESTS"
+license = "CC-BY-4.0"
+path = "author/quests.ts"
+
+[[metadata.docs.sections.documents]]
+body = """
+Clear or subdue Grubnash's warren.
+
+- Rung: II
+
+- Giver: Vessk (elven_mini/adventure/npc/vessk_1)
+
+- Reward XP: 200
+
+<details><summary>Technical details</summary><pre><code class="language-json">{
+  "rung": "II",
+  "giver_key": "elven_mini/adventure/npc/vessk_1",
+  "giver_name": "Vessk",
+  "accept_slot": 1,
+  "decline_slot": 2,
+  "accept_text": "I'll clear the warren.",
+  "decline_text": "Not my fight.",
+  "terminal": {
+    "kind": "any_dead_or_flag",
+    "anyDeadKeys": [
+      "elven_mini/adventure/encounter/grubnash_1"
+    ],
+    "flag": "q7_truce"
+  },
+  "reward_xp": 200,
+  "bonus_xp": 50,
+  "bonus_flag": "q7_truce",
+  "kill_xp_creatures": [
+    {
+      "slug": "goblin-minion",
+      "count": 6
+    },
+    {
+      "slug": "goblin-warrior",
+      "count": 2
+    },
+    {
+      "slug": "goblin-boss",
+      "count": 1
+    }
+  ]
+}</code></pre></details>"""
+family = "quest"
+id = "quest-q7"
+ref = "elven_mini/quest/Q7"
+slug = "Q7"
+tags = ["quest.rung.II"]
+title = "Grubnash's Warren"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity"
+ref = "elven_mini/adventure/npc/vessk_1"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity_definition"
+ref = "srd/creature/goblin-minion"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity_definition"
+ref = "srd/creature/goblin-warrior"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity_definition"
+ref = "srd/creature/goblin-boss"
+
+[metadata.docs.sections.documents.source]
+anchor = "QUESTS"
+license = "CC-BY-4.0"
+path = "author/quests.ts"
+
+[[metadata.docs.sections.documents]]
+body = """
+Recover the cult relic from the hag — fight or trade.
+
+- Rung: III
+
+- Giver: Old Tamsin (elven_mini/adventure/npc/tamsin_1)
+
+- Reward XP: 300
+
+<details><summary>Technical details</summary><pre><code class="language-json">{
+  "rung": "III",
+  "giver_key": "elven_mini/adventure/npc/tamsin_1",
+  "giver_name": "Old Tamsin",
+  "accept_slot": 1,
+  "decline_slot": 2,
+  "accept_text": "I'll recover the cult relic.",
+  "decline_text": "Too dangerous.",
+  "terminal": {
+    "kind": "has_item",
+    "itemKey": "elven_mini/adventure/item/cult_relic_1"
+  },
+  "reward_xp": 300,
+  "kill_xp_creatures": [
+    {
+      "slug": "green-hag",
+      "count": 1
+    },
+    {
+      "slug": "giant-frog",
+      "count": 2
+    },
+    {
+      "slug": "will-o-wisp",
+      "count": 1
+    }
+  ]
+}</code></pre></details>"""
+family = "quest"
+id = "quest-q8"
+ref = "elven_mini/quest/Q8"
+slug = "Q8"
+tags = ["quest.rung.III"]
+title = "Mother Ulda's Bargain"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity"
+ref = "elven_mini/adventure/npc/tamsin_1"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity_definition"
+ref = "srd/creature/green-hag"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity_definition"
+ref = "srd/creature/giant-frog"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity_definition"
+ref = "srd/creature/will-o-wisp"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity"
+ref = "elven_mini/adventure/item/cult_relic_1"
+
+[metadata.docs.sections.documents.source]
+anchor = "QUESTS"
+license = "CC-BY-4.0"
+path = "author/quests.ts"
+
+[[metadata.docs.sections.documents]]
+body = """
+Recover Durgan's ward-key in the mine, then spend it at the sealed stair in the upper tomb's crypt.
+
+- Rung: III
+
+- Giver: Captain Ysolde Farwind (elven_mini/adventure/npc/ysolde_1)
+
+- Reward XP: 500
+
+<details><summary>Technical details</summary><pre><code class="language-json">{
+  "rung": "III",
+  "giver_key": "elven_mini/adventure/npc/ysolde_1",
+  "giver_name": "Captain Ysolde Farwind",
+  "accept_slot": 1,
+  "decline_slot": 2,
+  "accept_text": "I'll take the mine and the key.",
+  "decline_text": "Not ready.",
+  "terminal": {
+    "kind": "flag",
+    "itemKey": "elven_mini/adventure/item/tomb_key_1",
+    "flag": "q9_tomb_opened"
+  },
+  "reward_xp": 500,
+  "kill_xp_creatures": [
+    {
+      "slug": "skeleton",
+      "count": 4
+    },
+    {
+      "slug": "ghoul",
+      "count": 2
+    },
+    {
+      "slug": "ghast",
+      "count": 1
+    },
+    {
+      "slug": "wight",
+      "count": 1
+    }
+  ]
+}</code></pre></details>"""
+family = "quest"
+id = "quest-q9"
+ref = "elven_mini/quest/Q9"
+slug = "Q9"
+tags = ["quest.rung.III"]
+title = "The Ironfold Key"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity"
+ref = "elven_mini/adventure/npc/ysolde_1"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity_definition"
+ref = "srd/creature/skeleton"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity_definition"
+ref = "srd/creature/ghoul"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity_definition"
+ref = "srd/creature/ghast"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity_definition"
+ref = "srd/creature/wight"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity"
+ref = "elven_mini/adventure/item/tomb_key_1"
+
+[metadata.docs.sections.documents.source]
+anchor = "QUESTS"
+license = "CC-BY-4.0"
+path = "author/quests.ts"
+
+[[metadata.docs.sections.documents]]
+body = """
+Clear the shadows and relight the altar.
+
+- Rung: III
+
+- Giver: Brother Caddoc (elven_mini/adventure/npc/caddoc_1)
+
+- Reward XP: 250
+
+<details><summary>Technical details</summary><pre><code class="language-json">{
+  "rung": "III",
+  "giver_key": "elven_mini/adventure/npc/caddoc_1",
+  "giver_name": "Brother Caddoc",
+  "accept_slot": 1,
+  "decline_slot": 2,
+  "accept_text": "I'll cleanse the shrine.",
+  "decline_text": "Another day.",
+  "terminal": {
+    "kind": "all_dead_and_flag",
+    "deadKeys": [
+      "elven_mini/adventure/encounter/shrine_shadow_1",
+      "elven_mini/adventure/encounter/shrine_shadow_2",
+      "elven_mini/adventure/encounter/shrine_shadow_3",
+      "elven_mini/adventure/encounter/shrine_specter_1"
+    ],
+    "flag": "q10_altar_relit"
+  },
+  "reward_xp": 250,
+  "kill_xp_creatures": [
+    {
+      "slug": "shadow",
+      "count": 3
+    },
+    {
+      "slug": "specter",
+      "count": 1
+    }
+  ]
+}</code></pre></details>"""
+family = "quest"
+id = "quest-q10"
+ref = "elven_mini/quest/Q10"
+slug = "Q10"
+tags = ["quest.rung.III"]
+title = "Sun and Moon"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity"
+ref = "elven_mini/adventure/npc/caddoc_1"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity_definition"
+ref = "srd/creature/shadow"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity_definition"
+ref = "srd/creature/specter"
+
+[metadata.docs.sections.documents.source]
+anchor = "QUESTS"
+license = "CC-BY-4.0"
+path = "author/quests.ts"
+
+[[metadata.docs.sections.documents]]
+body = """
+Clear the wererat nest under the hamlet well.
+
+- Rung: III
+
+- Giver: Mira (elven_mini/adventure/innkeeper_1)
+
+- Reward XP: 200
+
+<details><summary>Technical details</summary><pre><code class="language-json">{
+  "rung": "III",
+  "giver_key": "elven_mini/adventure/innkeeper_1",
+  "giver_name": "Mira",
+  "accept_slot": 1,
+  "decline_slot": 2,
+  "accept_text": "I'll see what's under the well.",
+  "decline_text": "Keep the drinks coming.",
+  "terminal": {
+    "kind": "all_dead",
+    "deadKeys": [
+      "elven_mini/adventure/encounter/well_wererat_1",
+      "elven_mini/adventure/encounter/well_wererat_2",
+      "elven_mini/adventure/encounter/well_rat_1",
+      "elven_mini/adventure/encounter/well_rat_2",
+      "elven_mini/adventure/encounter/well_rat_3",
+      "elven_mini/adventure/encounter/well_rat_4",
+      "elven_mini/adventure/encounter/well_ooze_1"
+    ]
+  },
+  "reward_xp": 200,
+  "kill_xp_creatures": [
+    {
+      "slug": "wererat",
+      "count": 2
+    },
+    {
+      "slug": "giant-rat",
+      "count": 4
+    },
+    {
+      "slug": "gray-ooze",
+      "count": 1
+    }
+  ]
+}</code></pre></details>"""
+family = "quest"
+id = "quest-q11"
+ref = "elven_mini/quest/Q11"
+slug = "Q11"
+tags = ["quest.rung.III"]
+title = "Whispers in the Well"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity"
+ref = "elven_mini/adventure/innkeeper_1"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity_definition"
+ref = "srd/creature/wererat"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity_definition"
+ref = "srd/creature/giant-rat"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity_definition"
+ref = "srd/creature/gray-ooze"
+
+[metadata.docs.sections.documents.source]
+anchor = "QUESTS"
+license = "CC-BY-4.0"
+path = "author/quests.ts"
+
+[[metadata.docs.sections.documents]]
+body = """
+End the Pale Steward under the tomb.
+
+- Rung: finale
+
+- Giver: Aldwin (elven_mini/adventure/npc/aldwin_1)
+
+- Reward XP: 800
+
+<details><summary>Technical details</summary><pre><code class="language-json">{
+  "rung": "finale",
+  "giver_key": "elven_mini/adventure/npc/aldwin_1",
+  "giver_name": "Aldwin",
+  "accept_slot": 1,
+  "decline_slot": 2,
+  "accept_text": "I'll open the deep tomb.",
+  "decline_text": "Not yet.",
+  "terminal": {
+    "kind": "all_dead",
+    "deadKeys": [
+      "elven_mini/adventure/encounter/pale_steward_1"
+    ]
+  },
+  "reward_xp": 800,
+  "kill_xp_creatures": [
+    {
+      "slug": "goblin-warrior",
+      "count": 1
+    },
+    {
+      "slug": "zombie",
+      "count": 4
+    },
+    {
+      "slug": "ogre-zombie",
+      "count": 1
+    },
+    {
+      "slug": "specter",
+      "count": 1
+    },
+    {
+      "slug": "wight",
+      "count": 2
+    }
+  ]
+}</code></pre></details>"""
+family = "quest"
+id = "quest-q12"
+ref = "elven_mini/quest/Q12"
+slug = "Q12"
+tags = ["quest.rung.finale"]
+title = "The Pale Steward"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity"
+ref = "elven_mini/adventure/npc/aldwin_1"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity_definition"
+ref = "srd/creature/goblin-warrior"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity_definition"
+ref = "srd/creature/zombie"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity_definition"
+ref = "srd/creature/ogre-zombie"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity_definition"
+ref = "srd/creature/specter"
+
+[[metadata.docs.sections.documents.relations]]
+kind = "entity_definition"
+ref = "srd/creature/wight"
+
+[metadata.docs.sections.documents.source]
+anchor = "QUESTS"
+license = "CC-BY-4.0"
+path = "author/quests.ts"
+
+[[include]]
+path = "adventure/world/region.toml"
+
+[[include]]
+path = "adventure/world/hamlet.toml"
+
+[[include]]
+path = "adventure/world/inn.toml"
+
+[[include]]
+path = "adventure/world/tomb.toml"
+
+[[include]]
+path = "adventure/world/village.toml"
+
+[[include]]
+path = "adventure/world/river_crossing.toml"
+
+[[include]]
+path = "adventure/world/mill.toml"
+
+[[include]]
+path = "adventure/world/well.toml"
+
+[[include]]
+path = "adventure/world/goblin_warren.toml"
+
+[[include]]
+path = "adventure/world/forest_lodge.toml"
+
+[[include]]
+path = "adventure/world/hobgoblin_camp.toml"
+
+[[include]]
+path = "adventure/world/swamp.toml"
+
+[[include]]
+path = "adventure/world/mine.toml"
+
+[[include]]
+path = "adventure/world/shrine.toml"
+
+[[include]]
+path = "adventure/world/cursed_crypt.toml"
+
+[[include]]
+path = "adventure/world/deep_tomb.toml"
+
+[[include]]
+path = "adventure/world/creation-limbo.toml"
+
+[[include]]
+path = "adventure/world/advancement-limbo.toml"
+
+[[include]]
+path = "adventure/world/operator-offstage.toml"
+
+[[include]]
+path = "adventure/world/links.toml"
+
+[[include]]
+path = "adventure/world/metadata.toml"
+
+[[include]]
+path = "adventure/world/niches.toml"
+
+[[include]]
+path = "adventure/cast/players/candidate.toml"
+
+[[include]]
+path = "adventure/cast/npcs/rogue-companion.toml"
+
+[[include]]
+path = "adventure/cast/npcs/mira.toml"
+
+[[include]]
+path = "adventure/cast/npcs/aldwin.toml"
+
+[[include]]
+path = "adventure/cast/npcs/storyline-cast.toml"
+
+[[include]]
+path = "adventure/cast/npcs/operator.toml"
+
+[[include]]
+path = "adventure/cast/monsters/slime-scout.toml"
+
+[[include]]
+path = "adventure/cast/monsters/crypt-warden.toml"
+
+[[include]]
+path = "adventure/cast/monsters/storyline-encounters.toml"
+
+[[include]]
+path = "adventure/cast/monsters/q1-cellar-rats.toml"
+
+[[include]]
+path = "adventure/cast/props/field-kit.toml"
+
+[[include]]
+path = "adventure/cast/props/torch.toml"
+
+[[include]]
+path = "adventure/cast/props/rations.toml"
+
+[[include]]
+path = "adventure/cast/props/bar-counter.toml"
+
+[[include]]
+path = "adventure/cast/props/hearth.toml"
+
+[[include]]
+path = "adventure/cast/props/sealed-chest.toml"
+
+[[include]]
+path = "adventure/cast/props/telepathy-stone.toml"
+
+[[include]]
+path = "adventure/cast/props/quest-items.toml"
+
+[[include]]
+path = "adventure/cast/props/q4-fanatic-loot.toml"
+
+[[include]]
+path = "adventure/cast/props/loft-chest.toml"
+
+[[include]]
+path = "adventure/mechanics/actions.toml"
+
+[[include]]
+path = "adventure/story/traces.toml"
+
+[[include]]
+path = "adventure/combat/crypt-fight.toml"

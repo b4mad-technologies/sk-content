@@ -1,0 +1,12 @@
+C structure EG
+Spatial inventory: 5 named places; 5 named connections; slice=elevation_band z=0±0.5
+1 graph unit = 1 m (place_graph.metres_per_unit)
+Δx 6 m (bbox)
+Δy 3 m (bbox)
+Floors (elevation): -3, 0
+NODES (id | name | x,y,z | occupants | adjacent)
+  srd_proof/tavern/bar  "Bar"  (3, 0, z=0)  actors=1  adjacent=[srd_proof/tavern/common, srd_proof/tavern/kitchen, srd_proof/tavern/stairs]
+  srd_proof/tavern/booth  "Private Booth"  (0, 3, z=0)  actors=1  adjacent=[srd_proof/tavern/common]
+  srd_proof/tavern/common  "Common Room"  (0, 0, z=0)  actors=2  adjacent=[srd_proof/tavern/bar, srd_proof/tavern/booth, srd_proof/tavern/stairs]
+  srd_proof/tavern/kitchen  "Kitchen"  (6, 0, z=0)  actors=1  adjacent=[srd_proof/tavern/bar]
+  srd_proof/tavern/stairs  "Stairs"  (3, 3, z=0)  adjacent=[srd_proof/tavern/bar, srd_proof/tavern/common]
