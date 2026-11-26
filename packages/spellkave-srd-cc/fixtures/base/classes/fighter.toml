@@ -12,7 +12,7 @@
 # Action Surge is ALSO mechanized LIVE (D10 rework, srd/fighter/
 # action-surge-uses + srd/class-feature/fighter/action-surge +
 # srd/fighter/action-surge) — initial_value 0, charged at runtime by
-# the level-up DM's own apply-level-up consequence (elven-mini).
+# the level-up DM's own apply-level-up consequence (kavemouth).
 # Both features' capability:* niches declare provider = actor
 # (sk-0m4.69 / 2026-08-20, reversing D2(c) place-scoping).
 # Every other feature in this file is identity only.

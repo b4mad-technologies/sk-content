@@ -1,0 +1,734 @@
+[[map_layers]]
+asset_module = "kavemouth-maps"
+asset_path = "maps/mill.png"
+bundle_id = "kavemouth"
+description = "Backdrop maps/mill.png (kavemouth-maps)"
+display_name = "The mill and its tunnels"
+grid_distance_m = 1.5240000486373901
+grid_size_px = 16
+image_height_px = 400
+image_origin_x = 0.0
+image_origin_y = 0.0
+image_width_px = 400
+local_height_cells = 25.0
+local_width_cells = 25.0
+map_layer_id = "kavemouth/mill/backdrop"
+max_zoom = 0.0
+min_zoom = 0.0
+place_graph_id = "kavemouth/mill"
+posture = "cc-by-4.0"
+rotation_deg = 0.0
+source_kind = "spellkave-first-party"
+state = "aligned"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/mill/yard->kavemouth/mill/grinding_floor"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/mill/yard"
+inherit_movement_default = true
+place_graph_id = "kavemouth/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/mill/grinding_floor"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/mill/grinding_floor->kavemouth/mill/yard"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/mill/grinding_floor"
+inherit_movement_default = true
+place_graph_id = "kavemouth/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/mill/yard"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/mill/grinding_floor->kavemouth/mill/sail_loft"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/mill/grinding_floor"
+inherit_movement_default = true
+place_graph_id = "kavemouth/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/mill/sail_loft"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/mill/sail_loft->kavemouth/mill/grinding_floor"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/mill/sail_loft"
+inherit_movement_default = true
+place_graph_id = "kavemouth/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/mill/grinding_floor"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/mill/yard->kavemouth/mill/millers_house"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/mill/yard"
+inherit_movement_default = true
+place_graph_id = "kavemouth/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/mill/millers_house"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/mill/millers_house->kavemouth/mill/yard"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/mill/millers_house"
+inherit_movement_default = true
+place_graph_id = "kavemouth/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/mill/yard"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/mill/yard->kavemouth/mill/watch_nook"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/mill/yard"
+inherit_movement_default = true
+place_graph_id = "kavemouth/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/mill/watch_nook"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/mill/watch_nook->kavemouth/mill/yard"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/mill/watch_nook"
+inherit_movement_default = true
+place_graph_id = "kavemouth/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/mill/yard"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/mill/watch_nook->kavemouth/mill/tunnels"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/mill/watch_nook"
+inherit_movement_default = true
+place_graph_id = "kavemouth/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/mill/tunnels"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/mill/tunnels->kavemouth/mill/watch_nook"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/mill/tunnels"
+inherit_movement_default = true
+place_graph_id = "kavemouth/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/mill/watch_nook"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/mill/tunnels->kavemouth/mill/fork"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/mill/tunnels"
+inherit_movement_default = true
+place_graph_id = "kavemouth/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/mill/fork"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/mill/fork->kavemouth/mill/tunnels"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/mill/fork"
+inherit_movement_default = true
+place_graph_id = "kavemouth/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/mill/tunnels"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/mill/fork->kavemouth/mill/binding_chamber"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/mill/fork"
+inherit_movement_default = true
+place_graph_id = "kavemouth/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/mill/binding_chamber"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/mill/binding_chamber->kavemouth/mill/fork"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/mill/binding_chamber"
+inherit_movement_default = true
+place_graph_id = "kavemouth/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/mill/fork"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/mill/fork->kavemouth/mill/grain_cellar"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/mill/fork"
+inherit_movement_default = true
+place_graph_id = "kavemouth/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/mill/grain_cellar"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/mill/grain_cellar->kavemouth/mill/fork"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/mill/grain_cellar"
+inherit_movement_default = true
+place_graph_id = "kavemouth/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/mill/fork"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/mill/grain_cellar->kavemouth/mill/altar"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/mill/grain_cellar"
+inherit_movement_default = true
+place_graph_id = "kavemouth/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/mill/altar"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/mill/altar->kavemouth/mill/grain_cellar"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/mill/altar"
+inherit_movement_default = true
+place_graph_id = "kavemouth/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/mill/grain_cellar"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/mill/fork->kavemouth/mill/long_vault"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/mill/fork"
+inherit_movement_default = true
+place_graph_id = "kavemouth/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/mill/long_vault"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/mill/long_vault->kavemouth/mill/fork"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/mill/long_vault"
+inherit_movement_default = true
+place_graph_id = "kavemouth/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/mill/fork"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/mill/long_vault->kavemouth/mill/hidden_larder"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/mill/long_vault"
+inherit_movement_default = true
+place_graph_id = "kavemouth/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/mill/hidden_larder"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/mill/hidden_larder->kavemouth/mill/long_vault"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/mill/hidden_larder"
+inherit_movement_default = true
+place_graph_id = "kavemouth/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/mill/long_vault"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/mill/altar->kavemouth/mill/long_vault"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/mill/altar"
+inherit_movement_default = true
+place_graph_id = "kavemouth/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/mill/long_vault"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/mill/long_vault->kavemouth/mill/altar"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/mill/long_vault"
+inherit_movement_default = true
+place_graph_id = "kavemouth/mill"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/mill/altar"
+
+[[place_graphs]]
+anchor_node_id = "kavemouth/mill/yard"
+bearing = 0.0
+blueprint_id = ""
+bundle_id = "kavemouth"
+description = "An abandoned mill and its miller's house whose cellars open into cult tunnels beneath the hill."
+display_name = "Mill"
+is_ephemeral_instance = false
+metres_per_unit = 1.5240000486373901
+origin_cell_res10 = 0
+origin_cell_res4 = 0
+origin_cell_res7 = 0
+parent_graph_id = "kavemouth/stonebridge"
+place_graph_id = "kavemouth/mill"
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A wind-scoured yard between the mill and the miller's house, cart ruts filled with rainwater."
+display_name = "Mill Yard"
+extent_params_json = '{"extent_m":4.572,"extent_x_m":4.572,"extent_y_m":4.572,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "yard"
+node_id = "kavemouth/mill/yard"
+place_graph_id = "kavemouth/mill"
+pos_present = true
+pos_x = 10
+pos_y = 9
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "The grinding floor — millstones still, gear teeth silent, flour dust long settled."
+display_name = "Grinding Floor"
+extent_params_json = '{"radius_m":4.572,"radius_x_m":4.572,"radius_y_m":4.572,"radius_z_m":1.5}'
+extent_shape_id = "core/area/sphere"
+is_ephemeral = false
+local_id = "grinding_floor"
+node_id = "kavemouth/mill/grinding_floor"
+place_graph_id = "kavemouth/mill"
+pos_present = true
+pos_x = 4
+pos_y = 9
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "The sail loft, vanes creaking overhead though no grain turns."
+display_name = "Sail Loft"
+extent_params_json = '{"radius_m":3.81,"radius_x_m":3.81,"radius_y_m":3.048,"radius_z_m":1.5}'
+extent_shape_id = "core/area/sphere"
+is_ephemeral = false
+local_id = "sail_loft"
+node_id = "kavemouth/mill/sail_loft"
+place_graph_id = "kavemouth/mill"
+pos_present = true
+pos_x = 4
+pos_y = 3
+pose_elevation = 3.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "The miller's shuttered house, table and benches shoved aside as if left in a hurry."
+display_name = "Miller's House"
+extent_params_json = '{"extent_m":4.572,"extent_x_m":4.572,"extent_y_m":3.81,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "millers_house"
+node_id = "kavemouth/mill/millers_house"
+place_graph_id = "kavemouth/mill"
+pos_present = true
+pos_x = 10
+pos_y = 4
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A dug-in nook where a lookout can watch the tunnel mouth under the mill."
+display_name = "Watch Nook"
+extent_params_json = '{"extent_m":3.048,"extent_x_m":2.286,"extent_y_m":3.048,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "watch_nook"
+node_id = "kavemouth/mill/watch_nook"
+place_graph_id = "kavemouth/mill"
+pos_present = true
+pos_x = 15
+pos_y = 9
+pose_elevation = -1.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "Rough-hewn cult tunnels smelling of lamp oil and old blood."
+display_name = "Cult Tunnels"
+extent_params_json = '{"extent_m":3.048,"extent_x_m":3.048,"extent_y_m":3.048,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "tunnels"
+node_id = "kavemouth/mill/tunnels"
+place_graph_id = "kavemouth/mill"
+pos_present = true
+pos_x = 18
+pos_y = 9
+pose_elevation = -2.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A forked passage where the tunnels split three ways, boot-scuffed by long watches."
+display_name = "Forked Passage"
+extent_params_json = '{"extent_m":3.81,"extent_x_m":3.81,"extent_y_m":3.81,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "fork"
+node_id = "kavemouth/mill/fork"
+place_graph_id = "kavemouth/mill"
+pos_present = true
+pos_x = 19
+pos_y = 14
+pose_elevation = -2.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A low chamber with wall chains and a stained floor, where the cult binds its captives."
+display_name = "Binding Chamber"
+extent_params_json = '{"extent_m":4.572,"extent_x_m":4.572,"extent_y_m":4.572,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "binding_chamber"
+node_id = "kavemouth/mill/binding_chamber"
+place_graph_id = "kavemouth/mill"
+pos_present = true
+pos_x = 13
+pos_y = 17
+pose_elevation = -3.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "The old grain cellar, sacks and oil jars stacked against damp stone."
+display_name = "Grain Cellar"
+extent_params_json = '{"extent_m":4.572,"extent_x_m":3.048,"extent_y_m":4.572,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "grain_cellar"
+node_id = "kavemouth/mill/grain_cellar"
+place_graph_id = "kavemouth/mill"
+pos_present = true
+pos_x = 23
+pos_y = 11
+pose_elevation = -2.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "An altar heaped with chaff and ash, raised to something the valley's gods never named."
+display_name = "Chaff Altar"
+extent_params_json = '{"extent_m":3.81,"extent_x_m":3.81,"extent_y_m":3.81,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "altar"
+node_id = "kavemouth/mill/altar"
+place_graph_id = "kavemouth/mill"
+pos_present = true
+pos_x = 23
+pos_y = 6
+pose_elevation = -2.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A long vault running downhill into the dark, its floor worn by many feet."
+display_name = "Long Vault"
+extent_params_json = '{"extent_m":5.334,"extent_x_m":5.334,"extent_y_m":3.81,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "long_vault"
+node_id = "kavemouth/mill/long_vault"
+place_graph_id = "kavemouth/mill"
+pos_present = true
+pos_x = 21
+pos_y = 19
+pose_elevation = -3.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A cramped larder hidden behind a false wall of sacks."
+display_name = "Hidden Larder"
+extent_params_json = '{"extent_m":3.81,"extent_x_m":3.81,"extent_y_m":3.048,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "hidden_larder"
+node_id = "kavemouth/mill/hidden_larder"
+place_graph_id = "kavemouth/mill"
+pos_present = true
+pos_x = 22
+pos_y = 23
+pose_elevation = -3.0
+pose_elevation_present = true
+substrate_id = "indoor"

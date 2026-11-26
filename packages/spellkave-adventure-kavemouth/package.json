@@ -1,0 +1,52 @@
+{
+  "name": "@spellkave/adventure-kavemouth",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Kavemouth adventure package: authoring, cast data, fixtures (ADR-0115 D-2/D-4).",
+  "type": "module",
+  "files": [
+    "adventures",
+    "author",
+    "assets",
+    "art",
+    "fixtures",
+    "npcs",
+    "scripts",
+    "dist/compendium",
+    "LICENSE.md",
+    "NOTICE.md",
+    "LICENSES"
+  ],
+  "scripts": {
+    "author": "tsx scripts/compile-npc-quests.ts && tsx author/generate.ts",
+    "author:check": "tsx scripts/compile-npc-quests.ts --check && tsx author/generate.ts --check",
+    "export": "tsx scripts/compile-npc-quests.ts --check && tsx scripts/export-compendium.ts && node ../../scripts/attach-notices.mjs kavemouth",
+    "encounter-difficulty": "tsx scripts/encounter-difficulty.ts",
+    "maps:inputs": "tsx scripts/build-map-inputs.ts",
+    "maps:check": "tsx scripts/build-map-inputs.ts --check",
+    "maps:ingest": "tsx scripts/ingest-maps.ts"
+  },
+  "dependencies": {
+    "@spellkave/adventure-runtime": "workspace:*",
+    "@spellkave/sdk": "0.1.2",
+    "@spellkave/tool-authoring": "0.1.2",
+    "@spellkave/tool-node": "0.1.2",
+    "@spellkave/world-author": "0.1.2",
+    "h3-js": "^4.5.0",
+    "smol-toml": "^1.9.1",
+    "tsx": "^4.19.2"
+  },
+  "exports": {
+    "./art": {
+      "types": "./art/index.ts",
+      "default": "./art/index.ts"
+    },
+    "./compendium/*": "./dist/compendium/*"
+  },
+  "license": "(CC-BY-4.0 AND PolyForm-Shield-1.0.0)",
+  "devDependencies": {
+    "@spellkave/session": "0.1.2",
+    "@spellkave/tool-runtime": "0.1.2",
+    "esbuild": "0.28.2"
+  }
+}

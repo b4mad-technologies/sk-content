@@ -1,0 +1,83 @@
+# Staging descriptor for `just play-stage kavemouth`.
+#
+# Consumed by ../stage-adventure.ts. This file is HAND-AUTHORED rig config and
+# deliberately lives here rather than under `fixtures/`: that tree is generated
+# and byte-gated by the clean-regen test (see this package's CLAUDE.md), so a
+# hand-written file there would either be deleted by the next pipeline run or
+# break the gate.
+#
+# Adding an adventure means adding a sibling `<name>.toml`, not a new recipe.
+
+name = "kavemouth"
+description = "The kavemouth adventure starts as the level-0 candidate in the creation limbo; the recorder creates the hero, then the inn/tomb/level-up arc."
+
+# The world clock while a human (or a player agent) is thinking. The default
+# 300s leaves a staged world effectively frozen; combat proofs and hand-play
+# want a clock that actually advances between turns (ADR-0037 Postscript
+# 2026-06-22). 5 s is the module's floor (`min_tick_interval_secs`,
+# server/src/config.rs); the descriptor loader rejects anything outside it.
+tick_interval_secs = 5
+
+# Applied in this order, before the player seat is claimed.
+#
+# `packages/spellkave-mechanics/fixtures/core` is deliberately ABSENT and must stay absent.
+# The srd-cc bundle's self-sufficiency invariant (this package's CLAUDE.md,
+# operator ruling 2026-07-28) is that it stands alone — `depends_on = []`,
+# zero `core/*` references — and its stated acceptance shape omits the core
+# seed. Seeding core anyway tests a different world than the bundle claims to
+# be, and the player can SEE it: `core/sense/look/*` and `srd/sense/look/*`
+# coexist without id collision, so the palette silently grows two identical
+# "look" rows.
+seeds = [
+    "packages/spellkave-srd-cc/fixtures/manifest.toml",
+    "packages/spellkave-srd-cc/fixtures/dm/manifest.toml",
+    "packages/spellkave-adventure-kavemouth/fixtures/adventure.manifest.toml",
+]
+
+[player]
+# Discover the world-owned vessel opened by the authored act. Renn remains a reference export.
+hero_seat_blueprint = "kavemouth/adventure/candidate"
+hero_seat_node = "kavemouth/creation_limbo/station"
+hero_seat_open_action = "kavemouth/dm/open-seat"
+# Persona profile name written to ~/.config/spellkave/profiles/<profile>.toml —
+# this is how `sk --profile` and the pi extension find the seat. Never an env
+# var (sk-dms.11: `SPELLKAVE_PLAYER_ACTOR_ID` is read by nothing).
+profile = "kavemouth-candidate"
+# Where the minted credential is retained, relative to the repo root. Included
+# in a save state (`just play-save`) so a restored world stays reachable.
+credential = ".local/player-credentials/kavemouth/candidate.token"
+# The hand-play brief this adventure's player wears (`.pi/profiles/<name>.json`
+# and its systemPromptFile) — a SEPARATE axis from `profile` above, because the
+# brief carries the agent's identity framing, not just which seat to connect to.
+# This was hardcoded in the brief itself until sk-apz; naming it here is what
+# lets a sibling descriptor stage a different body and get a matching brief.
+pi_profile = "spellkave_handplay_candidate"
+
+[npcs]
+# The cast is POINTED AT, not restated. `cast.toml` is `@spellkave/npc`'s own
+# `CastManifest` schema (`schema_version = "1"`), validated by
+# `loadCastManifestFile` against the adventure's `CastCatalog`; copying its
+# rows here would fork a validated schema into an unvalidated one. What lives
+# here is what the launcher would otherwise hardcode — WHICH manifest, and
+# where its credentials and transcripts go. `scripts/npc-host-kavemouth.ts`
+# reads these three, so the pointer is load-bearing, not decorative.
+#
+# Convention for a second adventure (sk-jay0.3.2): keep the cast at
+# `src/npcs/<campaign>/cast.toml` with a sibling `catalog.ts` exporting
+# `createCastCatalog`. The offline gate (`scripts/check-adventure-cast.ts`)
+# follows THIS pointer, imports that sibling catalog, and proves every profile
+# id resolves there plus every required `actor_key` exists in the committed
+# seed chain — no live node.
+#
+# Staging resolves every `actor_key` in this manifest against the freshly
+# seeded world and fails if one is missing. Without that check, a drifted key
+# (the file's own header calls this out: TOML cannot import the TS authoring
+# constant) stays silent until the host's claim fails much later, mid-run.
+cast = "packages/spellkave-adventure-kavemouth/npcs/cast.toml"
+credentials = ".local/npc-credentials/kavemouth"
+transcripts = ".local/npc-transcripts/kavemouth"
+
+# Printed as the next step after staging. NPC BRAINS stay code
+# (`src/npcs/kavemouth/catalog.ts`) — a behaviour tree is not configuration —
+# and so does the part of the launcher that is genuinely this adventure's own
+# (Aldwin's ADR-0097 persistent identity bind).

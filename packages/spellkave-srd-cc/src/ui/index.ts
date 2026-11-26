@@ -6,7 +6,7 @@
 // than owned by one book chapter; future surfaces (`ui.scene`,
 // `ui.inventory`) will span chapters too. `src/pipeline.ts` renders this
 // module AFTER the chapter walk and includes its fragment(s) into
-// `fixtures/ui/` (sibling to `base/`, `spatial/`, `elven-mini/`), never
+// `fixtures/ui/` (sibling to `base/`, `spatial/`, `kavemouth/`), never
 // inside a chapter directory.
 import type { ChapterUnitSummary } from "../chapters/chapter-types";
 import { buildAffordanceCuesMetadataFragment } from "./affordance-cues";

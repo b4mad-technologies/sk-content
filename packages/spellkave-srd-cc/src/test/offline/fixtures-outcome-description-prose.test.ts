@@ -3,7 +3,7 @@
 // gateway hands it back as the text of the affordance the player just used —
 // so a spec id or a ledger reference parked in it reaches a human at the table
 // verbatim. That is exactly how sk-0m4.114 (#2722) surfaced: a hosted run's
-// "Look around" at elven_mini/creation_limbo/station returned
+// "Look around" at kavemouth/creation_limbo/station returned
 // `srd/sense/look/outcome`'s description, which at the time read "Universal
 // baseline sensing outcome (… finding #49) — … `openspec/specs/…`; NOT
 // ADR-0070/#1998 …". Authoring rationale belongs in the generator's comments

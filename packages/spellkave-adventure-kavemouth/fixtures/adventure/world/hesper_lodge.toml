@@ -1,0 +1,464 @@
+[[map_layers]]
+asset_module = "kavemouth-maps"
+asset_path = "maps/hesper_lodge.png"
+bundle_id = "kavemouth"
+description = "Backdrop maps/hesper_lodge.png (kavemouth-maps)"
+display_name = "Hesper's lodge"
+grid_distance_m = 1.5240000486373901
+grid_size_px = 16
+image_height_px = 352
+image_origin_x = 0.0
+image_origin_y = 0.0
+image_width_px = 384
+local_height_cells = 22.0
+local_width_cells = 24.0
+map_layer_id = "kavemouth/hesper_lodge/backdrop"
+max_zoom = 0.0
+min_zoom = 0.0
+place_graph_id = "kavemouth/hesper_lodge"
+posture = "cc-by-4.0"
+rotation_deg = 0.0
+source_kind = "spellkave-first-party"
+state = "aligned"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/hesper_lodge/forest_path->kavemouth/hesper_lodge/clearing"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/hesper_lodge/forest_path"
+inherit_movement_default = true
+place_graph_id = "kavemouth/hesper_lodge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/hesper_lodge/clearing"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/hesper_lodge/clearing->kavemouth/hesper_lodge/forest_path"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/hesper_lodge/clearing"
+inherit_movement_default = true
+place_graph_id = "kavemouth/hesper_lodge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/hesper_lodge/forest_path"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/hesper_lodge/clearing->kavemouth/hesper_lodge/porch"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/hesper_lodge/clearing"
+inherit_movement_default = true
+place_graph_id = "kavemouth/hesper_lodge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/hesper_lodge/porch"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/hesper_lodge/porch->kavemouth/hesper_lodge/clearing"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/hesper_lodge/porch"
+inherit_movement_default = true
+place_graph_id = "kavemouth/hesper_lodge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/hesper_lodge/clearing"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/hesper_lodge/porch->kavemouth/hesper_lodge/main_room"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/hesper_lodge/porch"
+inherit_movement_default = true
+place_graph_id = "kavemouth/hesper_lodge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/hesper_lodge/main_room"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/hesper_lodge/main_room->kavemouth/hesper_lodge/porch"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/hesper_lodge/main_room"
+inherit_movement_default = true
+place_graph_id = "kavemouth/hesper_lodge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/hesper_lodge/porch"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/hesper_lodge/main_room->kavemouth/hesper_lodge/hearth"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/hesper_lodge/main_room"
+inherit_movement_default = true
+place_graph_id = "kavemouth/hesper_lodge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/hesper_lodge/hearth"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/hesper_lodge/hearth->kavemouth/hesper_lodge/main_room"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/hesper_lodge/hearth"
+inherit_movement_default = true
+place_graph_id = "kavemouth/hesper_lodge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/hesper_lodge/main_room"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/hesper_lodge/main_room->kavemouth/hesper_lodge/loft"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/hesper_lodge/main_room"
+inherit_movement_default = true
+place_graph_id = "kavemouth/hesper_lodge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/hesper_lodge/loft"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/hesper_lodge/loft->kavemouth/hesper_lodge/main_room"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/hesper_lodge/loft"
+inherit_movement_default = true
+place_graph_id = "kavemouth/hesper_lodge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/hesper_lodge/main_room"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/hesper_lodge/clearing->kavemouth/hesper_lodge/woodshed"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/hesper_lodge/clearing"
+inherit_movement_default = true
+place_graph_id = "kavemouth/hesper_lodge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/hesper_lodge/woodshed"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/hesper_lodge/woodshed->kavemouth/hesper_lodge/clearing"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/hesper_lodge/woodshed"
+inherit_movement_default = true
+place_graph_id = "kavemouth/hesper_lodge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/hesper_lodge/clearing"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/hesper_lodge/clearing->kavemouth/hesper_lodge/tree_line"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/hesper_lodge/clearing"
+inherit_movement_default = true
+place_graph_id = "kavemouth/hesper_lodge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/hesper_lodge/tree_line"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/hesper_lodge/tree_line->kavemouth/hesper_lodge/clearing"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/hesper_lodge/tree_line"
+inherit_movement_default = true
+place_graph_id = "kavemouth/hesper_lodge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/hesper_lodge/clearing"
+
+[[place_graphs]]
+anchor_node_id = "kavemouth/hesper_lodge/forest_path"
+bearing = 0.0
+blueprint_id = ""
+bundle_id = "kavemouth"
+description = "A gamekeeper's cottage in a forest clearing — porch, hearth, and a loft under the eaves."
+display_name = "Hesper's Lodge"
+is_ephemeral_instance = false
+metres_per_unit = 12.0
+origin_cell_res10 = 0
+origin_cell_res4 = 0
+origin_cell_res7 = 0
+parent_graph_id = "kavemouth/region"
+place_graph_id = "kavemouth/hesper_lodge"
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095456956415
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "A narrow forest path opens onto the lodge clearing, needles soft underfoot."
+display_name = "Forest Path"
+extent_params_json = '{"extent_m":3.048,"extent_x_m":3.048,"extent_y_m":3.048,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "forest_path"
+node_id = "kavemouth/hesper_lodge/forest_path"
+place_graph_id = "kavemouth/hesper_lodge"
+pos_present = true
+pos_x = 12
+pos_y = 20
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095456956415
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "A packed-earth clearing ringed by tall pines, the lodge at its heart."
+display_name = "Lodge Clearing"
+extent_params_json = '{"radius_m":7.62,"radius_x_m":7.62,"radius_y_m":6.858,"radius_z_m":1.5}'
+extent_shape_id = "core/area/sphere"
+is_ephemeral = false
+local_id = "clearing"
+node_id = "kavemouth/hesper_lodge/clearing"
+place_graph_id = "kavemouth/hesper_lodge"
+pos_present = true
+pos_x = 12
+pos_y = 14
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095456956415
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "A rough porch with a woodpile and a pair of muddy boots by the door."
+display_name = "Lodge Porch"
+extent_params_json = '{"extent_m":4.572,"extent_x_m":4.572,"extent_y_m":2.286,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "porch"
+node_id = "kavemouth/hesper_lodge/porch"
+place_graph_id = "kavemouth/hesper_lodge"
+pos_present = true
+pos_x = 12
+pos_y = 8
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095456956415
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "The main room of the lodge — table, racks of tools, and a smell of pine resin."
+display_name = "Main Room"
+extent_params_json = '{"extent_m":6.096,"extent_x_m":6.096,"extent_y_m":3.81,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "main_room"
+node_id = "kavemouth/hesper_lodge/main_room"
+place_graph_id = "kavemouth/hesper_lodge"
+pos_present = true
+pos_x = 12
+pos_y = 4
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095456956415
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "A stone hearth still warm, a kettle hanging empty over ash."
+display_name = "Hearth"
+extent_params_json = '{"extent_m":3.81,"extent_x_m":3.048,"extent_y_m":3.81,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "hearth"
+node_id = "kavemouth/hesper_lodge/hearth"
+place_graph_id = "kavemouth/hesper_lodge"
+pos_present = true
+pos_x = 18
+pos_y = 4
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095456956415
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "A low sleeping loft under the eaves, blankets folded neat."
+display_name = "Sleeping Loft"
+extent_params_json = '{"extent_m":3.81,"extent_x_m":3.81,"extent_y_m":3.81,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "loft"
+node_id = "kavemouth/hesper_lodge/loft"
+place_graph_id = "kavemouth/hesper_lodge"
+pos_present = true
+pos_x = 22
+pos_y = 10
+pose_elevation = 3.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095456956415
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "A lean-to woodshed stacked with split oak."
+display_name = "Woodshed"
+extent_params_json = '{"extent_m":3.81,"extent_x_m":3.81,"extent_y_m":3.81,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "woodshed"
+node_id = "kavemouth/hesper_lodge/woodshed"
+place_graph_id = "kavemouth/hesper_lodge"
+pos_present = true
+pos_x = 5
+pos_y = 13
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095456956415
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "The tree line at the clearing's edge, where the forest closes in again."
+display_name = "Tree Line"
+extent_params_json = '{"extent_m":4.572,"extent_x_m":4.572,"extent_y_m":4.572,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "tree_line"
+node_id = "kavemouth/hesper_lodge/tree_line"
+place_graph_id = "kavemouth/hesper_lodge"
+pos_present = true
+pos_x = 20
+pos_y = 17
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"

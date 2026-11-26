@@ -1,0 +1,82 @@
+{
+	"region": {
+		"plan_sha256": "464bf6e39eb18346e6cc36ed9f93fd2494c3e8a4f8ca8d0e071a679a1826cdf1",
+		"width": 400,
+		"height": 400
+	},
+	"hamlet": {
+		"plan_sha256": "4b9c492ab9d5ff56a43d9fd436190468d5b071f1da5bce9dcf7a9f3df1d50eaf",
+		"width": 384,
+		"height": 384
+	},
+	"inn": {
+		"plan_sha256": "6bdfe17d7b8d185cdc47f8c2ecfc105eafe5eecf928d7f6e021805ae8c70a38e",
+		"width": 384,
+		"height": 256
+	},
+	"tomb": {
+		"plan_sha256": "44ef118a9c6c859e3513285aa6942a1a2d8ba61149b74d0d2f5456160c685db1",
+		"width": 384,
+		"height": 288
+	},
+	"village": {
+		"plan_sha256": "f5d9c7a9aef0c406fa5b336debb55806295d584a43ce6c31b1dbb85ed00c53be",
+		"width": 384,
+		"height": 384
+	},
+	"stonebridge": {
+		"plan_sha256": "5402b701b0563fc31e9960cf531d63cb6b75934084d1772ce3876ff258f05ec6",
+		"width": 320,
+		"height": 384
+	},
+	"mill": {
+		"plan_sha256": "d8d98ffeb6a06b2f95d2570890e5e103ddf7679409a189ebc402237f27b1abca",
+		"width": 400,
+		"height": 400
+	},
+	"well": {
+		"plan_sha256": "d12ea2eea5ada4157483ce3a0352855326d2c06e46a131057984b899d64fbb75",
+		"width": 320,
+		"height": 384
+	},
+	"goblin_warren": {
+		"plan_sha256": "e9a060e8b9b3b420d8a1bcb1d3acb4d6a61dce5d9d5e9f30e0728be9b62d1bad",
+		"width": 400,
+		"height": 320
+	},
+	"hesper_lodge": {
+		"plan_sha256": "d939726db3299c94f6acd25009da25c9f56c5b735ca1c4f64d9c7e17a03910e0",
+		"width": 384,
+		"height": 352
+	},
+	"war_camp": {
+		"plan_sha256": "e773d9f37d8d1405b28d46be555cb0a812709ce344f1b6f1f4a25bb8d7495840",
+		"width": 384,
+		"height": 352
+	},
+	"swamp": {
+		"plan_sha256": "6e89639083175507764b00980184d9d0330a783bac84e0a95761ccee84959ee5",
+		"width": 384,
+		"height": 384
+	},
+	"mine": {
+		"plan_sha256": "8ff98d0a344f6995d005728d1c571ef35b7e5218c2e9866cc0cd34a523244769",
+		"width": 400,
+		"height": 384
+	},
+	"shrine": {
+		"plan_sha256": "1b1fc87c2d78a0edbc107061202f9e44b4a21254b387844fc404f6f0de0be334",
+		"width": 400,
+		"height": 352
+	},
+	"bramble_crypt": {
+		"plan_sha256": "c1301e54af2ca66acfaca4f7ff573fb11435a3131e8c8a8f706b6840f8e9139d",
+		"width": 384,
+		"height": 288
+	},
+	"deep_tomb": {
+		"plan_sha256": "a439f6e38f167eed391aaa068e462c2ffeced8d557cc25cc521268abd18438d8",
+		"width": 400,
+		"height": 320
+	}
+}

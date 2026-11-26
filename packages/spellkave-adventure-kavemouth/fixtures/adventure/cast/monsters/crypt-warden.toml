@@ -1,0 +1,45 @@
+[[actor_spatial_locations]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/crypt_warden_1"
+place_node_id = "kavemouth/tomb/crypt"
+selection_path = "manifest:kavemouth/adventure/npc/crypt_warden_1"
+
+[[actors]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/crypt_warden_1"
+name = "Crypt Warden"
+
+[[entities]]
+bundle_id = "kavemouth"
+description = "A goblin sentinel standing watch over the crypt's lowest niches."
+entity_def_id = "srd/creature/goblin-warrior"
+entity_key = "kavemouth/adventure/npc/crypt_warden_1"
+kind = "npc"
+name = "Crypt Warden"
+owned_by_entity_key = ""
+place_node_id = "kavemouth/tomb/crypt"
+quantity = 1
+
+[[entity_tag]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/crypt_warden_1"
+source = "manifest"
+tag = "srd.faction.monsters"
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/crypt_warden_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "srd/xp_value"
+value_bool = true
+value_int = 300
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/crypt_warden_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "srd/hp"
+value_bool = true
+value_int = 11

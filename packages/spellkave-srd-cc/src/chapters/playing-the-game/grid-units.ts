@@ -89,7 +89,7 @@ export const STEP_AFFORDANCE_LOCAL_ID = "affordance/step";
  * never ride the bundle-wide `movement_defaults` template every ambient
  * place edge inherits (ADR-0101 A-1), or a DM could no longer step onto a
  * candidate's station and a hero could not enter a room where the
- * innkeeper stands (caught live at chapter 0.1 of the elven-mini record).
+ * innkeeper stands (caught live at chapter 0.1 of the kavemouth record).
  */
 export const GRID_STEP_AFFORDANCE_LOCAL_ID = "affordance/grid-step";
 export const STEP_EDGE_RANGE_M = 0;
@@ -260,7 +260,7 @@ export function stepAffordancePredicate(): string {
  *
  * ADR-0134 D-3/D-5: destination occupancy is an authored read, not a kernel
  * veto — the retired `DestinationOccupied` rejection blocked a cell for the
- * rest of a session once its occupant died (the elven-mini cellar stalemate).
+ * rest of a session once its occupant died (the kavemouth cellar stalemate).
  * The clause counts occupants of the edge's destination (`to_node`, the same
  * node the `@to_node` projection reads) minus those carrying
  * `srd/condition/dead`; a refused step is the ordinary traversal-predicate

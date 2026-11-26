@@ -1,0 +1,27 @@
+[[entity_definition_tag]]
+bundle_id = "kavemouth"
+entity_def_id = "kavemouth/item/rations"
+source = "manifest"
+tag = "srd.item.gear"
+
+[[entity_definition_tag]]
+bundle_id = "kavemouth"
+entity_def_id = "kavemouth/item/rations"
+source = "manifest"
+tag = "srd.item.food"
+
+[[entity_definitions]]
+affordance_seed_id = ""
+bundle_id = "kavemouth"
+description = "One day's travel rations."
+display_name = "Rations"
+entity_def_id = "kavemouth/item/rations"
+grants_capability_while_equipped = ""
+grants_capability_while_present_in_location = ""
+lineage_id = ""
+on_consume_consequence_id = ""
+on_destroy_consequence_id = ""
+on_equip_consequence_id = ""
+on_unequip_consequence_id = ""
+slot_compatibility_predicate = ""
+stackable = true

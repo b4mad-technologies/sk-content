@@ -1,0 +1,56 @@
+{
+	"schema": "spellkave-design-asset-provenance/v1",
+	"kind": "place-map",
+	"place_graph_id": "kavemouth/war_camp",
+	"provider": "pixellab-pixflux",
+	"tool": "skgen image pixellab generate",
+	"sdk": {
+		"package": "@pixellab-code/pixellab",
+		"version": "1.0.2",
+		"patch": "patches/@pixellab-code__pixellab@1.0.2.patch"
+	},
+	"provider_ids": {
+		"api_base_url": "https://api.pixellab.ai/v1",
+		"route": "/generate-image-pixflux"
+	},
+	"prompt": "A disciplined war camp on trampled ground: a picket line, a row of tents, a cookfire, animal pens, a large command tent and a trail leading out the back. Top-down pixel art game map seen from straight above, one continuous scene, muted earthy palette, soft shading, readable floors and walls, no characters, no creatures, no text, no letters, no numbers, no grid lines, no frame, no logo.",
+	"request": {
+		"description": "A disciplined war camp on trampled ground: a picket line, a row of tents, a cookfire, animal pens, a large command tent and a trail leading out the back. Top-down pixel art game map seen from straight above, one continuous scene, muted earthy palette, soft shading, readable floors and walls, no characters, no creatures, no text, no letters, no numbers, no grid lines, no frame, no logo.",
+		"image_size": {
+			"width": 384,
+			"height": 352
+		},
+		"negative_description": "text, letters, numbers, labels, grid, people, monsters, isometric, side view, border, watermark",
+		"text_guidance_scale": 8,
+		"outline": "selective outline",
+		"shading": "medium shading",
+		"detail": "highly detailed",
+		"view": "high top-down",
+		"direction": null,
+		"isometric": false,
+		"no_background": false,
+		"coverage_percentage": null,
+		"init_image": "packages/spellkave-adventure-kavemouth/assets/kavemouth-maps/plans/war_camp.png",
+		"init_image_strength": 115,
+		"color_image": null,
+		"seed": 1
+	},
+	"source_blueprint": "packages/spellkave-adventure-kavemouth/art/maps/war_camp.blueprint.json",
+	"source_blueprint_sha256": "3bf728cdf232402560d8ffb408ca0082a7ca3f7682cf2e055f2e755f99e18de1",
+	"source_plan": "packages/spellkave-adventure-kavemouth/assets/kavemouth-maps/plans/war_camp.png",
+	"source_plan_sha256": "e773d9f37d8d1405b28d46be555cb0a812709ce344f1b6f1f4a25bb8d7495840",
+	"provenance": {
+		"license": "CC-BY-4.0",
+		"source": "Generated with PixelLab over a first-party floor plan (author/lib/layouts.ts, scripts/build-map-inputs.ts)"
+	},
+	"usage": {
+		"type": "generations",
+		"generations": 1
+	},
+	"generated_at": "2026-11-26T21:54:20.501Z",
+	"dimensions": [
+		384,
+		352
+	],
+	"sha256": "f95d9391e215c6dc8ff771fa8de697858f784eeff97a7fa01433958a8b886bfa"
+}

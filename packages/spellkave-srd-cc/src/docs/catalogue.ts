@@ -1054,7 +1054,7 @@ function catalogueEntriesFromIdentityRows(
 	const factsById = catalogueFactsById();
 	const resourceSlugsBySection = new Map<string, ReadonlyMap<string, string>>();
 	// Every section a `resource_routes` row can land an id in, plus the
-	// `mechanics_section` fallback for an id no row matches (dm/elven_mini's
+	// `mechanics_section` fallback for an id no row matches (dm/kavemouth's
 	// own resources) — derived from the authored routes rather than
 	// hand-listed, so a new route's section never needs a matching edit here.
 	const resourceSections = new Set<string>([

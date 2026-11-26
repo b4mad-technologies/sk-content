@@ -24,7 +24,7 @@ importers:
         specifier: 3.2.6
         version: 3.2.6(@types/node@24.12.4)(tsx@4.23.15)
 
-  packages/spellkave-adventure-elven-mini:
+  packages/spellkave-adventure-kavemouth:
     dependencies:
       '@spellkave/adventure-runtime':
         specifier: workspace:*

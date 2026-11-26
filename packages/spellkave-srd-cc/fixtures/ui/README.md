@@ -14,7 +14,7 @@ Unlike `base/<chapter>/`, this root has no coverage report (nothing
 SRD-sourced to cover): membership is an operator/author decision about the
 `ui.*` namespace family, not a fact parsed from the SRD text.
 
-It is a sibling to `base/`, `spatial/`, and `elven-mini/` — not a chapter —
+It is a sibling to `base/`, `spatial/`, and `kavemouth/` — not a chapter —
 because surface membership can span every chapter (a future `ui.scene` or
 `ui.inventory` namespace, for instance, has no single "book chapter" owner)
 and its ordering is global across the whole bundle, not local to one topic.

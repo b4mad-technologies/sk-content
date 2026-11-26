@@ -38,7 +38,7 @@ export const BACKGROUND_TAG_PREFIX = "srd.background";
 export const FACTION_PARTY_TAG = "srd.faction.party";
 export const FACTION_MONSTERS_TAG = "srd.faction.monsters";
 
-/** sk-ntz.7 (content hygiene): elven-mini field-kit / torch / rations
+/** sk-ntz.7 (content hygiene): kavemouth field-kit / torch / rations
  * definition tags, renamed from the legacy flat `container` / `gear` /
  * `food` / `light` (MF-VAL-297/298). Documentary membership only — no DSL
  * or kernel reader today; catalogued so the closed `srd` vocabulary stays
@@ -57,8 +57,8 @@ export const DM_NPC_CREATION_TAG = "srd.dm_npc.creation";
 /** Live reader: entity-provided `dm/niche/dialog` + `tag_capability_grant` for set-open. */
 export const DM_NPC_TALKER_TAG = "srd.dm_npc.talker";
 
-/** sk-ntz.7: the elven-mini heroes party membership tag, renamed from the
- * legacy colon-shaped `member_of:elven_mini/party/heroes` (MF-VAL-296).
+/** sk-ntz.7: the kavemouth heroes party membership tag, renamed from the
+ * legacy colon-shaped `member_of:kavemouth/party/heroes` (MF-VAL-296).
  * The party extent's `extent_ref` IS this tag — the kernel no longer
  * prefixes `member_of:`. */
 export const PARTY_HEROES_TAG = "srd.party.heroes";
@@ -360,7 +360,7 @@ const CURRENT_TAG_VALUE_UNITS: readonly TagValueDefinitionUnit[] = [
 		// every `srd.*` tag emitted anywhere in this package resolves against
 		// this ONE closed catalog (MF-VAL-300). Renamed from the legacy
 		// colon-shaped `faction:party` (MF-VAL-296/297/298): the proof-scene
-		// combat arena's and elven-mini's own crypt-fight instance tag
+		// combat arena's and kavemouth's own crypt-fight instance tag
 		// identifying an entity as standing with the player's own party for a
 		// combat_grid session's termination/winner predicates.
 		tag: FACTION_PARTY_TAG,
@@ -382,7 +382,7 @@ const CURRENT_TAG_VALUE_UNITS: readonly TagValueDefinitionUnit[] = [
 	},
 	{
 		// sk-ntz.7 (content hygiene): the remaining flat item tags the
-		// elven-mini starter kit carried (`container`/`gear`/`food`/`light`).
+		// kavemouth starter kit carried (`container`/`gear`/`food`/`light`).
 		// Documentary membership under the existing `srd.item` family — no
 		// runtime reader today; catalogued so the closed `srd` vocabulary
 		// stays exact (MF-VAL-306).
@@ -450,10 +450,10 @@ const CURRENT_TAG_VALUE_UNITS: readonly TagValueDefinitionUnit[] = [
 		tag: PARTY_HEROES_TAG,
 		prefix: SRD_TAG_PREFIX,
 		description:
-			"Identifies an entity instance as a member of the elven-mini heroes party. A party " +
+			"Identifies an entity instance as a member of the kavemouth heroes party. A party " +
 			"extent grant names this same string as extent_ref; membership is every body " +
 			"carrying the tag, plus their current session peers. Renamed from the legacy " +
-			"colon-shaped 'member_of:elven_mini/party/heroes' (sk-ntz.7).",
+			"colon-shaped 'member_of:kavemouth/party/heroes' (sk-ntz.7).",
 		sourcePk: "",
 	},
 	{

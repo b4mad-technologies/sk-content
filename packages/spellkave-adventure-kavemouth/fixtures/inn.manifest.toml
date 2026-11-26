@@ -1,0 +1,395 @@
+#:schema https://spellkave.dev/schema/world-manifest-1.0.0.json
+applyset = "kavemouth.inn"
+schema_version = "1.0.0"
+
+[[bundles]]
+allow_flat_tags = false
+author = "spellkave-srd-cc"
+bundle_id = "kavemouth"
+default_extent_params_json = '{"extent_m": 4.5}'
+default_extent_shape_id = "core/area/cube"
+depends_on = [
+    "srd",
+    "dm",
+]
+description = "Kavemouth, the first Spellkave adventure: a hamlet, its roads and twelve quests."
+display_name = "Kavemouth"
+version = "1.0.0"
+
+[[bundles.tag_prefixes]]
+prefix = "kavemouth"
+
+[metadata]
+bundle = "kavemouth"
+profile = "kavemouth_inn"
+
+[[movement_defaults]]
+affordance_template_id = "srd/affordance/step"
+bindings_json = '{"movement_reach_resource":"srd/speed-walk","long_running_move_session":"srd/long_running_move"}'
+bundle_id = "kavemouth"
+mode_id = ""
+place_graph_id = ""
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/inn/foyer->kavemouth/inn/common_room"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/inn/foyer"
+inherit_movement_default = true
+place_graph_id = "kavemouth/inn"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/inn/common_room"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/inn/common_room->kavemouth/inn/foyer"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/inn/common_room"
+inherit_movement_default = true
+place_graph_id = "kavemouth/inn"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/inn/foyer"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/inn/common_room->kavemouth/inn/bar"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/inn/common_room"
+inherit_movement_default = true
+place_graph_id = "kavemouth/inn"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/inn/bar"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/inn/bar->kavemouth/inn/common_room"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/inn/bar"
+inherit_movement_default = true
+place_graph_id = "kavemouth/inn"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/inn/common_room"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/inn/common_room->kavemouth/inn/stairs"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/inn/common_room"
+inherit_movement_default = true
+place_graph_id = "kavemouth/inn"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/inn/stairs"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/inn/stairs->kavemouth/inn/common_room"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/inn/stairs"
+inherit_movement_default = true
+place_graph_id = "kavemouth/inn"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/inn/common_room"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/inn/foyer->kavemouth/inn/stairs"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/inn/foyer"
+inherit_movement_default = true
+place_graph_id = "kavemouth/inn"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/inn/stairs"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/inn/stairs->kavemouth/inn/foyer"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/inn/stairs"
+inherit_movement_default = true
+place_graph_id = "kavemouth/inn"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/inn/foyer"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/inn/stairs->kavemouth/inn/loft"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/inn/stairs"
+inherit_movement_default = true
+place_graph_id = "kavemouth/inn"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/inn/loft"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/inn/loft->kavemouth/inn/stairs"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/inn/loft"
+inherit_movement_default = true
+place_graph_id = "kavemouth/inn"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/inn/stairs"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/inn/stairs->kavemouth/inn/cellar"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/inn/stairs"
+inherit_movement_default = true
+place_graph_id = "kavemouth/inn"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/inn/cellar"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/inn/cellar->kavemouth/inn/stairs"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/inn/cellar"
+inherit_movement_default = true
+place_graph_id = "kavemouth/inn"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/inn/stairs"
+
+[[place_graphs]]
+anchor_node_id = "kavemouth/inn/foyer"
+bearing = 0.0
+blueprint_id = ""
+bundle_id = "kavemouth"
+description = "The Lamp and Ladle — three creaking floors of timber and lantern-light, tucked just off the hamlet square."
+display_name = "Inn"
+is_ephemeral_instance = false
+metres_per_unit = 1.5240000486373901
+origin_cell_res10 = 0
+origin_cell_res4 = 0
+origin_cell_res7 = 0
+parent_graph_id = "kavemouth/hamlet"
+place_graph_id = "kavemouth/inn"
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A cramped entry hall smelling of wet cloaks and cold hearth-ash, the front door letting in a draft every time it swings."
+display_name = "Foyer"
+extent_params_json = '{"extent_m":3.048,"extent_x_m":3.048,"extent_y_m":3.048,"extent_z_m":1.4}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "foyer"
+node_id = "kavemouth/inn/foyer"
+place_graph_id = "kavemouth/inn"
+pos_present = true
+pos_x = 3
+pos_y = 11
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "Long trestle tables share the room with a low fire, the smell of woodsmoke and last night's stew going cold on the hearth. A pilgrim's map nailed by the door marks the Twin Lamp shrine: out along the Forest Road, then the Pilgrim Path."
+display_name = "Common Room"
+extent_params_json = '{"extent_m":6.096,"extent_x_m":6.096,"extent_y_m":5.334,"extent_z_m":1.4}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "common_room"
+node_id = "kavemouth/inn/common_room"
+place_graph_id = "kavemouth/inn"
+pos_present = true
+pos_x = 9
+pos_y = 10
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A scarred oak counter lined with tapped kegs and chipped mugs, close enough to the common room's fire to catch its warmth. A slate above the kegs marks the way to the old barrow: cross the square, then take the track east up Tomb Hill."
+display_name = "Bar"
+extent_params_json = '{"extent_m":6.096,"extent_x_m":6.096,"extent_y_m":3.048,"extent_z_m":1.4}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "bar"
+node_id = "kavemouth/inn/bar"
+place_graph_id = "kavemouth/inn"
+pos_present = true
+pos_x = 9
+pos_y = 4
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A narrow, creaking staircase climbs past exposed timber, splitting toward the guest loft above and a cellar hatch below."
+display_name = "Stairs"
+extent_params_json = '{"extent_m":3.048,"extent_x_m":3.048,"extent_y_m":3.048,"extent_z_m":1.4}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "stairs"
+node_id = "kavemouth/inn/stairs"
+place_graph_id = "kavemouth/inn"
+pos_present = true
+pos_x = 3
+pos_y = 7
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "Rafters slope low over a scatter of straw pallets, quiet enough this early to hear the whole inn settling beneath you."
+display_name = "Guest Loft"
+extent_params_json = '{"extent_m":6.096,"extent_x_m":6.096,"extent_y_m":4.572,"extent_z_m":1.4}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "loft"
+node_id = "kavemouth/inn/loft"
+place_graph_id = "kavemouth/inn"
+pos_present = true
+pos_x = 19
+pos_y = 4
+pose_elevation = 3.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A cold, low-ceilinged cellar stacked with barrels and root sacks, the only light spilling down from the stairs above."
+display_name = "Cellar"
+extent_params_json = '{"extent_m":6.096,"extent_x_m":6.096,"extent_y_m":4.572,"extent_z_m":1.4}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "cellar"
+node_id = "kavemouth/inn/cellar"
+place_graph_id = "kavemouth/inn"
+pos_present = true
+pos_x = 19
+pos_y = 12
+pose_elevation = -3.0
+pose_elevation_present = true
+substrate_id = "indoor"

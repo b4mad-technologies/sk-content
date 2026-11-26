@@ -9,7 +9,7 @@ import {
 	decideBossLootDrop,
 	Q4_FANATIC_LOOT_TABLE_ID,
 	Q4_FANATIC_PROOF_LOOT_CODE,
-} from "../../../../spellkave-adventure-elven-mini/author/loot-drop";
+} from "../../../../spellkave-adventure-kavemouth/author/loot-drop";
 import {
 	CONSUME_ACTION_ID,
 	MUNDANE_POTION_IDENTITY,
@@ -294,7 +294,7 @@ describe("Magic Items (loot tables) executable coverage", () => {
 				"Q4 fanatic drop is seeded on Sister Maelis for SQL read-back (live-self-seeding when node up)",
 			references: [
 				LOOT,
-				"packages/spellkave-srd-cc/src/author/elven-mini/loot-drop.ts",
+				"packages/spellkave-srd-cc/src/author/kavemouth/loot-drop.ts",
 				"packages/spellkave-srd-cc/src/test/live-self-seeding/mechanics/q4-fanatic-loot.test.ts",
 			],
 		},

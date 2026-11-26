@@ -3,7 +3,7 @@
  *
  * WHY HERE: these are table lists the DM host passes to `subscribeReaders`.
  * The ORDER of the lists and of the tables inside them is observable: the
- * golden brain oracle (`tests/oracle/brain-trace.json` in the elven-mini
+ * golden brain oracle (`tests/oracle/brain-trace.json` in the kavemouth
  * package) records the ordered `subscribeReaders` calls, so a reordered
  * table is a behaviour change, not a tidy-up.
  *

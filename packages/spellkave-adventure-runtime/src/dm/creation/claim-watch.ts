@@ -2,7 +2,7 @@
  * // pattern: draft-then-confirm-wizard
  *
  * Creation duty: the pure decisions a DM seat makes about WHEN to serve a
- * creation candidate (generic mechanism; the elven-mini originals lived in
+ * creation candidate (generic mechanism; the kavemouth originals lived in
  * `aldwin/seat.ts`). No world reads, no ids — every input is a plain value.
  */
 

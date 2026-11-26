@@ -1,0 +1,73 @@
+[[actor_capabilities]]
+actor_entity_key = "kavemouth/adventure/innkeeper_1"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q11/record-acceptance"
+elevation_class = ""
+extent_kind_ref = ""
+extent_ref = ""
+source = "kavemouth"
+source_args_hash = ""
+
+[[actor_spatial_locations]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/innkeeper_1"
+place_node_id = "kavemouth/inn/bar"
+selection_path = "manifest:kavemouth/adventure/innkeeper_1"
+
+[[actors]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/innkeeper_1"
+name = "Mira"
+
+[[entities]]
+bundle_id = "kavemouth"
+description = "Innkeeper Mira"
+entity_def_id = "srd/creature/commoner"
+entity_key = "kavemouth/adventure/innkeeper_1"
+kind = "npc"
+name = "Mira"
+owned_by_entity_key = ""
+place_node_id = "kavemouth/inn/bar"
+quantity = 1
+
+[[entity_tag]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/innkeeper_1"
+source = "manifest"
+tag = "srd.dm_npc.talker"
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/innkeeper_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "dm/dialog/open"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/innkeeper_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "dm/dialog/prompt"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/innkeeper_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q11/accepted"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/innkeeper_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q11/rewarded"
+value_bool = true
+value_int = 0

@@ -70,7 +70,7 @@ export interface ClaimedHeroSeat {
  * connection-scoped and `release_actor_identity_bindings_on_disconnect` drops
  * it the moment the process exits, which would put the next connection right
  * back in the resolveActor chicken-and-egg (ADR-0097; same idiom
- * npc-host-elven-mini.ts uses for Aldwin). Staging is operator work; the
+ * npc-host-kavemouth.ts uses for Aldwin). Staging is operator work; the
  * player surface never touches `r_bind_actor_identity`.
  */
 export async function claimHeroSeat(options: ClaimHeroSeatOptions): Promise<ClaimedHeroSeat> {

@@ -40,7 +40,7 @@ export async function buildDodgeFragment(
 		// sk-rd0, V1): Dodge's own `capability:srd/action/dodge` synthetic niche
 		// had NO niche_definitions row until now, so it fell back to Gate B's
 		// PLACE default (requires a spatial_niche_attachment nobody ever
-		// authored) — a live read-back on a freshly staged elven-mini world
+		// authored) — a live read-back on a freshly staged kavemouth world
 		// confirmed Dodge is dead content today (the hero's `affordance` table
 		// holds exactly one row, `srd/sense/look/affordance`). This niche row's
 		// `provider: "actor"` revives it as a universal self-verb: the acting

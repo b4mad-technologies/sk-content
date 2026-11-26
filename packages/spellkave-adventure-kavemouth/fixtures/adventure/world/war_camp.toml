@@ -1,0 +1,406 @@
+[[map_layers]]
+asset_module = "kavemouth-maps"
+asset_path = "maps/war_camp.png"
+bundle_id = "kavemouth"
+description = "Backdrop maps/war_camp.png (kavemouth-maps)"
+display_name = "Ghorza's war camp"
+grid_distance_m = 1.5240000486373901
+grid_size_px = 16
+image_height_px = 352
+image_origin_x = 0.0
+image_origin_y = 0.0
+image_width_px = 384
+local_height_cells = 22.0
+local_width_cells = 24.0
+map_layer_id = "kavemouth/war_camp/backdrop"
+max_zoom = 0.0
+min_zoom = 0.0
+place_graph_id = "kavemouth/war_camp"
+posture = "cc-by-4.0"
+rotation_deg = 0.0
+source_kind = "spellkave-first-party"
+state = "aligned"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/war_camp/approach->kavemouth/war_camp/picket"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/war_camp/approach"
+inherit_movement_default = true
+place_graph_id = "kavemouth/war_camp"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/war_camp/picket"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/war_camp/picket->kavemouth/war_camp/approach"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/war_camp/picket"
+inherit_movement_default = true
+place_graph_id = "kavemouth/war_camp"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/war_camp/approach"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/war_camp/picket->kavemouth/war_camp/tent_row"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/war_camp/picket"
+inherit_movement_default = true
+place_graph_id = "kavemouth/war_camp"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/war_camp/tent_row"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/war_camp/tent_row->kavemouth/war_camp/picket"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/war_camp/tent_row"
+inherit_movement_default = true
+place_graph_id = "kavemouth/war_camp"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/war_camp/picket"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/war_camp/tent_row->kavemouth/war_camp/cookfire"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/war_camp/tent_row"
+inherit_movement_default = true
+place_graph_id = "kavemouth/war_camp"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/war_camp/cookfire"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/war_camp/cookfire->kavemouth/war_camp/tent_row"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/war_camp/cookfire"
+inherit_movement_default = true
+place_graph_id = "kavemouth/war_camp"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/war_camp/tent_row"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/war_camp/cookfire->kavemouth/war_camp/worg_pens"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/war_camp/cookfire"
+inherit_movement_default = true
+place_graph_id = "kavemouth/war_camp"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/war_camp/worg_pens"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/war_camp/worg_pens->kavemouth/war_camp/cookfire"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/war_camp/worg_pens"
+inherit_movement_default = true
+place_graph_id = "kavemouth/war_camp"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/war_camp/cookfire"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/war_camp/cookfire->kavemouth/war_camp/command_tent"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/war_camp/cookfire"
+inherit_movement_default = true
+place_graph_id = "kavemouth/war_camp"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/war_camp/command_tent"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/war_camp/command_tent->kavemouth/war_camp/cookfire"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/war_camp/command_tent"
+inherit_movement_default = true
+place_graph_id = "kavemouth/war_camp"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/war_camp/cookfire"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/war_camp/command_tent->kavemouth/war_camp/rear_trail"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/war_camp/command_tent"
+inherit_movement_default = true
+place_graph_id = "kavemouth/war_camp"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/war_camp/rear_trail"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/war_camp/rear_trail->kavemouth/war_camp/command_tent"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/war_camp/rear_trail"
+inherit_movement_default = true
+place_graph_id = "kavemouth/war_camp"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/war_camp/command_tent"
+
+[[place_graphs]]
+anchor_node_id = "kavemouth/war_camp/approach"
+bearing = 0.0
+blueprint_id = ""
+bundle_id = "kavemouth"
+description = "A disciplined war camp on the forest road — pickets, tents, and a captain's pavilion."
+display_name = "War Camp"
+is_ephemeral_instance = false
+metres_per_unit = 12.0
+origin_cell_res10 = 0
+origin_cell_res4 = 0
+origin_cell_res7 = 0
+parent_graph_id = "kavemouth/region"
+place_graph_id = "kavemouth/war_camp"
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095456268287
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "The trail widens into the camp approach, boot-prints deep in the mud."
+display_name = "Camp Approach"
+extent_params_json = '{"extent_m":3.048,"extent_x_m":3.048,"extent_y_m":3.048,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "approach"
+node_id = "kavemouth/war_camp/approach"
+place_graph_id = "kavemouth/war_camp"
+pos_present = true
+pos_x = 12
+pos_y = 20
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095456268287
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "A picket line of stakes and rope, a challenge shouted from somewhere inside."
+display_name = "Picket Line"
+extent_params_json = '{"extent_m":6.096,"extent_x_m":6.096,"extent_y_m":3.048,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "picket"
+node_id = "kavemouth/war_camp/picket"
+place_graph_id = "kavemouth/war_camp"
+pos_present = true
+pos_x = 12
+pos_y = 16
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095456268287
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "A neat row of war-tents, shields stacked between them."
+display_name = "Tent Row"
+extent_params_json = '{"extent_m":6.096,"extent_x_m":6.096,"extent_y_m":4.572,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "tent_row"
+node_id = "kavemouth/war_camp/tent_row"
+place_graph_id = "kavemouth/war_camp"
+pos_present = true
+pos_x = 7
+pos_y = 11
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095456268287
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "A cookfire with a blackened pot, the smell of meat and grease."
+display_name = "Cookfire"
+extent_params_json = '{"radius_m":3.81,"radius_x_m":3.81,"radius_y_m":3.81,"radius_z_m":1.5}'
+extent_shape_id = "core/area/sphere"
+is_ephemeral = false
+local_id = "cookfire"
+node_id = "kavemouth/war_camp/cookfire"
+place_graph_id = "kavemouth/war_camp"
+pos_present = true
+pos_x = 14
+pos_y = 11
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095456268287
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "Staked pens where worgs pace and snap at the air."
+display_name = "Worg Pens"
+extent_params_json = '{"extent_m":4.572,"extent_x_m":4.572,"extent_y_m":4.572,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "worg_pens"
+node_id = "kavemouth/war_camp/worg_pens"
+place_graph_id = "kavemouth/war_camp"
+pos_present = true
+pos_x = 20
+pos_y = 12
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095456268287
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "Warcaptain Ghorza's pavilion, banners of the road-raiders hanging limp."
+display_name = "Ghorza's Tent"
+extent_params_json = '{"extent_m":5.334,"extent_x_m":5.334,"extent_y_m":4.572,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "command_tent"
+node_id = "kavemouth/war_camp/command_tent"
+place_graph_id = "kavemouth/war_camp"
+pos_present = true
+pos_x = 14
+pos_y = 5
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095456268287
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "A rear trail escaping into thicker forest behind the command tent."
+display_name = "Rear Trail"
+extent_params_json = '{"extent_m":3.81,"extent_x_m":3.81,"extent_y_m":3.048,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "rear_trail"
+node_id = "kavemouth/war_camp/rear_trail"
+place_graph_id = "kavemouth/war_camp"
+pos_present = true
+pos_x = 20
+pos_y = 3
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"

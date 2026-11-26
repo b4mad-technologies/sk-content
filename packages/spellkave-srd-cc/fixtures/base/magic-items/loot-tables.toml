@@ -140,7 +140,7 @@ weight = 1
 
 [[roll_tables]]
 bundle_id = "srd"
-description = "Low-CR encounter treasure band (gameplay-toolbox encounter building / treasure guidance). Used for elven-mini rung I–II boss drops."
+description = "Low-CR encounter treasure band (gameplay-toolbox encounter building / treasure guidance). Used for kavemouth rung I–II boss drops."
 display_name = "CR 0–4 individual treasure"
 result_kind = "int"
 roll_table_id = "srd/loot/cr/band-0-4"

@@ -1,0 +1,56 @@
+{
+	"schema": "spellkave-design-asset-provenance/v1",
+	"kind": "place-map",
+	"place_graph_id": "kavemouth/hesper_lodge",
+	"provider": "pixellab-pixflux",
+	"tool": "skgen image pixellab generate",
+	"sdk": {
+		"package": "@pixellab-code/pixellab",
+		"version": "1.0.2",
+		"patch": "patches/@pixellab-code__pixellab@1.0.2.patch"
+	},
+	"provider_ids": {
+		"api_base_url": "https://api.pixellab.ai/v1",
+		"route": "/generate-image-pixflux"
+	},
+	"prompt": "A gamekeeper's log lodge in a forest clearing: a porch, a main room with a stone hearth, a woodshed, a path from the south and dense trees all around. Top-down pixel art game map seen from straight above, one continuous scene, muted earthy palette, soft shading, readable floors and walls, no characters, no creatures, no text, no letters, no numbers, no grid lines, no frame, no logo.",
+	"request": {
+		"description": "A gamekeeper's log lodge in a forest clearing: a porch, a main room with a stone hearth, a woodshed, a path from the south and dense trees all around. Top-down pixel art game map seen from straight above, one continuous scene, muted earthy palette, soft shading, readable floors and walls, no characters, no creatures, no text, no letters, no numbers, no grid lines, no frame, no logo.",
+		"image_size": {
+			"width": 384,
+			"height": 352
+		},
+		"negative_description": "text, letters, numbers, labels, grid, people, monsters, isometric, side view, border, watermark",
+		"text_guidance_scale": 8,
+		"outline": "selective outline",
+		"shading": "medium shading",
+		"detail": "highly detailed",
+		"view": "high top-down",
+		"direction": null,
+		"isometric": false,
+		"no_background": false,
+		"coverage_percentage": null,
+		"init_image": "packages/spellkave-adventure-kavemouth/assets/kavemouth-maps/plans/hesper_lodge.png",
+		"init_image_strength": 120,
+		"color_image": null,
+		"seed": 1
+	},
+	"source_blueprint": "packages/spellkave-adventure-kavemouth/art/maps/hesper_lodge.blueprint.json",
+	"source_blueprint_sha256": "f26726ea6aa755b68e75ada4ebf4719478791592ad32c8c6ed1a13f7910ba67d",
+	"source_plan": "packages/spellkave-adventure-kavemouth/assets/kavemouth-maps/plans/hesper_lodge.png",
+	"source_plan_sha256": "d939726db3299c94f6acd25009da25c9f56c5b735ca1c4f64d9c7e17a03910e0",
+	"provenance": {
+		"license": "CC-BY-4.0",
+		"source": "Generated with PixelLab over a first-party floor plan (author/lib/layouts.ts, scripts/build-map-inputs.ts)"
+	},
+	"usage": {
+		"type": "generations",
+		"generations": 1
+	},
+	"generated_at": "2026-11-26T21:43:58.977Z",
+	"dimensions": [
+		384,
+		352
+	],
+	"sha256": "0c9e11238e032de795cf5aa3ecfddbbe8b4dc25a5392741bf23cc41e7654e39c"
+}

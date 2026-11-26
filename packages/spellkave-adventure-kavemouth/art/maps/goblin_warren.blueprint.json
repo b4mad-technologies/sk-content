@@ -1,0 +1,23 @@
+{
+	"schema": "spellkave-pixellab-blueprint/v1",
+	"id": "kavemouth-map-goblin-warren",
+	"description": "A goblin warren of dug-out earthen chambers and crooked tunnels: a guard post, a big common den, two trap niches, a chief's hall and a loot cache. Top-down pixel art game map seen from straight above, one continuous scene, muted earthy palette, soft shading, readable floors and walls, no characters, no creatures, no text, no letters, no numbers, no grid lines, no frame, no logo.",
+	"negative_description": "text, letters, numbers, labels, grid, people, monsters, isometric, side view, border, watermark",
+	"image_size": {
+		"width": 400,
+		"height": 320
+	},
+	"view": "high top-down",
+	"outline": "selective outline",
+	"shading": "medium shading",
+	"detail": "highly detailed",
+	"init_image": "packages/spellkave-adventure-kavemouth/assets/kavemouth-maps/plans/goblin_warren.png",
+	"init_image_strength": 115,
+	"seed": 1,
+	"output_directory": "pixellab-generations/kavemouth-maps/goblin_warren",
+	"output_filename": "goblin_warren.png",
+	"provenance": {
+		"license": "CC-BY-4.0",
+		"source": "Kavemouth place backdrops over first-party floor plans (author/lib/layouts.ts)"
+	}
+}

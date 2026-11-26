@@ -40,8 +40,8 @@ export function hrefForCompendiumEntry(entry: {
 	chapter: string;
 	slug: string;
 }): string {
-	if (entry.id.startsWith("elven_mini")) {
-		return `/docs/adventures/elven-mini/${entry.chapter}/${entry.slug}`;
+	if (entry.id.startsWith("kavemouth")) {
+		return `/docs/adventures/kavemouth/${entry.chapter}/${entry.slug}`;
 	}
 	return `/docs/srd/${entry.chapter}/${entry.slug}`;
 }

@@ -100,7 +100,7 @@ export const TELEPATHY_AFFORDANCE_ID = `${TELEPATHY_ACTION_ID}/affordance`;
  * hall nodes all carry `pos_present = true` (verified 2026-08-17). */
 export const SPEAK_TO_ROOM_RADIUS_M = 10;
 
-/** Directed telepathy range covering the elven-mini inn graph diameter
+/** Directed telepathy range covering the kavemouth inn graph diameter
  * (loft↔cellar ≈ 38 m). Cross-graph addressability is a grant *extent*
  * (sk-0m4.34), not a bigger number here; creature/item range telepathy
  * stays same-graph. */

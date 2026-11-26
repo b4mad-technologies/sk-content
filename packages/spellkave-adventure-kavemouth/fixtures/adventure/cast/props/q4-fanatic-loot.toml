@@ -1,0 +1,10 @@
+[[entities]]
+bundle_id = "kavemouth"
+description = "Sister Maelis's prize — Q4 boss table representative drop (srd/loot/boss/q4-fanatic)."
+entity_def_id = "srd/magic_item/longsword-plus-1"
+entity_key = "kavemouth/adventure/loot/q4_fanatic_longsword_plus_1"
+kind = "item"
+name = "Longsword (+1)"
+owned_by_entity_key = ""
+place_node_id = "kavemouth/mill/altar"
+quantity = 1

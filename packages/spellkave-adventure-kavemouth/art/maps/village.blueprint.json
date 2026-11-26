@@ -1,0 +1,23 @@
+{
+	"schema": "spellkave-pixellab-blueprint/v1",
+	"id": "kavemouth-map-village",
+	"description": "A village of round wooden platforms built among great trees, joined by rope bridges, with a central round platform and a small flowering green. Top-down pixel art game map seen from straight above, one continuous scene, muted earthy palette, soft shading, readable floors and walls, no characters, no creatures, no text, no letters, no numbers, no grid lines, no frame, no logo.",
+	"negative_description": "text, letters, numbers, labels, grid, people, monsters, isometric, side view, border, watermark",
+	"image_size": {
+		"width": 384,
+		"height": 384
+	},
+	"view": "high top-down",
+	"outline": "selective outline",
+	"shading": "medium shading",
+	"detail": "highly detailed",
+	"init_image": "packages/spellkave-adventure-kavemouth/assets/kavemouth-maps/plans/village.png",
+	"init_image_strength": 90,
+	"seed": 1,
+	"output_directory": "pixellab-generations/kavemouth-maps/village",
+	"output_filename": "village.png",
+	"provenance": {
+		"license": "CC-BY-4.0",
+		"source": "Kavemouth place backdrops over first-party floor plans (author/lib/layouts.ts)"
+	}
+}

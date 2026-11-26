@@ -1,0 +1,453 @@
+#:schema https://spellkave.dev/schema/world-manifest-1.0.0.json
+applyset = "kavemouth.village"
+schema_version = "1.0.0"
+
+[[bundles]]
+allow_flat_tags = false
+author = "spellkave-srd-cc"
+bundle_id = "kavemouth"
+default_extent_params_json = '{"extent_m": 4.5}'
+default_extent_shape_id = "core/area/cube"
+depends_on = [
+    "srd",
+    "dm",
+]
+description = "Kavemouth, the first Spellkave adventure: a hamlet, its roads and twelve quests."
+display_name = "Kavemouth"
+version = "1.0.0"
+
+[[bundles.tag_prefixes]]
+prefix = "kavemouth"
+
+[metadata]
+bundle = "kavemouth"
+profile = "kavemouth_village"
+
+[[movement_defaults]]
+affordance_template_id = "srd/affordance/step"
+bindings_json = '{"movement_reach_resource":"srd/speed-walk","long_running_move_session":"srd/long_running_move"}'
+bundle_id = "kavemouth"
+mode_id = ""
+place_graph_id = ""
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/village/path_from_hamlet->kavemouth/village/central_circle"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/village/path_from_hamlet"
+inherit_movement_default = true
+place_graph_id = "kavemouth/village"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/village/central_circle"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/village/central_circle->kavemouth/village/path_from_hamlet"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/village/central_circle"
+inherit_movement_default = true
+place_graph_id = "kavemouth/village"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/village/path_from_hamlet"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/village/central_circle->kavemouth/village/west_platform"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/village/central_circle"
+inherit_movement_default = true
+place_graph_id = "kavemouth/village"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/village/west_platform"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/village/west_platform->kavemouth/village/central_circle"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/village/west_platform"
+inherit_movement_default = true
+place_graph_id = "kavemouth/village"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/village/central_circle"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/village/central_circle->kavemouth/village/north_platform"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/village/central_circle"
+inherit_movement_default = true
+place_graph_id = "kavemouth/village"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/village/north_platform"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/village/north_platform->kavemouth/village/central_circle"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/village/north_platform"
+inherit_movement_default = true
+place_graph_id = "kavemouth/village"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/village/central_circle"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/village/central_circle->kavemouth/village/east_platform"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/village/central_circle"
+inherit_movement_default = true
+place_graph_id = "kavemouth/village"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/village/east_platform"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/village/east_platform->kavemouth/village/central_circle"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/village/east_platform"
+inherit_movement_default = true
+place_graph_id = "kavemouth/village"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/village/central_circle"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/village/central_circle->kavemouth/village/green"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/village/central_circle"
+inherit_movement_default = true
+place_graph_id = "kavemouth/village"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/village/green"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/village/green->kavemouth/village/central_circle"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/village/green"
+inherit_movement_default = true
+place_graph_id = "kavemouth/village"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/village/central_circle"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/village/green->kavemouth/village/tree_dwellings"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/village/green"
+inherit_movement_default = true
+place_graph_id = "kavemouth/village"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/village/tree_dwellings"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/village/tree_dwellings->kavemouth/village/green"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/village/tree_dwellings"
+inherit_movement_default = true
+place_graph_id = "kavemouth/village"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/village/green"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/village/east_platform->kavemouth/village/tree_dwellings"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/village/east_platform"
+inherit_movement_default = true
+place_graph_id = "kavemouth/village"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/village/tree_dwellings"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/village/tree_dwellings->kavemouth/village/east_platform"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/village/tree_dwellings"
+inherit_movement_default = true
+place_graph_id = "kavemouth/village"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/village/east_platform"
+
+[[place_graphs]]
+anchor_node_id = "kavemouth/village/path_from_hamlet"
+bearing = 0.0
+blueprint_id = ""
+bundle_id = "kavemouth"
+description = "The elven quarter above the walls — circular platforms and tree dwellings linked by rope bridges over the stream."
+display_name = "Village"
+is_ephemeral_instance = false
+metres_per_unit = 12.0
+origin_cell_res10 = 0
+origin_cell_res4 = 0
+origin_cell_res7 = 0
+parent_graph_id = "kavemouth/hamlet"
+place_graph_id = "kavemouth/village"
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095455449087
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "A climbing path leaves the fortified walls behind, moss underfoot and lantern-rope strung between the first platforms."
+display_name = "Path from Hamlet"
+extent_params_json = '{"extent_m":4.572,"extent_x_m":3.048,"extent_y_m":4.572,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "path_from_hamlet"
+node_id = "kavemouth/village/path_from_hamlet"
+place_graph_id = "kavemouth/village"
+pos_present = true
+pos_x = 12
+pos_y = 20
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095455449087
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "A broad circular platform of living wood, dwellings packed around a central open court."
+display_name = "Central Circle"
+extent_params_json = '{"radius_m":6.096,"radius_x_m":6.096,"radius_y_m":6.096,"radius_z_m":1.5}'
+extent_shape_id = "core/area/sphere"
+is_ephemeral = false
+local_id = "central_circle"
+node_id = "kavemouth/village/central_circle"
+place_graph_id = "kavemouth/village"
+pos_present = true
+pos_x = 12
+pos_y = 12
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095455449087
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "A western platform hung with drying herbs, the stream glittering far below its rim."
+display_name = "West Platform"
+extent_params_json = '{"radius_m":4.572,"radius_x_m":3.81,"radius_y_m":4.572,"radius_z_m":1.5}'
+extent_shape_id = "core/area/sphere"
+is_ephemeral = false
+local_id = "west_platform"
+node_id = "kavemouth/village/west_platform"
+place_graph_id = "kavemouth/village"
+pos_present = true
+pos_x = 4
+pos_y = 12
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095455449087
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "Northern platforms stacked two-high, their bridges swaying gently in the valley wind."
+display_name = "North Platforms"
+extent_params_json = '{"radius_m":4.572,"radius_x_m":4.572,"radius_y_m":3.81,"radius_z_m":1.5}'
+extent_shape_id = "core/area/sphere"
+is_ephemeral = false
+local_id = "north_platform"
+node_id = "kavemouth/village/north_platform"
+place_graph_id = "kavemouth/village"
+pos_present = true
+pos_x = 12
+pos_y = 4
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095455449087
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "The eastern platform looks back toward the hamlet walls, a sentry bell hanging unused."
+display_name = "East Platform"
+extent_params_json = '{"radius_m":4.572,"radius_x_m":4.572,"radius_y_m":3.81,"radius_z_m":1.5}'
+extent_shape_id = "core/area/sphere"
+is_ephemeral = false
+local_id = "east_platform"
+node_id = "kavemouth/village/east_platform"
+place_graph_id = "kavemouth/village"
+pos_present = true
+pos_x = 20
+pos_y = 6
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095455449087
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "Dwelling-pods grow from a great tree, walkways spiraling among leaf and bark."
+display_name = "Tree Dwellings"
+extent_params_json = '{"extent_m":5.334,"extent_x_m":3.81,"extent_y_m":5.334,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "tree_dwellings"
+node_id = "kavemouth/village/tree_dwellings"
+place_graph_id = "kavemouth/village"
+pos_present = true
+pos_x = 21
+pos_y = 13
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095455449087
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "A small green of moonpetal flowers between the central circle and the tree dwellings — Tamsin's gathering place. Reed-stained charms hang from a post here, a warning of Ulda Reedwife: her hut lies in the swamp, reached from the East Road by the way Downstream to Swamp."
+display_name = "Moonpetal Green"
+extent_params_json = '{"radius_m":4.572,"radius_x_m":4.572,"radius_y_m":4.572,"radius_z_m":1.5}'
+extent_shape_id = "core/area/sphere"
+is_ephemeral = false
+local_id = "green"
+node_id = "kavemouth/village/green"
+place_graph_id = "kavemouth/village"
+pos_present = true
+pos_x = 20
+pos_y = 20
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"

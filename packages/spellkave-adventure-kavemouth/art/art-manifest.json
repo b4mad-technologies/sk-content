@@ -1,0 +1,801 @@
+{
+	"schema": "spellkave-art-manifest/v1",
+	"id": "kavemouth-remaining-cast",
+	"style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+	"provider": "pixellab-pixen",
+	"output_root": "pixellab-generations/kavemouth-remaining-cast",
+	"provenance": {
+		"license": "CC-BY-4.0",
+		"source": "Kavemouth remaining cast and items (entity-art-v1 Pixen + reduce-colors)"
+	},
+	"entries": [
+		{
+			"id": "aldwin-ledger-keeper",
+			"kind": "person",
+			"name": "Aldwin, keeper of the hearth-ledger",
+			"prompt_inputs": {
+				"descriptors": "Pixel art of an elderly keeper of the hearth-ledger with spectacles, a quill and a heavy ledger, standing, front view, full body. Sixteen-bit fantasy sprite, isolated, centered, filling the canvas, muted midnight-blue, aged-gold, sage and parchment palette with warm accents, clean readable silhouette, no letters, no words, no watermark, no frame."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/characters/aldwin-ledger-keeper.webp",
+			"target_attachment_ref": "entity:kavemouth/adventure/npc/aldwin_1#kavemouth.art.image",
+			"provider": "pixellab-pixen",
+			"sha256": "831f8c3fe93598d926b8e39ff91dd63119d624b9d2869dfe927cf7428400e0d8",
+			"license": "CC-BY-4.0",
+			"generated_at": "2026-09-02T09:34:33.374Z",
+			"blueprint": ".impeccable/mocks/pixellab/srd/character-aldwin-ledger-keeper.blueprint.json",
+			"notes": "Part-1 SRD world-art pilot (commit d4ca743d4, 2026-09-02). Sidecar records only prompt+createdAt; no generation id. Blueprint schema is spellkave-pixellab-blueprint/v1 under .impeccable/mocks/pixellab/srd (woven-v1 palette). Route not stamped; provider recorded as pixellab-pixen per sk-jay0.3.5.29 when unknown. Moved into this package in bf89bc85f."
+		},
+		{
+			"id": "mira-innkeeper",
+			"kind": "person",
+			"name": "Mira, innkeeper",
+			"prompt_inputs": {
+				"descriptors": "Pixel art of a sturdy middle-aged innkeeper woman in an apron holding a mug and a cloth, standing, front view, full body. Sixteen-bit fantasy sprite, isolated, centered, filling the canvas, muted midnight-blue, aged-gold, sage and parchment palette with warm accents, clean readable silhouette, no letters, no words, no watermark, no frame."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/characters/mira-innkeeper.webp",
+			"target_attachment_ref": "entity:kavemouth/adventure/innkeeper_1#kavemouth.art.image",
+			"provider": "pixellab-pixen",
+			"sha256": "ba1731beb9e8ddf703858b88d14adeee07fc7b2a6900deb23db82e4fcfa2e2d9",
+			"license": "CC-BY-4.0",
+			"generated_at": "2026-09-02T09:34:33.533Z",
+			"blueprint": ".impeccable/mocks/pixellab/srd/character-mira-innkeeper.blueprint.json",
+			"notes": "Part-1 SRD world-art pilot (commit d4ca743d4, 2026-09-02). Sidecar records only prompt+createdAt; no generation id. Blueprint schema is spellkave-pixellab-blueprint/v1 under .impeccable/mocks/pixellab/srd (woven-v1 palette). Route not stamped; provider recorded as pixellab-pixen per sk-jay0.3.5.29 when unknown. Moved into this package in bf89bc85f."
+		},
+		{
+			"id": "brother-caddoc",
+			"kind": "person",
+			"name": "Brother Caddoc",
+			"prompt_inputs": {
+				"descriptors": "Pixel art of a quiet monk in a brown habit with a rope belt and a walking staff, standing, front view, full body. Sixteen-bit fantasy sprite, isolated, centered, filling the canvas, muted midnight-blue, aged-gold, sage and parchment palette with warm accents, clean readable silhouette, no letters, no words, no watermark, no frame."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/characters/brother-caddoc.webp",
+			"target_attachment_ref": "entity:kavemouth/adventure/npc/caddoc_1#kavemouth.art.image",
+			"provider": "pixellab-pixen",
+			"sha256": "7b73ce460fe998aa53555be19ce8c9f3b04f07d685974ee423d5c78e4720bb63",
+			"license": "CC-BY-4.0",
+			"generated_at": "2026-09-02T09:34:33.418Z",
+			"blueprint": ".impeccable/mocks/pixellab/srd/character-brother-caddoc.blueprint.json",
+			"notes": "Part-1 SRD world-art pilot (commit d4ca743d4, 2026-09-02). Sidecar records only prompt+createdAt; no generation id. Blueprint schema is spellkave-pixellab-blueprint/v1 under .impeccable/mocks/pixellab/srd (woven-v1 palette). Route not stamped; provider recorded as pixellab-pixen per sk-jay0.3.5.29 when unknown. Moved into this package in bf89bc85f."
+		},
+		{
+			"id": "renn-roadwarden",
+			"kind": "person",
+			"name": "Renn the Roadwarden",
+			"prompt_inputs": {
+				"descriptors": "Pixel art of a young roadwarden in a travel cloak with a spear and a satchel, standing, front view, full body. Sixteen-bit fantasy sprite, isolated, centered, filling the canvas, muted midnight-blue, aged-gold, sage and parchment palette with warm accents, clean readable silhouette, no letters, no words, no watermark, no frame."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/characters/renn-roadwarden.webp",
+			"target_attachment_ref": "entity:kavemouth/adventure/hero_1#kavemouth.art.image",
+			"provider": "pixellab-pixen",
+			"sha256": "4a04e4a5349b15ce7532c27457536f669935070fb859f6e0acffdeed83a9c7db",
+			"license": "CC-BY-4.0",
+			"generated_at": "2026-09-02T09:34:33.587Z",
+			"blueprint": ".impeccable/mocks/pixellab/srd/character-renn-roadwarden.blueprint.json",
+			"notes": "Part-1 SRD world-art pilot (commit d4ca743d4, 2026-09-02). Sidecar records only prompt+createdAt; no generation id. Blueprint schema is spellkave-pixellab-blueprint/v1 under .impeccable/mocks/pixellab/srd (woven-v1 palette). Route not stamped; provider recorded as pixellab-pixen per sk-jay0.3.5.29 when unknown. Moved into this package in bf89bc85f. Sprite is catalogued in art/index.ts; live kavemouth.art.image attachment on kavemouth/adventure/hero_1 was removed because that body is fixtures/reference/renn.toml only."
+		},
+		{
+			"id": "cellar-rat",
+			"kind": "creature",
+			"name": "Cellar rat",
+			"prompt_inputs": {
+				"descriptors": "Pixel art of a large grey cellar rat with a scarred ear, side view, crouching. Sixteen-bit fantasy sprite, isolated, centered, filling the canvas, muted midnight-blue, aged-gold, sage and parchment palette with warm accents, clean readable silhouette, no letters, no words, no watermark, no frame."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/characters/cellar-rat.webp",
+			"target_attachment_ref": "entity_definition:srd/creature/giant-rat#kavemouth.art.image",
+			"provider": "pixellab-pixen",
+			"sha256": "9567ad51bef9e6c413b9d06a1716b1c715d25bcde30ce028a737d60e17b075c9",
+			"license": "CC-BY-4.0",
+			"generated_at": "2026-09-02T09:34:33.493Z",
+			"blueprint": ".impeccable/mocks/pixellab/srd/character-cellar-rat.blueprint.json",
+			"notes": "Part-1 SRD world-art pilot (commit d4ca743d4, 2026-09-02). Sidecar records only prompt+createdAt; no generation id. Blueprint schema is spellkave-pixellab-blueprint/v1 under .impeccable/mocks/pixellab/srd (woven-v1 palette). Route not stamped; provider recorded as pixellab-pixen per sk-jay0.3.5.29 when unknown. Moved into this package in bf89bc85f."
+		},
+		{
+			"id": "cellar-rat-swarm",
+			"kind": "creature",
+			"name": "Cellar rat swarm",
+			"prompt_inputs": {
+				"descriptors": "Pixel art of a writhing swarm of five grey cellar rats, side view. Sixteen-bit fantasy sprite, isolated, centered, filling the canvas, muted midnight-blue, aged-gold, sage and parchment palette with warm accents, clean readable silhouette, no letters, no words, no watermark, no frame."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/characters/cellar-rat-swarm.webp",
+			"target_attachment_ref": "entity_definition:srd/creature/swarm-of-rats#kavemouth.art.image",
+			"provider": "pixellab-pixen",
+			"sha256": "919a76e5f96206705ec47cd6d14f1878f44e70aabd4fa93fc8153d0ff456a697",
+			"license": "CC-BY-4.0",
+			"generated_at": "2026-09-02T09:34:33.456Z",
+			"blueprint": ".impeccable/mocks/pixellab/srd/character-cellar-rat-swarm.blueprint.json",
+			"notes": "Part-1 SRD world-art pilot (commit d4ca743d4, 2026-09-02). Sidecar records only prompt+createdAt; no generation id. Blueprint schema is spellkave-pixellab-blueprint/v1 under .impeccable/mocks/pixellab/srd (woven-v1 palette). Route not stamped; provider recorded as pixellab-pixen per sk-jay0.3.5.29 when unknown. Moved into this package in bf89bc85f."
+		},
+		{
+			"id": "torch",
+			"kind": "item",
+			"name": "Torch",
+			"prompt_inputs": {
+				"descriptors": "Pixel art of a wooden torch wrapped in pitch cloth, lit with a small flame. Sixteen-bit fantasy sprite, isolated, centered, filling the canvas, muted midnight-blue, aged-gold, sage and parchment palette with warm accents, clean readable silhouette, no letters, no words, no watermark, no frame."
+			},
+			"size": {
+				"width": 64,
+				"height": 64
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/items/torch.webp",
+			"target_attachment_ref": "entity_definition:kavemouth/item/torch#kavemouth.art.image",
+			"provider": "pixellab-pixen",
+			"sha256": "adf95a1e1390ff713a2f64bd8c04b18debdeb07ccbe197acaad195ee63e4e749",
+			"license": "CC-BY-4.0",
+			"generated_at": "2026-09-02T09:34:33.861Z",
+			"blueprint": ".impeccable/mocks/pixellab/srd/item-torch.blueprint.json",
+			"notes": "Part-1 SRD world-art pilot (commit d4ca743d4, 2026-09-02). Sidecar records only prompt+createdAt; no generation id. Blueprint schema is spellkave-pixellab-blueprint/v1 under .impeccable/mocks/pixellab/srd (woven-v1 palette). Route not stamped; provider recorded as pixellab-pixen per sk-jay0.3.5.29 when unknown. Moved into this package in bf89bc85f."
+		},
+		{
+			"id": "rations",
+			"kind": "item",
+			"name": "Rations",
+			"prompt_inputs": {
+				"descriptors": "Pixel art of a cloth bundle of dried bread and hard cheese tied with twine. Sixteen-bit fantasy sprite, isolated, centered, filling the canvas, muted midnight-blue, aged-gold, sage and parchment palette with warm accents, clean readable silhouette, no letters, no words, no watermark, no frame."
+			},
+			"size": {
+				"width": 64,
+				"height": 64
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/items/rations.webp",
+			"target_attachment_ref": "entity_definition:kavemouth/item/rations#kavemouth.art.image",
+			"provider": "pixellab-pixen",
+			"sha256": "34182a4c8087c1ce87e1cc07f0d65b91b2cb6311c2cce5e62baa341937ccc307",
+			"license": "CC-BY-4.0",
+			"generated_at": "2026-09-02T09:34:33.712Z",
+			"blueprint": ".impeccable/mocks/pixellab/srd/item-rations.blueprint.json",
+			"notes": "Part-1 SRD world-art pilot (commit d4ca743d4, 2026-09-02). Sidecar records only prompt+createdAt; no generation id. Blueprint schema is spellkave-pixellab-blueprint/v1 under .impeccable/mocks/pixellab/srd (woven-v1 palette). Route not stamped; provider recorded as pixellab-pixen per sk-jay0.3.5.29 when unknown. Moved into this package in bf89bc85f."
+		},
+		{
+			"id": "rope",
+			"kind": "item",
+			"name": "Rope",
+			"prompt_inputs": {
+				"descriptors": "Pixel art of a coiled hempen rope. Sixteen-bit fantasy sprite, isolated, centered, filling the canvas, muted midnight-blue, aged-gold, sage and parchment palette with warm accents, clean readable silhouette, no letters, no words, no watermark, no frame."
+			},
+			"size": {
+				"width": 64,
+				"height": 64
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/items/rope.webp",
+			"target_attachment_ref": "entity_definition:srd/item/rope#kavemouth.art.image",
+			"provider": "pixellab-pixen",
+			"sha256": "f2a295e9c7e07d198dfd5405494898b8b7e7f70da6e74134e4d04fa665606fea",
+			"license": "CC-BY-4.0",
+			"generated_at": "2026-09-02T09:34:33.753Z",
+			"blueprint": ".impeccable/mocks/pixellab/srd/item-rope.blueprint.json",
+			"notes": "Part-1 SRD world-art pilot (commit d4ca743d4, 2026-09-02). Sidecar records only prompt+createdAt; no generation id. Blueprint schema is spellkave-pixellab-blueprint/v1 under .impeccable/mocks/pixellab/srd (woven-v1 palette). Route not stamped; provider recorded as pixellab-pixen per sk-jay0.3.5.29 when unknown. Moved into this package in bf89bc85f."
+		},
+		{
+			"id": "waterskin",
+			"kind": "item",
+			"name": "Waterskin",
+			"prompt_inputs": {
+				"descriptors": "Pixel art of a leather waterskin with a wooden stopper. Sixteen-bit fantasy sprite, isolated, centered, filling the canvas, muted midnight-blue, aged-gold, sage and parchment palette with warm accents, clean readable silhouette, no letters, no words, no watermark, no frame."
+			},
+			"size": {
+				"width": 64,
+				"height": 64
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/items/waterskin.webp",
+			"target_attachment_ref": "entity_definition:srd/item/waterskin#kavemouth.art.image",
+			"provider": "pixellab-pixen",
+			"sha256": "f1391e2c46531d81413f1a476a4e06fa228ecc727c8fd431f70742047988b0b2",
+			"license": "CC-BY-4.0",
+			"generated_at": "2026-09-02T09:34:33.899Z",
+			"blueprint": ".impeccable/mocks/pixellab/srd/item-waterskin.blueprint.json",
+			"notes": "Part-1 SRD world-art pilot (commit d4ca743d4, 2026-09-02). Sidecar records only prompt+createdAt; no generation id. Blueprint schema is spellkave-pixellab-blueprint/v1 under .impeccable/mocks/pixellab/srd (woven-v1 palette). Route not stamped; provider recorded as pixellab-pixen per sk-jay0.3.5.29 when unknown. Moved into this package in bf89bc85f."
+		},
+		{
+			"id": "shortsword",
+			"kind": "item",
+			"name": "Shortsword",
+			"prompt_inputs": {
+				"descriptors": "Pixel art of a plain shortsword with a leather-wrapped grip, blade upward. Sixteen-bit fantasy sprite, isolated, centered, filling the canvas, muted midnight-blue, aged-gold, sage and parchment palette with warm accents, clean readable silhouette, no letters, no words, no watermark, no frame."
+			},
+			"size": {
+				"width": 64,
+				"height": 64
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/items/shortsword.webp",
+			"target_attachment_ref": "entity_definition:srd/weapon/shortsword#kavemouth.art.image",
+			"provider": "pixellab-pixen",
+			"sha256": "4acee6f5eae578596f30262c39a59aa22813ac7ce9622caa5068ba8472126b0e",
+			"license": "CC-BY-4.0",
+			"generated_at": "2026-09-02T09:34:33.825Z",
+			"blueprint": ".impeccable/mocks/pixellab/srd/item-shortsword.blueprint.json",
+			"notes": "Part-1 SRD world-art pilot (commit d4ca743d4, 2026-09-02). Sidecar records only prompt+createdAt; no generation id. Blueprint schema is spellkave-pixellab-blueprint/v1 under .impeccable/mocks/pixellab/srd (woven-v1 palette). Route not stamped; provider recorded as pixellab-pixen per sk-jay0.3.5.29 when unknown. Moved into this package in bf89bc85f."
+		},
+		{
+			"id": "shield",
+			"kind": "item",
+			"name": "Shield",
+			"prompt_inputs": {
+				"descriptors": "Pixel art of a round wooden shield with an iron boss and a tree motif. Sixteen-bit fantasy sprite, isolated, centered, filling the canvas, muted midnight-blue, aged-gold, sage and parchment palette with warm accents, clean readable silhouette, no letters, no words, no watermark, no frame."
+			},
+			"size": {
+				"width": 64,
+				"height": 64
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/items/shield.webp",
+			"target_attachment_ref": "entity_definition:srd/armor/shield#kavemouth.art.image",
+			"provider": "pixellab-pixen",
+			"sha256": "be80212047cbc7a5271c936d9635306ffba8bcda00f30b148cd2539e2dd373df",
+			"license": "CC-BY-4.0",
+			"generated_at": "2026-09-02T09:34:33.789Z",
+			"blueprint": ".impeccable/mocks/pixellab/srd/item-shield.blueprint.json",
+			"notes": "Part-1 SRD world-art pilot (commit d4ca743d4, 2026-09-02). Sidecar records only prompt+createdAt; no generation id. Blueprint schema is spellkave-pixellab-blueprint/v1 under .impeccable/mocks/pixellab/srd (woven-v1 palette). Route not stamped; provider recorded as pixellab-pixen per sk-jay0.3.5.29 when unknown. Moved into this package in bf89bc85f."
+		},
+		{
+			"id": "healing-potion",
+			"kind": "item",
+			"name": "Healing potion",
+			"prompt_inputs": {
+				"descriptors": "Pixel art of a small glass flask of red healing potion with a cork. Sixteen-bit fantasy sprite, isolated, centered, filling the canvas, muted midnight-blue, aged-gold, sage and parchment palette with warm accents, clean readable silhouette, no letters, no words, no watermark, no frame."
+			},
+			"size": {
+				"width": 64,
+				"height": 64
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/items/healing-potion.webp",
+			"target_attachment_ref": "entity_definition:srd/item/potion-of-healing#kavemouth.art.image",
+			"provider": "pixellab-pixen",
+			"sha256": "7ea5e3addcf17febb0d8cb5b8287dd14ad1eee237ba62e729caaf442257afbfa",
+			"license": "CC-BY-4.0",
+			"generated_at": "2026-09-02T09:34:33.633Z",
+			"blueprint": ".impeccable/mocks/pixellab/srd/item-healing-potion.blueprint.json",
+			"notes": "Part-1 SRD world-art pilot (commit d4ca743d4, 2026-09-02). Sidecar records only prompt+createdAt; no generation id. Blueprint schema is spellkave-pixellab-blueprint/v1 under .impeccable/mocks/pixellab/srd (woven-v1 palette). Route not stamped; provider recorded as pixellab-pixen per sk-jay0.3.5.29 when unknown. Moved into this package in bf89bc85f."
+		},
+		{
+			"id": "lantern",
+			"kind": "item",
+			"name": "Lantern",
+			"prompt_inputs": {
+				"descriptors": "Pixel art of a hooded iron lantern with a lit candle. Sixteen-bit fantasy sprite, isolated, centered, filling the canvas, muted midnight-blue, aged-gold, sage and parchment palette with warm accents, clean readable silhouette, no letters, no words, no watermark, no frame."
+			},
+			"size": {
+				"width": 64,
+				"height": 64
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/items/lantern.webp",
+			"target_attachment_ref": "entity_definition:srd/item/lantern-hooded#kavemouth.art.image",
+			"provider": "pixellab-pixen",
+			"sha256": "8a06e3f0a38605effbe625613d605a57c793f445cfb94315182e802af9485c5b",
+			"license": "CC-BY-4.0",
+			"generated_at": "2026-09-02T09:34:33.672Z",
+			"blueprint": ".impeccable/mocks/pixellab/srd/item-lantern.blueprint.json",
+			"notes": "Part-1 SRD world-art pilot (commit d4ca743d4, 2026-09-02). Sidecar records only prompt+createdAt; no generation id. Blueprint schema is spellkave-pixellab-blueprint/v1 under .impeccable/mocks/pixellab/srd (woven-v1 palette). Route not stamped; provider recorded as pixellab-pixen per sk-jay0.3.5.29 when unknown. Moved into this package in bf89bc85f."
+		},
+		{
+			"id": "road-wolf",
+			"kind": "creature",
+			"name": "Road Wolf",
+			"prompt_inputs": {
+				"descriptors": "Lean wolf standing alone, full-body south-facing, no bridge, no ground, no scenery, one animal only."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/creature/road-wolf.webp",
+			"target_attachment_ref": "entity_definition:srd/creature/wolf#kavemouth.art.image"
+		},
+		{
+			"id": "stirge",
+			"kind": "creature",
+			"name": "Stirge",
+			"prompt_inputs": {
+				"descriptors": "A blood-drinker stirge among the moonpetal."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/creature/stirge.webp",
+			"target_attachment_ref": "entity_definition:srd/creature/stirge#kavemouth.art.image"
+		},
+		{
+			"id": "mill-cultist",
+			"kind": "creature",
+			"name": "Cultist",
+			"prompt_inputs": {
+				"descriptors": "Human cultist in ragged robes with a hood, full-body south-facing person, no windmill, no scenery, one subject."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/creature/mill-cultist.webp",
+			"target_attachment_ref": "entity_definition:srd/creature/cultist#kavemouth.art.image"
+		},
+		{
+			"id": "sister-maelis",
+			"kind": "creature",
+			"name": "Sister Maelis",
+			"prompt_inputs": {
+				"descriptors": "Human woman fanatic priest in red-and-gold robes, full-body south-facing, readable face, not a symbol or emblem, no scenery, one person."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/creature/sister-maelis.webp",
+			"target_attachment_ref": "entity:kavemouth/adventure/encounter/sister_maelis_1#kavemouth.art.image"
+		},
+		{
+			"id": "hobgoblin-warrior",
+			"kind": "creature",
+			"name": "Hobgoblin Warrior",
+			"prompt_inputs": {
+				"descriptors": "A hobgoblin warrior of Ghorza's road raiders."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/creature/hobgoblin-warrior.webp",
+			"target_attachment_ref": "entity_definition:srd/creature/hobgoblin-warrior#kavemouth.art.image"
+		},
+		{
+			"id": "warcaptain-ghorza",
+			"kind": "creature",
+			"name": "Warcaptain Ghorza",
+			"prompt_inputs": {
+				"descriptors": "Warcaptain Ghorza, leader of the road raids."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/creature/warcaptain-ghorza.webp",
+			"target_attachment_ref": "entity:kavemouth/adventure/encounter/warcaptain_ghorza_1#kavemouth.art.image"
+		},
+		{
+			"id": "worg",
+			"kind": "creature",
+			"name": "Worg",
+			"prompt_inputs": {
+				"descriptors": "A worg staked at the pens — second wave of the raid fight."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/creature/worg.webp",
+			"target_attachment_ref": "entity_definition:srd/creature/worg#kavemouth.art.image"
+		},
+		{
+			"id": "giant-spider",
+			"kind": "creature",
+			"name": "Giant Spider",
+			"prompt_inputs": {
+				"descriptors": "Giant spider full-body, eight legs, no tree branch, no web scenery, no ground, one creature only."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/creature/giant-spider.webp",
+			"target_attachment_ref": "entity_definition:srd/creature/giant-spider#kavemouth.art.image"
+		},
+		{
+			"id": "owlbear",
+			"kind": "creature",
+			"name": "Owlbear",
+			"prompt_inputs": {
+				"descriptors": "Owlbear hybrid full-body south-facing, no floor, no checkerboard, no scenery, one creature only."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/creature/owlbear.webp",
+			"target_attachment_ref": "entity_definition:srd/creature/owlbear#kavemouth.art.image"
+		},
+		{
+			"id": "goblin-minion",
+			"kind": "creature",
+			"name": "Goblin Minion",
+			"prompt_inputs": {
+				"descriptors": "A goblin minion of Grubnash's warren."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/creature/goblin-minion.webp",
+			"target_attachment_ref": "entity_definition:srd/creature/goblin-minion#kavemouth.art.image"
+		},
+		{
+			"id": "goblin-warrior",
+			"kind": "creature",
+			"name": "Goblin Warrior",
+			"prompt_inputs": {
+				"descriptors": "A goblin warrior at the warren guard post."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/creature/goblin-warrior.webp",
+			"target_attachment_ref": "entity_definition:srd/creature/goblin-warrior#kavemouth.art.image"
+		},
+		{
+			"id": "grubnash",
+			"kind": "creature",
+			"name": "Grubnash",
+			"prompt_inputs": {
+				"descriptors": "Goblin boss, small green humanoid with a crude crown, full-body south-facing, not a boar, no scenery, one goblin."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/creature/grubnash.webp",
+			"target_attachment_ref": "entity:kavemouth/adventure/encounter/grubnash_1#kavemouth.art.image"
+		},
+		{
+			"id": "ulda",
+			"kind": "creature",
+			"name": "Ulda Reedwife",
+			"prompt_inputs": {
+				"descriptors": "Ulda Reedwife, green hag of the swamp."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/creature/ulda.webp",
+			"target_attachment_ref": "entity:kavemouth/adventure/encounter/ulda_1#kavemouth.art.image"
+		},
+		{
+			"id": "giant-frog",
+			"kind": "creature",
+			"name": "Giant Frog",
+			"prompt_inputs": {
+				"descriptors": "Giant frog full-body, no lily pad, no water, no scenery, one frog only."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/creature/giant-frog.webp",
+			"target_attachment_ref": "entity_definition:srd/creature/giant-frog#kavemouth.art.image"
+		},
+		{
+			"id": "will-o-wisp",
+			"kind": "creature",
+			"name": "Will-o'-Wisp",
+			"prompt_inputs": {
+				"descriptors": "Floating orb of pale ghost-light, no bird, no body, no wings, no scenery, one wisp only."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/creature/will-o-wisp.webp",
+			"target_attachment_ref": "entity_definition:srd/creature/will-o-wisp#kavemouth.art.image"
+		},
+		{
+			"id": "skeleton",
+			"kind": "creature",
+			"name": "Skeleton",
+			"prompt_inputs": {
+				"descriptors": "A skeleton pacing the mine gallery."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/creature/skeleton.webp",
+			"target_attachment_ref": "entity_definition:srd/creature/skeleton#kavemouth.art.image"
+		},
+		{
+			"id": "ghoul",
+			"kind": "creature",
+			"name": "Ghoul",
+			"prompt_inputs": {
+				"descriptors": "A ghoul in the side den."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/creature/ghoul.webp",
+			"target_attachment_ref": "entity_definition:srd/creature/ghoul#kavemouth.art.image"
+		},
+		{
+			"id": "ghast",
+			"kind": "creature",
+			"name": "Ghast",
+			"prompt_inputs": {
+				"descriptors": "Gaunt full-body undead humanoid, one creature, no detached skull, no extra limbs, no scenery."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/creature/ghast.webp",
+			"target_attachment_ref": "entity_definition:srd/creature/ghast#kavemouth.art.image"
+		},
+		{
+			"id": "durgan-ironfold",
+			"kind": "creature",
+			"name": "Durgan Ironfold",
+			"prompt_inputs": {
+				"descriptors": "Durgan Ironfold, last dwarf of the mine, wight-cursed."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/creature/durgan-ironfold.webp",
+			"target_attachment_ref": "entity:kavemouth/adventure/encounter/durgan_ironfold_1#kavemouth.art.image"
+		},
+		{
+			"id": "bound-wight",
+			"kind": "creature",
+			"name": "Bound Wight",
+			"prompt_inputs": {
+				"descriptors": "A wight bound to the Steward's niche."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/creature/bound-wight.webp",
+			"target_attachment_ref": "entity_definition:srd/creature/wight#kavemouth.art.image"
+		},
+		{
+			"id": "shadow",
+			"kind": "creature",
+			"name": "Shadow",
+			"prompt_inputs": {
+				"descriptors": "Humanoid living-shadow silhouette, upright person-shaped, not a tree, no scenery, one subject."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/creature/shadow.webp",
+			"target_attachment_ref": "entity_definition:srd/creature/shadow#kavemouth.art.image"
+		},
+		{
+			"id": "shrine-specter",
+			"kind": "creature",
+			"name": "Shrine Specter",
+			"prompt_inputs": {
+				"descriptors": "Tattered specter, one full-body ghost, no extra detached limbs, no scenery."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/creature/shrine-specter.webp",
+			"target_attachment_ref": "entity_definition:srd/creature/specter#kavemouth.art.image"
+		},
+		{
+			"id": "pale-steward",
+			"kind": "creature",
+			"name": "The Pale Steward",
+			"prompt_inputs": {
+				"descriptors": "The Pale Steward, specter bound under the tomb."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/creature/pale-steward.webp",
+			"target_attachment_ref": "entity:kavemouth/adventure/encounter/pale_steward_1#kavemouth.art.image"
+		},
+		{
+			"id": "wererat",
+			"kind": "creature",
+			"name": "Wererat",
+			"prompt_inputs": {
+				"descriptors": "A wererat of the nest under the well."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/creature/wererat.webp",
+			"target_attachment_ref": "entity_definition:srd/creature/wererat#kavemouth.art.image"
+		},
+		{
+			"id": "gray-ooze",
+			"kind": "creature",
+			"name": "Gray Ooze",
+			"prompt_inputs": {
+				"descriptors": "Amorphous gray slime puddle, no well, no humanoid, no stone rim, no scenery, one ooze."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/creature/gray-ooze.webp",
+			"target_attachment_ref": "entity_definition:srd/creature/gray-ooze#kavemouth.art.image"
+		},
+		{
+			"id": "zombie",
+			"kind": "creature",
+			"name": "Zombie",
+			"prompt_inputs": {
+				"descriptors": "Shambling zombie, one full-body undead, no detached extra arms, no scenery."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/creature/zombie.webp",
+			"target_attachment_ref": "entity_definition:srd/creature/zombie#kavemouth.art.image"
+		},
+		{
+			"id": "ogre-zombie",
+			"kind": "creature",
+			"name": "Ogre Zombie",
+			"prompt_inputs": {
+				"descriptors": "An ogre zombie waiting in the alcove."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/creature/ogre-zombie.webp",
+			"target_attachment_ref": "entity_definition:srd/creature/ogre-zombie#kavemouth.art.image"
+		},
+		{
+			"id": "captain-ysolde-farwind",
+			"kind": "person",
+			"name": "Captain Ysolde Farwind",
+			"prompt_inputs": {
+				"descriptors": "Elven watch captain at the hamlet gate."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/person/captain-ysolde-farwind.webp",
+			"target_attachment_ref": "entity:kavemouth/adventure/npc/ysolde_1#kavemouth.art.image"
+		},
+		{
+			"id": "old-tamsin",
+			"kind": "person",
+			"name": "Old Tamsin",
+			"prompt_inputs": {
+				"descriptors": "Herbalist who knows the swamp and the green's moonpetal."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/person/old-tamsin.webp",
+			"target_attachment_ref": "entity:kavemouth/adventure/npc/tamsin_1#kavemouth.art.image"
+		},
+		{
+			"id": "jory-millwright",
+			"kind": "person",
+			"name": "Jory Millwright",
+			"prompt_inputs": {
+				"descriptors": "Miller's son who escaped the silent mill."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/person/jory-millwright.webp",
+			"target_attachment_ref": "entity:kavemouth/adventure/npc/jory_1#kavemouth.art.image"
+		},
+		{
+			"id": "hesper-of-the-lodge",
+			"kind": "person",
+			"name": "Hesper of the Lodge",
+			"prompt_inputs": {
+				"descriptors": "Gamekeeper of the lodge in the forest — companion candidate."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/person/hesper-of-the-lodge.webp",
+			"target_attachment_ref": "entity:kavemouth/adventure/npc/hesper_1#kavemouth.art.image"
+		},
+		{
+			"id": "vessk",
+			"kind": "person",
+			"name": "Vessk",
+			"prompt_inputs": {
+				"descriptors": "Small kobold scout, scaled reptilian humanoid with a snout, full-body south-facing, not a dwarf, no scenery, one kobold."
+			},
+			"size": {
+				"width": 96,
+				"height": 96
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/person/vessk.webp",
+			"target_attachment_ref": "entity:kavemouth/adventure/npc/vessk_1#kavemouth.art.image"
+		},
+		{
+			"id": "moonpetal",
+			"kind": "item",
+			"name": "Moonpetal",
+			"prompt_inputs": {
+				"descriptors": "Single pale night-bloom flower, object only, no circular frame, no background disc, no scenery."
+			},
+			"size": {
+				"width": 64,
+				"height": 64
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/item/moonpetal.webp",
+			"target_attachment_ref": "entity_definition:kavemouth/adventure/item/moonpetal#kavemouth.art.image"
+		},
+		{
+			"id": "cult-relic",
+			"kind": "item",
+			"name": "Cult Relic",
+			"prompt_inputs": {
+				"descriptors": "Small handheld carved idol relic, object only, no windmill, no scenery, no hands."
+			},
+			"size": {
+				"width": 64,
+				"height": 64
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/item/cult-relic.webp",
+			"target_attachment_ref": "entity_definition:kavemouth/adventure/item/cult_relic#kavemouth.art.image"
+		},
+		{
+			"id": "ironfold-tomb-key",
+			"kind": "item",
+			"name": "Ironfold Tomb Key",
+			"prompt_inputs": {
+				"descriptors": "The key Durgan kept — opens the deep tomb."
+			},
+			"size": {
+				"width": 64,
+				"height": 64
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/item/ironfold-tomb-key.webp",
+			"target_attachment_ref": "entity_definition:kavemouth/adventure/item/tomb_key#kavemouth.art.image"
+		},
+		{
+			"id": "longsword-plus-1",
+			"kind": "item",
+			"name": "Longsword (+1)",
+			"prompt_inputs": {
+				"descriptors": "Sister Maelis's prize — Q4 boss table representative drop (srd/loot/boss/q4-fanatic)."
+			},
+			"size": {
+				"width": 64,
+				"height": 64
+			},
+			"output_path": "packages/spellkave-adventure-kavemouth/assets/kavemouth-art/item/longsword-plus-1.webp",
+			"target_attachment_ref": "entity_definition:srd/magic_item/longsword-plus-1#kavemouth.art.image"
+		}
+	],
+	"post_pass": {
+		"route": "reduce-colors",
+		"palette_path": ".impeccable/style-packs/entity-art-v1/palette.png"
+	}
+}

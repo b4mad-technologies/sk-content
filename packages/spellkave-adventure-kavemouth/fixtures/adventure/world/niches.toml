@@ -1,0 +1,512 @@
+[[niche_definitions]]
+bundle_id = "kavemouth"
+description = "The crypt's stagnant pool (tomb.ts's 'pool' node) — its surface ripples with something unseen beneath. Marks the pool as a hazard for presence/disclosure only; no on-entry damage is wired yet (sk-pxl proposal.md non-goal — a content follow-up)."
+display_name = "Slime Pool Hazard"
+niche_id = "kavemouth/niche/hazard_pool"
+predicate_source = ""
+
+[[niche_definitions]]
+bundle_id = "kavemouth"
+description = "A grounded chest with a hinged lid."
+display_name = "Hinged chest lid"
+niche_id = "kavemouth/adventure/loft-chest/lid"
+predicate_source = "target.has_niche('kavemouth.loft_chest.hinged') && target.has_niche('core/grounded')"
+provider = "entity"
+
+[[niche_definitions]]
+bundle_id = "kavemouth"
+description = "actor-carried-verbs: self-only way back for a hero that is down or dead."
+display_name = "Wake at the inn (self)"
+niche_id = "kavemouth/niche/wake-at-inn"
+predicate_source = ""
+provider = "actor"
+
+[[niche_definitions]]
+bundle_id = "kavemouth"
+description = "The sealed stair beneath the Crypt Warden."
+display_name = "Ironfold ward-key socket"
+niche_id = "kavemouth/niche/ironfold-seal"
+predicate_source = ""
+
+[[niche_definitions]]
+bundle_id = "kavemouth"
+description = "The empty basket Old Tamsin holds out on the village green."
+display_name = "Old Tamsin's basket"
+niche_id = "kavemouth/niche/tamsins-basket"
+predicate_source = ""
+
+[[niche_definitions]]
+bundle_id = "kavemouth"
+description = "The altar of the Chaff cult, where Sister Maelis keeps her vigil."
+display_name = "The mill altar"
+niche_id = "kavemouth/niche/accept-maelis-surrender"
+predicate_source = ""
+
+[[niche_definitions]]
+bundle_id = "kavemouth"
+description = "The cookfire at the heart of the war camp, ringed by dry canvas."
+display_name = "The camp cookfire"
+niche_id = "kavemouth/niche/burn-the-camp"
+predicate_source = ""
+
+[[niche_definitions]]
+bundle_id = "kavemouth"
+description = "The chief's hall of the warren, where Grubnash holds court."
+display_name = "Grubnash's hall"
+niche_id = "kavemouth/niche/strike-truce-with-grubnash"
+predicate_source = ""
+
+[[niche_definitions]]
+bundle_id = "kavemouth"
+description = "The cold altar of the shrine, its lamps long out."
+display_name = "The altar of the Twin Lamps"
+niche_id = "kavemouth/niche/relight-the-altar"
+predicate_source = ""
+
+[[niche_definitions]]
+bundle_id = "kavemouth"
+description = "A body addressed by an authored privileged act."
+display_name = "DM act target"
+niche_id = "kavemouth/dm/act-target"
+predicate_source = ""
+provider = "actor"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "kavemouth/niche/hazard_pool"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/tomb/pool"
+visibility = "Local"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "dm/niche/aldwin"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/inn/common_room"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "dm/niche/trainee-present"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/inn/common_room"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "dm/niche/aldwin"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/advancement_limbo/station"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "dm/niche/trainee-present"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/advancement_limbo/station"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "dm/niche/creation-station"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/creation_limbo/station"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "kavemouth/niche/ironfold-seal"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/tomb/crypt"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "kavemouth/niche/tamsins-basket"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/village/green"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "kavemouth/niche/accept-maelis-surrender"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/mill/altar"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "kavemouth/niche/burn-the-camp"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/war_camp/cookfire"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "kavemouth/niche/strike-truce-with-grubnash"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/goblin_warren/chief_hall"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "kavemouth/niche/relight-the-altar"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/shrine/altar"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "core/mark_surface"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/creation_limbo/station"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "core/mark_surface"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/deep_tomb/ogre_alcove"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "core/mark_surface"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/deep_tomb/steward_court"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "core/mark_surface"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/deep_tomb/wight_niche_a"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "core/mark_surface"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/deep_tomb/wight_niche_b"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "core/mark_surface"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/deep_tomb/zombie_hall"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "core/mark_surface"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/goblin_warren/chief_hall"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "core/mark_surface"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/goblin_warren/common_den"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "core/mark_surface"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/goblin_warren/guard_post"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "core/mark_surface"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/hesper_lodge/clearing"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "core/mark_surface"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/hesper_lodge/tree_line"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "core/mark_surface"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/inn/cellar"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "core/mark_surface"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/mill/altar"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "core/mark_surface"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/mill/fork"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "core/mark_surface"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/mine/durgan_crypt"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "core/mark_surface"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/mine/ghoul_den"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "core/mark_surface"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/mine/lower_hall"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "core/mark_surface"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/mine/skeleton_gallery"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "core/mark_surface"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/shrine/nave"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "core/mark_surface"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/shrine/shadow_crypt"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "core/mark_surface"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/stonebridge/bridge_mid"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "core/mark_surface"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/swamp/frog_pool"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "core/mark_surface"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/swamp/hag_hut"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "core/mark_surface"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/swamp/will_o_wisp_glade"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "core/mark_surface"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/tomb/crypt"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "core/mark_surface"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/village/green"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "core/mark_surface"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/war_camp/command_tent"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "core/mark_surface"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/war_camp/tent_row"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "core/mark_surface"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/war_camp/worg_pens"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "core/mark_surface"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/well/depth_hall"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "core/mark_surface"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/well/ooze_pool"
+visibility = "Public"
+
+[[spatial_niche_attachments]]
+bundle_id = "kavemouth"
+condition_bool = true
+ecological_invariant = false
+niche_id = "core/mark_surface"
+on_entry_action_id = ""
+on_entry_target_entity_key = ""
+place_node_id = "kavemouth/well/wererat_nest"
+visibility = "Public"

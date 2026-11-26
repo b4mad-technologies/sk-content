@@ -1,0 +1,27 @@
+[[entity_definition_tag]]
+bundle_id = "kavemouth"
+entity_def_id = "kavemouth/item/torch"
+source = "manifest"
+tag = "srd.item.gear"
+
+[[entity_definition_tag]]
+bundle_id = "kavemouth"
+entity_def_id = "kavemouth/item/torch"
+source = "manifest"
+tag = "srd.item.light"
+
+[[entity_definitions]]
+affordance_seed_id = ""
+bundle_id = "kavemouth"
+description = "A pitch-soaked torch."
+display_name = "Torch"
+entity_def_id = "kavemouth/item/torch"
+grants_capability_while_equipped = ""
+grants_capability_while_present_in_location = ""
+lineage_id = ""
+on_consume_consequence_id = ""
+on_destroy_consequence_id = ""
+on_equip_consequence_id = ""
+on_unequip_consequence_id = ""
+slot_compatibility_predicate = ""
+stackable = false

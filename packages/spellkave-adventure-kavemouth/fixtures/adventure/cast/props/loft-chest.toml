@@ -1,0 +1,64 @@
+[[entities]]
+bundle_id = "kavemouth"
+description = "A plain traveler's chest at the foot of the loft bed, with a hinged lid."
+entity_def_id = "srd/item/chest"
+entity_key = "kavemouth/adventure/item/loft_chest_1"
+kind = "item"
+name = "Chest"
+owned_by_entity_key = ""
+place_node_id = "kavemouth/inn/loft"
+quantity = 1
+
+[[entities]]
+bundle_id = "kavemouth"
+description = "A corked vial of Potion of Healing, tucked in the loft chest."
+entity_def_id = "srd/item/potion-of-healing"
+entity_key = "kavemouth/adventure/item/loft_chest_potion_1"
+kind = "item"
+name = "Potion of Healing 1"
+owned_by_entity_key = ""
+place_node_id = "kavemouth/inn/loft"
+quantity = 1
+
+[[entities]]
+bundle_id = "kavemouth"
+description = "A corked vial of Potion of Healing, tucked in the loft chest."
+entity_def_id = "srd/item/potion-of-healing"
+entity_key = "kavemouth/adventure/item/loft_chest_potion_2"
+kind = "item"
+name = "Potion of Healing 2"
+owned_by_entity_key = ""
+place_node_id = "kavemouth/inn/loft"
+quantity = 1
+
+[[entity_containment]]
+container_entity_key = "kavemouth/adventure/item/loft_chest_1"
+direction = ""
+entity_key = "kavemouth/adventure/item/loft_chest_potion_1"
+slot_id = ""
+
+[[entity_containment]]
+container_entity_key = "kavemouth/adventure/item/loft_chest_1"
+direction = ""
+entity_key = "kavemouth/adventure/item/loft_chest_potion_2"
+slot_id = ""
+
+[[entity_containment_policy]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/item/loft_chest_1"
+policy_id = "kavemouth/containment/loft-chest"
+
+[[entity_tag]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/item/loft_chest_1"
+source = "manifest"
+tag = "kavemouth.loft_chest.hinged"
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/item/loft_chest_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/adventure/loft-chest/open"
+value_bool = true
+value_int = 0

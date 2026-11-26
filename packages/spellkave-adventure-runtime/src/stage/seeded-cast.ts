@@ -103,7 +103,7 @@ export function readOperatorAuthoredKeys(db: string, server = "local"): Map<stri
 /**
  * The authored keys in a `SELECT manifest_key` table from `spacetime sql`,
  * mapped to their bundle. Stored keys carry their bundle
- * (`elven_mini:elven_mini/adventure/innkeeper_1`); the cast names the part
+ * (`kavemouth:kavemouth/adventure/innkeeper_1`); the cast names the part
  * after the first `:`, the same match the SDK's `resolveEntityId` makes.
  */
 export function authoredKeysFromSql(output: string): Map<string, string> {

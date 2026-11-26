@@ -1,6 +1,6 @@
 // pattern: proactive-level-up
 /**
- * Level-up trainee enrolment (generic). Moved-by-copy from the elven-mini
+ * Level-up trainee enrolment (generic). Moved-by-copy from the kavemouth
  * Aldwin seat's `enrollLevelUpCandidateThroughPlayerTool`: a direct,
  * server-authoritative PLAYER-tool attempt (ADR-0140). It has no outcome-graph
  * resolution, so success is the receipt's reducer outcome `accepted`.

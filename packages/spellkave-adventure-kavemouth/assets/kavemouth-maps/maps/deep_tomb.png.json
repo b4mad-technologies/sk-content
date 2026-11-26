@@ -1,0 +1,56 @@
+{
+	"schema": "spellkave-design-asset-provenance/v1",
+	"kind": "place-map",
+	"place_graph_id": "kavemouth/deep_tomb",
+	"provider": "pixellab-pixflux",
+	"tool": "skgen image pixellab generate",
+	"sdk": {
+		"package": "@pixellab-code/pixellab",
+		"version": "1.0.2",
+		"patch": "patches/@pixellab-code__pixellab@1.0.2.patch"
+	},
+	"provider_ids": {
+		"api_base_url": "https://api.pixellab.ai/v1",
+		"route": "/generate-image-pixflux"
+	},
+	"prompt": "A deep burial level of dark stone: a stair, a barred gate, a long hall, an alcove, a processional way, a pillared court and two burial niches. Top-down pixel art game map seen from straight above, one continuous scene, muted earthy palette, soft shading, readable floors and walls, no characters, no creatures, no text, no letters, no numbers, no grid lines, no frame, no logo.",
+	"request": {
+		"description": "A deep burial level of dark stone: a stair, a barred gate, a long hall, an alcove, a processional way, a pillared court and two burial niches. Top-down pixel art game map seen from straight above, one continuous scene, muted earthy palette, soft shading, readable floors and walls, no characters, no creatures, no text, no letters, no numbers, no grid lines, no frame, no logo.",
+		"image_size": {
+			"width": 400,
+			"height": 320
+		},
+		"negative_description": "text, letters, numbers, labels, grid, people, monsters, isometric, side view, border, watermark",
+		"text_guidance_scale": 8,
+		"outline": "selective outline",
+		"shading": "medium shading",
+		"detail": "highly detailed",
+		"view": "high top-down",
+		"direction": null,
+		"isometric": false,
+		"no_background": false,
+		"coverage_percentage": null,
+		"init_image": "packages/spellkave-adventure-kavemouth/assets/kavemouth-maps/plans/deep_tomb.png",
+		"init_image_strength": 90,
+		"color_image": null,
+		"seed": 2
+	},
+	"source_blueprint": "packages/spellkave-adventure-kavemouth/art/maps/deep_tomb.blueprint.json",
+	"source_blueprint_sha256": "2c2986c23f5bc098bbe8122668ee035dcf2ea5b410ded712739db6bda6cb3c06",
+	"source_plan": "packages/spellkave-adventure-kavemouth/assets/kavemouth-maps/plans/deep_tomb.png",
+	"source_plan_sha256": "a439f6e38f167eed391aaa068e462c2ffeced8d557cc25cc521268abd18438d8",
+	"provenance": {
+		"license": "CC-BY-4.0",
+		"source": "Generated with PixelLab over a first-party floor plan (author/lib/layouts.ts, scripts/build-map-inputs.ts)"
+	},
+	"usage": {
+		"type": "generations",
+		"generations": 1
+	},
+	"generated_at": "2026-11-26T21:54:48.005Z",
+	"dimensions": [
+		400,
+		320
+	],
+	"sha256": "383326d8fe16bd46b000293f633daa7686835c8c96d7838fd516615186f229d2"
+}

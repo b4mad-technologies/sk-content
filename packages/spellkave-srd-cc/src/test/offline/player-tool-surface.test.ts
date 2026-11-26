@@ -27,7 +27,7 @@ describe("createPlayerFacingToolMap surface", () => {
 			id: "94",
 			title: "PLAYER exposes a direct NPC communication surface",
 			expected:
-				"createPlayerFacingToolMap exposes a communicate/talk tool, so a story chapter can speak to a co-located NPC (e.g. Mira, elven-mini's innkeeper) through a PLAYER-facing tool.",
+				"createPlayerFacingToolMap exposes a communicate/talk tool, so a story chapter can speak to a co-located NPC (e.g. Mira, kavemouth's innkeeper) through a PLAYER-facing tool.",
 			observed:
 				"The PLAYER map exposes spellkave_communicate with explicit target and speech-act inputs.",
 			impact:

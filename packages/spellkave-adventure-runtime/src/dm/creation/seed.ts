@@ -186,7 +186,7 @@ const DIRECTED_TRACE_AUDIENCE = "core/audience/directed_trace";
 
 /**
  * How far back (ticks) the binding directed-speech trace may lie, for a
- * `DirectedTrace` audience. `packages/spellkave-adventure-elven-mini/fixtures/
+ * `DirectedTrace` audience. `packages/spellkave-adventure-kavemouth/fixtures/
  * story/agent-run-events.jsonl` records Aldwin's spoken question landing 1-2
  * steps after the phase flips true and the candidate's accepted answer
  * landing 2-4 steps after that (e.g. line 7 phase→1, line 9 the spoken

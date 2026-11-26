@@ -48,7 +48,7 @@ mechanics_section = "mechanics"
 # First matching `prefix` wins (same precedence rule `entity_routes` uses). An
 # id no row matches falls to `mechanics_section` above, never to a hard-coded
 # default: that is what places a non-SRD bundle's own resources (`dm/...`,
-# `elven_mini/quest/...`) beside its other mechanics rows, the same way
+# `kavemouth/quest/...`) beside its other mechanics rows, the same way
 # `[[kind_sections]]` places every other mechanics row kind — those bundles
 # declare a `mechanics` section on their own docs page but no SRD-shaped id
 # namespace, so no row here should ever try to match their ids.

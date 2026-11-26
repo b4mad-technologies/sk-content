@@ -30185,7 +30185,7 @@ value_kind = "int"
 
 [[resource_definitions]]
 bundle_id = "dm"
-description = "sk-0m4.19 consent latch: 0 = not accepted (also the decline write), 1 = the hero accepted Aldwin's proactive offer. TARGET-carried on the trainee. Seeded in the dm bundle so the elven-mini hearth-return action can ModifyResource it; level-up/enroll still materialises the object_state row; the into-limbo teleport gates on 1; the hearth return clears it."
+description = "sk-0m4.19 consent latch: 0 = not accepted (also the decline write), 1 = the hero accepted Aldwin's proactive offer. TARGET-carried on the trainee. Seeded in the dm bundle so the kavemouth hearth-return action can ModifyResource it; level-up/enroll still materialises the object_state row; the into-limbo teleport gates on 1; the hearth return clears it."
 display_name = "Level-Up Offer Accepted"
 initial_value = 0
 max_value = 1

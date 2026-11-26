@@ -1,0 +1,23 @@
+{
+	"schema": "spellkave-pixellab-blueprint/v1",
+	"id": "kavemouth-map-war-camp",
+	"description": "A disciplined war camp on trampled ground: a picket line, a row of tents, a cookfire, animal pens, a large command tent and a trail leading out the back. Top-down pixel art game map seen from straight above, one continuous scene, muted earthy palette, soft shading, readable floors and walls, no characters, no creatures, no text, no letters, no numbers, no grid lines, no frame, no logo.",
+	"negative_description": "text, letters, numbers, labels, grid, people, monsters, isometric, side view, border, watermark",
+	"image_size": {
+		"width": 384,
+		"height": 352
+	},
+	"view": "high top-down",
+	"outline": "selective outline",
+	"shading": "medium shading",
+	"detail": "highly detailed",
+	"init_image": "packages/spellkave-adventure-kavemouth/assets/kavemouth-maps/plans/war_camp.png",
+	"init_image_strength": 115,
+	"seed": 1,
+	"output_directory": "pixellab-generations/kavemouth-maps/war_camp",
+	"output_filename": "war_camp.png",
+	"provenance": {
+		"license": "CC-BY-4.0",
+		"source": "Kavemouth place backdrops over first-party floor plans (author/lib/layouts.ts)"
+	}
+}

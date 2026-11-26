@@ -7,7 +7,7 @@
  * ## What this replaces
  *
  * Before the identity bridge existed, every hero repeated the same
- * `entity_definition_initial_capability` rows by hand — elven-mini's Aldwin
+ * `entity_definition_initial_capability` rows by hand — kavemouth's Aldwin
  * carried eleven, seven of them pure hero verbs, and hero number two would
  * have carried the same seven again. That is the "a rule the world should
  * select, expressed as a hand-maintained list" bug class this package

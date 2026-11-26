@@ -1,0 +1,5520 @@
+[[action_definitions]]
+action_id = "kavemouth/adventure/loft-chest/open"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "Open the hinged chest lid."
+display_name = "Open"
+non_steering = true
+on_failure = ""
+on_success = "kavemouth/adventure/loft-chest/open/success"
+required_capability = "srd/action/pickup"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+spends_channel = "srd/economy_channel/object_interaction"
+
+[[action_definitions]]
+action_id = "kavemouth/adventure/loft-chest/close"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "Close the hinged chest lid."
+display_name = "Close"
+non_steering = true
+on_failure = ""
+on_success = "kavemouth/adventure/loft-chest/close/success"
+required_capability = "srd/action/pickup"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+spends_channel = "srd/economy_channel/object_interaction"
+
+[[action_definitions]]
+action_id = "kavemouth/quest/Q1/accept"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "Record the accepted quest after the visitor chooses the offered answer."
+display_name = "Record Rats in the Cellar agreement"
+on_failure = ""
+on_success = "kavemouth/quest/Q1/accept/success"
+required_capability = "kavemouth/quest/Q1/record-acceptance"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = true
+self_only = true
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/quest/Q2/accept"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "Record the accepted quest after the visitor chooses the offered answer."
+display_name = "Record Road Watch agreement"
+on_failure = ""
+on_success = "kavemouth/quest/Q2/accept/success"
+required_capability = "kavemouth/quest/Q2/record-acceptance"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/quest/Q3/accept"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "Record the accepted quest after the visitor chooses the offered answer."
+display_name = "Record Tamsin's Basket agreement"
+on_failure = ""
+on_success = "kavemouth/quest/Q3/accept/success"
+required_capability = "kavemouth/quest/Q3/record-acceptance"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = true
+self_only = true
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/quest/Q4/accept"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "Record the accepted quest after the visitor chooses the offered answer."
+display_name = "Record The Silent Mill agreement"
+on_failure = ""
+on_success = "kavemouth/quest/Q4/accept/success"
+required_capability = "kavemouth/quest/Q4/record-acceptance"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/quest/Q5/accept"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "Record the accepted quest after the visitor chooses the offered answer."
+display_name = "Record Break the Raid agreement"
+on_failure = ""
+on_success = "kavemouth/quest/Q5/accept/success"
+required_capability = "kavemouth/quest/Q5/record-acceptance"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/quest/Q6/accept"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "Record the accepted quest after the visitor chooses the offered answer."
+display_name = "Record The Lodge Fire agreement"
+on_failure = ""
+on_success = "kavemouth/quest/Q6/accept/success"
+required_capability = "kavemouth/quest/Q6/record-acceptance"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = true
+self_only = true
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/quest/Q7/accept"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "Record the accepted quest after the visitor chooses the offered answer."
+display_name = "Record Grubnash's Warren agreement"
+on_failure = ""
+on_success = "kavemouth/quest/Q7/accept/success"
+required_capability = "kavemouth/quest/Q7/record-acceptance"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = true
+self_only = true
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/quest/Q8/accept"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "Record the accepted quest after the visitor chooses the offered answer."
+display_name = "Record Ulda's Bargain agreement"
+on_failure = ""
+on_success = "kavemouth/quest/Q8/accept/success"
+required_capability = "kavemouth/quest/Q8/record-acceptance"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = true
+self_only = true
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/quest/Q9/accept"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "Record the accepted quest after the visitor chooses the offered answer."
+display_name = "Record The Ironfold Key agreement"
+on_failure = ""
+on_success = "kavemouth/quest/Q9/accept/success"
+required_capability = "kavemouth/quest/Q9/record-acceptance"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/quest/Q10/accept"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "Record the accepted quest after the visitor chooses the offered answer."
+display_name = "Record The Twin Lamps agreement"
+on_failure = ""
+on_success = "kavemouth/quest/Q10/accept/success"
+required_capability = "kavemouth/quest/Q10/record-acceptance"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = true
+self_only = true
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/quest/Q11/accept"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "Record the accepted quest after the visitor chooses the offered answer."
+display_name = "Record Whispers in the Well agreement"
+on_failure = ""
+on_success = "kavemouth/quest/Q11/accept/success"
+required_capability = "kavemouth/quest/Q11/record-acceptance"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = true
+self_only = true
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/quest/Q12/accept"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "Record the accepted quest after the visitor chooses the offered answer."
+display_name = "Record The Pale Steward agreement"
+on_failure = ""
+on_success = "kavemouth/quest/Q12/accept/success"
+required_capability = "kavemouth/quest/Q12/record-acceptance"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = true
+self_only = true
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/companion/rogue/accept"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "Record the invitation outcome; reopening proposes a fresh choice, never acceptance."
+display_name = "Companion invitation: accept"
+on_failure = ""
+on_success = "kavemouth/companion/rogue/accept/success"
+required_capability = "kavemouth/companion/rogue/record-agreement"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = true
+self_only = true
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/companion/rogue/decline"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "Record the invitation outcome; reopening proposes a fresh choice, never acceptance."
+display_name = "Companion invitation: decline"
+on_failure = ""
+on_success = "kavemouth/companion/rogue/decline/success"
+required_capability = "kavemouth/companion/rogue/record-agreement"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = true
+self_only = true
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/companion/rogue/reopen"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "Record the invitation outcome; reopening proposes a fresh choice, never acceptance."
+display_name = "Companion invitation: reopen"
+on_failure = ""
+on_success = "kavemouth/companion/rogue/reopen/success"
+required_capability = "kavemouth/companion/rogue/record-agreement"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = true
+self_only = true
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/companion/gift-stone"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "Hesper hands the hero her telepathy stone — one smooth river-stone that carries a voice across any distance once Aldwin records the bond."
+display_name = "Gift the telepathy stone"
+non_steering = true
+on_failure = ""
+on_success = "kavemouth/companion/gift-stone/success"
+required_capability = "kavemouth/companion/stone-giver"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/companion/hold"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "Through the stone you ask Hesper to stay where she is and keep watch. Inscribes a companion_command trace at her current place naming her as addressee; her own brain decides what to do with it."
+display_name = "Tell Hesper to hold"
+non_steering = true
+on_failure = ""
+on_success = "kavemouth/companion/hold/success"
+required_capability = "kavemouth/companion/command-bond"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/companion/follow"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "Through the stone you ask Hesper to come with you and keep pace. Inscribes a companion_command trace at her current place naming her as addressee; her own brain decides what to do with it."
+display_name = "Tell Hesper to follow"
+non_steering = true
+on_failure = ""
+on_success = "kavemouth/companion/follow/success"
+required_capability = "kavemouth/companion/command-bond"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/companion/cancel"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "Through the stone you tell Hesper to let the last request go and act as she sees fit. Inscribes a companion_command trace at her current place naming her as addressee; her own brain decides what to do with it."
+display_name = "Tell Hesper to stop"
+non_steering = true
+on_failure = ""
+on_success = "kavemouth/companion/cancel/success"
+required_capability = "kavemouth/companion/command-bond"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/dm/induct-candidate"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "Aldwin carries a finished creation candidate out of the limbo and sets them down in the adventure. Gated on the candidate having confirmed their creation (dm/creation/confirm). A cooperative, visible threshold beat — never a silent teleport."
+display_name = "Induct the finished candidate"
+non_steering = true
+on_failure = ""
+on_success = "kavemouth/dm/induct-candidate/success"
+required_capability = "kavemouth/action/dm/induct-candidate"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/respawn/wake-at-inn"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "You stop fighting for your life. Someone carries you back, and you wake in the inn loft the next morning at full health. It costs you 1 gold piece. You keep your experience, your quests and your gear."
+display_name = "Give up and wake at the inn"
+on_failure = ""
+on_success = "kavemouth/respawn/wake-at-inn/success"
+required_capability = "kavemouth/action/wake-at-inn"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = true
+self_only = true
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/respawn/wake-at-inn-penniless"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "You stop fighting for your life. Someone carries you back, and you wake in the inn loft the next morning at full health. You have no coin to pay with, so it costs you nothing. You keep your experience, your quests and your gear."
+display_name = "Give up and wake at the inn (no coin)"
+on_failure = ""
+on_success = "kavemouth/respawn/wake-at-inn-penniless/success"
+required_capability = "kavemouth/action/wake-at-inn"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = true
+self_only = true
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/action/wake-at-inn"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "You stop fighting for your life. Someone carries you back, and you wake in the inn loft the next morning at full health. You pay 1 gold piece if you have coin; otherwise it costs nothing. You keep your experience, your quests and your gear."
+display_name = "Give up and wake at the inn"
+on_failure = "kavemouth/respawn/wake-at-inn-penniless/success"
+on_success = "kavemouth/action/wake-at-inn/success"
+required_capability = "kavemouth/action/wake-at-inn"
+resolution_mode = "Stochastic"
+resolution_predicate_source = "actor.has_item('srd/item/gold-piece')"
+resumable = false
+self_eligible = true
+self_only = true
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/dm/teleport-into-advancement-limbo"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "Aldwin relocates the accepting hero — and himself alongside — into the advancement limbo so the existing draft-then-confirm wizard can run there. Gated on the hero having accepted the offer. Cooperative, never a silent yank."
+display_name = "Carry the trainee into the advancement limbo"
+non_steering = true
+on_failure = ""
+on_success = "kavemouth/dm/teleport-into-advancement-limbo/success"
+required_capability = "kavemouth/action/dm/teleport-into-advancement-limbo"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/dm/return-from-advancement-limbo"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "Aldwin returns the trainee and himself to the inn hearth after the level-up has been applied. Fixed destination for v1. Does NOT write dm/* resources — the offer-accepted latch is cleared by dm/level-up/confirm (the bundle that owns it)."
+display_name = "Return the trainee to the inn hearth"
+non_steering = true
+on_failure = ""
+on_success = "kavemouth/dm/return-from-advancement-limbo/success"
+required_capability = "kavemouth/action/dm/return-from-advancement-limbo"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/quest/open-tomb"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "The ward consumes its key as the stair opens for your party."
+display_name = "Open the deep tomb with the Ironfold key"
+on_failure = ""
+on_success = "kavemouth/quest/open-tomb/success"
+required_capability = "kavemouth/quest/open-tomb"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/quest/deliver-moonpetal"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "You lay the moonpetal in Old Tamsin's basket. She takes what she needs for her brew and presses the bloom back into your hand."
+display_name = "Hand the moonpetal to Old Tamsin"
+on_failure = ""
+on_success = "kavemouth/quest/deliver-moonpetal/success"
+required_capability = "kavemouth/quest/deliver-moonpetal"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/quest/accept-maelis-surrender"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "You tell Sister Maelis that the mill is lost and that she may walk out of it alive. She lowers her blade and gives up the cult."
+display_name = "Call on Sister Maelis to yield"
+on_failure = ""
+on_success = "kavemouth/quest/accept-maelis-surrender/success"
+required_capability = "kavemouth/quest/milestone-deeds"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+spends_channel = "srd/economy_channel/primary"
+
+[[action_definitions]]
+action_id = "kavemouth/quest/burn-the-camp"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "You pull a burning brand from the cookfire and put it to the tents. The camp goes up; the raids from here are over."
+display_name = "Set the camp alight"
+on_failure = ""
+on_success = "kavemouth/quest/burn-the-camp/success"
+required_capability = "kavemouth/quest/milestone-deeds"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = true
+self_only = true
+session_def_id = ""
+spends_channel = "srd/economy_channel/primary"
+
+[[action_definitions]]
+action_id = "kavemouth/quest/strike-truce-with-grubnash"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "You offer Grubnash a bargain: his warren stays his, and his goblins stay off the road. He spits, and takes it."
+display_name = "Strike a truce with Grubnash"
+on_failure = ""
+on_success = "kavemouth/quest/strike-truce-with-grubnash/success"
+required_capability = "kavemouth/quest/milestone-deeds"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+spends_channel = "srd/economy_channel/primary"
+
+[[action_definitions]]
+action_id = "kavemouth/quest/relight-the-altar"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "You trim the wicks and light the altar lamps. Sun and moon stand in the flame again. The shrine is only clean once its shadows are gone."
+display_name = "Relight the altar"
+on_failure = ""
+on_success = "kavemouth/quest/relight-the-altar/success"
+required_capability = "kavemouth/quest/milestone-deeds"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = true
+self_only = true
+session_def_id = ""
+spends_channel = "srd/economy_channel/primary"
+
+[[action_definitions]]
+action_id = "kavemouth/dm/award-quest-xp/Q1"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+display_name = "kavemouth/dm/award-quest-xp/Q1"
+on_failure = ""
+on_success = "kavemouth/dm/award-quest-xp/Q1/success"
+required_capability = "frontier.set_state"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/dm/settle-quest/Q1"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+display_name = "kavemouth/dm/settle-quest/Q1"
+on_failure = ""
+on_success = "kavemouth/dm/settle-quest/Q1/success"
+required_capability = "frontier.set_state"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/dm/award-quest-xp/Q2"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+display_name = "kavemouth/dm/award-quest-xp/Q2"
+on_failure = ""
+on_success = "kavemouth/dm/award-quest-xp/Q2/success"
+required_capability = "frontier.set_state"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/dm/settle-quest/Q2"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+display_name = "kavemouth/dm/settle-quest/Q2"
+on_failure = ""
+on_success = "kavemouth/dm/settle-quest/Q2/success"
+required_capability = "frontier.set_state"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/dm/award-quest-xp/Q3"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+display_name = "kavemouth/dm/award-quest-xp/Q3"
+on_failure = ""
+on_success = "kavemouth/dm/award-quest-xp/Q3/success"
+required_capability = "frontier.set_state"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/dm/settle-quest/Q3"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+display_name = "kavemouth/dm/settle-quest/Q3"
+on_failure = ""
+on_success = "kavemouth/dm/settle-quest/Q3/success"
+required_capability = "frontier.set_state"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/dm/award-quest-xp/Q4"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+display_name = "kavemouth/dm/award-quest-xp/Q4"
+on_failure = ""
+on_success = "kavemouth/dm/award-quest-xp/Q4/success"
+required_capability = "frontier.set_state"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/dm/settle-quest/Q4"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+display_name = "kavemouth/dm/settle-quest/Q4"
+on_failure = ""
+on_success = "kavemouth/dm/settle-quest/Q4/success"
+required_capability = "frontier.set_state"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/dm/award-quest-xp/Q5"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+display_name = "kavemouth/dm/award-quest-xp/Q5"
+on_failure = ""
+on_success = "kavemouth/dm/award-quest-xp/Q5/success"
+required_capability = "frontier.set_state"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/dm/settle-quest/Q5"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+display_name = "kavemouth/dm/settle-quest/Q5"
+on_failure = ""
+on_success = "kavemouth/dm/settle-quest/Q5/success"
+required_capability = "frontier.set_state"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/dm/award-quest-xp/Q6"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+display_name = "kavemouth/dm/award-quest-xp/Q6"
+on_failure = ""
+on_success = "kavemouth/dm/award-quest-xp/Q6/success"
+required_capability = "frontier.set_state"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/dm/settle-quest/Q6"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+display_name = "kavemouth/dm/settle-quest/Q6"
+on_failure = ""
+on_success = "kavemouth/dm/settle-quest/Q6/success"
+required_capability = "frontier.set_state"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/dm/award-quest-xp/Q7"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+display_name = "kavemouth/dm/award-quest-xp/Q7"
+on_failure = ""
+on_success = "kavemouth/dm/award-quest-xp/Q7/success"
+required_capability = "frontier.set_state"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/dm/settle-quest/Q7"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+display_name = "kavemouth/dm/settle-quest/Q7"
+on_failure = ""
+on_success = "kavemouth/dm/settle-quest/Q7/success"
+required_capability = "frontier.set_state"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/dm/award-quest-xp/Q8"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+display_name = "kavemouth/dm/award-quest-xp/Q8"
+on_failure = ""
+on_success = "kavemouth/dm/award-quest-xp/Q8/success"
+required_capability = "frontier.set_state"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/dm/settle-quest/Q8"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+display_name = "kavemouth/dm/settle-quest/Q8"
+on_failure = ""
+on_success = "kavemouth/dm/settle-quest/Q8/success"
+required_capability = "frontier.set_state"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/dm/award-quest-xp/Q9"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+display_name = "kavemouth/dm/award-quest-xp/Q9"
+on_failure = ""
+on_success = "kavemouth/dm/award-quest-xp/Q9/success"
+required_capability = "frontier.set_state"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/dm/settle-quest/Q9"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+display_name = "kavemouth/dm/settle-quest/Q9"
+on_failure = ""
+on_success = "kavemouth/dm/settle-quest/Q9/success"
+required_capability = "frontier.set_state"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/dm/award-quest-xp/Q10"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+display_name = "kavemouth/dm/award-quest-xp/Q10"
+on_failure = ""
+on_success = "kavemouth/dm/award-quest-xp/Q10/success"
+required_capability = "frontier.set_state"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/dm/settle-quest/Q10"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+display_name = "kavemouth/dm/settle-quest/Q10"
+on_failure = ""
+on_success = "kavemouth/dm/settle-quest/Q10/success"
+required_capability = "frontier.set_state"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/dm/award-quest-xp/Q11"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+display_name = "kavemouth/dm/award-quest-xp/Q11"
+on_failure = ""
+on_success = "kavemouth/dm/award-quest-xp/Q11/success"
+required_capability = "frontier.set_state"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/dm/settle-quest/Q11"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+display_name = "kavemouth/dm/settle-quest/Q11"
+on_failure = ""
+on_success = "kavemouth/dm/settle-quest/Q11/success"
+required_capability = "frontier.set_state"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/dm/award-quest-xp/Q12"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+display_name = "kavemouth/dm/award-quest-xp/Q12"
+on_failure = ""
+on_success = "kavemouth/dm/award-quest-xp/Q12/success"
+required_capability = "frontier.set_state"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/dm/settle-quest/Q12"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+display_name = "kavemouth/dm/settle-quest/Q12"
+on_failure = ""
+on_success = "kavemouth/dm/settle-quest/Q12/success"
+required_capability = "frontier.set_state"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/dm/record-bond"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+display_name = "kavemouth/dm/record-bond"
+on_failure = ""
+on_success = "kavemouth/dm/record-bond/success"
+required_capability = "frontier.set_state"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/dm/mark-bonded"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+display_name = "kavemouth/dm/mark-bonded"
+on_failure = ""
+on_success = "kavemouth/dm/mark-bonded/success"
+required_capability = "frontier.set_state"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/dm/join-rogue"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "Spawn the agreed companion with its authored sheet and kit."
+display_name = "Join the accepted companion"
+on_failure = ""
+on_success = "kavemouth/dm/join-rogue/success"
+required_capability = "frontier.spawn_entity_definition"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/dm/open-seat"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "Spawn an unbound world-owned playable vessel at the creation station."
+display_name = "Open a creation seat"
+on_failure = ""
+on_success = "kavemouth/dm/open-seat/success"
+required_capability = "frontier.spawn_entity_definition"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[action_definitions]]
+action_id = "kavemouth/dm/call-initiative"
+bundle_id = "kavemouth"
+cost_time_ms = 0
+description = "Open the authored encounter session for the selected bodies at this prepared place."
+display_name = "Call initiative"
+on_failure = ""
+on_success = "kavemouth/dm/call-initiative/success"
+required_capability = "frontier.open_session"
+resolution_mode = "Deterministic"
+resolution_predicate_source = ""
+resumable = false
+self_eligible = false
+self_only = false
+session_def_id = ""
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "srd/action/pickup"
+display_name = "Open"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/adventure/loft-chest/lid"
+outcome_template_id = "kavemouth/adventure/loft-chest/open/outcome"
+predicate_bool = false
+predicate_source = "target.stat('kavemouth/adventure/loft-chest/open') == 0"
+range_m = 0.0
+reads_occupancy = false
+spends_channel = "srd/economy_channel/object_interaction"
+stratification_ok = true
+template_id = "kavemouth/adventure/loft-chest/open/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "srd/action/pickup"
+display_name = "Close"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/adventure/loft-chest/lid"
+outcome_template_id = "kavemouth/adventure/loft-chest/close/outcome"
+predicate_bool = false
+predicate_source = "target.stat('kavemouth/adventure/loft-chest/open') == 1"
+range_m = 0.0
+reads_occupancy = false
+spends_channel = "srd/economy_channel/object_interaction"
+stratification_ok = true
+template_id = "kavemouth/adventure/loft-chest/close/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q1/record-acceptance"
+display_name = "Record Rats in the Cellar agreement"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "srd.creature"
+outcome_template_id = "kavemouth/quest/Q1/accept/outcome"
+predicate_bool = false
+predicate_source = "actor.stat('kavemouth/quest/Q1/accepted') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/quest/Q1/accept/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q2/record-acceptance"
+display_name = "Record Road Watch agreement"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "srd.creature"
+outcome_template_id = "kavemouth/quest/Q2/accept/outcome"
+predicate_bool = false
+predicate_source = "target.stat('kavemouth/quest/Q2/accepted') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/quest/Q2/accept/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q3/record-acceptance"
+display_name = "Record Tamsin's Basket agreement"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "srd.creature"
+outcome_template_id = "kavemouth/quest/Q3/accept/outcome"
+predicate_bool = false
+predicate_source = "actor.stat('kavemouth/quest/Q3/accepted') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/quest/Q3/accept/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q4/record-acceptance"
+display_name = "Record The Silent Mill agreement"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "srd.creature"
+outcome_template_id = "kavemouth/quest/Q4/accept/outcome"
+predicate_bool = false
+predicate_source = "target.stat('kavemouth/quest/Q4/accepted') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/quest/Q4/accept/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q5/record-acceptance"
+display_name = "Record Break the Raid agreement"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "srd.creature"
+outcome_template_id = "kavemouth/quest/Q5/accept/outcome"
+predicate_bool = false
+predicate_source = "target.stat('kavemouth/quest/Q5/accepted') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/quest/Q5/accept/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q6/record-acceptance"
+display_name = "Record The Lodge Fire agreement"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "srd.creature"
+outcome_template_id = "kavemouth/quest/Q6/accept/outcome"
+predicate_bool = false
+predicate_source = "actor.stat('kavemouth/quest/Q6/accepted') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/quest/Q6/accept/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q7/record-acceptance"
+display_name = "Record Grubnash's Warren agreement"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "srd.creature"
+outcome_template_id = "kavemouth/quest/Q7/accept/outcome"
+predicate_bool = false
+predicate_source = "actor.stat('kavemouth/quest/Q7/accepted') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/quest/Q7/accept/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q8/record-acceptance"
+display_name = "Record Ulda's Bargain agreement"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "srd.creature"
+outcome_template_id = "kavemouth/quest/Q8/accept/outcome"
+predicate_bool = false
+predicate_source = "actor.stat('kavemouth/quest/Q8/accepted') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/quest/Q8/accept/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q9/record-acceptance"
+display_name = "Record The Ironfold Key agreement"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "srd.creature"
+outcome_template_id = "kavemouth/quest/Q9/accept/outcome"
+predicate_bool = false
+predicate_source = "target.stat('kavemouth/quest/Q9/accepted') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/quest/Q9/accept/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q10/record-acceptance"
+display_name = "Record The Twin Lamps agreement"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "srd.creature"
+outcome_template_id = "kavemouth/quest/Q10/accept/outcome"
+predicate_bool = false
+predicate_source = "actor.stat('kavemouth/quest/Q10/accepted') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/quest/Q10/accept/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q11/record-acceptance"
+display_name = "Record Whispers in the Well agreement"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "srd.creature"
+outcome_template_id = "kavemouth/quest/Q11/accept/outcome"
+predicate_bool = false
+predicate_source = "actor.stat('kavemouth/quest/Q11/accepted') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/quest/Q11/accept/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q12/record-acceptance"
+display_name = "Record The Pale Steward agreement"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "srd.creature"
+outcome_template_id = "kavemouth/quest/Q12/accept/outcome"
+predicate_bool = false
+predicate_source = "actor.stat('kavemouth/quest/Q12/accepted') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/quest/Q12/accept/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/companion/rogue/record-agreement"
+display_name = "Companion invitation: accept"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "srd.creature"
+outcome_template_id = "kavemouth/companion/rogue/accept/outcome"
+predicate_bool = false
+predicate_source = "actor.stat('kavemouth/companion/rogue/agreement') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/companion/rogue/accept/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/companion/rogue/record-agreement"
+display_name = "Companion invitation: decline"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "srd.creature"
+outcome_template_id = "kavemouth/companion/rogue/decline/outcome"
+predicate_bool = false
+predicate_source = "actor.stat('kavemouth/companion/rogue/agreement') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/companion/rogue/decline/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/companion/rogue/record-agreement"
+display_name = "Companion invitation: reopen"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "srd.creature"
+outcome_template_id = "kavemouth/companion/rogue/reopen/outcome"
+predicate_bool = false
+predicate_source = "actor.stat('kavemouth/companion/rogue/agreement') == 2"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/companion/rogue/reopen/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/companion/stone-giver"
+display_name = "Gift the telepathy stone"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "srd.creature"
+outcome_template_id = "kavemouth/companion/gift-stone/outcome"
+predicate_bool = false
+predicate_source = "target.stat('kavemouth/companion/stone-carried') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/companion/gift-stone/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/companion/command-bond"
+display_name = "Tell Hesper to hold"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "srd.creature"
+outcome_template_id = "kavemouth/companion/hold/outcome"
+predicate_bool = false
+predicate_source = "actor.has_item('kavemouth/adventure/item/telepathy_stone') && target.has_tag('kavemouth.companion.bond') && actor.stat('kavemouth/companion/bond-recorded') == 1 && target.stat('kavemouth/companion/bonded') == 1 && target.status('srd/condition/dead') == false"
+range_m = 50.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/companion/hold/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/companion/command-bond"
+display_name = "Tell Hesper to follow"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "srd.creature"
+outcome_template_id = "kavemouth/companion/follow/outcome"
+predicate_bool = false
+predicate_source = "actor.has_item('kavemouth/adventure/item/telepathy_stone') && target.has_tag('kavemouth.companion.bond') && actor.stat('kavemouth/companion/bond-recorded') == 1 && target.stat('kavemouth/companion/bonded') == 1 && target.status('srd/condition/dead') == false"
+range_m = 50.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/companion/follow/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/companion/command-bond"
+display_name = "Tell Hesper to stop"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "srd.creature"
+outcome_template_id = "kavemouth/companion/cancel/outcome"
+predicate_bool = false
+predicate_source = "actor.has_item('kavemouth/adventure/item/telepathy_stone') && target.has_tag('kavemouth.companion.bond') && actor.stat('kavemouth/companion/bond-recorded') == 1 && target.stat('kavemouth/companion/bonded') == 1 && target.status('srd/condition/dead') == false"
+range_m = 50.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/companion/cancel/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/companion/command-bond"
+display_name = "Say to Hesper: hold"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "srd.creature"
+outcome_template_id = "kavemouth/companion/say-hold/outcome"
+predicate_bool = false
+predicate_source = "target.has_tag('kavemouth.companion.bond') && actor.stat('kavemouth/companion/bond-recorded') == 1 && target.stat('kavemouth/companion/bonded') == 1 && target.status('srd/condition/dead') == false && target.stat('core/distance_to_actor_mm') <= 10000"
+range_m = 10.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/companion/say-hold/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/companion/command-bond"
+display_name = "Say to Hesper: follow"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "srd.creature"
+outcome_template_id = "kavemouth/companion/say-follow/outcome"
+predicate_bool = false
+predicate_source = "target.has_tag('kavemouth.companion.bond') && actor.stat('kavemouth/companion/bond-recorded') == 1 && target.stat('kavemouth/companion/bonded') == 1 && target.status('srd/condition/dead') == false && target.stat('core/distance_to_actor_mm') <= 10000"
+range_m = 10.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/companion/say-follow/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/companion/command-bond"
+display_name = "Say to Hesper: stop"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "srd.creature"
+outcome_template_id = "kavemouth/companion/say-cancel/outcome"
+predicate_bool = false
+predicate_source = "target.has_tag('kavemouth.companion.bond') && actor.stat('kavemouth/companion/bond-recorded') == 1 && target.stat('kavemouth/companion/bonded') == 1 && target.status('srd/condition/dead') == false && target.stat('core/distance_to_actor_mm') <= 10000"
+range_m = 10.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/companion/say-cancel/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/action/dm/induct-candidate"
+display_name = "Induct the finished candidate"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "srd.creature"
+outcome_template_id = "kavemouth/dm/induct-candidate/outcome"
+predicate_bool = false
+predicate_source = "target.has_tag('srd.faction.party') && target.status('dm/creation/drafting') == false"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/dm/induct-candidate/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/action/wake-at-inn"
+display_name = "Give up and wake at the inn"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/niche/wake-at-inn"
+outcome_template_id = "kavemouth/respawn/wake-at-inn/outcome"
+predicate_bool = false
+predicate_source = "actor.has_tag('srd.player_character') && actor.has_item('srd/item/gold-piece') == true && actor.status('srd/condition/unconscious') == true || actor.status('srd/condition/dead') == true"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/respawn/wake-at-inn/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/action/wake-at-inn"
+display_name = "Give up and wake at the inn (no coin)"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/niche/wake-at-inn"
+outcome_template_id = "kavemouth/respawn/wake-at-inn-penniless/outcome"
+predicate_bool = false
+predicate_source = "actor.has_tag('srd.player_character') && actor.has_item('srd/item/gold-piece') == false && actor.status('srd/condition/unconscious') == true || actor.status('srd/condition/dead') == true"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/respawn/wake-at-inn-penniless/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/action/wake-at-inn"
+display_name = "Give up and wake at the inn"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/niche/wake-at-inn"
+outcome_template_id = "kavemouth/action/wake-at-inn/outcome"
+predicate_bool = false
+predicate_source = "actor.has_tag('srd.player_character') && actor.status('srd/condition/unconscious') == true || actor.status('srd/condition/dead') == true"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/action/wake-at-inn/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/action/dm/teleport-into-advancement-limbo"
+display_name = "Carry the trainee into the advancement limbo"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "srd.creature"
+outcome_template_id = "kavemouth/dm/teleport-into-advancement-limbo/outcome"
+predicate_bool = false
+predicate_source = "target.stat('dm/level-up/offer-accepted') == 1"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/dm/teleport-into-advancement-limbo/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/action/dm/return-from-advancement-limbo"
+display_name = "Return the trainee to the inn hearth"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "srd.creature"
+outcome_template_id = "kavemouth/dm/return-from-advancement-limbo/outcome"
+predicate_bool = false
+predicate_source = "actor.stat('dm/aldwin/level-up-applied') > 0 && actor.stat('dm/aldwin/level-up-applied') >= target.stat('srd/level')"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/dm/return-from-advancement-limbo/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/dm/seat"
+display_name = "Cross the DM's threshold"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/niche/dm_threshold"
+outcome_template_id = ""
+predicate_bool = false
+predicate_source = "actor.has_capability('kavemouth/dm/seat') && target.has_niche('kavemouth/niche/dm_threshold')"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/affordance/dm_threshold"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/warden/unseal"
+display_name = "Pass the warden's seal"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/niche/warden_seal"
+outcome_template_id = ""
+predicate_bool = false
+predicate_source = "actor.has_capability('kavemouth/warden/unseal') && target.has_niche('kavemouth/niche/warden_seal')"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/affordance/warden_seal"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/open-tomb"
+display_name = "Open the deep tomb with the Ironfold key"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/niche/ironfold-seal"
+outcome_template_id = "kavemouth/quest/open-tomb/outcome"
+predicate_bool = false
+predicate_source = "actor.stat('kavemouth/quest/flag/q9_tomb_opened') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/quest/open-tomb/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "srd/capability/walk"
+display_name = "Pass the opened Ironfold seal"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/niche/ironfold-seal"
+outcome_template_id = ""
+predicate_bool = false
+predicate_source = "target.state('kavemouth/ironfold-seal-open') == true"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/affordance/ironfold-seal"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/deliver-moonpetal"
+display_name = "Hand the moonpetal to Old Tamsin"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/niche/tamsins-basket"
+outcome_template_id = "kavemouth/quest/deliver-moonpetal/outcome"
+predicate_bool = false
+predicate_source = "actor.has_item('kavemouth/adventure/item/moonpetal')"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/quest/deliver-moonpetal/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/milestone-deeds"
+display_name = "Call on Sister Maelis to yield"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/niche/accept-maelis-surrender"
+outcome_template_id = "kavemouth/quest/accept-maelis-surrender/outcome"
+predicate_bool = false
+predicate_source = "target.has_tag('srd.creature.role.leader') && target.status('srd/condition/dead') == false"
+range_m = 0.0
+reads_occupancy = false
+spends_channel = "srd/economy_channel/primary"
+stratification_ok = true
+template_id = "kavemouth/quest/accept-maelis-surrender/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/milestone-deeds"
+display_name = "Set the camp alight"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/niche/burn-the-camp"
+outcome_template_id = "kavemouth/quest/burn-the-camp/outcome"
+predicate_bool = true
+predicate_source = ""
+range_m = 0.0
+reads_occupancy = false
+spends_channel = "srd/economy_channel/primary"
+stratification_ok = true
+template_id = "kavemouth/quest/burn-the-camp/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/milestone-deeds"
+display_name = "Strike a truce with Grubnash"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/niche/strike-truce-with-grubnash"
+outcome_template_id = "kavemouth/quest/strike-truce-with-grubnash/outcome"
+predicate_bool = false
+predicate_source = "target.has_tag('srd.creature.role.leader') && target.status('srd/condition/dead') == false"
+range_m = 0.0
+reads_occupancy = false
+spends_channel = "srd/economy_channel/primary"
+stratification_ok = true
+template_id = "kavemouth/quest/strike-truce-with-grubnash/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/milestone-deeds"
+display_name = "Relight the altar"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/niche/relight-the-altar"
+outcome_template_id = "kavemouth/quest/relight-the-altar/outcome"
+predicate_bool = true
+predicate_source = ""
+range_m = 0.0
+reads_occupancy = false
+spends_channel = "srd/economy_channel/primary"
+stratification_ok = true
+template_id = "kavemouth/quest/relight-the-altar/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "frontier.set_state"
+display_name = "kavemouth/dm/award-quest-xp/Q1"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/dm/act-target"
+outcome_template_id = "kavemouth/dm/award-quest-xp/Q1/outcome"
+predicate_bool = false
+predicate_source = "actor.has_capability('frontier.set_state') && target.stat('kavemouth/quest/Q1/xp-awarded') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/dm/award-quest-xp/Q1/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "frontier.set_state"
+display_name = "kavemouth/dm/settle-quest/Q1"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/dm/act-target"
+outcome_template_id = "kavemouth/dm/settle-quest/Q1/outcome"
+predicate_bool = false
+predicate_source = "actor.has_capability('frontier.set_state') && target.stat('kavemouth/quest/Q1/accepted') == 1 && target.stat('kavemouth/quest/Q1/rewarded') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/dm/settle-quest/Q1/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "frontier.set_state"
+display_name = "kavemouth/dm/award-quest-xp/Q2"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/dm/act-target"
+outcome_template_id = "kavemouth/dm/award-quest-xp/Q2/outcome"
+predicate_bool = false
+predicate_source = "actor.has_capability('frontier.set_state') && target.stat('kavemouth/quest/Q2/xp-awarded') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/dm/award-quest-xp/Q2/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "frontier.set_state"
+display_name = "kavemouth/dm/settle-quest/Q2"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/dm/act-target"
+outcome_template_id = "kavemouth/dm/settle-quest/Q2/outcome"
+predicate_bool = false
+predicate_source = "actor.has_capability('frontier.set_state') && target.stat('kavemouth/quest/Q2/accepted') == 1 && target.stat('kavemouth/quest/Q2/rewarded') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/dm/settle-quest/Q2/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "frontier.set_state"
+display_name = "kavemouth/dm/award-quest-xp/Q3"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/dm/act-target"
+outcome_template_id = "kavemouth/dm/award-quest-xp/Q3/outcome"
+predicate_bool = false
+predicate_source = "actor.has_capability('frontier.set_state') && target.stat('kavemouth/quest/Q3/xp-awarded') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/dm/award-quest-xp/Q3/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "frontier.set_state"
+display_name = "kavemouth/dm/settle-quest/Q3"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/dm/act-target"
+outcome_template_id = "kavemouth/dm/settle-quest/Q3/outcome"
+predicate_bool = false
+predicate_source = "actor.has_capability('frontier.set_state') && target.stat('kavemouth/quest/Q3/accepted') == 1 && target.stat('kavemouth/quest/Q3/rewarded') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/dm/settle-quest/Q3/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "frontier.set_state"
+display_name = "kavemouth/dm/award-quest-xp/Q4"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/dm/act-target"
+outcome_template_id = "kavemouth/dm/award-quest-xp/Q4/outcome"
+predicate_bool = false
+predicate_source = "actor.has_capability('frontier.set_state') && target.stat('kavemouth/quest/Q4/xp-awarded') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/dm/award-quest-xp/Q4/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "frontier.set_state"
+display_name = "kavemouth/dm/settle-quest/Q4"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/dm/act-target"
+outcome_template_id = "kavemouth/dm/settle-quest/Q4/outcome"
+predicate_bool = false
+predicate_source = "actor.has_capability('frontier.set_state') && target.stat('kavemouth/quest/Q4/accepted') == 1 && target.stat('kavemouth/quest/Q4/rewarded') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/dm/settle-quest/Q4/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "frontier.set_state"
+display_name = "kavemouth/dm/award-quest-xp/Q5"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/dm/act-target"
+outcome_template_id = "kavemouth/dm/award-quest-xp/Q5/outcome"
+predicate_bool = false
+predicate_source = "actor.has_capability('frontier.set_state') && target.stat('kavemouth/quest/Q5/xp-awarded') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/dm/award-quest-xp/Q5/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "frontier.set_state"
+display_name = "kavemouth/dm/settle-quest/Q5"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/dm/act-target"
+outcome_template_id = "kavemouth/dm/settle-quest/Q5/outcome"
+predicate_bool = false
+predicate_source = "actor.has_capability('frontier.set_state') && target.stat('kavemouth/quest/Q5/accepted') == 1 && target.stat('kavemouth/quest/Q5/rewarded') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/dm/settle-quest/Q5/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "frontier.set_state"
+display_name = "kavemouth/dm/award-quest-xp/Q6"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/dm/act-target"
+outcome_template_id = "kavemouth/dm/award-quest-xp/Q6/outcome"
+predicate_bool = false
+predicate_source = "actor.has_capability('frontier.set_state') && target.stat('kavemouth/quest/Q6/xp-awarded') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/dm/award-quest-xp/Q6/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "frontier.set_state"
+display_name = "kavemouth/dm/settle-quest/Q6"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/dm/act-target"
+outcome_template_id = "kavemouth/dm/settle-quest/Q6/outcome"
+predicate_bool = false
+predicate_source = "actor.has_capability('frontier.set_state') && target.stat('kavemouth/quest/Q6/accepted') == 1 && target.stat('kavemouth/quest/Q6/rewarded') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/dm/settle-quest/Q6/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "frontier.set_state"
+display_name = "kavemouth/dm/award-quest-xp/Q7"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/dm/act-target"
+outcome_template_id = "kavemouth/dm/award-quest-xp/Q7/outcome"
+predicate_bool = false
+predicate_source = "actor.has_capability('frontier.set_state') && target.stat('kavemouth/quest/Q7/xp-awarded') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/dm/award-quest-xp/Q7/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "frontier.set_state"
+display_name = "kavemouth/dm/settle-quest/Q7"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/dm/act-target"
+outcome_template_id = "kavemouth/dm/settle-quest/Q7/outcome"
+predicate_bool = false
+predicate_source = "actor.has_capability('frontier.set_state') && target.stat('kavemouth/quest/Q7/accepted') == 1 && target.stat('kavemouth/quest/Q7/rewarded') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/dm/settle-quest/Q7/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "frontier.set_state"
+display_name = "kavemouth/dm/award-quest-xp/Q8"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/dm/act-target"
+outcome_template_id = "kavemouth/dm/award-quest-xp/Q8/outcome"
+predicate_bool = false
+predicate_source = "actor.has_capability('frontier.set_state') && target.stat('kavemouth/quest/Q8/xp-awarded') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/dm/award-quest-xp/Q8/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "frontier.set_state"
+display_name = "kavemouth/dm/settle-quest/Q8"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/dm/act-target"
+outcome_template_id = "kavemouth/dm/settle-quest/Q8/outcome"
+predicate_bool = false
+predicate_source = "actor.has_capability('frontier.set_state') && target.stat('kavemouth/quest/Q8/accepted') == 1 && target.stat('kavemouth/quest/Q8/rewarded') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/dm/settle-quest/Q8/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "frontier.set_state"
+display_name = "kavemouth/dm/award-quest-xp/Q9"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/dm/act-target"
+outcome_template_id = "kavemouth/dm/award-quest-xp/Q9/outcome"
+predicate_bool = false
+predicate_source = "actor.has_capability('frontier.set_state') && target.stat('kavemouth/quest/Q9/xp-awarded') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/dm/award-quest-xp/Q9/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "frontier.set_state"
+display_name = "kavemouth/dm/settle-quest/Q9"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/dm/act-target"
+outcome_template_id = "kavemouth/dm/settle-quest/Q9/outcome"
+predicate_bool = false
+predicate_source = "actor.has_capability('frontier.set_state') && target.stat('kavemouth/quest/Q9/accepted') == 1 && target.stat('kavemouth/quest/Q9/rewarded') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/dm/settle-quest/Q9/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "frontier.set_state"
+display_name = "kavemouth/dm/award-quest-xp/Q10"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/dm/act-target"
+outcome_template_id = "kavemouth/dm/award-quest-xp/Q10/outcome"
+predicate_bool = false
+predicate_source = "actor.has_capability('frontier.set_state') && target.stat('kavemouth/quest/Q10/xp-awarded') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/dm/award-quest-xp/Q10/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "frontier.set_state"
+display_name = "kavemouth/dm/settle-quest/Q10"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/dm/act-target"
+outcome_template_id = "kavemouth/dm/settle-quest/Q10/outcome"
+predicate_bool = false
+predicate_source = "actor.has_capability('frontier.set_state') && target.stat('kavemouth/quest/Q10/accepted') == 1 && target.stat('kavemouth/quest/Q10/rewarded') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/dm/settle-quest/Q10/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "frontier.set_state"
+display_name = "kavemouth/dm/award-quest-xp/Q11"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/dm/act-target"
+outcome_template_id = "kavemouth/dm/award-quest-xp/Q11/outcome"
+predicate_bool = false
+predicate_source = "actor.has_capability('frontier.set_state') && target.stat('kavemouth/quest/Q11/xp-awarded') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/dm/award-quest-xp/Q11/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "frontier.set_state"
+display_name = "kavemouth/dm/settle-quest/Q11"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/dm/act-target"
+outcome_template_id = "kavemouth/dm/settle-quest/Q11/outcome"
+predicate_bool = false
+predicate_source = "actor.has_capability('frontier.set_state') && target.stat('kavemouth/quest/Q11/accepted') == 1 && target.stat('kavemouth/quest/Q11/rewarded') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/dm/settle-quest/Q11/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "frontier.set_state"
+display_name = "kavemouth/dm/award-quest-xp/Q12"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/dm/act-target"
+outcome_template_id = "kavemouth/dm/award-quest-xp/Q12/outcome"
+predicate_bool = false
+predicate_source = "actor.has_capability('frontier.set_state') && target.stat('kavemouth/quest/Q12/xp-awarded') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/dm/award-quest-xp/Q12/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "frontier.set_state"
+display_name = "kavemouth/dm/settle-quest/Q12"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/dm/act-target"
+outcome_template_id = "kavemouth/dm/settle-quest/Q12/outcome"
+predicate_bool = false
+predicate_source = "actor.has_capability('frontier.set_state') && target.stat('kavemouth/quest/Q12/accepted') == 1 && target.stat('kavemouth/quest/Q12/rewarded') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/dm/settle-quest/Q12/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "frontier.set_state"
+display_name = "kavemouth/dm/record-bond"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/dm/act-target"
+outcome_template_id = "kavemouth/dm/record-bond/outcome"
+predicate_bool = false
+predicate_source = "actor.has_capability('frontier.set_state') && target.stat('kavemouth/companion/stone-carried') == 1 && target.stat('kavemouth/companion/bond-recorded') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/dm/record-bond/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "frontier.set_state"
+display_name = "kavemouth/dm/mark-bonded"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/dm/act-target"
+outcome_template_id = "kavemouth/dm/mark-bonded/outcome"
+predicate_bool = false
+predicate_source = "actor.has_capability('frontier.set_state') && target.stat('kavemouth/companion/bonded') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/dm/mark-bonded/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "frontier.spawn_entity_definition"
+display_name = "Join the accepted companion"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "kavemouth/dm/act-target"
+outcome_template_id = "kavemouth/dm/join-rogue/outcome"
+predicate_bool = false
+predicate_source = "target.stat('kavemouth/companion/rogue/agreement') == 1 && target.stat('kavemouth/companion/rogue/spawned') == 0"
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/dm/join-rogue/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "frontier.spawn_entity_definition"
+display_name = "Open a creation seat"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "core/mark_surface"
+outcome_template_id = "kavemouth/dm/open-seat/outcome"
+predicate_bool = true
+predicate_source = ""
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/dm/open-seat/affordance"
+
+[[affordance_templates]]
+accepts_global_storm = false
+bundle_id = "kavemouth"
+capability_id = "frontier.open_session"
+display_name = "Call initiative"
+locality_class = ""
+movement_cost_expression_source = ""
+niche_id = "core/mark_surface"
+outcome_template_id = "kavemouth/dm/call-initiative/outcome"
+predicate_bool = true
+predicate_source = ""
+range_m = 0.0
+reads_occupancy = false
+stratification_ok = true
+template_id = "kavemouth/dm/call-initiative/affordance"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/companion/command-bond"
+default_visibility = "Public"
+description = "The reach half of the companion command authority — granted only by Aldwin's authored bond activation, with a party extent over kavemouth.companion.bond. Offer gating and cross-graph addressee resolution read this grant's extent. It is the single capability id on both the action and the affordance of every command verb; stone possession is a separate affordance predicate, never this grant."
+display_name = "Bonded companion reach"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/companion/stone-giver"
+default_visibility = "Public"
+description = "Hesper's may-do for handing the telepathy stone to the hero at her join."
+display_name = "Gift the telepathy stone"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/dm/record-companion-bond"
+default_visibility = "Public"
+description = "Aldwin's may-do for the bond-latch write (the hearth-ledger entry that a telepathy stone has been recorded). May-do, self-only dispatch."
+display_name = "DM: record companion bond"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/dm/watch"
+default_visibility = "Public"
+description = "The DM's watch over the adventure: carries the place_graph extent that broadens Aldwin's read scope to every body in the region, including the ephemeral combat grids of any session opened inside it. Read-only — it authorises no action and is never a gate_predicate's required_capability."
+display_name = "DM: watch the adventure"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/dm/seat"
+default_visibility = "Public"
+description = "Holds the DM seat: the key a may-do gate checks to admit the game master specifically, as opposed to anyone who may write to the world (frontier.apply_manifest) or anyone widened into read range (kavemouth/dm/watch). Today's only consumer is the DM-only threshold (dm-threshold.ts); a future gate that needs 'is this actor the DM' should check this capability, not actor_identity.role (ADR-0007 D-3 forbids a hardcoded role match on a may-do)."
+display_name = "DM: hold the seat"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/party/sight"
+default_visibility = "Public"
+description = "Party sight: extends the holder's read scope to every body reachable through the srd.party.heroes membership tag, including a fellow member's session peers on any battle map opened for that party (caller_scope's ExtentResolutionShape::Party arm, ADR-0007 D-1). Hidden elevation only — this widens what the holder SEES, never what they may DO, and never raises them to DM/operator read scope (ADR-0084; contrast kavemouth/dm/watch and kavemouth/dm/seat above, both elevation_class = full)."
+display_name = "Party: see fellow members"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q1/record-acceptance"
+default_visibility = "Public"
+description = "Record the visitor's explicitly accepted offer."
+display_name = "Record Rats in the Cellar"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q2/record-acceptance"
+default_visibility = "Public"
+description = "Record the visitor's explicitly accepted offer."
+display_name = "Record Road Watch"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q3/record-acceptance"
+default_visibility = "Public"
+description = "Record the visitor's explicitly accepted offer."
+display_name = "Record Tamsin's Basket"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q4/record-acceptance"
+default_visibility = "Public"
+description = "Record the visitor's explicitly accepted offer."
+display_name = "Record The Silent Mill"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q5/record-acceptance"
+default_visibility = "Public"
+description = "Record the visitor's explicitly accepted offer."
+display_name = "Record Break the Raid"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q6/record-acceptance"
+default_visibility = "Public"
+description = "Record the visitor's explicitly accepted offer."
+display_name = "Record The Lodge Fire"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q7/record-acceptance"
+default_visibility = "Public"
+description = "Record the visitor's explicitly accepted offer."
+display_name = "Record Grubnash's Warren"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q8/record-acceptance"
+default_visibility = "Public"
+description = "Record the visitor's explicitly accepted offer."
+display_name = "Record Ulda's Bargain"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q9/record-acceptance"
+default_visibility = "Public"
+description = "Record the visitor's explicitly accepted offer."
+display_name = "Record The Ironfold Key"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q10/record-acceptance"
+default_visibility = "Public"
+description = "Record the visitor's explicitly accepted offer."
+display_name = "Record The Twin Lamps"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q11/record-acceptance"
+default_visibility = "Public"
+description = "Record the visitor's explicitly accepted offer."
+display_name = "Record Whispers in the Well"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q12/record-acceptance"
+default_visibility = "Public"
+description = "Record the visitor's explicitly accepted offer."
+display_name = "Record The Pale Steward"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/companion/rogue/record-agreement"
+default_visibility = "Public"
+description = "Aldwin records a directed answer to his offered invitation."
+display_name = "Record companion agreement"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/action/dm/induct-candidate"
+default_visibility = "Public"
+description = "The DM's own authority to carry a finished creation candidate out of the limbo and into the adventure — an ordinary, authored capability, never a DM privilege layer. Gated on the candidate having confirmed their creation."
+display_name = "DM: induct a finished candidate"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/action/wake-at-inn"
+default_visibility = "Public"
+description = "A hero that is down or dead may give up the fight and wake at the inn the next morning."
+display_name = "Wake at the inn"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/action/dm/teleport-into-advancement-limbo"
+default_visibility = "Public"
+description = "The DM's authority to carry an accepting trainee into the advancement limbo. Sibling of induct-candidate, opposite direction. Gated on the hero having accepted Aldwin's level-up offer."
+display_name = "DM: teleport into advancement limbo"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/action/dm/return-from-advancement-limbo"
+default_visibility = "Public"
+description = "The DM's authority to return a trainee (and himself) from the advancement limbo to the inn hearth once the level-up has been applied. Fixed destination for v1 — RelocateEntity has no captured-origin primitive."
+display_name = "DM: return from advancement limbo"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/dm/watch-limbo"
+default_visibility = "Public"
+description = "The DM's watch over the creation limbo: carries the place_graph extent that broadens Aldwin's read scope to the limbo's own disjoint root graph, so his seat can decide when to walk the DM-only threshold without being co-located first. Read-only — it authorises no action and is never a gate_predicate's required_capability. Kept as its OWN capability id, distinct from the region-wide DM_WATCH_CAPABILITY_ID (dm-npc.ts): server/src/manifest/commit.rs's ADR-0085 upsert keys actor_capabilities on (entity_id, capability_id) alone, so a second grant row on the SAME id would silently replace the region-wide one instead of adding a second extent (sk-dms.28)."
+display_name = "DM: watch the creation limbo"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/warden/unseal"
+default_visibility = "Public"
+description = "The Crypt Warden's seal on the empty vault off the sarcophagus hall. No living actor in this adventure is granted it, so the hall-to-vault edge refuses every walker (sk-0m4.21)."
+display_name = "Warden's unseal"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/open-tomb"
+default_visibility = "Public"
+description = "Spend the ward-key at the deep stair."
+display_name = "Use the Ironfold key"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/deliver-moonpetal"
+default_visibility = "Public"
+description = "Bring Old Tamsin the moonpetal for her basket."
+display_name = "Hand over the moonpetal"
+
+[[capability_definitions]]
+actor_kind = "entity"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/milestone-deeds"
+default_visibility = "Public"
+description = "End a quest by a deed other than a kill: a surrender, a truce, a fire, a relit altar."
+display_name = "Quest deeds"
+
+[[condition_capability_extent_grants]]
+bundle_id = "kavemouth"
+capability_id = "kavemouth/companion/command-bond"
+condition_definition_id = "kavemouth/companion/command-bond-active"
+extent_kind_ref = "party"
+extent_ref = "kavemouth.companion.bond"
+
+[[condition_definitions]]
+bundle_id = "kavemouth"
+condition_definition_id = "kavemouth/condition/at-peace"
+description = "This creature has yielded to the party or struck a truce with it. It does not start a fight when the party comes near."
+display_name = "At peace with the party"
+gate_predicate_source = ""
+grants_capability_while_active = []
+hooks = []
+implies = []
+modifier_template_id = ""
+observable = true
+remove_time_policy = "core/remove_policy/independent_lifetime"
+stacking_rule = "core/stacking/single"
+suppresses_capability_while_active = []
+
+[[condition_definitions]]
+bundle_id = "kavemouth"
+condition_definition_id = "kavemouth/companion/command-bond-active"
+description = "The bearer may address the authored companion extent after the DM records the bond."
+display_name = "Recorded companion bond"
+gate_predicate_source = ""
+grants_capability_while_active = []
+hooks = []
+implies = []
+modifier_template_id = ""
+observable = true
+remove_time_policy = "core/remove_policy/independent_lifetime"
+stacking_rule = "core/stacking/single"
+suppresses_capability_while_active = []
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/adventure/loft-chest/open/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1 - target.stat('kavemouth/adventure/loft-chest/open')"
+resource = "kavemouth/adventure/loft-chest/open"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/adventure/loft-chest/open/success"
+
+[consequence_frame_writes.frame_write.Inscribe]
+expires_after_ticks = 2
+kind = "kavemouth/adventure/loft-chest/open-sound"
+location_kind = "binding"
+location_ref = "TargetEntityRef"
+payload_json = "{}"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/adventure/loft-chest/close/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "0 - target.stat('kavemouth/adventure/loft-chest/open')"
+resource = "kavemouth/adventure/loft-chest/open"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/adventure/loft-chest/close/success"
+
+[consequence_frame_writes.frame_write.Inscribe]
+expires_after_ticks = 2
+kind = "kavemouth/adventure/loft-chest/close-sound"
+location_kind = "binding"
+location_ref = "TargetEntityRef"
+payload_json = "{}"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/quest/Q1/accept/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "1"
+resource = "kavemouth/quest/Q1/accepted"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/quest/Q2/accept/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q2/accepted"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/quest/Q3/accept/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "1"
+resource = "kavemouth/quest/Q3/accepted"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/quest/Q4/accept/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q4/accepted"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/quest/Q5/accept/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q5/accepted"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/quest/Q6/accept/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "1"
+resource = "kavemouth/quest/Q6/accepted"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/quest/Q7/accept/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "1"
+resource = "kavemouth/quest/Q7/accepted"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/quest/Q8/accept/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "1"
+resource = "kavemouth/quest/Q8/accepted"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/quest/Q9/accept/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q9/accepted"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/quest/Q10/accept/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "1"
+resource = "kavemouth/quest/Q10/accepted"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/quest/Q11/accept/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "1"
+resource = "kavemouth/quest/Q11/accepted"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/quest/Q12/accept/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "1"
+resource = "kavemouth/quest/Q12/accepted"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/companion/rogue/accept/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "1"
+resource = "kavemouth/companion/rogue/agreement"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/companion/rogue/decline/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "2"
+resource = "kavemouth/companion/rogue/agreement"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/companion/rogue/reopen/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "-2"
+resource = "kavemouth/companion/rogue/agreement"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/companion/gift-stone/success"
+
+[consequence_frame_writes.frame_write.InsertItem]
+count = 1
+initial_item_state = []
+item_def_id = "kavemouth/adventure/item/telepathy_stone"
+
+[consequence_frame_writes.frame_write.InsertItem.destination.ActorInventory]
+actor_ref = "TargetActor"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/companion/gift-stone/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/companion/stone-carried"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/companion/hold/success"
+
+[consequence_frame_writes.frame_write.Inscribe]
+carry_addressee = true
+carry_dispatch_text = false
+kind = "kavemouth/adventure/trace/companion_command"
+location_kind = "binding"
+location_ref = "TargetSpatialRef"
+payload_json = '{"command":"hold"}'
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/companion/follow/success"
+
+[consequence_frame_writes.frame_write.Inscribe]
+carry_addressee = true
+carry_dispatch_text = false
+kind = "kavemouth/adventure/trace/companion_command"
+location_kind = "binding"
+location_ref = "TargetSpatialRef"
+payload_json = '{"command":"follow"}'
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/companion/cancel/success"
+
+[consequence_frame_writes.frame_write.Inscribe]
+carry_addressee = true
+carry_dispatch_text = false
+kind = "kavemouth/adventure/trace/companion_command"
+location_kind = "binding"
+location_ref = "TargetSpatialRef"
+payload_json = '{"command":"cancel"}'
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/dm/induct-candidate/success"
+
+[consequence_frame_writes.frame_write.RelocateEntity]
+target_ref = "TargetActor"
+
+[consequence_frame_writes.frame_write.RelocateEntity.destination]
+id = "kavemouth/inn/loft"
+kind = "place_node"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/dm/induct-candidate/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "0 - actor.stat('dm/dialog/open')"
+resource = "dm/dialog/open"
+
+[[consequence_frame_writes]]
+ordinal = 2
+template_id = "kavemouth/dm/induct-candidate/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "6 - actor.stat('dm/creation/phase')"
+resource = "dm/creation/phase"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/respawn/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.RemoveItem]
+count = 1
+
+[consequence_frame_writes.frame_write.RemoveItem.source.ActorInventoryItem]
+actor_ref = "Actor"
+item_def_id = "srd/item/gold-piece"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/respawn/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.ApplyStatus]
+condition_definition_id = "srd/condition/dead"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 2
+template_id = "kavemouth/respawn/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.RemoveCondition]
+condition_definition_id = "srd/condition/dead"
+source_match = "Any"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 3
+template_id = "kavemouth/respawn/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.ApplyStatus]
+condition_definition_id = "srd/condition/unconscious"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 4
+template_id = "kavemouth/respawn/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.RemoveCondition]
+condition_definition_id = "srd/condition/unconscious"
+source_match = "Any"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 5
+template_id = "kavemouth/respawn/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.ApplyStatus]
+condition_definition_id = "srd/condition/stable"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 6
+template_id = "kavemouth/respawn/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.RemoveCondition]
+condition_definition_id = "srd/condition/stable"
+source_match = "Any"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 7
+template_id = "kavemouth/respawn/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.ApplyStatus]
+condition_definition_id = "srd/condition/incapacitated"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 8
+template_id = "kavemouth/respawn/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.RemoveCondition]
+condition_definition_id = "srd/condition/incapacitated"
+source_match = "Any"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 9
+template_id = "kavemouth/respawn/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.ApplyStatus]
+condition_definition_id = "srd/condition/incapacitated/no-action"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 10
+template_id = "kavemouth/respawn/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.RemoveCondition]
+condition_definition_id = "srd/condition/incapacitated/no-action"
+source_match = "Any"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 11
+template_id = "kavemouth/respawn/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.ApplyStatus]
+condition_definition_id = "srd/condition/incapacitated/no-bonus-action"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 12
+template_id = "kavemouth/respawn/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.RemoveCondition]
+condition_definition_id = "srd/condition/incapacitated/no-bonus-action"
+source_match = "Any"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 13
+template_id = "kavemouth/respawn/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.ApplyStatus]
+condition_definition_id = "srd/condition/incapacitated/no-reaction"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 14
+template_id = "kavemouth/respawn/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.RemoveCondition]
+condition_definition_id = "srd/condition/incapacitated/no-reaction"
+source_match = "Any"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 15
+template_id = "kavemouth/respawn/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "0"
+resource = "srd/death_save_failures"
+
+[[consequence_frame_writes]]
+ordinal = 16
+template_id = "kavemouth/respawn/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "0 - actor.stat('srd/death_save_failures')"
+resource = "srd/death_save_failures"
+
+[[consequence_frame_writes]]
+ordinal = 17
+template_id = "kavemouth/respawn/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "0"
+resource = "srd/death_save_successes"
+
+[[consequence_frame_writes]]
+ordinal = 18
+template_id = "kavemouth/respawn/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "0 - actor.stat('srd/death_save_successes')"
+resource = "srd/death_save_successes"
+
+[[consequence_frame_writes]]
+ordinal = 19
+template_id = "kavemouth/respawn/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "0"
+resource = "srd/death_save_last_roll"
+
+[[consequence_frame_writes]]
+ordinal = 20
+template_id = "kavemouth/respawn/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "0 - actor.stat('srd/death_save_last_roll')"
+resource = "srd/death_save_last_roll"
+
+[[consequence_frame_writes]]
+ordinal = 21
+template_id = "kavemouth/respawn/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "cond(actor.has_tag('srd.player_character'), max(0, macro('srd/hit_point_maximum') - actor.stat('srd/hp')), actor.resource_max('srd/hp') - actor.stat('srd/hp'))"
+resource = "srd/hp"
+
+[[consequence_frame_writes]]
+ordinal = 22
+template_id = "kavemouth/respawn/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.RelocateEntity]
+target_ref = "Actor"
+
+[consequence_frame_writes.frame_write.RelocateEntity.destination]
+id = "kavemouth/inn/loft"
+kind = "place_node"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/respawn/wake-at-inn-penniless/success"
+
+[consequence_frame_writes.frame_write.ApplyStatus]
+condition_definition_id = "srd/condition/dead"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/respawn/wake-at-inn-penniless/success"
+
+[consequence_frame_writes.frame_write.RemoveCondition]
+condition_definition_id = "srd/condition/dead"
+source_match = "Any"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 2
+template_id = "kavemouth/respawn/wake-at-inn-penniless/success"
+
+[consequence_frame_writes.frame_write.ApplyStatus]
+condition_definition_id = "srd/condition/unconscious"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 3
+template_id = "kavemouth/respawn/wake-at-inn-penniless/success"
+
+[consequence_frame_writes.frame_write.RemoveCondition]
+condition_definition_id = "srd/condition/unconscious"
+source_match = "Any"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 4
+template_id = "kavemouth/respawn/wake-at-inn-penniless/success"
+
+[consequence_frame_writes.frame_write.ApplyStatus]
+condition_definition_id = "srd/condition/stable"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 5
+template_id = "kavemouth/respawn/wake-at-inn-penniless/success"
+
+[consequence_frame_writes.frame_write.RemoveCondition]
+condition_definition_id = "srd/condition/stable"
+source_match = "Any"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 6
+template_id = "kavemouth/respawn/wake-at-inn-penniless/success"
+
+[consequence_frame_writes.frame_write.ApplyStatus]
+condition_definition_id = "srd/condition/incapacitated"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 7
+template_id = "kavemouth/respawn/wake-at-inn-penniless/success"
+
+[consequence_frame_writes.frame_write.RemoveCondition]
+condition_definition_id = "srd/condition/incapacitated"
+source_match = "Any"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 8
+template_id = "kavemouth/respawn/wake-at-inn-penniless/success"
+
+[consequence_frame_writes.frame_write.ApplyStatus]
+condition_definition_id = "srd/condition/incapacitated/no-action"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 9
+template_id = "kavemouth/respawn/wake-at-inn-penniless/success"
+
+[consequence_frame_writes.frame_write.RemoveCondition]
+condition_definition_id = "srd/condition/incapacitated/no-action"
+source_match = "Any"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 10
+template_id = "kavemouth/respawn/wake-at-inn-penniless/success"
+
+[consequence_frame_writes.frame_write.ApplyStatus]
+condition_definition_id = "srd/condition/incapacitated/no-bonus-action"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 11
+template_id = "kavemouth/respawn/wake-at-inn-penniless/success"
+
+[consequence_frame_writes.frame_write.RemoveCondition]
+condition_definition_id = "srd/condition/incapacitated/no-bonus-action"
+source_match = "Any"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 12
+template_id = "kavemouth/respawn/wake-at-inn-penniless/success"
+
+[consequence_frame_writes.frame_write.ApplyStatus]
+condition_definition_id = "srd/condition/incapacitated/no-reaction"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 13
+template_id = "kavemouth/respawn/wake-at-inn-penniless/success"
+
+[consequence_frame_writes.frame_write.RemoveCondition]
+condition_definition_id = "srd/condition/incapacitated/no-reaction"
+source_match = "Any"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 14
+template_id = "kavemouth/respawn/wake-at-inn-penniless/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "0"
+resource = "srd/death_save_failures"
+
+[[consequence_frame_writes]]
+ordinal = 15
+template_id = "kavemouth/respawn/wake-at-inn-penniless/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "0 - actor.stat('srd/death_save_failures')"
+resource = "srd/death_save_failures"
+
+[[consequence_frame_writes]]
+ordinal = 16
+template_id = "kavemouth/respawn/wake-at-inn-penniless/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "0"
+resource = "srd/death_save_successes"
+
+[[consequence_frame_writes]]
+ordinal = 17
+template_id = "kavemouth/respawn/wake-at-inn-penniless/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "0 - actor.stat('srd/death_save_successes')"
+resource = "srd/death_save_successes"
+
+[[consequence_frame_writes]]
+ordinal = 18
+template_id = "kavemouth/respawn/wake-at-inn-penniless/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "0"
+resource = "srd/death_save_last_roll"
+
+[[consequence_frame_writes]]
+ordinal = 19
+template_id = "kavemouth/respawn/wake-at-inn-penniless/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "0 - actor.stat('srd/death_save_last_roll')"
+resource = "srd/death_save_last_roll"
+
+[[consequence_frame_writes]]
+ordinal = 20
+template_id = "kavemouth/respawn/wake-at-inn-penniless/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "cond(actor.has_tag('srd.player_character'), max(0, macro('srd/hit_point_maximum') - actor.stat('srd/hp')), actor.resource_max('srd/hp') - actor.stat('srd/hp'))"
+resource = "srd/hp"
+
+[[consequence_frame_writes]]
+ordinal = 21
+template_id = "kavemouth/respawn/wake-at-inn-penniless/success"
+
+[consequence_frame_writes.frame_write.RelocateEntity]
+target_ref = "Actor"
+
+[consequence_frame_writes.frame_write.RelocateEntity.destination]
+id = "kavemouth/inn/loft"
+kind = "place_node"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/action/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.RemoveItem]
+count = 1
+
+[consequence_frame_writes.frame_write.RemoveItem.source.ActorInventoryItem]
+actor_ref = "Actor"
+item_def_id = "srd/item/gold-piece"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/action/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.ApplyStatus]
+condition_definition_id = "srd/condition/dead"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 2
+template_id = "kavemouth/action/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.RemoveCondition]
+condition_definition_id = "srd/condition/dead"
+source_match = "Any"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 3
+template_id = "kavemouth/action/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.ApplyStatus]
+condition_definition_id = "srd/condition/unconscious"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 4
+template_id = "kavemouth/action/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.RemoveCondition]
+condition_definition_id = "srd/condition/unconscious"
+source_match = "Any"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 5
+template_id = "kavemouth/action/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.ApplyStatus]
+condition_definition_id = "srd/condition/stable"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 6
+template_id = "kavemouth/action/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.RemoveCondition]
+condition_definition_id = "srd/condition/stable"
+source_match = "Any"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 7
+template_id = "kavemouth/action/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.ApplyStatus]
+condition_definition_id = "srd/condition/incapacitated"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 8
+template_id = "kavemouth/action/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.RemoveCondition]
+condition_definition_id = "srd/condition/incapacitated"
+source_match = "Any"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 9
+template_id = "kavemouth/action/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.ApplyStatus]
+condition_definition_id = "srd/condition/incapacitated/no-action"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 10
+template_id = "kavemouth/action/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.RemoveCondition]
+condition_definition_id = "srd/condition/incapacitated/no-action"
+source_match = "Any"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 11
+template_id = "kavemouth/action/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.ApplyStatus]
+condition_definition_id = "srd/condition/incapacitated/no-bonus-action"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 12
+template_id = "kavemouth/action/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.RemoveCondition]
+condition_definition_id = "srd/condition/incapacitated/no-bonus-action"
+source_match = "Any"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 13
+template_id = "kavemouth/action/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.ApplyStatus]
+condition_definition_id = "srd/condition/incapacitated/no-reaction"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 14
+template_id = "kavemouth/action/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.RemoveCondition]
+condition_definition_id = "srd/condition/incapacitated/no-reaction"
+source_match = "Any"
+target_kind = "entity"
+target_ref = "Actor"
+
+[[consequence_frame_writes]]
+ordinal = 15
+template_id = "kavemouth/action/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "0"
+resource = "srd/death_save_failures"
+
+[[consequence_frame_writes]]
+ordinal = 16
+template_id = "kavemouth/action/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "0 - actor.stat('srd/death_save_failures')"
+resource = "srd/death_save_failures"
+
+[[consequence_frame_writes]]
+ordinal = 17
+template_id = "kavemouth/action/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "0"
+resource = "srd/death_save_successes"
+
+[[consequence_frame_writes]]
+ordinal = 18
+template_id = "kavemouth/action/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "0 - actor.stat('srd/death_save_successes')"
+resource = "srd/death_save_successes"
+
+[[consequence_frame_writes]]
+ordinal = 19
+template_id = "kavemouth/action/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "0"
+resource = "srd/death_save_last_roll"
+
+[[consequence_frame_writes]]
+ordinal = 20
+template_id = "kavemouth/action/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "0 - actor.stat('srd/death_save_last_roll')"
+resource = "srd/death_save_last_roll"
+
+[[consequence_frame_writes]]
+ordinal = 21
+template_id = "kavemouth/action/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "cond(actor.has_tag('srd.player_character'), max(0, macro('srd/hit_point_maximum') - actor.stat('srd/hp')), actor.resource_max('srd/hp') - actor.stat('srd/hp'))"
+resource = "srd/hp"
+
+[[consequence_frame_writes]]
+ordinal = 22
+template_id = "kavemouth/action/wake-at-inn/success"
+
+[consequence_frame_writes.frame_write.RelocateEntity]
+target_ref = "Actor"
+
+[consequence_frame_writes.frame_write.RelocateEntity.destination]
+id = "kavemouth/inn/loft"
+kind = "place_node"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/dm/teleport-into-advancement-limbo/success"
+
+[consequence_frame_writes.frame_write.RelocateEntity]
+target_ref = "TargetActor"
+
+[consequence_frame_writes.frame_write.RelocateEntity.destination]
+id = "kavemouth/advancement_limbo/station"
+kind = "place_node"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/dm/teleport-into-advancement-limbo/success"
+
+[consequence_frame_writes.frame_write.RelocateEntity]
+target_ref = "Actor"
+
+[consequence_frame_writes.frame_write.RelocateEntity.destination]
+id = "kavemouth/advancement_limbo/station"
+kind = "place_node"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/dm/return-from-advancement-limbo/success"
+
+[consequence_frame_writes.frame_write.RelocateEntity]
+target_ref = "TargetActor"
+
+[consequence_frame_writes.frame_write.RelocateEntity.destination]
+id = "kavemouth/inn/common_room"
+kind = "place_node"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/dm/return-from-advancement-limbo/success"
+
+[consequence_frame_writes.frame_write.RelocateEntity]
+target_ref = "Actor"
+
+[consequence_frame_writes.frame_write.RelocateEntity.destination]
+id = "kavemouth/inn/common_room"
+kind = "place_node"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/quest/open-tomb/success"
+
+[consequence_frame_writes.frame_write.RemoveItem]
+count = 1
+
+[consequence_frame_writes.frame_write.RemoveItem.source.ActorInventoryItem]
+actor_ref = "Actor"
+item_def_id = "kavemouth/adventure/item/tomb_key"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/quest/open-tomb/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "1"
+resource = "kavemouth/quest/flag/q9_tomb_opened"
+
+[[consequence_frame_writes]]
+ordinal = 2
+template_id = "kavemouth/quest/open-tomb/success"
+
+[consequence_frame_writes.frame_write.Inscribe]
+kind = "spatial_environment_state"
+location_kind = "binding"
+location_ref = "ActorIncidentEdges"
+payload_json = '{"state_id":"kavemouth/ironfold-seal-open","value":true,"visibility":"Public"}'
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/quest/deliver-moonpetal/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "0"
+resource = "kavemouth/quest/flag/q3_delivered"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/quest/deliver-moonpetal/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "1 - actor.stat('kavemouth/quest/flag/q3_delivered')"
+resource = "kavemouth/quest/flag/q3_delivered"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/quest/accept-maelis-surrender/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "0"
+resource = "kavemouth/quest/flag/q4_maelis_surrendered"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/quest/accept-maelis-surrender/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "1 - actor.stat('kavemouth/quest/flag/q4_maelis_surrendered')"
+resource = "kavemouth/quest/flag/q4_maelis_surrendered"
+
+[[consequence_frame_writes]]
+ordinal = 2
+template_id = "kavemouth/quest/accept-maelis-surrender/success"
+
+[consequence_frame_writes.frame_write.ApplyStatus]
+condition_definition_id = "kavemouth/condition/at-peace"
+target_kind = "entity"
+target_ref = "TargetActor"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/quest/burn-the-camp/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "0"
+resource = "kavemouth/quest/flag/q5_camp_burned"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/quest/burn-the-camp/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "1 - actor.stat('kavemouth/quest/flag/q5_camp_burned')"
+resource = "kavemouth/quest/flag/q5_camp_burned"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/quest/strike-truce-with-grubnash/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "0"
+resource = "kavemouth/quest/flag/q7_truce"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/quest/strike-truce-with-grubnash/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "1 - actor.stat('kavemouth/quest/flag/q7_truce')"
+resource = "kavemouth/quest/flag/q7_truce"
+
+[[consequence_frame_writes]]
+ordinal = 2
+template_id = "kavemouth/quest/strike-truce-with-grubnash/success"
+
+[consequence_frame_writes.frame_write.ApplyStatus]
+condition_definition_id = "kavemouth/condition/at-peace"
+target_kind = "entity"
+target_ref = "TargetActor"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/quest/relight-the-altar/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "0"
+resource = "kavemouth/quest/flag/q10_altar_relit"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/quest/relight-the-altar/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "Actor"
+delta_source = "1 - actor.stat('kavemouth/quest/flag/q10_altar_relit')"
+resource = "kavemouth/quest/flag/q10_altar_relit"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/dm/award-quest-xp/Q1/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "actor.stat('core/dispatch_arg_quantity')"
+resource = "srd/xp"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/dm/award-quest-xp/Q1/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q1/xp-awarded"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/dm/settle-quest/Q1/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q1/rewarded"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/dm/settle-quest/Q1/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q1/accepted"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/dm/award-quest-xp/Q2/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "actor.stat('core/dispatch_arg_quantity')"
+resource = "srd/xp"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/dm/award-quest-xp/Q2/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q2/xp-awarded"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/dm/settle-quest/Q2/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q2/rewarded"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/dm/settle-quest/Q2/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q2/accepted"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/dm/award-quest-xp/Q3/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "actor.stat('core/dispatch_arg_quantity')"
+resource = "srd/xp"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/dm/award-quest-xp/Q3/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q3/xp-awarded"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/dm/settle-quest/Q3/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q3/rewarded"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/dm/settle-quest/Q3/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q3/accepted"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/dm/award-quest-xp/Q4/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "actor.stat('core/dispatch_arg_quantity')"
+resource = "srd/xp"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/dm/award-quest-xp/Q4/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q4/xp-awarded"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/dm/settle-quest/Q4/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q4/rewarded"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/dm/settle-quest/Q4/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q4/accepted"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/dm/award-quest-xp/Q5/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "actor.stat('core/dispatch_arg_quantity')"
+resource = "srd/xp"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/dm/award-quest-xp/Q5/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q5/xp-awarded"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/dm/settle-quest/Q5/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q5/rewarded"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/dm/settle-quest/Q5/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q5/accepted"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/dm/award-quest-xp/Q6/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "actor.stat('core/dispatch_arg_quantity')"
+resource = "srd/xp"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/dm/award-quest-xp/Q6/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q6/xp-awarded"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/dm/settle-quest/Q6/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q6/rewarded"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/dm/settle-quest/Q6/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q6/accepted"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/dm/award-quest-xp/Q7/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "actor.stat('core/dispatch_arg_quantity')"
+resource = "srd/xp"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/dm/award-quest-xp/Q7/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q7/xp-awarded"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/dm/settle-quest/Q7/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q7/rewarded"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/dm/settle-quest/Q7/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q7/accepted"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/dm/award-quest-xp/Q8/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "actor.stat('core/dispatch_arg_quantity')"
+resource = "srd/xp"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/dm/award-quest-xp/Q8/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q8/xp-awarded"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/dm/settle-quest/Q8/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q8/rewarded"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/dm/settle-quest/Q8/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q8/accepted"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/dm/award-quest-xp/Q9/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "actor.stat('core/dispatch_arg_quantity')"
+resource = "srd/xp"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/dm/award-quest-xp/Q9/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q9/xp-awarded"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/dm/settle-quest/Q9/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q9/rewarded"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/dm/settle-quest/Q9/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q9/accepted"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/dm/award-quest-xp/Q10/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "actor.stat('core/dispatch_arg_quantity')"
+resource = "srd/xp"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/dm/award-quest-xp/Q10/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q10/xp-awarded"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/dm/settle-quest/Q10/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q10/rewarded"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/dm/settle-quest/Q10/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q10/accepted"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/dm/award-quest-xp/Q11/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "actor.stat('core/dispatch_arg_quantity')"
+resource = "srd/xp"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/dm/award-quest-xp/Q11/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q11/xp-awarded"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/dm/settle-quest/Q11/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q11/rewarded"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/dm/settle-quest/Q11/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q11/accepted"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/dm/award-quest-xp/Q12/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "actor.stat('core/dispatch_arg_quantity')"
+resource = "srd/xp"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/dm/award-quest-xp/Q12/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q12/xp-awarded"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/dm/settle-quest/Q12/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q12/rewarded"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/dm/settle-quest/Q12/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/quest/Q12/accepted"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/dm/record-bond/success"
+
+[consequence_frame_writes.frame_write.ApplyStatus]
+condition_definition_id = "kavemouth/companion/command-bond-active"
+target_kind = "entity"
+target_ref = "TargetActor"
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/dm/record-bond/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/companion/bond-recorded"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/dm/mark-bonded/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/companion/bonded"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/dm/join-rogue/success"
+
+[consequence_frame_writes.frame_write.SetEntityTag]
+entity = "SpawnedEntity"
+present = true
+
+[consequence_frame_writes.frame_write.SetEntityTag.tag]
+allowed_ids = ["srd.faction.party"]
+
+[[consequence_frame_writes]]
+ordinal = 1
+template_id = "kavemouth/dm/join-rogue/success"
+
+[consequence_frame_writes.frame_write.ModifyResource]
+actor = "TargetActor"
+delta_source = "1"
+resource = "kavemouth/companion/rogue/spawned"
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/dm/open-seat/success"
+
+[consequence_frame_writes.frame_write.SetEntityTag]
+entity = "SpawnedEntity"
+present = true
+
+[consequence_frame_writes.frame_write.SetEntityTag.tag]
+allowed_ids = ["srd.faction.party"]
+
+[[consequence_frame_writes]]
+ordinal = 0
+template_id = "kavemouth/dm/call-initiative/success"
+
+[consequence_frame_writes.frame_write.OpenSession]
+session_def_id = "kavemouth/adventure/session/crypt-fight"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/adventure/loft-chest/open/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/adventure/loft-chest/close/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/quest/Q1/accept/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/quest/Q2/accept/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/quest/Q3/accept/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/quest/Q4/accept/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/quest/Q5/accept/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/quest/Q6/accept/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/quest/Q7/accept/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/quest/Q8/accept/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/quest/Q9/accept/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/quest/Q10/accept/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/quest/Q11/accept/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/quest/Q12/accept/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/companion/rogue/accept/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/companion/rogue/decline/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/companion/rogue/reopen/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+description = "Place the stone in the hero's inventory and mark it carried (gift exactly-once: the marker flips the target predicate off)."
+template_id = "kavemouth/companion/gift-stone/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+description = "Inscribe a companion_command trace ('hold') at the addressee's current place."
+template_id = "kavemouth/companion/hold/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+description = "Inscribe a companion_command trace ('follow') at the addressee's current place."
+template_id = "kavemouth/companion/follow/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+description = "Inscribe a companion_command trace ('cancel') at the addressee's current place."
+template_id = "kavemouth/companion/cancel/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/dm/induct-candidate/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+description = "Clears Dead, Unconscious, Stable and Incapacitated, zeroes the death-save tallies, restores Hit Points to the hero's maximum and sets the hero down in the inn loft."
+template_id = "kavemouth/respawn/wake-at-inn/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+description = "Clears Dead, Unconscious, Stable and Incapacitated, zeroes the death-save tallies, restores Hit Points to the hero's maximum and sets the hero down in the inn loft."
+template_id = "kavemouth/respawn/wake-at-inn-penniless/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+description = "Clears Dead, Unconscious, Stable and Incapacitated, zeroes the death-save tallies, restores Hit Points to the hero's maximum and sets the hero down in the inn loft."
+template_id = "kavemouth/action/wake-at-inn/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/dm/teleport-into-advancement-limbo/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/dm/return-from-advancement-limbo/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/quest/open-tomb/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+description = "Records on the hero that the moonpetal reached Old Tamsin."
+template_id = "kavemouth/quest/deliver-moonpetal/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+description = "Records on the hero: Sister Maelis gave up the Chaff cult to the hero."
+template_id = "kavemouth/quest/accept-maelis-surrender/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+description = "Records on the hero: The hero set Warcaptain Ghorza's camp alight."
+template_id = "kavemouth/quest/burn-the-camp/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+description = "Records on the hero: Grubnash agreed to keep his goblins off the road."
+template_id = "kavemouth/quest/strike-truce-with-grubnash/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+description = "Records on the hero: The hero relit the altar of the Twin Lamps."
+template_id = "kavemouth/quest/relight-the-altar/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/dm/award-quest-xp/Q1/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/dm/settle-quest/Q1/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/dm/award-quest-xp/Q2/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/dm/settle-quest/Q2/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/dm/award-quest-xp/Q3/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/dm/settle-quest/Q3/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/dm/award-quest-xp/Q4/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/dm/settle-quest/Q4/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/dm/award-quest-xp/Q5/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/dm/settle-quest/Q5/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/dm/award-quest-xp/Q6/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/dm/settle-quest/Q6/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/dm/award-quest-xp/Q7/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/dm/settle-quest/Q7/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/dm/award-quest-xp/Q8/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/dm/settle-quest/Q8/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/dm/award-quest-xp/Q9/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/dm/settle-quest/Q9/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/dm/award-quest-xp/Q10/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/dm/settle-quest/Q10/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/dm/award-quest-xp/Q11/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/dm/settle-quest/Q11/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/dm/award-quest-xp/Q12/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/dm/settle-quest/Q12/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/dm/record-bond/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/dm/mark-bonded/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+effect_refs_csv = "kavemouth/dm/join-rogue/spawn"
+template_id = "kavemouth/dm/join-rogue/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+effect_refs_csv = "kavemouth/dm/open-seat/spawn"
+template_id = "kavemouth/dm/open-seat/success"
+
+[[consequence_templates]]
+bundle_id = "kavemouth"
+template_id = "kavemouth/dm/call-initiative/success"
+
+[[containment_policy_definition]]
+access_predicate_source = "target.stat('kavemouth/adventure/loft-chest/open') == 1"
+bundle_id = "kavemouth"
+exposure_predicate_source = "target.stat('kavemouth/adventure/loft-chest/open') == 1"
+policy_id = "kavemouth/containment/loft-chest"
+
+[[containment_policy_definition]]
+access_predicate_source = "false == true"
+bundle_id = "kavemouth"
+exposure_predicate_source = "false == true"
+policy_id = "kavemouth/containment/sealed"
+
+[[effect_definitions]]
+bundle_id = "kavemouth"
+effect_def_id = "kavemouth/dm/join-rogue/spawn"
+parameters_schema_json = '{"blueprint_id":"kavemouth/adventure/rogue-companion","location_ref":{"kind":"place_node","id":"kavemouth/inn/common_room"},"unbound_actor":true}'
+primitives_csv = "Spawn"
+
+[[effect_definitions]]
+bundle_id = "kavemouth"
+effect_def_id = "kavemouth/dm/open-seat/spawn"
+parameters_schema_json = '{"blueprint_id":"kavemouth/adventure/candidate","location_ref":{"kind":"binding","id":"TargetSpatialRef"},"unbound_actor":true}'
+primitives_csv = "Spawn"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Open"
+manipulation_action_id = "kavemouth/adventure/loft-chest/open"
+outcome_bool = true
+outcome_template_id = "kavemouth/adventure/loft-chest/open/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Close"
+manipulation_action_id = "kavemouth/adventure/loft-chest/close"
+outcome_bool = true
+outcome_template_id = "kavemouth/adventure/loft-chest/close/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Record Rats in the Cellar agreement"
+manipulation_action_id = "kavemouth/quest/Q1/accept"
+outcome_bool = true
+outcome_template_id = "kavemouth/quest/Q1/accept/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Record Road Watch agreement"
+manipulation_action_id = "kavemouth/quest/Q2/accept"
+outcome_bool = true
+outcome_template_id = "kavemouth/quest/Q2/accept/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Record Tamsin's Basket agreement"
+manipulation_action_id = "kavemouth/quest/Q3/accept"
+outcome_bool = true
+outcome_template_id = "kavemouth/quest/Q3/accept/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Record The Silent Mill agreement"
+manipulation_action_id = "kavemouth/quest/Q4/accept"
+outcome_bool = true
+outcome_template_id = "kavemouth/quest/Q4/accept/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Record Break the Raid agreement"
+manipulation_action_id = "kavemouth/quest/Q5/accept"
+outcome_bool = true
+outcome_template_id = "kavemouth/quest/Q5/accept/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Record The Lodge Fire agreement"
+manipulation_action_id = "kavemouth/quest/Q6/accept"
+outcome_bool = true
+outcome_template_id = "kavemouth/quest/Q6/accept/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Record Grubnash's Warren agreement"
+manipulation_action_id = "kavemouth/quest/Q7/accept"
+outcome_bool = true
+outcome_template_id = "kavemouth/quest/Q7/accept/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Record Ulda's Bargain agreement"
+manipulation_action_id = "kavemouth/quest/Q8/accept"
+outcome_bool = true
+outcome_template_id = "kavemouth/quest/Q8/accept/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Record The Ironfold Key agreement"
+manipulation_action_id = "kavemouth/quest/Q9/accept"
+outcome_bool = true
+outcome_template_id = "kavemouth/quest/Q9/accept/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Record The Twin Lamps agreement"
+manipulation_action_id = "kavemouth/quest/Q10/accept"
+outcome_bool = true
+outcome_template_id = "kavemouth/quest/Q10/accept/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Record Whispers in the Well agreement"
+manipulation_action_id = "kavemouth/quest/Q11/accept"
+outcome_bool = true
+outcome_template_id = "kavemouth/quest/Q11/accept/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Record The Pale Steward agreement"
+manipulation_action_id = "kavemouth/quest/Q12/accept"
+outcome_bool = true
+outcome_template_id = "kavemouth/quest/Q12/accept/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Companion invitation: accept"
+manipulation_action_id = "kavemouth/companion/rogue/accept"
+outcome_bool = true
+outcome_template_id = "kavemouth/companion/rogue/accept/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Companion invitation: decline"
+manipulation_action_id = "kavemouth/companion/rogue/decline"
+outcome_bool = true
+outcome_template_id = "kavemouth/companion/rogue/decline/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Companion invitation: reopen"
+manipulation_action_id = "kavemouth/companion/rogue/reopen"
+outcome_bool = true
+outcome_template_id = "kavemouth/companion/rogue/reopen/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Gift the telepathy stone"
+manipulation_action_id = "kavemouth/companion/gift-stone"
+outcome_bool = true
+outcome_template_id = "kavemouth/companion/gift-stone/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Tell Hesper to hold"
+manipulation_action_id = "kavemouth/companion/hold"
+outcome_bool = true
+outcome_template_id = "kavemouth/companion/hold/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Tell Hesper to follow"
+manipulation_action_id = "kavemouth/companion/follow"
+outcome_bool = true
+outcome_template_id = "kavemouth/companion/follow/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Tell Hesper to stop"
+manipulation_action_id = "kavemouth/companion/cancel"
+outcome_bool = true
+outcome_template_id = "kavemouth/companion/cancel/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Say to Hesper: hold"
+manipulation_action_id = "kavemouth/companion/hold"
+outcome_bool = true
+outcome_template_id = "kavemouth/companion/say-hold/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Say to Hesper: follow"
+manipulation_action_id = "kavemouth/companion/follow"
+outcome_bool = true
+outcome_template_id = "kavemouth/companion/say-follow/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Say to Hesper: stop"
+manipulation_action_id = "kavemouth/companion/cancel"
+outcome_bool = true
+outcome_template_id = "kavemouth/companion/say-cancel/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Induct the finished candidate"
+manipulation_action_id = "kavemouth/dm/induct-candidate"
+outcome_bool = true
+outcome_template_id = "kavemouth/dm/induct-candidate/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Give up and wake at the inn"
+manipulation_action_id = "kavemouth/respawn/wake-at-inn"
+outcome_bool = true
+outcome_template_id = "kavemouth/respawn/wake-at-inn/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Give up and wake at the inn (no coin)"
+manipulation_action_id = "kavemouth/respawn/wake-at-inn-penniless"
+outcome_bool = true
+outcome_template_id = "kavemouth/respawn/wake-at-inn-penniless/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Give up and wake at the inn"
+manipulation_action_id = "kavemouth/action/wake-at-inn"
+outcome_bool = true
+outcome_template_id = "kavemouth/action/wake-at-inn/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Carry the trainee into the advancement limbo"
+manipulation_action_id = "kavemouth/dm/teleport-into-advancement-limbo"
+outcome_bool = true
+outcome_template_id = "kavemouth/dm/teleport-into-advancement-limbo/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Return the trainee to the inn hearth"
+manipulation_action_id = "kavemouth/dm/return-from-advancement-limbo"
+outcome_bool = true
+outcome_template_id = "kavemouth/dm/return-from-advancement-limbo/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Open the deep tomb with the Ironfold key"
+manipulation_action_id = "kavemouth/quest/open-tomb"
+outcome_bool = true
+outcome_template_id = "kavemouth/quest/open-tomb/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Hand the moonpetal to Old Tamsin"
+manipulation_action_id = "kavemouth/quest/deliver-moonpetal"
+outcome_bool = true
+outcome_template_id = "kavemouth/quest/deliver-moonpetal/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Call on Sister Maelis to yield"
+manipulation_action_id = "kavemouth/quest/accept-maelis-surrender"
+outcome_bool = true
+outcome_template_id = "kavemouth/quest/accept-maelis-surrender/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Set the camp alight"
+manipulation_action_id = "kavemouth/quest/burn-the-camp"
+outcome_bool = true
+outcome_template_id = "kavemouth/quest/burn-the-camp/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Strike a truce with Grubnash"
+manipulation_action_id = "kavemouth/quest/strike-truce-with-grubnash"
+outcome_bool = true
+outcome_template_id = "kavemouth/quest/strike-truce-with-grubnash/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Relight the altar"
+manipulation_action_id = "kavemouth/quest/relight-the-altar"
+outcome_bool = true
+outcome_template_id = "kavemouth/quest/relight-the-altar/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "kavemouth/dm/award-quest-xp/Q1"
+manipulation_action_id = "kavemouth/dm/award-quest-xp/Q1"
+outcome_bool = true
+outcome_template_id = "kavemouth/dm/award-quest-xp/Q1/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "kavemouth/dm/settle-quest/Q1"
+manipulation_action_id = "kavemouth/dm/settle-quest/Q1"
+outcome_bool = true
+outcome_template_id = "kavemouth/dm/settle-quest/Q1/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "kavemouth/dm/award-quest-xp/Q2"
+manipulation_action_id = "kavemouth/dm/award-quest-xp/Q2"
+outcome_bool = true
+outcome_template_id = "kavemouth/dm/award-quest-xp/Q2/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "kavemouth/dm/settle-quest/Q2"
+manipulation_action_id = "kavemouth/dm/settle-quest/Q2"
+outcome_bool = true
+outcome_template_id = "kavemouth/dm/settle-quest/Q2/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "kavemouth/dm/award-quest-xp/Q3"
+manipulation_action_id = "kavemouth/dm/award-quest-xp/Q3"
+outcome_bool = true
+outcome_template_id = "kavemouth/dm/award-quest-xp/Q3/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "kavemouth/dm/settle-quest/Q3"
+manipulation_action_id = "kavemouth/dm/settle-quest/Q3"
+outcome_bool = true
+outcome_template_id = "kavemouth/dm/settle-quest/Q3/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "kavemouth/dm/award-quest-xp/Q4"
+manipulation_action_id = "kavemouth/dm/award-quest-xp/Q4"
+outcome_bool = true
+outcome_template_id = "kavemouth/dm/award-quest-xp/Q4/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "kavemouth/dm/settle-quest/Q4"
+manipulation_action_id = "kavemouth/dm/settle-quest/Q4"
+outcome_bool = true
+outcome_template_id = "kavemouth/dm/settle-quest/Q4/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "kavemouth/dm/award-quest-xp/Q5"
+manipulation_action_id = "kavemouth/dm/award-quest-xp/Q5"
+outcome_bool = true
+outcome_template_id = "kavemouth/dm/award-quest-xp/Q5/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "kavemouth/dm/settle-quest/Q5"
+manipulation_action_id = "kavemouth/dm/settle-quest/Q5"
+outcome_bool = true
+outcome_template_id = "kavemouth/dm/settle-quest/Q5/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "kavemouth/dm/award-quest-xp/Q6"
+manipulation_action_id = "kavemouth/dm/award-quest-xp/Q6"
+outcome_bool = true
+outcome_template_id = "kavemouth/dm/award-quest-xp/Q6/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "kavemouth/dm/settle-quest/Q6"
+manipulation_action_id = "kavemouth/dm/settle-quest/Q6"
+outcome_bool = true
+outcome_template_id = "kavemouth/dm/settle-quest/Q6/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "kavemouth/dm/award-quest-xp/Q7"
+manipulation_action_id = "kavemouth/dm/award-quest-xp/Q7"
+outcome_bool = true
+outcome_template_id = "kavemouth/dm/award-quest-xp/Q7/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "kavemouth/dm/settle-quest/Q7"
+manipulation_action_id = "kavemouth/dm/settle-quest/Q7"
+outcome_bool = true
+outcome_template_id = "kavemouth/dm/settle-quest/Q7/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "kavemouth/dm/award-quest-xp/Q8"
+manipulation_action_id = "kavemouth/dm/award-quest-xp/Q8"
+outcome_bool = true
+outcome_template_id = "kavemouth/dm/award-quest-xp/Q8/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "kavemouth/dm/settle-quest/Q8"
+manipulation_action_id = "kavemouth/dm/settle-quest/Q8"
+outcome_bool = true
+outcome_template_id = "kavemouth/dm/settle-quest/Q8/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "kavemouth/dm/award-quest-xp/Q9"
+manipulation_action_id = "kavemouth/dm/award-quest-xp/Q9"
+outcome_bool = true
+outcome_template_id = "kavemouth/dm/award-quest-xp/Q9/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "kavemouth/dm/settle-quest/Q9"
+manipulation_action_id = "kavemouth/dm/settle-quest/Q9"
+outcome_bool = true
+outcome_template_id = "kavemouth/dm/settle-quest/Q9/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "kavemouth/dm/award-quest-xp/Q10"
+manipulation_action_id = "kavemouth/dm/award-quest-xp/Q10"
+outcome_bool = true
+outcome_template_id = "kavemouth/dm/award-quest-xp/Q10/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "kavemouth/dm/settle-quest/Q10"
+manipulation_action_id = "kavemouth/dm/settle-quest/Q10"
+outcome_bool = true
+outcome_template_id = "kavemouth/dm/settle-quest/Q10/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "kavemouth/dm/award-quest-xp/Q11"
+manipulation_action_id = "kavemouth/dm/award-quest-xp/Q11"
+outcome_bool = true
+outcome_template_id = "kavemouth/dm/award-quest-xp/Q11/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "kavemouth/dm/settle-quest/Q11"
+manipulation_action_id = "kavemouth/dm/settle-quest/Q11"
+outcome_bool = true
+outcome_template_id = "kavemouth/dm/settle-quest/Q11/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "kavemouth/dm/award-quest-xp/Q12"
+manipulation_action_id = "kavemouth/dm/award-quest-xp/Q12"
+outcome_bool = true
+outcome_template_id = "kavemouth/dm/award-quest-xp/Q12/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "kavemouth/dm/settle-quest/Q12"
+manipulation_action_id = "kavemouth/dm/settle-quest/Q12"
+outcome_bool = true
+outcome_template_id = "kavemouth/dm/settle-quest/Q12/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "kavemouth/dm/record-bond"
+manipulation_action_id = "kavemouth/dm/record-bond"
+outcome_bool = true
+outcome_template_id = "kavemouth/dm/record-bond/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "kavemouth/dm/mark-bonded"
+manipulation_action_id = "kavemouth/dm/mark-bonded"
+outcome_bool = true
+outcome_template_id = "kavemouth/dm/mark-bonded/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Join the accepted companion"
+manipulation_action_id = "kavemouth/dm/join-rogue"
+outcome_bool = true
+outcome_template_id = "kavemouth/dm/join-rogue/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Open a creation seat"
+manipulation_action_id = "kavemouth/dm/open-seat"
+outcome_bool = true
+outcome_template_id = "kavemouth/dm/open-seat/outcome"
+sense_visibility = "local"
+
+[[outcome_templates]]
+bundle_id = "kavemouth"
+consequence_template_id = ""
+display_name = "Call initiative"
+manipulation_action_id = "kavemouth/dm/call-initiative"
+outcome_bool = true
+outcome_template_id = "kavemouth/dm/call-initiative/outcome"
+sense_visibility = "local"
+
+[[prompt_definitions]]
+accepts_global_storm = false
+audience_kind_ref = "core/audience/directed_trace"
+bundle_id = "kavemouth"
+contract_version = 1
+open_predicate_source = "actor.stat('dm/dialog/open') >= 1 && actor.stat('dm/dialog/prompt') == 1"
+prompt_def_id = "kavemouth/prompt/quest/q1"
+response_action_ids = [
+    "dm/dialog/choice/1",
+    "dm/dialog/choice/2",
+]
+source_selector = "srd.dm_npc.talker"
+trace_window_ticks = 20
+
+[[prompt_definitions]]
+accepts_global_storm = false
+audience_kind_ref = "core/audience/directed_trace"
+bundle_id = "kavemouth"
+contract_version = 1
+open_predicate_source = "actor.stat('dm/dialog/open') >= 1 && actor.stat('dm/dialog/prompt') == 2"
+prompt_def_id = "kavemouth/prompt/quest/q2"
+response_action_ids = [
+    "dm/dialog/choice/1",
+    "dm/dialog/choice/2",
+]
+source_selector = "srd.dm_npc.talker"
+trace_window_ticks = 20
+
+[[prompt_definitions]]
+accepts_global_storm = false
+audience_kind_ref = "core/audience/directed_trace"
+bundle_id = "kavemouth"
+contract_version = 1
+open_predicate_source = "actor.stat('dm/dialog/open') >= 1 && actor.stat('dm/dialog/prompt') == 3"
+prompt_def_id = "kavemouth/prompt/quest/q3"
+response_action_ids = [
+    "dm/dialog/choice/1",
+    "dm/dialog/choice/2",
+]
+source_selector = "srd.dm_npc.talker"
+trace_window_ticks = 20
+
+[[prompt_definitions]]
+accepts_global_storm = false
+audience_kind_ref = "core/audience/directed_trace"
+bundle_id = "kavemouth"
+contract_version = 1
+open_predicate_source = "actor.stat('dm/dialog/open') >= 1 && actor.stat('dm/dialog/prompt') == 4"
+prompt_def_id = "kavemouth/prompt/quest/q4"
+response_action_ids = [
+    "dm/dialog/choice/1",
+    "dm/dialog/choice/2",
+]
+source_selector = "srd.dm_npc.talker"
+trace_window_ticks = 20
+
+[[prompt_definitions]]
+accepts_global_storm = false
+audience_kind_ref = "core/audience/directed_trace"
+bundle_id = "kavemouth"
+contract_version = 1
+open_predicate_source = "actor.stat('dm/dialog/open') >= 1 && actor.stat('dm/dialog/prompt') == 5"
+prompt_def_id = "kavemouth/prompt/quest/q5"
+response_action_ids = [
+    "dm/dialog/choice/1",
+    "dm/dialog/choice/2",
+]
+source_selector = "srd.dm_npc.talker"
+trace_window_ticks = 20
+
+[[prompt_definitions]]
+accepts_global_storm = false
+audience_kind_ref = "core/audience/directed_trace"
+bundle_id = "kavemouth"
+contract_version = 1
+open_predicate_source = "actor.stat('dm/dialog/open') >= 1 && actor.stat('dm/dialog/prompt') == 6"
+prompt_def_id = "kavemouth/prompt/quest/q6"
+response_action_ids = [
+    "dm/dialog/choice/1",
+    "dm/dialog/choice/2",
+]
+source_selector = "srd.dm_npc.talker"
+trace_window_ticks = 20
+
+[[prompt_definitions]]
+accepts_global_storm = false
+audience_kind_ref = "core/audience/directed_trace"
+bundle_id = "kavemouth"
+contract_version = 1
+open_predicate_source = "actor.stat('dm/dialog/open') >= 1 && actor.stat('dm/dialog/prompt') == 7"
+prompt_def_id = "kavemouth/prompt/quest/q7"
+response_action_ids = [
+    "dm/dialog/choice/1",
+    "dm/dialog/choice/2",
+]
+source_selector = "srd.dm_npc.talker"
+trace_window_ticks = 20
+
+[[prompt_definitions]]
+accepts_global_storm = false
+audience_kind_ref = "core/audience/directed_trace"
+bundle_id = "kavemouth"
+contract_version = 1
+open_predicate_source = "actor.stat('dm/dialog/open') >= 1 && actor.stat('dm/dialog/prompt') == 8"
+prompt_def_id = "kavemouth/prompt/quest/q8"
+response_action_ids = [
+    "dm/dialog/choice/1",
+    "dm/dialog/choice/2",
+]
+source_selector = "srd.dm_npc.talker"
+trace_window_ticks = 20
+
+[[prompt_definitions]]
+accepts_global_storm = false
+audience_kind_ref = "core/audience/directed_trace"
+bundle_id = "kavemouth"
+contract_version = 1
+open_predicate_source = "actor.stat('dm/dialog/open') >= 1 && actor.stat('dm/dialog/prompt') == 9"
+prompt_def_id = "kavemouth/prompt/quest/q9"
+response_action_ids = [
+    "dm/dialog/choice/1",
+    "dm/dialog/choice/2",
+]
+source_selector = "srd.dm_npc.talker"
+trace_window_ticks = 20
+
+[[prompt_definitions]]
+accepts_global_storm = false
+audience_kind_ref = "core/audience/directed_trace"
+bundle_id = "kavemouth"
+contract_version = 1
+open_predicate_source = "actor.stat('dm/dialog/open') >= 1 && actor.stat('dm/dialog/prompt') == 10"
+prompt_def_id = "kavemouth/prompt/quest/q10"
+response_action_ids = [
+    "dm/dialog/choice/1",
+    "dm/dialog/choice/2",
+]
+source_selector = "srd.dm_npc.talker"
+trace_window_ticks = 20
+
+[[prompt_definitions]]
+accepts_global_storm = false
+audience_kind_ref = "core/audience/directed_trace"
+bundle_id = "kavemouth"
+contract_version = 1
+open_predicate_source = "actor.stat('dm/dialog/open') >= 1 && actor.stat('dm/dialog/prompt') == 11"
+prompt_def_id = "kavemouth/prompt/quest/q11"
+response_action_ids = [
+    "dm/dialog/choice/1",
+    "dm/dialog/choice/2",
+]
+source_selector = "srd.dm_npc.talker"
+trace_window_ticks = 20
+
+[[prompt_definitions]]
+accepts_global_storm = false
+audience_kind_ref = "core/audience/directed_trace"
+bundle_id = "kavemouth"
+contract_version = 1
+open_predicate_source = "actor.stat('dm/dialog/open') >= 1 && actor.stat('dm/dialog/prompt') == 12"
+prompt_def_id = "kavemouth/prompt/quest/q12"
+response_action_ids = [
+    "dm/dialog/choice/1",
+    "dm/dialog/choice/2",
+]
+source_selector = "srd.dm_npc.talker"
+trace_window_ticks = 20
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent accepted outcome for Rats in the Cellar."
+display_name = "Rats in the Cellar: accepted"
+initial_value = 0
+max_value = 2
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q1/accepted"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent rewarded outcome for Rats in the Cellar."
+display_name = "Rats in the Cellar: rewarded"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q1/rewarded"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent xp-awarded outcome for Rats in the Cellar."
+display_name = "Rats in the Cellar: xp-awarded"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q1/xp-awarded"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent accepted outcome for Road Watch."
+display_name = "Road Watch: accepted"
+initial_value = 0
+max_value = 2
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q2/accepted"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent rewarded outcome for Road Watch."
+display_name = "Road Watch: rewarded"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q2/rewarded"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent xp-awarded outcome for Road Watch."
+display_name = "Road Watch: xp-awarded"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q2/xp-awarded"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent accepted outcome for Tamsin's Basket."
+display_name = "Tamsin's Basket: accepted"
+initial_value = 0
+max_value = 2
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q3/accepted"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent rewarded outcome for Tamsin's Basket."
+display_name = "Tamsin's Basket: rewarded"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q3/rewarded"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent xp-awarded outcome for Tamsin's Basket."
+display_name = "Tamsin's Basket: xp-awarded"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q3/xp-awarded"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent accepted outcome for The Silent Mill."
+display_name = "The Silent Mill: accepted"
+initial_value = 0
+max_value = 2
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q4/accepted"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent rewarded outcome for The Silent Mill."
+display_name = "The Silent Mill: rewarded"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q4/rewarded"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent xp-awarded outcome for The Silent Mill."
+display_name = "The Silent Mill: xp-awarded"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q4/xp-awarded"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent accepted outcome for Break the Raid."
+display_name = "Break the Raid: accepted"
+initial_value = 0
+max_value = 2
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q5/accepted"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent rewarded outcome for Break the Raid."
+display_name = "Break the Raid: rewarded"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q5/rewarded"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent xp-awarded outcome for Break the Raid."
+display_name = "Break the Raid: xp-awarded"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q5/xp-awarded"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent accepted outcome for The Lodge Fire."
+display_name = "The Lodge Fire: accepted"
+initial_value = 0
+max_value = 2
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q6/accepted"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent rewarded outcome for The Lodge Fire."
+display_name = "The Lodge Fire: rewarded"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q6/rewarded"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent xp-awarded outcome for The Lodge Fire."
+display_name = "The Lodge Fire: xp-awarded"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q6/xp-awarded"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent accepted outcome for Grubnash's Warren."
+display_name = "Grubnash's Warren: accepted"
+initial_value = 0
+max_value = 2
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q7/accepted"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent rewarded outcome for Grubnash's Warren."
+display_name = "Grubnash's Warren: rewarded"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q7/rewarded"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent xp-awarded outcome for Grubnash's Warren."
+display_name = "Grubnash's Warren: xp-awarded"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q7/xp-awarded"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent accepted outcome for Ulda's Bargain."
+display_name = "Ulda's Bargain: accepted"
+initial_value = 0
+max_value = 2
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q8/accepted"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent rewarded outcome for Ulda's Bargain."
+display_name = "Ulda's Bargain: rewarded"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q8/rewarded"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent xp-awarded outcome for Ulda's Bargain."
+display_name = "Ulda's Bargain: xp-awarded"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q8/xp-awarded"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent accepted outcome for The Ironfold Key."
+display_name = "The Ironfold Key: accepted"
+initial_value = 0
+max_value = 2
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q9/accepted"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent rewarded outcome for The Ironfold Key."
+display_name = "The Ironfold Key: rewarded"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q9/rewarded"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent xp-awarded outcome for The Ironfold Key."
+display_name = "The Ironfold Key: xp-awarded"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q9/xp-awarded"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent accepted outcome for The Twin Lamps."
+display_name = "The Twin Lamps: accepted"
+initial_value = 0
+max_value = 2
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q10/accepted"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent rewarded outcome for The Twin Lamps."
+display_name = "The Twin Lamps: rewarded"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q10/rewarded"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent xp-awarded outcome for The Twin Lamps."
+display_name = "The Twin Lamps: xp-awarded"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q10/xp-awarded"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent accepted outcome for Whispers in the Well."
+display_name = "Whispers in the Well: accepted"
+initial_value = 0
+max_value = 2
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q11/accepted"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent rewarded outcome for Whispers in the Well."
+display_name = "Whispers in the Well: rewarded"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q11/rewarded"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent xp-awarded outcome for Whispers in the Well."
+display_name = "Whispers in the Well: xp-awarded"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q11/xp-awarded"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent accepted outcome for The Pale Steward."
+display_name = "The Pale Steward: accepted"
+initial_value = 0
+max_value = 2
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q12/accepted"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent rewarded outcome for The Pale Steward."
+display_name = "The Pale Steward: rewarded"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q12/rewarded"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Persistent xp-awarded outcome for The Pale Steward."
+display_name = "The Pale Steward: xp-awarded"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/Q12/xp-awarded"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "The accepted invitation has spawned its one companion."
+display_name = "Companion spawned"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/companion/rogue/spawned"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Invitation undecided (0), accepted (1), or declined (2)."
+display_name = "Rogue companion agreement"
+initial_value = 0
+max_value = 2
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/companion/rogue/agreement"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "0 = no stone gifted yet, 1 = Hesper's gift landed in the hero's inventory. The gift's own consequence writes it; Aldwin's bond watch reads it."
+display_name = "Telepathy stone gifted"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/companion/stone-carried"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "0 = bond not yet recorded, 1 = Aldwin applied the command-bond delta and fired the latch. Durable restore signal for the bond watch."
+display_name = "Companion bond recorded"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/companion/bond-recorded"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "0 = not yet bonded, 1 = the bond latch fired for this companion. Lives on the COMPANION's own body, so the seat's policy switch answers it from anywhere and after any restart (own state is always perceivable)."
+display_name = "Companion bonded"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/companion/bonded"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "The key has been spent opening the deep tomb, witnessed as a public quest outcome."
+display_name = "Ironfold seal opened"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/flag/q9_tomb_opened"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "The hero has brought Old Tamsin the moonpetal she asked for."
+display_name = "Moonpetal handed to Tamsin"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/flag/q3_delivered"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Sister Maelis gave up the Chaff cult to the hero."
+display_name = "Sister Maelis has yielded"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/flag/q4_maelis_surrendered"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "The hero set Warcaptain Ghorza's camp alight."
+display_name = "The raiders' camp has burned"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/flag/q5_camp_burned"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "Grubnash agreed to keep his goblins off the road."
+display_name = "Truce with Grubnash"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/flag/q7_truce"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "The hero relit the altar of the Twin Lamps."
+display_name = "The shrine altar burns again"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/quest/flag/q10_altar_relit"
+value_kind = "int"
+
+[[resource_definitions]]
+bundle_id = "kavemouth"
+description = "The chest lid is closed (0) or open (1)."
+display_name = "Lid open"
+initial_value = 0
+max_value = 1
+min_value = 0
+recovery_rule = "persistent"
+resource_definition_id = "kavemouth/adventure/loft-chest/open"
+value_kind = "int"
+
+[[spatial_environment_state]]
+bundle_id = "kavemouth"
+location_def_id = ""
+place_edge_key = "kavemouth/tomb/crypt->kavemouth/deep_tomb/stair_from_tomb"
+place_node_id = ""
+state_id = "kavemouth/ironfold-seal-open"
+updated_tick = 0
+value_bool = false
+visibility = "Public"
+
+[[spatial_state_definitions]]
+bundle_id = "kavemouth"
+description = "The Ironfold ward has been opened permanently."
+freshness_rule = ""
+lod_policy = "retain_latest"
+merge_rule = "replace"
+state_id = "kavemouth/ironfold-seal-open"
+value_type = "bool"
+writer_policy = "world_interaction"
+
+[[tag_capability_grant]]
+bundle_id = "kavemouth"
+capability_id = "kavemouth/action/wake-at-inn"
+tag = "srd.party.heroes"
+
+[[tag_capability_grant]]
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/deliver-moonpetal"
+tag = "srd.party.heroes"
+
+[[tag_capability_grant]]
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/milestone-deeds"
+tag = "srd.party.heroes"

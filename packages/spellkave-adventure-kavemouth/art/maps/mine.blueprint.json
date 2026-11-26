@@ -1,0 +1,23 @@
+{
+	"schema": "spellkave-pixellab-blueprint/v1",
+	"id": "kavemouth-map-mine",
+	"description": "A worked-out mine: an adit and forecourt, timbered galleries, a crosscut, a deep shaft, a lower hall, a stone crypt and a small locked vault. Top-down pixel art game map seen from straight above, one continuous scene, muted earthy palette, soft shading, readable floors and walls, no characters, no creatures, no text, no letters, no numbers, no grid lines, no frame, no logo.",
+	"negative_description": "text, letters, numbers, labels, grid, people, monsters, isometric, side view, border, watermark",
+	"image_size": {
+		"width": 400,
+		"height": 384
+	},
+	"view": "high top-down",
+	"outline": "selective outline",
+	"shading": "medium shading",
+	"detail": "highly detailed",
+	"init_image": "packages/spellkave-adventure-kavemouth/assets/kavemouth-maps/plans/mine.png",
+	"init_image_strength": 90,
+	"seed": 1,
+	"output_directory": "pixellab-generations/kavemouth-maps/mine",
+	"output_filename": "mine.png",
+	"provenance": {
+		"license": "CC-BY-4.0",
+		"source": "Kavemouth place backdrops over first-party floor plans (author/lib/layouts.ts)"
+	}
+}

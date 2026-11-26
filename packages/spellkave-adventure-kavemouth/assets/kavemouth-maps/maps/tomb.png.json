@@ -1,0 +1,56 @@
+{
+	"schema": "spellkave-design-asset-provenance/v1",
+	"kind": "place-map",
+	"place_graph_id": "kavemouth/tomb",
+	"provider": "pixellab-pixflux",
+	"tool": "skgen image pixellab generate",
+	"sdk": {
+		"package": "@pixellab-code/pixellab",
+		"version": "1.0.2",
+		"patch": "patches/@pixellab-code__pixellab@1.0.2.patch"
+	},
+	"provider_ids": {
+		"api_base_url": "https://api.pixellab.ai/v1",
+		"route": "/generate-image-pixflux"
+	},
+	"prompt": "An old stone barrow tomb: entrance, antechamber, a hall of sarcophagi, a small shrine, a sealed vault, a lower crypt and a pool of green slime. Top-down pixel art game map seen from straight above, one continuous scene, muted earthy palette, soft shading, readable floors and walls, no characters, no creatures, no text, no letters, no numbers, no grid lines, no frame, no logo.",
+	"request": {
+		"description": "An old stone barrow tomb: entrance, antechamber, a hall of sarcophagi, a small shrine, a sealed vault, a lower crypt and a pool of green slime. Top-down pixel art game map seen from straight above, one continuous scene, muted earthy palette, soft shading, readable floors and walls, no characters, no creatures, no text, no letters, no numbers, no grid lines, no frame, no logo.",
+		"image_size": {
+			"width": 384,
+			"height": 288
+		},
+		"negative_description": "text, letters, numbers, labels, grid, people, monsters, isometric, side view, border, watermark",
+		"text_guidance_scale": 8,
+		"outline": "selective outline",
+		"shading": "medium shading",
+		"detail": "highly detailed",
+		"view": "high top-down",
+		"direction": null,
+		"isometric": false,
+		"no_background": false,
+		"coverage_percentage": null,
+		"init_image": "packages/spellkave-adventure-kavemouth/assets/kavemouth-maps/plans/tomb.png",
+		"init_image_strength": 115,
+		"color_image": null,
+		"seed": 1
+	},
+	"source_blueprint": "packages/spellkave-adventure-kavemouth/art/maps/tomb.blueprint.json",
+	"source_blueprint_sha256": "4a39d9b12837683ac58d28eeb31f131e76317c4bada1ad8e7dca8d75691f66a3",
+	"source_plan": "packages/spellkave-adventure-kavemouth/assets/kavemouth-maps/plans/tomb.png",
+	"source_plan_sha256": "44ef118a9c6c859e3513285aa6942a1a2d8ba61149b74d0d2f5456160c685db1",
+	"provenance": {
+		"license": "CC-BY-4.0",
+		"source": "Generated with PixelLab over a first-party floor plan (author/lib/layouts.ts, scripts/build-map-inputs.ts)"
+	},
+	"usage": {
+		"type": "generations",
+		"generations": 1
+	},
+	"generated_at": "2026-11-26T21:52:25.645Z",
+	"dimensions": [
+		384,
+		288
+	],
+	"sha256": "5e6fab3e76e320001de8765176d7fe767cbe7dce157818533bfb78977a571f40"
+}

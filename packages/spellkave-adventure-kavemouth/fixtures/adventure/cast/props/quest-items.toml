@@ -1,0 +1,98 @@
+[[entities]]
+bundle_id = "kavemouth"
+description = "A pale night-bloom Tamsin needs for her basket."
+entity_def_id = "kavemouth/adventure/item/moonpetal"
+entity_key = "kavemouth/adventure/item/moonpetal_1"
+kind = "item"
+name = "Moonpetal"
+owned_by_entity_key = ""
+place_node_id = "kavemouth/village/green"
+quantity = 1
+
+[[entities]]
+bundle_id = "kavemouth"
+description = "A Chaff-cult relic Ulda Reedwife bargains over."
+entity_def_id = "kavemouth/adventure/item/cult_relic"
+entity_key = "kavemouth/adventure/item/cult_relic_1"
+kind = "item"
+name = "Cult Relic"
+owned_by_entity_key = ""
+place_node_id = "kavemouth/swamp/hag_hut"
+quantity = 1
+
+[[entities]]
+bundle_id = "kavemouth"
+description = "Durgan's one-use ward-key. The socket in the upper tomb's crypt consumes it to open the deep stair for the whole party."
+entity_def_id = "kavemouth/adventure/item/tomb_key"
+entity_key = "kavemouth/adventure/item/tomb_key_1"
+kind = "item"
+name = "Ironfold Tomb Key"
+owned_by_entity_key = ""
+place_node_id = "kavemouth/mine/durgan_crypt"
+quantity = 1
+
+[[entity_definitions]]
+affordance_seed_id = ""
+bundle_id = "kavemouth"
+description = "A pale night-bloom Tamsin needs for her basket."
+display_name = "Moonpetal"
+entity_def_id = "kavemouth/adventure/item/moonpetal"
+grants_capability_while_equipped = ""
+grants_capability_while_present_in_location = ""
+lineage_id = ""
+on_consume_consequence_id = ""
+on_destroy_consequence_id = ""
+on_equip_consequence_id = ""
+on_unequip_consequence_id = ""
+slot_compatibility_predicate = ""
+stackable = false
+
+[[entity_definitions]]
+affordance_seed_id = ""
+bundle_id = "kavemouth"
+description = "A Chaff-cult relic Ulda Reedwife bargains over."
+display_name = "Cult Relic"
+entity_def_id = "kavemouth/adventure/item/cult_relic"
+grants_capability_while_equipped = ""
+grants_capability_while_present_in_location = ""
+lineage_id = ""
+on_consume_consequence_id = ""
+on_destroy_consequence_id = ""
+on_equip_consequence_id = ""
+on_unequip_consequence_id = ""
+slot_compatibility_predicate = ""
+stackable = false
+
+[[entity_definitions]]
+affordance_seed_id = ""
+bundle_id = "kavemouth"
+description = "Durgan's one-use ward-key. The socket in the upper tomb's crypt consumes it to open the deep stair for the whole party."
+display_name = "Ironfold Tomb Key"
+entity_def_id = "kavemouth/adventure/item/tomb_key"
+grants_capability_while_equipped = ""
+grants_capability_while_present_in_location = ""
+lineage_id = ""
+on_consume_consequence_id = ""
+on_destroy_consequence_id = ""
+on_equip_consequence_id = ""
+on_unequip_consequence_id = ""
+slot_compatibility_predicate = ""
+stackable = false
+
+[[entity_tag]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/item/moonpetal_1"
+source = "manifest"
+tag = "srd.item"
+
+[[entity_tag]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/item/cult_relic_1"
+source = "manifest"
+tag = "srd.item"
+
+[[entity_tag]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/item/tomb_key_1"
+source = "manifest"
+tag = "srd.item"
