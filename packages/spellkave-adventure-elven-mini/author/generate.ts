@@ -176,6 +176,19 @@ async function main(): Promise<void> {
 		writeFileSync(join(outDir, `${name}.manifest.toml`), body.endsWith("\n") ? body : `${body}\n`);
 	}
 
+	// A preserve-state upgrade carries only the already-authored policy rows.
+	// In particular it must never replay #4940's initial closed lid or loot seeds.
+	mkdirSync(join(outDir, "migrations"), { recursive: true });
+	writeFileSync(
+		join(outDir, "migrations/2026-11-16-containment-policies.manifest.toml"),
+		renderSchemaManifest({
+			schema_version: "1.0.0",
+			metadata: { bundle: BUNDLE },
+			containment_policy_definition: all.containment_policy_definition,
+			entity_definition_containment_policy: all.entity_definition_containment_policy,
+			entity_containment_policy: all.entity_containment_policy,
+		}),
+	);
 
 	if (CHECK) {
 		const keep = (file: string) => file.endsWith(".toml");

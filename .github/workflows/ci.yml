@@ -42,4 +42,8 @@ jobs:
         run: pnpm exec vitest run
         env:
           SPELLKAVE_CORE_FIXTURES: ${{ github.workspace }}/.ci/sk-grimoire/packages/spellkave-mechanics/fixtures/core
+      - name: Elven Mini fixtures match the generator
+        run: pnpm --filter @spellkave/adventure-elven-mini run author:check
+        env:
+          SPELLKAVE_CORE_FIXTURES: ${{ github.workspace }}/.ci/sk-grimoire/packages/spellkave-mechanics/fixtures/core
       - run: pnpm run validate
