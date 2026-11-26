@@ -117,6 +117,20 @@ export function buildElvenMiniRootMetadata(
 	descriptor: ElvenMiniAdventureDescriptor,
 	sourcePaths: ReadonlyMap<string, string>,
 ) {
+	// Every `elven_mini.art.image` attachment this adventure authors for a subject
+	// it does not itself own (i.e. an SRD entity_definition it never defines).
+	// Derived from the authored rows, not a hand-written id list, so a new art
+	// attachment picks up its embed here automatically.
+	const artNamespace = `${BUNDLE}.art.image`;
+	const srdArtTargets = [
+		...new Set(
+			(rows.metadata_attachments ?? [])
+				.filter((row) => text(row, "namespace") === artNamespace)
+				.filter((row) => text(row, "target_kind") === "entity_definition")
+				.map((row) => text(row, "target_ref"))
+				.filter((ref) => ref && !ref.startsWith(`${BUNDLE}/`)),
+		),
+	].sort();
 	const castInstances = (rows.entities ?? [])
 		.filter((row) => ["npc", "player"].includes(text(row, "kind")))
 		.map((row) => catalogueRow("entity", text(row, "entity_key"), "cast", row, sourcePaths));
@@ -244,7 +258,14 @@ export function buildElvenMiniRootMetadata(
 						{
 							id: "srd-subjects",
 							title: "Creatures and gear from the SRD",
-							body: "These SRD creatures and items appear in the adventure.",
+							body: [
+								"These are SRD subjects — creatures and gear the adventure does not own — " +
+									"shown here with the art this adventure gives them. Their own SRD page " +
+									"carries none of it; it lives only on this page.",
+								...srdArtTargets.map(
+									(ref) => `::subject{kind="entity_definition" ref="${ref}" view="full"}`,
+								),
+							].join("\n\n"),
 							source: {
 								path: "author/docs.ts",
 								anchor: "buildElvenMiniRootMetadata",

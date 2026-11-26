@@ -9,6 +9,7 @@ import type { VerbCall } from "@spellkave/adventure-runtime/dm/lib";
 import type { AuthorTarget } from "@spellkave/tool-authoring";
 import { advancementLimbo } from "./advancement-limbo.ts";
 import { advancementTeleport } from "./advancement-teleport.ts";
+import { adventureArt } from "./art.ts";
 import { backdrops } from "./backdrops.ts";
 import { elvenMiniBundleHeaderCall } from "./bundle-header.ts";
 import { companionAgreementActions, companionAgreementDefinitions } from "./companion-agreement.ts";
@@ -166,6 +167,7 @@ export function buildAdventure(target?: AuthorTarget): VerbCall[] {
 		// All initial capability/state vocabulary exists before the unplaced blueprint.
 		...candidateOccupancy(target),
 		...adventureDmActs(),
+		...adventureArt(),
 		...adventurePoi(),
 		...containmentPolicies(),
 	];

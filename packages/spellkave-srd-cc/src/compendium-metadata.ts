@@ -60,6 +60,7 @@ export function readerMetadataPathForId(id: string): string {
 
 const PACKAGE_ROOT = dirname(fileURLToPath(import.meta.url));
 const SRD_NOTICE_PATH = join(PACKAGE_ROOT, "../cache/NOTICE.md");
+const SRD_ART_LICENSE_PATH = join(PACKAGE_ROOT, "../assets/srd-art/LICENSE");
 const COLLECTIONS_PATH = join(PACKAGE_ROOT, "docs/collections.toml");
 const REPOSITORY_SOURCE_BASE = "";
 
@@ -565,12 +566,24 @@ function srdAttributions() {
 			"SRD docs metadata: cache NOTICE no longer starts with its Attribution heading.",
 		);
 	}
+	const artLicense = readFileSync(SRD_ART_LICENSE_PATH, "utf8").replace(/\r?\n+$/u, "");
+	if (!artLicense.startsWith("SRD catalogue sprites\n")) {
+		throw new Error("SRD docs metadata: expected the SRD catalogue sprites licence heading.");
+	}
 	return [
 		{
 			body: notice.slice(heading.length).replace(/\n+$/u, ""),
 			source: {
 				path: "packages/spellkave-srd-cc/cache/NOTICE.md",
 				anchor: "Attribution",
+				license: "CC-BY-4.0",
+			},
+		},
+		{
+			body: artLicense,
+			source: {
+				path: "packages/spellkave-srd-cc/assets/srd-art/LICENSE",
+				anchor: "SRD catalogue sprites",
 				license: "CC-BY-4.0",
 			},
 		},

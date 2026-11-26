@@ -8,11 +8,13 @@ const srd = join(packages, "spellkave-srd-cc");
 const elven = join(packages, "spellkave-adventure-elven-mini");
 const srdNotice = readFileSync(join(srd, "cache/NOTICE.md"), "utf8");
 const mapNotice = readFileSync(join(elven, "assets/ccc3-maps/ATTRIBUTION.md"), "utf8");
+const srdArt = readFileSync(join(srd, "assets/srd-art/LICENSE"), "utf8");
+const elvenArt = readFileSync(join(elven, "assets/elven-mini-art/LICENSE"), "utf8");
 const license = readFileSync(join(root, "LICENSE.md"), "utf8");
 
 const outputs = new Map([
-  ["srd", [srd, [srdNotice]]],
-  ["elven", [elven, [srdNotice, mapNotice]]],
+  ["srd", [srd, [srdNotice, srdArt]]],
+  ["elven", [elven, [srdNotice, mapNotice, srdArt, elvenArt]]],
 ]);
 
 for (const name of process.argv.slice(2)) {

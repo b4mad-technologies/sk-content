@@ -8,6 +8,7 @@
     "adventures",
     "author",
     "assets",
+    "art",
     "fixtures",
     "npcs",
     "scripts",
@@ -33,6 +34,10 @@
     "tsx": "^4.19.2"
   },
   "exports": {
+    "./art": {
+      "types": "./art/index.ts",
+      "default": "./art/index.ts"
+    },
     "./compendium/*": "./dist/compendium/*"
   },
   "license": "(CC-BY-4.0 AND PolyForm-Shield-1.0.0)"
