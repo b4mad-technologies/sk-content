@@ -1,0 +1,258 @@
+{
+	"schema": "spellkave-prose-manifest/v1",
+	"output_dir": "packages/spellkave-srd-cc/authored/flavor/.runs",
+	"entries": [
+		{
+			"id": "class/barbarian",
+			"display_name": "Barbarian",
+			"prompt_id": "flavor",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"D12",
+				"D10",
+				"D8",
+				"D6",
+				"Hit Point",
+				"Primary Ability",
+				"Source:",
+				"primal power",
+				"primal spirits",
+				"Forgotten Realms"
+			]
+		},
+		{
+			"id": "class/bard",
+			"display_name": "Bard",
+			"prompt_id": "flavor",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"D12",
+				"D10",
+				"D8",
+				"D6",
+				"Hit Point",
+				"Primary Ability",
+				"Source:",
+				"primal power",
+				"primal spirits",
+				"Forgotten Realms"
+			]
+		},
+		{
+			"id": "class/cleric",
+			"display_name": "Cleric",
+			"prompt_id": "flavor",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"D12",
+				"D10",
+				"D8",
+				"D6",
+				"Hit Point",
+				"Primary Ability",
+				"Source:",
+				"primal power",
+				"primal spirits",
+				"Forgotten Realms"
+			]
+		},
+		{
+			"id": "class/druid",
+			"display_name": "Druid",
+			"prompt_id": "flavor",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"D12",
+				"D10",
+				"D8",
+				"D6",
+				"Hit Point",
+				"Primary Ability",
+				"Source:",
+				"primal power",
+				"primal spirits",
+				"Forgotten Realms"
+			]
+		},
+		{
+			"id": "class/fighter",
+			"display_name": "Fighter",
+			"prompt_id": "flavor",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"D12",
+				"D10",
+				"D8",
+				"D6",
+				"Hit Point",
+				"Primary Ability",
+				"Source:",
+				"primal power",
+				"primal spirits",
+				"Forgotten Realms"
+			]
+		},
+		{
+			"id": "class/monk",
+			"display_name": "Monk",
+			"prompt_id": "flavor",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"D12",
+				"D10",
+				"D8",
+				"D6",
+				"Hit Point",
+				"Primary Ability",
+				"Source:",
+				"primal power",
+				"primal spirits",
+				"Forgotten Realms"
+			]
+		},
+		{
+			"id": "class/paladin",
+			"display_name": "Paladin",
+			"prompt_id": "flavor",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"D12",
+				"D10",
+				"D8",
+				"D6",
+				"Hit Point",
+				"Primary Ability",
+				"Source:",
+				"primal power",
+				"primal spirits",
+				"Forgotten Realms"
+			]
+		},
+		{
+			"id": "class/ranger",
+			"display_name": "Ranger",
+			"prompt_id": "flavor",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"D12",
+				"D10",
+				"D8",
+				"D6",
+				"Hit Point",
+				"Primary Ability",
+				"Source:",
+				"primal power",
+				"primal spirits",
+				"Forgotten Realms"
+			]
+		},
+		{
+			"id": "class/rogue",
+			"display_name": "Rogue",
+			"prompt_id": "flavor",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"D12",
+				"D10",
+				"D8",
+				"D6",
+				"Hit Point",
+				"Primary Ability",
+				"Source:",
+				"primal power",
+				"primal spirits",
+				"Forgotten Realms"
+			]
+		},
+		{
+			"id": "class/sorcerer",
+			"display_name": "Sorcerer",
+			"prompt_id": "flavor",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"D12",
+				"D10",
+				"D8",
+				"D6",
+				"Hit Point",
+				"Primary Ability",
+				"Source:",
+				"primal power",
+				"primal spirits",
+				"Forgotten Realms"
+			]
+		},
+		{
+			"id": "class/warlock",
+			"display_name": "Warlock",
+			"prompt_id": "flavor",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"D12",
+				"D10",
+				"D8",
+				"D6",
+				"Hit Point",
+				"Primary Ability",
+				"Source:",
+				"primal power",
+				"primal spirits",
+				"Forgotten Realms"
+			]
+		},
+		{
+			"id": "class/wizard",
+			"display_name": "Wizard",
+			"prompt_id": "flavor",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"D12",
+				"D10",
+				"D8",
+				"D6",
+				"Hit Point",
+				"Primary Ability",
+				"Source:",
+				"primal power",
+				"primal spirits",
+				"Forgotten Realms"
+			]
+		}
+	]
+}

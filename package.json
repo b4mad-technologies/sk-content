@@ -10,7 +10,8 @@
     "test": "vitest run && pnpm run validate",
     "validate": "node scripts/validate-content.mjs",
     "build": "pnpm --filter @spellkave/srd-cc run export && pnpm --filter @spellkave/adventure-elven-mini run export",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "audit:flavor": "node scripts/audit-flavor.mjs"
   },
   "devDependencies": {
     "@spellkave/validate-wasm": "0.1.0",

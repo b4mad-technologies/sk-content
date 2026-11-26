@@ -1,0 +1,244 @@
+{
+	"schema": "spellkave-prose-manifest/v1",
+	"output_dir": "packages/spellkave-srd-cc/authored/flavor/.runs",
+	"entries": [
+		{
+			"id": "background/acolyte",
+			"display_name": "Acolyte",
+			"prompt_id": "flavor-background",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Ability Scores",
+				"Skill Proficiencies",
+				"Source:",
+				"pk=",
+				"Feat:",
+				"Equipment:",
+				"srd/skill",
+				"srd/feat",
+				"srd/proficiency"
+			]
+		},
+		{
+			"id": "background/criminal",
+			"display_name": "Criminal",
+			"prompt_id": "flavor-background",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Ability Scores",
+				"Skill Proficiencies",
+				"Source:",
+				"pk=",
+				"Feat:",
+				"Equipment:",
+				"srd/skill",
+				"srd/feat",
+				"srd/proficiency"
+			]
+		},
+		{
+			"id": "background/sage",
+			"display_name": "Sage",
+			"prompt_id": "flavor-background",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Ability Scores",
+				"Skill Proficiencies",
+				"Source:",
+				"pk=",
+				"Feat:",
+				"Equipment:",
+				"srd/skill",
+				"srd/feat",
+				"srd/proficiency"
+			]
+		},
+		{
+			"id": "background/soldier",
+			"display_name": "Soldier",
+			"prompt_id": "flavor-background",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Ability Scores",
+				"Skill Proficiencies",
+				"Source:",
+				"pk=",
+				"Feat:",
+				"Equipment:",
+				"srd/skill",
+				"srd/feat",
+				"srd/proficiency"
+			]
+		},
+		{
+			"id": "species/dragonborn",
+			"display_name": "Dragonborn",
+			"prompt_id": "flavor-species",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Creature Type",
+				"Size:",
+				"Speed:",
+				"Source:",
+				"pk=",
+				"srd/size",
+				"srd/speed",
+				"player-chosen"
+			]
+		},
+		{
+			"id": "species/dwarf",
+			"display_name": "Dwarf",
+			"prompt_id": "flavor-species",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Creature Type",
+				"Size:",
+				"Speed:",
+				"Source:",
+				"pk=",
+				"srd/size",
+				"srd/speed",
+				"player-chosen"
+			]
+		},
+		{
+			"id": "species/elf",
+			"display_name": "Elf",
+			"prompt_id": "flavor-species",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Creature Type",
+				"Size:",
+				"Speed:",
+				"Source:",
+				"pk=",
+				"srd/size",
+				"srd/speed",
+				"player-chosen"
+			]
+		},
+		{
+			"id": "species/gnome",
+			"display_name": "Gnome",
+			"prompt_id": "flavor-species",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Creature Type",
+				"Size:",
+				"Speed:",
+				"Source:",
+				"pk=",
+				"srd/size",
+				"srd/speed",
+				"player-chosen"
+			]
+		},
+		{
+			"id": "species/goliath",
+			"display_name": "Goliath",
+			"prompt_id": "flavor-species",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Creature Type",
+				"Size:",
+				"Speed:",
+				"Source:",
+				"pk=",
+				"srd/size",
+				"srd/speed",
+				"player-chosen"
+			]
+		},
+		{
+			"id": "species/halfling",
+			"display_name": "Halfling",
+			"prompt_id": "flavor-species",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Creature Type",
+				"Size:",
+				"Speed:",
+				"Source:",
+				"pk=",
+				"srd/size",
+				"srd/speed",
+				"player-chosen"
+			]
+		},
+		{
+			"id": "species/human",
+			"display_name": "Human",
+			"prompt_id": "flavor-species",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Creature Type",
+				"Size:",
+				"Speed:",
+				"Source:",
+				"pk=",
+				"srd/size",
+				"srd/speed",
+				"player-chosen"
+			]
+		},
+		{
+			"id": "species/orc",
+			"display_name": "Orc",
+			"prompt_id": "flavor-species",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Creature Type",
+				"Size:",
+				"Speed:",
+				"Source:",
+				"pk=",
+				"srd/size",
+				"srd/speed",
+				"player-chosen"
+			]
+		},
+		{
+			"id": "species/tiefling",
+			"display_name": "Tiefling",
+			"prompt_id": "flavor-species",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Creature Type",
+				"Size:",
+				"Speed:",
+				"Source:",
+				"pk=",
+				"srd/size",
+				"srd/speed",
+				"player-chosen"
+			]
+		}
+	]
+}

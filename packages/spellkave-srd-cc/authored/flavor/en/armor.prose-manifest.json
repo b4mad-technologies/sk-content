@@ -1,0 +1,149 @@
+{
+	"schema": "spellkave-prose-manifest/v1",
+	"output_dir": "packages/spellkave-srd-cc/authored/flavor/.runs",
+	"entries": [
+		{
+			"id": "armor/chain-mail",
+			"display_name": "Chain Mail",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Chain Mail"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "armor/breastplate",
+			"display_name": "Breastplate",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Breastplate"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "armor/chain-shirt",
+			"display_name": "Chain Shirt",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Chain Shirt"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "armor/half-plate-armor",
+			"display_name": "Half Plate Armor",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Half Plate Armor"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "armor/hide-armor",
+			"display_name": "Hide Armor",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Hide Armor"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "armor/leather-armor",
+			"display_name": "Leather Armor",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Leather Armor"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "armor/padded-armor",
+			"display_name": "Padded Armor",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Padded Armor"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "armor/plate-armor",
+			"display_name": "Plate Armor",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Plate Armor"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "armor/ring-mail",
+			"display_name": "Ring Mail",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ring Mail"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "armor/scale-mail",
+			"display_name": "Scale Mail",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Scale Mail"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "armor/shield",
+			"display_name": "Shield",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Shield"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "armor/splint-armor",
+			"display_name": "Splint Armor",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Splint Armor"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "armor/studded-leather-armor",
+			"display_name": "Studded Leather Armor",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Studded Leather Armor"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		}
+	]
+}

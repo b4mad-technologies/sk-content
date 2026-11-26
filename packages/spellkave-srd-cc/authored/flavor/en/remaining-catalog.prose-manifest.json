@@ -1,0 +1,4637 @@
+{
+	"schema": "spellkave-prose-manifest/v1",
+	"output_dir": "packages/spellkave-srd-cc/authored/flavor/.runs",
+	"entries": [
+		{
+			"id": "weapon/battleaxe",
+			"display_name": "Battleaxe",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Battleaxe — Martial — 1d8 slashing"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/blowgun",
+			"display_name": "Blowgun",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Blowgun — Martial — 1 piercing — range 25/100 ft."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/club",
+			"display_name": "Club",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Club — Simple — 1d4 bludgeoning"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/dagger",
+			"display_name": "Dagger",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Dagger — Simple — 1d4 piercing — range 20/60 ft."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/dart",
+			"display_name": "Dart",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Dart — Simple — 1d4 piercing — range 20/60 ft."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/flail",
+			"display_name": "Flail",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Flail — Martial — 1d8 bludgeoning"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/glaive",
+			"display_name": "Glaive",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Glaive — Martial — 1d10 slashing"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/greataxe",
+			"display_name": "Greataxe",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Greataxe — Martial — 1d12 slashing"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/greatclub",
+			"display_name": "Greatclub",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Greatclub — Simple — 1d8 bludgeoning"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/greatsword",
+			"display_name": "Greatsword",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Greatsword — Martial — 2d6 slashing"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/halberd",
+			"display_name": "Halberd",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Halberd — Martial — 1d10 slashing"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/hand-crossbow",
+			"display_name": "Hand Crossbow",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Hand Crossbow — Martial — 1d6 piercing — range 30/120 ft."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/handaxe",
+			"display_name": "Handaxe",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Handaxe — Simple — 1d6 slashing — range 20/60 ft."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/heavy-crossbow",
+			"display_name": "Heavy Crossbow",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Heavy Crossbow — Martial — 1d10 piercing — range 100/400 ft."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/javelin",
+			"display_name": "Javelin",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Javelin — Simple — 1d6 piercing — range 30/120 ft."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/lance",
+			"display_name": "Lance",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Lance — Martial — 1d10 piercing"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/light-crossbow",
+			"display_name": "Light Crossbow",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Light Crossbow — Simple — 1d8 piercing — range 80/320 ft."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/light-hammer",
+			"display_name": "Light Hammer",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Light Hammer — Simple — 1d4 bludgeoning — range 20/60 ft."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/longbow",
+			"display_name": "Longbow",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Longbow — Martial — 1d8 piercing — range 150/600 ft."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/longsword",
+			"display_name": "Longsword",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Longsword — Martial — 1d8 slashing"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/mace",
+			"display_name": "Mace",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Mace — Simple — 1d6 bludgeoning"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/maul",
+			"display_name": "Maul",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Maul — Martial — 2d6 bludgeoning"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/morningstar",
+			"display_name": "Morningstar",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Morningstar — Martial — 1d8 piercing"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/musket",
+			"display_name": "Musket",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Musket — Martial — 1d12 piercing — range 40/120 ft."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/pike",
+			"display_name": "Pike",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Pike — Martial — 1d10 piercing"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/pistol",
+			"display_name": "Pistol",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Pistol — Martial — 1d10 piercing — range 30/90 ft."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/quarterstaff",
+			"display_name": "Quarterstaff",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Quarterstaff — Simple — 1d6 bludgeoning"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/rapier",
+			"display_name": "Rapier",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Rapier — Martial — 1d8 piercing"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/scimitar",
+			"display_name": "Scimitar",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Scimitar — Martial — 1d6 slashing"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/shortbow",
+			"display_name": "Shortbow",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Shortbow — Simple — 1d6 piercing — range 80/320 ft."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/shortsword",
+			"display_name": "Shortsword",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Shortsword — Martial — 1d6 piercing"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/sickle",
+			"display_name": "Sickle",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Sickle — Simple — 1d4 slashing"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/sling",
+			"display_name": "Sling",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Sling — Simple — 1d4 bludgeoning — range 30/120 ft."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/spear",
+			"display_name": "Spear",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Spear — Simple — 1d6 piercing — range 20/60 ft."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/trident",
+			"display_name": "Trident",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Trident — Martial — 1d8 piercing — range 20/60 ft."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/war-pick",
+			"display_name": "War Pick",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "War Pick — Martial — 1d8 piercing"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/warhammer",
+			"display_name": "Warhammer",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Warhammer — Martial — 1d8 bludgeoning"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "weapon/whip",
+			"display_name": "Whip",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Whip — Martial — 1d4 slashing"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/aboleth-tentacle",
+			"display_name": "Aboleth Tentacle",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Aboleth Tentacle. Aboleth Tentacle — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/adult-black-dragon-rend",
+			"display_name": "Adult Black Dragon Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Adult Black Dragon Rend. Adult Black Dragon Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/adult-blue-dragon-rend",
+			"display_name": "Adult Blue Dragon Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Adult Blue Dragon Rend. Adult Blue Dragon Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/adult-brass-dragon-rend",
+			"display_name": "Adult Brass Dragon Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Adult Brass Dragon Rend. Adult Brass Dragon Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/adult-bronze-dragon-rend",
+			"display_name": "Adult Bronze Dragon Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Adult Bronze Dragon Rend. Adult Bronze Dragon Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/adult-copper-dragon-rend",
+			"display_name": "Adult Copper Dragon Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Adult Copper Dragon Rend. Adult Copper Dragon Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/adult-gold-dragon-rend",
+			"display_name": "Adult Gold Dragon Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Adult Gold Dragon Rend. Adult Gold Dragon Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/adult-green-dragon-rend",
+			"display_name": "Adult Green Dragon Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Adult Green Dragon Rend. Adult Green Dragon Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/adult-red-dragon-rend",
+			"display_name": "Adult Red Dragon Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Adult Red Dragon Rend. Adult Red Dragon Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/adult-silver-dragon-rend",
+			"display_name": "Adult Silver Dragon Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Adult Silver Dragon Rend. Adult Silver Dragon Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/adult-white-dragon-rend",
+			"display_name": "Adult White Dragon Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Adult White Dragon Rend. Adult White Dragon Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/air-elemental-thunderous-slam",
+			"display_name": "Air Elemental Thunderous Slam",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Air Elemental Thunderous Slam. Air Elemental Thunderous Slam — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/allosaurus-bite",
+			"display_name": "Allosaurus Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Allosaurus Bite. Allosaurus Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/ancient-black-dragon-rend",
+			"display_name": "Ancient Black Dragon Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ancient Black Dragon Rend. Ancient Black Dragon Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/ancient-blue-dragon-rend",
+			"display_name": "Ancient Blue Dragon Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ancient Blue Dragon Rend. Ancient Blue Dragon Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/ancient-brass-dragon-rend",
+			"display_name": "Ancient Brass Dragon Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ancient Brass Dragon Rend. Ancient Brass Dragon Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/ancient-bronze-dragon-rend",
+			"display_name": "Ancient Bronze Dragon Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ancient Bronze Dragon Rend. Ancient Bronze Dragon Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/ancient-copper-dragon-rend",
+			"display_name": "Ancient Copper Dragon Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ancient Copper Dragon Rend. Ancient Copper Dragon Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/ancient-gold-dragon-rend",
+			"display_name": "Ancient Gold Dragon Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ancient Gold Dragon Rend. Ancient Gold Dragon Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/ancient-green-dragon-rend",
+			"display_name": "Ancient Green Dragon Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ancient Green Dragon Rend. Ancient Green Dragon Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/ancient-red-dragon-rend",
+			"display_name": "Ancient Red Dragon Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ancient Red Dragon Rend. Ancient Red Dragon Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/ancient-silver-dragon-rend",
+			"display_name": "Ancient Silver Dragon Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ancient Silver Dragon Rend. Ancient Silver Dragon Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/ancient-white-dragon-rend",
+			"display_name": "Ancient White Dragon Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ancient White Dragon Rend. Ancient White Dragon Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/animated-armor-slam",
+			"display_name": "Animated Armor Slam",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Animated Armor Slam. Animated Armor Slam — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/animated-flying-sword-slash",
+			"display_name": "Animated Flying Sword Slash",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Animated Flying Sword Slash. Animated Flying Sword Slash — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/animated-rug-of-smothering-smother",
+			"display_name": "Animated Rug of Smothering Smother",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Animated Rug of Smothering Smother. Animated Rug of Smothering Smother — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/ankheg-bite",
+			"display_name": "Ankheg Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ankheg Bite. Ankheg Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/ankylosaurus-tail",
+			"display_name": "Ankylosaurus Tail",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ankylosaurus Tail. Ankylosaurus Tail — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/ape-rock",
+			"display_name": "Ape Rock",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ape Rock. Ape Rock — a natural ranged weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/archelon-bite",
+			"display_name": "Archelon Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Archelon Bite. Archelon Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/archmage-arcane-burst",
+			"display_name": "Archmage Arcane Burst",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Archmage Arcane Burst. Archmage Arcane Burst — a natural ranged weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/awakened-tree-slam",
+			"display_name": "Awakened Tree Slam",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Awakened Tree Slam. Awakened Tree Slam — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/axe-beak-beak",
+			"display_name": "Axe Beak Beak",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Axe Beak Beak. Axe Beak Beak — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/azer-sentinel-burning-hammer",
+			"display_name": "Azer Sentinel Burning Hammer",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Azer Sentinel Burning Hammer. Azer Sentinel Burning Hammer — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/baboon-bite",
+			"display_name": "Baboon Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Baboon Bite. Baboon Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/balor-flame-whip",
+			"display_name": "Balor Flame Whip",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Balor Flame Whip. Balor Flame Whip — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/barbed-devil-hurl-flame",
+			"display_name": "Barbed Devil Hurl Flame",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Barbed Devil Hurl Flame. Barbed Devil Hurl Flame — a natural ranged weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/basilisk-bite",
+			"display_name": "Basilisk Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Basilisk Bite. Basilisk Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/bearded-devil-beard",
+			"display_name": "Bearded Devil Beard",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Bearded Devil Beard. Bearded Devil Beard — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/behir-bite",
+			"display_name": "Behir Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Behir Bite. Behir Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/black-bear-rend",
+			"display_name": "Black Bear Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Black Bear Rend. Black Bear Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/black-dragon-wyrmling-rend",
+			"display_name": "Black Dragon Wyrmling Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Black Dragon Wyrmling Rend. Black Dragon Wyrmling Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/black-pudding-dissolving-pseudopod",
+			"display_name": "Black Pudding Dissolving Pseudopod",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Black Pudding Dissolving Pseudopod. Black Pudding Dissolving Pseudopod — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/blink-dog-bite",
+			"display_name": "Blink Dog Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Blink Dog Bite. Blink Dog Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/blood-hawk-beak",
+			"display_name": "Blood Hawk Beak",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Blood Hawk Beak. Blood Hawk Beak — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/blue-dragon-wyrmling-rend",
+			"display_name": "Blue Dragon Wyrmling Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Blue Dragon Wyrmling Rend. Blue Dragon Wyrmling Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/boar-gore",
+			"display_name": "Boar Gore",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Boar Gore. Boar Gore — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/bone-devil-claw",
+			"display_name": "Bone Devil Claw",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Bone Devil Claw. Bone Devil Claw — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/brass-dragon-wyrmling-rend",
+			"display_name": "Brass Dragon Wyrmling Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Brass Dragon Wyrmling Rend. Brass Dragon Wyrmling Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/bronze-dragon-wyrmling-rend",
+			"display_name": "Bronze Dragon Wyrmling Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Bronze Dragon Wyrmling Rend. Bronze Dragon Wyrmling Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/brown-bear-bite",
+			"display_name": "Brown Bear Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Brown Bear Bite. Brown Bear Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/bulette-bite",
+			"display_name": "Bulette Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Bulette Bite. Bulette Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/camel-bite",
+			"display_name": "Camel Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Camel Bite. Camel Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/chain-devil-chain",
+			"display_name": "Chain Devil Chain",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Chain Devil Chain. Chain Devil Chain — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/chimera-bite",
+			"display_name": "Chimera Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Chimera Bite. Chimera Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/chuul-pincer",
+			"display_name": "Chuul Pincer",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Chuul Pincer. Chuul Pincer — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/clay-golem-slam",
+			"display_name": "Clay Golem Slam",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Clay Golem Slam. Clay Golem Slam — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/cloaker-attach",
+			"display_name": "Cloaker Attach",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Cloaker Attach. Cloaker Attach — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/cloud-giant-thundercloud",
+			"display_name": "Cloud Giant Thundercloud",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Cloud Giant Thundercloud. Cloud Giant Thundercloud — a natural ranged weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/cockatrice-petrifying-bite",
+			"display_name": "Cockatrice Petrifying Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Cockatrice Petrifying Bite. Cockatrice Petrifying Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/constrictor-snake-bite",
+			"display_name": "Constrictor Snake Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Constrictor Snake Bite. Constrictor Snake Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/copper-dragon-wyrmling-rend",
+			"display_name": "Copper Dragon Wyrmling Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Copper Dragon Wyrmling Rend. Copper Dragon Wyrmling Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/couatl-bite",
+			"display_name": "Couatl Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Couatl Bite. Couatl Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/crocodile-bite",
+			"display_name": "Crocodile Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Crocodile Bite. Crocodile Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/cultist-fanatic-pact-blade",
+			"display_name": "Cultist Fanatic Pact Blade",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Cultist Fanatic Pact Blade. Cultist Fanatic Pact Blade — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/cultist-ritual-sickle",
+			"display_name": "Cultist Ritual Sickle",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Cultist Ritual Sickle. Cultist Ritual Sickle — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/darkmantle-crush",
+			"display_name": "Darkmantle Crush",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Darkmantle Crush. Darkmantle Crush — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/death-dog-bite",
+			"display_name": "Death Dog Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Death Dog Bite. Death Dog Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/deer-ram",
+			"display_name": "Deer Ram",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Deer Ram. Deer Ram — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/deva-holy-mace",
+			"display_name": "Deva Holy Mace",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Deva Holy Mace. Deva Holy Mace — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/dire-wolf-bite",
+			"display_name": "Dire Wolf Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Dire Wolf Bite. Dire Wolf Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/djinni-storm-blade",
+			"display_name": "Djinni Storm Blade",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Djinni Storm Blade. Djinni Storm Blade — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/doppelganger-slam",
+			"display_name": "Doppelganger Slam",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Doppelganger Slam. Doppelganger Slam — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/draft-horse-hooves",
+			"display_name": "Draft Horse Hooves",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Draft Horse Hooves. Draft Horse Hooves — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/dragon-turtle-bite",
+			"display_name": "Dragon Turtle Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Dragon Turtle Bite. Dragon Turtle Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/dretch-rend",
+			"display_name": "Dretch Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Dretch Rend. Dretch Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/drider-poison-burst",
+			"display_name": "Drider Poison Burst",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Drider Poison Burst. Drider Poison Burst — a natural ranged weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/druid-verdant-wisp",
+			"display_name": "Druid Verdant Wisp",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Druid Verdant Wisp. Druid Verdant Wisp — a natural ranged weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/dryad-thorn-burst",
+			"display_name": "Dryad Thorn Burst",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Dryad Thorn Burst. Dryad Thorn Burst — a natural ranged weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/dust-mephit-claw",
+			"display_name": "Dust Mephit Claw",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Dust Mephit Claw. Dust Mephit Claw — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/eagle-talons",
+			"display_name": "Eagle Talons",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Eagle Talons. Eagle Talons — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/earth-elemental-rock-launch",
+			"display_name": "Earth Elemental Rock Launch",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Earth Elemental Rock Launch. Earth Elemental Rock Launch — a natural ranged weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/efreeti-hurl-flame",
+			"display_name": "Efreeti Hurl Flame",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Efreeti Hurl Flame. Efreeti Hurl Flame — a natural ranged weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/elephant-gore",
+			"display_name": "Elephant Gore",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Elephant Gore. Elephant Gore — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/elk-ram",
+			"display_name": "Elk Ram",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Elk Ram. Elk Ram — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/erinyes-withering-sword",
+			"display_name": "Erinyes Withering Sword",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Erinyes Withering Sword. Erinyes Withering Sword — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/ettercap-bite",
+			"display_name": "Ettercap Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ettercap Bite. Ettercap Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/fire-elemental-burn",
+			"display_name": "Fire Elemental Burn",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Fire Elemental Burn. Fire Elemental Burn — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/fire-giant-hammer-throw",
+			"display_name": "Fire Giant Hammer Throw",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Fire Giant Hammer Throw. Fire Giant Hammer Throw — a natural ranged weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/flesh-golem-slam",
+			"display_name": "Flesh Golem Slam",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Flesh Golem Slam. Flesh Golem Slam — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/frost-giant-great-bow",
+			"display_name": "Frost Giant Great Bow",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Frost Giant Great Bow. Frost Giant Great Bow — a natural ranged weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/gargoyle-claw",
+			"display_name": "Gargoyle Claw",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Gargoyle Claw. Gargoyle Claw — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/gelatinous-cube-pseudopod",
+			"display_name": "Gelatinous Cube Pseudopod",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Gelatinous Cube Pseudopod. Gelatinous Cube Pseudopod — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/ghast-bite",
+			"display_name": "Ghast Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ghast Bite. Ghast Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/ghost-withering-touch",
+			"display_name": "Ghost Withering Touch",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ghost Withering Touch. Ghost Withering Touch — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/ghoul-bite",
+			"display_name": "Ghoul Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ghoul Bite. Ghoul Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/giant-ape-fist",
+			"display_name": "Giant Ape Fist",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Giant Ape Fist. Giant Ape Fist — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/giant-badger-bite",
+			"display_name": "Giant Badger Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Giant Badger Bite. Giant Badger Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/giant-bat-bite",
+			"display_name": "Giant Bat Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Giant Bat Bite. Giant Bat Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/giant-boar-gore",
+			"display_name": "Giant Boar Gore",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Giant Boar Gore. Giant Boar Gore — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/giant-centipede-bite",
+			"display_name": "Giant Centipede Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Giant Centipede Bite. Giant Centipede Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/giant-constrictor-snake-bite",
+			"display_name": "Giant Constrictor Snake Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Giant Constrictor Snake Bite. Giant Constrictor Snake Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/giant-crab-claw",
+			"display_name": "Giant Crab Claw",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Giant Crab Claw. Giant Crab Claw — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/giant-crocodile-bite",
+			"display_name": "Giant Crocodile Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Giant Crocodile Bite. Giant Crocodile Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/giant-eagle-rend",
+			"display_name": "Giant Eagle Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Giant Eagle Rend. Giant Eagle Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/giant-elk-ram",
+			"display_name": "Giant Elk Ram",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Giant Elk Ram. Giant Elk Ram — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/giant-frog-bite",
+			"display_name": "Giant Frog Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Giant Frog Bite. Giant Frog Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/giant-goat-ram",
+			"display_name": "Giant Goat Ram",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Giant Goat Ram. Giant Goat Ram — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/giant-hyena-bite",
+			"display_name": "Giant Hyena Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Giant Hyena Bite. Giant Hyena Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/giant-lizard-bite",
+			"display_name": "Giant Lizard Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Giant Lizard Bite. Giant Lizard Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/giant-octopus-tentacles",
+			"display_name": "Giant Octopus Tentacles",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Giant Octopus Tentacles. Giant Octopus Tentacles — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/giant-owl-talons",
+			"display_name": "Giant Owl Talons",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Giant Owl Talons. Giant Owl Talons — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/giant-rat-bite",
+			"display_name": "Giant Rat Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Giant Rat Bite. Giant Rat Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/giant-scorpion-claw",
+			"display_name": "Giant Scorpion Claw",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Giant Scorpion Claw. Giant Scorpion Claw — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/giant-seahorse-ram",
+			"display_name": "Giant Seahorse Ram",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Giant Seahorse Ram. Giant Seahorse Ram — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/giant-shark-bite",
+			"display_name": "Giant Shark Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Giant Shark Bite. Giant Shark Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/giant-spider-bite",
+			"display_name": "Giant Spider Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Giant Spider Bite. Giant Spider Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/giant-toad-bite",
+			"display_name": "Giant Toad Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Giant Toad Bite. Giant Toad Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/giant-venomous-snake-bite",
+			"display_name": "Giant Venomous Snake Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Giant Venomous Snake Bite. Giant Venomous Snake Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/giant-vulture-gouge",
+			"display_name": "Giant Vulture Gouge",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Giant Vulture Gouge. Giant Vulture Gouge — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/giant-wasp-sting",
+			"display_name": "Giant Wasp Sting",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Giant Wasp Sting. Giant Wasp Sting — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/giant-weasel-bite",
+			"display_name": "Giant Weasel Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Giant Weasel Bite. Giant Weasel Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/giant-wolf-spider-bite",
+			"display_name": "Giant Wolf Spider Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Giant Wolf Spider Bite. Giant Wolf Spider Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/gibbering-mouther-bite",
+			"display_name": "Gibbering Mouther Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Gibbering Mouther Bite. Gibbering Mouther Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/glabrezu-pincer",
+			"display_name": "Glabrezu Pincer",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Glabrezu Pincer. Glabrezu Pincer — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/gnoll-warrior-bone-bow",
+			"display_name": "Gnoll Warrior Bone Bow",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Gnoll Warrior Bone Bow. Gnoll Warrior Bone Bow — a natural ranged weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/gold-dragon-wyrmling-rend",
+			"display_name": "Gold Dragon Wyrmling Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Gold Dragon Wyrmling Rend. Gold Dragon Wyrmling Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/gorgon-gore",
+			"display_name": "Gorgon Gore",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Gorgon Gore. Gorgon Gore — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/gray-ooze-pseudopod",
+			"display_name": "Gray Ooze Pseudopod",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Gray Ooze Pseudopod. Gray Ooze Pseudopod — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/green-dragon-wyrmling-rend",
+			"display_name": "Green Dragon Wyrmling Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Green Dragon Wyrmling Rend. Green Dragon Wyrmling Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/green-hag-claw",
+			"display_name": "Green Hag Claw",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Green Hag Claw. Green Hag Claw — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/grick-beak",
+			"display_name": "Grick Beak",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Grick Beak. Grick Beak — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/griffon-rend",
+			"display_name": "Griffon Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Griffon Rend. Griffon Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/grimlock-bone-cudgel",
+			"display_name": "Grimlock Bone Cudgel",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Grimlock Bone Cudgel. Grimlock Bone Cudgel — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/guardian-naga-bite",
+			"display_name": "Guardian Naga Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Guardian Naga Bite. Guardian Naga Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/half-dragon-claw",
+			"display_name": "Half-Dragon Claw",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Half-Dragon Claw. Half-Dragon Claw — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/harpy-claw",
+			"display_name": "Harpy Claw",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Harpy Claw. Harpy Claw — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/hell-hound-bite",
+			"display_name": "Hell Hound Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Hell Hound Bite. Hell Hound Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/hezrou-rend",
+			"display_name": "Hezrou Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Hezrou Rend. Hezrou Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/hill-giant-trash-lob",
+			"display_name": "Hill Giant Trash Lob",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Hill Giant Trash Lob. Hill Giant Trash Lob — a natural ranged weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/hippogriff-rend",
+			"display_name": "Hippogriff Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Hippogriff Rend. Hippogriff Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/hippopotamus-bite",
+			"display_name": "Hippopotamus Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Hippopotamus Bite. Hippopotamus Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/horned-devil-hurl-flame",
+			"display_name": "Horned Devil Hurl Flame",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Horned Devil Hurl Flame. Horned Devil Hurl Flame — a natural ranged weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/hunter-shark-bite",
+			"display_name": "Hunter Shark Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Hunter Shark Bite. Hunter Shark Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/hydra-bite",
+			"display_name": "Hydra Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Hydra Bite. Hydra Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/hyena-bite",
+			"display_name": "Hyena Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Hyena Bite. Hyena Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/ice-devil-ice-spear",
+			"display_name": "Ice Devil Ice Spear",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ice Devil Ice Spear. Ice Devil Ice Spear — a natural ranged weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/ice-mephit-claw",
+			"display_name": "Ice Mephit Claw",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ice Mephit Claw. Ice Mephit Claw — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/imp-sting",
+			"display_name": "Imp Sting",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Imp Sting. Imp Sting — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/incubus-restless-touch",
+			"display_name": "Incubus Restless Touch",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Incubus Restless Touch. Incubus Restless Touch — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/invisible-stalker-wind-swipe",
+			"display_name": "Invisible Stalker Wind Swipe",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Invisible Stalker Wind Swipe. Invisible Stalker Wind Swipe — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/iron-golem-fiery-bolt",
+			"display_name": "Iron Golem Fiery Bolt",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Iron Golem Fiery Bolt. Iron Golem Fiery Bolt — a natural ranged weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/jackal-bite",
+			"display_name": "Jackal Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Jackal Bite. Jackal Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/killer-whale-bite",
+			"display_name": "Killer Whale Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Killer Whale Bite. Killer Whale Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/kraken-tentacle",
+			"display_name": "Kraken Tentacle",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Kraken Tentacle. Kraken Tentacle — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/lamia-claw",
+			"display_name": "Lamia Claw",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Lamia Claw. Lamia Claw — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/lemure-vile-slime",
+			"display_name": "Lemure Vile Slime",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Lemure Vile Slime. Lemure Vile Slime — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/lich-eldritch-burst",
+			"display_name": "Lich Eldritch Burst",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Lich Eldritch Burst. Lich Eldritch Burst — a natural ranged weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/lion-rend",
+			"display_name": "Lion Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Lion Rend. Lion Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/mage-arcane-burst",
+			"display_name": "Mage Arcane Burst",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Mage Arcane Burst. Mage Arcane Burst — a natural ranged weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/magma-mephit-claw",
+			"display_name": "Magma Mephit Claw",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Magma Mephit Claw. Magma Mephit Claw — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/magmin-touch",
+			"display_name": "Magmin Touch",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Magmin Touch. Magmin Touch — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/mammoth-gore",
+			"display_name": "Mammoth Gore",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Mammoth Gore. Mammoth Gore — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/manticore-tail-spike",
+			"display_name": "Manticore Tail Spike",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Manticore Tail Spike. Manticore Tail Spike — a natural ranged weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/marilith-pact-blade",
+			"display_name": "Marilith Pact Blade",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Marilith Pact Blade. Marilith Pact Blade — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/mastiff-bite",
+			"display_name": "Mastiff Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Mastiff Bite. Mastiff Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/medusa-poison-ray",
+			"display_name": "Medusa Poison Ray",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Medusa Poison Ray. Medusa Poison Ray — a natural ranged weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/merfolk-skirmisher-ocean-spear",
+			"display_name": "Merfolk Skirmisher Ocean Spear",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Merfolk Skirmisher Ocean Spear. Merfolk Skirmisher Ocean Spear — a natural ranged weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/merrow-harpoon",
+			"display_name": "Merrow Harpoon",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Merrow Harpoon. Merrow Harpoon — a natural ranged weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/mimic-bite",
+			"display_name": "Mimic Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Mimic Bite. Mimic Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/minotaur-of-baphomet-abyssal-glaive",
+			"display_name": "Minotaur of Baphomet Abyssal Glaive",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Minotaur of Baphomet Abyssal Glaive. Minotaur of Baphomet Abyssal Glaive — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/minotaur-skeleton-gore",
+			"display_name": "Minotaur Skeleton Gore",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Minotaur Skeleton Gore. Minotaur Skeleton Gore — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/mule-hooves",
+			"display_name": "Mule Hooves",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Mule Hooves. Mule Hooves — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/mummy-lord-channel-negative-energy",
+			"display_name": "Mummy Lord Channel Negative Energy",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Mummy Lord Channel Negative Energy. Mummy Lord Channel Negative Energy — a natural ranged weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/mummy-rotting-fist",
+			"display_name": "Mummy Rotting Fist",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Mummy Rotting Fist. Mummy Rotting Fist — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/nalfeshnee-rend",
+			"display_name": "Nalfeshnee Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Nalfeshnee Rend. Nalfeshnee Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/night-hag-claw",
+			"display_name": "Night Hag Claw",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Night Hag Claw. Night Hag Claw — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/nightmare-hooves",
+			"display_name": "Nightmare Hooves",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Nightmare Hooves. Nightmare Hooves — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/ochre-jelly-pseudopod",
+			"display_name": "Ochre Jelly Pseudopod",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ochre Jelly Pseudopod. Ochre Jelly Pseudopod — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/ogre-zombie-slam",
+			"display_name": "Ogre Zombie Slam",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ogre Zombie Slam. Ogre Zombie Slam — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/oni-nightmare-ray",
+			"display_name": "Oni Nightmare Ray",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Oni Nightmare Ray. Oni Nightmare Ray — a natural ranged weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/otyugh-bite",
+			"display_name": "Otyugh Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Otyugh Bite. Otyugh Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/owlbear-rend",
+			"display_name": "Owlbear Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Owlbear Rend. Owlbear Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/panther-rend",
+			"display_name": "Panther Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Panther Rend. Panther Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/pegasus-hooves",
+			"display_name": "Pegasus Hooves",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Pegasus Hooves. Pegasus Hooves — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/phase-spider-bite",
+			"display_name": "Phase Spider Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Phase Spider Bite. Phase Spider Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/pit-fiend-bite",
+			"display_name": "Pit Fiend Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Pit Fiend Bite. Pit Fiend Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/planetar-radiant-sword",
+			"display_name": "Planetar Radiant Sword",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Planetar Radiant Sword. Planetar Radiant Sword — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/plesiosaurus-bite",
+			"display_name": "Plesiosaurus Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Plesiosaurus Bite. Plesiosaurus Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/polar-bear-rend",
+			"display_name": "Polar Bear Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Polar Bear Rend. Polar Bear Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/pony-hooves",
+			"display_name": "Pony Hooves",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Pony Hooves. Pony Hooves — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/pseudodragon-bite",
+			"display_name": "Pseudodragon Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Pseudodragon Bite. Pseudodragon Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/pteranodon-bite",
+			"display_name": "Pteranodon Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Pteranodon Bite. Pteranodon Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/purple-worm-bite",
+			"display_name": "Purple Worm Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Purple Worm Bite. Purple Worm Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/quasit-rend",
+			"display_name": "Quasit Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Quasit Rend. Quasit Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/rakshasa-cursed-touch",
+			"display_name": "Rakshasa Cursed Touch",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Rakshasa Cursed Touch. Rakshasa Cursed Touch — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/red-dragon-wyrmling-rend",
+			"display_name": "Red Dragon Wyrmling Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Red Dragon Wyrmling Rend. Red Dragon Wyrmling Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/reef-shark-bite",
+			"display_name": "Reef Shark Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Reef Shark Bite. Reef Shark Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/remorhaz-bite",
+			"display_name": "Remorhaz Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Remorhaz Bite. Remorhaz Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/rhinoceros-gore",
+			"display_name": "Rhinoceros Gore",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Rhinoceros Gore. Rhinoceros Gore — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/riding-horse-hooves",
+			"display_name": "Riding Horse Hooves",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Riding Horse Hooves. Riding Horse Hooves — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/roc-beak",
+			"display_name": "Roc Beak",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Roc Beak. Roc Beak — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/roper-bite",
+			"display_name": "Roper Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Roper Bite. Roper Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/rust-monster-bite",
+			"display_name": "Rust Monster Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Rust Monster Bite. Rust Monster Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/saber-toothed-tiger-rend",
+			"display_name": "Saber-Toothed Tiger Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Saber-Toothed Tiger Rend. Saber-Toothed Tiger Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/sahuagin-warrior-claw",
+			"display_name": "Sahuagin Warrior Claw",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Sahuagin Warrior Claw. Sahuagin Warrior Claw — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/salamander-flame-spear",
+			"display_name": "Salamander Flame Spear",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Salamander Flame Spear. Salamander Flame Spear — a natural ranged weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/satyr-hooves",
+			"display_name": "Satyr Hooves",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Satyr Hooves. Satyr Hooves — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/sea-hag-claw",
+			"display_name": "Sea Hag Claw",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Sea Hag Claw. Sea Hag Claw — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/shadow-draining-swipe",
+			"display_name": "Shadow Draining Swipe",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Shadow Draining Swipe. Shadow Draining Swipe — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/shambling-mound-charged-tendril",
+			"display_name": "Shambling Mound Charged Tendril",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Shambling Mound Charged Tendril. Shambling Mound Charged Tendril — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/shield-guardian-fist",
+			"display_name": "Shield Guardian Fist",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Shield Guardian Fist. Shield Guardian Fist — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/silver-dragon-wyrmling-rend",
+			"display_name": "Silver Dragon Wyrmling Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Silver Dragon Wyrmling Rend. Silver Dragon Wyrmling Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/solar-flying-sword",
+			"display_name": "Solar Flying Sword",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Solar Flying Sword. Solar Flying Sword — a natural ranged weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/specter-life-drain",
+			"display_name": "Specter Life Drain",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Specter Life Drain. Specter Life Drain — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/sphinx-of-lore-claw",
+			"display_name": "Sphinx of Lore Claw",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Sphinx of Lore Claw. Sphinx of Lore Claw — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/sphinx-of-valor-claw",
+			"display_name": "Sphinx of Valor Claw",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Sphinx of Valor Claw. Sphinx of Valor Claw — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/sphinx-of-wonder-rend",
+			"display_name": "Sphinx of Wonder Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Sphinx of Wonder Rend. Sphinx of Wonder Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/spirit-naga-necrotic-ray",
+			"display_name": "Spirit Naga Necrotic Ray",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Spirit Naga Necrotic Ray. Spirit Naga Necrotic Ray — a natural ranged weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/sprite-needle-sword",
+			"display_name": "Sprite Needle Sword",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Sprite Needle Sword. Sprite Needle Sword — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/steam-mephit-claw",
+			"display_name": "Steam Mephit Claw",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Steam Mephit Claw. Steam Mephit Claw — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/stirge-proboscis",
+			"display_name": "Stirge Proboscis",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Stirge Proboscis. Stirge Proboscis — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/stone-giant-boulder",
+			"display_name": "Stone Giant Boulder",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Stone Giant Boulder. Stone Giant Boulder — a natural ranged weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/stone-golem-force-bolt",
+			"display_name": "Stone Golem Force Bolt",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Stone Golem Force Bolt. Stone Golem Force Bolt — a natural ranged weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/storm-giant-thunderbolt",
+			"display_name": "Storm Giant Thunderbolt",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Storm Giant Thunderbolt. Storm Giant Thunderbolt — a natural ranged weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/succubus-fiendish-touch",
+			"display_name": "Succubus Fiendish Touch",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Succubus Fiendish Touch. Succubus Fiendish Touch — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/swarm-of-bats-bites",
+			"display_name": "Swarm of Bats Bites",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Swarm of Bats Bites. Swarm of Bats Bites — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/swarm-of-crawling-claws-swarm-of-grasping-hands",
+			"display_name": "Swarm of Crawling Claws Swarm of Grasping Hands",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Swarm of Crawling Claws Swarm of Grasping Hands. Swarm of Crawling Claws Swarm of Grasping Hands — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/swarm-of-insects-bites",
+			"display_name": "Swarm of Insects Bites",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Swarm of Insects Bites. Swarm of Insects Bites — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/swarm-of-piranhas-bites",
+			"display_name": "Swarm of Piranhas Bites",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Swarm of Piranhas Bites. Swarm of Piranhas Bites — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/swarm-of-rats-bites",
+			"display_name": "Swarm of Rats Bites",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Swarm of Rats Bites. Swarm of Rats Bites — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/swarm-of-ravens-beaks",
+			"display_name": "Swarm of Ravens Beaks",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Swarm of Ravens Beaks. Swarm of Ravens Beaks — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/swarm-of-venomous-snakes-bites",
+			"display_name": "Swarm of Venomous Snakes Bites",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Swarm of Venomous Snakes Bites. Swarm of Venomous Snakes Bites — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/tarrasque-bite",
+			"display_name": "Tarrasque Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Tarrasque Bite. Tarrasque Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/tiger-rend",
+			"display_name": "Tiger Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Tiger Rend. Tiger Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/treant-hail-of-bark",
+			"display_name": "Treant Hail of Bark",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Treant Hail of Bark. Treant Hail of Bark — a natural ranged weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/triceratops-gore",
+			"display_name": "Triceratops Gore",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Triceratops Gore. Triceratops Gore — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/troll-limb-rend",
+			"display_name": "Troll Limb Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Troll Limb Rend. Troll Limb Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/troll-rend",
+			"display_name": "Troll Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Troll Rend. Troll Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/tyrannosaurus-rex-bite",
+			"display_name": "Tyrannosaurus Rex Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Tyrannosaurus Rex Bite. Tyrannosaurus Rex Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/unicorn-hooves",
+			"display_name": "Unicorn Hooves",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Unicorn Hooves. Unicorn Hooves — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/vampire-familiar-umbral-dagger",
+			"display_name": "Vampire Familiar Umbral Dagger",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Vampire Familiar Umbral Dagger. Vampire Familiar Umbral Dagger — a natural ranged weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/vampire-grave-strike",
+			"display_name": "Vampire Grave Strike",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Vampire Grave Strike. Vampire Grave Strike — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/vampire-spawn-claw",
+			"display_name": "Vampire Spawn Claw",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Vampire Spawn Claw. Vampire Spawn Claw — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/venomous-snake-bite",
+			"display_name": "Venomous Snake Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Venomous Snake Bite. Venomous Snake Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/violet-fungus-rotting-touch",
+			"display_name": "Violet Fungus Rotting Touch",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Violet Fungus Rotting Touch. Violet Fungus Rotting Touch — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/vrock-shred",
+			"display_name": "Vrock Shred",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Vrock Shred. Vrock Shred — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/vulture-beak",
+			"display_name": "Vulture Beak",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Vulture Beak. Vulture Beak — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/warhorse-hooves",
+			"display_name": "Warhorse Hooves",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Warhorse Hooves. Warhorse Hooves — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/warhorse-skeleton-hooves",
+			"display_name": "Warhorse Skeleton Hooves",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Warhorse Skeleton Hooves. Warhorse Skeleton Hooves — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/water-elemental-slam",
+			"display_name": "Water Elemental Slam",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Water Elemental Slam. Water Elemental Slam — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/white-dragon-wyrmling-rend",
+			"display_name": "White Dragon Wyrmling Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "White Dragon Wyrmling Rend. White Dragon Wyrmling Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/wight-necrotic-bow",
+			"display_name": "Wight Necrotic Bow",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Wight Necrotic Bow. Wight Necrotic Bow — a natural ranged weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/will-o-wisp-shock",
+			"display_name": "Will-o'-Wisp Shock",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Will-o'-Wisp Shock. Will-o'-Wisp Shock — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/winter-wolf-bite",
+			"display_name": "Winter Wolf Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Winter Wolf Bite. Winter Wolf Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/wolf-bite",
+			"display_name": "Wolf Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Wolf Bite. Wolf Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/worg-bite",
+			"display_name": "Worg Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Worg Bite. Worg Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/wraith-life-drain",
+			"display_name": "Wraith Life Drain",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Wraith Life Drain. Wraith Life Drain — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/wyvern-bite",
+			"display_name": "Wyvern Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Wyvern Bite. Wyvern Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/xorn-bite",
+			"display_name": "Xorn Bite",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Xorn Bite. Xorn Bite — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/young-black-dragon-rend",
+			"display_name": "Young Black Dragon Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Young Black Dragon Rend. Young Black Dragon Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/young-blue-dragon-rend",
+			"display_name": "Young Blue Dragon Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Young Blue Dragon Rend. Young Blue Dragon Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/young-brass-dragon-rend",
+			"display_name": "Young Brass Dragon Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Young Brass Dragon Rend. Young Brass Dragon Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/young-bronze-dragon-rend",
+			"display_name": "Young Bronze Dragon Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Young Bronze Dragon Rend. Young Bronze Dragon Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/young-copper-dragon-rend",
+			"display_name": "Young Copper Dragon Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Young Copper Dragon Rend. Young Copper Dragon Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/young-gold-dragon-rend",
+			"display_name": "Young Gold Dragon Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Young Gold Dragon Rend. Young Gold Dragon Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/young-green-dragon-rend",
+			"display_name": "Young Green Dragon Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Young Green Dragon Rend. Young Green Dragon Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/young-red-dragon-rend",
+			"display_name": "Young Red Dragon Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Young Red Dragon Rend. Young Red Dragon Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/young-silver-dragon-rend",
+			"display_name": "Young Silver Dragon Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Young Silver Dragon Rend. Young Silver Dragon Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/young-white-dragon-rend",
+			"display_name": "Young White Dragon Rend",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Young White Dragon Rend. Young White Dragon Rend — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "natural-weapon/zombie-slam",
+			"display_name": "Zombie Slam",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Zombie Slam. Zombie Slam — a natural melee weapon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "trait/draconic-ancestry",
+			"display_name": "Draconic Ancestry",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Your lineage stems from a dragon progenitor. Choose the kind of dragon from the Draconic Ancestors table. Your choice affects your Breath Weapon and Damage Resistance traits as well as your appearance.\n\nTable: Draconic Ancestors\n\n| Dragon | Damage Type |\n|---|---|\n| Black | Acid |\n| Blue | Lightning |\n| Brass |Fire |\n| Bronze | Lightning |\n| Copper | Acid|\n|Gold|Fire|\n|Green|Poison|\n|Red|Fire|\n|Silver|Cold|\n|White|Cold|"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "trait/breath-weapon",
+			"display_name": "Breath Weapon",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).\n\nYou can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "trait/damage-resistance",
+			"display_name": "Damage Resistance",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "You have Resistance to the damage type determined by your Draconic Ancestry trait."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "trait/darkvision-dragonborn",
+			"display_name": "Darkvision",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "You have Darkvision with a range of 60 feet"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "trait/draconic-flight",
+			"display_name": "Draconic Flight",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "When you reach character level 5, you can channel draconic magic to give yourself temporary flight. As a Bonus Action, you sprout spectral wings on your back that last for 10 minutes or until you retract the wings (no action required) or have the Incapacitated condition. During that time, you have a Fly Speed equal to your Speed. Your wings appear to be made of the same energy as your Breath Weapon. Once you use this trait, you can't use it again until you finish a Long Rest."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "trait/darkvision-dwarf",
+			"display_name": "Darkvision",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "You have Darkvision with a range of 120 feet."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "trait/dwarven-resilience",
+			"display_name": "Dwarven Resilience",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "trait/dwarven-toughness",
+			"display_name": "Dwarven Toughness",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Your Hit Point maximum increases by 1, and it increases by 1 again whenever you gain a level."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "trait/stonecunning",
+			"display_name": "Stonecunning",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "As a Bonus Action, you gain Tremorsense with a range of 60 feet for 10 minutes. You must be on a stone surface or touching a stone surface to use this Tremorsense. The stone can be natural or worked.\n\nYou can use this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "trait/darkvision-elf",
+			"display_name": "Darkvision",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "You have Darkvision with a range of 60 feet."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "trait/elven-lineage",
+			"display_name": "Elven Lineage",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "You are part of a lineage that grants you supernatural abilities. Choose a lineage from the Elven Lineages table. You gain the level 1 benefit of that lineage.\n\nWhen you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.\n\nTable: Elven Lineages\n\n|Lineage|Level 1|Level 3|Level 5|\n|---|---|---|---|\n|Drow|The range of your Darkvision increases to 120 feet. You also know the Dancing Lights cantrip.|Faerie Fire|Darkness|\n|High Elf|You know the Prestidigitation cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list.|Detect Magic|Misty Step|\n|Wood Elf|Your Speed increases to 35 feet. You also know the Druidcraft cantrip.|Longstrider|Pass without Trace|\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage)."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "trait/fey-ancestry",
+			"display_name": "Fey Ancestry",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "You have Advantage on saving throws you make to avoid or end the Charmed condition."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "trait/keen-senses",
+			"display_name": "Keen Senses",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "You have proficiency in the Insight, Perception, or Survival skill."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "trait/trance",
+			"display_name": "Trance",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "trait/darkvision-gnome",
+			"display_name": "Darkvision",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "You have Darkvision with a range of 60 feet."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "trait/gnomish-cunning",
+			"display_name": "Gnomish Cunning",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "You have Advantage on Intelligence, Wisdom, and Charisma saving throws."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "trait/gnomish-lineage",
+			"display_name": "Gnomish Lineage",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "You are part of a lineage that grants you supernatural abilities. Choose one of the following options; whichever one you choose, Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage):\n\n**Forest Gnome.** You know the *Minor Illusion* cantrip. You also always have the *Speak with Animals* spell prepared. You can cast it without a spell slot a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest. You can also use any spell slots you have to cast the spell.\n\n**Rock Gnome.** You know the *Mending* and *Prestidigitation* cantrips. In addition, you can spend 10 minutes casting *Prestidigitation* to create a Tiny clockwork device (AC 5, 1 HP), such as a toy, fire starter, or music box. When you create the device, you determine its function by choosing one effect from *Prestidigitation*; the device produces that effect whenever you or another creature takes a Bonus Action to activate it with a touch. If the chosen effect has options within it, you choose one of those options for the device when you create it. For example, if you choose the spell's ignite-extinguish effect, you determine whether the device ignites or extinguishes fire; the device doesn't do both. You can have three such devices in existence at a time, and each falls apart 8 hours after its creation or when you dismantle it with a touch as a Utilize action."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "trait/giant-ancestry",
+			"display_name": "Giant Ancestry",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "You are descended from Giants. Choose one of the following benefits—a supernatural boon from your ancestry; you can use the chosen benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest:\n\n- **Cloud's Jaunt (Cloud Giant)**. As a Bonus Action, you magically teleport up to 30 feet to an unoccupied space you can see.\n- **Fire's Burn (Fire Giant)**. When you hit a target with an attack roll and deal damage to it, you can also deal 1d10 Fire damage to that target.\n- **Frost's Chill (Frost Giant)**. When you hit a target with an attack roll and deal damage to it, you can also deal 1d6 Cold damage to that target and reduce its Speed by 10 feet until the start of your next turn.\n- **Hill's Tumble (Hill Giant)**. When you hit a Large or smaller creature with an attack roll and deal damage to it, you can give that target the Prone condition.\n- **Stone's Endurance (Stone Giant)**. When you take damage, you can take a Reaction to roll 1d12. Add your Constitution modifier to the number rolled and reduce the damage by that total.\n- **Storm's Thunder (Storm Giant)**. When you take damage from a creature within 60 feet of you, you can take a Reaction to deal 1d8 Thunder damage to that creature."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "trait/large-form",
+			"display_name": "Large Form",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Starting at character level 5, you can change your size to Large as a Bonus Action if you're in a big enough space. This transformation lasts for 10 minutes or until you end it (no action required). For that duration, you have Advantage on Strength checks, and your Speed increases by 10 feet. Once you use this trait, you can't use it again until you finish a Long Rest."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "trait/powerful-build",
+			"display_name": "Powerful Build",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "You have Advantage on any ability check you make to end the Grappled condition. You also count as one size larger when determining your carrying capacity."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "trait/brave",
+			"display_name": "Brave",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "You have Advantage on saving throws you make to avoid or end the Frightened condition."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "trait/halfling-nimbleness",
+			"display_name": "Halfling Nimbleness",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "You can move through the space of any creature that is a size larger than you, but you can't stop in the same space."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "trait/luck",
+			"display_name": "Luck",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "When you roll a 1 on the d20 of a D20 Test, you can reroll the die, and you must use the new roll."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "trait/naturally-stealthy",
+			"display_name": "Naturally Stealthy",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "You can take the Hide action even when you are obscured only by a creature that is at least one size larger than you."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "trait/resourceful",
+			"display_name": "Resourceful",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "You gain Heroic Inspiration whenever you finish a Long Rest."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "trait/skillful",
+			"display_name": "Skillful",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "You gain proficiency in one skill of your choice."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "trait/versatile",
+			"display_name": "Versatile",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "You gain an Origin feat of your choice (see \"Feats\"). Skilled is recommended."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "trait/adrenaline-rush",
+			"display_name": "Adrenaline Rush",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "You can take the Dash action as a Bonus Action. When you do so, you gain a number of Temporary Hit Points equal to your Proficiency Bonus.\n\nYou can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Short or Long Rest."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "trait/darkvision-orc",
+			"display_name": "Darkvision",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "You have Darkvision with a range of 120 feet."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "trait/relentless-endurance",
+			"display_name": "Relentless Endurance",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "When you are reduced to 0 Hit Points but not killed outright, you can drop to 1 Hit Point instead. Once you use this trait, you can't do so again until you finish a Long Rest."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "trait/darkvision-tiefling",
+			"display_name": "Darkvision",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "You have Darkvision with a range of 60 feet."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "trait/fiendish-legacy",
+			"display_name": "Fiendish Legacy",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "You are the recipient of a legacy that grants you supernatural abilities. Choose a legacy from the Fiendish Legacies table. You gain the level 1 benefit of the chosen legacy.\n\nWhen you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).\n\n**Table: Fiendish Legacies**\n\n|Legacy|Level 1|Level 3|Level 5|\n|---|---|---|---|\n|Abyssal|You have Resistance to Poison damage. You also know the Poison Spray cantrip.|Ray of Sickness|Hold Person|\n|Chthonic|You have Resistance to Necrotic damage. You also know the Chill Touch cantrip.|False Life|Ray of Enfeeblement|\n|Infernal|You have Resistance to Fire damage. You also know the Fire Bolt cantrip.|Hellish Rebuke|Darkness|"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "trait/otherworldly-presence",
+			"display_name": "Otherworldly Presence",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "You know the *Thaumaturgy* cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy trait."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "divine-order/protector",
+			"display_name": "Divine Order: Protector",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Cleric Divine Order option Protector (classes.md:2205-2211). Trained for battle, you gain proficiency with Martial weapons and training with Heavy armor. Menu member only — dialogue grants the mechanical benefits when chosen."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member"
+			]
+		},
+		{
+			"id": "divine-order/thaumaturge",
+			"display_name": "Divine Order: Thaumaturge",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Cleric Divine Order option Thaumaturge (classes.md:2205-2211). You know one extra cantrip from the Cleric spell list. In addition, your mystical connection to the divine gives you a bonus to your Intelligence (Arcana or Religion) checks equal to your Wisdom modifier (minimum of +1). Menu member only — dialogue grants the benefits when chosen."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member"
+			]
+		},
+		{
+			"id": "primal-order/magician",
+			"display_name": "Primal Order: Magician",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Druid Primal Order option Magician (classes.md:3521-3527). You know one extra cantrip from the Druid spell list. In addition, your mystical connection to nature gives you a bonus to your Intelligence (Arcana or Nature) checks equal to your Wisdom modifier (minimum bonus of +1). Menu member only — dialogue grants the benefits when chosen."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member"
+			]
+		},
+		{
+			"id": "primal-order/warden",
+			"display_name": "Primal Order: Warden",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Druid Primal Order option Warden (classes.md:3521-3527). Trained for battle, you gain proficiency with Martial weapons and training with Medium armor. Menu member only — dialogue grants the benefits when chosen."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member"
+			]
+		},
+		{
+			"id": "metamagic/careful-spell",
+			"display_name": "Metamagic: Careful Spell",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "*Cost: 1 Sorcery Point*\n\nWhen you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, spend 1 Sorcery Point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell, and it takes no damage if it would normally take half damage on a successful save."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "metamagic/distant-spell",
+			"display_name": "Metamagic: Distant Spell",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "*Cost: 1 Sorcery Point*\n\nWhen you cast a spell that has a range of at least 5 feet, you can spend 1 Sorcery Point to double the spell's range. Or when you cast a spell that has a range of Touch, you can spend 1 Sorcery Point to make the spell's range 30 feet."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "metamagic/empowered-spell",
+			"display_name": "Metamagic: Empowered Spell",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "*Cost: 1 Sorcery Point*\n\nWhen you roll damage for a spell, you can spend 1 Sorcery Point to reroll a number of the damage dice up to your Charisma modifier (minimum of one), and you must use the new rolls. You can use Empowered Spell even if you've already used a different Metamagic option during the casting of the spell."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "metamagic/extended-spell",
+			"display_name": "Metamagic: Extended Spell",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "*Cost: 1 Sorcery Point*\n\nWhen you cast a spell that has a duration of 1 minute or longer, you can spend 1 Sorcery Point to double its duration to a maximum duration of 24 hours. If the affected spell requires Concentration, you have Advantage on any saving throw you make to maintain that Concentration."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "metamagic/heightened-spell",
+			"display_name": "Metamagic: Heightened Spell",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "*Cost: 2 Sorcery Points*\n\nWhen you cast a spell that forces a creature to make a saving throw, you can spend 2 Sorcery Points to give one target of the spell Disadvantage on saves against the spell."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "metamagic/quickened-spell",
+			"display_name": "Metamagic: Quickened Spell",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "*Cost: 2 Sorcery Points*\n\nWhen you cast a spell that has a casting time of an action, you can spend 2 Sorcery Points to change the casting time to a Bonus Action for this casting. You can't modify a spell in this way if you've already cast a level 1+ spell on the current turn, nor can you cast a level 1+ spell on this turn after modifying a spell in this way."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "metamagic/seeking-spell",
+			"display_name": "Metamagic: Seeking Spell",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "*Cost: 1 Sorcery Point*\n\nIf you make an attack roll for a spell and miss, you can spend 1 Sorcery Point to reroll the d20, and you must use the new roll. You can use Seeking Spell even if you've already used a different Metamagic option during the casting of the spell.\n\n Subtle Spell\n\n*Cost: 1 Sorcery Point*\n\nWhen you cast a spell, you can spend 1 Sorcery Point to cast it without any Verbal, Somatic, or Material components, except Material components that are consumed by the spell or that have a cost specified in the spell."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "metamagic/transmuted-spell",
+			"display_name": "Metamagic: Transmuted Spell",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "*Cost: 1 Sorcery Point*\n\nWhen you cast a spell that deals a type of damage from the following list, you can spend 1 Sorcery Point to change that damage type to one of the other listed types: Acid, Cold, Fire, Lightning, Poison, Thunder."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "metamagic/twinned-spell",
+			"display_name": "Metamagic: Twinned Spell",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "*Cost: 1 Sorcery Point*\n\nWhen you cast a spell, such as *Charm Person*, that can be cast with a higher-level spell slot to target an additional creature, you can spend 1 Sorcery Point to increase the spell's effective level by 1."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "eldritch-invocation/agonizing-blast",
+			"display_name": "Eldritch Invocation: Agonizing Blast",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "*Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage*\n\nChoose one of your known Warlock cantrips that deals damage. You can add your Charisma modifier to that spell's damage rolls.\n\n**Repeatable.** You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "eldritch-invocation/armor-of-shadows",
+			"display_name": "Eldritch Invocation: Armor of Shadows",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "You can cast *Mage Armor* on yourself without expending a spell slot."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "eldritch-invocation/ascendant-step",
+			"display_name": "Eldritch Invocation: Ascendant Step",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "*Prerequisite: Level 5+ Warlock*\n\nYou can cast *Levitate* on yourself without expending a spell slot."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "eldritch-invocation/devils-sight",
+			"display_name": "Eldritch Invocation: Devil's Sight",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "*Prerequisite: Level 2+ Warlock*\n\nYou can see normally in Dim Light and Darkness both magical and nonmagical—within 120 feet of yourself."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "eldritch-invocation/devouring-blade",
+			"display_name": "Eldritch Invocation: Devouring Blade",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "*Prerequisite: Level 12+ Warlock, Thirsting Blade Invocation*\n\nThe Extra Attack of your Thirsting Blade invocation confers two extra attacks rather than one."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "eldritch-invocation/eldritch-mind",
+			"display_name": "Eldritch Invocation: Eldritch Mind",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "You have Advantage on Constitution saving throws that you make to maintain Concentration."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "eldritch-invocation/eldritch-smite",
+			"display_name": "Eldritch Invocation: Eldritch Smite",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "*Prerequisite: Level 5+ Warlock, Pact of the Blade Invocation*\n\nOnce per turn when you hit a creature with your pact weapon, you can expend a Pact Magic spell slot to deal an extra 1d8 Force damage to the target, plus another 1d8 per level of the spell slot, and you can give the target the Prone condition if it is Huge or smaller."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "eldritch-invocation/eldritch-spear",
+			"display_name": "Eldritch Invocation: Eldritch Spear",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "*Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage*\n\nChoose one of your known Warlock cantrips that deals damage and has a range of 10+ feet. When you cast that spell, its range increases by a number of feet equal to 30 times your Warlock level.\n\n**Repeatable.** You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "eldritch-invocation/fiendish-vigor",
+			"display_name": "Eldritch Invocation: Fiendish Vigor",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "*Prerequisite: Level 2+ Warlock*\n\nYou can cast *False Life* on yourself without expending a spell slot. When you cast the spell with this feature, you don't roll the die for the Temporary Hit Points; you automatically get the highest number on the die."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "eldritch-invocation/gaze-of-two-minds",
+			"display_name": "Eldritch Invocation: Gaze of Two Minds",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "*Prerequisite: Level 5+ Warlock*\n\nYou can use a Bonus Action to touch a willing creature and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can take a Bonus Action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. The connection ends if you don't maintain it in this way.\n\nWhile perceiving through the other creature's senses, you benefit from any special senses possessed by that creature, and you can cast spells as if you were in your space or the other creature's space if the two of you are within 60 feet of each other."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "eldritch-invocation/gift-of-the-depths",
+			"display_name": "Eldritch Invocation: Gift of the Depths",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "*Prerequisite: Level 5+ Warlock*\n\nYou can breathe underwater, and you gain a Swim Speed equal to your Speed.\n\nYou can also cast *Water Breathing* once without expending a spell slot. You regain the ability to cast it in this way again when you finish a Long Rest."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "eldritch-invocation/gift-of-the-protectors",
+			"display_name": "Eldritch Invocation: Gift of the Protectors",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "*Prerequisite: Level 9+ Warlock, Pact of the Tome Invocation*\n\nA new page appears in your *Book of Shadows* when you conjure it. With your permission, a creature can take an action to write its name on that page, which can contain a number of names equal to your Charisma modifier (minimum of one name).\n\nWhen any creature whose name is on the page is reduced to 0 Hit Points but not killed outright, the creature magically drops to 1 Hit Point instead. Once this magic is triggered, no creature can benefit from it until you finish a Long Rest.\n\nAs a Magic action, you can erase a name on the page by touching it."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "eldritch-invocation/investment-of-the-chain-master",
+			"display_name": "Eldritch Invocation: Investment of the Chain Master",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "*Prerequisite: Level 5+ Warlock, Pact of the Chain Invocation*\n\nWhen you cast *Find Familiar*, you infuse the summoned familiar with a measure of your eldritch power, granting the creature the following benefits.\n\n**Aerial or Aquatic.** The familiar gains either a Fly Speed or a Swim Speed (your choice) of 40 feet.\n\n**Quick Attack.** As a Bonus Action, you can command the familiar to take the Attack action.\n\n**Necrotic or Radiant Damage.** Whenever the familiar deals Bludgeoning, Piercing, or Slashing damage, you can make it deal Necrotic or Radiant damage instead.\n\n**Your Save DC.** If the familiar forces a creature to make a saving throw, it uses your spell save DC.\n\n**Resistance.** When the familiar takes damage, you can take a Reaction to grant it Resistance against that damage."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "eldritch-invocation/lessons-of-the-first-ones",
+			"display_name": "Eldritch Invocation: **Lessons of the First Ones**",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "*Prerequisite: Level 2+ Warlock*\n\nYou have received knowledge from an elder entity of the multiverse, allowing you to gain one Origin feat of your choice (see \"Feats\").\n\n**Repeatable.** You can gain this invocation more than once. Each time you do so, choose a different Origin feat."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "eldritch-invocation/lifedrinker",
+			"display_name": "Eldritch Invocation: Lifedrinker",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "*Prerequisite: Level 9+ Warlock, Pact of the Blade Invocation*\n\nOnce per turn when you hit a creature with your pact weapon, you can deal an extra 1d6 Necrotic, Psychic, or Radiant damage (your choice) to the creature, and you can expend one of your Hit Point Dice to roll it and regain a number of Hit Points equal to the roll plus your Constitution modifier (minimum of 1 Hit Point)."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "eldritch-invocation/mask-of-many-faces",
+			"display_name": "Eldritch Invocation: Mask of Many Faces",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "*Prerequisite: Level 2+ Warlock*\n\nYou can cast *Disguise Self* without expending a spell slot."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "eldritch-invocation/master-of-myriad-forms",
+			"display_name": "Eldritch Invocation: Master of Myriad Forms",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "*Prerequisite: Level 5+ Warlock*\n\nYou can cast *Alter Self* without expending a spell slot."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "eldritch-invocation/misty-visions",
+			"display_name": "Eldritch Invocation: Misty Visions",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "*Prerequisite: Level 2+ Warlock*\n\nYou can cast *Silent Image* without expending a spell slot."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "eldritch-invocation/one-with-shadows",
+			"display_name": "Eldritch Invocation: One with Shadows",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "*Prerequisite: Level 5+ Warlock*\n\nWhile you're in an area of Dim Light or Darkness, you can cast *Invisibility* on yourself without expending a spell slot."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "eldritch-invocation/otherworldly-leap",
+			"display_name": "Eldritch Invocation: Otherworldly Leap",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "*Prerequisite: Level 2+ Warlock*\n\nYou can cast *Jump* on yourself without expending a spell slot."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "eldritch-invocation/pact-of-the-blade",
+			"display_name": "Eldritch Invocation: Pact of the Blade",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "As a Bonus Action, you can conjure a pact weapon in your hand—a Simple or Martial Melee weapon of your choice with which you bond—or create a bond with a magic weapon you touch; you can't bond with a magic weapon if someone else is attuned to it or another Warlock is bonded with it. Until the bond ends, you have proficiency with the weapon, and you can use it as a Spellcasting Focus.\n\nWhenever you attack with the bonded weapon, you can use your Charisma modifier for the attack and damage rolls instead of using Strength or Dexterity; and you can cause the weapon to deal Necrotic, Psychic, or Radiant damage or its normal damage type.\n\nYour bond with the weapon ends if you use this feature's Bonus Action again, if the weapon is more than 5 feet away from you for 1 minute or more, or if you die. A conjured weapon disappears when the bond ends."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "eldritch-invocation/pact-of-the-chain",
+			"display_name": "Eldritch Invocation: Pact of the Chain",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "You learn the *Find Familiar* spell and can cast it as a Magic action without expending a spell slot.\n\nWhen you cast the spell, you choose one of the normal forms for your familiar or one of the following special forms: **Imp, Pseudodragon, Quasit, Skeleton, Sphinx of Wonder, Sprite,** or **Venomous Snake** (see \"Monsters\" for the familiar's stat block).\n\nAdditionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack of its own with its Reaction."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "eldritch-invocation/pact-of-the-tome",
+			"display_name": "Eldritch Invocation: Pact of the Tome",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Stitching together strands of shadow, you conjure forth a book in your hand at the end of a Short or Long Rest. This *Book of Shadows* (you determine its appearance) contains eldritch magic that only you can access, granting you the benefits below. The book disappears if you conjure another book with this feature or if you die.\n\n**Cantrips and Rituals.** When the book appears, choose three cantrips, and choose two level 1 spells that have the Ritual tag. The spells can be from any class's spell list, and they must be spells you don't already have prepared. While the book is on your person, you have the chosen spells prepared, and they function as Warlock spells for you.\n\n**Spellcasting Focus.** You can use the book as a Spellcasting Focus."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "eldritch-invocation/repelling-blast",
+			"display_name": "Eldritch Invocation: Repelling Blast",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "*Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage via an Attack Roll*\n\nChoose one of your known Warlock cantrips that requires an attack roll. When you hit a Large or smaller creature with that cantrip, you can push the creature up to 10 feet straight away from you.\n\n**Repeatable.** You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "eldritch-invocation/thirsting-blade",
+			"display_name": "Eldritch Invocation: Thirsting Blade",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "*Prerequisite: Level 5+ Warlock, Pact of the Blade Invocation*\n\nYou gain the Extra Attack feature for your pact weapon only. With that feature, you can attack twice with the weapon instead of once when you take the Attack action on your turn."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "eldritch-invocation/visions-of-distant-realms",
+			"display_name": "Eldritch Invocation: Visions of Distant Realms",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "*Prerequisite: Level 9+ Warlock*\n\nYou can cast *Arcane Eye* without expending a spell slot."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "eldritch-invocation/whispers-of-the-grave",
+			"display_name": "Eldritch Invocation: Whispers of the Grave",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "*Prerequisite: Level 7+ Warlock*\n\nYou can cast *Speak with Dead* without expending a spell slot."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "eldritch-invocation/witch-sight",
+			"display_name": "Eldritch Invocation: Witch Sight",
+			"prompt_id": "flavor-feat",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "*Prerequisite: Level 15+ Warlock*\n\nYou have Truesight with a range of 30 feet."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "expertise-option/acrobatics",
+			"display_name": "Expertise: Skill: Acrobatics",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Stay on your feet in a tricky situation, or perform an acrobatic stunt."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member"
+			]
+		},
+		{
+			"id": "expertise-option/animal-handling",
+			"display_name": "Expertise: Skill: Animal Handling",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Calm or train an animal, or get an animal to behave in a certain way."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member"
+			]
+		},
+		{
+			"id": "expertise-option/arcana",
+			"display_name": "Expertise: Skill: Arcana",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Recall lore about spells, magic items, and the planes of existence."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member"
+			]
+		},
+		{
+			"id": "expertise-option/athletics",
+			"display_name": "Expertise: Skill: Athletics",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Jump farther than normal, stay afloat in rough water, or break something."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member"
+			]
+		},
+		{
+			"id": "expertise-option/deception",
+			"display_name": "Expertise: Skill: Deception",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Tell a convincing lie, or wear a disguise convincingly."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member"
+			]
+		},
+		{
+			"id": "expertise-option/history",
+			"display_name": "Expertise: Skill: History",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Recall lore about historical events, people, nations, and cultures."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member"
+			]
+		},
+		{
+			"id": "expertise-option/insight",
+			"display_name": "Expertise: Skill: Insight",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Discern a person's mood and intentions."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member"
+			]
+		},
+		{
+			"id": "expertise-option/intimidation",
+			"display_name": "Expertise: Skill: Intimidation",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Awe or threaten someone into doing what you want."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member"
+			]
+		},
+		{
+			"id": "expertise-option/investigation",
+			"display_name": "Expertise: Skill: Investigation",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Find obscure information in books, or deduce how something works."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member"
+			]
+		},
+		{
+			"id": "expertise-option/medicine",
+			"display_name": "Expertise: Skill: Medicine",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Diagnose an illness, or determine what killed the recently slain."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member"
+			]
+		},
+		{
+			"id": "expertise-option/nature",
+			"display_name": "Expertise: Skill: Nature",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Recall lore about terrain, plants, animals, and weather."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member"
+			]
+		},
+		{
+			"id": "expertise-option/perception",
+			"display_name": "Expertise: Skill: Perception",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Using a combination of senses, notice something that's easy to miss."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member"
+			]
+		},
+		{
+			"id": "expertise-option/performance",
+			"display_name": "Expertise: Skill: Performance",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Act, tell a story, perform music, or dance."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member"
+			]
+		},
+		{
+			"id": "expertise-option/persuasion",
+			"display_name": "Expertise: Skill: Persuasion",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Honestly and graciously convince someone of something."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member"
+			]
+		},
+		{
+			"id": "expertise-option/religion",
+			"display_name": "Expertise: Skill: Religion",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Recall lore about gods, religious rituals, and holy symbols."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member"
+			]
+		},
+		{
+			"id": "expertise-option/sleight-of-hand",
+			"display_name": "Expertise: Skill: Sleight Of Hand",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Pick a pocket, conceal a handheld object, or perform legerdemain."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member"
+			]
+		},
+		{
+			"id": "expertise-option/stealth",
+			"display_name": "Expertise: Skill: Stealth",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Escape notice by moving quietly and hiding behind things."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member"
+			]
+		},
+		{
+			"id": "expertise-option/survival",
+			"display_name": "Expertise: Skill: Survival",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Follow tracks, forage, find a trail, or avoid natural hazards."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member"
+			]
+		}
+	]
+}
