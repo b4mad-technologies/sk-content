@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-sickle",
+  "overlay_template": "luck-blade",
+  "overlay_badge": "luck",
+  "base_sha256": "3f8632586e1ef292b89cc2b0d3ab30679a6b04794e7a79e7ad4c0d51ece8b331",
+  "overlay_sha256": "26d3eafb1c9d30759a8c41b8b28e7336f7198f5fa0333830f87cbbeacf09e8bb",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:46.629Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "a6d34b6740aa1d883a2bd885c81bce243c25829e9517da098e09223b0d3ae5c2",
+  "target_attachment_ref": "srd/magic_item/luck-blade-sickle#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-luck-blade-sickle"
+}

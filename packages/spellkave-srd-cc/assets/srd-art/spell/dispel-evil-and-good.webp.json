@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "pixellab-pixen",
+  "prompt": "Dispel Evil and Good. Silver-and-iron ward sigil expelling five shadowy planar emblems. Isolated spell glyph of the magical effect itself, one symbol, no caster, no creature, no scenery, no weapon, no letters, centered. Theme-neutral Spellkave pixel art: mid-contrast cream, charcoal, muted gold, forest, and rust. Selective outline, basic-to-medium shading, no gloss or bloom. Transparent background, no frame, no baked scenery, no letters, words, numerals, logo, watermark, photorealism, or D&D branding. Centered, native pixel size.",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "LicenseRef-Spellkave-Proprietary",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 1.1
+  },
+  "generated_at": "2026-09-24T09:04:57.094Z",
+  "source_manifest": ".local/glyph-burn2-art/manifest.json",
+  "sha256": "e1b44e54015d942c374b6e7a6e9b94012a00b5989468bddee86ebc7b1e8b06e3",
+  "target_attachment_ref": "srd/spell/dispel-evil-and-good#srd.art.image",
+  "kind": "spell",
+  "entry_id": "spell-dispel-evil-and-good",
+  "provider_ids": {
+    "api_base_url": "https://api.pixellab.ai/v2",
+    "route": "/create-image-pixen"
+  }
+}

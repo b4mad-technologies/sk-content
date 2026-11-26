@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-hand-crossbow",
+  "overlay_template": "holy-avenger",
+  "overlay_badge": "holy",
+  "base_sha256": "7b2df2c510b0adea5a5f9059fa58ccf8b525d90fca2e1e05efb3518ee9530e69",
+  "overlay_sha256": "64861c3849275cd13d635b8b7a62308bc7ed8397f3a844c78d4b2074fa40c88a",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:44.942Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "7e337bd33c058f9aaa228cedce02c824eb83bb71f49cfc1ce997bac415a628c6",
+  "target_attachment_ref": "srd/magic_item/holy-avenger-hand-crossbow#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-holy-avenger-hand-crossbow"
+}

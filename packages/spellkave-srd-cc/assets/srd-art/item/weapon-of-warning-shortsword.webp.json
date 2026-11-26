@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-shortsword",
+  "overlay_template": "weapon-of-warning",
+  "overlay_badge": "rune",
+  "base_sha256": "277971abfb1351e3b1faf4be84ca73ba8f548fb8dff21f7ca228d7ee54d2ae76",
+  "overlay_sha256": "ed9b733c49d6fc246eb945a819df4069cadc2a65041679925c6fe215845c9e7d",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:52.347Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "9c88587bd2327b0be9f400463c8fd82b055c6208c06f7a5029ee702dd38cea07",
+  "target_attachment_ref": "srd/magic_item/weapon-of-warning-shortsword#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-weapon-of-warning-shortsword"
+}

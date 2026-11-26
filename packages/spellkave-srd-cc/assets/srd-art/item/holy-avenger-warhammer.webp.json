@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-warhammer",
+  "overlay_template": "holy-avenger",
+  "overlay_badge": "holy",
+  "base_sha256": "f1337a68fa10fd2665ec84e428dce066bdb1506d9eda1eb630cff6e010e9b84d",
+  "overlay_sha256": "64861c3849275cd13d635b8b7a62308bc7ed8397f3a844c78d4b2074fa40c88a",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:46.093Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "55798d8e515a359ec81b16c27503c14a52e1d7e074642f745baf9dd1ffcea730",
+  "target_attachment_ref": "srd/magic_item/holy-avenger-warhammer#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-holy-avenger-warhammer"
+}

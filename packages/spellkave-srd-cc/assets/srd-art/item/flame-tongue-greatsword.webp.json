@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-greatsword",
+  "overlay_template": "flame-tongue",
+  "overlay_badge": "fire",
+  "base_sha256": "a772203f65f0607eccf457e03e7cbb82738fdcb1e3542633fecf5ac8c85a5510",
+  "overlay_sha256": "c4806ef2bb352ad495c05e155d9611cc695c3fa5894816ef751f3f11c8c261d9",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:41.102Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "c9bc526efda70625e2d427ae1e803a78dc68032027f27887490af266f16d249f",
+  "target_attachment_ref": "srd/magic_item/flame-tongue-greatsword#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-flame-tongue-greatsword"
+}

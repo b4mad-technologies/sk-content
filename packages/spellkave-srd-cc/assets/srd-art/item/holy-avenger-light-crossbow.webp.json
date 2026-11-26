@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-light-crossbow",
+  "overlay_template": "holy-avenger",
+  "overlay_badge": "holy",
+  "base_sha256": "5cdd27eaffc23132af82a437d205e81b0a9e6814f97307a41bd197b98c2582e7",
+  "overlay_sha256": "64861c3849275cd13d635b8b7a62308bc7ed8397f3a844c78d4b2074fa40c88a",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:45.184Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "3734b8508d0a9bfd66a903fcc17719d5af9f0e864dba7cf717bcbb75ad9f2415",
+  "target_attachment_ref": "srd/magic_item/holy-avenger-light-crossbow#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-holy-avenger-light-crossbow"
+}

@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-mace",
+  "overlay_template": "of-disruption",
+  "overlay_badge": "holy",
+  "base_sha256": "a621ac02fe30e9d0e820a90cb78971276807f6fc5fd716cfb914bb4811603b81",
+  "overlay_sha256": "64861c3849275cd13d635b8b7a62308bc7ed8397f3a844c78d4b2074fa40c88a",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:46.671Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "0666928c4f5f8a70bc8cfb41d7e1613b018a19b21ab6f68ed800deb4a010eef3",
+  "target_attachment_ref": "srd/magic_item/mace-of-disruption#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-mace-of-disruption"
+}

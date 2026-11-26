@@ -1,0 +1,24 @@
+{
+	"schema": "spellkave-design-asset-provenance/v1",
+	"provider": "pixellab-pixen",
+	"prompt": "Cult Relic. Small handheld carved idol relic, object only, no windmill, no scenery, no hands.. Single item icon, no wielder, no hands, object only, centered. Theme-neutral Spellkave pixel art: mid-contrast cream, charcoal, muted gold, forest, and rust. Selective outline, basic-to-medium shading, no gloss or bloom. Transparent background, no frame, no baked scenery, no letters, words, numerals, logo, watermark, photorealism, or D&D branding. Centered, native pixel size.",
+	"style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+	"provenance": {
+		"license": "LicenseRef-Spellkave-Proprietary",
+		"source": "Elven Mini remaining cast and items (entity-art-v1 Pixen + reduce-colors)"
+	},
+	"usage": {
+		"type": "generations",
+		"generations": 1.1
+	},
+	"generated_at": "2026-09-07T15:22:00.151Z",
+	"source_manifest": "packages/spellkave-adventure-elven-mini/art/art-manifest.json",
+	"sha256": "2057b8086684d134982f9879ddb3301aaa42ed090d71132daefb57a45521ddcd",
+	"target_attachment_ref": "entity_definition:elven_mini/adventure/item/cult_relic#elven_mini.art.image",
+	"kind": "item",
+	"entry_id": "cult-relic",
+	"provider_ids": {
+		"api_base_url": "https://api.pixellab.ai/v2",
+		"route": "/create-image-pixen"
+	}
+}

@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-shield",
+  "overlay_template": "of-missile-attraction",
+  "overlay_badge": "resistance",
+  "base_sha256": "4ef8df1cd5198d7a3295c91f413735933608d3b9bd195b78e86c9c879b3c31fa",
+  "overlay_sha256": "cfe6a7a74ee32b99d526a27bf91af010f45ca0baf99340d8f11c006af8a11b6b",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:55.704Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "2f216dd0d40e0d7bee8ee2d38156f71eb92d3eb778b4873958372e21281f841a",
+  "target_attachment_ref": "srd/magic_item/shield-of-missile-attraction#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-shield-of-missile-attraction"
+}

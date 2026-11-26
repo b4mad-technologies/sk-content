@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-shortsword",
+  "overlay_template": "frost-brand",
+  "overlay_badge": "cold",
+  "base_sha256": "277971abfb1351e3b1faf4be84ca73ba8f548fb8dff21f7ca228d7ee54d2ae76",
+  "overlay_sha256": "b600b74eed7651b8521a2b3a1f2ba79042c66415e986119281eccdcd5fbff0ed",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:42.312Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "faa9e0e800891c27f7076f440701265302d3d5b4c953ebece529dbe2a6c646fc",
+  "target_attachment_ref": "srd/magic_item/frost-brand-shortsword#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-frost-brand-shortsword"
+}

@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "pixellab-pixen",
+  "prompt": "Skilled. Three interlocking tool-and-skill emblems on a ring. Isolated feat icon of the named benefit, one object or mark, no person, no armor, no heraldic shield, no letters, centered. Theme-neutral Spellkave pixel art: mid-contrast cream, charcoal, muted gold, forest, and rust. Selective outline, basic-to-medium shading, no gloss or bloom. Transparent background, no frame, no baked scenery, no letters, words, numerals, logo, watermark, photorealism, or D&D branding. Centered, native pixel size.",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "LicenseRef-Spellkave-Proprietary",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 1.1
+  },
+  "generated_at": "2026-09-23T10:42:53.856Z",
+  "source_manifest": ".local/glyph-burn-art/manifest.json",
+  "sha256": "e082e046f9e5fb199e4cc3e6116b96ed8e654b9d391ea7b2f63756086611da3b",
+  "target_attachment_ref": "srd/feat/skilled#srd.art.image",
+  "kind": "feat",
+  "entry_id": "feat-skilled",
+  "provider_ids": {
+    "api_base_url": "https://api.pixellab.ai/v2",
+    "route": "/create-image-pixen"
+  }
+}

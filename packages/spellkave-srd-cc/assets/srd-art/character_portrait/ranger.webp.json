@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "pixellab-v2",
+  "route": "/generate-with-style-v2",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Selected from the character-portrait-v1 SRD class batch."
+  },
+  "selection": {
+    "manifest": "scripts/design-assets/character-portrait-v1.selection.json",
+    "candidate": "pixellab-generations/character-portrait-v1-ranger/ranger-1.png",
+    "reason": "Bow, cloak, and field kit create the clearest wilderness-guardian silhouette."
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 20,
+    "candidate_count": 4
+  },
+  "sha256": "8ab288e7afe70bac748cf3d2b778d08e4ea2dc566ea4fed5c6c3d581fc026db4",
+  "target_attachment_ref": "entity_definition:srd/class/ranger#srd.art.image",
+  "kind": "character_portrait",
+  "entry_id": "character-portrait-ranger"
+}

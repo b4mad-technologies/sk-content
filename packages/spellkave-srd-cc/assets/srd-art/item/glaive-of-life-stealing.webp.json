@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-glaive",
+  "overlay_template": "of-life-stealing",
+  "overlay_badge": "death",
+  "base_sha256": "e021c71e02a1ec980e52bb4f0beda174b03da47f3e4d7dddb114f15b5b9b5864",
+  "overlay_sha256": "9bf5fbdf25b4d354919a4426d4ad056425b09b580f5cb0c80c74ae592fe6a728",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:44.062Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "b7796363f27fea93ef95bf681f4b42dadf9ec4bb10185558ee55c362eb45e616",
+  "target_attachment_ref": "srd/magic_item/glaive-of-life-stealing#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-glaive-of-life-stealing"
+}

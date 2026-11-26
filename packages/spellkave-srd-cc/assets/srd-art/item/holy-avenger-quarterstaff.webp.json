@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-quarterstaff",
+  "overlay_template": "holy-avenger",
+  "overlay_badge": "holy",
+  "base_sha256": "87d2ce1527ae955ece37dba2f769b87278b5e3832b19f528e3b8e66f6a7cb416",
+  "overlay_sha256": "64861c3849275cd13d635b8b7a62308bc7ed8397f3a844c78d4b2074fa40c88a",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:45.631Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "70d724c1605b49aeaaa7edddf4792726f498c5c4ba2dd952b6cce5f84fff1b4a",
+  "target_attachment_ref": "srd/magic_item/holy-avenger-quarterstaff#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-holy-avenger-quarterstaff"
+}

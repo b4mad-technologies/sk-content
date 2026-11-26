@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "pixellab-v2",
+  "route": "/generate-with-style-v2",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Selected from the character-portrait-v1 SRD class batch."
+  },
+  "selection": {
+    "manifest": "scripts/design-assets/character-portrait-v1.selection.json",
+    "candidate": "pixellab-generations/character-portrait-v1-druid/druid-1.png",
+    "reason": "Nature-worn robe and staff read clearly without becoming a scene."
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 20,
+    "candidate_count": 4
+  },
+  "sha256": "78fe76cedd40e686fdc19f43ba9ebbb1a1ec2d57b5d768ae10c6e742f1e54fbc",
+  "target_attachment_ref": "entity_definition:srd/class/druid#srd.art.image",
+  "kind": "character_portrait",
+  "entry_id": "character-portrait-druid"
+}

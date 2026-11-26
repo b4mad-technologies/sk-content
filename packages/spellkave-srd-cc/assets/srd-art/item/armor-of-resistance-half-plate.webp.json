@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-half-plate-armor",
+  "overlay_template": "armor-of-resistance",
+  "overlay_badge": "resistance",
+  "base_sha256": "92d6b87e0789ec575e3599c037b41b8212e0fff36211b1daa1061b00d2bd4618",
+  "overlay_sha256": "cfe6a7a74ee32b99d526a27bf91af010f45ca0baf99340d8f11c006af8a11b6b",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:53.323Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "32e9f132b9eaf9979abe895ed46795d05bd2e636a79350c74327c48835fa1da8",
+  "target_attachment_ref": "srd/magic_item/armor-of-resistance-half-plate#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-armor-of-resistance-half-plate"
+}

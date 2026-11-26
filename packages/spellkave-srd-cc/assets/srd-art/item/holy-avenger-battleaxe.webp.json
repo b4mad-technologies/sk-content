@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-battleaxe",
+  "overlay_template": "holy-avenger",
+  "overlay_badge": "holy",
+  "base_sha256": "60846bd63f96562bb08c860415d67a2c9e6d2082120a1bfe57a4f7d349de9db7",
+  "overlay_sha256": "64861c3849275cd13d635b8b7a62308bc7ed8397f3a844c78d4b2074fa40c88a",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:44.437Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "6731df3be5b9897a0635c1b5f53dcdbdfd7f14c676a6fffe37a94a70ba9cb31f",
+  "target_attachment_ref": "srd/magic_item/holy-avenger-battleaxe#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-holy-avenger-battleaxe"
+}

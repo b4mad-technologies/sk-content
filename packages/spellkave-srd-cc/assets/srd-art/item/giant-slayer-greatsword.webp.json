@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-greatsword",
+  "overlay_template": "giant-slayer",
+  "overlay_badge": "death",
+  "base_sha256": "a772203f65f0607eccf457e03e7cbb82738fdcb1e3542633fecf5ac8c85a5510",
+  "overlay_sha256": "9bf5fbdf25b4d354919a4426d4ad056425b09b580f5cb0c80c74ae592fe6a728",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:42.746Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "46a3f7c95b97f15cfdfef7efb52cea6835f2c0beab7adb6d5b57ed7abef49a7b",
+  "target_attachment_ref": "srd/magic_item/giant-slayer-greatsword#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-giant-slayer-greatsword"
+}

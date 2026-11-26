@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-studded-leather-armor",
+  "overlay_template": "armor-of-resistance",
+  "overlay_badge": "resistance",
+  "base_sha256": "c135b6d8aad53da696b2e77e860ddcc0e335a4b4ba1c2bf836220099c2ff36be",
+  "overlay_sha256": "cfe6a7a74ee32b99d526a27bf91af010f45ca0baf99340d8f11c006af8a11b6b",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:53.704Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "d9f4f3959c9cb4db4cb86acd6bd5b73a8640b129747e9577e2a2ec1170ebd2e2",
+  "target_attachment_ref": "srd/magic_item/armor-of-resistance-studded-leather#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-armor-of-resistance-studded-leather"
+}

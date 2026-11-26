@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-light-hammer",
+  "overlay_template": "holy-avenger",
+  "overlay_badge": "holy",
+  "base_sha256": "cc6fa495039d440fc8dfc7df53c7aa85f35295b1adc6dbeab7c6099c4e6778c2",
+  "overlay_sha256": "64861c3849275cd13d635b8b7a62308bc7ed8397f3a844c78d4b2074fa40c88a",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:45.225Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "bbe43b630356e8e9cd673308e12a649e30338c7921872d439185416bd18a8ad0",
+  "target_attachment_ref": "srd/magic_item/holy-avenger-light-hammer#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-holy-avenger-light-hammer"
+}

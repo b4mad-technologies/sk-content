@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-musket",
+  "overlay_template": "holy-avenger",
+  "overlay_badge": "holy",
+  "base_sha256": "c3dd0ee4dca54a6c2381dd0f6cf0a0985e56d30baa19acb5a15d3372e839c8a9",
+  "overlay_sha256": "64861c3849275cd13d635b8b7a62308bc7ed8397f3a844c78d4b2074fa40c88a",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:45.494Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "7b3406d10a96e06df4d8f530f1a887c1a1bbe562cec2b60f44adacd387da0110",
+  "target_attachment_ref": "srd/magic_item/holy-avenger-musket#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-holy-avenger-musket"
+}

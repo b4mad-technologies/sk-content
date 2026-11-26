@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-pike",
+  "overlay_template": "weapon-of-warning",
+  "overlay_badge": "rune",
+  "base_sha256": "fd76e233d0117c6e617c3d65b6fe1ca50eb0a290f6e98743441c9b9cc5089a5b",
+  "overlay_sha256": "ed9b733c49d6fc246eb945a819df4069cadc2a65041679925c6fe215845c9e7d",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:52.079Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "f4629d37ad37c13ef21abf9f7a441e55010cf52439d4fb1e6d5beec136d3b2ea",
+  "target_attachment_ref": "srd/magic_item/weapon-of-warning-pike#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-weapon-of-warning-pike"
+}

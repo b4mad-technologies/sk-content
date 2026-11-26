@@ -1,0 +1,24 @@
+{
+	"schema": "spellkave-design-asset-provenance/v1",
+	"provider": "pixellab-pixen",
+	"prompt": "one centered venom droplet silhouette, forest #5f7a58 fill with cream #e6dcc0 highlight, only colors #2a2d28 #e6dcc0 #c4a056 #5f7a58 #b85a42, no rainbow, no capsules, no gradient, flat fills, single symbol, bright core, high contrast, light cream outline, no dark fill. Bright core, high contrast, light cream 1px outline, no dark fill, no charcoal blob. Centered, isolated on transparent background, no weapon, no object, no ground, no frame, no text.",
+	"style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+	"provenance": {
+		"license": "PixelLab output rights review required before promotion",
+		"source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+	},
+	"usage": {
+		"type": "generations",
+		"generations": 1.1
+	},
+	"generated_at": "2026-09-20T17:46:25.559Z",
+	"source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+	"sha256": "e8f45eda147a2146e7a651bc52c29bf083d1a1e1fb350832767a933e01afc6b4",
+	"target_attachment_ref": "srd/badge/poison#srd.art.image",
+	"kind": "badge",
+	"entry_id": "badge-poison",
+	"provider_ids": {
+		"api_base_url": "https://api.pixellab.ai/v2",
+		"route": "/create-image-pixen"
+	}
+}

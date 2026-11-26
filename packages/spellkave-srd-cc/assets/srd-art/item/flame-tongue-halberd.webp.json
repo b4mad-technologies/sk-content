@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-halberd",
+  "overlay_template": "flame-tongue",
+  "overlay_badge": "fire",
+  "base_sha256": "c971c0b4e8351b9fa61a9e559037a9344399b2aab79c3059c29dbb2ad4752c9c",
+  "overlay_sha256": "c4806ef2bb352ad495c05e155d9611cc695c3fa5894816ef751f3f11c8c261d9",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:41.160Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "19eb56e37c96fd3c5eb81a64a67d0de378f1f1bc1b796ff9bc8f4b5a4a53bcc7",
+  "target_attachment_ref": "srd/magic_item/flame-tongue-halberd#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-flame-tongue-halberd"
+}

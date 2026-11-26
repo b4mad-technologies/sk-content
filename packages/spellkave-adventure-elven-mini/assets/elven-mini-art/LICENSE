@@ -1,0 +1,46 @@
+PixelLab-generated sprites (Elven Mini)
+======================================
+
+These files are original Spellkave material generated with PixelLab. They are
+not an inbound open-source grant. The Spellkave Proprietary License in the
+repository root LICENSE file covers this original material. Third-party SRD
+text and Elven Tower map art stay under NOTICE; they are not relicensed here.
+
+PixelLab output-rights finding (sk-jay0.3.5.14)
+-----------------------------------------------
+
+Retrieved: 2026-09-07
+Current documented subscription: Tier 1 Pixel Apprentice (docs/design-assets.md).
+PixelLab's public pricing URL https://www.pixellab.ai/pricing HTTP 308-redirected
+to https://www.pixellab.ai/ on this date, so plan-specific commercial copy was
+not readable. The Terms of Service do not carve output ownership by plan.
+
+Sources (verbatim posture, not a paraphrase of a missing clause):
+
+- Terms of Service: https://www.pixellab.ai/termsofservice
+  Last Updated: 2025-11-23
+- FAQ: https://www.pixellab.ai/docs/faq
+  ("Can I use the generated images commercially?")
+- Open RAIL-M (incorporated by ToS §4.1):
+  https://github.com/CompVis/stable-diffusion/blob/main/LICENSE
+
+Finding:
+
+- Ownership: ToS §1.3 and §3.3 say the subscriber owns the copyrights in
+  generated images and may use, modify, and distribute them for commercial
+  and non-commercial purposes without PixelLab's permission.
+- Attribution: the ToS and FAQ do not require crediting PixelLab on the
+  published images.
+- Commercial use: yes (ToS §1.3; FAQ: "Yes, we only ask that you do not
+  train new models with the images.").
+- Restriction (not ambiguous): do not train other models on the images
+  without PixelLab's written permission (ToS §1.2, §3.3; FAQ).
+- Additional bound: ToS §4.1 requires compliance with the linked Open
+  RAIL-M text. This file does not restate that third-party license.
+- Ambiguity: none on commercial use, ownership, or attribution for the
+  published sprites. Plan-tier differences cannot be confirmed from the
+  public pricing page as retrieved.
+
+These sprites are therefore shippable as original Spellkave material under
+the proprietary license, not as CC BY or any other OSS grant. Provider
+output terms still apply (no model-training on the images).

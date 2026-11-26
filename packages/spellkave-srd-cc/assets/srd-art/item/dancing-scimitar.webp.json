@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-scimitar",
+  "overlay_template": "dancing",
+  "overlay_badge": "rune",
+  "base_sha256": "d406f2301e4abeb753f47983eb084034ce907baeb8f8f4c85072fa62f6acaecc",
+  "overlay_sha256": "ed9b733c49d6fc246eb945a819df4069cadc2a65041679925c6fe215845c9e7d",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:38.813Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "c61a5f8301ee331c50f80912df9f4fb4571d6ea1729935db61a0d1d94c2a7308",
+  "target_attachment_ref": "srd/magic_item/dancing-scimitar#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-dancing-scimitar"
+}

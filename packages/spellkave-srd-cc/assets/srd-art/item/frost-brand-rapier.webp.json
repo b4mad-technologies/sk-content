@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-rapier",
+  "overlay_template": "frost-brand",
+  "overlay_badge": "cold",
+  "base_sha256": "8b86956b85c888629b7c3c8297d67d034f444dede59c0283a17f3b56947af543",
+  "overlay_sha256": "b600b74eed7651b8521a2b3a1f2ba79042c66415e986119281eccdcd5fbff0ed",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:42.225Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "555188a6c6105adc2a463aaca038920bd15c466ffb95d690228781f281685ce7",
+  "target_attachment_ref": "srd/magic_item/frost-brand-rapier#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-frost-brand-rapier"
+}

@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "pixellab-pixen",
+  "prompt": "Elf adventurer. slender elf with long pointed ears and long fair hair. One full-body south-facing humanoid adventurer standing upright with ordinary adventurer proportions, plain cream tunic, brown belt and boots, forest-green travel cloak, empty hands, no weapon. Show the people through body shape, face, ears, skin, and hair; do not invent heraldry. Not a monster, no hunched pose, no face close-up, scene, companions, letters, logos, or watermarks. Theme-neutral Spellkave pixel art: mid-contrast cream, charcoal, muted gold, forest, and rust. Selective outline, basic-to-medium shading, no gloss or bloom. Transparent background, no frame, no baked scenery, no letters, words, numerals, logo, watermark, photorealism, or D&D branding. Centered, native pixel size.",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 1.1
+  },
+  "generated_at": "2026-11-16T11:29:51.486Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "1a808c191baf05361e2593fe68d8b77ea1bd4e55a4f5525bba7b53e64fe0a638",
+  "target_attachment_ref": "srd/species/elf#srd.art.image",
+  "kind": "species",
+  "entry_id": "species-elf",
+  "provider_ids": {
+    "api_base_url": "https://api.pixellab.ai/v2",
+    "route": "/create-image-pixen"
+  }
+}

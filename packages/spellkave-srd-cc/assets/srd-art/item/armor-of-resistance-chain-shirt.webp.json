@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-chain-shirt",
+  "overlay_template": "armor-of-resistance",
+  "overlay_badge": "resistance",
+  "base_sha256": "d38b60c1cb2c9fe27093cab8f3d64d034cafdb60d8bd6ad0e663301eb8cf01db",
+  "overlay_sha256": "cfe6a7a74ee32b99d526a27bf91af010f45ca0baf99340d8f11c006af8a11b6b",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:53.275Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "b1c111d56448bddf6b5a80dd712ebbd9e6235b1d1de407355107c57b6ace48c3",
+  "target_attachment_ref": "srd/magic_item/armor-of-resistance-chain-shirt#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-armor-of-resistance-chain-shirt"
+}

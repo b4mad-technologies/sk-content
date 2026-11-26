@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-shield",
+  "overlay_template": "spellguard",
+  "overlay_badge": "rune",
+  "base_sha256": "4ef8df1cd5198d7a3295c91f413735933608d3b9bd195b78e86c9c879b3c31fa",
+  "overlay_sha256": "ed9b733c49d6fc246eb945a819df4069cadc2a65041679925c6fe215845c9e7d",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:55.748Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "f6041c9484657396f63cd4ee25a346db4628f27490d5246fa00cbaf1e0f4027e",
+  "target_attachment_ref": "srd/magic_item/spellguard-shield#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-spellguard-shield"
+}

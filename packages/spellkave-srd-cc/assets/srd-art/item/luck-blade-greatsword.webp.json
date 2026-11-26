@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-greatsword",
+  "overlay_template": "luck-blade",
+  "overlay_badge": "luck",
+  "base_sha256": "a772203f65f0607eccf457e03e7cbb82738fdcb1e3542633fecf5ac8c85a5510",
+  "overlay_sha256": "26d3eafb1c9d30759a8c41b8b28e7336f7198f5fa0333830f87cbbeacf09e8bb",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:46.406Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "92d89967f1bb8c581e7a550c6906a01c016a487220bcd0edfb9a03dab1bf0bda",
+  "target_attachment_ref": "srd/magic_item/luck-blade-greatsword#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-luck-blade-greatsword"
+}

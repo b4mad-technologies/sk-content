@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "pixellab-v2",
+  "route": "/generate-with-style-v2",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Selected from the character-portrait-v1 SRD class batch."
+  },
+  "selection": {
+    "manifest": "scripts/design-assets/character-portrait-v1.selection.json",
+    "candidate": "pixellab-generations/character-portrait-v1-bard/bard-2.png",
+    "reason": "Instrument and travel cloak make the performer identity immediate."
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 20,
+    "candidate_count": 4
+  },
+  "sha256": "0319b05986dfbc6acb4ba47131e630b543a94c683d490648e09d04b855b91161",
+  "target_attachment_ref": "entity_definition:srd/class/bard#srd.art.image",
+  "kind": "character_portrait",
+  "entry_id": "character-portrait-bard"
+}

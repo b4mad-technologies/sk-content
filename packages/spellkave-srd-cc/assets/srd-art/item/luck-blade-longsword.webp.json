@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-longsword",
+  "overlay_template": "luck-blade",
+  "overlay_badge": "luck",
+  "base_sha256": "b288dfe407b1060933a87aea12cee9ded2ad446ca281c72647e94d38b98890e3",
+  "overlay_sha256": "26d3eafb1c9d30759a8c41b8b28e7336f7198f5fa0333830f87cbbeacf09e8bb",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:46.448Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "945c9adc61a4a1afb1bcbf13945c88c6a4043ca2b9db60c4464c0e27b91ecfb1",
+  "target_attachment_ref": "srd/magic_item/luck-blade-longsword#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-luck-blade-longsword"
+}

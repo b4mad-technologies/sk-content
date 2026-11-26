@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "pixellab-v2",
+  "route": "/generate-with-style-v2",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Selected from the character-portrait-v1 SRD class batch."
+  },
+  "selection": {
+    "manifest": "scripts/design-assets/character-portrait-v1.selection.json",
+    "candidate": "pixellab-generations/character-portrait-v1-paladin/paladin-3.png",
+    "reason": "Armor, upright bearing, and ceremonial weapon communicate a sworn champion."
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 20,
+    "candidate_count": 4
+  },
+  "sha256": "229833d4a43b73bbdc06723afbd3503cd4056f55649dad124b3b9a4126f173d3",
+  "target_attachment_ref": "entity_definition:srd/class/paladin#srd.art.image",
+  "kind": "character_portrait",
+  "entry_id": "character-portrait-paladin"
+}

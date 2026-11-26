@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-scimitar",
+  "overlay_template": "holy-avenger",
+  "overlay_badge": "holy",
+  "base_sha256": "d406f2301e4abeb753f47983eb084034ce907baeb8f8f4c85072fa62f6acaecc",
+  "overlay_sha256": "64861c3849275cd13d635b8b7a62308bc7ed8397f3a844c78d4b2074fa40c88a",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:45.718Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "4fce1b5e2d1ed835952a2b00761697305c48cacc0bfa31e6104cc1f8ee75ca88",
+  "target_attachment_ref": "srd/magic_item/holy-avenger-scimitar#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-holy-avenger-scimitar"
+}

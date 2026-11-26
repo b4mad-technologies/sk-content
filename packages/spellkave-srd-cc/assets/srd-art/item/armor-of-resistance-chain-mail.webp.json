@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-chain-mail",
+  "overlay_template": "armor-of-resistance",
+  "overlay_badge": "resistance",
+  "base_sha256": "37079d46f288ae626e0717291c823248009a1841af6efd7d1910fbd9e2064d0b",
+  "overlay_sha256": "cfe6a7a74ee32b99d526a27bf91af010f45ca0baf99340d8f11c006af8a11b6b",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:53.225Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "4e5b28e919adfae27945233d115dd0ef0e3630a32a5968b8cab2653d2caecc4e",
+  "target_attachment_ref": "srd/magic_item/armor-of-resistance-chain-mail#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-armor-of-resistance-chain-mail"
+}

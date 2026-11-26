@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-handaxe",
+  "overlay_template": "weapon-of-warning",
+  "overlay_badge": "rune",
+  "base_sha256": "5dcc707bc193c343ec8f740f53a90d76365f3f60870537694086a45d3ca9dcfc",
+  "overlay_sha256": "ed9b733c49d6fc246eb945a819df4069cadc2a65041679925c6fe215845c9e7d",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:51.550Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "6e632802e96dfe62c4f69a60d81b1a73dc272792b24eae76435be5bb90388fe5",
+  "target_attachment_ref": "srd/magic_item/weapon-of-warning-handaxe#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-weapon-of-warning-handaxe"
+}

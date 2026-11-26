@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-longbow",
+  "overlay_template": "defender",
+  "overlay_badge": "rune",
+  "base_sha256": "aae875ee2fbca0c4017b5f91df4c7987cda5b21d90fad03972a62384ade85ab4",
+  "overlay_sha256": "ed9b733c49d6fc246eb945a819df4069cadc2a65041679925c6fe215845c9e7d",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:39.800Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "40e7a3ffc46e35b258d83d7f097fda6eec97ec61ba202416c1e847da2bdfcfe4",
+  "target_attachment_ref": "srd/magic_item/defender-longbow#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-defender-longbow"
+}

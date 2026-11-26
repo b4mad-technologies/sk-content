@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-longsword",
+  "overlay_template": "vicious",
+  "overlay_badge": "rune",
+  "base_sha256": "b288dfe407b1060933a87aea12cee9ded2ad446ca281c72647e94d38b98890e3",
+  "overlay_sha256": "ed9b733c49d6fc246eb945a819df4069cadc2a65041679925c6fe215845c9e7d",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:49.992Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "2496bbc10657969f7e7dc3ab52b6bfabd8168c2c7125a118181a11e02d11fd28",
+  "target_attachment_ref": "srd/magic_item/vicious-longsword#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-vicious-longsword"
+}

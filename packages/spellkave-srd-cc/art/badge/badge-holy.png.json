@@ -1,0 +1,24 @@
+{
+	"schema": "spellkave-design-asset-provenance/v1",
+	"provider": "pixellab-pixen",
+	"prompt": "one crisp six-pointed sunburst, cream center with gold #c4a056 rays, only colors #2a2d28 #e6dcc0 #c4a056 #5f7a58 #b85a42, no rainbow, no ring, no gradient, flat fills, single symbol, bright core, high contrast, light cream outline, no dark fill. Bright core, high contrast, light cream 1px outline, no dark fill, no charcoal blob. Centered, isolated on transparent background, no weapon, no object, no ground, no frame, no text.",
+	"style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+	"provenance": {
+		"license": "PixelLab output rights review required before promotion",
+		"source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+	},
+	"usage": {
+		"type": "generations",
+		"generations": 1.1
+	},
+	"generated_at": "2026-09-20T17:45:49.304Z",
+	"source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+	"sha256": "64861c3849275cd13d635b8b7a62308bc7ed8397f3a844c78d4b2074fa40c88a",
+	"target_attachment_ref": "srd/badge/holy#srd.art.image",
+	"kind": "badge",
+	"entry_id": "badge-holy",
+	"provider_ids": {
+		"api_base_url": "https://api.pixellab.ai/v2",
+		"route": "/create-image-pixen"
+	}
+}

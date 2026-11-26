@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-battleaxe",
+  "overlay_template": "flame-tongue",
+  "overlay_badge": "fire",
+  "base_sha256": "60846bd63f96562bb08c860415d67a2c9e6d2082120a1bfe57a4f7d349de9db7",
+  "overlay_sha256": "c4806ef2bb352ad495c05e155d9611cc695c3fa5894816ef751f3f11c8c261d9",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:40.728Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "c598787f620012cee891c61bcfd89d8c574842d8655c6979febde34dabae7191",
+  "target_attachment_ref": "srd/magic_item/flame-tongue-battleaxe#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-flame-tongue-battleaxe"
+}

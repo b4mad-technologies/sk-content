@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-heavy-crossbow",
+  "overlay_template": "holy-avenger",
+  "overlay_badge": "holy",
+  "base_sha256": "0281211badbe86c118eee69299e18a36c64ea41e98614b6d5cfefb4cce939f90",
+  "overlay_sha256": "64861c3849275cd13d635b8b7a62308bc7ed8397f3a844c78d4b2074fa40c88a",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "PixelLab output rights review required before promotion",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:45.029Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "f71e99ea366a3ca9fb250ae4b23165543a142c7c2b66ee63031c35c59b6619f8",
+  "target_attachment_ref": "srd/magic_item/holy-avenger-heavy-crossbow#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-holy-avenger-heavy-crossbow"
+}
