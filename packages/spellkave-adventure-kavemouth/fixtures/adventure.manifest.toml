@@ -38,6 +38,14 @@ anchor = "name-kavemouth"
 license = "CC-BY-4.0"
 path = "adventures/kavemouth.toml"
 
+[[metadata.docs.attributions]]
+body = "Kavemouth place maps: first-party Spellkave art over first-party floor plans, CC BY 4.0. The images were generated with PixelLab. PixelLab's terms restrict using its outputs to train other models; that restriction may apply to you."
+
+[metadata.docs.attributions.source]
+anchor = "backdrops"
+license = "CC-BY-4.0"
+path = "author/backdrops.ts"
+
 [[metadata.docs.sections]]
 id = "adventure-subjects"
 intro = "Installed subjects from the adventure and its SRD dependency."

@@ -46,4 +46,6 @@ jobs:
         run: pnpm --filter @spellkave/adventure-kavemouth run author:check
         env:
           SPELLKAVE_CORE_FIXTURES: ${{ github.workspace }}/.ci/sk-grimoire/packages/spellkave-mechanics/fixtures/core
+      - name: Kavemouth map plans match the layouts
+        run: pnpm --filter @spellkave/adventure-kavemouth run maps:check
       - run: pnpm run validate

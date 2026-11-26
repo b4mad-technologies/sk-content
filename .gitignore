@@ -6,3 +6,4 @@ target/
 *.tgz
 .local/
 .ci/
+pixellab-generations/

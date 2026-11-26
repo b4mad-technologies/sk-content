@@ -1,0 +1,56 @@
+{
+	"schema": "spellkave-design-asset-provenance/v1",
+	"kind": "place-map",
+	"place_graph_id": "kavemouth/swamp",
+	"provider": "pixellab-pixflux",
+	"tool": "skgen image pixellab generate",
+	"sdk": {
+		"package": "@pixellab-code/pixellab",
+		"version": "1.0.2",
+		"patch": "patches/@pixellab-code__pixellab@1.0.2.patch"
+	},
+	"provider_ids": {
+		"api_base_url": "https://api.pixellab.ai/v1",
+		"route": "/generate-image-pixflux"
+	},
+	"prompt": "A reed swamp with standing water and mud paths: a frog pool, a misty glade, a crooked hut on stilts, a garden of bones and a still backwater. Top-down pixel art game map seen from straight above, one continuous scene, muted earthy palette, soft shading, readable floors and walls, no characters, no creatures, no text, no letters, no numbers, no grid lines, no frame, no logo.",
+	"request": {
+		"description": "A reed swamp with standing water and mud paths: a frog pool, a misty glade, a crooked hut on stilts, a garden of bones and a still backwater. Top-down pixel art game map seen from straight above, one continuous scene, muted earthy palette, soft shading, readable floors and walls, no characters, no creatures, no text, no letters, no numbers, no grid lines, no frame, no logo.",
+		"image_size": {
+			"width": 384,
+			"height": 384
+		},
+		"negative_description": "text, letters, numbers, labels, grid, people, monsters, isometric, side view, border, watermark",
+		"text_guidance_scale": 8,
+		"outline": "selective outline",
+		"shading": "medium shading",
+		"detail": "highly detailed",
+		"view": "high top-down",
+		"direction": null,
+		"isometric": false,
+		"no_background": false,
+		"coverage_percentage": null,
+		"init_image": "packages/spellkave-adventure-kavemouth/assets/kavemouth-maps/plans/swamp.png",
+		"init_image_strength": 90,
+		"color_image": null,
+		"seed": 1
+	},
+	"source_blueprint": "packages/spellkave-adventure-kavemouth/art/maps/swamp.blueprint.json",
+	"source_blueprint_sha256": "80961649d6d0b015d7745d7a0d00b828b182f06e6fddb42e72a3f0f23fc108eb",
+	"source_plan": "packages/spellkave-adventure-kavemouth/assets/kavemouth-maps/plans/swamp.png",
+	"source_plan_sha256": "6e89639083175507764b00980184d9d0330a783bac84e0a95761ccee84959ee5",
+	"provenance": {
+		"license": "CC-BY-4.0",
+		"source": "Generated with PixelLab over a first-party floor plan (author/lib/layouts.ts, scripts/build-map-inputs.ts)"
+	},
+	"usage": {
+		"type": "generations",
+		"generations": 1
+	},
+	"generated_at": "2026-11-26T21:37:42.103Z",
+	"dimensions": [
+		384,
+		384
+	],
+	"sha256": "e2c3074e4af5ed4cc327907fce599dba38c058cd8beceb858237c78d407fd3e3"
+}

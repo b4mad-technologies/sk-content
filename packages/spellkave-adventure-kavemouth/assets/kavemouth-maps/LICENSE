@@ -1,0 +1,20 @@
+Kavemouth place maps
+====================
+
+Copyright B4mad Technologies and Spellkave contributors.
+
+These images are licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Suggested credit: "Spellkave art, CC BY 4.0".
+
+Backdrop maps for the Kavemouth places and the floor-plan pictures in
+`plans/` they were made from. They are original Spellkave material. The
+plans are drawn by `scripts/build-map-inputs.ts` from
+`author/lib/layouts.ts`. The maps were generated with PixelLab
+(https://www.pixellab.ai) over those plans. The `.json` sidecar next to
+each map records the tool, the full request with its prompt, the plan it
+started from, the time and the SHA-256 of the image bytes.
+
+Some images were generated with PixelLab. PixelLab's terms restrict using its outputs to train other models; that restriction may apply to you.

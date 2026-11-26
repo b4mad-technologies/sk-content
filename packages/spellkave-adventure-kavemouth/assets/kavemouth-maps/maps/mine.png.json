@@ -1,0 +1,56 @@
+{
+	"schema": "spellkave-design-asset-provenance/v1",
+	"kind": "place-map",
+	"place_graph_id": "kavemouth/mine",
+	"provider": "pixellab-pixflux",
+	"tool": "skgen image pixellab generate",
+	"sdk": {
+		"package": "@pixellab-code/pixellab",
+		"version": "1.0.2",
+		"patch": "patches/@pixellab-code__pixellab@1.0.2.patch"
+	},
+	"provider_ids": {
+		"api_base_url": "https://api.pixellab.ai/v1",
+		"route": "/generate-image-pixflux"
+	},
+	"prompt": "A worked-out mine: an adit and forecourt, timbered galleries, a crosscut, a deep shaft, a lower hall, a stone crypt and a small locked vault. Top-down pixel art game map seen from straight above, one continuous scene, muted earthy palette, soft shading, readable floors and walls, no characters, no creatures, no text, no letters, no numbers, no grid lines, no frame, no logo.",
+	"request": {
+		"description": "A worked-out mine: an adit and forecourt, timbered galleries, a crosscut, a deep shaft, a lower hall, a stone crypt and a small locked vault. Top-down pixel art game map seen from straight above, one continuous scene, muted earthy palette, soft shading, readable floors and walls, no characters, no creatures, no text, no letters, no numbers, no grid lines, no frame, no logo.",
+		"image_size": {
+			"width": 400,
+			"height": 384
+		},
+		"negative_description": "text, letters, numbers, labels, grid, people, monsters, isometric, side view, border, watermark",
+		"text_guidance_scale": 8,
+		"outline": "selective outline",
+		"shading": "medium shading",
+		"detail": "highly detailed",
+		"view": "high top-down",
+		"direction": null,
+		"isometric": false,
+		"no_background": false,
+		"coverage_percentage": null,
+		"init_image": "packages/spellkave-adventure-kavemouth/assets/kavemouth-maps/plans/mine.png",
+		"init_image_strength": 90,
+		"color_image": null,
+		"seed": 1
+	},
+	"source_blueprint": "packages/spellkave-adventure-kavemouth/art/maps/mine.blueprint.json",
+	"source_blueprint_sha256": "ff26ae7b421efc6621e74ed8ddc82cccb4f7ab8d53113fd39e00752499b96de6",
+	"source_plan": "packages/spellkave-adventure-kavemouth/assets/kavemouth-maps/plans/mine.png",
+	"source_plan_sha256": "8ff98d0a344f6995d005728d1c571ef35b7e5218c2e9866cc0cd34a523244769",
+	"provenance": {
+		"license": "CC-BY-4.0",
+		"source": "Generated with PixelLab over a first-party floor plan (author/lib/layouts.ts, scripts/build-map-inputs.ts)"
+	},
+	"usage": {
+		"type": "generations",
+		"generations": 1
+	},
+	"generated_at": "2026-11-26T21:38:12.704Z",
+	"dimensions": [
+		400,
+		384
+	],
+	"sha256": "7e543a3779e6fb872aa5e0d9e7b451f6b5c61f4ba00ccb435a68df292b45682d"
+}

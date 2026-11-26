@@ -10,6 +10,7 @@ import type { AuthorTarget } from "@spellkave/tool-authoring";
 import { advancementLimbo } from "./advancement-limbo.ts";
 import { advancementTeleport } from "./advancement-teleport.ts";
 import { adventureArt } from "./art.ts";
+import { backdrops } from "./backdrops.ts";
 import { kavemouthBundleHeaderCall } from "./bundle-header.ts";
 import { companionAgreementActions, companionAgreementDefinitions } from "./companion-agreement.ts";
 import {
@@ -123,6 +124,7 @@ export function buildAdventure(target?: AuthorTarget): VerbCall[] {
 		...dt.calls,
 		...poolHazard(),
 		...links(),
+		...backdrops(),
 		...occupancy(),
 		// Needs INNKEEPER_ENTITY_KEY already placed above — its own
 		// spellkave_stow_item calls need an already-placed actor

@@ -231,6 +231,10 @@ export function buildKavemouthRootMetadata(
 						license: "CC-BY-4.0",
 					},
 				},
+				{
+					body: "Kavemouth place maps: first-party Spellkave art over first-party floor plans, CC BY 4.0. The images were generated with PixelLab. PixelLab's terms restrict using its outputs to train other models; that restriction may apply to you.",
+					source: { path: "author/backdrops.ts", anchor: "backdrops", license: "CC-BY-4.0" },
+				},
 			],
 			sections: [
 				{

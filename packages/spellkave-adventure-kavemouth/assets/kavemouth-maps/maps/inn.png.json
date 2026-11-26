@@ -1,0 +1,56 @@
+{
+	"schema": "spellkave-design-asset-provenance/v1",
+	"kind": "place-map",
+	"place_graph_id": "kavemouth/inn",
+	"provider": "pixellab-pixflux",
+	"tool": "skgen image pixellab generate",
+	"sdk": {
+		"package": "@pixellab-code/pixellab",
+		"version": "1.0.2",
+		"patch": "patches/@pixellab-code__pixellab@1.0.2.patch"
+	},
+	"provider_ids": {
+		"api_base_url": "https://api.pixellab.ai/v1",
+		"route": "/generate-image-pixflux"
+	},
+	"prompt": "Floor plans of a timber inn laid side by side: a ground floor with foyer, common room with trestle tables and hearth, bar and stairs; a guest loft with straw pallets; a cellar with barrels. Top-down pixel art game map seen from straight above, one continuous scene, muted earthy palette, soft shading, readable floors and walls, no characters, no creatures, no text, no letters, no numbers, no grid lines, no frame, no logo.",
+	"request": {
+		"description": "Floor plans of a timber inn laid side by side: a ground floor with foyer, common room with trestle tables and hearth, bar and stairs; a guest loft with straw pallets; a cellar with barrels. Top-down pixel art game map seen from straight above, one continuous scene, muted earthy palette, soft shading, readable floors and walls, no characters, no creatures, no text, no letters, no numbers, no grid lines, no frame, no logo.",
+		"image_size": {
+			"width": 384,
+			"height": 256
+		},
+		"negative_description": "text, letters, numbers, labels, grid, people, monsters, isometric, side view, border, watermark",
+		"text_guidance_scale": 8,
+		"outline": "selective outline",
+		"shading": "medium shading",
+		"detail": "highly detailed",
+		"view": "high top-down",
+		"direction": null,
+		"isometric": false,
+		"no_background": false,
+		"coverage_percentage": null,
+		"init_image": "packages/spellkave-adventure-kavemouth/assets/kavemouth-maps/plans/inn.png",
+		"init_image_strength": 90,
+		"color_image": null,
+		"seed": 1
+	},
+	"source_blueprint": "packages/spellkave-adventure-kavemouth/art/maps/inn.blueprint.json",
+	"source_blueprint_sha256": "c023e2844051fa51ca4cce949b07e2063c05579edc76b388eb0530cae0a85822",
+	"source_plan": "packages/spellkave-adventure-kavemouth/assets/kavemouth-maps/plans/inn.png",
+	"source_plan_sha256": "6bdfe17d7b8d185cdc47f8c2ecfc105eafe5eecf928d7f6e021805ae8c70a38e",
+	"provenance": {
+		"license": "CC-BY-4.0",
+		"source": "Generated with PixelLab over a first-party floor plan (author/lib/layouts.ts, scripts/build-map-inputs.ts)"
+	},
+	"usage": {
+		"type": "generations",
+		"generations": 1
+	},
+	"generated_at": "2026-11-26T21:32:39.226Z",
+	"dimensions": [
+		384,
+		256
+	],
+	"sha256": "bff7618119d775b6a7215b88dcd33607475dd3d3418fd482737e427d22809fe1"
+}

@@ -89,14 +89,18 @@ describe("kavemouth maps (sk-609b.8)", () => {
 		}
 	});
 
-	it("committed adventure fixtures carry every story graph and no backdrop layers", () => {
+	it("committed adventure fixtures carry every story graph and its backdrop layer", () => {
 		const toml = loadFlattened(ELVEN_ROOT, "adventure.manifest.toml");
 		for (const k of STORY_GRAPHS) {
 			const gid = GRAPHS[k];
 			expect(toml, `graph ${gid}`).toContain(`place_graph_id = "${gid}"`);
 		}
-		// No backdrop map layers ship yet; first-party maps follow.
-		expect(toml).not.toContain("[[map_layers]]");
+		for (const k of STORY_GRAPHS) {
+			expect(toml, `map layer for ${GRAPHS[k]}`).toContain(
+				`map_layer_id = "${GRAPHS[k]}/backdrop"`,
+			);
+		}
+		expect(toml.match(/^\[\[map_layers\]\]$/gm)).toHaveLength(16);
 	});
 
 	it("portal graph reaches every story graph from the inn", () => {

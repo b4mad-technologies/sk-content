@@ -1,0 +1,56 @@
+{
+	"schema": "spellkave-design-asset-provenance/v1",
+	"kind": "place-map",
+	"place_graph_id": "kavemouth/shrine",
+	"provider": "pixellab-pixflux",
+	"tool": "skgen image pixellab generate",
+	"sdk": {
+		"package": "@pixellab-code/pixellab",
+		"version": "1.0.2",
+		"patch": "patches/@pixellab-code__pixellab@1.0.2.patch"
+	},
+	"provider_ids": {
+		"api_base_url": "https://api.pixellab.ai/v1",
+		"route": "/generate-image-pixflux"
+	},
+	"prompt": "A forest shrine of pale stone: a hollow under an old oak, a path to the doors, a narthex, a long nave, two round side chapels, a high altar and a crypt. Top-down pixel art game map seen from straight above, one continuous scene, muted earthy palette, soft shading, readable floors and walls, no characters, no creatures, no text, no letters, no numbers, no grid lines, no frame, no logo.",
+	"request": {
+		"description": "A forest shrine of pale stone: a hollow under an old oak, a path to the doors, a narthex, a long nave, two round side chapels, a high altar and a crypt. Top-down pixel art game map seen from straight above, one continuous scene, muted earthy palette, soft shading, readable floors and walls, no characters, no creatures, no text, no letters, no numbers, no grid lines, no frame, no logo.",
+		"image_size": {
+			"width": 400,
+			"height": 352
+		},
+		"negative_description": "text, letters, numbers, labels, grid, people, monsters, isometric, side view, border, watermark",
+		"text_guidance_scale": 8,
+		"outline": "selective outline",
+		"shading": "medium shading",
+		"detail": "highly detailed",
+		"view": "high top-down",
+		"direction": null,
+		"isometric": false,
+		"no_background": false,
+		"coverage_percentage": null,
+		"init_image": "packages/spellkave-adventure-kavemouth/assets/kavemouth-maps/plans/shrine.png",
+		"init_image_strength": 90,
+		"color_image": null,
+		"seed": 1
+	},
+	"source_blueprint": "packages/spellkave-adventure-kavemouth/art/maps/shrine.blueprint.json",
+	"source_blueprint_sha256": "0a279aa8b213f99e7b165f8093dd18b34ad650d9070d4670c0c4bbb7ed9d0c9e",
+	"source_plan": "packages/spellkave-adventure-kavemouth/assets/kavemouth-maps/plans/shrine.png",
+	"source_plan_sha256": "1b1fc87c2d78a0edbc107061202f9e44b4a21254b387844fc404f6f0de0be334",
+	"provenance": {
+		"license": "CC-BY-4.0",
+		"source": "Generated with PixelLab over a first-party floor plan (author/lib/layouts.ts, scripts/build-map-inputs.ts)"
+	},
+	"usage": {
+		"type": "generations",
+		"generations": 1
+	},
+	"generated_at": "2026-11-26T21:39:07.431Z",
+	"dimensions": [
+		400,
+		352
+	],
+	"sha256": "770cb7cbd62766c831937c30b9687698e7f5a4859154bc0d6b979666a664e15e"
+}

@@ -1,0 +1,56 @@
+{
+	"schema": "spellkave-design-asset-provenance/v1",
+	"kind": "place-map",
+	"place_graph_id": "kavemouth/hamlet",
+	"provider": "pixellab-pixflux",
+	"tool": "skgen image pixellab generate",
+	"sdk": {
+		"package": "@pixellab-code/pixellab",
+		"version": "1.0.2",
+		"patch": "patches/@pixellab-code__pixellab@1.0.2.patch"
+	},
+	"provider_ids": {
+		"api_base_url": "https://api.pixellab.ai/v1",
+		"route": "/generate-image-pixflux"
+	},
+	"prompt": "A small palisaded hamlet: a packed-earth square, timber houses with thatched roofs, sheds, a stone well, a gate in the south wall and a grassy hill. Top-down pixel art game map seen from straight above, one continuous scene, muted earthy palette, soft shading, readable floors and walls, no characters, no creatures, no text, no letters, no numbers, no grid lines, no frame, no logo.",
+	"request": {
+		"description": "A small palisaded hamlet: a packed-earth square, timber houses with thatched roofs, sheds, a stone well, a gate in the south wall and a grassy hill. Top-down pixel art game map seen from straight above, one continuous scene, muted earthy palette, soft shading, readable floors and walls, no characters, no creatures, no text, no letters, no numbers, no grid lines, no frame, no logo.",
+		"image_size": {
+			"width": 384,
+			"height": 384
+		},
+		"negative_description": "text, letters, numbers, labels, grid, people, monsters, isometric, side view, border, watermark",
+		"text_guidance_scale": 8,
+		"outline": "selective outline",
+		"shading": "medium shading",
+		"detail": "highly detailed",
+		"view": "high top-down",
+		"direction": null,
+		"isometric": false,
+		"no_background": false,
+		"coverage_percentage": null,
+		"init_image": "packages/spellkave-adventure-kavemouth/assets/kavemouth-maps/plans/hamlet.png",
+		"init_image_strength": 90,
+		"color_image": null,
+		"seed": 1
+	},
+	"source_blueprint": "packages/spellkave-adventure-kavemouth/art/maps/hamlet.blueprint.json",
+	"source_blueprint_sha256": "0e7d835dedf2030fb73ad6d2f9a824ef63905eed67d61ef6e6ada0c306669f32",
+	"source_plan": "packages/spellkave-adventure-kavemouth/assets/kavemouth-maps/plans/hamlet.png",
+	"source_plan_sha256": "4b9c492ab9d5ff56a43d9fd436190468d5b071f1da5bce9dcf7a9f3df1d50eaf",
+	"provenance": {
+		"license": "CC-BY-4.0",
+		"source": "Generated with PixelLab over a first-party floor plan (author/lib/layouts.ts, scripts/build-map-inputs.ts)"
+	},
+	"usage": {
+		"type": "generations",
+		"generations": 1
+	},
+	"generated_at": "2026-11-26T21:32:21.186Z",
+	"dimensions": [
+		384,
+		384
+	],
+	"sha256": "2d5e70d051817de544685af2692075983c59b6a353c97b1abe05155af5b7d50c"
+}

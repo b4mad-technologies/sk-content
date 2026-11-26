@@ -1,0 +1,56 @@
+{
+	"schema": "spellkave-design-asset-provenance/v1",
+	"kind": "place-map",
+	"place_graph_id": "kavemouth/mill",
+	"provider": "pixellab-pixflux",
+	"tool": "skgen image pixellab generate",
+	"sdk": {
+		"package": "@pixellab-code/pixellab",
+		"version": "1.0.2",
+		"patch": "patches/@pixellab-code__pixellab@1.0.2.patch"
+	},
+	"provider_ids": {
+		"api_base_url": "https://api.pixellab.ai/v1",
+		"route": "/generate-image-pixflux"
+	},
+	"prompt": "An abandoned mill yard with a round mill tower and a miller's house, beside a cutaway of the rough tunnels and chambers dug beneath it. Top-down pixel art game map seen from straight above, one continuous scene, muted earthy palette, soft shading, readable floors and walls, no characters, no creatures, no text, no letters, no numbers, no grid lines, no frame, no logo.",
+	"request": {
+		"description": "An abandoned mill yard with a round mill tower and a miller's house, beside a cutaway of the rough tunnels and chambers dug beneath it. Top-down pixel art game map seen from straight above, one continuous scene, muted earthy palette, soft shading, readable floors and walls, no characters, no creatures, no text, no letters, no numbers, no grid lines, no frame, no logo.",
+		"image_size": {
+			"width": 400,
+			"height": 400
+		},
+		"negative_description": "text, letters, numbers, labels, grid, people, monsters, isometric, side view, border, watermark",
+		"text_guidance_scale": 8,
+		"outline": "selective outline",
+		"shading": "medium shading",
+		"detail": "highly detailed",
+		"view": "high top-down",
+		"direction": null,
+		"isometric": false,
+		"no_background": false,
+		"coverage_percentage": null,
+		"init_image": "packages/spellkave-adventure-kavemouth/assets/kavemouth-maps/plans/mill.png",
+		"init_image_strength": 115,
+		"color_image": null,
+		"seed": 1
+	},
+	"source_blueprint": "packages/spellkave-adventure-kavemouth/art/maps/mill.blueprint.json",
+	"source_blueprint_sha256": "6dcf5fab7f1057ef18a174ccf975b5769553e49de815e29b8dcc5ef9052eac2a",
+	"source_plan": "packages/spellkave-adventure-kavemouth/assets/kavemouth-maps/plans/mill.png",
+	"source_plan_sha256": "d8d98ffeb6a06b2f95d2570890e5e103ddf7679409a189ebc402237f27b1abca",
+	"provenance": {
+		"license": "CC-BY-4.0",
+		"source": "Generated with PixelLab over a first-party floor plan (author/lib/layouts.ts, scripts/build-map-inputs.ts)"
+	},
+	"usage": {
+		"type": "generations",
+		"generations": 1
+	},
+	"generated_at": "2026-11-26T21:53:17.830Z",
+	"dimensions": [
+		400,
+		400
+	],
+	"sha256": "dc20be83b4d607a3ed1e2f3432d42671d83167dad95ff7894467f62b8a73e8d4"
+}

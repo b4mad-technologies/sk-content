@@ -14,7 +14,7 @@ import { parse, stringify } from "smol-toml";
 const packages = resolve(dirname(fileURLToPath(import.meta.url)), "../packages");
 
 const srd = join(packages, "spellkave-srd-cc/fixtures");
-const elven = join(packages, "spellkave-adventure-kavemouth");
+const kavemouth = join(packages, "spellkave-adventure-kavemouth");
 const playtest = join(packages, "spellkave-adventure-playtest-mini/fixtures");
 
 const srdRoot = join(srd, "manifest.toml");
@@ -22,7 +22,7 @@ const dmRoot = join(srd, "dm/manifest.toml");
 const roots = new Map([
   [srdRoot, []],
   [dmRoot, [srdRoot]],
-  [join(elven, "fixtures/adventure.manifest.toml"), [srdRoot, dmRoot]],
+  [join(kavemouth, "fixtures/adventure.manifest.toml"), [srdRoot, dmRoot]],
   [join(playtest, "manifest.toml"), [srdRoot]],
 ]);
 const parseOptions = { integersAsBigInt: "asNeeded" };
@@ -58,6 +58,7 @@ for (const { files } of Object.values(forks)) {
 const bundles = new Map();
 let failures = 0;
 let artChecked = 0;
+let mapsChecked = 0;
 for (const [root, dependencies] of roots) {
   const text = readFileSync(root, "utf8");
   checkRoundTrip(text, root);
@@ -89,12 +90,31 @@ for (const [root, dependencies] of roots) {
   const label = relative(packages, root);
   for (const source of [text, ...fragments]) {
     const data = parse(source, parseOptions);
-    assert(!(data.map_layers ?? []).length, `map layer in ${label}: this tree ships no map images`);
+    for (const layer of data.map_layers ?? []) {
+      assert.equal(layer.asset_module, "kavemouth-maps", `map layer module in ${label}: ${layer.map_layer_id}`);
+      const maps = join(kavemouth, "assets/kavemouth-maps");
+      const image = readFileSync(localFile(maps, layer.asset_path));
+      const sidecar = JSON.parse(readFileSync(localFile(maps, `${layer.asset_path}.json`), "utf8"));
+      const hash = createHash("sha256").update(image).digest("hex");
+      assert.equal(sidecar.sha256, hash, `map hash in ${label}: ${layer.asset_path}`);
+      assert.equal(sidecar.provenance?.license, "CC-BY-4.0", `map licence in ${label}: ${layer.asset_path}`);
+      assert(sidecar.prompt && sidecar.tool && sidecar.generated_at, `map prompt, tool and date in ${label}: ${layer.asset_path}`);
+      const plan = readFileSync(join(packages, "..", sidecar.source_plan));
+      assert.equal(
+        createHash("sha256").update(plan).digest("hex"),
+        sidecar.source_plan_sha256,
+        `map was generated from another plan in ${label}: ${layer.asset_path}`,
+      );
+      // PNG IHDR: width and height are the two big-endian words after the 16-byte header.
+      assert.equal(image.readUInt32BE(16), layer.image_width_px, `map width in ${label}: ${layer.asset_path}`);
+      assert.equal(image.readUInt32BE(20), layer.image_height_px, `map height in ${label}: ${layer.asset_path}`);
+      mapsChecked += 1;
+    }
     for (const attachment of data.metadata_attachments ?? []) {
       if (!attachment.namespace?.endsWith(".art.image")) continue;
       const art = JSON.parse(attachment.payload_json);
       assert.equal(art.license, "CC-BY-4.0", `art licence in ${label}: ${art.path}`);
-      const assets = join(attachment.bundle_id === "srd" ? srd : join(elven, "fixtures"), "../assets");
+      const assets = join(attachment.bundle_id === "srd" ? srd : join(kavemouth, "fixtures"), "../assets");
       const bytes = readFileSync(localFile(assets, art.path));
       const hash = createHash("sha256").update(bytes).digest("hex");
       assert.equal(hash, art.hash, `art hash in ${label}: ${art.path}`);
@@ -107,4 +127,5 @@ for (const [root, dependencies] of roots) {
 }
 
 console.log(`art attachments: ${artChecked} checked (path, SHA-256, CC-BY-4.0)`);
+console.log(`map layers: ${mapsChecked} checked (image, sidecar, plan, size, CC-BY-4.0)`);
 if (failures) process.exitCode = 1;

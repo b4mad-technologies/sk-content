@@ -1,0 +1,56 @@
+{
+	"schema": "spellkave-design-asset-provenance/v1",
+	"kind": "place-map",
+	"place_graph_id": "kavemouth/goblin_warren",
+	"provider": "pixellab-pixflux",
+	"tool": "skgen image pixellab generate",
+	"sdk": {
+		"package": "@pixellab-code/pixellab",
+		"version": "1.0.2",
+		"patch": "patches/@pixellab-code__pixellab@1.0.2.patch"
+	},
+	"provider_ids": {
+		"api_base_url": "https://api.pixellab.ai/v1",
+		"route": "/generate-image-pixflux"
+	},
+	"prompt": "A goblin warren of dug-out earthen chambers and crooked tunnels: a guard post, a big common den, two trap niches, a chief's hall and a loot cache. Top-down pixel art game map seen from straight above, one continuous scene, muted earthy palette, soft shading, readable floors and walls, no characters, no creatures, no text, no letters, no numbers, no grid lines, no frame, no logo.",
+	"request": {
+		"description": "A goblin warren of dug-out earthen chambers and crooked tunnels: a guard post, a big common den, two trap niches, a chief's hall and a loot cache. Top-down pixel art game map seen from straight above, one continuous scene, muted earthy palette, soft shading, readable floors and walls, no characters, no creatures, no text, no letters, no numbers, no grid lines, no frame, no logo.",
+		"image_size": {
+			"width": 400,
+			"height": 320
+		},
+		"negative_description": "text, letters, numbers, labels, grid, people, monsters, isometric, side view, border, watermark",
+		"text_guidance_scale": 8,
+		"outline": "selective outline",
+		"shading": "medium shading",
+		"detail": "highly detailed",
+		"view": "high top-down",
+		"direction": null,
+		"isometric": false,
+		"no_background": false,
+		"coverage_percentage": null,
+		"init_image": "packages/spellkave-adventure-kavemouth/assets/kavemouth-maps/plans/goblin_warren.png",
+		"init_image_strength": 115,
+		"color_image": null,
+		"seed": 1
+	},
+	"source_blueprint": "packages/spellkave-adventure-kavemouth/art/maps/goblin_warren.blueprint.json",
+	"source_blueprint_sha256": "a7877e431fc74f908132fae8907f403e8a2702e02a09fe7916136045825645a3",
+	"source_plan": "packages/spellkave-adventure-kavemouth/assets/kavemouth-maps/plans/goblin_warren.png",
+	"source_plan_sha256": "e9a060e8b9b3b420d8a1bcb1d3acb4d6a61dce5d9d5e9f30e0728be9b62d1bad",
+	"provenance": {
+		"license": "CC-BY-4.0",
+		"source": "Generated with PixelLab over a first-party floor plan (author/lib/layouts.ts, scripts/build-map-inputs.ts)"
+	},
+	"usage": {
+		"type": "generations",
+		"generations": 1
+	},
+	"generated_at": "2026-11-26T21:53:47.514Z",
+	"dimensions": [
+		400,
+		320
+	],
+	"sha256": "a2a2766225a484f76caa5afd200602a6f7beadaddbf6809f6727c5bb93b7f262"
+}

@@ -5,15 +5,16 @@ import { fileURLToPath } from "node:url";
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const packages = join(root, "packages");
 const srd = join(packages, "spellkave-srd-cc");
-const elven = join(packages, "spellkave-adventure-kavemouth");
+const kavemouth = join(packages, "spellkave-adventure-kavemouth");
 const srdNotice = readFileSync(join(srd, "cache/NOTICE.md"), "utf8");
 const srdArt = readFileSync(join(srd, "assets/srd-art/LICENSE"), "utf8");
-const elvenArt = readFileSync(join(elven, "assets/kavemouth-art/LICENSE"), "utf8");
+const kavemouthArt = readFileSync(join(kavemouth, "assets/kavemouth-art/LICENSE"), "utf8");
+const kavemouthMaps = readFileSync(join(kavemouth, "assets/kavemouth-maps/LICENSE"), "utf8");
 const license = readFileSync(join(root, "LICENSE.md"), "utf8");
 
 const outputs = new Map([
   ["srd", [srd, [srdNotice, srdArt]]],
-  ["elven", [elven, [srdNotice, srdArt, elvenArt]]],
+  ["kavemouth", [kavemouth, [srdNotice, srdArt, kavemouthArt, kavemouthMaps]]],
 ]);
 
 for (const name of process.argv.slice(2)) {

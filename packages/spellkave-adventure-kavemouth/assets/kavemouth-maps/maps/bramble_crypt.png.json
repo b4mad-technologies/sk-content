@@ -1,0 +1,56 @@
+{
+	"schema": "spellkave-design-asset-provenance/v1",
+	"kind": "place-map",
+	"place_graph_id": "kavemouth/bramble_crypt",
+	"provider": "pixellab-pixflux",
+	"tool": "skgen image pixellab generate",
+	"sdk": {
+		"package": "@pixellab-code/pixellab",
+		"version": "1.0.2",
+		"patch": "patches/@pixellab-code__pixellab@1.0.2.patch"
+	},
+	"provider_ids": {
+		"api_base_url": "https://api.pixellab.ai/v1",
+		"route": "/generate-image-pixflux"
+	},
+	"prompt": "A small half-buried crypt overgrown with bramble: an entrance, a vestibule, a hall of bones, a side chapel, an ossuary, a false tomb and a hidden crypt. Top-down pixel art game map seen from straight above, one continuous scene, muted earthy palette, soft shading, readable floors and walls, no characters, no creatures, no text, no letters, no numbers, no grid lines, no frame, no logo.",
+	"request": {
+		"description": "A small half-buried crypt overgrown with bramble: an entrance, a vestibule, a hall of bones, a side chapel, an ossuary, a false tomb and a hidden crypt. Top-down pixel art game map seen from straight above, one continuous scene, muted earthy palette, soft shading, readable floors and walls, no characters, no creatures, no text, no letters, no numbers, no grid lines, no frame, no logo.",
+		"image_size": {
+			"width": 384,
+			"height": 288
+		},
+		"negative_description": "text, letters, numbers, labels, grid, people, monsters, isometric, side view, border, watermark",
+		"text_guidance_scale": 8,
+		"outline": "selective outline",
+		"shading": "medium shading",
+		"detail": "highly detailed",
+		"view": "high top-down",
+		"direction": null,
+		"isometric": false,
+		"no_background": false,
+		"coverage_percentage": null,
+		"init_image": "packages/spellkave-adventure-kavemouth/assets/kavemouth-maps/plans/bramble_crypt.png",
+		"init_image_strength": 90,
+		"color_image": null,
+		"seed": 1
+	},
+	"source_blueprint": "packages/spellkave-adventure-kavemouth/art/maps/bramble_crypt.blueprint.json",
+	"source_blueprint_sha256": "faacb4f0f968c99242d5f865a00ada44d635203fac6045d39d0b80411056e814",
+	"source_plan": "packages/spellkave-adventure-kavemouth/assets/kavemouth-maps/plans/bramble_crypt.png",
+	"source_plan_sha256": "c1301e54af2ca66acfaca4f7ff573fb11435a3131e8c8a8f706b6840f8e9139d",
+	"provenance": {
+		"license": "CC-BY-4.0",
+		"source": "Generated with PixelLab over a first-party floor plan (author/lib/layouts.ts, scripts/build-map-inputs.ts)"
+	},
+	"usage": {
+		"type": "generations",
+		"generations": 1
+	},
+	"generated_at": "2026-11-26T21:39:42.242Z",
+	"dimensions": [
+		384,
+		288
+	],
+	"sha256": "4afaca1f81b7fa8202380dfb4e76ab636d7fec7cd750fe38fd73b0872a48508c"
+}

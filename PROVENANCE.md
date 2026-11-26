@@ -92,6 +92,17 @@ are unchanged.
   renamed to `creature/ulda.webp`. Its sidecar keeps the prompt that was
   sent when it was generated.
 
+- **Maps.** Each story place has a backdrop under
+  `assets/kavemouth-maps/`. `scripts/build-map-inputs.ts` paints the
+  place's plan as a picture (rooms, passages, simple material patterns)
+  and writes the PixelLab request. The backdrop was generated with
+  PixelLab (PixFlux, through `skgen image pixellab generate`) starting
+  from that picture, so it keeps the plan's layout. The sidecar beside
+  each backdrop records the tool, the full request and prompt, the plan
+  it started from, the time and the image hash. No third-party image,
+  map or layout was an input. The outdoor region has a backdrop of the
+  same kind; the former outdoor tile archive has no replacement yet.
+
 Still held: the former outdoor PMTiles (an image-model composite over
 Elven Tower sheets, never published); map renders, live deltas and
 story captures.

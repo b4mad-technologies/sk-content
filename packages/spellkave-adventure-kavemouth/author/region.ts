@@ -30,7 +30,7 @@ const NODE_DESCRIPTIONS: Record<string, string> = {
 	// region graph's own leaf roads — neither sits on the recorded story path
 	// (region -> road_south -> hamlet is the only edge the story replay ever
 	// walks), so adding them cannot change recorded behaviour. Both are
-	// off-artwork (no REGION_PINS/H3 cell entry — see the extra nodes below),
+	// detours with no H3 cell of their own (ravine and ford only),
 	// same idiom `dm-threshold.ts`'s creation-limbo door uses for a
 	// synthetic, unpositioned edge.
 	ravine_edge:
@@ -39,7 +39,7 @@ const NODE_DESCRIPTIONS: Record<string, string> = {
 	river_ford:
 		"Beyond the east road a shallow, cold stream cuts across the wild grass — a ford shallow enough to " +
 		"wade, or swim if the footing gives way.",
-	// sk-609b.8 destination stubs (off-artwork, same idiom as ravine/ford).
+	// sk-609b.8 destination stubs.
 
 	road_to_river: "A packed spur leaves the east road toward the river bridge and the mill beyond.",
 
@@ -85,60 +85,6 @@ export function region(): GraphSlice {
 					REGION_MAP.vertical_half_extent_m,
 				),
 			})),
-			// Off-artwork detour nodes (task 6.2) — no cell_res10 (optional,
-			// tool-reference.md's own `nodes[].cell_res10` doc comment), same
-			// small cube footprint shape as the ordinary pins, positioned just
-			// beyond their parent road along the SAME lateral line.
-			{
-				local: "ravine_edge",
-				name: "Ravine's Edge",
-				x: REGION_PINS.find((p) => p.local === "road_west")!.x - 6,
-				y: REGION_PINS.find((p) => p.local === "road_west")!.y,
-				description: NODE_DESCRIPTIONS.ravine_edge,
-				...footprintFromCells(
-					{ shape: "cube", half_width_cells: 1.5, half_height_cells: 1.5 },
-					REGION_MAP.grid_distance_m,
-					REGION_MAP.vertical_half_extent_m,
-				),
-			},
-			{
-				local: "river_ford",
-				name: "River Ford",
-				x: REGION_PINS.find((p) => p.local === "road_east")!.x + 6,
-				y: REGION_PINS.find((p) => p.local === "road_east")!.y,
-				description: NODE_DESCRIPTIONS.river_ford,
-				...footprintFromCells(
-					{ shape: "cube", half_width_cells: 1.5, half_height_cells: 1.5 },
-					REGION_MAP.grid_distance_m,
-					REGION_MAP.vertical_half_extent_m,
-				),
-			},
-			...(
-				[
-					["road_to_river", "Road to Stonebridge", "road_east", 10, 0],
-					["road_to_warren", "Hill Road to Warren", "road_north", 0, -8],
-					["road_to_forest", "Forest Road", "road_north", 8, -4],
-					["road_to_swamp", "Downstream to Swamp", "road_east", 10, 6],
-					["road_to_mine", "North Pass to Mine", "road_north", -6, -8],
-					["road_to_shrine", "Pilgrim Path to Shrine", "road_north", 10, -6],
-					["road_to_camp", "Trail to the War Camp", "road_north", 12, -2],
-				] as const
-			).map(([local, name, from, dx, dy]) => {
-				const base = REGION_PINS.find((p) => p.local === from)!;
-				return {
-					local,
-					name,
-					x: base.x + dx,
-					y: base.y + dy,
-					cell_res10: REGION_NODE_CELLS[local],
-					description: NODE_DESCRIPTIONS[local],
-					...footprintFromCells(
-						{ shape: "cube", half_width_cells: 1.5, half_height_cells: 1.5 },
-						REGION_MAP.grid_distance_m,
-						REGION_MAP.vertical_half_extent_m,
-					),
-				};
-			}),
 		],
 		edgeLocals: [
 			["waymeet", "road_north"],

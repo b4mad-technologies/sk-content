@@ -49,5 +49,6 @@ sk-grimoire at the commit pinned as `SK_GRIMOIRE_REF` in
 
 Publish the raw bundles with this tree's notices or the built compendium
 directories with their attached notices. The sprites are under `assets/srd-art`
-and `assets/kavemouth-art`; Kavemouth exports a build-time catalogue as
+and `assets/kavemouth-art`, the Kavemouth place maps under
+`assets/kavemouth-maps`; Kavemouth exports a build-time catalogue as
 `@spellkave/adventure-kavemouth/art`.

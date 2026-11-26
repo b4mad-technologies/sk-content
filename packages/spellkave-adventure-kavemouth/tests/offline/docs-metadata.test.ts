@@ -166,7 +166,7 @@ describe("kavemouth docs metadata", () => {
 		).toThrow("session 'kavemouth/adventure/session/new' needs explicit presentation metadata");
 	});
 
-	it("retains typed subjects and ships no third-party map layers", () => {
+	it("retains typed subjects and one first-party backdrop per story graph", () => {
 		const metadata = buildKavemouthRootMetadata(authoredRows(), descriptor, sourcePaths());
 		const pilot = metadata.docs.sections[0]?.pages?.[0];
 		expect(pilot?.body).not.toContain("srd/armor/shield");
@@ -174,9 +174,20 @@ describe("kavemouth docs metadata", () => {
 			'::subject{kind="entity" ref="kavemouth/adventure/innkeeper_1" view="compact"}',
 		);
 		const rows = authoredRows();
-		// No backdrop map layers ship yet; first-party maps follow.
-		expect(metadata.docs.attributions).toHaveLength(1);
-		expect(rows.map_layers ?? []).toHaveLength(0);
+		expect(metadata.docs.attributions).toHaveLength(2);
+		expect(metadata.docs.attributions[1]?.body).toContain("PixelLab");
+		expect(metadata.docs.attributions[1]?.source.license).toBe("CC-BY-4.0");
+		const graphRefs = new Set((rows.place_graphs ?? []).map((row) => row.place_graph_id));
+		expect(rows.map_layers).toHaveLength(16);
+		for (const layer of rows.map_layers ?? []) {
+			expect(graphRefs.has(layer.place_graph_id)).toBe(true);
+			expect(layer).toMatchObject({
+				asset_module: "kavemouth-maps",
+				asset_path: expect.any(String),
+				source_kind: "spellkave-first-party",
+				posture: "cc-by-4.0",
+			});
+		}
 	});
 
 	it("derives the SRD-subjects art page from every kavemouth.art.image attachment the adventure does not own", () => {

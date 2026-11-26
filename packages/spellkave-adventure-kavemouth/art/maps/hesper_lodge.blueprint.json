@@ -1,0 +1,23 @@
+{
+	"schema": "spellkave-pixellab-blueprint/v1",
+	"id": "kavemouth-map-hesper-lodge",
+	"description": "A gamekeeper's log lodge in a forest clearing: a porch, a main room with a stone hearth, a woodshed, a path from the south and dense trees all around. Top-down pixel art game map seen from straight above, one continuous scene, muted earthy palette, soft shading, readable floors and walls, no characters, no creatures, no text, no letters, no numbers, no grid lines, no frame, no logo.",
+	"negative_description": "text, letters, numbers, labels, grid, people, monsters, isometric, side view, border, watermark",
+	"image_size": {
+		"width": 384,
+		"height": 352
+	},
+	"view": "high top-down",
+	"outline": "selective outline",
+	"shading": "medium shading",
+	"detail": "highly detailed",
+	"init_image": "packages/spellkave-adventure-kavemouth/assets/kavemouth-maps/plans/hesper_lodge.png",
+	"init_image_strength": 120,
+	"seed": 1,
+	"output_directory": "pixellab-generations/kavemouth-maps/hesper_lodge",
+	"output_filename": "hesper_lodge.png",
+	"provenance": {
+		"license": "CC-BY-4.0",
+		"source": "Kavemouth place backdrops over first-party floor plans (author/lib/layouts.ts)"
+	}
+}
