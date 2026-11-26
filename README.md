@@ -43,7 +43,9 @@ needs the sk-grimoire mechanics core fixture at the path supplied in
 `SPELLKAVE_CORE_FIXTURES`.
 
 The offline tests and the Elven Mini generator read the sk-grimoire
-mechanics core fixture from `SPELLKAVE_CORE_FIXTURES`.
+mechanics core fixture from `SPELLKAVE_CORE_FIXTURES`. CI checks out
+sk-grimoire at the commit pinned as `SK_GRIMOIRE_REF` in
+`.github/workflows/ci.yml`; use the same commit locally.
 
 Publish the raw bundles with this tree's notices or the built compendium
 directories with their attached notices. Elven Mini backdrops are under
