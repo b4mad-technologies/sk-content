@@ -7,7 +7,6 @@
 import { type Pin, sheetMetrics } from "./map-metrics.ts";
 
 export const VILLAGE_MAP = sheetMetrics({
-	file: "15 Elven Village.jpg",
 	image_width_px: 2000,
 	image_height_px: 1500,
 	grid_size_px: 50,

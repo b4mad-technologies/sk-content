@@ -6,7 +6,6 @@
 import { type Pin, sheetMetrics } from "./map-metrics.ts";
 
 export const FOREST_LODGE_MAP = sheetMetrics({
-	file: "37 Forest lodgeC.jpg",
 	image_width_px: 1992,
 	image_height_px: 2000,
 	grid_size_px: 50,

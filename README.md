@@ -48,7 +48,6 @@ sk-grimoire at the commit pinned as `SK_GRIMOIRE_REF` in
 `.github/workflows/ci.yml`; use the same commit locally.
 
 Publish the raw bundles with this tree's notices or the built compendium
-directories with their attached notices. Elven Mini backdrops are under
-`assets/ccc3-maps` in that package. The sprites are under `assets/srd-art`
+directories with their attached notices. The sprites are under `assets/srd-art`
 and `assets/elven-mini-art`; Elven Mini exports a build-time catalogue as
 `@spellkave/adventure-elven-mini/art`.

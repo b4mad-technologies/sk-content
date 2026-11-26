@@ -166,7 +166,7 @@ describe("elven-mini docs metadata", () => {
 		).toThrow("session 'elven_mini/adventure/session/new' needs explicit presentation metadata");
 	});
 
-	it("retains typed subjects and complete map-layer asset joins", () => {
+	it("retains typed subjects and ships no third-party map layers", () => {
 		const metadata = buildElvenMiniRootMetadata(authoredRows(), descriptor, sourcePaths());
 		const pilot = metadata.docs.sections[0]?.pages?.[0];
 		expect(pilot?.body).not.toContain("srd/armor/shield");
@@ -174,23 +174,9 @@ describe("elven-mini docs metadata", () => {
 			'::subject{kind="entity" ref="elven_mini/adventure/innkeeper_1" view="compact"}',
 		);
 		const rows = authoredRows();
-		expect(metadata.docs.attributions[1]?.body).toContain(
-			"https://www.patreon.com/elventower/posts/creative-commons-153067169",
-		);
-		expect(metadata.docs.attributions[1]?.body).toContain(
-			"https://creativecommons.org/licenses/by/4.0/",
-		);
-		const graphRefs = new Set((rows.place_graphs ?? []).map((row) => row.place_graph_id));
-		expect(rows.map_layers).toHaveLength(16);
-		for (const layer of rows.map_layers ?? []) {
-			expect(graphRefs.has(layer.place_graph_id)).toBe(true);
-			expect(layer).toMatchObject({
-				asset_module: "ccc3-maps",
-				asset_path: expect.any(String),
-				source_kind: "elven-tower-ccc",
-				posture: "cc-by-4.0",
-			});
-		}
+		// Elven Tower backdrops were removed (owner, 2026-11-26); original maps replace them later.
+		expect(metadata.docs.attributions).toHaveLength(1);
+		expect(rows.map_layers ?? []).toHaveLength(0);
 	});
 
 	it("derives the SRD-subjects art page from every elven_mini.art.image attachment the adventure does not own", () => {

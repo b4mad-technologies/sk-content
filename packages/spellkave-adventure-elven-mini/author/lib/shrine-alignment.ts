@@ -7,7 +7,6 @@
 import { type Pin, sheetMetrics } from "./map-metrics.ts";
 
 export const SHRINE_MAP = sheetMetrics({
-	file: "235 Shrine of the Sun and Moon-PC.jpg",
 	image_width_px: 2000,
 	image_height_px: 1682,
 	grid_size_px: 50,

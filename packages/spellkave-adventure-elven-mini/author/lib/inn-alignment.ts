@@ -6,9 +6,6 @@
  * Product views: sheetAlign + metric (show all floors on one sheet).
  */
 export const INN_MAP = {
-	file: "267 Mountain View Inn-notitle.jpg",
-	asset_module: "ccc3-maps",
-	asset_path: "maps/267 Mountain View Inn-notitle.jpg",
 	/** Nominal cell size for sheet space (isometric; not a true battle grid). */
 	grid_size_px: 50,
 	grid_distance_m: 1.5240000486373901, // 5 ft, converted x0.3048

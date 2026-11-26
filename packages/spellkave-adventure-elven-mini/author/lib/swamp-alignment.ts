@@ -6,7 +6,6 @@
 import { type Pin, sheetMetrics } from "./map-metrics.ts";
 
 export const SWAMP_MAP = sheetMetrics({
-	file: "257 The Swamp and the Hag-PC.jpg",
 	image_width_px: 1545,
 	image_height_px: 2000,
 	grid_size_px: 50,

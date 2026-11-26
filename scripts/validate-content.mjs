@@ -89,10 +89,7 @@ for (const [root, dependencies] of roots) {
   const label = relative(packages, root);
   for (const source of [text, ...fragments]) {
     const data = parse(source, parseOptions);
-    for (const layer of data.map_layers ?? []) {
-      if (layer.asset_module !== "ccc3-maps") continue;
-      localFile(join(elven, "assets/ccc3-maps"), layer.asset_path);
-    }
+    assert(!(data.map_layers ?? []).length, `map layer in ${label}: this tree ships no map images`);
     for (const attachment of data.metadata_attachments ?? []) {
       if (!attachment.namespace?.endsWith(".art.image")) continue;
       const art = JSON.parse(attachment.payload_json);

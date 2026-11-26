@@ -6,8 +6,6 @@
  * - encounter inventory matches storyline §5 counts
  * - adventure reconstructed row count stays under export margin (3600 < 4000)
  */
-import { existsSync, readdirSync } from "node:fs";
-import { join } from "node:path";
 
 import { inspectManifest, loadFlattened } from "@spellkave/world-author";
 import { describe, expect, it } from "vitest";
@@ -40,7 +38,6 @@ import { village } from "../../author/village";
 import { well } from "../../author/well";
 
 const ELVEN_ROOT = FIXTURE_ROOT;
-const RENDERS = join(ELVEN_ROOT, "renders");
 
 const STORY_SLICES: Record<(typeof STORY_GRAPHS)[number], () => GraphSlice> = {
 	region,
@@ -92,25 +89,14 @@ describe("elven-mini maps (sk-609b.8)", () => {
 		}
 	});
 
-	it("committed adventure fixtures carry every story graph + map_layers", () => {
+	it("committed adventure fixtures carry every story graph and no backdrop layers", () => {
 		const toml = loadFlattened(ELVEN_ROOT, "adventure.manifest.toml");
 		for (const k of STORY_GRAPHS) {
 			const gid = GRAPHS[k];
 			expect(toml, `graph ${gid}`).toContain(`place_graph_id = "${gid}"`);
-			expect(
-				toml.includes(`map_layer_id = "${gid}/elven_tower_backdrop"`),
-				`map_layer_id for ${gid}`,
-			).toBe(true);
 		}
-	});
-
-	// sk-content: needs the held map renders (PROVENANCE.md).
-	it.skip("every story graph has a product with-map.jpg render", () => {
-		const files = new Set(readdirSync(RENDERS));
-		for (const k of STORY_GRAPHS) {
-			const name = `${k}-with-map.jpg`;
-			expect(files.has(name) || existsSync(join(RENDERS, name)), name).toBe(true);
-		}
+		// Elven Tower backdrops were removed (owner, 2026-11-26); original maps replace them later.
+		expect(toml).not.toContain("[[map_layers]]");
 	});
 
 	it("portal graph reaches every story graph from the inn", () => {

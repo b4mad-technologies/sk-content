@@ -6,9 +6,6 @@
  * Product views use sheetAlign (skip indoor Y-flip) so nodes sit on art.
  */
 export const TOMB_MAP = {
-	file: "251 Infested Tomb-PC.jpg",
-	asset_module: "ccc3-maps",
-	asset_path: "maps/251 Infested Tomb-PC.jpg",
 	grid_size_px: 37,
 	grid_distance_m: 1.5240000486373901, // 5 ft, converted x0.3048
 	image_width_px: 2000,

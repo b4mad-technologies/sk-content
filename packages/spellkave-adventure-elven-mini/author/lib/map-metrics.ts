@@ -8,9 +8,6 @@ export const GRID_DISTANCE_M = 1.5240000486373901; // 5 ft × 0.3048
 export const STOREY_HALF_EXTENT_M = 1.5;
 
 export type MapMetrics = {
-	file: string;
-	asset_module: "ccc3-maps";
-	asset_path: string;
 	grid_size_px: number;
 	grid_distance_m: number;
 	image_width_px: number;
@@ -24,7 +21,6 @@ export type MapMetrics = {
 
 /** Build metrics for a downscaled in-repo asset (integer grid_size_px). */
 export function sheetMetrics(args: {
-	file: string;
 	image_width_px: number;
 	image_height_px: number;
 	/** Prefer measuring full-res then scale; integer u32 required. */
@@ -32,9 +28,6 @@ export function sheetMetrics(args: {
 }): MapMetrics {
 	const grid = Math.max(1, Math.round(args.grid_size_px));
 	return {
-		file: args.file,
-		asset_module: "ccc3-maps",
-		asset_path: `maps/${args.file}`,
 		grid_size_px: grid,
 		grid_distance_m: GRID_DISTANCE_M,
 		image_width_px: Math.round(args.image_width_px),

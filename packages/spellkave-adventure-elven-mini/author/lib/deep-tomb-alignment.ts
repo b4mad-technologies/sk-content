@@ -6,7 +6,6 @@
 import { type Pin, sheetMetrics } from "./map-metrics.ts";
 
 export const DEEP_TOMB_MAP = sheetMetrics({
-	file: "60 Old crypt-PC.jpg",
 	image_width_px: 1501,
 	image_height_px: 2000,
 	grid_size_px: 50,
