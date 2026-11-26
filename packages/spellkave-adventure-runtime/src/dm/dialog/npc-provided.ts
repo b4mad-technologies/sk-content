@@ -232,7 +232,7 @@ export function renderNpcProvidedDialogDefinitions(): VerbCall[] {
 	}
 
 	// ADR-0142 D-1: generic, adventure-agnostic `dm/dialog/prompt/set/<id>`
-	// family — one per bounded id, authored once here so content (elven-mini
+	// family — one per bounded id, authored once here so content (kavemouth
 	// quests, any future adventure) never authors a per-quest set action of
 	// its own. A giver calls this alongside `dm/dialog/open/set/<count>` at
 	// open time.

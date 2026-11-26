@@ -38,7 +38,7 @@
 // closure) lives in KERNEL GENESIS, byte-identical to
 // `world-fixtures/core/base/conditions.toml`'s own authored row — seeded on
 // every node regardless of any bundle, never a `core` bundle dependency.
-// First tripped live authoring the elven-mini crypt fight (N3b): claiming
+// First tripped live authoring the kavemouth crypt fight (N3b): claiming
 // the Warden's own actor for its seat applies this condition, and a
 // `spellkave_self_summary` call captured into the committed story after
 // that claim surfaces its `condition_definition_id` literally — a true

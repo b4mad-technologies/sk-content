@@ -259,7 +259,7 @@ export const IDENTITY_DEFINITION_CALLS: readonly VerbCall[] = [
 				{ capability: SECOND_WIND_CAPABILITY_ID },
 				// sk-0m4.33: proof-only grant so the live telepathy beat can fire
 				// without putting the verb on the vocal tag. Aldwin's adventure
-				// grant lives in author/elven-mini/dm-npc.ts.
+				// grant lives in author/kavemouth/dm-npc.ts.
 				{ capability: TELEPATHY_CAPABILITY_ID },
 			],
 			initial_states: [

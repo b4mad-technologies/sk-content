@@ -23,7 +23,7 @@ import { buildCapabilityGrant, type VerbCall } from "../lib/index.ts";
 
 /** What every host-act renderer needs to know about the adventure and its DM. */
 export interface HostActConfig {
-	/** Adventure bundle id, e.g. `elven_mini`. Owns every rendered row. */
+	/** Adventure bundle id, e.g. `kavemouth`. Owns every rendered row. */
 	readonly bundle: string;
 	/** Manifest entity key of the DM seat that holds the may-do capabilities. */
 	readonly dmEntityKey: string;

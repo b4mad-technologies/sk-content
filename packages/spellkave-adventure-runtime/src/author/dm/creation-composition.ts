@@ -49,12 +49,12 @@ export function partySightCapabilityId(bundleId: string): string {
 	return `${bundleId}/party/sight`;
 }
 
-/** Candidate-scoped longsword key — never `elven_mini/adventure/item/longsword_1`. */
+/** Candidate-scoped longsword key — never `kavemouth/adventure/item/longsword_1`. */
 export function candidateLongswordEntityKey(candidateActorEntityKey: string): string {
 	return `${candidateActorEntityKey}/item/longsword`;
 }
 
-/** Candidate-scoped field-kit key — never `elven_mini/adventure/item/field_kit_1`. */
+/** Candidate-scoped field-kit key — never `kavemouth/adventure/item/field_kit_1`. */
 export function candidateFieldKitEntityKey(candidateActorEntityKey: string): string {
 	return `${candidateActorEntityKey}/item/field_kit`;
 }
@@ -479,7 +479,7 @@ function backgroundOriginFeatCapabilityId(backgroundSlug: string): string | null
 /** Current authored placement of the creation candidate — restated on a
  * fixture composition so an authored character never writes another bundle's place node (finding:
  * prequel apply failed MF-APPLY-026 / MF-VAL-101 against
- * `elven_mini/creation_limbo/station`). */
+ * `kavemouth/creation_limbo/station`). */
 export interface CandidatePlacement {
 	bundleId: string;
 	entityKey: string;

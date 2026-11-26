@@ -19,7 +19,7 @@ export function offerAcceptedResourceCall(): VerbCall {
 		description:
 			"sk-0m4.19 consent latch: 0 = not accepted (also the decline write), 1 = the hero accepted " +
 			"Aldwin's proactive offer. TARGET-carried on the trainee. Seeded in the dm bundle so the " +
-			"elven-mini hearth-return action can ModifyResource it; level-up/enroll still materialises " +
+			"kavemouth hearth-return action can ModifyResource it; level-up/enroll still materialises " +
 			"the object_state row; the into-limbo teleport gates on 1; the hearth return clears it.",
 		minValue: LEVEL_UP_OFFER_ACCEPTED_NONE,
 		maxValue: LEVEL_UP_OFFER_ACCEPTED_YES,

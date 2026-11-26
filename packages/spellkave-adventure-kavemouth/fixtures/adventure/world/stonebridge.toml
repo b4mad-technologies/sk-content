@@ -1,0 +1,383 @@
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/stonebridge/south_approach->kavemouth/stonebridge/bridge_south"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/stonebridge/south_approach"
+inherit_movement_default = true
+place_graph_id = "kavemouth/stonebridge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/stonebridge/bridge_south"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/stonebridge/bridge_south->kavemouth/stonebridge/south_approach"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/stonebridge/bridge_south"
+inherit_movement_default = true
+place_graph_id = "kavemouth/stonebridge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/stonebridge/south_approach"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/stonebridge/bridge_south->kavemouth/stonebridge/bridge_mid"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/stonebridge/bridge_south"
+inherit_movement_default = true
+place_graph_id = "kavemouth/stonebridge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/stonebridge/bridge_mid"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/stonebridge/bridge_mid->kavemouth/stonebridge/bridge_south"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/stonebridge/bridge_mid"
+inherit_movement_default = true
+place_graph_id = "kavemouth/stonebridge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/stonebridge/bridge_south"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/stonebridge/bridge_mid->kavemouth/stonebridge/bridge_north"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/stonebridge/bridge_mid"
+inherit_movement_default = true
+place_graph_id = "kavemouth/stonebridge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/stonebridge/bridge_north"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/stonebridge/bridge_north->kavemouth/stonebridge/bridge_mid"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/stonebridge/bridge_north"
+inherit_movement_default = true
+place_graph_id = "kavemouth/stonebridge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/stonebridge/bridge_mid"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/stonebridge/bridge_north->kavemouth/stonebridge/north_road"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/stonebridge/bridge_north"
+inherit_movement_default = true
+place_graph_id = "kavemouth/stonebridge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/stonebridge/north_road"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/stonebridge/north_road->kavemouth/stonebridge/bridge_north"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/stonebridge/north_road"
+inherit_movement_default = true
+place_graph_id = "kavemouth/stonebridge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/stonebridge/bridge_north"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/stonebridge/bridge_mid->kavemouth/stonebridge/east_bank"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/stonebridge/bridge_mid"
+inherit_movement_default = true
+place_graph_id = "kavemouth/stonebridge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/stonebridge/east_bank"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/stonebridge/east_bank->kavemouth/stonebridge/bridge_mid"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/stonebridge/east_bank"
+inherit_movement_default = true
+place_graph_id = "kavemouth/stonebridge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/stonebridge/bridge_mid"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/stonebridge/bridge_mid->kavemouth/stonebridge/west_bank"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/stonebridge/bridge_mid"
+inherit_movement_default = true
+place_graph_id = "kavemouth/stonebridge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/stonebridge/west_bank"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/stonebridge/west_bank->kavemouth/stonebridge/bridge_mid"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/stonebridge/west_bank"
+inherit_movement_default = true
+place_graph_id = "kavemouth/stonebridge"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/stonebridge/bridge_mid"
+
+[[place_graphs]]
+anchor_node_id = "kavemouth/stonebridge/south_approach"
+bearing = 0.0
+blueprint_id = ""
+bundle_id = "kavemouth"
+description = "A stone-and-timber bridge spans the river where the road climbs toward the mill."
+display_name = "Stonebridge"
+is_ephemeral_instance = false
+metres_per_unit = 12.0
+origin_cell_res10 = 0
+origin_cell_res4 = 0
+origin_cell_res7 = 0
+parent_graph_id = "kavemouth/region"
+place_graph_id = "kavemouth/stonebridge"
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095456497663
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "The south road opens onto the bridge approach, river mist hanging low over the banks."
+display_name = "South Approach"
+extent_params_json = '{"extent_m":3.81,"extent_x_m":3.048,"extent_y_m":3.81,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "south_approach"
+node_id = "kavemouth/stonebridge/south_approach"
+place_graph_id = "kavemouth/stonebridge"
+pos_present = true
+pos_x = 10
+pos_y = 22
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095456497663
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "The south end of the bridge, planks worn smooth by cart wheels."
+display_name = "Bridge South End"
+extent_params_json = '{"extent_m":3.048,"extent_x_m":3.048,"extent_y_m":3.048,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "bridge_south"
+node_id = "kavemouth/stonebridge/bridge_south"
+place_graph_id = "kavemouth/stonebridge"
+pos_present = true
+pos_x = 10
+pos_y = 17
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095456497663
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "Midspan over dark water — the current tugs at the piers below."
+display_name = "Bridge Midspan"
+extent_params_json = '{"extent_m":3.81,"extent_x_m":3.048,"extent_y_m":3.81,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "bridge_mid"
+node_id = "kavemouth/stonebridge/bridge_mid"
+place_graph_id = "kavemouth/stonebridge"
+pos_present = true
+pos_x = 10
+pos_y = 13
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095456497663
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "The north end of the bridge, a low railing and a path climbing toward the mill road."
+display_name = "Bridge North End"
+extent_params_json = '{"extent_m":3.048,"extent_x_m":3.048,"extent_y_m":3.048,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "bridge_north"
+node_id = "kavemouth/stonebridge/bridge_north"
+place_graph_id = "kavemouth/stonebridge"
+pos_present = true
+pos_x = 10
+pos_y = 8
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095456497663
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "The mill road climbs away from the river through wet scrub."
+display_name = "North Road to Mill"
+extent_params_json = '{"extent_m":4.572,"extent_x_m":3.048,"extent_y_m":4.572,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "north_road"
+node_id = "kavemouth/stonebridge/north_road"
+place_graph_id = "kavemouth/stonebridge"
+pos_present = true
+pos_x = 10
+pos_y = 3
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095456497663
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "A muddy path along the east bank, reeds whispering against the current."
+display_name = "East Bank Path"
+extent_params_json = '{"extent_m":4.572,"extent_x_m":4.572,"extent_y_m":4.572,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "east_bank"
+node_id = "kavemouth/stonebridge/east_bank"
+place_graph_id = "kavemouth/stonebridge"
+pos_present = true
+pos_x = 16
+pos_y = 12
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095456497663
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "The west bank path threads between roots and low boulders."
+display_name = "West Bank Path"
+extent_params_json = '{"extent_m":4.572,"extent_x_m":4.572,"extent_y_m":4.572,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "west_bank"
+node_id = "kavemouth/stonebridge/west_bank"
+place_graph_id = "kavemouth/stonebridge"
+pos_present = true
+pos_x = 4
+pos_y = 12
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"

@@ -9,7 +9,7 @@ third-party credits and source changes.
 | --- | --- | --- |
 | SRD | `packages/spellkave-srd-cc/fixtures/manifest.toml` | — |
 | Shared DM | `packages/spellkave-srd-cc/fixtures/dm/manifest.toml` | SRD |
-| Elven Mini | `packages/spellkave-adventure-elven-mini/fixtures/adventure.manifest.toml` | SRD, Shared DM |
+| Kavemouth | `packages/spellkave-adventure-kavemouth/fixtures/adventure.manifest.toml` | SRD, Shared DM |
 | Playtest Mini | `packages/spellkave-adventure-playtest-mini/fixtures/manifest.toml` | SRD |
 
 Use Node 24 and pnpm 11.13.1. The manifests and the asset paths can be checked
@@ -31,23 +31,23 @@ matching world API release.
 
 The lockfile resolves the published SDK packages at 0.1.2 and the
 validator and authoring Wasm packages at 0.1.0 from npm. The SRD,
-Adventure Runtime and Elven Mini packages link within this workspace.
+Adventure Runtime and Kavemouth packages link within this workspace.
 
 ## Authoring
 
 The SRD cache contains pinned input hashes. Fixture generators and the
 standalone compendium export consume committed inputs. Refreshing the
 cache requires the two pinned upstream forks. The grimoire authoring
-Wasm comes through the SDK authoring tools. Elven Mini's generator also
+Wasm comes through the SDK authoring tools. Kavemouth's generator also
 needs the sk-grimoire mechanics core fixture at the path supplied in
 `SPELLKAVE_CORE_FIXTURES`.
 
-The offline tests and the Elven Mini generator read the sk-grimoire
+The offline tests and the Kavemouth generator read the sk-grimoire
 mechanics core fixture from `SPELLKAVE_CORE_FIXTURES`. CI checks out
 sk-grimoire at the commit pinned as `SK_GRIMOIRE_REF` in
 `.github/workflows/ci.yml`; use the same commit locally.
 
 Publish the raw bundles with this tree's notices or the built compendium
 directories with their attached notices. The sprites are under `assets/srd-art`
-and `assets/elven-mini-art`; Elven Mini exports a build-time catalogue as
-`@spellkave/adventure-elven-mini/art`.
+and `assets/kavemouth-art`; Kavemouth exports a build-time catalogue as
+`@spellkave/adventure-kavemouth/art`.

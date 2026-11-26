@@ -117,7 +117,7 @@ describe("open backlog (executable declarations)", () => {
 
 	// BL-16 (Magic Items axis) RETIRED by lane L13 / sk-609b.13 — typed reader,
 	// chapter generator (757 identity + +N/charge/loot behaviors), coverage rows,
-	// loot-table-drop pattern, elven-mini Q4 drop seed.
+	// loot-table-drop pattern, kavemouth Q4 drop seed.
 
 	backlogItemDeclared({
 		id: "BL-17",
@@ -232,7 +232,7 @@ describe("open backlog (executable declarations)", () => {
 		references: [
 			"packages/spellkave-srd-cc/docs/kill-time-xp.md",
 			"packages/spellkave-srd-cc/src/chapters/character-creation/advancement-units.ts",
-			"packages/spellkave-srd-cc/src/npcs/elven-mini/aldwin/kill-xp.ts",
+			"packages/spellkave-srd-cc/src/npcs/kavemouth/aldwin/kill-xp.ts",
 		],
 	});
 
@@ -296,7 +296,7 @@ describe("open backlog (executable declarations)", () => {
 			"none) through some tool-visible channel, so his brain's 'DRAFTING' beat can comment on the " +
 			"hero's actual in-progress choice instead of degrading to silent waiting.",
 		context:
-			"S4b GROUND FIRST finding (2026-08-07, `src/npcs/elven-mini/aldwin/" +
+			"S4b GROUND FIRST finding (2026-08-07, `src/npcs/kavemouth/aldwin/" +
 			"brain.ts`'s own module header): a live probe fired train/steady-advance against a freshly " +
 			"seeded node and read Aldwin's own spellkave_scene/spellkave_traces afterward — ZERO trace rows " +
 			"at Aldwin's node. Root cause (traced through server/src/manifest/commit.rs and " +
@@ -378,7 +378,7 @@ describe("open backlog (executable declarations)", () => {
 			"'<bundle>/<topic>' silently truncated at the first '/'), and the " +
 			"node_id_well_formed validator (server/src/spatial/validation/checks.rs:563) either actually " +
 			"gates this convention or has its contract updated — today it documents nested-graph node ids " +
-			"as FATALLY malformed while the live elven-mini content (hamlet/inn/tomb graphs) uses exactly " +
+			"as FATALLY malformed while the live kavemouth content (hamlet/inn/tomb graphs) uses exactly " +
 			"that convention and seeds fine, so the check's contract and reality have drifted apart.",
 		context:
 			"Surfaced by the #2127 root-cause (fix branch fix/affordance-candidates-nested-graph-2127): " +
@@ -495,7 +495,7 @@ describe("open backlog (executable declarations)", () => {
 			"`place_node.pos_*`. `for_each_actor_in_radius.rs` feeds those raw coordinates into " +
 			"`Point2` with no `metres_per_unit` scale. `validate_reachability` " +
 			"(`r_manipulate/target.rs`) is genuinely metric: it multiplies the same pos_* delta by " +
-			"`place_graph_definition.metres_per_unit`. On elven-mini inn (metres_per_unit 1.524) a " +
+			"`place_graph_definition.metres_per_unit`. On kavemouth inn (metres_per_unit 1.524) a " +
 			"`radius_m` of 10 is ~10 grid units for a shout and ~10 metres for telepathy/attack " +
 			"range. `srd/speak-to-room`'s hall-scale 10 is authored in the raw-unit frame (BL-35); " +
 			"do not treat that literal as interchangeable with a `range_m` column. Also recorded " +
@@ -578,14 +578,14 @@ describe("open backlog (executable declarations)", () => {
 		context:
 			"Crypt-fight deadlock diagnosis 2026-08-08: a leftover range-0 touch-range duplicate of " +
 			"srd/attack/melee/affordance (same niche srd/niche/strikeable, same outcome) won " +
-			"select_turn_aware's template_id ascending tie-break after the elven_mini bundle rename " +
+			"select_turn_aware's template_id ascending tie-break after the kavemouth bundle rename " +
 			"re-ordered the ids — deadlocking combat at adjacent cells. ADR-0021's postscript promises " +
 			"validation-time surfacing for genuine overlaps; no MF-VAL diagnostic exists for this shape " +
 			"today (the duplicate rode through validate clean twice). The duplicate itself is deleted " +
 			"(combatants.ts, 2026-08-08); this item tracks the missing guard that would have caught it.",
 		references: [
 			"server/src/world_interaction/layer2/r_manipulate/selection/candidates.rs",
-			"packages/spellkave-srd-cc/src/author/elven-mini/combatants.ts",
+			"packages/spellkave-srd-cc/src/author/kavemouth/combatants.ts",
 		],
 	});
 
@@ -664,17 +664,17 @@ describe("open backlog (executable declarations)", () => {
 	backlogItemDeclared({
 		id: "BL-48",
 		title:
-			"fixtures/spatial PNGs are gated by nothing and churn on cross-machine regen — adopt the elven-mini provenance sidecar",
+			"fixtures/spatial PNGs are gated by nothing and churn on cross-machine regen — adopt the kavemouth provenance sidecar",
 		expected:
-			"`src/author/author-spatial-map-proofs.ts` gains the elven-mini treatment: a provenance sidecar recording sha256(SVG source + raster width) per binary, written even under TEXT_ONLY, plus a write-time churn guard. That gives its PNGs a CONTENT gate on CI (the sidecar is text, so it is byte-compared) and stops a regen on a different machine from rewriting every committed PNG when nothing changed.",
+			"`src/author/author-spatial-map-proofs.ts` gains the kavemouth treatment: a provenance sidecar recording sha256(SVG source + raster width) per binary, written even under TEXT_ONLY, plus a write-time churn guard. That gives its PNGs a CONTENT gate on CI (the sidecar is text, so it is byte-compared) and stops a regen on a different machine from rewriting every committed PNG when nothing changed.",
 		context:
-			"sk-dms.42's TEXT_ONLY escape (`SRD_CC_AUTHOR_CHECK_TEXT_ONLY=1`) made both authors CI-SAFE by neither writing nor comparing binaries on a runner — correct, and it is why the derived gate is green. But CI-safe is not the same as gated: under TEXT_ONLY nothing checks what those PNGs contain, and a stale one can sit in git indefinitely. Rasterization is genuinely host-dependent (`spatial-graph/render-svg.ts` asks for `font-family:Inter,system-ui,Arial`, which resvg resolves against the HOST's fonts, and @resvg/resvg-js is a platform-native module), so byte comparison can never be the answer — hashing the deterministic SOURCE can. elven-mini does this now (`fixtures/elven-mini/renders/provenance.json`); author-spatial-map-proofs.ts writes binaries the same way and has not had the pass. `author:dm:check` needs the same look (confirm whether that generator writes binaries at all).",
+			"sk-dms.42's TEXT_ONLY escape (`SRD_CC_AUTHOR_CHECK_TEXT_ONLY=1`) made both authors CI-SAFE by neither writing nor comparing binaries on a runner — correct, and it is why the derived gate is green. But CI-safe is not the same as gated: under TEXT_ONLY nothing checks what those PNGs contain, and a stale one can sit in git indefinitely. Rasterization is genuinely host-dependent (`spatial-graph/render-svg.ts` asks for `font-family:Inter,system-ui,Arial`, which resvg resolves against the HOST's fonts, and @resvg/resvg-js is a platform-native module), so byte comparison can never be the answer — hashing the deterministic SOURCE can. kavemouth does this now (`fixtures/kavemouth/renders/provenance.json`); author-spatial-map-proofs.ts writes binaries the same way and has not had the pass. `author:dm:check` needs the same look (confirm whether that generator writes binaries at all).",
 		references: [
 			"packages/spellkave-srd-cc/package.json",
 			"packages/spellkave-srd-cc/src/author/author-spatial-map-proofs.ts",
 			"packages/spellkave-srd-cc/src/author/dm/generate.ts",
-			"packages/spellkave-srd-cc/src/author/elven-mini/renders.ts",
-			"packages/spellkave-srd-cc/src/author/elven-mini/generate.ts",
+			"packages/spellkave-srd-cc/src/author/kavemouth/renders.ts",
+			"packages/spellkave-srd-cc/src/author/kavemouth/generate.ts",
 			"packages/spellkave-world-map/src/svg/render-svg.ts",
 		],
 	});

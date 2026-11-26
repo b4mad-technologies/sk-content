@@ -3,11 +3,11 @@
  * command admission; factual syntax disclosure does not evaluate the predicate.
  * The command capability carries a Party extent over the
  * companion's authored bond tag. Membership alone does not activate the bond.
- * Elven-mini applies an authored condition through its fixed record-bond act,
+ * Kavemouth applies an authored condition through its fixed record-bond act,
  * preserving prebond fog and Hesper's identity. Hero and companion markers
  * still gate commands. The runtime watch performs acts and resumes by receipt.
  * Legacy grant/latch renderers remain build-time test-scene composition
- * helpers. Elven-mini activates through author/dm-acts.ts.
+ * helpers. Kavemouth activates through author/dm-acts.ts.
  */
 
 import { DEFINE_ACTION_VERB_TOOL } from "@spellkave/tool-authoring";

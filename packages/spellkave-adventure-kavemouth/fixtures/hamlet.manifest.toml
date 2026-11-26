@@ -1,0 +1,569 @@
+#:schema https://spellkave.dev/schema/world-manifest-1.0.0.json
+applyset = "kavemouth.hamlet"
+schema_version = "1.0.0"
+
+[[bundles]]
+allow_flat_tags = false
+author = "spellkave-srd-cc"
+bundle_id = "kavemouth"
+default_extent_params_json = '{"extent_m": 4.5}'
+default_extent_shape_id = "core/area/cube"
+depends_on = [
+    "srd",
+    "dm",
+]
+description = "Kavemouth, the first Spellkave adventure: a hamlet, its roads and twelve quests."
+display_name = "Kavemouth"
+version = "1.0.0"
+
+[[bundles.tag_prefixes]]
+prefix = "kavemouth"
+
+[metadata]
+bundle = "kavemouth"
+profile = "kavemouth_hamlet"
+
+[[movement_defaults]]
+affordance_template_id = "srd/affordance/step"
+bindings_json = '{"movement_reach_resource":"srd/speed-walk","long_running_move_session":"srd/long_running_move"}'
+bundle_id = "kavemouth"
+mode_id = ""
+place_graph_id = ""
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/hamlet/gate->kavemouth/hamlet/square"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/hamlet/gate"
+inherit_movement_default = true
+place_graph_id = "kavemouth/hamlet"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/hamlet/square"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/hamlet/square->kavemouth/hamlet/gate"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/hamlet/square"
+inherit_movement_default = true
+place_graph_id = "kavemouth/hamlet"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/hamlet/gate"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/hamlet/square->kavemouth/hamlet/inn_front"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/hamlet/square"
+inherit_movement_default = true
+place_graph_id = "kavemouth/hamlet"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/hamlet/inn_front"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/hamlet/inn_front->kavemouth/hamlet/square"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/hamlet/inn_front"
+inherit_movement_default = true
+place_graph_id = "kavemouth/hamlet"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/hamlet/square"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/hamlet/square->kavemouth/hamlet/tomb_hill"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/hamlet/square"
+inherit_movement_default = true
+place_graph_id = "kavemouth/hamlet"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/hamlet/tomb_hill"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/hamlet/tomb_hill->kavemouth/hamlet/square"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/hamlet/tomb_hill"
+inherit_movement_default = true
+place_graph_id = "kavemouth/hamlet"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/hamlet/square"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/hamlet/square->kavemouth/hamlet/well"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/hamlet/square"
+inherit_movement_default = true
+place_graph_id = "kavemouth/hamlet"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/hamlet/well"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/hamlet/well->kavemouth/hamlet/square"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/hamlet/well"
+inherit_movement_default = true
+place_graph_id = "kavemouth/hamlet"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/hamlet/square"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/hamlet/square->kavemouth/hamlet/east_houses"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/hamlet/square"
+inherit_movement_default = true
+place_graph_id = "kavemouth/hamlet"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/hamlet/east_houses"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/hamlet/east_houses->kavemouth/hamlet/square"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/hamlet/east_houses"
+inherit_movement_default = true
+place_graph_id = "kavemouth/hamlet"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/hamlet/square"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/hamlet/square->kavemouth/hamlet/west_sheds"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/hamlet/square"
+inherit_movement_default = true
+place_graph_id = "kavemouth/hamlet"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/hamlet/west_sheds"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/hamlet/west_sheds->kavemouth/hamlet/square"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/hamlet/west_sheds"
+inherit_movement_default = true
+place_graph_id = "kavemouth/hamlet"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/hamlet/square"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/hamlet/gate->kavemouth/hamlet/west_sheds"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/hamlet/gate"
+inherit_movement_default = true
+place_graph_id = "kavemouth/hamlet"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/hamlet/west_sheds"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/hamlet/west_sheds->kavemouth/hamlet/gate"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/hamlet/west_sheds"
+inherit_movement_default = true
+place_graph_id = "kavemouth/hamlet"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/hamlet/gate"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/hamlet/east_houses->kavemouth/hamlet/village_path"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/hamlet/east_houses"
+inherit_movement_default = true
+place_graph_id = "kavemouth/hamlet"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/hamlet/village_path"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/hamlet/village_path->kavemouth/hamlet/east_houses"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/hamlet/village_path"
+inherit_movement_default = true
+place_graph_id = "kavemouth/hamlet"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/hamlet/east_houses"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/hamlet/tomb_hill->kavemouth/hamlet/crypt_path"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/hamlet/tomb_hill"
+inherit_movement_default = true
+place_graph_id = "kavemouth/hamlet"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/hamlet/crypt_path"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/hamlet/crypt_path->kavemouth/hamlet/tomb_hill"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/hamlet/crypt_path"
+inherit_movement_default = true
+place_graph_id = "kavemouth/hamlet"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/hamlet/tomb_hill"
+
+[[place_graphs]]
+anchor_node_id = "kavemouth/hamlet/gate"
+bearing = 0.0
+blueprint_id = ""
+bundle_id = "kavemouth"
+description = "A palisaded hamlet — a handful of houses and sheds huddled around a well and a muddy square, walled against whatever the road brings."
+display_name = "Hamlet"
+is_ephemeral_instance = false
+metres_per_unit = 12.0
+origin_cell_res10 = 0
+origin_cell_res4 = 0
+origin_cell_res7 = 0
+parent_graph_id = "kavemouth/region"
+place_graph_id = "kavemouth/hamlet"
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095455449087
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "A timber palisade gate, hinges groaning, opens onto the muddy square on one side and the open road on the other. A watch board lists the troubles: raiders on the Forest Road Trail to the War Camp, and Durgan's mine by the Upland Road and the North Pass."
+display_name = "Hamlet Gate"
+extent_params_json = '{"extent_m":3.048,"extent_x_m":3.048,"extent_y_m":3.048,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "gate"
+node_id = "kavemouth/hamlet/gate"
+place_graph_id = "kavemouth/hamlet"
+pos_present = true
+pos_x = 12
+pos_y = 22
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095455449087
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "The hamlet's muddy square, worn smooth by cart traffic, gathers every path in the settlement around its well. The track up Tomb Hill and the old barrow leaves the square to the east."
+display_name = "Village Square"
+extent_params_json = '{"extent_m":6.096,"extent_x_m":6.096,"extent_y_m":6.096,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "square"
+node_id = "kavemouth/hamlet/square"
+place_graph_id = "kavemouth/hamlet"
+pos_present = true
+pos_x = 12
+pos_y = 14
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095455449087
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "The Lamp and Ladle's timber facade, a lantern swinging over its door, fronts the square just off the well."
+display_name = "Inn Front"
+extent_params_json = '{"extent_m":4.572,"extent_x_m":4.572,"extent_y_m":4.572,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "inn_front"
+node_id = "kavemouth/hamlet/inn_front"
+place_graph_id = "kavemouth/hamlet"
+pos_present = true
+pos_x = 5
+pos_y = 11
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095455449087
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "A stone well ringed by damp cobbles sits at the square's center, its bucket-rope creaking whenever the wind shifts."
+display_name = "Well"
+extent_params_json = '{"radius_m":3.81,"radius_x_m":3.048,"radius_y_m":3.81,"radius_z_m":1.5}'
+extent_shape_id = "core/area/sphere"
+is_ephemeral = false
+local_id = "well"
+node_id = "kavemouth/hamlet/well"
+place_graph_id = "kavemouth/hamlet"
+pos_present = true
+pos_x = 12
+pos_y = 8
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095455449087
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "A row of shuttered houses leans together along the square's eastern edge, chimney smoke thin in the morning air."
+display_name = "East Houses"
+extent_params_json = '{"extent_m":5.334,"extent_x_m":4.572,"extent_y_m":5.334,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "east_houses"
+node_id = "kavemouth/hamlet/east_houses"
+place_graph_id = "kavemouth/hamlet"
+pos_present = true
+pos_x = 19
+pos_y = 13
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095455449087
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "Lean-to sheds and a woodpile crowd the square's western edge, the ground churned to mud beneath them."
+display_name = "West Sheds"
+extent_params_json = '{"extent_m":4.572,"extent_x_m":4.572,"extent_y_m":4.572,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "west_sheds"
+node_id = "kavemouth/hamlet/west_sheds"
+place_graph_id = "kavemouth/hamlet"
+pos_present = true
+pos_x = 5
+pos_y = 18
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095455449087
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "A bare, wind-scoured hill rises east of the square, an old stone stair cut into its slope leading up toward the tomb."
+display_name = "Tomb Hill"
+extent_params_json = '{"extent_m":4.572,"extent_x_m":4.572,"extent_y_m":3.81,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "tomb_hill"
+node_id = "kavemouth/hamlet/tomb_hill"
+place_graph_id = "kavemouth/hamlet"
+pos_present = true
+pos_x = 19
+pos_y = 20
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095455449087
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "A climbing path leaves the east houses toward the elven quarter above the walls."
+display_name = "Path to the Bough Village"
+extent_params_json = '{"extent_m":4.572,"extent_x_m":3.048,"extent_y_m":4.572,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "village_path"
+node_id = "kavemouth/hamlet/village_path"
+place_graph_id = "kavemouth/hamlet"
+pos_present = true
+pos_x = 20
+pos_y = 6
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 622215095455449087
+cell_res4 = 595193501273030655
+cell_res7 = 608704296581595135
+description = "A side track off tomb hill leads to a smaller crypt half-buried in bramble."
+display_name = "Path to the Bramble Crypt"
+extent_params_json = '{"extent_m":3.048,"extent_x_m":3.048,"extent_y_m":1.524,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "crypt_path"
+node_id = "kavemouth/hamlet/crypt_path"
+place_graph_id = "kavemouth/hamlet"
+pos_present = true
+pos_x = 21
+pos_y = 23
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "outdoor"

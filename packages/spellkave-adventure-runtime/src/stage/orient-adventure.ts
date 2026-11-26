@@ -78,7 +78,7 @@ async function withConsoleLogOnStderr<T>(fn: () => Promise<T>): Promise<T> {
 }
 
 async function main(): Promise<void> {
-	const adventure = process.argv[2] ?? "elven-mini";
+	const adventure = process.argv[2] ?? "kavemouth";
 	const descriptor = loadAdventureDescriptor(adventure);
 	const profileName = process.env.SPELLKAVE_HANDPLAY_PROFILE ?? descriptor.player.profile;
 	const profile = loadProfile(profileName);

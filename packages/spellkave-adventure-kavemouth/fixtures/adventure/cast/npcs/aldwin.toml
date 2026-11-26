@@ -1,0 +1,331 @@
+[[actor_capabilities]]
+actor_entity_key = "kavemouth/adventure/npc/aldwin_1"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/dm/record-companion-bond"
+elevation_class = ""
+extent_kind_ref = ""
+extent_ref = ""
+source = "kavemouth"
+source_args_hash = ""
+
+[[actor_capabilities]]
+actor_entity_key = "kavemouth/adventure/npc/aldwin_1"
+bundle_id = "kavemouth"
+capability_id = "dm/action/level-up/enroll"
+elevation_class = ""
+extent_kind_ref = ""
+extent_ref = ""
+source = "kavemouth"
+source_args_hash = ""
+
+[[actor_capabilities]]
+actor_entity_key = "kavemouth/adventure/npc/aldwin_1"
+bundle_id = "kavemouth"
+capability_id = "dm/action/offer-level-up"
+elevation_class = ""
+extent_kind_ref = ""
+extent_ref = ""
+source = "kavemouth"
+source_args_hash = ""
+
+[[actor_capabilities]]
+actor_entity_key = "kavemouth/adventure/npc/aldwin_1"
+bundle_id = "kavemouth"
+capability_id = "dm/action/apply-level-up"
+elevation_class = ""
+extent_kind_ref = ""
+extent_ref = ""
+source = "kavemouth"
+source_args_hash = ""
+
+[[actor_capabilities]]
+actor_entity_key = "kavemouth/adventure/npc/aldwin_1"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/dm/watch"
+elevation_class = "full"
+extent_kind_ref = "place_graph"
+extent_ref = "kavemouth/region"
+source = "kavemouth"
+source_args_hash = ""
+
+[[actor_capabilities]]
+actor_entity_key = "kavemouth/adventure/npc/aldwin_1"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/dm/seat"
+elevation_class = "full"
+extent_kind_ref = ""
+extent_ref = ""
+source = "kavemouth"
+source_args_hash = ""
+
+[[actor_capabilities]]
+actor_entity_key = "kavemouth/adventure/npc/aldwin_1"
+bundle_id = "kavemouth"
+capability_id = "srd/action/communicate/telepathy"
+elevation_class = ""
+extent_kind_ref = "party"
+extent_ref = "srd.party.heroes"
+source = "srd"
+source_args_hash = ""
+
+[[actor_capabilities]]
+actor_entity_key = "kavemouth/adventure/npc/aldwin_1"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q1/record-acceptance"
+elevation_class = ""
+extent_kind_ref = ""
+extent_ref = ""
+source = "kavemouth"
+source_args_hash = ""
+
+[[actor_capabilities]]
+actor_entity_key = "kavemouth/adventure/npc/aldwin_1"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q12/record-acceptance"
+elevation_class = ""
+extent_kind_ref = ""
+extent_ref = ""
+source = "kavemouth"
+source_args_hash = ""
+
+[[actor_capabilities]]
+actor_entity_key = "kavemouth/adventure/npc/aldwin_1"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/companion/rogue/record-agreement"
+elevation_class = ""
+extent_kind_ref = ""
+extent_ref = ""
+source = "kavemouth"
+source_args_hash = ""
+
+[[actor_capabilities]]
+actor_entity_key = "kavemouth/adventure/npc/aldwin_1"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/action/dm/induct-candidate"
+elevation_class = ""
+extent_kind_ref = ""
+extent_ref = ""
+source = "kavemouth"
+source_args_hash = ""
+
+[[actor_capabilities]]
+actor_entity_key = "kavemouth/adventure/npc/aldwin_1"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/action/dm/teleport-into-advancement-limbo"
+elevation_class = ""
+extent_kind_ref = ""
+extent_ref = ""
+source = "kavemouth"
+source_args_hash = ""
+
+[[actor_capabilities]]
+actor_entity_key = "kavemouth/adventure/npc/aldwin_1"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/action/dm/return-from-advancement-limbo"
+elevation_class = ""
+extent_kind_ref = ""
+extent_ref = ""
+source = "kavemouth"
+source_args_hash = ""
+
+[[actor_capabilities]]
+actor_entity_key = "kavemouth/adventure/npc/aldwin_1"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/dm/watch-limbo"
+elevation_class = ""
+extent_kind_ref = "place_graph"
+extent_ref = "kavemouth/creation_limbo"
+source = "kavemouth"
+source_args_hash = ""
+
+[[actor_spatial_locations]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/aldwin_1"
+place_node_id = "kavemouth/inn/common_room"
+selection_path = "manifest:kavemouth/adventure/npc/aldwin_1"
+
+[[actors]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/aldwin_1"
+name = "Aldwin, keeper of the hearth-ledger"
+
+[[entities]]
+bundle_id = "kavemouth"
+description = "Aldwin sits by the hearth, ledger open on his knee."
+entity_def_id = "srd/creature/commoner"
+entity_key = "kavemouth/adventure/npc/aldwin_1"
+kind = "npc"
+name = "Aldwin, keeper of the hearth-ledger"
+owned_by_entity_key = ""
+place_node_id = "kavemouth/inn/common_room"
+quantity = 1
+
+[[entity_tag]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/aldwin_1"
+source = "manifest"
+tag = "srd.dm_npc.aldwin"
+
+[[entity_tag]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/aldwin_1"
+source = "manifest"
+tag = "srd.advancement_trainer"
+
+[[entity_tag]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/aldwin_1"
+source = "manifest"
+tag = "srd.dm_npc.creation"
+
+[[entity_tag]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/aldwin_1"
+source = "manifest"
+tag = "srd.dm_npc.talker"
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/aldwin_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "dm/dialog/open"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/aldwin_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "dm/dialog/prompt"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/aldwin_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "dm/creation/phase"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/aldwin_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q1/accepted"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/aldwin_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q1/rewarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/aldwin_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q12/accepted"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/aldwin_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q12/rewarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/aldwin_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/companion/rogue/spawned"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/aldwin_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/companion/rogue/agreement"
+value_bool = true
+value_int = 0
+
+[[role_bindings]]
+binding_id = "kavemouth/aldwin-dm"
+bundle_id = "kavemouth"
+description = "Aldwin reads hidden and internal adventure facts as its DM."
+extent_kind_ref = "place_graph"
+extent_ref = "kavemouth/region"
+role_id = "dm"
+subject = "kavemouth/adventure/npc/aldwin_1"
+
+[[role_bindings]]
+binding_id = "kavemouth/aldwin-creation-dm"
+bundle_id = "kavemouth"
+description = "Aldwin's bounded authored act presence for this limbo."
+extent_kind_ref = "place_graph"
+extent_ref = "kavemouth/creation_limbo"
+role_id = "dm"
+subject = "kavemouth/adventure/npc/aldwin_1"
+
+[[role_bindings]]
+binding_id = "kavemouth/aldwin-advancement-dm"
+bundle_id = "kavemouth"
+description = "Aldwin's bounded authored act presence for this limbo."
+extent_kind_ref = "place_graph"
+extent_ref = "kavemouth/advancement_limbo"
+role_id = "dm"
+subject = "kavemouth/adventure/npc/aldwin_1"
+
+[[role_bindings]]
+binding_id = "kavemouth/aldwin-author"
+bundle_id = "kavemouth"
+description = "Aldwin applies scripted adventure deltas."
+extent_kind_ref = "place_graph"
+extent_ref = "kavemouth/region"
+role_id = "kavemouth/scripted-dm"
+subject = "kavemouth/adventure/npc/aldwin_1"
+
+[[role_bindings]]
+binding_id = "kavemouth/aldwin-author-bundle"
+bundle_id = "kavemouth"
+description = "Aldwin may author definitions in his own adventure; live menus and character changes use DM acts."
+extent_kind_ref = "bundle"
+extent_ref = "kavemouth"
+role_id = "kavemouth/scripted-dm"
+subject = "kavemouth/adventure/npc/aldwin_1"
+
+[[role_bindings]]
+binding_id = "kavemouth/aldwin-npc-host"
+bundle_id = "kavemouth"
+description = "Aldwin assigns an accepted world-owned party companion its durable Service driver; the existing driver admission guards exclude playable seats and authority subjects."
+extent_kind_ref = "party"
+extent_ref = "srd.party.heroes"
+role_id = "npc-host"
+subject = "kavemouth/adventure/npc/aldwin_1"
+
+[[role_definitions]]
+bundle_id = "kavemouth"
+capability_ids = [
+    "frontier.apply_manifest",
+    "frontier.pace_time",
+    "frontier.open_session",
+]
+description = "Aldwin's standing authority to apply scripted content deltas."
+display_name = "Scripted Dungeon Master"
+role_id = "kavemouth/scripted-dm"

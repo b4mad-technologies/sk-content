@@ -9,7 +9,7 @@
   "scripts": {
     "test": "vitest run && pnpm run validate",
     "validate": "node scripts/validate-content.mjs",
-    "build": "pnpm --filter @spellkave/srd-cc run export && pnpm --filter @spellkave/adventure-elven-mini run export",
+    "build": "pnpm --filter @spellkave/srd-cc run export && pnpm --filter @spellkave/adventure-kavemouth run export",
     "typecheck": "tsc --noEmit",
     "audit:flavor": "node scripts/audit-flavor.mjs"
   },

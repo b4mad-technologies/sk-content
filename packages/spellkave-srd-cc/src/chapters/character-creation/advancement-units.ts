@@ -462,8 +462,8 @@ export async function buildAdvancementFragment(
 						description:
 							"actor-carried-verbs D2(c): a grounded entity affords srd/advancement/level-up " +
 							"via its own srd.advancement_trainer entity_definition_tag — no place attachment, " +
-							"no per-target predicate. The elven-mini adventure tags Aldwin with it " +
-							"(author/elven-mini/dm-npc.ts).",
+							"no per-target predicate. The kavemouth adventure tags Aldwin with it " +
+							"(author/kavemouth/dm-npc.ts).",
 						predicate_source: "",
 						provider: "entity",
 					},

@@ -18,7 +18,7 @@ A second import came from monorepo `origin/main`
 to the first snapshot.
 
 - **Sprites.** SRD `assets/srd-art/` (1,441 WebP with sidecars), SRD
-  `art/` (art manifest, 12 badges), Elven Mini `assets/elven-mini-art/`
+  `art/` (art manifest, 12 badges), Kavemouth `assets/kavemouth-art/`
   (50 WebP) and `art/` (catalogue, art manifest). All were generated with
   PixelLab or composited from PixelLab output. The owner approved their
   publication under CC BY 4.0. Sidecar and attachment licence fields read
@@ -26,7 +26,7 @@ to the first snapshot.
   art, and the content check verifies each attachment's path, SHA-256 and
   licence.
 - **Offline tests.** SRD `src/test/offline`, `src/test/shared`,
-  `src/test/srd-coverage`, `src/docs` tests and Elven Mini `tests/offline`.
+  `src/test/srd-coverage`, `src/docs` tests and Kavemouth `tests/offline`.
   Tests that need NPC-host, operations, live-test, server or pipeline
   fingerprint inputs stay in the monorepo. Six claims that read held or
   monorepo-only inputs are skipped with a reason.
@@ -63,18 +63,38 @@ licence strings and the fixed blurb.
 ### Elven Tower maps removed (2026-11-26)
 
 The owner removed the 20 Elven Tower map JPEGs, their attribution file and
-the backdrop map layers, to be replaced by original maps. The public site
-states CC BY-NC for its maps and the CC BY posts could not be verified.
-The files remain in git history (commit `28607e6` and earlier). The place
-graphs keep node positions that were traced from those sheets; their
-author-only provenance notes still name the source maps. A spot check
-found no adventure prose copied from the Elven Tower pages (no shared
-7-word run; the only shared 5-word run is the map title "Shrine of the Sun
-and Moon").
+the backdrop map layers. The public site states CC BY-NC for its maps and
+the CC BY posts could not be verified. The files remain in git history
+(commit `28607e6` and earlier). A spot check found no adventure prose
+copied from the Elven Tower pages (no shared 7-word run).
 
-Still held: the Elven Mini outdoor PMTiles (an image-model composite over
-Elven Tower sheets whose archive carries no credits); map renders, live
-deltas and story captures.
+### Kavemouth (2026-11-26)
+
+The example adventure was named Elven Mini until this change; this file
+uses the new name throughout. The package, bundle id, applyset and docs
+page are now `kavemouth`. Quests, cast, mechanics and place connections
+are unchanged.
+
+- **Plans.** The node positions and extents that had been measured on
+  the removed map sheets are gone. Each place is drawn on its own 5 ft
+  grid in `author/lib/layouts.ts`, from its room list and connections,
+  and the positions come from those plans.
+- **Names.** Names that repeated text on the removed maps were replaced:
+  ten mill room names and ids, the shrine's approach and two chapels and
+  the quest named after that shrine, the inn's name, the paths to the
+  village and the crypt, and the place ids `cursed_crypt`,
+  `river_crossing`, `forest_lodge`, `hobgoblin_camp` and the region node
+  `crossroads` (now `bramble_crypt`, `stonebridge`, `hesper_lodge`,
+  `war_camp`, `waymeet`). The swamp hag is now Ulda Reedwife. The other
+  cast and quest names never appeared on the maps or on their public
+  pages (19 of 20 pages checked for 28 names).
+- **Sprites.** The 50 PixelLab sprites are unchanged; one file was
+  renamed to `creature/ulda.webp`. Its sidecar keeps the prompt that was
+  sent when it was generated.
+
+Still held: the former outdoor PMTiles (an image-model composite over
+Elven Tower sheets, never published); map renders, live deltas and
+story captures.
 
 The four public bundle roots are checked with the grimoire Wasm validator.
 The content files state their manifest schema version.

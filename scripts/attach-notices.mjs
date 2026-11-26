@@ -5,10 +5,10 @@ import { fileURLToPath } from "node:url";
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const packages = join(root, "packages");
 const srd = join(packages, "spellkave-srd-cc");
-const elven = join(packages, "spellkave-adventure-elven-mini");
+const elven = join(packages, "spellkave-adventure-kavemouth");
 const srdNotice = readFileSync(join(srd, "cache/NOTICE.md"), "utf8");
 const srdArt = readFileSync(join(srd, "assets/srd-art/LICENSE"), "utf8");
-const elvenArt = readFileSync(join(elven, "assets/elven-mini-art/LICENSE"), "utf8");
+const elvenArt = readFileSync(join(elven, "assets/kavemouth-art/LICENSE"), "utf8");
 const license = readFileSync(join(root, "LICENSE.md"), "utf8");
 
 const outputs = new Map([

@@ -84,7 +84,7 @@ import { MAX_REACH_MM, STANDARD_REACH_MM } from "./reach-units";
 // `monsters/proof-scene.ts`) still attaches it as a plain PLACE niche id (no
 // niche_definitions row needed for that shape, `creature-type-units.ts`'s own
 // header note) and is out of this change's blast radius (design.md's own
-// Out-of-Scope: only the elven-mini adventure's attachments retire).
+// Out-of-Scope: only the kavemouth adventure's attachments retire).
 // `ATTACK_VERB_NICHE_LOCAL_ID` is the NEW actor-provided niche every
 // capability-driven attack template (this file's Melee/Ranged/Unarmed
 // Strike/Opportunity Attack, `starter-behaviors.ts`'s per-creature actions,

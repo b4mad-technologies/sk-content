@@ -93,7 +93,7 @@ describe("buildTagValueDefinitionUnits", () => {
 			// here rather than in `combat-arena.ts`/`crypt-fight.ts`.
 			"srd.faction.party",
 			"srd.faction.monsters",
-			// sk-ntz.7 (content hygiene): remaining flat/colon elven-mini tags.
+			// sk-ntz.7 (content hygiene): remaining flat/colon kavemouth tags.
 			ITEM_CONTAINER_TAG,
 			ITEM_GEAR_TAG,
 			ITEM_FOOD_TAG,

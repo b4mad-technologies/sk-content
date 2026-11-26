@@ -1,0 +1,465 @@
+#:schema https://spellkave.dev/schema/world-manifest-1.0.0.json
+applyset = "kavemouth.tomb"
+schema_version = "1.0.0"
+
+[[bundles]]
+allow_flat_tags = false
+author = "spellkave-srd-cc"
+bundle_id = "kavemouth"
+default_extent_params_json = '{"extent_m": 4.5}'
+default_extent_shape_id = "core/area/cube"
+depends_on = [
+    "srd",
+    "dm",
+]
+description = "Kavemouth, the first Spellkave adventure: a hamlet, its roads and twelve quests."
+display_name = "Kavemouth"
+version = "1.0.0"
+
+[[bundles.tag_prefixes]]
+prefix = "kavemouth"
+
+[metadata]
+bundle = "kavemouth"
+profile = "kavemouth_tomb"
+
+[[movement_defaults]]
+affordance_template_id = "srd/affordance/step"
+bindings_json = '{"movement_reach_resource":"srd/speed-walk","long_running_move_session":"srd/long_running_move"}'
+bundle_id = "kavemouth"
+mode_id = ""
+place_graph_id = ""
+
+[[place_edge_affordance]]
+affordance_template_id = "kavemouth/affordance/warden_seal"
+bindings_json = ""
+edge_key = "kavemouth/tomb/hall->kavemouth/tomb/sealed_vault"
+mode_id = ""
+
+[[place_edge_affordance]]
+affordance_template_id = "kavemouth/affordance/warden_seal"
+bindings_json = ""
+edge_key = "kavemouth/tomb/sealed_vault->kavemouth/tomb/hall"
+mode_id = ""
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/tomb/entrance->kavemouth/tomb/antechamber"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/tomb/entrance"
+inherit_movement_default = true
+place_graph_id = "kavemouth/tomb"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/tomb/antechamber"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/tomb/antechamber->kavemouth/tomb/entrance"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/tomb/antechamber"
+inherit_movement_default = true
+place_graph_id = "kavemouth/tomb"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/tomb/entrance"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/tomb/antechamber->kavemouth/tomb/hall"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/tomb/antechamber"
+inherit_movement_default = true
+place_graph_id = "kavemouth/tomb"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/tomb/hall"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/tomb/hall->kavemouth/tomb/antechamber"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/tomb/hall"
+inherit_movement_default = true
+place_graph_id = "kavemouth/tomb"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/tomb/antechamber"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/tomb/hall->kavemouth/tomb/shrine"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/tomb/hall"
+inherit_movement_default = true
+place_graph_id = "kavemouth/tomb"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/tomb/shrine"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/tomb/shrine->kavemouth/tomb/hall"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/tomb/shrine"
+inherit_movement_default = true
+place_graph_id = "kavemouth/tomb"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/tomb/hall"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/tomb/hall->kavemouth/tomb/sealed_vault"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/tomb/hall"
+inherit_movement_default = true
+place_graph_id = "kavemouth/tomb"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/tomb/sealed_vault"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/tomb/sealed_vault->kavemouth/tomb/hall"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/tomb/sealed_vault"
+inherit_movement_default = true
+place_graph_id = "kavemouth/tomb"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/tomb/hall"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/tomb/hall->kavemouth/tomb/crypt"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/tomb/hall"
+inherit_movement_default = true
+place_graph_id = "kavemouth/tomb"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/tomb/crypt"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/tomb/crypt->kavemouth/tomb/hall"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/tomb/crypt"
+inherit_movement_default = true
+place_graph_id = "kavemouth/tomb"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/tomb/hall"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/tomb/crypt->kavemouth/tomb/pool"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/tomb/crypt"
+inherit_movement_default = true
+place_graph_id = "kavemouth/tomb"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/tomb/pool"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/tomb/pool->kavemouth/tomb/crypt"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/tomb/pool"
+inherit_movement_default = true
+place_graph_id = "kavemouth/tomb"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/tomb/crypt"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/tomb/pool->kavemouth/tomb/antechamber"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/tomb/pool"
+inherit_movement_default = true
+place_graph_id = "kavemouth/tomb"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/tomb/antechamber"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/tomb/antechamber->kavemouth/tomb/pool"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/tomb/antechamber"
+inherit_movement_default = true
+place_graph_id = "kavemouth/tomb"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/tomb/pool"
+
+[[place_graphs]]
+anchor_node_id = "kavemouth/tomb/entrance"
+bearing = 0.0
+blueprint_id = ""
+bundle_id = "kavemouth"
+description = "A tomb cut into the hillside above the hamlet — old stone stairs down into a dark that smells of standing water and worse."
+display_name = "Tomb"
+is_ephemeral_instance = false
+metres_per_unit = 1.5240000486373901
+origin_cell_res10 = 0
+origin_cell_res4 = 0
+origin_cell_res7 = 0
+parent_graph_id = "kavemouth/hamlet"
+place_graph_id = "kavemouth/tomb"
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "Twisted roots frame a dark opening in the hillside, a glistening trail leading inward across the threshold."
+display_name = "Tomb Entrance"
+extent_params_json = '{"extent_m":2.286,"extent_x_m":2.286,"extent_y_m":2.286,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "entrance"
+node_id = "kavemouth/tomb/entrance"
+place_graph_id = "kavemouth/tomb"
+pos_present = true
+pos_x = 3
+pos_y = 9
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A cramped antechamber where old stone stairs give way to bare rock, the air already thick with damp."
+display_name = "Antechamber"
+extent_params_json = '{"extent_m":3.81,"extent_x_m":3.81,"extent_y_m":3.81,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "antechamber"
+node_id = "kavemouth/tomb/antechamber"
+place_graph_id = "kavemouth/tomb"
+pos_present = true
+pos_x = 7
+pos_y = 9
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "The sarcophagus hall opens wide and dim, stone lids cracked and shoved askew, the standing-water smell strongest here. A side door bears a warden's seal no living hand can break; killing a warden will not open it."
+display_name = "Sarcophagus Hall"
+extent_params_json = '{"extent_m":5.334,"extent_x_m":5.334,"extent_y_m":5.334,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "hall"
+node_id = "kavemouth/tomb/hall"
+place_graph_id = "kavemouth/tomb"
+pos_present = true
+pos_x = 13
+pos_y = 9
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A small shrine niche cut into the hall's far wall, its carved figure worn featureless by centuries of damp. The wooden chest here has warped shut with damp; no key or spell will open it, and nothing rattles inside."
+display_name = "Shrine"
+extent_params_json = '{"extent_m":3.81,"extent_x_m":3.81,"extent_y_m":3.048,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "shrine"
+node_id = "kavemouth/tomb/shrine"
+place_graph_id = "kavemouth/tomb"
+pos_present = true
+pos_x = 13
+pos_y = 3
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A sealed stone vault off the sarcophagus hall — the door is shut and will not yield."
+display_name = "Sealed Vault"
+extent_params_json = '{"extent_m":3.81,"extent_x_m":3.048,"extent_y_m":3.81,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "sealed_vault"
+node_id = "kavemouth/tomb/sealed_vault"
+place_graph_id = "kavemouth/tomb"
+pos_present = true
+pos_x = 18
+pos_y = 9
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "The lower crypt sits below the hall, its walls slick and close, littered with the debris of long-collapsed niches. An Ironfold ward-key socket seals the stair to the deep tomb; using its key consumes the key and opens the way for your party. Scratched beside it: the Ironfold key lies with Durgan in the old mine, by the Upland Road and the North Pass."
+display_name = "Lower Crypt"
+extent_params_json = '{"extent_m":4.572,"extent_x_m":4.572,"extent_y_m":3.81,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "crypt"
+node_id = "kavemouth/tomb/crypt"
+place_graph_id = "kavemouth/tomb"
+pos_present = true
+pos_x = 13
+pos_y = 15
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A stagnant pool fills the crypt's lowest point, its surface rippling faintly with something unseen beneath."
+display_name = "Slime Pool"
+extent_params_json = '{"radius_m":4.572,"radius_x_m":4.572,"radius_y_m":4.572,"radius_z_m":1.5}'
+extent_shape_id = "core/area/sphere"
+is_ephemeral = false
+local_id = "pool"
+node_id = "kavemouth/tomb/pool"
+place_graph_id = "kavemouth/tomb"
+pos_present = true
+pos_x = 7
+pos_y = 14
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"

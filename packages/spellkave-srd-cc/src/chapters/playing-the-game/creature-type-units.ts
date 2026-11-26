@@ -83,10 +83,10 @@
 // derived niche set, unchanged from the SERVER GROUNDING paragraph above) is
 // the whole membership test (design D2(c), "grounded mirror of
 // `owned_entity_target_niches`"). `spatial_niche_attachments` rows for this
-// niche_id (proof-scene.ts's own, this module's elven-mini consumers before
+// niche_id (proof-scene.ts's own, this module's kavemouth consumers before
 // this change) are no longer load-bearing for ANY of this niche_id's
 // consumers — a live-proof regression (Claim Victory going dead when the
-// elven-mini adventure's own two combat attachments were retired) surfaced
+// kavemouth adventure's own two combat attachments were retired) surfaced
 // that they were STILL the only thing keeping this niche alive everywhere it
 // is used, the identical "silent invulnerability" bug class the whole change
 // exists to close, now closed here too.

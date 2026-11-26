@@ -3,7 +3,7 @@
  * niche definitions + spatial placement.
  *
  * Two independently-composable builders, mirroring `src/author/dm/aldwin.ts`
- * and `src/author/elven-mini/dm-npc.ts`'s own definition/placement split
+ * and `src/author/kavemouth/dm-npc.ts`'s own definition/placement split
  * (`aldwin.ts`'s own module header: "definitions once, placement in the
  * adventure") — here BOTH halves are rendered AT RUNTIME by this SAME
  * library, into the DM's own bundle namespace (ADR-0096 D-1), instead of one

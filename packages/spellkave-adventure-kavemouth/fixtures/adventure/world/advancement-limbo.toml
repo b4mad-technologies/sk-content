@@ -1,0 +1,35 @@
+[[place_graphs]]
+anchor_node_id = "kavemouth/advancement_limbo/station"
+bearing = 0.0
+blueprint_id = ""
+bundle_id = "kavemouth"
+description = "A single, isolated advancement-limbo scene: one place node, DELIBERATELY not connected to this adventure's other geography. Aldwin relocates the accepting hero here (and himself alongside) via RelocateEntity — no door, no walk."
+display_name = "Advancement Limbo"
+is_ephemeral_instance = false
+metres_per_unit = 1.0
+origin_cell_res10 = 0
+origin_cell_res4 = 0
+origin_cell_res7 = 0
+parent_graph_id = ""
+place_graph_id = "kavemouth/advancement_limbo"
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = ""
+display_name = "Advancement Limbo"
+extent_params_json = ""
+extent_shape_id = ""
+is_ephemeral = false
+local_id = "station"
+node_id = "kavemouth/advancement_limbo/station"
+place_graph_id = "kavemouth/advancement_limbo"
+pos_present = true
+pos_x = 0
+pos_y = 0
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"

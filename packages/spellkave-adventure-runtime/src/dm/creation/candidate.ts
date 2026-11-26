@@ -2,7 +2,7 @@
  * // pattern: draft-then-confirm-wizard
  *
  * The creation candidate's FAIL-CLOSED SEED FLOOR (generic mechanism
- * extracted from elven-mini's `author/creation-candidate.ts`, sk-s26).
+ * extracted from kavemouth's `author/creation-candidate.ts`, sk-s26).
  *
  * Every fact the creation confirm step writes must already carry a seed row
  * BEFORE confirm ever fires: confirm's `setToExactValueDeltaSource` writes

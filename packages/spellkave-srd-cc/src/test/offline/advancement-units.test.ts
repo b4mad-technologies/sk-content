@@ -90,7 +90,7 @@ describe("xpThresholdForLevel (TS-side mirror, same source table, never a second
 		expect(xpThresholdForLevel(20)).toBe(355000);
 	});
 
-	it("elven-mini post-Warden total (slime 100 + warden 300 = 400) still clears the level-2 threshold", () => {
+	it("kavemouth post-Warden total (slime 100 + warden 300 = 400) still clears the level-2 threshold", () => {
 		expect(400).toBeGreaterThanOrEqual(xpThresholdForLevel(2));
 	});
 

@@ -40,7 +40,7 @@ export interface AdventureDescriptor {
 		 *
 		 * Why it must exist at all (sk-apz): `.pi/profiles/spellkave_handplay.md`
 		 * hardcoded both halves — "You are Renn the Roadwarden, a level-1 elven
-		 * adventurer" and `spellkave_connect { "profile": "elven-mini-renn" }`.
+		 * adventurer" and `spellkave_connect { "profile": "kavemouth-renn" }`.
 		 * Every other fact about which body the player steers was already data
 		 * here, so staging dm-creation-prequel produced a world where the player
 		 * was told to connect as a seat nobody had claimed. It failed as a
@@ -98,7 +98,7 @@ export function loadAdventureDescriptor(adventure: string): AdventureDescriptor 
 		raw = readFileSync(path, "utf8");
 	} catch {
 		throw new Error(
-			`no adventure descriptor at ${path} — add one (see elven-mini.toml) or check the name`,
+			`no adventure descriptor at ${path} — add one (see kavemouth.toml) or check the name`,
 		);
 	}
 	const parsed = parseToml(raw) as unknown as AdventureDescriptor;

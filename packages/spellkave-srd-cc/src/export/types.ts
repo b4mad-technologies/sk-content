@@ -1,6 +1,6 @@
 /** Build-time compendium JSON (ledger/designs/compendium-shape.md export contract). */
 
-export type CompendiumCorpus = "srd" | "elven_mini";
+export type CompendiumCorpus = "srd" | "kavemouth";
 
 export interface CompendiumStat {
 	key: string;

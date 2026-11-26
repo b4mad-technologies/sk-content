@@ -1343,7 +1343,7 @@
 			"model": "openai/gpt-5.6-terra",
 			"core_traits": {
 				"kind": "rule",
-				"srd_text": "actor-carried-verbs D2(c): a grounded entity affords srd/advancement/level-up via its own srd.advancement_trainer entity_definition_tag — no place attachment, no per-target predicate. The elven-mini adventure tags Aldwin with it (author/elven-mini/dm-npc.ts)."
+				"srd_text": "actor-carried-verbs D2(c): a grounded entity affords srd/advancement/level-up via its own srd.advancement_trainer entity_definition_tag — no place attachment, no per-target predicate. The kavemouth adventure tags Aldwin with it (author/kavemouth/dm-npc.ts)."
 			},
 			"must_include": [],
 			"must_not": [

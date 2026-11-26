@@ -2,7 +2,7 @@
 //
 // DSL roll_table() is int-draw only (dsl-grammar.md §RollTable, MF-VAL-317).
 // Each table returns a small integer code; the loot catalog maps codes to
-// entity_def ids (magic items or equipment potions). Elven-mini quest
+// entity_def ids (magic items or equipment potions). Kavemouth quest
 // terminals and boss kills draw via the loot-table-drop pattern.
 //
 // pattern: loot-table-drop
@@ -98,7 +98,7 @@ export const LOOT_TABLE_SPECS: readonly LootTableSpec[] = [
 		displayName: "CR 0–4 individual treasure",
 		description:
 			"Low-CR encounter treasure band (gameplay-toolbox encounter building / treasure guidance). " +
-			"Used for elven-mini rung I–II boss drops.",
+			"Used for kavemouth rung I–II boss drops.",
 		entries: [
 			{ code: LOOT_CODES.none, weight: 5 },
 			{ code: LOOT_CODES.potionHealing, weight: 3 },
@@ -119,7 +119,7 @@ export const LOOT_TABLE_SPECS: readonly LootTableSpec[] = [
 	},
 	{
 		id: "loot/quest/q10-reward",
-		displayName: "Q10 Sun and Moon reward",
+		displayName: "Q10 Twin Lamps reward",
 		description:
 			"Quest terminal reward table for Q10 — Caddoc's blessing approximated as Potion of Heroism draw.",
 		entries: [

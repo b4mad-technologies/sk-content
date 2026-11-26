@@ -89,7 +89,7 @@ export function srdDmActs(target: AuthorTarget): AuthoredAct[] {
 	}
 	// The DM's revive is one way back. Owner decision D-1 (sk-jay0.1.55.42,
 	// ledger/designs/solo-beta-definition.md) adds a second one the hero takes
-	// itself, authored by the adventure (elven-mini author/respawn.ts).
+	// itself, authored by the adventure (kavemouth author/respawn.ts).
 	// Apply-then-remove keeps the act valid whether or not the condition is present.
 	const clearCondition = (id: string): Record<string, unknown>[] => [
 		{

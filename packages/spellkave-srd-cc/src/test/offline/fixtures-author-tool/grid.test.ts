@@ -3,7 +3,7 @@
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
-import { FIXTURE_ROOT as ELVEN_MINI_FIXTURES } from "../../../../../spellkave-adventure-elven-mini/author/lib/paths";
+import { FIXTURE_ROOT as KAVEMOUTH_FIXTURES } from "../../../../../spellkave-adventure-kavemouth/author/lib/paths";
 
 import {
 	GRID_STEP_AFFORDANCE_ID,
@@ -123,18 +123,18 @@ describe("fixtures/ walking-edge chain read through spellkave_query", () => {
 	});
 
 	it("uses srd/affordance/step for ordinary place edges as well as tactical grids", () => {
-		const hamlet = readFileSync(join(ELVEN_MINI_FIXTURES, "hamlet.manifest.toml"), "utf8");
-		expect(hamlet).toContain('edge_key = "elven_mini/hamlet/gate->elven_mini/hamlet/square"');
+		const hamlet = readFileSync(join(KAVEMOUTH_FIXTURES, "hamlet.manifest.toml"), "utf8");
+		expect(hamlet).toContain('edge_key = "kavemouth/hamlet/gate->kavemouth/hamlet/square"');
 		expect(hamlet).toContain('affordance_template_id = "srd/affordance/step"');
 	});
 
-	it("keeps the shared combat-grid policy out of the elven-mini adventure bundle", () => {
+	it("keeps the shared combat-grid policy out of the kavemouth adventure bundle", () => {
 		const cryptFight = readFileSync(
-			join(ELVEN_MINI_FIXTURES, "adventure/combat/crypt-fight.toml"),
+			join(KAVEMOUTH_FIXTURES, "adventure/combat/crypt-fight.toml"),
 			"utf8",
 		);
 		const adventureNiches = readFileSync(
-			join(ELVEN_MINI_FIXTURES, "adventure/world/niches.toml"),
+			join(KAVEMOUTH_FIXTURES, "adventure/world/niches.toml"),
 			"utf8",
 		);
 		expect(cryptFight).not.toContain("[[combat_grid_blueprints]]");

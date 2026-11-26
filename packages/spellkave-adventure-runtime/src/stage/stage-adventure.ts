@@ -61,7 +61,7 @@ function runJust(args: readonly string[], env: NodeJS.ProcessEnv): void {
 async function main(): Promise<void> {
 	const adventure = process.argv[2];
 	if (adventure === undefined || adventure === "") {
-		throw new Error("usage: stage-adventure.ts <adventure>   (e.g. elven-mini)");
+		throw new Error("usage: stage-adventure.ts <adventure>   (e.g. kavemouth)");
 	}
 	const descriptor = loadAdventureDescriptor(adventure);
 	if (!descriptor.player.hero_seat_open_action) {

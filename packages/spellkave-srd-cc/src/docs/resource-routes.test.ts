@@ -35,12 +35,12 @@ describe("resource routes", () => {
 	});
 
 	it("falls back to the mechanics section for an id no route matches", () => {
-		// A non-SRD bundle's own resources (`dm/...`, `elven_mini/quest/...`)
+		// A non-SRD bundle's own resources (`dm/...`, `kavemouth/quest/...`)
 		// never match an `srd/`-prefixed row, so they land beside that bundle's
 		// other mechanics rows rather than in an SRD-only section their page
 		// does not have.
 		expect(resourceChapterForId("dm/dialog/open")).toBe(SECTIONS_FILE.mechanics_section);
-		expect(resourceChapterForId("elven_mini/quest/Q1/accepted")).toBe(
+		expect(resourceChapterForId("kavemouth/quest/Q1/accepted")).toBe(
 			SECTIONS_FILE.mechanics_section,
 		);
 	});

@@ -1,0 +1,786 @@
+[[actor_capabilities]]
+actor_entity_key = "kavemouth/adventure/npc/hesper_1"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/companion/stone-giver"
+elevation_class = ""
+extent_kind_ref = ""
+extent_ref = ""
+source = "kavemouth"
+source_args_hash = ""
+
+[[actor_capabilities]]
+actor_entity_key = "kavemouth/adventure/npc/ysolde_1"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q2/record-acceptance"
+elevation_class = ""
+extent_kind_ref = ""
+extent_ref = ""
+source = "kavemouth"
+source_args_hash = ""
+
+[[actor_capabilities]]
+actor_entity_key = "kavemouth/adventure/npc/tamsin_1"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q3/record-acceptance"
+elevation_class = ""
+extent_kind_ref = ""
+extent_ref = ""
+source = "kavemouth"
+source_args_hash = ""
+
+[[actor_capabilities]]
+actor_entity_key = "kavemouth/adventure/npc/ysolde_1"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q4/record-acceptance"
+elevation_class = ""
+extent_kind_ref = ""
+extent_ref = ""
+source = "kavemouth"
+source_args_hash = ""
+
+[[actor_capabilities]]
+actor_entity_key = "kavemouth/adventure/npc/ysolde_1"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q5/record-acceptance"
+elevation_class = ""
+extent_kind_ref = ""
+extent_ref = ""
+source = "kavemouth"
+source_args_hash = ""
+
+[[actor_capabilities]]
+actor_entity_key = "kavemouth/adventure/npc/hesper_1"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q6/record-acceptance"
+elevation_class = ""
+extent_kind_ref = ""
+extent_ref = ""
+source = "kavemouth"
+source_args_hash = ""
+
+[[actor_capabilities]]
+actor_entity_key = "kavemouth/adventure/npc/vessk_1"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q7/record-acceptance"
+elevation_class = ""
+extent_kind_ref = ""
+extent_ref = ""
+source = "kavemouth"
+source_args_hash = ""
+
+[[actor_capabilities]]
+actor_entity_key = "kavemouth/adventure/npc/tamsin_1"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q8/record-acceptance"
+elevation_class = ""
+extent_kind_ref = ""
+extent_ref = ""
+source = "kavemouth"
+source_args_hash = ""
+
+[[actor_capabilities]]
+actor_entity_key = "kavemouth/adventure/npc/ysolde_1"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q9/record-acceptance"
+elevation_class = ""
+extent_kind_ref = ""
+extent_ref = ""
+source = "kavemouth"
+source_args_hash = ""
+
+[[actor_capabilities]]
+actor_entity_key = "kavemouth/adventure/npc/caddoc_1"
+bundle_id = "kavemouth"
+capability_id = "kavemouth/quest/Q10/record-acceptance"
+elevation_class = ""
+extent_kind_ref = ""
+extent_ref = ""
+source = "kavemouth"
+source_args_hash = ""
+
+[[actor_spatial_locations]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/ysolde_1"
+place_node_id = "kavemouth/hamlet/gate"
+selection_path = "manifest:kavemouth/adventure/npc/ysolde_1"
+
+[[actor_spatial_locations]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/tamsin_1"
+place_node_id = "kavemouth/village/green"
+selection_path = "manifest:kavemouth/adventure/npc/tamsin_1"
+
+[[actor_spatial_locations]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/caddoc_1"
+place_node_id = "kavemouth/inn/common_room"
+selection_path = "manifest:kavemouth/adventure/npc/caddoc_1"
+
+[[actor_spatial_locations]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/jory_1"
+place_node_id = "kavemouth/stonebridge/south_approach"
+selection_path = "manifest:kavemouth/adventure/npc/jory_1"
+
+[[actor_spatial_locations]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/hesper_1"
+place_node_id = "kavemouth/hesper_lodge/porch"
+selection_path = "manifest:kavemouth/adventure/npc/hesper_1"
+
+[[actor_spatial_locations]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/vessk_1"
+place_node_id = "kavemouth/region/road_to_warren"
+selection_path = "manifest:kavemouth/adventure/npc/vessk_1"
+
+[[actors]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/ysolde_1"
+name = "Captain Ysolde Farwind"
+
+[[actors]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/tamsin_1"
+name = "Old Tamsin"
+
+[[actors]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/caddoc_1"
+name = "Brother Caddoc"
+
+[[actors]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/jory_1"
+name = "Jory Millwright"
+
+[[actors]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/hesper_1"
+name = "Hesper of the Lodge"
+
+[[actors]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/vessk_1"
+name = "Vessk"
+
+[[entities]]
+bundle_id = "kavemouth"
+description = "Elven watch captain at the hamlet gate."
+entity_def_id = "srd/creature/guard-captain"
+entity_key = "kavemouth/adventure/npc/ysolde_1"
+kind = "npc"
+name = "Captain Ysolde Farwind"
+owned_by_entity_key = ""
+place_node_id = "kavemouth/hamlet/gate"
+quantity = 1
+
+[[entities]]
+bundle_id = "kavemouth"
+description = "Herbalist who knows the swamp and the green's moonpetal."
+entity_def_id = "srd/creature/commoner"
+entity_key = "kavemouth/adventure/npc/tamsin_1"
+kind = "npc"
+name = "Old Tamsin"
+owned_by_entity_key = ""
+place_node_id = "kavemouth/village/green"
+quantity = 1
+
+[[entities]]
+bundle_id = "kavemouth"
+description = "Acolyte of the Twin Lamp shrine, fled to the inn."
+entity_def_id = "srd/creature/priest-acolyte"
+entity_key = "kavemouth/adventure/npc/caddoc_1"
+kind = "npc"
+name = "Brother Caddoc"
+owned_by_entity_key = ""
+place_node_id = "kavemouth/inn/common_room"
+quantity = 1
+
+[[entities]]
+bundle_id = "kavemouth"
+description = "Miller's son who escaped the silent mill."
+entity_def_id = "srd/creature/commoner"
+entity_key = "kavemouth/adventure/npc/jory_1"
+kind = "npc"
+name = "Jory Millwright"
+owned_by_entity_key = ""
+place_node_id = "kavemouth/stonebridge/south_approach"
+quantity = 1
+
+[[entities]]
+bundle_id = "kavemouth"
+description = "Gamekeeper of the lodge in the forest — companion candidate."
+entity_def_id = "srd/creature/scout"
+entity_key = "kavemouth/adventure/npc/hesper_1"
+kind = "npc"
+name = "Hesper of the Lodge"
+owned_by_entity_key = ""
+place_node_id = "kavemouth/hesper_lodge/porch"
+quantity = 1
+
+[[entities]]
+bundle_id = "kavemouth"
+description = "Kobold scout who wants Grubnash's warren gone."
+entity_def_id = "srd/creature/kobold-warrior"
+entity_key = "kavemouth/adventure/npc/vessk_1"
+kind = "npc"
+name = "Vessk"
+owned_by_entity_key = ""
+place_node_id = "kavemouth/region/road_to_warren"
+quantity = 1
+
+[[entity_tag]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/ysolde_1"
+source = "manifest"
+tag = "srd.dm_npc.talker"
+
+[[entity_tag]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/tamsin_1"
+source = "manifest"
+tag = "srd.dm_npc.talker"
+
+[[entity_tag]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/caddoc_1"
+source = "manifest"
+tag = "srd.dm_npc.talker"
+
+[[entity_tag]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/jory_1"
+source = "manifest"
+tag = "srd.dm_npc.talker"
+
+[[entity_tag]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/hesper_1"
+source = "manifest"
+tag = "srd.dm_npc.talker"
+
+[[entity_tag]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/vessk_1"
+source = "manifest"
+tag = "srd.dm_npc.talker"
+
+[[entity_tag]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/hesper_1"
+source = "manifest"
+tag = "kavemouth.companion.bond"
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/ysolde_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "dm/dialog/open"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/ysolde_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "dm/dialog/prompt"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/tamsin_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "dm/dialog/open"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/tamsin_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "dm/dialog/prompt"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/caddoc_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "dm/dialog/open"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/caddoc_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "dm/dialog/prompt"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/jory_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "dm/dialog/open"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/jory_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "dm/dialog/prompt"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/hesper_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "dm/dialog/open"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/hesper_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "dm/dialog/prompt"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/vessk_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "dm/dialog/open"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/vessk_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "dm/dialog/prompt"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/hesper_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "srd/xp"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/caddoc_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "srd/xp"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/hesper_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q1/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/caddoc_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q1/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/hesper_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q2/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/caddoc_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q2/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/ysolde_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q2/accepted"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/ysolde_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q2/rewarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/hesper_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q3/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/caddoc_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q3/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/tamsin_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q3/accepted"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/tamsin_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q3/rewarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/hesper_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q4/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/caddoc_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q4/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/ysolde_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q4/accepted"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/ysolde_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q4/rewarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/hesper_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q5/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/caddoc_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q5/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/ysolde_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q5/accepted"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/ysolde_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q5/rewarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/hesper_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q6/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/caddoc_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q6/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/hesper_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q6/accepted"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/hesper_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q6/rewarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/hesper_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q7/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/caddoc_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q7/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/vessk_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q7/accepted"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/vessk_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q7/rewarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/hesper_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q8/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/caddoc_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q8/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/tamsin_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q8/accepted"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/tamsin_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q8/rewarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/hesper_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q9/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/caddoc_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q9/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/ysolde_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q9/accepted"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/ysolde_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q9/rewarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/hesper_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q10/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/caddoc_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q10/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/caddoc_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q10/accepted"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/caddoc_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q10/rewarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/hesper_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q11/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/caddoc_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q11/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/hesper_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q12/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/caddoc_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/quest/Q12/xp-awarded"
+value_bool = true
+value_int = 0
+
+[[object_state]]
+bundle_id = "kavemouth"
+entity_key = "kavemouth/adventure/npc/hesper_1"
+expires_at_tick = 0
+source_template_id = "manifest"
+state_id = "kavemouth/companion/bonded"
+value_bool = true
+value_int = 0

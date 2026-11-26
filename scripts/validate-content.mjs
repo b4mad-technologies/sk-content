@@ -14,7 +14,7 @@ import { parse, stringify } from "smol-toml";
 const packages = resolve(dirname(fileURLToPath(import.meta.url)), "../packages");
 
 const srd = join(packages, "spellkave-srd-cc/fixtures");
-const elven = join(packages, "spellkave-adventure-elven-mini");
+const elven = join(packages, "spellkave-adventure-kavemouth");
 const playtest = join(packages, "spellkave-adventure-playtest-mini/fixtures");
 
 const srdRoot = join(srd, "manifest.toml");

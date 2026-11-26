@@ -6,7 +6,7 @@
  * the limbo and into the adventure, held by the ONE DM entity (not a second,
  * limbo-resident copy: "a copy of one identity, and copies drift").
  *
- * Generic mechanism extracted from elven-mini's `author/induction.ts`: every
+ * Generic mechanism extracted from kavemouth's `author/induction.ts`: every
  * adventure-specific value (bundle, DM entity key, destination node, persona
  * name) is a REQUIRED parameter — no default exists that a story would never
  * use. Persisted ids derive from `bundle`, so a story passing its own bundle

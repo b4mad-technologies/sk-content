@@ -18,7 +18,7 @@
  * HOW THE GATES COMPOSE (three independent tests, none substituting another):
  *  1. REACH — the bond capability (Key B) sits on BOTH
  *     `action_definitions.required_capability` and
- *     `affordance_templates.capability_id`. Elven-mini's authored condition
+ *     `affordance_templates.capability_id`. Kavemouth's authored condition
  *     supplies Party reach over the bond tag after the bond-recording act.
  *     Both channels require the sender's recorded-bond marker and
  *     the recipient's bonded marker before a command is admitted.

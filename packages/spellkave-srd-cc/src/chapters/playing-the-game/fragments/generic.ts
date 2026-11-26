@@ -169,7 +169,7 @@ const GENERIC_CHECK_AFFORDANCE_ANCHOR =
  * authors, right below), so a candidate's own `srd.creature`
  * `entity_definition_tag` satisfies admission directly; NO
  * `spatial_niche_attachments` row is needed anywhere, scene or base bundle.
- * A live-proof regression (Claim Victory dead after the elven-mini
+ * A live-proof regression (Claim Victory dead after the kavemouth
  * adventure's own combat attachments were retired for actor-carried-verbs)
  * is what surfaced that the old model silently depended on those SAME two
  * attachment rows for THIS niche too — the same "a rule world state should

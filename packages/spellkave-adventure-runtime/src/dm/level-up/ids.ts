@@ -9,7 +9,7 @@
  * MIGRATION NOTE: every id below was previously a build-time constant in
  * `src/author/dm/aldwin.ts`'s own `dmAldwin()` (seed-time `fixtures/dm/
  * manifest.toml` rows). BL-46 moves the RENDERING of these rows to runtime
- * (Aldwin's own seat, elven-mini's `npcs/aldwin/seat.ts` config over the
+ * (Aldwin's own seat, kavemouth's `npcs/aldwin/seat.ts` config over the
  * runtime `dm/seat`, application-owned — sk-dms.3) — every id stays BYTE-IDENTICAL to its old value (the chapter 09
  * transcript and the dm-arc live tests reference these ids), only their
  * AUTHORING TIME moves. The "training"/"train" vocabulary itself was later
@@ -34,7 +34,7 @@ export { DM_BUNDLE };
 /** Aldwin's persona tag (sk-ntz.7: renamed from the slash-flat
  * `dm-npc/aldwin`, registered in tag-value-vocabulary.ts). The niche
  * predicate below reads it and Aldwin's own instance (authored in
- * `elven_mini`, `src/author/elven-mini/dm-npc.ts`) TAGS with it — both
+ * `kavemouth`, `src/author/kavemouth/dm-npc.ts`) TAGS with it — both
  * sides import this ONE constant rather than either re-declaring it. */
 export const ALDWIN_TAG = DM_NPC_ALDWIN_TAG;
 
@@ -47,7 +47,7 @@ export const ALDWIN_NICHE_ID = `${DM_BUNDLE}/${ALDWIN_NICHE_LOCAL_ID}`;
  * (`creature-type-units.ts`'s `CREATURE_NICHE_TAG`) — see `render.ts`'s own
  * niche-definition call. Previously read a bare `"creature"` tag (sk-ntz.3:
  * MF-VAL-297/298 content-hygiene rename): the bridging bare tag existed
- * because it was the elven-mini hero's ONLY carrier of ANY creature-shaped
+ * because it was the kavemouth hero's ONLY carrier of ANY creature-shaped
  * niche membership at the time it was authored; `pregen-units.ts`'s
  * `PREGEN_FIGHTER_DEF_ID` (the hero's own catalog body,
  * `ADVENTURE_HERO_DEF_ID` in `hero.ts`) already carries `CREATURE_NICHE_TAG`

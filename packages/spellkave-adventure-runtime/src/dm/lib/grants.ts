@@ -2,7 +2,7 @@
  * DM Runtime Library core (ADR-0096, S2 — `dm-runtime-library-arc.md`) —
  * `actor_capabilities` grant rows.
  *
- * Generalizes `src/author/elven-mini/dm-npc.ts`'s own per-capability grant
+ * Generalizes `src/author/kavemouth/dm-npc.ts`'s own per-capability grant
  * calls (`grant-level-up-options-to-hero`, `grant-offer-level-up-to-aldwin`,
  * `grant-speak-and-apply-manifest-authority-to-aldwin`, …) into ONE typed
  * builder a DM brain calls at dispatch time to grant one or more already-

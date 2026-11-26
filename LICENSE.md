@@ -6,7 +6,7 @@ material as applicable.
 | Scope | Licence |
 | --- | --- |
 | First-party game text, adventure data, rules implementation data and map geometry | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) |
-| First-party art: SRD and Elven Mini sprites, badges and their sidecars | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) |
+| First-party art: SRD and Kavemouth sprites, badges and their sidecars | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) |
 | First-party TypeScript, JavaScript, validation scripts and configuration | [PolyForm Shield 1.0.0](LICENSES/PolyForm-Shield-1.0.0.md) |
 | SRD 5.2, SRD 5.2.1 and Open5e Core language data | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) under their respective upstream grants and credits |
 

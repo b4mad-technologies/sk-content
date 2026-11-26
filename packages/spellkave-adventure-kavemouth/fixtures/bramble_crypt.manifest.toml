@@ -1,0 +1,415 @@
+#:schema https://spellkave.dev/schema/world-manifest-1.0.0.json
+applyset = "kavemouth.bramble_crypt"
+schema_version = "1.0.0"
+
+[[bundles]]
+allow_flat_tags = false
+author = "spellkave-srd-cc"
+bundle_id = "kavemouth"
+default_extent_params_json = '{"extent_m": 4.5}'
+default_extent_shape_id = "core/area/cube"
+depends_on = [
+    "srd",
+    "dm",
+]
+description = "Kavemouth, the first Spellkave adventure: a hamlet, its roads and twelve quests."
+display_name = "Kavemouth"
+version = "1.0.0"
+
+[[bundles.tag_prefixes]]
+prefix = "kavemouth"
+
+[metadata]
+bundle = "kavemouth"
+profile = "kavemouth_bramble_crypt"
+
+[[movement_defaults]]
+affordance_template_id = "srd/affordance/step"
+bindings_json = '{"movement_reach_resource":"srd/speed-walk","long_running_move_session":"srd/long_running_move"}'
+bundle_id = "kavemouth"
+mode_id = ""
+place_graph_id = ""
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/bramble_crypt/entrance->kavemouth/bramble_crypt/vestibule"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/bramble_crypt/entrance"
+inherit_movement_default = true
+place_graph_id = "kavemouth/bramble_crypt"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/bramble_crypt/vestibule"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/bramble_crypt/vestibule->kavemouth/bramble_crypt/entrance"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/bramble_crypt/vestibule"
+inherit_movement_default = true
+place_graph_id = "kavemouth/bramble_crypt"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/bramble_crypt/entrance"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/bramble_crypt/vestibule->kavemouth/bramble_crypt/bone_hall"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/bramble_crypt/vestibule"
+inherit_movement_default = true
+place_graph_id = "kavemouth/bramble_crypt"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/bramble_crypt/bone_hall"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/bramble_crypt/bone_hall->kavemouth/bramble_crypt/vestibule"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/bramble_crypt/bone_hall"
+inherit_movement_default = true
+place_graph_id = "kavemouth/bramble_crypt"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/bramble_crypt/vestibule"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/bramble_crypt/bone_hall->kavemouth/bramble_crypt/side_chapel"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/bramble_crypt/bone_hall"
+inherit_movement_default = true
+place_graph_id = "kavemouth/bramble_crypt"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/bramble_crypt/side_chapel"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/bramble_crypt/side_chapel->kavemouth/bramble_crypt/bone_hall"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/bramble_crypt/side_chapel"
+inherit_movement_default = true
+place_graph_id = "kavemouth/bramble_crypt"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/bramble_crypt/bone_hall"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/bramble_crypt/bone_hall->kavemouth/bramble_crypt/ossuary"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/bramble_crypt/bone_hall"
+inherit_movement_default = true
+place_graph_id = "kavemouth/bramble_crypt"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/bramble_crypt/ossuary"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/bramble_crypt/ossuary->kavemouth/bramble_crypt/bone_hall"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/bramble_crypt/ossuary"
+inherit_movement_default = true
+place_graph_id = "kavemouth/bramble_crypt"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/bramble_crypt/bone_hall"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/bramble_crypt/ossuary->kavemouth/bramble_crypt/false_tomb"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/bramble_crypt/ossuary"
+inherit_movement_default = true
+place_graph_id = "kavemouth/bramble_crypt"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/bramble_crypt/false_tomb"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/bramble_crypt/false_tomb->kavemouth/bramble_crypt/ossuary"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/bramble_crypt/false_tomb"
+inherit_movement_default = true
+place_graph_id = "kavemouth/bramble_crypt"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/bramble_crypt/ossuary"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/bramble_crypt/false_tomb->kavemouth/bramble_crypt/true_crypt"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/bramble_crypt/false_tomb"
+inherit_movement_default = true
+place_graph_id = "kavemouth/bramble_crypt"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/bramble_crypt/true_crypt"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/bramble_crypt/true_crypt->kavemouth/bramble_crypt/false_tomb"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/bramble_crypt/true_crypt"
+inherit_movement_default = true
+place_graph_id = "kavemouth/bramble_crypt"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/bramble_crypt/false_tomb"
+
+[[place_graphs]]
+anchor_node_id = "kavemouth/bramble_crypt/entrance"
+bearing = 0.0
+blueprint_id = ""
+bundle_id = "kavemouth"
+description = "A bramble-choked crypt on the hill road near the elven tomb — bone halls and a false grave."
+display_name = "Bramble Crypt"
+is_ephemeral_instance = false
+metres_per_unit = 1.5240000486373901
+origin_cell_res10 = 0
+origin_cell_res4 = 0
+origin_cell_res7 = 0
+parent_graph_id = "kavemouth/hamlet"
+place_graph_id = "kavemouth/bramble_crypt"
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A low stone lintel half-buried in hillside scrub marks the crypt entrance. Someone has scratched across it: LOOTED, NOTHING LEFT. The barrow folk speak of is the root-framed opening at the top of Tomb Hill."
+display_name = "Crypt Entrance"
+extent_params_json = '{"extent_m":3.048,"extent_x_m":2.286,"extent_y_m":3.048,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "entrance"
+node_id = "kavemouth/bramble_crypt/entrance"
+place_graph_id = "kavemouth/bramble_crypt"
+pos_present = true
+pos_x = 2
+pos_y = 9
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A vestibule of cracked tiles, offerings long since looted."
+display_name = "Vestibule"
+extent_params_json = '{"extent_m":4.572,"extent_x_m":3.81,"extent_y_m":4.572,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "vestibule"
+node_id = "kavemouth/bramble_crypt/vestibule"
+place_graph_id = "kavemouth/bramble_crypt"
+pos_present = true
+pos_x = 6
+pos_y = 9
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A hall of stacked bone and broken urns, the air dry as dust."
+display_name = "Bone Hall"
+extent_params_json = '{"extent_m":7.62,"extent_x_m":6.096,"extent_y_m":7.62,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "bone_hall"
+node_id = "kavemouth/bramble_crypt/bone_hall"
+place_graph_id = "kavemouth/bramble_crypt"
+pos_present = true
+pos_x = 12
+pos_y = 9
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A side chapel with a defaced mural of mourning figures."
+display_name = "Side Chapel"
+extent_params_json = '{"extent_m":4.572,"extent_x_m":4.572,"extent_y_m":3.048,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "side_chapel"
+node_id = "kavemouth/bramble_crypt/side_chapel"
+place_graph_id = "kavemouth/bramble_crypt"
+pos_present = true
+pos_x = 12
+pos_y = 2
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "An ossuary chamber where the walls are built of skull and femur."
+display_name = "Ossuary"
+extent_params_json = '{"extent_m":4.572,"extent_x_m":3.81,"extent_y_m":4.572,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "ossuary"
+node_id = "kavemouth/bramble_crypt/ossuary"
+place_graph_id = "kavemouth/bramble_crypt"
+pos_present = true
+pos_x = 19
+pos_y = 9
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A false tomb slab that scrapes when lifted — a decoy."
+display_name = "False Tomb"
+extent_params_json = '{"extent_m":4.572,"extent_x_m":4.572,"extent_y_m":3.81,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "false_tomb"
+node_id = "kavemouth/bramble_crypt/false_tomb"
+place_graph_id = "kavemouth/bramble_crypt"
+pos_present = true
+pos_x = 19
+pos_y = 15
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "The true crypt below the false tomb, colder and unquiet."
+display_name = "True Crypt"
+extent_params_json = '{"extent_m":5.334,"extent_x_m":2.286,"extent_y_m":5.334,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "true_crypt"
+node_id = "kavemouth/bramble_crypt/true_crypt"
+place_graph_id = "kavemouth/bramble_crypt"
+pos_present = true
+pos_x = 23
+pos_y = 9
+pose_elevation = -1.0
+pose_elevation_present = true
+substrate_id = "indoor"

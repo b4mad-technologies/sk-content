@@ -7005,7 +7005,7 @@
 			"model": "openai/gpt-5.6-terra",
 			"core_traits": {
 				"kind": "tag",
-				"srd_text": "Identifies a creature entity definition's combat-role brain (`@spellkave/npc` combat-role presets; elven-mini-storyline.md §6). Documentary + seat-factory selection; no DSL predicate reads this family today."
+				"srd_text": "Identifies a creature entity definition's combat-role brain (`@spellkave/npc` combat-role presets; kavemouth-storyline.md §6). Documentary + seat-factory selection; no DSL predicate reads this family today."
 			},
 			"must_include": [],
 			"must_not": [
@@ -8897,7 +8897,7 @@
 			"model": "openai/gpt-5.6-terra",
 			"core_traits": {
 				"kind": "tag",
-				"srd_text": "Identifies an entity instance as a member of the elven-mini heroes party. A party extent grant names this same string as extent_ref; membership is every body carrying the tag, plus their current session peers. Renamed from the legacy colon-shaped 'member_of:elven_mini/party/heroes' (sk-ntz.7)."
+				"srd_text": "Identifies an entity instance as a member of the kavemouth heroes party. A party extent grant names this same string as extent_ref; membership is every body carrying the tag, plus their current session peers. Renamed from the legacy colon-shaped 'member_of:kavemouth/party/heroes' (sk-ntz.7)."
 			},
 			"must_include": [],
 			"must_not": [

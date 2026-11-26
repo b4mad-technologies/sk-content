@@ -4,7 +4,7 @@
  * Combat-role assignment for CR 0–4 creatures (lane L11 / sk-609b.11).
  *
  * Emits `srd.creature.role.<role>` on each creature definition. Selection is
- * generator-owned: storyline slug overrides (`elven-mini-storyline.md` §6)
+ * generator-owned: storyline slug overrides (`kavemouth-storyline.md` §6)
  * first, else heuristics from the bestiary plan's attack shape + creature
  * type/size. Never hand-edit fixtures.
  *
@@ -124,7 +124,7 @@ export function buildCreatureRoleTagValueUnits(): Array<{
 		prefix: "srd",
 		description:
 			"Identifies a creature entity definition's combat-role brain " +
-			"(`@spellkave/adventure-runtime/npc-kinds` combat-role presets; elven-mini-storyline.md §6). " +
+			"(`@spellkave/adventure-runtime/npc-kinds` combat-role presets; kavemouth-storyline.md §6). " +
 			"Documentary + seat-factory selection; no DSL predicate reads this family today.",
 		sourcePk: "",
 	};

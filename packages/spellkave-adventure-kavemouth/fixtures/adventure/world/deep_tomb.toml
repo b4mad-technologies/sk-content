@@ -1,0 +1,441 @@
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/deep_tomb/stair_from_tomb->kavemouth/deep_tomb/warden_gate"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/deep_tomb/stair_from_tomb"
+inherit_movement_default = true
+place_graph_id = "kavemouth/deep_tomb"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/deep_tomb/warden_gate"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/deep_tomb/warden_gate->kavemouth/deep_tomb/stair_from_tomb"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/deep_tomb/warden_gate"
+inherit_movement_default = true
+place_graph_id = "kavemouth/deep_tomb"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/deep_tomb/stair_from_tomb"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/deep_tomb/warden_gate->kavemouth/deep_tomb/zombie_hall"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/deep_tomb/warden_gate"
+inherit_movement_default = true
+place_graph_id = "kavemouth/deep_tomb"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/deep_tomb/zombie_hall"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/deep_tomb/zombie_hall->kavemouth/deep_tomb/warden_gate"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/deep_tomb/zombie_hall"
+inherit_movement_default = true
+place_graph_id = "kavemouth/deep_tomb"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/deep_tomb/warden_gate"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/deep_tomb/zombie_hall->kavemouth/deep_tomb/ogre_alcove"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/deep_tomb/zombie_hall"
+inherit_movement_default = true
+place_graph_id = "kavemouth/deep_tomb"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/deep_tomb/ogre_alcove"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/deep_tomb/ogre_alcove->kavemouth/deep_tomb/zombie_hall"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/deep_tomb/ogre_alcove"
+inherit_movement_default = true
+place_graph_id = "kavemouth/deep_tomb"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/deep_tomb/zombie_hall"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/deep_tomb/zombie_hall->kavemouth/deep_tomb/processional"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/deep_tomb/zombie_hall"
+inherit_movement_default = true
+place_graph_id = "kavemouth/deep_tomb"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/deep_tomb/processional"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/deep_tomb/processional->kavemouth/deep_tomb/zombie_hall"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/deep_tomb/processional"
+inherit_movement_default = true
+place_graph_id = "kavemouth/deep_tomb"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/deep_tomb/zombie_hall"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/deep_tomb/processional->kavemouth/deep_tomb/steward_court"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/deep_tomb/processional"
+inherit_movement_default = true
+place_graph_id = "kavemouth/deep_tomb"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/deep_tomb/steward_court"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/deep_tomb/steward_court->kavemouth/deep_tomb/processional"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/deep_tomb/steward_court"
+inherit_movement_default = true
+place_graph_id = "kavemouth/deep_tomb"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/deep_tomb/processional"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/deep_tomb/steward_court->kavemouth/deep_tomb/wight_niche_a"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/deep_tomb/steward_court"
+inherit_movement_default = true
+place_graph_id = "kavemouth/deep_tomb"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/deep_tomb/wight_niche_a"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/deep_tomb/wight_niche_a->kavemouth/deep_tomb/steward_court"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/deep_tomb/wight_niche_a"
+inherit_movement_default = true
+place_graph_id = "kavemouth/deep_tomb"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/deep_tomb/steward_court"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/deep_tomb/steward_court->kavemouth/deep_tomb/wight_niche_b"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/deep_tomb/steward_court"
+inherit_movement_default = true
+place_graph_id = "kavemouth/deep_tomb"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/deep_tomb/wight_niche_b"
+
+[[place_edges]]
+bundle_id = "kavemouth"
+cell_anchor = 0
+cell_anchor_present = false
+cell_anchor_u = 0.0
+cell_anchor_v = 0.0
+edge_key = "kavemouth/deep_tomb/wight_niche_b->kavemouth/deep_tomb/steward_court"
+from_anchor_offset = 0.0
+from_anchor_side = ""
+from_node_id = "kavemouth/deep_tomb/wight_niche_b"
+inherit_movement_default = true
+place_graph_id = "kavemouth/deep_tomb"
+pose_dt_elevation = 0.0
+pose_dt_elevation_present = false
+substrate_crossing = false
+to_anchor_offset = 0.0
+to_anchor_side = ""
+to_node_id = "kavemouth/deep_tomb/steward_court"
+
+[[place_graphs]]
+anchor_node_id = "kavemouth/deep_tomb/stair_from_tomb"
+bearing = 0.0
+blueprint_id = ""
+bundle_id = "kavemouth"
+description = "The level below the infested tomb — a processional to the Pale Steward's court."
+display_name = "Deep Tomb"
+is_ephemeral_instance = false
+metres_per_unit = 1.5240000486373901
+origin_cell_res10 = 0
+origin_cell_res4 = 0
+origin_cell_res7 = 0
+parent_graph_id = "kavemouth/tomb"
+place_graph_id = "kavemouth/deep_tomb"
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "Stone stairs spiral down from the upper tomb into colder dark."
+display_name = "Stair from Tomb"
+extent_params_json = '{"extent_m":3.048,"extent_x_m":2.286,"extent_y_m":3.048,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "stair_from_tomb"
+node_id = "kavemouth/deep_tomb/stair_from_tomb"
+place_graph_id = "kavemouth/deep_tomb"
+pos_present = true
+pos_x = 2
+pos_y = 10
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A gate-chamber where the Crypt Warden's kin once barred the way deeper."
+display_name = "Warden Gate"
+extent_params_json = '{"extent_m":4.572,"extent_x_m":3.048,"extent_y_m":4.572,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "warden_gate"
+node_id = "kavemouth/deep_tomb/warden_gate"
+place_graph_id = "kavemouth/deep_tomb"
+pos_present = true
+pos_x = 5
+pos_y = 10
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A long hall of shambling dead, sarcophagi cracked open in rows."
+display_name = "Zombie Hall"
+extent_params_json = '{"extent_m":7.62,"extent_x_m":6.096,"extent_y_m":7.62,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "zombie_hall"
+node_id = "kavemouth/deep_tomb/zombie_hall"
+place_graph_id = "kavemouth/deep_tomb"
+pos_present = true
+pos_x = 11
+pos_y = 10
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "An alcove wide enough for an ogre zombie to wait in ambush."
+display_name = "Ogre Alcove"
+extent_params_json = '{"extent_m":4.572,"extent_x_m":4.572,"extent_y_m":3.81,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "ogre_alcove"
+node_id = "kavemouth/deep_tomb/ogre_alcove"
+place_graph_id = "kavemouth/deep_tomb"
+pos_present = true
+pos_x = 11
+pos_y = 3
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A processional corridor lined with dead lanterns leading to the court."
+display_name = "Processional"
+extent_params_json = '{"extent_m":3.81,"extent_x_m":3.81,"extent_y_m":3.048,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "processional"
+node_id = "kavemouth/deep_tomb/processional"
+place_graph_id = "kavemouth/deep_tomb"
+pos_present = true
+pos_x = 18
+pos_y = 10
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "The Pale Steward's court — a throne of bone under a vault of roots."
+display_name = "Pale Steward's Court"
+extent_params_json = '{"extent_m":7.62,"extent_x_m":3.81,"extent_y_m":7.62,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "steward_court"
+node_id = "kavemouth/deep_tomb/steward_court"
+place_graph_id = "kavemouth/deep_tomb"
+pos_present = true
+pos_x = 23
+pos_y = 10
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A wall niche where a wight stands guard on the court's left."
+display_name = "Wight Niche A"
+extent_params_json = '{"extent_m":3.048,"extent_x_m":3.048,"extent_y_m":3.048,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "wight_niche_a"
+node_id = "kavemouth/deep_tomb/wight_niche_a"
+place_graph_id = "kavemouth/deep_tomb"
+pos_present = true
+pos_x = 22
+pos_y = 3
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"
+
+[[place_nodes]]
+bundle_id = "kavemouth"
+cell_res10 = 0
+cell_res4 = 0
+cell_res7 = 0
+description = "A matching niche on the court's right, cold light in dead eyes."
+display_name = "Wight Niche B"
+extent_params_json = '{"extent_m":3.048,"extent_x_m":3.048,"extent_y_m":3.048,"extent_z_m":1.5}'
+extent_shape_id = "core/area/cube"
+is_ephemeral = false
+local_id = "wight_niche_b"
+node_id = "kavemouth/deep_tomb/wight_niche_b"
+place_graph_id = "kavemouth/deep_tomb"
+pos_present = true
+pos_x = 22
+pos_y = 17
+pose_elevation = 0.0
+pose_elevation_present = true
+substrate_id = "indoor"

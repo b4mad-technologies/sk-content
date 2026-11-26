@@ -1,0 +1,40 @@
+[[entities]]
+bundle_id = "kavemouth"
+description = "Hearth"
+entity_def_id = "kavemouth/adventure/furniture/hearth"
+entity_key = "kavemouth/adventure/furniture/hearth_1"
+kind = "item"
+name = "Hearth"
+owned_by_entity_key = ""
+place_node_id = "kavemouth/inn/common_room"
+quantity = 1
+
+[[entity_definition_initial_state]]
+bundle_id = "kavemouth"
+entity_def_id = "kavemouth/adventure/furniture/hearth"
+state_id = "srd/ac"
+value_bool = true
+value_int = 17
+
+[[entity_definition_initial_state]]
+bundle_id = "kavemouth"
+entity_def_id = "kavemouth/adventure/furniture/hearth"
+state_id = "srd/hp"
+value_bool = true
+value_int = 4
+
+[[entity_definitions]]
+affordance_seed_id = ""
+bundle_id = "kavemouth"
+description = "The inn common room's stone hearth."
+display_name = "Hearth"
+entity_def_id = "kavemouth/adventure/furniture/hearth"
+grants_capability_while_equipped = ""
+grants_capability_while_present_in_location = ""
+lineage_id = ""
+on_consume_consequence_id = ""
+on_destroy_consequence_id = ""
+on_equip_consequence_id = ""
+on_unequip_consequence_id = ""
+slot_compatibility_predicate = ""
+stackable = false

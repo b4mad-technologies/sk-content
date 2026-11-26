@@ -20,7 +20,7 @@ function tomlFiles(dir: string): string[] {
 		.map((p) => join(dir, p));
 }
 
-/** Line-oriented scan (same reason as elven-mini-actor-capabilities-no-dup:
+/** Line-oriented scan (same reason as kavemouth-actor-capabilities-no-dup:
  * some fixtures carry integer literals a strict TOML parser rejects). */
 function stateIdsIn(toml: string): string[] {
 	const ids: string[] = [];

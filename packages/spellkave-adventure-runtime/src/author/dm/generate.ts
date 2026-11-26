@@ -10,7 +10,7 @@
  * module header for the 2026-08-08 split rationale. `depends_on = ["srd"]`
  * only: this bundle must never name a specific adventure.
  *
- * Mirrors `elven-mini/generate.ts`'s own pattern: `target` resolves refs
+ * Mirrors `kavemouth/generate.ts`'s own pattern: `target` resolves refs
  * against the committed `fixtures/` root (the `srd` bundle) only — output is
  * written by hand via `inspectManifest`/`renderSchemaManifest`, never through
  * `target.applyBatch`.
