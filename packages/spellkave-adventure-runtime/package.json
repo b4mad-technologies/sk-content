@@ -41,7 +41,9 @@
     "./author/dm/selected-equipment": "./src/author/dm/selected-equipment.ts",
     "./stage/hero-bootstrap": "./src/stage/hero-bootstrap.ts",
     "./stage/actor-connection": "./src/stage/actor-connection.ts",
-    "./author/dm/quest-xp-acts": "./src/author/dm/quest-xp-acts.ts"
+    "./author/dm/quest-xp-acts": "./src/author/dm/quest-xp-acts.ts",
+    "./dm/data/advancement": "./src/dm/data/advancement.ts",
+    "./dm/creation/ids": "./src/dm/creation/ids.ts"
   },
   "files": [
     "src",
