@@ -75,7 +75,7 @@ describe("chainMailUnit", () => {
 				"Cross-chapter modifiers required a duplicate validation-only axis row in every authoring workspace.",
 			references: [
 				"ledger/archive/findings-details.md",
-				"https://github.com/b4arena/spellkave/issues/2092",
+				"spellkave monorepo issue 2092",
 			],
 		},
 		async () => {

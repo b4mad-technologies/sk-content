@@ -180,7 +180,7 @@ describe("executable SRD coverage reporter", () => {
 			impact: "an actor can move farther than the rules permit",
 			references: [
 				"ledger/designs/movement-budget.md",
-				"https://github.com/b4arena/spellkave/issues/27",
+				"https://example.com/issues/27",
 			] as const,
 		};
 		expect(parseFindingName(findingName(identity))).toEqual(identity);
@@ -212,7 +212,7 @@ describe("executable SRD coverage reporter", () => {
 		expect(ledger).toContain("## ✅ proven — Proven regressions");
 		expect(ledger).toContain("[movement-budget.md](designs/movement-budget.md)");
 		expect(ledger).toContain(
-			"[https://github.com/b4arena/spellkave/issues/27](https://github.com/b4arena/spellkave/issues/27)",
+			"[https://example.com/issues/27](https://example.com/issues/27)",
 		);
 	});
 

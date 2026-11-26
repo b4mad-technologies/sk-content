@@ -61,7 +61,7 @@ describe("discovery funnel (offline, target = committed fixtures/) — content-a
 				"A self-contained bundle could not pass the same cold-start discovery walk used by fresh authoring sessions.",
 			references: [
 				"ledger/archive/findings-details.md",
-				"https://github.com/b4arena/spellkave/issues/2081",
+				"spellkave monorepo issue 2081",
 			],
 		},
 		async () => {

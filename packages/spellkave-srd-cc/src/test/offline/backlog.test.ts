@@ -129,7 +129,7 @@ describe("open backlog (executable declarations)", () => {
 		context:
 			"Real GitHub issue #2049 (OPEN), unrelated to any single chapter — recorded here as a " +
 			"session-visible cross-cutting substrate gap, not a duplicate of the issue itself.",
-		references: ["https://github.com/b4arena/spellkave/issues/2049"],
+		references: ["spellkave monorepo issue 2049"],
 	});
 
 	backlogItemDeclared({
@@ -330,12 +330,12 @@ describe("open backlog (executable declarations)", () => {
 			"§3.4) — the one condition ADR-0094 explicitly leaves OPEN (its D-5). The arc must not be " +
 			"considered DONE until this lands or the operator re-waives it. Operator process ruling " +
 			"2026-08-07: open items live HERE in the backlog; the pre-existing GitHub issue " +
-			"https://github.com/b4arena/spellkave/issues/2128 stays open as the cross-repo pointer and " +
+			"spellkave monorepo issue 2128 stays open as the cross-repo pointer and " +
 			"carries the full grounded evidence (ManifestApplyDigest server/src/manifest/mod.rs:146-152, " +
 			"PendingManifestApply apply_drain.rs:45-75, authority-gate identity computed then discarded) " +
 			"plus the smallest-shape proposal — retire this item and close that issue together.",
 		references: [
-			"https://github.com/b4arena/spellkave/issues/2128",
+			"spellkave monorepo issue 2128",
 			"specifications/adr/0094-dm-seat-as-authoring-principal.md",
 			"specifications/adr/0007-dm-role-and-trust-elevation.md",
 			"packages/spellkave-srd-cc/ledger/designs/level-up-dm-arc-plan.md",
@@ -358,10 +358,10 @@ describe("open backlog (executable declarations)", () => {
 			"its seeding approach cannot work. Now registered but out of the run-set, classified " +
 			"`//! spellkave-ci: pending-port: #2129` per the check-client-test-targets registry gate's discipline " +
 			"(e5afcedad). Operator process ruling 2026-08-07: tracked HERE; the GitHub issue " +
-			"https://github.com/b4arena/spellkave/issues/2129 stays open as the pointer — retire this item, " +
+			"spellkave monorepo issue 2129 stays open as the pointer — retire this item, " +
 			"flip the marker, and close that issue together.",
 		references: [
-			"https://github.com/b4arena/spellkave/issues/2129",
+			"spellkave monorepo issue 2129",
 			"client/tests/reaction_window_session_lifecycle.rs",
 			"packages/spellkave-gates/src/gates/check-client-test-targets.ts",
 		],
@@ -398,7 +398,7 @@ describe("open backlog (executable declarations)", () => {
 			"#2132) — NOT yet on this branch until that PR merges. The two callers named above " +
 			"(r_sense.rs, place_graph_clone.rs) and the validator-contract reconciliation remain open.",
 		references: [
-			"https://github.com/b4arena/spellkave/issues/2127",
+			"spellkave monorepo issue 2127",
 			"server/src/spatial/place_node.rs",
 			"server/src/spatial/validation/checks.rs",
 			"server/src/world_interaction/affordance_materialiser/reconcile/candidates.rs",

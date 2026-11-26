@@ -33,7 +33,7 @@ findingGap(
 		expected: "The supported public surface returns the required result.",
 		observed: "The same call currently omits that result.",
 		impact: "A consumer cannot complete the workflow without a bypass.",
-		references: ["https://github.com/b4arena/spellkave/issues/0000"],
+		references: ["https://example.com/issues/0000"],
 	},
 	() => {
 		// Assert the desired public behavior. This must currently fail.

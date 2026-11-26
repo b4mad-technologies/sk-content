@@ -41,7 +41,7 @@ describe("resolveForksRoot (#2102 / finding #80)", () => {
 				"Agents in nested worktrees could not run sync-cache without an absolute-path override.",
 			references: [
 				"ledger/archive/findings-details.md",
-				"https://github.com/b4arena/spellkave/issues/2102",
+				"spellkave monorepo issue 2102",
 			],
 		},
 		() => {

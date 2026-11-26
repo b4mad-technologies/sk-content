@@ -44,7 +44,7 @@ describe("fixtures/ bundle inventory read through spellkave_query", () => {
 				"The verb schema omits both fields and the shared stripping helper leaves [[bundles.tag_prefixes]] in generated fragments.",
 			impact:
 				"A package must use spellkave_write_rows plus a private regex to declare bundle-owned tag vocabulary without leaking header rows.",
-			references: [FINDING_DETAILS, "https://github.com/b4arena/spellkave/issues/2018"],
+			references: [FINDING_DETAILS, "spellkave monorepo issue 2018"],
 		},
 		() => {
 			const defineBundle = companionAgent.authorFacingToolDefinitions.find(
