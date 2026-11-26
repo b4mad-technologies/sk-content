@@ -4,7 +4,7 @@
 	"prompt": "one centered clear anvil silhouette, charcoal #2a2d28 body with gold #c4a056 face, only colors #2a2d28 #e6dcc0 #c4a056 #5f7a58 #b85a42, no rainbow, no shield, no gradient, flat fills, single symbol, bright core, high contrast, light cream outline, no dark fill. Bright core, high contrast, light cream 1px outline, no dark fill, no charcoal blob. Centered, isolated on transparent background, no weapon, no object, no ground, no frame, no text.",
 	"style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
 	"provenance": {
-		"license": "PixelLab output rights review required before promotion",
+		"license": "CC-BY-4.0",
 		"source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
 	},
 	"usage": {

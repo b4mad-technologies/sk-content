@@ -4,7 +4,7 @@
   "route": "/generate-with-style-v2",
   "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
   "provenance": {
-    "license": "PixelLab output rights review required before promotion",
+    "license": "CC-BY-4.0",
     "source": "Selected from the character-portrait-v1 SRD class batch."
   },
   "selection": {

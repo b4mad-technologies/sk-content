@@ -4,7 +4,7 @@
   "prompt": "Ghost. Ghost. medium. undead. poison, necrotic. Full-body south-facing creature sprite, readable silhouette, one subject. Theme-neutral Spellkave pixel art: mid-contrast cream, charcoal, muted gold, forest, and rust. Selective outline, basic-to-medium shading, no gloss or bloom. Transparent background, no frame, no baked scenery, no letters, words, numerals, logo, watermark, photorealism, or D&D branding. Centered, native pixel size.",
   "style_pack": null,
   "provenance": {
-    "license": "LicenseRef-Spellkave-Proprietary",
+    "license": "CC-BY-4.0",
     "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts. Raw Pixen only: style_pack is omitted so the batch runner does not auto-apply entity-art-v1 reduce-colors."
   },
   "usage": {

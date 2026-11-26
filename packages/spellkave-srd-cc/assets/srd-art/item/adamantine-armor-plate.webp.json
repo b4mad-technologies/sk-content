@@ -8,7 +8,7 @@
   "overlay_sha256": "ccc7c944d91b356336aa1f1e27505e8b85e5220a061c5010888b5067d6625261",
   "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
   "provenance": {
-    "license": "PixelLab output rights review required before promotion",
+    "license": "CC-BY-4.0",
     "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
   },
   "usage": {

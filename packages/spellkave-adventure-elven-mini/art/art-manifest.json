@@ -5,7 +5,7 @@
 	"provider": "pixellab-pixen",
 	"output_root": "pixellab-generations/elven-mini-remaining-cast",
 	"provenance": {
-		"license": "LicenseRef-Spellkave-Proprietary",
+		"license": "CC-BY-4.0",
 		"source": "Elven Mini remaining cast and items (entity-art-v1 Pixen + reduce-colors)"
 	},
 	"entries": [
@@ -24,7 +24,7 @@
 			"target_attachment_ref": "entity:elven_mini/adventure/npc/aldwin_1#elven_mini.art.image",
 			"provider": "pixellab-pixen",
 			"sha256": "831f8c3fe93598d926b8e39ff91dd63119d624b9d2869dfe927cf7428400e0d8",
-			"license": "LicenseRef-Spellkave-Proprietary",
+			"license": "CC-BY-4.0",
 			"generated_at": "2026-09-02T09:34:33.374Z",
 			"blueprint": ".impeccable/mocks/pixellab/srd/character-aldwin-ledger-keeper.blueprint.json",
 			"notes": "Part-1 SRD world-art pilot (commit d4ca743d4, 2026-09-02). Sidecar records only prompt+createdAt; no generation id. Blueprint schema is spellkave-pixellab-blueprint/v1 under .impeccable/mocks/pixellab/srd (woven-v1 palette). Route not stamped; provider recorded as pixellab-pixen per sk-jay0.3.5.29 when unknown. Moved into this package in bf89bc85f."
@@ -44,7 +44,7 @@
 			"target_attachment_ref": "entity:elven_mini/adventure/innkeeper_1#elven_mini.art.image",
 			"provider": "pixellab-pixen",
 			"sha256": "ba1731beb9e8ddf703858b88d14adeee07fc7b2a6900deb23db82e4fcfa2e2d9",
-			"license": "LicenseRef-Spellkave-Proprietary",
+			"license": "CC-BY-4.0",
 			"generated_at": "2026-09-02T09:34:33.533Z",
 			"blueprint": ".impeccable/mocks/pixellab/srd/character-mira-innkeeper.blueprint.json",
 			"notes": "Part-1 SRD world-art pilot (commit d4ca743d4, 2026-09-02). Sidecar records only prompt+createdAt; no generation id. Blueprint schema is spellkave-pixellab-blueprint/v1 under .impeccable/mocks/pixellab/srd (woven-v1 palette). Route not stamped; provider recorded as pixellab-pixen per sk-jay0.3.5.29 when unknown. Moved into this package in bf89bc85f."
@@ -64,7 +64,7 @@
 			"target_attachment_ref": "entity:elven_mini/adventure/npc/caddoc_1#elven_mini.art.image",
 			"provider": "pixellab-pixen",
 			"sha256": "7b73ce460fe998aa53555be19ce8c9f3b04f07d685974ee423d5c78e4720bb63",
-			"license": "LicenseRef-Spellkave-Proprietary",
+			"license": "CC-BY-4.0",
 			"generated_at": "2026-09-02T09:34:33.418Z",
 			"blueprint": ".impeccable/mocks/pixellab/srd/character-brother-caddoc.blueprint.json",
 			"notes": "Part-1 SRD world-art pilot (commit d4ca743d4, 2026-09-02). Sidecar records only prompt+createdAt; no generation id. Blueprint schema is spellkave-pixellab-blueprint/v1 under .impeccable/mocks/pixellab/srd (woven-v1 palette). Route not stamped; provider recorded as pixellab-pixen per sk-jay0.3.5.29 when unknown. Moved into this package in bf89bc85f."
@@ -84,7 +84,7 @@
 			"target_attachment_ref": "entity:elven_mini/adventure/hero_1#elven_mini.art.image",
 			"provider": "pixellab-pixen",
 			"sha256": "4a04e4a5349b15ce7532c27457536f669935070fb859f6e0acffdeed83a9c7db",
-			"license": "LicenseRef-Spellkave-Proprietary",
+			"license": "CC-BY-4.0",
 			"generated_at": "2026-09-02T09:34:33.587Z",
 			"blueprint": ".impeccable/mocks/pixellab/srd/character-renn-roadwarden.blueprint.json",
 			"notes": "Part-1 SRD world-art pilot (commit d4ca743d4, 2026-09-02). Sidecar records only prompt+createdAt; no generation id. Blueprint schema is spellkave-pixellab-blueprint/v1 under .impeccable/mocks/pixellab/srd (woven-v1 palette). Route not stamped; provider recorded as pixellab-pixen per sk-jay0.3.5.29 when unknown. Moved into this package in bf89bc85f. Sprite is catalogued in art/index.ts; live elven_mini.art.image attachment on elven_mini/adventure/hero_1 was removed because that body is fixtures/reference/renn.toml only."
@@ -104,7 +104,7 @@
 			"target_attachment_ref": "entity_definition:srd/creature/giant-rat#elven_mini.art.image",
 			"provider": "pixellab-pixen",
 			"sha256": "9567ad51bef9e6c413b9d06a1716b1c715d25bcde30ce028a737d60e17b075c9",
-			"license": "LicenseRef-Spellkave-Proprietary",
+			"license": "CC-BY-4.0",
 			"generated_at": "2026-09-02T09:34:33.493Z",
 			"blueprint": ".impeccable/mocks/pixellab/srd/character-cellar-rat.blueprint.json",
 			"notes": "Part-1 SRD world-art pilot (commit d4ca743d4, 2026-09-02). Sidecar records only prompt+createdAt; no generation id. Blueprint schema is spellkave-pixellab-blueprint/v1 under .impeccable/mocks/pixellab/srd (woven-v1 palette). Route not stamped; provider recorded as pixellab-pixen per sk-jay0.3.5.29 when unknown. Moved into this package in bf89bc85f."
@@ -124,7 +124,7 @@
 			"target_attachment_ref": "entity_definition:srd/creature/swarm-of-rats#elven_mini.art.image",
 			"provider": "pixellab-pixen",
 			"sha256": "919a76e5f96206705ec47cd6d14f1878f44e70aabd4fa93fc8153d0ff456a697",
-			"license": "LicenseRef-Spellkave-Proprietary",
+			"license": "CC-BY-4.0",
 			"generated_at": "2026-09-02T09:34:33.456Z",
 			"blueprint": ".impeccable/mocks/pixellab/srd/character-cellar-rat-swarm.blueprint.json",
 			"notes": "Part-1 SRD world-art pilot (commit d4ca743d4, 2026-09-02). Sidecar records only prompt+createdAt; no generation id. Blueprint schema is spellkave-pixellab-blueprint/v1 under .impeccable/mocks/pixellab/srd (woven-v1 palette). Route not stamped; provider recorded as pixellab-pixen per sk-jay0.3.5.29 when unknown. Moved into this package in bf89bc85f."
@@ -144,7 +144,7 @@
 			"target_attachment_ref": "entity_definition:elven_mini/item/torch#elven_mini.art.image",
 			"provider": "pixellab-pixen",
 			"sha256": "adf95a1e1390ff713a2f64bd8c04b18debdeb07ccbe197acaad195ee63e4e749",
-			"license": "LicenseRef-Spellkave-Proprietary",
+			"license": "CC-BY-4.0",
 			"generated_at": "2026-09-02T09:34:33.861Z",
 			"blueprint": ".impeccable/mocks/pixellab/srd/item-torch.blueprint.json",
 			"notes": "Part-1 SRD world-art pilot (commit d4ca743d4, 2026-09-02). Sidecar records only prompt+createdAt; no generation id. Blueprint schema is spellkave-pixellab-blueprint/v1 under .impeccable/mocks/pixellab/srd (woven-v1 palette). Route not stamped; provider recorded as pixellab-pixen per sk-jay0.3.5.29 when unknown. Moved into this package in bf89bc85f."
@@ -164,7 +164,7 @@
 			"target_attachment_ref": "entity_definition:elven_mini/item/rations#elven_mini.art.image",
 			"provider": "pixellab-pixen",
 			"sha256": "34182a4c8087c1ce87e1cc07f0d65b91b2cb6311c2cce5e62baa341937ccc307",
-			"license": "LicenseRef-Spellkave-Proprietary",
+			"license": "CC-BY-4.0",
 			"generated_at": "2026-09-02T09:34:33.712Z",
 			"blueprint": ".impeccable/mocks/pixellab/srd/item-rations.blueprint.json",
 			"notes": "Part-1 SRD world-art pilot (commit d4ca743d4, 2026-09-02). Sidecar records only prompt+createdAt; no generation id. Blueprint schema is spellkave-pixellab-blueprint/v1 under .impeccable/mocks/pixellab/srd (woven-v1 palette). Route not stamped; provider recorded as pixellab-pixen per sk-jay0.3.5.29 when unknown. Moved into this package in bf89bc85f."
@@ -184,7 +184,7 @@
 			"target_attachment_ref": "entity_definition:srd/item/rope#elven_mini.art.image",
 			"provider": "pixellab-pixen",
 			"sha256": "f2a295e9c7e07d198dfd5405494898b8b7e7f70da6e74134e4d04fa665606fea",
-			"license": "LicenseRef-Spellkave-Proprietary",
+			"license": "CC-BY-4.0",
 			"generated_at": "2026-09-02T09:34:33.753Z",
 			"blueprint": ".impeccable/mocks/pixellab/srd/item-rope.blueprint.json",
 			"notes": "Part-1 SRD world-art pilot (commit d4ca743d4, 2026-09-02). Sidecar records only prompt+createdAt; no generation id. Blueprint schema is spellkave-pixellab-blueprint/v1 under .impeccable/mocks/pixellab/srd (woven-v1 palette). Route not stamped; provider recorded as pixellab-pixen per sk-jay0.3.5.29 when unknown. Moved into this package in bf89bc85f."
@@ -204,7 +204,7 @@
 			"target_attachment_ref": "entity_definition:srd/item/waterskin#elven_mini.art.image",
 			"provider": "pixellab-pixen",
 			"sha256": "f1391e2c46531d81413f1a476a4e06fa228ecc727c8fd431f70742047988b0b2",
-			"license": "LicenseRef-Spellkave-Proprietary",
+			"license": "CC-BY-4.0",
 			"generated_at": "2026-09-02T09:34:33.899Z",
 			"blueprint": ".impeccable/mocks/pixellab/srd/item-waterskin.blueprint.json",
 			"notes": "Part-1 SRD world-art pilot (commit d4ca743d4, 2026-09-02). Sidecar records only prompt+createdAt; no generation id. Blueprint schema is spellkave-pixellab-blueprint/v1 under .impeccable/mocks/pixellab/srd (woven-v1 palette). Route not stamped; provider recorded as pixellab-pixen per sk-jay0.3.5.29 when unknown. Moved into this package in bf89bc85f."
@@ -224,7 +224,7 @@
 			"target_attachment_ref": "entity_definition:srd/weapon/shortsword#elven_mini.art.image",
 			"provider": "pixellab-pixen",
 			"sha256": "4acee6f5eae578596f30262c39a59aa22813ac7ce9622caa5068ba8472126b0e",
-			"license": "LicenseRef-Spellkave-Proprietary",
+			"license": "CC-BY-4.0",
 			"generated_at": "2026-09-02T09:34:33.825Z",
 			"blueprint": ".impeccable/mocks/pixellab/srd/item-shortsword.blueprint.json",
 			"notes": "Part-1 SRD world-art pilot (commit d4ca743d4, 2026-09-02). Sidecar records only prompt+createdAt; no generation id. Blueprint schema is spellkave-pixellab-blueprint/v1 under .impeccable/mocks/pixellab/srd (woven-v1 palette). Route not stamped; provider recorded as pixellab-pixen per sk-jay0.3.5.29 when unknown. Moved into this package in bf89bc85f."
@@ -244,7 +244,7 @@
 			"target_attachment_ref": "entity_definition:srd/armor/shield#elven_mini.art.image",
 			"provider": "pixellab-pixen",
 			"sha256": "be80212047cbc7a5271c936d9635306ffba8bcda00f30b148cd2539e2dd373df",
-			"license": "LicenseRef-Spellkave-Proprietary",
+			"license": "CC-BY-4.0",
 			"generated_at": "2026-09-02T09:34:33.789Z",
 			"blueprint": ".impeccable/mocks/pixellab/srd/item-shield.blueprint.json",
 			"notes": "Part-1 SRD world-art pilot (commit d4ca743d4, 2026-09-02). Sidecar records only prompt+createdAt; no generation id. Blueprint schema is spellkave-pixellab-blueprint/v1 under .impeccable/mocks/pixellab/srd (woven-v1 palette). Route not stamped; provider recorded as pixellab-pixen per sk-jay0.3.5.29 when unknown. Moved into this package in bf89bc85f."
@@ -264,7 +264,7 @@
 			"target_attachment_ref": "entity_definition:srd/item/potion-of-healing#elven_mini.art.image",
 			"provider": "pixellab-pixen",
 			"sha256": "7ea5e3addcf17febb0d8cb5b8287dd14ad1eee237ba62e729caaf442257afbfa",
-			"license": "LicenseRef-Spellkave-Proprietary",
+			"license": "CC-BY-4.0",
 			"generated_at": "2026-09-02T09:34:33.633Z",
 			"blueprint": ".impeccable/mocks/pixellab/srd/item-healing-potion.blueprint.json",
 			"notes": "Part-1 SRD world-art pilot (commit d4ca743d4, 2026-09-02). Sidecar records only prompt+createdAt; no generation id. Blueprint schema is spellkave-pixellab-blueprint/v1 under .impeccable/mocks/pixellab/srd (woven-v1 palette). Route not stamped; provider recorded as pixellab-pixen per sk-jay0.3.5.29 when unknown. Moved into this package in bf89bc85f."
@@ -284,7 +284,7 @@
 			"target_attachment_ref": "entity_definition:srd/item/lantern-hooded#elven_mini.art.image",
 			"provider": "pixellab-pixen",
 			"sha256": "8a06e3f0a38605effbe625613d605a57c793f445cfb94315182e802af9485c5b",
-			"license": "LicenseRef-Spellkave-Proprietary",
+			"license": "CC-BY-4.0",
 			"generated_at": "2026-09-02T09:34:33.672Z",
 			"blueprint": ".impeccable/mocks/pixellab/srd/item-lantern.blueprint.json",
 			"notes": "Part-1 SRD world-art pilot (commit d4ca743d4, 2026-09-02). Sidecar records only prompt+createdAt; no generation id. Blueprint schema is spellkave-pixellab-blueprint/v1 under .impeccable/mocks/pixellab/srd (woven-v1 palette). Route not stamped; provider recorded as pixellab-pixen per sk-jay0.3.5.29 when unknown. Moved into this package in bf89bc85f."

@@ -4,7 +4,7 @@
   "prompt": "Dwarf adventurer. short stout dwarf with a long braided beard and broad shoulders. One full-body south-facing humanoid adventurer standing upright with ordinary adventurer proportions, plain cream tunic, brown belt and boots, forest-green travel cloak, empty hands, no weapon. Show the people through body shape, face, ears, skin, and hair; do not invent heraldry. Not a monster, no hunched pose, no face close-up, scene, companions, letters, logos, or watermarks. Theme-neutral Spellkave pixel art: mid-contrast cream, charcoal, muted gold, forest, and rust. Selective outline, basic-to-medium shading, no gloss or bloom. Transparent background, no frame, no baked scenery, no letters, words, numerals, logo, watermark, photorealism, or D&D branding. Centered, native pixel size.",
   "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
   "provenance": {
-    "license": "PixelLab output rights review required before promotion",
+    "license": "CC-BY-4.0",
     "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
   },
   "usage": {

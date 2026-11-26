@@ -1,14 +1,15 @@
-# SRD catalog sprites
+# SRD catalogue sprites
 
-PixelLab Pixen stills (entity-art-v1 pack, reduce-colors onto the pack
-palette). Sidecars next to each `.webp` record prompt, seed, and hashes.
-The included `LICENSE` is the repository proprietary license; authored
-payloads use `LicenseRef-Spellkave-Proprietary`.
+PixelLab Pixen stills (entity-art-v1 pack, colours reduced onto the pack
+palette), plus composites of a base sprite and a badge for named magic
+weapon and armour variants. The sidecar next to each `.webp` records the
+prompt, seed or overlay inputs, and hashes. The images are licensed under
+CC BY 4.0; see [LICENSE](LICENSE).
 
-SRD 5.2.1 names and rules text remain CC-BY-4.0 (Wizards of the Coast);
+The SRD 5.2.1 names and rules text remain CC BY 4.0 (Wizards of the Coast);
 these sprites are not Wizards material.
 
-Generate via `pnpm --filter @spellkave/srd-cc run art-manifest` then
-`just pixellab-live art-batch packages/spellkave-srd-cc/art/art-manifest.json --confirm-paid`.
-Named magic weapon/armor variants wait for overlay compose (sk-jay0.3.5.24)
-and are listed in `art/art-manifest.json` `skipped_entries`.
+`src/art/generate.ts` turns the sidecars into the
+`fixtures/base/playing-the-game/srd-art.toml` attachments. The batch list is
+`../../art/art-manifest.json` (`pnpm --filter @spellkave/srd-cc run
+art-manifest`). The paid generation runner is not part of this repository.

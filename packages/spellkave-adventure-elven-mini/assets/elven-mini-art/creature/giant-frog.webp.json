@@ -4,7 +4,7 @@
 	"prompt": "Giant Frog. Giant frog full-body, no lily pad, no water, no scenery, one frog only.. Full-body south-facing creature sprite, readable silhouette, one subject. Theme-neutral Spellkave pixel art: mid-contrast cream, charcoal, muted gold, forest, and rust. Selective outline, basic-to-medium shading, no gloss or bloom. Transparent background, no frame, no baked scenery, no letters, words, numerals, logo, watermark, photorealism, or D&D branding. Centered, native pixel size.",
 	"style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
 	"provenance": {
-		"license": "LicenseRef-Spellkave-Proprietary",
+		"license": "CC-BY-4.0",
 		"source": "Elven Mini remaining cast and items (entity-art-v1 Pixen + reduce-colors)"
 	},
 	"usage": {

@@ -10,7 +10,7 @@
 	},
 	"output_root": "packages/spellkave-srd-cc/art",
 	"provenance": {
-		"license": "PixelLab output rights review required before promotion",
+		"license": "CC-BY-4.0",
 		"source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
 	},
 	"matrix": {
