@@ -76,6 +76,7 @@ tag = "srd.damage_type.fire"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A tame ember blooms above the caster’s palm, its amber pulse pushing back the hush of moonless paths and buried halls. Though it warms nothing, it paints nearby faces in restless gold. At a gesture, the little flame can leap free like a firefly turned hunter, streaking toward a distant foe in a brief, furious arc."
 display_name = "Produce Flame"
 entity_def_id = "srd/spell/produce-flame"
 grants_capability_while_equipped = ""
@@ -102,7 +103,7 @@ target_ref = "srd/spell/produce-flame"
 action_id = "srd/spell/produce-flame/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Produce Flame — a spell action."
+description = "You cast the Produce Flame spell, creating or hurling magical fire as the spell allows."
 display_name = "Cast Produce Flame"
 non_steering = true
 on_failure = "srd/spell/produce-flame/cast/miss"

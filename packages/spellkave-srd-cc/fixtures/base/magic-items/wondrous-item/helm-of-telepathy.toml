@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A band of dark metal cradles the brow with an almost living warmth, its polished surface reflecting more than faces. Nearby thoughts gather at its edge like whispers behind a thin curtain, waiting to be noticed. In quiet moments, the helm seems to lean toward unspoken doubts, offering a gentle pressure that can turn a wavering mind."
 display_name = "Helm of Telepathy"
 entity_def_id = "srd/magic_item/helm-of-telepathy"
 grants_capability_while_equipped = ""

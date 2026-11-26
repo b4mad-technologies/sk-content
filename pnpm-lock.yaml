@@ -50,6 +50,16 @@ importers:
       tsx:
         specifier: ^4.19.2
         version: 4.23.15
+    devDependencies:
+      '@spellkave/session':
+        specifier: 0.1.2
+        version: 0.1.2(typebox@1.1.38)
+      '@spellkave/tool-runtime':
+        specifier: 0.1.2
+        version: 0.1.2
+      esbuild:
+        specifier: 0.28.2
+        version: 0.28.2
 
   packages/spellkave-adventure-runtime:
     dependencies:
@@ -101,6 +111,16 @@ importers:
       tsx:
         specifier: ^4.19.2
         version: 4.23.15
+    devDependencies:
+      '@spellkave/sdk':
+        specifier: 0.1.2
+        version: 0.1.2
+      '@spellkave/session':
+        specifier: 0.1.2
+        version: 0.1.2(typebox@1.1.38)
+      '@spellkave/tool-runtime':
+        specifier: 0.1.2
+        version: 0.1.2
 
 packages:
 

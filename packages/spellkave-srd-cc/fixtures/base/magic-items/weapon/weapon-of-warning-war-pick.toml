@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The pick’s dark steel seems to hum against the palm whenever danger gathers nearby. Even in deepest sleep, its haft grows faintly warm, like a hand closing around a waking bell. Companions who rest near it often rise already alert, hearts racing before the first hostile footfall sounds."
 display_name = "Weapon of Warning (War Pick)"
 entity_def_id = "srd/magic_item/weapon-of-warning-war-pick"
 grants_capability_while_equipped = ""

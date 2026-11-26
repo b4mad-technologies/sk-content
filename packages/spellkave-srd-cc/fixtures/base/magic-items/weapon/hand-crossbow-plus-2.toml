@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Blackened yew and polished steel meet in a weapon that seems to hold its breath between shots. Its mechanism moves with an eerie, velvet-smooth certainty, and each drawn bolt finds the groove as though guided by an unseen hand. In lamplight, faint silver motes gather along the limbs before vanishing into the dark."
 display_name = "Hand Crossbow (+2)"
 entity_def_id = "srd/magic_item/hand-crossbow-plus-2"
 grants_capability_while_equipped = ""

@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "pixellab-pixen",
+  "prompt": "Dissonant Whispers. Jagged spiral of discordant sound waves bursting outward. Isolated spell glyph of the magical effect itself, one symbol, no caster, no creature, no scenery, no weapon, no letters, centered. Theme-neutral Spellkave pixel art: mid-contrast cream, charcoal, muted gold, forest, and rust. Selective outline, basic-to-medium shading, no gloss or bloom. Transparent background, no frame, no baked scenery, no letters, words, numerals, logo, watermark, photorealism, or D&D branding. Centered, native pixel size.",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 1.1
+  },
+  "generated_at": "2026-09-23T11:16:30.580Z",
+  "source_manifest": ".local/glyph-burn-art/manifest.json",
+  "sha256": "2b77b42dbd73f29512a7b920961dbfa77a822ee55c0275cb49bf440210c18167",
+  "target_attachment_ref": "srd/spell/dissonant-whispers#srd.art.image",
+  "kind": "spell",
+  "entry_id": "spell-dissonant-whispers",
+  "provider_ids": {
+    "api_base_url": "https://api.pixellab.ai/v2",
+    "route": "/create-image-pixen"
+  }
+}

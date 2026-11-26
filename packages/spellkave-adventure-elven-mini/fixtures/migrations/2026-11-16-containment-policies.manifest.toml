@@ -1,0 +1,47 @@
+#:schema https://spellkave.dev/schema/world-manifest-1.0.0.json
+schema_version = "1.0.0"
+
+[[containment_policy_definition]]
+access_predicate_source = "target.stat('elven_mini/adventure/loft-chest/open') == 1"
+bundle_id = "elven_mini"
+exposure_predicate_source = "target.stat('elven_mini/adventure/loft-chest/open') == 1"
+policy_id = "elven_mini/containment/loft-chest"
+
+[[containment_policy_definition]]
+access_predicate_source = "false == true"
+bundle_id = "elven_mini"
+exposure_predicate_source = "false == true"
+policy_id = "elven_mini/containment/sealed"
+
+[[entity_containment_policy]]
+bundle_id = "elven_mini"
+entity_key = "elven_mini/adventure/item/loft_chest_1"
+policy_id = "elven_mini/containment/loft-chest"
+
+[[entity_definition_containment_policy]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/candidate"
+policy_id = "srd/containment/corpse"
+
+[[entity_definition_containment_policy]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/rogue-companion"
+policy_id = "srd/containment/corpse"
+
+[[entity_definition_containment_policy]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/item/field_kit"
+policy_id = "srd/containment/open"
+
+[[entity_definition_containment_policy]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/item/rogue-field-kit"
+policy_id = "srd/containment/open"
+
+[[entity_definition_containment_policy]]
+bundle_id = "elven_mini"
+entity_def_id = "elven_mini/adventure/item/tomb_chest"
+policy_id = "elven_mini/containment/sealed"
+
+[metadata]
+bundle = "elven_mini"

@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its polished yew limbs seem to draw the light inward, holding a quiet gleam beneath the grain. When the string is pulled, the bow answers with a taut, eager hum, and each loosed arrow flies as though guided by a hunter’s oldest instinct."
 display_name = "Shortbow (+2)"
 entity_def_id = "srd/magic_item/shortbow-plus-2"
 grants_capability_while_equipped = ""

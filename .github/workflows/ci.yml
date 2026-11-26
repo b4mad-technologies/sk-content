@@ -1,0 +1,49 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: ['**']
+
+permissions:
+  contents: read
+
+env:
+  # sk-grimoire mechanics core fixture read by the Elven Mini generator and
+  # the offline tests. Bump the pin together with the regenerated fixtures.
+  SK_GRIMOIRE_REF: e639016aaecbb6af03359b2976b6511cd5289105
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          repository: b4mad-technologies/sk-grimoire
+          ref: ${{ env.SK_GRIMOIRE_REF }}
+          path: .ci/sk-grimoire
+          sparse-checkout: packages/spellkave-mechanics/fixtures/core
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 24.22.1
+          package-manager-cache: false
+      - name: Install dependencies
+        shell: bash
+        run: |
+          npm install --global pnpm@11.13.1
+          pnpm install --frozen-lockfile
+      - run: pnpm run typecheck
+      - name: Test
+        run: pnpm exec vitest run
+        env:
+          SPELLKAVE_CORE_FIXTURES: ${{ github.workspace }}/.ci/sk-grimoire/packages/spellkave-mechanics/fixtures/core
+      - name: Elven Mini fixtures match the generator
+        run: pnpm --filter @spellkave/adventure-elven-mini run author:check
+        env:
+          SPELLKAVE_CORE_FIXTURES: ${{ github.workspace }}/.ci/sk-grimoire/packages/spellkave-mechanics/fixtures/core
+      - run: pnpm run validate

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its long ash shaft hums faintly in the hush before danger, the iron head gathering a pale, watchful gleam. Campfires seem less warm beside it, as though the pike keeps one ear turned toward the dark beyond their light. At the first stir of violence, it shivers through sleeping hands and sends every nearby heart leaping awake."
 display_name = "Weapon of Warning (Pike)"
 entity_def_id = "srd/magic_item/weapon-of-warning-pike"
 grants_capability_while_equipped = ""

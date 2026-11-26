@@ -36,6 +36,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale stone circles slowly and leaves a faint smell of bread and clean water in the air by the mouth. Hunger arrives and then thinks better of it. The orbit is almost drowsy. Thirst, too, seems to misplace itself while the stone is up. A dry mouth finds the idea of a cup less urgent while the pale circle continues."
 display_name = "Ioun Stone (Sustenance)"
 entity_def_id = "srd/magic_item/ioun-stone-sustenance"
 grants_capability_while_equipped = ""

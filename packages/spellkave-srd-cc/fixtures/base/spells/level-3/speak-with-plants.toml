@@ -84,6 +84,7 @@ tag = "srd.spell.list.ranger"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush passes through root and reed, and the green world stirs with borrowed awareness. Leaves recall the weight of recent footsteps, vines curl toward old disturbances, and weathered bark offers its quiet witness. At a murmured urging, brambles may part like courteous curtains—or knit themselves into a living barrier."
 display_name = "Speak with Plants"
 entity_def_id = "srd/spell/speak-with-plants"
 grants_capability_while_equipped = ""

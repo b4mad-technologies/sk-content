@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its iron beak is dark as a moonless well, etched with tiny tally marks that seem to shift when no one watches. In battle, the pick lands with a dreadful certainty, and the air around its head briefly chills as though some unseen hunter has drawn near. Those who carry it often dream of doors closing softly in distant halls."
 display_name = "Nine Lives Stealer (War Pick)"
 entity_def_id = "srd/magic_item/nine-lives-stealer-war-pick"
 grants_capability_while_equipped = ""

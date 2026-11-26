@@ -84,6 +84,7 @@ tag = "srd.spell.list.druid"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A patient hush settles over fur, bark, and leaf as a hidden spark kindles behind unfamiliar eyes. Roots loosen from old earth, branches turn like thoughtful hands, and a once-simple creature discovers the weight of names, memories, and choice. When the magic fades, the world has gained another voice—one free to decide what it owes its maker."
 display_name = "Awaken"
 entity_def_id = "srd/spell/awaken"
 grants_capability_while_equipped = ""

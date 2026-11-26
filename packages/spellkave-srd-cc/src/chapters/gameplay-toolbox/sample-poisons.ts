@@ -4,7 +4,7 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
 import type { AuthorTarget } from "@spellkave/tool-authoring";
-import { FLAVOR_ROOT, readFlavorFile, readGearFlavor } from "../../flavor/read";
+import { FLAVOR_ROOT, parseFlavorMarkdown, readGearFlavor } from "../../flavor/read";
 import { CACHE_MARKDOWN_DIR } from "../../markdown/paths.ts";
 import {
 	markdownHeadingBlock,
@@ -78,7 +78,7 @@ function deliveryAfter(section: string, heading: string): Delivery {
 
 function tagFlavor(tag: string): string {
 	const file = path.join(FLAVOR_ROOT, "en", "tags", `${tag.replaceAll(".", "-")}.md`);
-	return readFlavorFile(file).body;
+	return parseFlavorMarkdown(readFileSync(file, "utf8"), file).body;
 }
 
 export function samplePoisonTagUnits(): Array<{

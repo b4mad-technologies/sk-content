@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A slender vial of pale green liquid clicks against its neighbors, the glass cool and slightly oily. The smell is bitter herbs and clean alcohol, the sort of draught a field chirurgeon trusts when the air has gone wrong. The wax cap yields with a soft crack. The vial is stoppered twice, as if the first seal were a rumor."
 display_name = "Antitoxin"
 entity_def_id = "srd/item/antitoxin"
 grants_capability_while_equipped = ""

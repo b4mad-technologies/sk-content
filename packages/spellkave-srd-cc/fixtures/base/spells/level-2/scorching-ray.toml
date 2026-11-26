@@ -83,6 +83,7 @@ tag = "srd.damage_type.fire"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "With a sharp gesture, the air splits into streaks of white-hot flame, each leaving a bitter tang of ash and hot metal behind. The bolts dart like hunting sparks, converging on a single foe or scattering across the fray. For an instant, the battlefield gleams in furnace-light."
 display_name = "Scorching Ray"
 entity_def_id = "srd/spell/scorching-ray"
 grants_capability_while_equipped = ""
@@ -109,7 +110,7 @@ target_ref = "srd/spell/scorching-ray"
 action_id = "srd/spell/scorching-ray/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Scorching Ray — a spell action."
+description = "You cast Scorching Ray to hurl several rays of fire at creatures you can see, making a spell attack for each ray."
 display_name = "Cast Scorching Ray"
 non_steering = true
 on_failure = ""

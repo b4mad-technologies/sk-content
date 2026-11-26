@@ -15,7 +15,7 @@
 action_id = "srd/creature/animated-armor/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Animated Armor's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Slam (to-hit +4, 1d6 + 2 bludgeoning); Slam (to-hit +4, 1d6 + 2 bludgeoning). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two Slam attacks. Resolve each attack separately; one miss does not prevent the other attack."
 display_name = "Animated Armor — Multiattack"
 non_steering = true
 on_failure = ""
@@ -33,7 +33,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/ankheg/action/acid-spray"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Ankheg's Acid Spray: DC 12 dexterity saving throw in AoE, dealing 4d6 acid damage (half on success)."
+description = "You spray acid in an area. Creatures there make a Dexterity saving throw, taking acid damage on a failure or half as much on a success."
 display_name = "Ankheg — Acid Spray"
 non_steering = true
 on_failure = ""
@@ -51,7 +51,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/ankylosaurus/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Ankylosaurus's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Tail (to-hit +6, 1d10 + 4 bludgeoning); Tail (to-hit +6, 1d10 + 4 bludgeoning). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two tail attacks, resolving each attack and its damage separately."
 display_name = "Ankylosaurus — Multiattack"
 non_steering = true
 on_failure = ""
@@ -69,7 +69,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/ape/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Ape's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Fist (to-hit +5, 1d4 + 3 bludgeoning); Fist (to-hit +5, 1d4 + 3 bludgeoning). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two fist attacks. Resolve each attack separately; one miss does not prevent the other attack."
 display_name = "Ape — Multiattack"
 non_steering = true
 on_failure = ""
@@ -87,7 +87,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/archelon/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Archelon's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Bite (to-hit +6, 3d6 + 4 piercing); Bite (to-hit +6, 3d6 + 4 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two Bite attacks. Resolve each attack separately; one miss does not prevent the other attack."
 display_name = "Archelon — Multiattack"
 non_steering = true
 on_failure = ""
@@ -105,7 +105,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/awakened-shrub/action/rake"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Awakened Shrub's Rake: 1 independently-rolled attack ordinal(s) in one act call — Rake (to-hit +1, 1 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You rake at a target, making one attack roll. On a hit, you deal slashing damage."
 display_name = "Awakened Shrub — Rake"
 non_steering = true
 on_failure = ""
@@ -123,7 +123,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/baboon/action/bite"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Baboon's Bite: 1 independently-rolled attack ordinal(s) in one act call — Bite (to-hit +1, 1d4 + 1 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "Make a biting attack with a modest attack bonus. On a hit, you deal piercing damage; if you make multiple bites, resolve each attack separately."
 display_name = "Baboon — Bite"
 non_steering = true
 on_failure = ""
@@ -141,7 +141,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/badger/action/bite"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Badger's Bite: 1 independently-rolled attack ordinal(s) in one act call — Bite (to-hit +2, 1 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "Make one bite attack against a target. On a hit, it deals piercing damage."
 display_name = "Badger — Bite"
 non_steering = true
 on_failure = ""
@@ -159,7 +159,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/bandit-captain/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Bandit Captain's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Scimitar (to-hit +5, 1d6 + 3 slashing); Scimitar (to-hit +5, 1d6 + 3 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two scimitar attacks as part of the same action. Resolve each attack separately, even if the other misses."
 display_name = "Bandit Captain — Multiattack"
 non_steering = true
 on_failure = ""
@@ -177,7 +177,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/bat/action/bite"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Bat's Bite: 1 independently-rolled attack ordinal(s) in one act call — Bite (to-hit +4, 1 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make one Bite attack with a +4 attack bonus. On a hit, it deals 1 piercing damage."
 display_name = "Bat — Bite"
 non_steering = true
 on_failure = ""
@@ -195,7 +195,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/bearded-devil/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Bearded Devil's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Beard (to-hit +5, 1d8 + 3 piercing); Infernal Glaive (to-hit +5, 1d10 + 3 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two attacks: one with your beard and one with your infernal glaive. Resolve each attack separately, even if the other misses."
 display_name = "Bearded Devil — Multiattack"
 non_steering = true
 on_failure = ""
@@ -213,7 +213,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/black-bear/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Black Bear's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Rend (to-hit +4, 1d6 + 2 slashing); Rend (to-hit +4, 1d6 + 2 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two Rend attacks. Resolve each attack separately; a miss with one does not prevent the other."
 display_name = "Black Bear — Multiattack"
 non_steering = true
 on_failure = ""
@@ -231,7 +231,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/black-dragon-wyrmling/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Black Dragon Wyrmling's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Rend (to-hit +4, 1d6 + 2 slashing); Rend (to-hit +4, 1d6 + 2 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two Rend attacks, resolving each attack separately. A miss with one does not prevent the other."
 display_name = "Black Dragon Wyrmling — Multiattack"
 non_steering = true
 on_failure = ""
@@ -249,7 +249,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/black-dragon-wyrmling/action/acid-breath"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Black Dragon Wyrmling's Acid Breath: DC 11 dexterity saving throw in AoE, dealing 5d8 acid damage (half on success)."
+description = "You exhale a line of acid. Creatures in the area make a Dexterity saving throw, taking acid damage on a failure or half as much on a success."
 display_name = "Black Dragon Wyrmling — Acid Breath"
 non_steering = true
 on_failure = ""
@@ -267,7 +267,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/blue-dragon-wyrmling/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Blue Dragon Wyrmling's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Rend (to-hit +5, 1d10 + 3 slashing); Rend (to-hit +5, 1d10 + 3 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two Rend attacks. Resolve each attack separately; a miss with one does not prevent the other."
 display_name = "Blue Dragon Wyrmling — Multiattack"
 non_steering = true
 on_failure = ""
@@ -285,7 +285,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/blue-dragon-wyrmling/action/lightning-breath"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Blue Dragon Wyrmling's Lightning Breath: DC 12 dexterity saving throw in AoE, dealing 6d6 lightning damage (half on success)."
+description = "You exhale lightning in an area. Creatures there make a Dexterity saving throw, taking lightning damage on a failure or half as much on a success."
 display_name = "Blue Dragon Wyrmling — Lightning Breath"
 non_steering = true
 on_failure = ""
@@ -303,7 +303,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/brass-dragon-wyrmling/action/fire-breath"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Brass Dragon Wyrmling's Fire Breath: DC 11 dexterity saving throw in AoE, dealing 4d6 fire damage (half on success)."
+description = "You exhale fire in an area. Creatures there make a Dexterity saving throw, taking fire damage on a failure or half as much on a success."
 display_name = "Brass Dragon Wyrmling — Fire Breath"
 non_steering = true
 on_failure = ""
@@ -321,7 +321,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/bronze-dragon-wyrmling/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Bronze Dragon Wyrmling's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Rend (to-hit +5, 1d10 + 3 slashing); Rend (to-hit +5, 1d10 + 3 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two Rend attacks, resolving each separately. A miss with one attack does not prevent the other."
 display_name = "Bronze Dragon Wyrmling — Multiattack"
 non_steering = true
 on_failure = ""
@@ -339,7 +339,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/bronze-dragon-wyrmling/action/lightning-breath"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Bronze Dragon Wyrmling's Lightning Breath: DC 12 dexterity saving throw in AoE, dealing 3d10 lightning damage (half on success)."
+description = "You exhale lightning in an area. Creatures there make a Dexterity saving throw, taking lightning damage on a failure or half as much on a success."
 display_name = "Bronze Dragon Wyrmling — Lightning Breath"
 non_steering = true
 on_failure = ""
@@ -357,7 +357,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/brown-bear/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Brown Bear's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Bite (to-hit +5, 1d8 + 3 piercing); Claw (to-hit +5, 1d4 + 3 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two attacks: one with your bite and one with your claws. Resolve each attack separately, even if the other misses."
 display_name = "Brown Bear — Multiattack"
 non_steering = true
 on_failure = ""
@@ -375,7 +375,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/bugbear-stalker/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Bugbear Stalker's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Javelin (to-hit +5, 3d6 + 3 piercing); Javelin (to-hit +5, 3d6 + 3 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two javelin attacks, rolling each attack separately. A miss with one does not prevent the other."
 display_name = "Bugbear Stalker — Multiattack"
 non_steering = true
 on_failure = ""
@@ -393,7 +393,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/cat/action/scratch"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Cat's Scratch: 1 independently-rolled attack ordinal(s) in one act call — Scratch (to-hit +4, 1 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make a melee attack with your claws. On a hit, the target takes slashing damage."
 display_name = "Cat — Scratch"
 non_steering = true
 on_failure = ""
@@ -411,7 +411,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/centaur-trooper/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Centaur Trooper's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Pike (to-hit +6, 1d10 + 4 piercing); Pike (to-hit +6, 1d10 + 4 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two pike attacks, rolling each attack separately. A miss with one pike does not prevent the other attack."
 display_name = "Centaur Trooper — Multiattack"
 non_steering = true
 on_failure = ""
@@ -429,7 +429,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/chuul/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Chuul's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Pincer (to-hit +6, 1d10 + 4 bludgeoning); Pincer (to-hit +6, 1d10 + 4 bludgeoning). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two pincer attacks. Each attack is resolved separately, and one miss does not prevent the other."
 display_name = "Chuul — Multiattack"
 non_steering = true
 on_failure = ""
@@ -447,7 +447,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/copper-dragon-wyrmling/action/acid-breath"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Copper Dragon Wyrmling's Acid Breath: DC 11 dexterity saving throw in AoE, dealing 4d8 acid damage (half on success)."
+description = "You exhale acid in an area. Creatures there make a Dexterity saving throw, taking acid damage or half as much on a success."
 display_name = "Copper Dragon Wyrmling — Acid Breath"
 non_steering = true
 on_failure = ""
@@ -465,7 +465,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/crab/action/claw"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Crab's Claw: 1 independently-rolled attack ordinal(s) in one act call — Claw (to-hit +2, 1 bludgeoning). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "Make one Claw attack against a target. On a hit, it deals bludgeoning damage."
 display_name = "Crab — Claw"
 non_steering = true
 on_failure = ""
@@ -483,7 +483,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/death-dog/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Death Dog's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Bite (to-hit +4, 1d4 + 2 piercing); Bite (to-hit +4, 1d4 + 2 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two Bite attacks, rolling each attack separately. A miss with one Bite does not prevent the other."
 display_name = "Death Dog — Multiattack"
 non_steering = true
 on_failure = ""
@@ -501,7 +501,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/doppelganger/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Doppelganger's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Slam (to-hit +6, 2d6 + 4 bludgeoning); Slam (to-hit +6, 2d6 + 4 bludgeoning). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two Slam attacks. Resolve each attack separately; one miss does not prevent the other attack."
 display_name = "Doppelganger — Multiattack"
 non_steering = true
 on_failure = ""
@@ -519,7 +519,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/druid/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Druid's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Vine Staff (to-hit +5, 1d8 + 3 bludgeoning); Vine Staff (to-hit +5, 1d8 + 3 bludgeoning). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two Vine Staff attacks as part of the same action. Resolve each attack separately, and one miss does not prevent the other attack."
 display_name = "Druid — Multiattack"
 non_steering = true
 on_failure = ""
@@ -537,7 +537,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/dryad/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Dryad's Multiattack: 1 independently-rolled attack ordinal(s) in one act call — Vine Lash (to-hit +6, 1d8 + 4 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make one Vine Lash attack."
 display_name = "Dryad — Multiattack"
 non_steering = true
 on_failure = ""
@@ -555,7 +555,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/elephant/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Elephant's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Gore (to-hit +8, 2d8 + 6 piercing); Gore (to-hit +8, 2d8 + 6 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two gore attacks. Resolve each attack separately; a miss with one does not prevent the other."
 display_name = "Elephant — Multiattack"
 non_steering = true
 on_failure = ""
@@ -573,7 +573,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/ettercap/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Ettercap's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Bite (to-hit +4, 1d6 + 2 piercing); Claw (to-hit +4, 2d4 + 2 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two attacks: one with your bite and one with your claws. Resolve each attack separately, even if the other misses."
 display_name = "Ettercap — Multiattack"
 non_steering = true
 on_failure = ""
@@ -591,7 +591,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/ettin/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Ettin's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Battleaxe (to-hit +7, 2d8 + 5 slashing); Morningstar (to-hit +7, 2d8 + 5 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two weapon attacks, one with a battleaxe and one with a morningstar. Resolve each attack separately; one miss does not prevent the other attack."
 display_name = "Ettin — Multiattack"
 non_steering = true
 on_failure = ""
@@ -609,7 +609,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/flying-snake/action/bite"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Flying Snake's Bite: 1 independently-rolled attack ordinal(s) in one act call — Bite (to-hit +4, 1 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make one Bite attack with a +4 bonus to hit. On a hit, it deals 1 piercing damage."
 display_name = "Flying Snake — Bite"
 non_steering = true
 on_failure = ""
@@ -627,7 +627,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/frog/action/bite"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Frog's Bite: 1 independently-rolled attack ordinal(s) in one act call — Bite (to-hit +3, 1 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make a bite attack with a +3 bonus to hit. On a hit, it deals 1 piercing damage."
 display_name = "Frog — Bite"
 non_steering = true
 on_failure = ""
@@ -645,7 +645,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/gargoyle/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Gargoyle's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Claw (to-hit +4, 2d4 + 2 slashing); Claw (to-hit +4, 2d4 + 2 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two claw attacks. Resolve each attack separately; one miss does not prevent the other attack."
 display_name = "Gargoyle — Multiattack"
 non_steering = true
 on_failure = ""
@@ -663,7 +663,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/ghost/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Ghost's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Withering Touch (to-hit +5, 3d10 + 3 necrotic); Withering Touch (to-hit +5, 3d10 + 3 necrotic). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two Withering Touch attacks. Resolve each attack separately; a miss with one does not prevent the other."
 display_name = "Ghost — Multiattack"
 non_steering = true
 on_failure = ""
@@ -681,7 +681,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/ghost/action/horrific-visage"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Ghost's Horrific Visage: DC 13 wisdom saving throw in AoE, dealing 2d6 + 3 psychic damage."
+description = "You unleash a terrifying apparition in an area. Creatures caught in it make a Wisdom save, taking psychic damage on a failed save."
 display_name = "Ghost — Horrific Visage"
 non_steering = true
 on_failure = ""
@@ -699,7 +699,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/ghoul/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Ghoul's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Bite (to-hit +4, 1d6 + 2 piercing); Bite (to-hit +4, 1d6 + 2 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two bite attacks. Resolve each attack separately; a miss with one does not stop the other."
 display_name = "Ghoul — Multiattack"
 non_steering = true
 on_failure = ""
@@ -717,7 +717,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/giant-constrictor-snake/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Giant Constrictor Snake's Multiattack: 1 independently-rolled attack ordinal(s) in one act call — Bite (to-hit +6, 2d6 + 4 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make one Bite attack. It uses your listed attack bonus and deals piercing damage on a hit."
 display_name = "Giant Constrictor Snake — Multiattack"
 non_steering = true
 on_failure = ""
@@ -735,7 +735,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/giant-eagle/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Giant Eagle's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Rend (to-hit +5, 1d4 + 3 slashing); Rend (to-hit +5, 1d4 + 3 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two Rend attacks. Resolve each attack separately; one miss does not prevent the other attack."
 display_name = "Giant Eagle — Multiattack"
 non_steering = true
 on_failure = ""
@@ -753,7 +753,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/giant-fire-beetle/action/bite"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Giant Fire Beetle's Bite: 1 independently-rolled attack ordinal(s) in one act call — Bite (to-hit +1, 1 fire). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make a bite attack against one target. On a hit, it deals fire damage."
 display_name = "Giant Fire Beetle — Bite"
 non_steering = true
 on_failure = ""
@@ -771,7 +771,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/giant-frog/action/bite"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Giant Frog's Bite: 1 independently-rolled attack ordinal(s) in one act call — Bite (to-hit +3, 1d6 + 2 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make a bite attack against a target, adding your attack bonus to the roll. On a hit, the target takes piercing damage."
 display_name = "Giant Frog — Bite"
 non_steering = true
 on_failure = ""
@@ -789,7 +789,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/giant-scorpion/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Giant Scorpion's Multiattack: 3 independently-rolled attack ordinal(s) in one act call — Claw (to-hit +5, 1d6 + 3 bludgeoning); Claw (to-hit +5, 1d6 + 3 bludgeoning); Sting (to-hit +5, 1d8 + 3 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two claw attacks and one sting attack. Roll each attack separately; a miss with one does not prevent the others."
 display_name = "Giant Scorpion — Multiattack"
 non_steering = true
 on_failure = ""
@@ -807,7 +807,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/gibbering-mouther/action/blinding-spittle"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Gibbering Mouther's Blinding Spittle: DC 10 dexterity saving throw in AoE, dealing 2d6 radiant damage."
+description = "You spray blinding spittle over an area. Creatures there make a Dexterity saving throw, taking radiant damage on a failed save."
 display_name = "Gibbering Mouther — Blinding Spittle"
 non_steering = true
 on_failure = ""
@@ -825,7 +825,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/goat/action/ram"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Goat's Ram: 1 independently-rolled attack ordinal(s) in one act call — Ram (to-hit +2, 1 bludgeoning). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make a Ram attack against a target. On a hit, it takes bludgeoning damage."
 display_name = "Goat — Ram"
 non_steering = true
 on_failure = ""
@@ -843,7 +843,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/goblin-boss/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Goblin Boss's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Scimitar (to-hit +4, 1d6 + 2 slashing); Scimitar (to-hit +4, 1d6 + 2 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two scimitar attacks. Resolve each attack separately; one miss does not prevent the other attack."
 display_name = "Goblin Boss — Multiattack"
 non_steering = true
 on_failure = ""
@@ -861,7 +861,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/gold-dragon-wyrmling/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Gold Dragon Wyrmling's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Rend (to-hit +6, 1d10 + 4 slashing); Rend (to-hit +6, 1d10 + 4 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two Rend attacks, resolving each one separately. A miss with one Rend does not affect the other."
 display_name = "Gold Dragon Wyrmling — Multiattack"
 non_steering = true
 on_failure = ""
@@ -879,7 +879,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/gold-dragon-wyrmling/action/fire-breath"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Gold Dragon Wyrmling's Fire Breath: DC 13 dexterity saving throw in AoE, dealing 4d10 fire damage (half on success)."
+description = "You exhale fire in an area. Creatures there make a Dexterity saving throw, taking fire damage on a failure or half as much on a success."
 display_name = "Gold Dragon Wyrmling — Fire Breath"
 non_steering = true
 on_failure = ""
@@ -897,7 +897,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/green-dragon-wyrmling/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Green Dragon Wyrmling's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Rend (to-hit +4, 1d10 + 2 slashing); Rend (to-hit +4, 1d10 + 2 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two Rend attacks. Resolve each attack separately; a miss with one does not prevent the other."
 display_name = "Green Dragon Wyrmling — Multiattack"
 non_steering = true
 on_failure = ""
@@ -915,7 +915,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/green-dragon-wyrmling/action/poison-breath"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Green Dragon Wyrmling's Poison Breath: DC 11 constitution saving throw in AoE, dealing 6d6 poison damage (half on success)."
+description = "You exhale poisonous gas in an area. Each creature there makes a Constitution saving throw, taking poison damage on a failure or half as much on a success."
 display_name = "Green Dragon Wyrmling — Poison Breath"
 non_steering = true
 on_failure = ""
@@ -933,7 +933,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/green-hag/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Green Hag's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Claw (to-hit +6, 1d8 + 4 slashing); Claw (to-hit +6, 1d8 + 4 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two claw attacks. Resolve each attack separately; one miss does not prevent the other."
 display_name = "Green Hag — Multiattack"
 non_steering = true
 on_failure = ""
@@ -951,7 +951,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/grick/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Grick's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Beak (to-hit +4, 2d6 + 2 piercing); Tentacles (to-hit +4, 1d10 + 2 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two attacks: one with your beak and one with your tentacles. Resolve each attack separately, whether or not the other hits."
 display_name = "Grick — Multiattack"
 non_steering = true
 on_failure = ""
@@ -969,7 +969,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/griffon/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Griffon's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Rend (to-hit +6, 1d8 + 4 piercing); Rend (to-hit +6, 1d8 + 4 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two Rend attacks, rolling each attack separately. A miss with one does not prevent the other."
 display_name = "Griffon — Multiattack"
 non_steering = true
 on_failure = ""
@@ -987,7 +987,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/guard-captain/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Guard Captain's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Javelin (to-hit +6, 3d6 + 4 piercing); Javelin (to-hit +6, 3d6 + 4 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two javelin attacks. Resolve each attack separately; one miss does not prevent the other attack."
 display_name = "Guard Captain — Multiattack"
 non_steering = true
 on_failure = ""
@@ -1005,7 +1005,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/hawk/action/talons"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Hawk's Talons: 1 independently-rolled attack ordinal(s) in one act call — Talons (to-hit +5, 1 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make a talon attack against a target. If you can make more than one attack, resolve each one separately."
 display_name = "Hawk — Talons"
 non_steering = true
 on_failure = ""
@@ -1023,7 +1023,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/hell-hound/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Hell Hound's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Bite (to-hit +5, 1d8 + 3 piercing); Bite (to-hit +5, 1d8 + 3 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two Bite attacks, resolving each one separately. A miss with one Bite does not prevent the other."
 display_name = "Hell Hound — Multiattack"
 non_steering = true
 on_failure = ""
@@ -1041,7 +1041,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/hell-hound/action/fire-breath"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Hell Hound's Fire Breath: DC 12 dexterity saving throw in AoE, dealing 5d6 fire damage (half on success)."
+description = "You exhale fire in an area. Each creature there makes a Dexterity saving throw, taking fire damage on a failure or half as much on a success."
 display_name = "Hell Hound — Fire Breath"
 non_steering = true
 on_failure = ""
@@ -1059,7 +1059,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/hippogriff/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Hippogriff's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Rend (to-hit +5, 1d8 + 3 slashing); Rend (to-hit +5, 1d8 + 3 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two Rend attacks, rolling each attack separately. A miss with one does not prevent the other."
 display_name = "Hippogriff — Multiattack"
 non_steering = true
 on_failure = ""
@@ -1077,7 +1077,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/hippopotamus/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Hippopotamus's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Bite (to-hit +7, 2d10 + 5 piercing); Bite (to-hit +7, 2d10 + 5 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two Bite attacks, resolving each separately. A miss with one Bite does not prevent the other."
 display_name = "Hippopotamus — Multiattack"
 non_steering = true
 on_failure = ""
@@ -1095,7 +1095,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/hobgoblin-captain/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Hobgoblin Captain's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Greatsword (to-hit +4, 2d6 + 2 slashing); Greatsword (to-hit +4, 2d6 + 2 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two greatsword attacks. Resolve each attack separately, even if the other misses."
 display_name = "Hobgoblin Captain — Multiattack"
 non_steering = true
 on_failure = ""
@@ -1113,7 +1113,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/homunculus/action/bite"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Homunculus's Bite: 1 independently-rolled attack ordinal(s) in one act call — Bite (to-hit +4, 1 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "Make a bite attack against one target. On a hit, it deals piercing damage."
 display_name = "Homunculus — Bite"
 non_steering = true
 on_failure = ""
@@ -1131,7 +1131,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/ice-mephit/action/frost-breath"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Ice Mephit's Frost Breath: DC 10 constitution saving throw in AoE, dealing 3d4 cold damage (half on success)."
+description = "You exhale freezing air in an area. Creatures there make a Constitution save, taking cold damage or half as much on a success."
 display_name = "Ice Mephit — Frost Breath"
 non_steering = true
 on_failure = ""
@@ -1149,7 +1149,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/incubus/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Incubus's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Restless Touch (to-hit +7, 3d6 + 5 psychic); Restless Touch (to-hit +7, 3d6 + 5 psychic). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two Restless Touch attacks. Resolve each attack separately; one miss does not prevent the other from hitting."
 display_name = "Incubus — Multiattack"
 non_steering = true
 on_failure = ""
@@ -1167,7 +1167,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/jackal/action/bite"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Jackal's Bite: 1 independently-rolled attack ordinal(s) in one act call — Bite (to-hit +1, 1d4 + 1 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "Make one Bite attack against a target. On a hit, it deals piercing damage."
 display_name = "Jackal — Bite"
 non_steering = true
 on_failure = ""
@@ -1185,7 +1185,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/knight/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Knight's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Greatsword (to-hit +5, 2d6 + 3 slashing); Greatsword (to-hit +5, 2d6 + 3 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two Greatsword attacks as part of the same action. Resolve each attack separately; one miss does not prevent the other attack."
 display_name = "Knight — Multiattack"
 non_steering = true
 on_failure = ""
@@ -1203,7 +1203,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/lamia/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Lamia's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Claw (to-hit +5, 1d8 + 3 slashing); Claw (to-hit +5, 1d8 + 3 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two claw attacks, resolving each attack separately. A miss with one claw does not prevent the other attack."
 display_name = "Lamia — Multiattack"
 non_steering = true
 on_failure = ""
@@ -1221,7 +1221,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/lion/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Lion's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Rend (to-hit +5, 1d8 + 3 slashing); Rend (to-hit +5, 1d8 + 3 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two Rend attacks when you take this action. Resolve each attack separately, and one miss does not prevent the other attack."
 display_name = "Lion — Multiattack"
 non_steering = true
 on_failure = ""
@@ -1239,7 +1239,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/lizard/action/bite"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Lizard's Bite: 1 independently-rolled attack ordinal(s) in one act call — Bite (to-hit +2, 1 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make a bite attack against a target. On a hit, it deals piercing damage."
 display_name = "Lizard — Bite"
 non_steering = true
 on_failure = ""
@@ -1257,7 +1257,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/magma-mephit/action/fire-breath"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Magma Mephit's Fire Breath: DC 11 dexterity saving throw in AoE, dealing 2d6 fire damage (half on success)."
+description = "You exhale fire in an area. Creatures there make a Dexterity saving throw, taking fire damage on a failed save or half as much on a success."
 display_name = "Magma Mephit — Fire Breath"
 non_steering = true
 on_failure = ""
@@ -1275,7 +1275,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/manticore/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Manticore's Multiattack: 3 independently-rolled attack ordinal(s) in one act call — Rend (to-hit +5, 1d8 + 3 slashing); Rend (to-hit +5, 1d8 + 3 slashing); Rend (to-hit +5, 1d8 + 3 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make three rend attacks, rolling each attack separately. A miss with one rend does not prevent the others."
 display_name = "Manticore — Multiattack"
 non_steering = true
 on_failure = ""
@@ -1293,7 +1293,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/merfolk-skirmisher/action/ocean-spear"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Merfolk Skirmisher's Ocean Spear: 1 independently-rolled attack ordinal(s) in one act call — Ocean Spear (to-hit +2, 1d6 + 0 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "Make one spear attack against a target. On a hit, it takes piercing damage."
 display_name = "Merfolk Skirmisher — Ocean Spear"
 non_steering = true
 on_failure = ""
@@ -1311,7 +1311,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/mummy/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Mummy's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Rotting Fist (to-hit +5, 1d10 + 3 bludgeoning); Rotting Fist (to-hit +5, 1d10 + 3 bludgeoning). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two Rotting Fist attacks as part of the same action. Resolve each attack separately; one miss does not stop the other."
 display_name = "Mummy — Multiattack"
 non_steering = true
 on_failure = ""
@@ -1329,7 +1329,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/octopus/action/tentacles"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Octopus's Tentacles: 1 independently-rolled attack ordinal(s) in one act call — Tentacles (to-hit +4, 1 bludgeoning). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make one tentacle attack against a target. On a hit, it takes bludgeoning damage."
 display_name = "Octopus — Tentacles"
 non_steering = true
 on_failure = ""
@@ -1347,7 +1347,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/owl/action/talons"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Owl's Talons: 1 independently-rolled attack ordinal(s) in one act call — Talons (to-hit +3, 1 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make a talon attack against a target. On a hit, it deals slashing damage."
 display_name = "Owl — Talons"
 non_steering = true
 on_failure = ""
@@ -1365,7 +1365,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/owlbear/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Owlbear's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Rend (to-hit +7, 2d8 + 5 slashing); Rend (to-hit +7, 2d8 + 5 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two Rend attacks. Resolve each attack separately; one miss does not prevent the other attack."
 display_name = "Owlbear — Multiattack"
 non_steering = true
 on_failure = ""
@@ -1383,7 +1383,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/phase-spider/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Phase Spider's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Bite (to-hit +5, 1d10 + 3 piercing); Bite (to-hit +5, 1d10 + 3 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two Bite attacks, resolving each separately. A miss with one Bite does not prevent the other."
 display_name = "Phase Spider — Multiattack"
 non_steering = true
 on_failure = ""
@@ -1401,7 +1401,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/piranha/action/bite"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Piranha's Bite: 1 independently-rolled attack ordinal(s) in one act call — Bite (to-hit +5, 1 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make a bite attack against a target, using your listed attack bonus. On a hit, the target takes piercing damage."
 display_name = "Piranha — Bite"
 non_steering = true
 on_failure = ""
@@ -1419,7 +1419,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/pirate/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Pirate's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Dagger (to-hit +5, 1d4 + 3 piercing); Dagger (to-hit +5, 1d4 + 3 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two dagger attacks. Resolve each attack separately; one miss does not prevent the other attack."
 display_name = "Pirate — Multiattack"
 non_steering = true
 on_failure = ""
@@ -1437,7 +1437,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/polar-bear/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Polar Bear's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Rend (to-hit +7, 1d8 + 5 slashing); Rend (to-hit +7, 1d8 + 5 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two Rend attacks. Resolve each attack separately; one miss does not prevent the other attack."
 display_name = "Polar Bear — Multiattack"
 non_steering = true
 on_failure = ""
@@ -1455,7 +1455,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/priest/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Priest's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Mace (to-hit +5, 1d6 + 3 bludgeoning); Mace (to-hit +5, 1d6 + 3 bludgeoning). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two mace attacks as part of the same action. Resolve each attack separately; one miss does not stop the other."
 display_name = "Priest — Multiattack"
 non_steering = true
 on_failure = ""
@@ -1473,7 +1473,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/pseudodragon/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Pseudodragon's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Bite (to-hit +4, 1d4 + 2 piercing); Bite (to-hit +4, 1d4 + 2 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two Bite attacks as part of the same action. Resolve each attack separately; one miss does not prevent the other attack."
 display_name = "Pseudodragon — Multiattack"
 non_steering = true
 on_failure = ""
@@ -1491,7 +1491,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/rat/action/bite"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Rat's Bite: 1 independently-rolled attack ordinal(s) in one act call — Bite (to-hit +2, 1 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "Make a Bite attack against one target. On a hit, it deals piercing damage."
 display_name = "Rat — Bite"
 non_steering = true
 on_failure = ""
@@ -1509,7 +1509,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/raven/action/beak"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Raven's Beak: 1 independently-rolled attack ordinal(s) in one act call — Beak (to-hit +4, 1 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "Make one beak attack against a target. On a hit, it deals piercing damage."
 display_name = "Raven — Beak"
 non_steering = true
 on_failure = ""
@@ -1527,7 +1527,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/red-dragon-wyrmling/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Red Dragon Wyrmling's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Rend (to-hit +6, 1d10 + 4 slashing); Rend (to-hit +6, 1d10 + 4 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two Rend attacks, resolving each attack roll and its damage separately. A miss with one Rend does not stop the other."
 display_name = "Red Dragon Wyrmling — Multiattack"
 non_steering = true
 on_failure = ""
@@ -1545,7 +1545,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/red-dragon-wyrmling/action/fire-breath"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Red Dragon Wyrmling's Fire Breath: DC 13 dexterity saving throw in AoE, dealing 7d6 fire damage (half on success)."
+description = "You exhale fire in an area. Creatures there make a Dexterity saving throw, taking fire damage on a failure or half as much on a success."
 display_name = "Red Dragon Wyrmling — Fire Breath"
 non_steering = true
 on_failure = ""
@@ -1563,7 +1563,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/rust-monster/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Rust Monster's Multiattack: 1 independently-rolled attack ordinal(s) in one act call — Bite (to-hit +3, 1d8 + 1 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make one Bite attack, rolling it separately from any other attacks you take."
 display_name = "Rust Monster — Multiattack"
 non_steering = true
 on_failure = ""
@@ -1581,7 +1581,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/saber-toothed-tiger/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Saber-Toothed Tiger's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Rend (to-hit +6, 2d6 + 4 slashing); Rend (to-hit +6, 2d6 + 4 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two Rend attacks. Resolve each attack separately; one miss does not prevent the other attack."
 display_name = "Saber-Toothed Tiger — Multiattack"
 non_steering = true
 on_failure = ""
@@ -1599,7 +1599,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/sahuagin-warrior/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Sahuagin Warrior's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Claw (to-hit +3, 1d6 + 1 slashing); Claw (to-hit +3, 1d6 + 1 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two claw attacks, resolving each attack separately. A miss with one claw does not prevent the other attack."
 display_name = "Sahuagin Warrior — Multiattack"
 non_steering = true
 on_failure = ""
@@ -1617,7 +1617,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/scorpion/action/sting"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Scorpion's Sting: 1 independently-rolled attack ordinal(s) in one act call — Sting (to-hit +2, 1 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make a Sting attack against a target. On a hit, it deals piercing damage; if you make more than one Sting attack, each is resolved separately."
 display_name = "Scorpion — Sting"
 non_steering = true
 on_failure = ""
@@ -1635,7 +1635,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/scout/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Scout's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Shortsword (to-hit +4, 1d6 + 2 piercing); Shortsword (to-hit +4, 1d6 + 2 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "Make two shortsword attacks when you take this action. Resolve each attack separately, so one miss does not stop the other."
 display_name = "Scout — Multiattack"
 non_steering = true
 on_failure = ""
@@ -1653,7 +1653,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/silver-dragon-wyrmling/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Silver Dragon Wyrmling's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Rend (to-hit +6, 1d10 + 4 piercing); Rend (to-hit +6, 1d10 + 4 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two Rend attacks. Resolve each attack separately; one miss does not stop the other."
 display_name = "Silver Dragon Wyrmling — Multiattack"
 non_steering = true
 on_failure = ""
@@ -1671,7 +1671,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/silver-dragon-wyrmling/action/cold-breath"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Silver Dragon Wyrmling's Cold Breath: DC 13 constitution saving throw in AoE, dealing 4d8 cold damage (half on success)."
+description = "You exhale freezing cold in an area. Creatures there make a Constitution saving throw, taking cold damage on a failure or half as much on a success."
 display_name = "Silver Dragon Wyrmling — Cold Breath"
 non_steering = true
 on_failure = ""
@@ -1689,7 +1689,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/specter/action/life-drain"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Specter's Life Drain: 1 independently-rolled attack ordinal(s) in one act call — Life Drain (to-hit +4, 2d6 + 0 necrotic). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make a melee spell attack that deals necrotic damage on a hit. If you can make more than one attack, resolve each attack separately."
 display_name = "Specter — Life Drain"
 non_steering = true
 on_failure = ""
@@ -1707,7 +1707,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/spider/action/bite"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Spider's Bite: 1 independently-rolled attack ordinal(s) in one act call — Bite (to-hit +4, 1 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make a melee attack with a +4 bonus. On a hit, the target takes 1 piercing damage."
 display_name = "Spider — Bite"
 non_steering = true
 on_failure = ""
@@ -1725,7 +1725,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/steam-mephit/action/steam-breath"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Steam Mephit's Steam Breath: DC 10 constitution saving throw in AoE, dealing 2d4 fire damage (half on success)."
+description = "You exhale a cloud of scalding steam. Creatures in the area make a Constitution saving throw, taking fire damage on a failure or half as much on a success."
 display_name = "Steam Mephit — Steam Breath"
 non_steering = true
 on_failure = ""
@@ -1743,7 +1743,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/succubus/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Succubus's Multiattack: 1 independently-rolled attack ordinal(s) in one act call — Fiendish Touch (to-hit +7, 2d10 + 5 psychic). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make one Fiendish Touch attack as part of this action, dealing psychic harm on a hit."
 display_name = "Succubus — Multiattack"
 non_steering = true
 on_failure = ""
@@ -1761,7 +1761,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/swarm-of-bats/action/bites"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Swarm of Bats's Bites: 1 independently-rolled attack ordinal(s) in one act call — Bites (to-hit +4, 2d4 + 0 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make a biting attack against a target. Each attack is resolved separately, so a miss does not prevent any remaining attacks."
 display_name = "Swarm of Bats — Bites"
 non_steering = true
 on_failure = ""
@@ -1779,7 +1779,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/tough-boss/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Tough Boss's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Warhammer (to-hit +5, 2d8 + 3 bludgeoning); Warhammer (to-hit +5, 2d8 + 3 bludgeoning). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two separate warhammer attacks. Resolve each attack independently, so one miss does not prevent the other."
 display_name = "Tough Boss — Multiattack"
 non_steering = true
 on_failure = ""
@@ -1797,7 +1797,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/vampire-familiar/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Vampire Familiar's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Umbral Dagger (to-hit +5, 1d4 + 3 piercing); Umbral Dagger (to-hit +5, 1d4 + 3 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two Umbral Dagger attacks. Resolve each attack separately; one miss does not prevent the other attack."
 display_name = "Vampire Familiar — Multiattack"
 non_steering = true
 on_failure = ""
@@ -1815,7 +1815,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/violet-fungus/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Violet Fungus's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Rotting Touch (to-hit +2, 1d8 + 0 necrotic); Rotting Touch (to-hit +2, 1d8 + 0 necrotic). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two separate Rotting Touch attacks as part of the same action. Each attack is resolved independently."
 display_name = "Violet Fungus — Multiattack"
 non_steering = true
 on_failure = ""
@@ -1833,7 +1833,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/warrior-veteran/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Warrior Veteran's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Greatsword (to-hit +5, 2d6 + 3 slashing); Greatsword (to-hit +5, 2d6 + 3 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two greatsword attacks as part of the same action. Resolve each attack separately; one miss does not prevent the other attack."
 display_name = "Warrior Veteran — Multiattack"
 non_steering = true
 on_failure = ""
@@ -1851,7 +1851,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/weasel/action/bite"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Weasel's Bite: 1 independently-rolled attack ordinal(s) in one act call — Bite (to-hit +5, 1 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "Make a bite attack against a target within reach. On a hit, it deals piercing damage."
 display_name = "Weasel — Bite"
 non_steering = true
 on_failure = ""
@@ -1869,7 +1869,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/wereboar/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Wereboar's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Javelin (to-hit +5, 3d6 + 3 piercing); Javelin (to-hit +5, 3d6 + 3 piercing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two javelin attacks, resolving each attack and its damage separately."
 display_name = "Wereboar — Multiattack"
 non_steering = true
 on_failure = ""
@@ -1887,7 +1887,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/wererat/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Wererat's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Scratch (to-hit +5, 1d6 + 3 slashing); Scratch (to-hit +5, 1d6 + 3 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two Scratch attacks, resolving each attack separately. A miss with one Scratch does not prevent the other."
 display_name = "Wererat — Multiattack"
 non_steering = true
 on_failure = ""
@@ -1905,7 +1905,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/weretiger/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Weretiger's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Scratch (to-hit +5, 2d6 + 3 slashing); Scratch (to-hit +5, 2d6 + 3 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two Scratch attacks. Resolve each attack separately; one miss does not stop the other."
 display_name = "Weretiger — Multiattack"
 non_steering = true
 on_failure = ""
@@ -1923,7 +1923,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/werewolf/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Werewolf's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Scratch (to-hit +5, 2d6 + 3 slashing); Scratch (to-hit +5, 2d6 + 3 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "Make two Scratch attacks. Resolve each attack separately; a miss with one does not prevent the other from hitting."
 display_name = "Werewolf — Multiattack"
 non_steering = true
 on_failure = ""
@@ -1941,7 +1941,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/white-dragon-wyrmling/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "White Dragon Wyrmling's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Rend (to-hit +4, 1d8 + 2 slashing); Rend (to-hit +4, 1d8 + 2 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two Rend attacks, rolling each attack separately. A miss with one Rend does not prevent the other."
 display_name = "White Dragon Wyrmling — Multiattack"
 non_steering = true
 on_failure = ""
@@ -1959,7 +1959,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/white-dragon-wyrmling/action/cold-breath"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "White Dragon Wyrmling's Cold Breath: DC 12 constitution saving throw in AoE, dealing 5d8 cold damage (half on success)."
+description = "You exhale freezing energy in an area. Creatures there make a Constitution saving throw, taking cold damage on a failure or half as much on a success."
 display_name = "White Dragon Wyrmling — Cold Breath"
 non_steering = true
 on_failure = ""
@@ -1977,7 +1977,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/wight/action/multiattack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Wight's Multiattack: 2 independently-rolled attack ordinal(s) in one act call — Necrotic Sword (to-hit +4, 1d8 + 2 slashing); Necrotic Sword (to-hit +4, 1d8 + 2 slashing). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make two Necrotic Sword attacks as part of the same action. Resolve each attack separately; one miss does not prevent the other."
 display_name = "Wight — Multiattack"
 non_steering = true
 on_failure = ""
@@ -1995,7 +1995,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/will-o-wisp/action/shock"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Will-o'-Wisp's Shock: 1 independently-rolled attack ordinal(s) in one act call — Shock (to-hit +4, 2d8 + 2 lightning). A miss on one ordinal never blocks the others (bestiary-cr0-4.md)."
+description = "You make a lightning attack against a target. On a hit, it takes lightning damage; each attack is resolved separately."
 display_name = "Will-o'-Wisp — Shock"
 non_steering = true
 on_failure = ""
@@ -2013,7 +2013,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/creature/winter-wolf/action/cold-breath"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Winter Wolf's Cold Breath: DC 12 constitution saving throw in AoE, dealing 4d8 cold damage (half on success)."
+description = "You exhale freezing air in an area. Creatures there make a Constitution saving throw, taking cold damage on a failure or half as much on a success."
 display_name = "Winter Wolf — Cold Breath"
 non_steering = true
 on_failure = ""
@@ -3936,7 +3936,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/animated-armor/action"
 default_visibility = "Public"
-description = "Animated Armor's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "You make a melee attack with your armored fists against a creature within reach. On a hit, you deal bludgeoning damage."
 display_name = "Animated Armor: Attack"
 
 [[capability_definitions]]
@@ -3944,7 +3944,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/ankheg/action"
 default_visibility = "Public"
-description = "Ankheg's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make the attacks listed in its statblock when it takes the Attack action."
 display_name = "Ankheg: Attack"
 
 [[capability_definitions]]
@@ -3952,7 +3952,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/ankylosaurus/action"
 default_visibility = "Public"
-description = "Ankylosaurus's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make the attacks listed in its statblock. Only an ankylosaurus can use this capability."
 display_name = "Ankylosaurus: Attack"
 
 [[capability_definitions]]
@@ -3960,7 +3960,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/ape/action"
 default_visibility = "Public"
-description = "Ape's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make its listed attacks as part of its turn. Only the ape uses this version of the action."
 display_name = "Ape: Attack"
 
 [[capability_definitions]]
@@ -3968,7 +3968,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/archelon/action"
 default_visibility = "Public"
-description = "Archelon's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "A creature-specific attack option. You use it only when controlling an Archelon, following its statblock’s attack details."
 display_name = "Archelon: Attack"
 
 [[capability_definitions]]
@@ -3976,7 +3976,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/awakened-shrub/action"
 default_visibility = "Public"
-description = "Awakened Shrub's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "You can make the awakened shrub’s melee attack when it takes the Attack action. This capability belongs only to an awakened shrub."
 display_name = "Awakened Shrub: Attack"
 
 [[capability_definitions]]
@@ -3984,7 +3984,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/baboon/action"
 default_visibility = "Public"
-description = "Baboon's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make its listed melee attack when it takes the Attack action. Only a baboon can use this attack."
 display_name = "Baboon: Attack"
 
 [[capability_definitions]]
@@ -3992,7 +3992,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/badger/action"
 default_visibility = "Public"
-description = "Badger's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make its natural weapon attack using the attack listed in its stat block."
 display_name = "Badger: Attack"
 
 [[capability_definitions]]
@@ -4000,7 +4000,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/bandit-captain/action"
 default_visibility = "Public"
-description = "Bandit Captain's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature’s attack option. It can use it only as part of its own stat block, not through a shared attack capability."
 display_name = "Bandit Captain: Attack"
 
 [[capability_definitions]]
@@ -4008,7 +4008,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/bat/action"
 default_visibility = "Public"
-description = "Bat's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make its listed melee attack on its turn, using the attack details in its stat block."
 display_name = "Bat: Attack"
 
 [[capability_definitions]]
@@ -4016,7 +4016,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/bearded-devil/action"
 default_visibility = "Public"
-description = "Bearded Devil's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make the attacks listed in its stat block on its turn. These attacks are available only while using this creature’s form."
 display_name = "Bearded Devil: Attack"
 
 [[capability_definitions]]
@@ -4024,7 +4024,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/black-bear/action"
 default_visibility = "Public"
-description = "Black Bear's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "As a black bear, you can make its natural weapon attacks on your turn. These attacks are available only while you use this creature’s stat block."
 display_name = "Black Bear: Attack"
 
 [[capability_definitions]]
@@ -4032,7 +4032,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/black-dragon-wyrmling/action"
 default_visibility = "Public"
-description = "Black Dragon Wyrmling's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make the attacks listed in its stat block when it takes the Attack action."
 display_name = "Black Dragon Wyrmling: Attack"
 
 [[capability_definitions]]
@@ -4040,7 +4040,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/blue-dragon-wyrmling/action"
 default_visibility = "Public"
-description = "Blue Dragon Wyrmling's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "A creature-specific attack option. You use it only when controlling a blue dragon wyrmling, following that creature’s listed attack details."
 display_name = "Blue Dragon Wyrmling: Attack"
 
 [[capability_definitions]]
@@ -4048,7 +4048,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/brass-dragon-wyrmling/action"
 default_visibility = "Public"
-description = "Brass Dragon Wyrmling's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This young brass dragon can make the attacks listed in its statblock when it takes the Attack action."
 display_name = "Brass Dragon Wyrmling: Attack"
 
 [[capability_definitions]]
@@ -4056,7 +4056,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/bronze-dragon-wyrmling/action"
 default_visibility = "Public"
-description = "Bronze Dragon Wyrmling's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "You make the attacks listed in this creature’s statblock when you take the Attack action. Only a bronze dragon wyrmling can use these attacks."
 display_name = "Bronze Dragon Wyrmling: Attack"
 
 [[capability_definitions]]
@@ -4064,7 +4064,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/brown-bear/action"
 default_visibility = "Public"
-description = "Brown Bear's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make its listed attacks on its turn, using the attack details in its stat block."
 display_name = "Brown Bear: Attack"
 
 [[capability_definitions]]
@@ -4072,7 +4072,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/bugbear-stalker/action"
 default_visibility = "Public"
-description = "Bugbear Stalker's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature’s basic combat option. It uses it to make an attack with a weapon or other listed attack."
 display_name = "Bugbear Stalker: Attack"
 
 [[capability_definitions]]
@@ -4080,7 +4080,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/cat/action"
 default_visibility = "Public"
-description = "Cat's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make its listed natural attack when it takes the Attack action. Other creatures do not gain this attack from the shared action alone."
 display_name = "Cat: Attack"
 
 [[capability_definitions]]
@@ -4088,7 +4088,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/centaur-trooper/action"
 default_visibility = "Public"
-description = "Centaur Trooper's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "A combat option available only to this creature. On your turn, use it to make the attacks listed in your stat block."
 display_name = "Centaur Trooper: Attack"
 
 [[capability_definitions]]
@@ -4096,7 +4096,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/chuul/action"
 default_visibility = "Public"
-description = "Chuul's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "A combat option unique to a chuul. You use it to make the attacks listed in the chuul’s stat block."
 display_name = "Chuul: Attack"
 
 [[capability_definitions]]
@@ -4104,7 +4104,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/copper-dragon-wyrmling/action"
 default_visibility = "Public"
-description = "Copper Dragon Wyrmling's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make the attacks listed in its statblock when it takes the Attack action."
 display_name = "Copper Dragon Wyrmling: Attack"
 
 [[capability_definitions]]
@@ -4112,7 +4112,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/crab/action"
 default_visibility = "Public"
-description = "Crab's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make its claw attack against a target within reach. Only a creature using this stat block can use this attack."
 display_name = "Crab: Attack"
 
 [[capability_definitions]]
@@ -4120,7 +4120,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/death-dog/action"
 default_visibility = "Public"
-description = "Death Dog's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "A two-headed bite you use on your turn against a creature within reach. A hit deals piercing harm and may expose the target to disease."
 display_name = "Death Dog: Attack"
 
 [[capability_definitions]]
@@ -4128,7 +4128,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/doppelganger/action"
 default_visibility = "Public"
-description = "Doppelganger's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "You make the attacks listed in this creature’s stat block when it takes the Attack action. Only this creature can use these attacks."
 display_name = "Doppelganger: Attack"
 
 [[capability_definitions]]
@@ -4136,7 +4136,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/druid/action"
 default_visibility = "Public"
-description = "Druid's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "Your basic combat option as a druid. You use it to make an attack with a weapon, spell, or other available fighting method."
 display_name = "Druid: Attack"
 
 [[capability_definitions]]
@@ -4144,7 +4144,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/dryad/action"
 default_visibility = "Public"
-description = "Dryad's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make the attacks listed in its stat block when it takes the Attack action."
 display_name = "Dryad: Attack"
 
 [[capability_definitions]]
@@ -4152,7 +4152,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/elephant/action"
 default_visibility = "Public"
-description = "Elephant's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "You can make the attacks listed in your stat block. Only this creature can use them."
 display_name = "Elephant: Attack"
 
 [[capability_definitions]]
@@ -4160,7 +4160,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/ettercap/action"
 default_visibility = "Public"
-description = "Ettercap's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature’s attack option. You use it on its turn to make the attacks listed in its stat block."
 display_name = "Ettercap: Attack"
 
 [[capability_definitions]]
@@ -4168,7 +4168,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/ettin/action"
 default_visibility = "Public"
-description = "Ettin's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make the attacks listed in its statblock when it takes the Attack action."
 display_name = "Ettin: Attack"
 
 [[capability_definitions]]
@@ -4176,7 +4176,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/flying-snake/action"
 default_visibility = "Public"
-description = "Flying Snake's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "You make this creature’s bite attack against a target within its reach. On a hit, it deals piercing damage and delivers venom."
 display_name = "Flying Snake: Attack"
 
 [[capability_definitions]]
@@ -4184,7 +4184,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/frog/action"
 default_visibility = "Public"
-description = "Frog's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make its listed attack when it takes the Attack action. Only this creature uses this version of the attack."
 display_name = "Frog: Attack"
 
 [[capability_definitions]]
@@ -4192,7 +4192,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/gargoyle/action"
 default_visibility = "Public"
-description = "Gargoyle's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "A creature-specific attack option. You use it to make the attacks listed in this creature’s stat block."
 display_name = "Gargoyle: Attack"
 
 [[capability_definitions]]
@@ -4200,7 +4200,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/ghost/action"
 default_visibility = "Public"
-description = "Ghost's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make the attacks listed in its stat block when it takes the Attack action."
 display_name = "Ghost: Attack"
 
 [[capability_definitions]]
@@ -4208,7 +4208,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/ghoul/action"
 default_visibility = "Public"
-description = "Ghoul's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "A natural weapon attack available only to this creature. You use it to make the attack listed in its statblock."
 display_name = "Ghoul: Attack"
 
 [[capability_definitions]]
@@ -4216,7 +4216,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/giant-constrictor-snake/action"
 default_visibility = "Public"
-description = "Giant Constrictor Snake's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "A melee attack used by a giant constrictor snake. On a hit, it deals bludgeoning damage and can grapple the target."
 display_name = "Giant Constrictor Snake: Attack"
 
 [[capability_definitions]]
@@ -4224,7 +4224,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/giant-eagle/action"
 default_visibility = "Public"
-description = "Giant Eagle's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "A melee or ranged strike available only to a giant eagle. You use it to make the attack described in its stat block."
 display_name = "Giant Eagle: Attack"
 
 [[capability_definitions]]
@@ -4232,7 +4232,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/giant-fire-beetle/action"
 default_visibility = "Public"
-description = "Giant Fire Beetle's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "Your creature’s close-quarters attack. You use it to strike a target within reach and deal its listed damage on a hit."
 display_name = "Giant Fire Beetle: Attack"
 
 [[capability_definitions]]
@@ -4240,7 +4240,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/giant-frog/action"
 default_visibility = "Public"
-description = "Giant Frog's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make the attacks listed in its stat block when it takes the Attack action."
 display_name = "Giant Frog: Attack"
 
 [[capability_definitions]]
@@ -4248,7 +4248,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/giant-scorpion/action"
 default_visibility = "Public"
-description = "Giant Scorpion's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make the attacks listed in its statblock when it takes the Attack action."
 display_name = "Giant Scorpion: Attack"
 
 [[capability_definitions]]
@@ -4256,7 +4256,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/gibbering-mouther/action"
 default_visibility = "Public"
-description = "Gibbering Mouther's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "A combat option unique to a gibbering mouther. You use it to make the attacks listed in its stat block."
 display_name = "Gibbering Mouther: Attack"
 
 [[capability_definitions]]
@@ -4264,7 +4264,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/goat/action"
 default_visibility = "Public"
-description = "Goat's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make its own horn attack when it takes the Attack action. Only this goat can use this attack."
 display_name = "Goat: Attack"
 
 [[capability_definitions]]
@@ -4272,7 +4272,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/goblin-boss/action"
 default_visibility = "Public"
-description = "Goblin Boss's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "An attack option available only to this creature. You use it to make the weapon attack described in its stat block."
 display_name = "Goblin Boss: Attack"
 
 [[capability_definitions]]
@@ -4280,7 +4280,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/gold-dragon-wyrmling/action"
 default_visibility = "Public"
-description = "Gold Dragon Wyrmling's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make the attacks listed in its statblock when it takes the Attack action."
 display_name = "Gold Dragon Wyrmling: Attack"
 
 [[capability_definitions]]
@@ -4288,7 +4288,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/green-dragon-wyrmling/action"
 default_visibility = "Public"
-description = "Green Dragon Wyrmling's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "A combat option available only to a green dragon wyrmling. You use it to make the attacks listed in that creature’s stat block."
 display_name = "Green Dragon Wyrmling: Attack"
 
 [[capability_definitions]]
@@ -4296,7 +4296,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/green-hag/action"
 default_visibility = "Public"
-description = "Green Hag's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make the attacks listed in its stat block when it takes the Attack action."
 display_name = "Green Hag: Attack"
 
 [[capability_definitions]]
@@ -4304,7 +4304,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/grick/action"
 default_visibility = "Public"
-description = "Grick's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make its listed attacks on its turn. Each attack uses the details in its stat block."
 display_name = "Grick: Attack"
 
 [[capability_definitions]]
@@ -4312,7 +4312,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/griffon/action"
 default_visibility = "Public"
-description = "Griffon's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make its listed attacks on its turn, using the attack options in its stat block."
 display_name = "Griffon: Attack"
 
 [[capability_definitions]]
@@ -4320,7 +4320,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/guard-captain/action"
 default_visibility = "Public"
-description = "Guard Captain's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature’s own attack option. It can use it on its turn to make the attack described in its stat block."
 display_name = "Guard Captain: Attack"
 
 [[capability_definitions]]
@@ -4328,7 +4328,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/hawk/action"
 default_visibility = "Public"
-description = "Hawk's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This hawk’s natural attack. On its turn, it can strike a creature within reach using its beak or talons."
 display_name = "Hawk: Attack"
 
 [[capability_definitions]]
@@ -4336,7 +4336,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/hell-hound/action"
 default_visibility = "Public"
-description = "Hell Hound's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make the attacks listed in its stat block on its turn. Those attacks are available only while you use this creature’s form."
 display_name = "Hell Hound: Attack"
 
 [[capability_definitions]]
@@ -4344,7 +4344,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/hippogriff/action"
 default_visibility = "Public"
-description = "Hippogriff's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "A hippogriff can strike with its beak or claws on its turn, using the attack options in its statblock."
 display_name = "Hippogriff: Attack"
 
 [[capability_definitions]]
@@ -4352,7 +4352,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/hippopotamus/action"
 default_visibility = "Public"
-description = "Hippopotamus's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "You make the hippopotamus’s natural attack against a creature within reach, using its listed attack bonus and damage."
 display_name = "Hippopotamus: Attack"
 
 [[capability_definitions]]
@@ -4360,7 +4360,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/hobgoblin-captain/action"
 default_visibility = "Public"
-description = "Hobgoblin Captain's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "A weapon attack available only to this hobgoblin captain. You use it to strike a creature within the weapon’s reach or range."
 display_name = "Hobgoblin Captain: Attack"
 
 [[capability_definitions]]
@@ -4368,7 +4368,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/homunculus/action"
 default_visibility = "Public"
-description = "Homunculus's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make the attacks listed in its stat block when it takes the Attack action."
 display_name = "Homunculus: Attack"
 
 [[capability_definitions]]
@@ -4376,7 +4376,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/ice-mephit/action"
 default_visibility = "Public"
-description = "Ice Mephit's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "Your attack capability as an ice mephit. You use it to make the attacks listed in your stat block."
 display_name = "Ice Mephit: Attack"
 
 [[capability_definitions]]
@@ -4384,7 +4384,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/incubus/action"
 default_visibility = "Public"
-description = "Incubus's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature’s melee or ranged attack option. It uses it on its turn to make an attack against a target."
 display_name = "Incubus: Attack"
 
 [[capability_definitions]]
@@ -4392,7 +4392,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/jackal/action"
 default_visibility = "Public"
-description = "Jackal's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "You make a bite attack against a creature within reach, using this creature’s attack bonus and damage."
 display_name = "Jackal: Attack"
 
 [[capability_definitions]]
@@ -4400,7 +4400,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/knight/action"
 default_visibility = "Public"
-description = "Knight's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make the attacks listed in its statblock. Only this creature can use this version of the Attack action."
 display_name = "Knight: Attack"
 
 [[capability_definitions]]
@@ -4408,7 +4408,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/lamia/action"
 default_visibility = "Public"
-description = "Lamia's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature’s built-in attack option. It can use it only as part of its own statblock actions."
 display_name = "Lamia: Attack"
 
 [[capability_definitions]]
@@ -4416,7 +4416,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/lion/action"
 default_visibility = "Public"
-description = "Lion's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "A natural melee attack available only to this creature. You use it to strike a target within reach."
 display_name = "Lion: Attack"
 
 [[capability_definitions]]
@@ -4424,7 +4424,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/lizard/action"
 default_visibility = "Public"
-description = "Lizard's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "You make the attacks listed in this creature’s statblock when it takes the Attack action. Only this creature can use these attacks."
 display_name = "Lizard: Attack"
 
 [[capability_definitions]]
@@ -4432,7 +4432,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/magma-mephit/action"
 default_visibility = "Public"
-description = "Magma Mephit's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature’s innate attack option. On its turn, it uses the attack described in its stat block."
 display_name = "Magma Mephit: Attack"
 
 [[capability_definitions]]
@@ -4440,7 +4440,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/manticore/action"
 default_visibility = "Public"
-description = "Manticore's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature’s built-in attack option. It can use it only as part of its own statblock, not when another creature gains a general attack action."
 display_name = "Manticore: Attack"
 
 [[capability_definitions]]
@@ -4448,7 +4448,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/merfolk-skirmisher/action"
 default_visibility = "Public"
-description = "Merfolk Skirmisher's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "A weapon attack available only to a Merfolk Skirmisher. You use it on your turn to strike a target with the weapon listed in its stat block."
 display_name = "Merfolk Skirmisher: Attack"
 
 [[capability_definitions]]
@@ -4456,7 +4456,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/mummy/action"
 default_visibility = "Public"
-description = "Mummy's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make the attacks listed in its stat block, using only the options granted to it."
 display_name = "Mummy: Attack"
 
 [[capability_definitions]]
@@ -4464,7 +4464,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/octopus/action"
 default_visibility = "Public"
-description = "Octopus's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "You make the octopus’s natural attack against a creature within reach, using its listed attack bonus and damage."
 display_name = "Octopus: Attack"
 
 [[capability_definitions]]
@@ -4472,7 +4472,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/owl/action"
 default_visibility = "Public"
-description = "Owl's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This owl can make its own close-range attack when it takes the appropriate action. Only this creature uses this version of the attack."
 display_name = "Owl: Attack"
 
 [[capability_definitions]]
@@ -4480,7 +4480,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/owlbear/action"
 default_visibility = "Public"
-description = "Owlbear's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "A melee attack used only by this creature. You make the attack shown in its statblock when it takes the Attack action."
 display_name = "Owlbear: Attack"
 
 [[capability_definitions]]
@@ -4488,7 +4488,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/phase-spider/action"
 default_visibility = "Public"
-description = "Phase Spider's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature’s basic combat attack. It uses this action to strike a target during its turn."
 display_name = "Phase Spider: Attack"
 
 [[capability_definitions]]
@@ -4496,7 +4496,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/piranha/action"
 default_visibility = "Public"
-description = "Piranha's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make its bite attack against a target within reach. It uses this attack only as part of its own stat block."
 display_name = "Piranha: Attack"
 
 [[capability_definitions]]
@@ -4504,7 +4504,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/pirate/action"
 default_visibility = "Public"
-description = "Pirate's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature’s own attack option. It can use this action to make the attacks listed in its statblock."
 display_name = "Pirate: Attack"
 
 [[capability_definitions]]
@@ -4512,7 +4512,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/polar-bear/action"
 default_visibility = "Public"
-description = "Polar Bear's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make its listed attacks when it takes the Attack action. Only a polar bear uses these attacks."
 display_name = "Polar Bear: Attack"
 
 [[capability_definitions]]
@@ -4520,7 +4520,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/priest/action"
 default_visibility = "Public"
-description = "Priest's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make the attacks listed in its stat block when it takes the Attack action."
 display_name = "Priest: Attack"
 
 [[capability_definitions]]
@@ -4528,7 +4528,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/pseudodragon/action"
 default_visibility = "Public"
-description = "Pseudodragon's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "The pseudodragon can make its listed attacks on its turn. These attacks are available only while you control a pseudodragon."
 display_name = "Pseudodragon: Attack"
 
 [[capability_definitions]]
@@ -4536,7 +4536,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/rat/action"
 default_visibility = "Public"
-description = "Rat's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make its own listed attack when it takes the Attack action. Other creatures do not gain this attack from the shared action."
 display_name = "Rat: Attack"
 
 [[capability_definitions]]
@@ -4544,7 +4544,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/raven/action"
 default_visibility = "Public"
-description = "Raven's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "Your raven can make its own attacks using its stat block. Only the raven can use this capability."
 display_name = "Raven: Attack"
 
 [[capability_definitions]]
@@ -4552,7 +4552,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/red-dragon-wyrmling/action"
 default_visibility = "Public"
-description = "Red Dragon Wyrmling's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make the attacks listed in its statblock when it takes the Attack action."
 display_name = "Red Dragon Wyrmling: Attack"
 
 [[capability_definitions]]
@@ -4560,7 +4560,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/rust-monster/action"
 default_visibility = "Public"
-description = "Rust Monster's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make the attacks listed in its stat block when it takes the Attack action."
 display_name = "Rust Monster: Attack"
 
 [[capability_definitions]]
@@ -4568,7 +4568,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/saber-toothed-tiger/action"
 default_visibility = "Public"
-description = "Saber-Toothed Tiger's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "You make the saber-toothed tiger’s natural attacks when it takes the Attack action. Only a saber-toothed tiger can use these attacks."
 display_name = "Saber-Toothed Tiger: Attack"
 
 [[capability_definitions]]
@@ -4576,7 +4576,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/sahuagin-warrior/action"
 default_visibility = "Public"
-description = "Sahuagin Warrior's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "You make the attacks listed in this creature’s stat block when it takes the Attack action. Only this creature can use these attacks."
 display_name = "Sahuagin Warrior: Attack"
 
 [[capability_definitions]]
@@ -4584,7 +4584,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/scorpion/action"
 default_visibility = "Public"
-description = "Scorpion's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make its scorpion attack as described in its stat block. Only the scorpion itself can use this attack."
 display_name = "Scorpion: Attack"
 
 [[capability_definitions]]
@@ -4592,7 +4592,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/scout/action"
 default_visibility = "Public"
-description = "Scout's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make its listed attacks on its turn. Only a scout uses this version of the attack action."
 display_name = "Scout: Attack"
 
 [[capability_definitions]]
@@ -4600,7 +4600,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/silver-dragon-wyrmling/action"
 default_visibility = "Public"
-description = "Silver Dragon Wyrmling's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "The attacks available to this silver dragon wyrmling. You use them on its turn when it takes the Attack action."
 display_name = "Silver Dragon Wyrmling: Attack"
 
 [[capability_definitions]]
@@ -4608,7 +4608,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/specter/action"
 default_visibility = "Public"
-description = "Specter's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make the attacks listed in its statblock when it takes the Attack action."
 display_name = "Specter: Attack"
 
 [[capability_definitions]]
@@ -4616,7 +4616,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/spider/action"
 default_visibility = "Public"
-description = "Spider's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make its listed bite attack on its turn. It uses the attack and damage details in its stat block."
 display_name = "Spider: Attack"
 
 [[capability_definitions]]
@@ -4624,7 +4624,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/steam-mephit/action"
 default_visibility = "Public"
-description = "Steam Mephit's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "A melee attack available only to a Steam Mephit. You use it to strike a creature within your reach."
 display_name = "Steam Mephit: Attack"
 
 [[capability_definitions]]
@@ -4632,7 +4632,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/succubus/action"
 default_visibility = "Public"
-description = "Succubus's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "A melee attack available only to a succubus. You use it on your turn to strike a creature within reach."
 display_name = "Succubus: Attack"
 
 [[capability_definitions]]
@@ -4640,7 +4640,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/swarm-of-bats/action"
 default_visibility = "Public"
-description = "Swarm of Bats's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make its bat swarm attack using the attack listed in its stat block. Only the swarm itself can use this attack."
 display_name = "Swarm of Bats: Attack"
 
 [[capability_definitions]]
@@ -4648,7 +4648,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/tough-boss/action"
 default_visibility = "Public"
-description = "Tough Boss's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "An attack option unique to this creature. You use it on this creature’s turn to make the attack described in its statblock."
 display_name = "Tough Boss: Attack"
 
 [[capability_definitions]]
@@ -4656,7 +4656,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/vampire-familiar/action"
 default_visibility = "Public"
-description = "Vampire Familiar's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This familiar can make its listed attack when it takes the Attack action. Only the familiar can use this attack."
 display_name = "Vampire Familiar: Attack"
 
 [[capability_definitions]]
@@ -4664,7 +4664,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/violet-fungus/action"
 default_visibility = "Public"
-description = "Violet Fungus's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make its listed attacks as part of its turn. Only a violet fungus has access to this capability."
 display_name = "Violet Fungus: Attack"
 
 [[capability_definitions]]
@@ -4672,7 +4672,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/warrior-veteran/action"
 default_visibility = "Public"
-description = "Warrior Veteran's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make its listed weapon attacks on its turn. These attacks are available only as part of its own statblock."
 display_name = "Warrior Veteran: Attack"
 
 [[capability_definitions]]
@@ -4680,7 +4680,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/weasel/action"
 default_visibility = "Public"
-description = "Weasel's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "You can make the attacks listed in this creature’s stat block when it takes the Attack action. This capability applies only to this creature."
 display_name = "Weasel: Attack"
 
 [[capability_definitions]]
@@ -4688,7 +4688,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/wereboar/action"
 default_visibility = "Public"
-description = "Wereboar's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "You can make the attacks listed in this creature’s stat block when it takes the Attack action. Only this creature can use these attacks."
 display_name = "Wereboar: Attack"
 
 [[capability_definitions]]
@@ -4696,7 +4696,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/wererat/action"
 default_visibility = "Public"
-description = "Wererat's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "A combat option available only to a wererat. You use it to make the attacks listed in that creature’s stat block."
 display_name = "Wererat: Attack"
 
 [[capability_definitions]]
@@ -4704,7 +4704,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/weretiger/action"
 default_visibility = "Public"
-description = "Weretiger's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature’s attack option. It uses it to make the attacks listed in its statblock."
 display_name = "Weretiger: Attack"
 
 [[capability_definitions]]
@@ -4712,7 +4712,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/werewolf/action"
 default_visibility = "Public"
-description = "Werewolf's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature’s attack action. It can use the attacks listed in its stat block; other creatures do not gain these attacks."
 display_name = "Werewolf: Attack"
 
 [[capability_definitions]]
@@ -4720,7 +4720,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/white-dragon-wyrmling/action"
 default_visibility = "Public"
-description = "White Dragon Wyrmling's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "A creature-specific attack option for a white dragon wyrmling. You use it only when acting as that creature."
 display_name = "White Dragon Wyrmling: Attack"
 
 [[capability_definitions]]
@@ -4728,7 +4728,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/wight/action"
 default_visibility = "Public"
-description = "Wight's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "You make the attacks listed in this creature’s stat block. Only this creature can use these attacks."
 display_name = "Wight: Attack"
 
 [[capability_definitions]]
@@ -4736,7 +4736,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/will-o-wisp/action"
 default_visibility = "Public"
-description = "Will-o'-Wisp's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make the attack described in its statblock. Other creatures do not gain this attack from the shared attack action alone."
 display_name = "Will-o'-Wisp: Attack"
 
 [[capability_definitions]]
@@ -4744,7 +4744,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/creature/winter-wolf/action"
 default_visibility = "Public"
-description = "Winter Wolf's own statblock attack capability (D6, actor-carried-verbs, sk-o8k) — granted only to this creature's own entity_def below, so this statblock action is never offered to any other actor holding the shared srd/action/attack capability alone."
+description = "This creature can make its own weapon attacks using the options in its stat block. Only a winter wolf can use these attacks."
 display_name = "Winter Wolf: Attack"
 
 [[consequence_frame_writes]]

@@ -84,6 +84,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Across the horizon, the land exhales and becomes something else: reed-choked marsh, sunlit meadow, a road of pale stone winding between impossible hills. Boots sink into phantom mud, wind carries the scent of rain on moss, and distant walls rise where only empty ground stood before. Even those who suspect the deception must contend with a world that answers every touch."
 display_name = "Mirage Arcane"
 entity_def_id = "srd/spell/mirage-arcane"
 grants_capability_while_equipped = ""

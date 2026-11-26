@@ -76,6 +76,7 @@ tag = "srd.damage_type.force"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A flicker of raw lineage gathers at the caster’s hand, restless as a storm trapped in glass. It streaks outward in whatever guise the moment demands: biting frost, venomous vapor, crackling radiance, a concussive roar, or stranger forces that unsettle flesh and thought alike. When the surge catches hold, its wild heart may leap again and again."
 display_name = "Sorcerous Burst"
 entity_def_id = "srd/spell/sorcerous-burst"
 grants_capability_while_equipped = ""
@@ -102,7 +103,7 @@ target_ref = "srd/spell/sorcerous-burst"
 action_id = "srd/spell/sorcerous-burst/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Sorcerous Burst — a spell action."
+description = "You cast this spell as an action, unleashing unstable magic at a creature or point you can see."
 display_name = "Cast Sorcerous Burst"
 non_steering = true
 on_failure = "srd/spell/sorcerous-burst/cast/miss"

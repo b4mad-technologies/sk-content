@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A smooth dome of chosen color settles over the camp, its surface turning rain, wind, and wandering eyes into distant concerns. Within, the air stays warm and dry while the world beyond becomes a muted silhouette. Travelers rest beneath a private little sky, watching danger pass without finding a way inside."
 display_name = "Tiny Hut"
 entity_def_id = "srd/spell/tiny-hut"
 grants_capability_while_equipped = ""

@@ -88,6 +88,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A faint tension settles over the chosen threshold, like a spider’s thread drawn tight across a moonless path. Those welcomed within pass unnoticed, but an intruder stirs the ward into sudden warning: a clear peal in the air or a sharp tremor carried straight into its maker’s dreams."
 display_name = "Alarm"
 entity_def_id = "srd/spell/alarm"
 grants_capability_while_equipped = ""
@@ -115,7 +116,7 @@ target_ref = "srd/spell/alarm"
 action_id = "srd/spell/alarm/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Alarm — a spell action."
+description = "You cast the Alarm spell, creating a ward that alerts you when a creature enters its protected area."
 display_name = "Cast Alarm"
 non_steering = true
 on_failure = ""

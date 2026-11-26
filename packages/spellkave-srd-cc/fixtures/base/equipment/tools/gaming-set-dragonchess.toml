@@ -34,6 +34,7 @@ tag = "srd.tool"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Three stacked boards in a traveling box, pieces carved as tiny monsters and soldiers. They click into felt recesses. The set smells of cedar. Opening it in a tavern is a declaration that the evening will be long. Losing a piece in a tavern rush is a small tragedy. The lid closes only if every piece is home."
 display_name = "Gaming Set, Dragonchess"
 entity_def_id = "srd/tool/gaming-set-dragonchess"
 grants_capability_while_equipped = ""

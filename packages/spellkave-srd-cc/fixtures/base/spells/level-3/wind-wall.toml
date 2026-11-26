@@ -90,6 +90,7 @@ tag = "srd.spell.list.ranger"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A roaring seam of air claws its way along the earth, bending grass flat and tearing dust into a twisting silver veil. Smoke and mist recoil from its furious breath, while feathers, leaves, and lesser missiles whirl skyward in helpless spirals. Those caught at its birth feel the world strike them like an unseen giant’s hand."
 display_name = "Wind Wall"
 entity_def_id = "srd/spell/wind-wall"
 grants_capability_while_equipped = ""

@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-rapier",
+  "overlay_template": "flame-tongue",
+  "overlay_badge": "fire",
+  "base_sha256": "8b86956b85c888629b7c3c8297d67d034f444dede59c0283a17f3b56947af543",
+  "overlay_sha256": "c4806ef2bb352ad495c05e155d9611cc695c3fa5894816ef751f3f11c8c261d9",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:41.673Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "a0cad854c3bb389095cd6d7f3145fde898def6f60ddab26983f3390fe78ab8aa",
+  "target_attachment_ref": "srd/magic_item/flame-tongue-rapier#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-flame-tongue-rapier"
+}

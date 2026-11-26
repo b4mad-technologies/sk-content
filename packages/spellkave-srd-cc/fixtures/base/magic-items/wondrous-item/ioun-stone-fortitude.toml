@@ -36,6 +36,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A deep red stone moves in a heavy, steady orbit, and the chest under it feels braced. Breath comes a little deeper. The crystal is warm on the side facing the brow and cool on the far side. It smells of iron and a closed fist. A listener standing close hears their own breath more clearly than the room."
 display_name = "Ioun Stone (Fortitude)"
 entity_def_id = "srd/magic_item/ioun-stone-fortitude"
 grants_capability_while_equipped = ""

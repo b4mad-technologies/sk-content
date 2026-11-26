@@ -102,6 +102,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Soot-dark motes gather at the caster’s fingertips, then vanish like breath against a mirror. Foreign speech unfolds into plain intent, while inked marks beneath a resting hand seem to stir with the remembered voices of those who made them. Yet riddles keep their teeth, and secrets hidden behind ciphers remain silent."
 display_name = "Comprehend Languages"
 entity_def_id = "srd/spell/comprehend-languages"
 grants_capability_while_equipped = ""

@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-scale-mail",
+  "overlay_template": "mithral-armor",
+  "overlay_badge": "metal",
+  "base_sha256": "82b4e2c6e57b95323016d51526502a31e50cd10cc2263bf38ddd93bab80f5318",
+  "overlay_sha256": "ccc7c944d91b356336aa1f1e27505e8b85e5220a061c5010888b5067d6625261",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:55.563Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "1b65778850f9381f8b0fda2a48d452cb26489a5da74155485d378afa8f6dae42",
+  "target_attachment_ref": "srd/magic_item/mithral-armor-scale-mail#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-mithral-armor-scale-mail"
+}

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its polished edge gathers pale fire without heat, casting stern reflections across armor and stone. In a steady hand, the weapon seems to quiet fear and turn hostile enchantments aside like rain from a shield. When drawn against creatures steeped in grave-cold malice, its light hardens into a dawn that leaves no shadow untouched."
 display_name = "Holy Avenger"
 entity_def_id = "srd/magic_item/holy-avenger"
 grants_capability_while_equipped = ""

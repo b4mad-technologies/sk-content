@@ -133,6 +133,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A scorpion waits where stone meets shadow, its armored body nearly indistinguishable from the dust around it. It moves with patient precision, testing the ground with delicate pincers before striking in a sudden blur. Even after it retreats beneath a rock or into a crack, the memory of its raised tail lingers."
 display_name = "Scorpion"
 entity_def_id = "srd/creature/scorpion"
 grants_capability_while_equipped = ""

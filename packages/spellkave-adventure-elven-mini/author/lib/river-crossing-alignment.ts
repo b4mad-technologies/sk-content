@@ -7,7 +7,6 @@
 import { type Pin, sheetMetrics } from "./map-metrics.ts";
 
 export const RIVER_CROSSING_MAP = sheetMetrics({
-	file: "34 River crossing.jpg",
 	image_width_px: 2000,
 	image_height_px: 1545,
 	grid_size_px: 67,

@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A living mantle coils around the caster in threads of ember or blue-white rime, illuminating every wary movement. One aspect carries the hush of deep winter; the other breathes like a forge newly opened. Any foe bold enough to strike through its glow finds the mantle answering with sudden, punishing fury."
 display_name = "Fire Shield"
 entity_def_id = "srd/spell/fire-shield"
 grants_capability_while_equipped = ""

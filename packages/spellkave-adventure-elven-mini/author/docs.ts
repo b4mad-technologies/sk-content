@@ -1,6 +1,6 @@
 import { inspectManifest } from "@spellkave/world-author";
 import { CRYPT_FIGHT_SESSION_DEF_ID } from "./crypt-fight.ts";
-import { ATTRIBUTION, BUNDLE } from "./lib/ids.ts";
+import { BUNDLE } from "./lib/ids.ts";
 import { INNKEEPER_ENTITY_KEY } from "./occupancy.ts";
 import { CULT_RELIC_KEY, MOONPETAL_KEY, QUESTS, TOMB_KEY_ITEM_KEY } from "./quests.ts";
 
@@ -117,6 +117,20 @@ export function buildElvenMiniRootMetadata(
 	descriptor: ElvenMiniAdventureDescriptor,
 	sourcePaths: ReadonlyMap<string, string>,
 ) {
+	// Every `elven_mini.art.image` attachment this adventure authors for a subject
+	// it does not itself own (i.e. an SRD entity_definition it never defines).
+	// Derived from the authored rows, not a hand-written id list, so a new art
+	// attachment picks up its embed here automatically.
+	const artNamespace = `${BUNDLE}.art.image`;
+	const srdArtTargets = [
+		...new Set(
+			(rows.metadata_attachments ?? [])
+				.filter((row) => text(row, "namespace") === artNamespace)
+				.filter((row) => text(row, "target_kind") === "entity_definition")
+				.map((row) => text(row, "target_ref"))
+				.filter((ref) => ref && !ref.startsWith(`${BUNDLE}/`)),
+		),
+	].sort();
 	const castInstances = (rows.entities ?? [])
 		.filter((row) => ["npc", "player"].includes(text(row, "kind")))
 		.map((row) => catalogueRow("entity", text(row, "entity_key"), "cast", row, sourcePaths));
@@ -217,10 +231,6 @@ export function buildElvenMiniRootMetadata(
 						license: "CC-BY-4.0",
 					},
 				},
-				{
-					body: `Map art by Derek Ruiz / Elven Tower Cartography. Resized/re-encoded and adapted by Spellkave. Per-file credits: assets/ccc3-maps/ATTRIBUTION.md. CC BY 4.0. Source: ${ATTRIBUTION.postUrl} Creator: ${ATTRIBUTION.patreon} License: ${ATTRIBUTION.licenseUrl}`,
-					source: { path: "author/backdrops.ts", anchor: "backdrops", license: "CC-BY-4.0" },
-				},
 			],
 			sections: [
 				{
@@ -244,7 +254,14 @@ export function buildElvenMiniRootMetadata(
 						{
 							id: "srd-subjects",
 							title: "Creatures and gear from the SRD",
-							body: "These SRD creatures and items appear in the adventure.",
+							body: [
+								"These are SRD subjects — creatures and gear the adventure does not own — " +
+									"shown here with the art this adventure gives them. Their own SRD page " +
+									"carries none of it; it lives only on this page.",
+								...srdArtTargets.map(
+									(ref) => `::subject{kind="entity_definition" ref="${ref}" view="full"}`,
+								),
+							].join("\n\n"),
 							source: {
 								path: "author/docs.ts",
 								anchor: "buildElvenMiniRootMetadata",

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Three dark-mouthed sleeves nest along the quiver’s side, each deeper than its stitched silhouette permits. A hand reaches in past cool leather and finds feather, shaft, or polished wood waiting exactly where instinct expects. Though packed for a campaign’s worth of troubles, it rides with the light sway of an empty hunter’s kit."
 display_name = "Efficient Quiver"
 entity_def_id = "srd/magic_item/efficient-quiver"
 grants_capability_while_equipped = ""

@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-ring-mail",
+  "overlay_template": "mithral-armor",
+  "overlay_badge": "metal",
+  "base_sha256": "bb67245d8b89c646ba054c30ead349c691a7d8460fd06d54035e9585ba830134",
+  "overlay_sha256": "ccc7c944d91b356336aa1f1e27505e8b85e5220a061c5010888b5067d6625261",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:55.520Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "f7bd60a98e4d140861553ff852c29bfec570f433633abaa87f6f87564a430062",
+  "target_attachment_ref": "srd/magic_item/mithral-armor-ring-mail#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-mithral-armor-ring-mail"
+}

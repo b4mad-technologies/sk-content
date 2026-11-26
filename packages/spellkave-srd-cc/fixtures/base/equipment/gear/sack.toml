@@ -36,6 +36,7 @@ tag = "srd.item.container"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Coarse cloth, open at the mouth and cinched with a bit of cord, the sack slumps until something gives it a shape. The weave is loose enough to hint at what rides inside and tough enough to drag across stone. It smells of dust and of whatever last filled it on the road."
 display_name = "Sack"
 entity_def_id = "srd/item/sack"
 grants_capability_while_equipped = ""

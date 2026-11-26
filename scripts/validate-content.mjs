@@ -57,6 +57,7 @@ for (const { files } of Object.values(forks)) {
 
 const bundles = new Map();
 let failures = 0;
+let artChecked = 0;
 for (const [root, dependencies] of roots) {
   const text = readFileSync(root, "utf8");
   checkRoundTrip(text, root);
@@ -88,12 +89,16 @@ for (const [root, dependencies] of roots) {
   const label = relative(packages, root);
   for (const source of [text, ...fragments]) {
     const data = parse(source, parseOptions);
-    for (const layer of data.map_layers ?? []) {
-      if (layer.asset_module !== "ccc3-maps") continue;
-      localFile(join(elven, "assets/ccc3-maps"), layer.asset_path);
-    }
+    assert(!(data.map_layers ?? []).length, `map layer in ${label}: this tree ships no map images`);
     for (const attachment of data.metadata_attachments ?? []) {
-      assert(!attachment.namespace?.endsWith(".art.image"), `held sprite reference in ${label}`);
+      if (!attachment.namespace?.endsWith(".art.image")) continue;
+      const art = JSON.parse(attachment.payload_json);
+      assert.equal(art.license, "CC-BY-4.0", `art licence in ${label}: ${art.path}`);
+      const assets = join(attachment.bundle_id === "srd" ? srd : join(elven, "fixtures"), "../assets");
+      const bytes = readFileSync(localFile(assets, art.path));
+      const hash = createHash("sha256").update(bytes).digest("hex");
+      assert.equal(hash, art.hash, `art hash in ${label}: ${art.path}`);
+      artChecked += 1;
     }
   }
   console.log(`${label}: ${fragments.length} includes, ${fatal.length} fatal, ${diagnostics.length - fatal.length} other diagnostics`);
@@ -101,4 +106,5 @@ for (const [root, dependencies] of roots) {
   failures += fatal.length;
 }
 
+console.log(`art attachments: ${artChecked} checked (path, SHA-256, CC-BY-4.0)`);
 if (failures) process.exitCode = 1;

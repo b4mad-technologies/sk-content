@@ -1,0 +1,270 @@
+{
+	"schema": "spellkave-prose-manifest/v1",
+	"output_dir": ".local/creation-batch/prose-run",
+	"entries": [
+		{
+			"id": "action/srd/dm/creation-sheet/barbarian",
+			"display_name": "Initialize Barbarian character statistics",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "action",
+				"srd_text": "Initialize a new Barbarian's first-level numerical character statistics. Starting Hit Points and unarmored Armor Class use the already adopted ability scores. Set level one, zero experience, proficiency and source-backed first-level class resource amounts. This action does not choose class identity, grant equipment or advance an experienced character."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"JSON",
+				"actor.stat",
+				"srd/",
+				"srd.",
+				"sk-",
+				"BL-"
+			]
+		},
+		{
+			"id": "action/srd/dm/creation-sheet/bard",
+			"display_name": "Initialize Bard character statistics",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "action",
+				"srd_text": "Initialize a new Bard's first-level numerical character statistics. Starting Hit Points and unarmored Armor Class use the already adopted ability scores. Set level one, zero experience, proficiency and source-backed first-level class resource amounts. This action does not choose class identity, grant equipment or advance an experienced character."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"JSON",
+				"actor.stat",
+				"srd/",
+				"srd.",
+				"sk-",
+				"BL-"
+			]
+		},
+		{
+			"id": "action/srd/dm/creation-sheet/cleric",
+			"display_name": "Initialize Cleric character statistics",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "action",
+				"srd_text": "Initialize a new Cleric's first-level numerical character statistics. Starting Hit Points and unarmored Armor Class use the already adopted ability scores. Set level one, zero experience, proficiency and source-backed first-level class resource amounts. This action does not choose class identity, grant equipment or advance an experienced character."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"JSON",
+				"actor.stat",
+				"srd/",
+				"srd.",
+				"sk-",
+				"BL-"
+			]
+		},
+		{
+			"id": "action/srd/dm/creation-sheet/druid",
+			"display_name": "Initialize Druid character statistics",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "action",
+				"srd_text": "Initialize a new Druid's first-level numerical character statistics. Starting Hit Points and unarmored Armor Class use the already adopted ability scores. Set level one, zero experience, proficiency and source-backed first-level class resource amounts. This action does not choose class identity, grant equipment or advance an experienced character."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"JSON",
+				"actor.stat",
+				"srd/",
+				"srd.",
+				"sk-",
+				"BL-"
+			]
+		},
+		{
+			"id": "action/srd/dm/creation-sheet/fighter",
+			"display_name": "Initialize Fighter character statistics",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "action",
+				"srd_text": "Initialize a new Fighter's first-level numerical character statistics. Starting Hit Points and unarmored Armor Class use the already adopted ability scores. Set level one, zero experience, proficiency and source-backed first-level class resource amounts. This action does not choose class identity, grant equipment or advance an experienced character."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"JSON",
+				"actor.stat",
+				"srd/",
+				"srd.",
+				"sk-",
+				"BL-"
+			]
+		},
+		{
+			"id": "action/srd/dm/creation-sheet/monk",
+			"display_name": "Initialize Monk character statistics",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "action",
+				"srd_text": "Initialize a new Monk's first-level numerical character statistics. Starting Hit Points and unarmored Armor Class use the already adopted ability scores. Set level one, zero experience, proficiency and source-backed first-level class resource amounts. This action does not choose class identity, grant equipment or advance an experienced character."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"JSON",
+				"actor.stat",
+				"srd/",
+				"srd.",
+				"sk-",
+				"BL-"
+			]
+		},
+		{
+			"id": "action/srd/dm/creation-sheet/paladin",
+			"display_name": "Initialize Paladin character statistics",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "action",
+				"srd_text": "Initialize a new Paladin's first-level numerical character statistics. Starting Hit Points and unarmored Armor Class use the already adopted ability scores. Set level one, zero experience, proficiency and source-backed first-level class resource amounts. This action does not choose class identity, grant equipment or advance an experienced character."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"JSON",
+				"actor.stat",
+				"srd/",
+				"srd.",
+				"sk-",
+				"BL-"
+			]
+		},
+		{
+			"id": "action/srd/dm/creation-sheet/ranger",
+			"display_name": "Initialize Ranger character statistics",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "action",
+				"srd_text": "Initialize a new Ranger's first-level numerical character statistics. Starting Hit Points and unarmored Armor Class use the already adopted ability scores. Set level one, zero experience, proficiency and source-backed first-level class resource amounts. This action does not choose class identity, grant equipment or advance an experienced character."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"JSON",
+				"actor.stat",
+				"srd/",
+				"srd.",
+				"sk-",
+				"BL-"
+			]
+		},
+		{
+			"id": "action/srd/dm/creation-sheet/rogue",
+			"display_name": "Initialize Rogue character statistics",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "action",
+				"srd_text": "Initialize a new Rogue's first-level numerical character statistics. Starting Hit Points and unarmored Armor Class use the already adopted ability scores. Set level one, zero experience, proficiency and source-backed first-level class resource amounts. This action does not choose class identity, grant equipment or advance an experienced character."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"JSON",
+				"actor.stat",
+				"srd/",
+				"srd.",
+				"sk-",
+				"BL-"
+			]
+		},
+		{
+			"id": "action/srd/dm/creation-sheet/sorcerer",
+			"display_name": "Initialize Sorcerer character statistics",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "action",
+				"srd_text": "Initialize a new Sorcerer's first-level numerical character statistics. Starting Hit Points and unarmored Armor Class use the already adopted ability scores. Set level one, zero experience, proficiency and source-backed first-level class resource amounts. This action does not choose class identity, grant equipment or advance an experienced character."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"JSON",
+				"actor.stat",
+				"srd/",
+				"srd.",
+				"sk-",
+				"BL-"
+			]
+		},
+		{
+			"id": "action/srd/dm/creation-sheet/warlock",
+			"display_name": "Initialize Warlock character statistics",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "action",
+				"srd_text": "Initialize a new Warlock's first-level numerical character statistics. Starting Hit Points and unarmored Armor Class use the already adopted ability scores. Set level one, zero experience, proficiency and source-backed first-level class resource amounts. This action does not choose class identity, grant equipment or advance an experienced character."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"JSON",
+				"actor.stat",
+				"srd/",
+				"srd.",
+				"sk-",
+				"BL-"
+			]
+		},
+		{
+			"id": "action/srd/dm/creation-sheet/wizard",
+			"display_name": "Initialize Wizard character statistics",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "action",
+				"srd_text": "Initialize a new Wizard's first-level numerical character statistics. Starting Hit Points and unarmored Armor Class use the already adopted ability scores. Set level one, zero experience, proficiency and source-backed first-level class resource amounts. This action does not choose class identity, grant equipment or advance an experienced character."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"JSON",
+				"actor.stat",
+				"srd/",
+				"srd.",
+				"sk-",
+				"BL-"
+			]
+		}
+	]
+}

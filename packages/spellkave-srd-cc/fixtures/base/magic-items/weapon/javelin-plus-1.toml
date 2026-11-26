@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its ash shaft is smooth as river-worn bone, balanced so perfectly that the hand seems to know its path before the throw. A faint silver glimmer gathers along the spearhead in moonlight, and the air gives a brief, keen sigh when it is loosed."
 display_name = "Javelin (+1)"
 entity_def_id = "srd/magic_item/javelin-plus-1"
 grants_capability_while_equipped = ""

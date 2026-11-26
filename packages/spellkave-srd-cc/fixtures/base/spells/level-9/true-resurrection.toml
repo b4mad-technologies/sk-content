@@ -84,6 +84,7 @@ tag = "srd.spell.list.druid"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Silence gathers around the fallen as the world seems to hold its breath. Ruin unwinds: scars fade, broken flesh remembers its wholeness, and even a lost form may be called back from absence by the certainty of a cherished name. When the final hush breaks, life returns like dawn through a shuttered room."
 display_name = "True Resurrection"
 entity_def_id = "srd/spell/true-resurrection"
 grants_capability_while_equipped = ""

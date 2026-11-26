@@ -77,7 +77,7 @@ tag = "srd.damage_type.slashing"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Longsword — a martial melee weapon."
+description = "A straight, well-balanced blade made for the press of a shield line and the sudden turn of a duel. Its grip settles firmly into the palm, while the long edge catches torchlight in a cold, narrow gleam. Each draw from the scabbard carries the quiet promise of practiced steel."
 display_name = "Longsword"
 entity_def_id = "srd/weapon/longsword"
 grants_capability_while_equipped = ""

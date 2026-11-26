@@ -83,7 +83,7 @@ tag = "srd.damage_type.slashing"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Greataxe — a martial melee weapon."
+description = "A broad crescent of sharpened steel crowns a long haft, balanced for sweeping arcs that make the air hum. In both hands, it feels less like a tool than a falling timber given purpose. Fresh-cut wood and oiled leather cling to its grip, while every swing asks for room enough to let its terrible momentum speak."
 display_name = "Greataxe"
 entity_def_id = "srd/weapon/greataxe"
 grants_capability_while_equipped = ""

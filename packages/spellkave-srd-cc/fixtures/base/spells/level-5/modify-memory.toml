@@ -84,6 +84,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush settles over the mind as recent moments loosen like ink in rain. Guided by a patient voice, grief may become gratitude, suspicion may wear a kinder face, and an unwelcome truth may slip behind a locked door. Yet the heart often knows when a borrowed recollection does not belong."
 display_name = "Modify Memory"
 entity_def_id = "srd/spell/modify-memory"
 grants_capability_while_equipped = ""

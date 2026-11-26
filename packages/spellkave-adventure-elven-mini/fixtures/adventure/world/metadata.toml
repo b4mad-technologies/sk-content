@@ -224,6 +224,398 @@ target_ref = "elven_mini/prompt/quest/q12"
 
 [[metadata_attachments]]
 bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/characters/aldwin-ledger-keeper.webp","hash":"831f8c3fe93598d926b8e39ff91dd63119d624b9d2869dfe927cf7428400e0d8","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity"
+target_ref = "elven_mini/adventure/npc/aldwin_1"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/characters/mira-innkeeper.webp","hash":"ba1731beb9e8ddf703858b88d14adeee07fc7b2a6900deb23db82e4fcfa2e2d9","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity"
+target_ref = "elven_mini/adventure/innkeeper_1"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/characters/brother-caddoc.webp","hash":"7b73ce460fe998aa53555be19ce8c9f3b04f07d685974ee423d5c78e4720bb63","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity"
+target_ref = "elven_mini/adventure/npc/caddoc_1"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/person/captain-ysolde-farwind.webp","hash":"0603547264b198cdde74d68fff7cd2e987b1c6f3e0c91f0ce4700f02846b2abf","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity"
+target_ref = "elven_mini/adventure/npc/ysolde_1"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/person/old-tamsin.webp","hash":"db5c31a73337f3b2e1d319f309c7825e14ec5aa3f5ccc34beecb30b08877e179","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity"
+target_ref = "elven_mini/adventure/npc/tamsin_1"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/person/jory-millwright.webp","hash":"baf8043a8157b8270a347b9a729cc45b61ba6311ea586053bb6e8a3407ff3f1d","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity"
+target_ref = "elven_mini/adventure/npc/jory_1"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/person/hesper-of-the-lodge.webp","hash":"221413a3985f415a5a7035911c7b7686f4958d43d170c6d132cc29ae441d3a8c","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity"
+target_ref = "elven_mini/adventure/npc/hesper_1"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/person/vessk.webp","hash":"2316eba04925e67af4d3fd956f50680ab1176419a9450fb0be09e07640696cf9","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity"
+target_ref = "elven_mini/adventure/npc/vessk_1"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/creature/sister-maelis.webp","hash":"3b2e7787b3f55d1015575846a198c14ce808b53f1f7fdfff222b95b1beb5ea32","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity"
+target_ref = "elven_mini/adventure/encounter/sister_maelis_1"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/creature/warcaptain-ghorza.webp","hash":"e78630be4936dce5ee8a4f922d118d393f19ec6ce300f3fd27d8df6c5f65e4d1","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity"
+target_ref = "elven_mini/adventure/encounter/warcaptain_ghorza_1"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/creature/grubnash.webp","hash":"097b4c5364bcdc099a40acb1c2cd5297c87d2f23aac6fe88a4123bbc7cd00b35","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity"
+target_ref = "elven_mini/adventure/encounter/grubnash_1"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/creature/mother-ulda.webp","hash":"bef5ab1bed4292bab12947d6e3e051c79826a88745f72b23e2a80e5b6c6f1db1","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity"
+target_ref = "elven_mini/adventure/encounter/mother_ulda_1"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/creature/durgan-ironfold.webp","hash":"9e6860215b3c521476e57eeae2dbdeca19b24464cdfd29ddf2cbd6ddba0560fa","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity"
+target_ref = "elven_mini/adventure/encounter/durgan_ironfold_1"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/creature/pale-steward.webp","hash":"bff0ac956b1991c2495717fca23dd05d4a4ed657a2ff2f0f815fef3e73978c39","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity"
+target_ref = "elven_mini/adventure/encounter/pale_steward_1"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/characters/cellar-rat.webp","hash":"9567ad51bef9e6c413b9d06a1716b1c715d25bcde30ce028a737d60e17b075c9","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/creature/giant-rat"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/characters/cellar-rat-swarm.webp","hash":"919a76e5f96206705ec47cd6d14f1878f44e70aabd4fa93fc8153d0ff456a697","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/creature/swarm-of-rats"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/creature/road-wolf.webp","hash":"ef4a0017831c17e751e773de81a45f881bbee036e055e44018e852c869e1a92b","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/creature/wolf"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/creature/stirge.webp","hash":"8b0e8200325fb67974309c351959e7f79a77e635e97780459ca9437f78139b50","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/creature/stirge"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/creature/mill-cultist.webp","hash":"28219b67ae735ce204122d8d4728d3cff3fd750415247d8aa9c26e6277fea1e3","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/creature/cultist"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/creature/hobgoblin-warrior.webp","hash":"fd17c26bc90cc78fe5b876f16e7b1220b039eae061229f1cfaed8f9d333e56a9","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/creature/hobgoblin-warrior"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/creature/worg.webp","hash":"2ebbad7377720c6fc8d36f44fafb9e5c6c06429f70bc61db172ec710a14e26f1","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/creature/worg"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/creature/giant-spider.webp","hash":"94e4d692e30d2fdf0a34f6978efacaeadd53f156ca3ac6434f2104aca0a25f22","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/creature/giant-spider"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/creature/owlbear.webp","hash":"6f33f4b2451ebf3eeaf8acb1d7d57a21bed3f85492a2733665c7f9abf4413e28","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/creature/owlbear"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/creature/goblin-minion.webp","hash":"6c73daabcc454d5519599cdea8cf91a2d392502dfbb4ad5da8d895c9e0c66ca4","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/creature/goblin-minion"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/creature/goblin-warrior.webp","hash":"cc46ce1ff30a7309d036819f083e0ab84dd2901836f5ef11d414ab7a20d74101","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/creature/goblin-warrior"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/creature/giant-frog.webp","hash":"61a92bd8080324397b481c3c23ce7f3241c8bdcb8a012f102d831d38b9a21ce2","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/creature/giant-frog"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/creature/will-o-wisp.webp","hash":"fd88912d14aaf4a89be4a7bc79d212dcd21d922e4892b03a1cab15078fee4efd","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/creature/will-o-wisp"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/creature/skeleton.webp","hash":"ae3de49b80cd719fc904bdeed2a84ce11c066fc4c64754e93f0e3b1d4ab86c10","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/creature/skeleton"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/creature/ghoul.webp","hash":"b88f1d7b14ff947b757ab694601cdccb1106f0788dc6a6062f5159beb0198b9c","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/creature/ghoul"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/creature/ghast.webp","hash":"5548c2dc34ccbec7e388f2d338596f62191389fc0bd74ec36d2e88ca9787d8da","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/creature/ghast"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/creature/bound-wight.webp","hash":"b5199f4e7c62ff0161a9e4b8cebe3ff2c25b7c78d841981998405170151412e7","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/creature/wight"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/creature/shadow.webp","hash":"3430df2782607f76ace61fc66f5365e377c27af5e84580f5f0a8b1a255d754cf","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/creature/shadow"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/creature/shrine-specter.webp","hash":"9c50bec769fb397ea55c4d23a334f7283bfcfe817f183576000f9f2d341f3b4c","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/creature/specter"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/creature/wererat.webp","hash":"f6f2d93e977c077ea9d9e10fc26b9043f2641357091ef48043e0ba8a83ab6974","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/creature/wererat"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/creature/gray-ooze.webp","hash":"1e302244444cda22af87c49b10b28441fa1851e31c39eb81a902b4032d39f829","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/creature/gray-ooze"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/creature/zombie.webp","hash":"72bc4df0d9111a30baefb0a936d888eb6af0d8dc8d739b02287e82c8e1397f41","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/creature/zombie"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/creature/ogre-zombie.webp","hash":"058db6824907abf212fc27624f12ca68f405204ee5848c964b37500245ed8077","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/creature/ogre-zombie"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/items/torch.webp","hash":"adf95a1e1390ff713a2f64bd8c04b18debdeb07ccbe197acaad195ee63e4e749","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "elven_mini/item/torch"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/items/rations.webp","hash":"34182a4c8087c1ce87e1cc07f0d65b91b2cb6311c2cce5e62baa341937ccc307","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "elven_mini/item/rations"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/items/rope.webp","hash":"f2a295e9c7e07d198dfd5405494898b8b7e7f70da6e74134e4d04fa665606fea","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/item/rope"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/items/waterskin.webp","hash":"f1391e2c46531d81413f1a476a4e06fa228ecc727c8fd431f70742047988b0b2","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/item/waterskin"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/items/shortsword.webp","hash":"4acee6f5eae578596f30262c39a59aa22813ac7ce9622caa5068ba8472126b0e","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/weapon/shortsword"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/items/shield.webp","hash":"be80212047cbc7a5271c936d9635306ffba8bcda00f30b148cd2539e2dd373df","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/armor/shield"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/items/healing-potion.webp","hash":"7ea5e3addcf17febb0d8cb5b8287dd14ad1eee237ba62e729caaf442257afbfa","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/item/potion-of-healing"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/items/lantern.webp","hash":"8a06e3f0a38605effbe625613d605a57c793f445cfb94315182e802af9485c5b","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/item/lantern-hooded"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/item/moonpetal.webp","hash":"2942292a887e8ab124f21414e96553c3a87ec655e6099a6e9b392b824d2a7e1f","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "elven_mini/adventure/item/moonpetal"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/item/cult-relic.webp","hash":"2057b8086684d134982f9879ddb3301aaa42ed090d71132daefb57a45521ddcd","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "elven_mini/adventure/item/cult_relic"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/item/ironfold-tomb-key.webp","hash":"bceddf225e6ca048dc51abf20587000c20453cccd5bbde96e15853cb865b293c","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "elven_mini/adventure/item/tomb_key"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
+namespace = "elven_mini.art.image"
+payload_json = '{"path":"elven-mini-art/item/longsword-plus-1.webp","hash":"9079f214ed8befba1e72d972609f6e498fec9863ecc30a89e6f8c383d679229b","license":"CC-BY-4.0"}'
+source = "manifest"
+target_kind = "entity_definition"
+target_ref = "srd/magic_item/longsword-plus-1"
+
+[[metadata_attachments]]
+bundle_id = "elven_mini"
 namespace = "elven_mini.maps.poi"
 payload_json = '{"icon":"portal","category":"transit","label":"Crossroads","color":"#a855f7"}'
 source = "manifest"
@@ -347,6 +739,12 @@ audience = "frontier.apply_manifest"
 bundle_id = "elven_mini"
 description = "Author notes on place rows."
 namespace = "place.note"
+
+[[metadata_namespaces]]
+audience = "public"
+bundle_id = "elven_mini"
+description = "Public image reference, SHA-256 content hash and license for an authored subject; consumers choose presentation."
+namespace = "elven_mini.art.image"
 
 [[metadata_namespaces]]
 audience = "public"

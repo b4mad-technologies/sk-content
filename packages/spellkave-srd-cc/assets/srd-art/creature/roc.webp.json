@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "pixellab-pixen",
+  "prompt": "Roc. Roc. gargantuan. monstrosity. Full-body south-facing creature sprite, readable silhouette, one subject. Theme-neutral Spellkave pixel art: mid-contrast cream, charcoal, muted gold, forest, and rust. Selective outline, basic-to-medium shading, no gloss or bloom. Transparent background, no frame, no baked scenery, no letters, words, numerals, logo, watermark, photorealism, or D&D branding. Centered, native pixel size.",
+  "style_pack": null,
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts. Raw Pixen only: style_pack is omitted so the batch runner does not auto-apply entity-art-v1 reduce-colors."
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 1
+  },
+  "generated_at": "2026-09-07T19:36:57.943Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "46547af360a9367163da39fe1be9fbd932386d20a979a8961f130987038cc7c2",
+  "target_attachment_ref": "entity_definition:srd/creature/roc#srd.art.image",
+  "kind": "creature",
+  "entry_id": "creature-roc",
+  "provider_ids": {
+    "api_base_url": "https://api.pixellab.ai/v2",
+    "route": "/create-image-pixen"
+  }
+}

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Blackened rings cling together like wet teeth, their clawed gauntlets always warm against the skin. A low, rasping tongue coils through the wearer’s thoughts whenever fiends draw near, making their presence feel horribly familiar. The armor settles with the intimate certainty of a shackle, tightening its claim each time blood is spilled."
 display_name = "Demon Ring Mail"
 entity_def_id = "srd/magic_item/demon-ring-mail"
 grants_capability_while_equipped = ""

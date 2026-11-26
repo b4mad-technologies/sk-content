@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "This full harness bears a muted sheen that shifts with the light, as though it remembers some ancient calamity and refuses to yield to it again. Its plates settle around the wearer with grave, reassuring weight, and a faint hush gathers whenever hostile power draws near. Beneath its polished surface, a single elemental temper sleeps, patient as stone."
 display_name = "Armor of Resistance (Plate)"
 entity_def_id = "srd/magic_item/armor-of-resistance-plate"
 grants_capability_while_equipped = ""

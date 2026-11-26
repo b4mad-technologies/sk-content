@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its narrow blade thrums with a faint, impatient pulse when danger draws near, like a heartbeat heard through stone. In the dark, the dagger’s hilt grows subtly warm, and sleepers nearby stir with the uneasy certainty that something has entered the room. Held ready, it lends every breath the sharp clarity of a drawn bowstring."
 display_name = "Weapon of Warning (Dagger)"
 entity_def_id = "srd/magic_item/weapon-of-warning-dagger"
 grants_capability_while_equipped = ""

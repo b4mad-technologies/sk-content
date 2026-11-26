@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale sigil coils along each shaft, its pattern shifting with the shadow of the quarry it was made to end. In the hand, the ammunition hums like a hound straining at a leash; once loosed against its appointed prey, that hunger flares in a single, terrible instant and is gone."
 display_name = "Ammunition of Beast Slaying"
 entity_def_id = "srd/magic_item/ammunition-of-beast-slaying"
 grants_capability_while_equipped = ""

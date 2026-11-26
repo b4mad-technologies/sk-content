@@ -16,7 +16,7 @@
 action_id = "srd/check/lock-picking"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Resolve the SRD lock-picking check at DC 15. Tool identity is authored separately as srd/tool/thieves-tools; the actor's tool-proficiency capability and the Sleight of Hand skill capability each qualify for one shared Proficiency Bonus. Advantage for having both is not encoded here because the current modifier surface cannot scope it to exactly this check. SRD: cache/markdown/equipment.md:1534; cache/markdown/playing-the-game.md:608."
+description = "Use thieves’ tools to pick a lock. Make a Dexterity check against DC 15, adding your proficiency bonus if you’re proficient with the tools or Sleight of Hand."
 display_name = "Check: Lock Picking"
 on_failure = ""
 on_success = "srd/check/lock-picking/success"
@@ -229,7 +229,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/proficiency/tool/alchemists-supplies"
 default_visibility = "Public"
-description = "Proficiency with Alchemist's Supplies."
+description = "You add your proficiency bonus to ability checks you make with alchemist’s supplies. You use them to create and identify alchemical substances."
 display_name = "Tool Proficiency: Alchemist's Supplies"
 
 [[capability_definitions]]
@@ -237,7 +237,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/proficiency/tool/brewers-supplies"
 default_visibility = "Public"
-description = "Proficiency with Brewer's Supplies."
+description = "You add your proficiency bonus to ability checks you make with brewer’s supplies. You use them to produce and assess fermented drinks."
 display_name = "Tool Proficiency: Brewer's Supplies"
 
 [[capability_definitions]]
@@ -245,7 +245,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/proficiency/tool/carpenters-tools"
 default_visibility = "Public"
-description = "Proficiency with Carpenter's Tools."
+description = "You add your proficiency bonus to ability checks you make with carpenter’s tools. You use them to build, repair, or assess wooden structures and objects."
 display_name = "Tool Proficiency: Carpenter's Tools"
 
 [[capability_definitions]]
@@ -253,7 +253,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/proficiency/tool/cartographers-tools"
 default_visibility = "Public"
-description = "Proficiency with Cartographer's Tools."
+description = "You add your proficiency bonus to checks you make with cartographer’s tools. You use them to create, study, and copy maps."
 display_name = "Tool Proficiency: Cartographer's Tools"
 
 [[capability_definitions]]
@@ -261,7 +261,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/proficiency/tool/cobblers-tools"
 default_visibility = "Public"
-description = "Proficiency with Cobbler's Tools."
+description = "You add your proficiency bonus when you make checks using cobbler’s tools to craft or repair footwear."
 display_name = "Tool Proficiency: Cobbler's Tools"
 
 [[capability_definitions]]
@@ -269,7 +269,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/proficiency/tool/cooks-utensils"
 default_visibility = "Public"
-description = "Proficiency with Cook's Utensils."
+description = "You add your proficiency bonus to checks you make with cook’s utensils. You use them to prepare food and perform related culinary tasks."
 display_name = "Tool Proficiency: Cook's Utensils"
 
 [[capability_definitions]]
@@ -277,7 +277,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/proficiency/tool/glassblowers-tools"
 default_visibility = "Public"
-description = "Proficiency with Glassblower's Tools."
+description = "You add your proficiency bonus to ability checks you make with glassblower’s tools. You use them to shape, repair, and assess glass objects."
 display_name = "Tool Proficiency: Glassblower's Tools"
 
 [[capability_definitions]]
@@ -285,7 +285,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/proficiency/tool/jewelers-tools"
 default_visibility = "Public"
-description = "Proficiency with Jeweler's Tools."
+description = "You add your proficiency bonus to ability checks you make with jeweler’s tools. Use them to work with gems, precious metals, and fine jewelry."
 display_name = "Tool Proficiency: Jeweler's Tools"
 
 [[capability_definitions]]
@@ -293,7 +293,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/proficiency/tool/leatherworkers-tools"
 default_visibility = "Public"
-description = "Proficiency with Leatherworker's Tools."
+description = "You add your proficiency bonus to checks you make with leatherworker’s tools. You use them to craft, repair, or assess leather goods."
 display_name = "Tool Proficiency: Leatherworker's Tools"
 
 [[capability_definitions]]
@@ -301,7 +301,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/proficiency/tool/masons-tools"
 default_visibility = "Public"
-description = "Proficiency with Mason's Tools."
+description = "You add your proficiency bonus to ability checks you make with mason’s tools. You use them to shape, repair, and work stone."
 display_name = "Tool Proficiency: Mason's Tools"
 
 [[capability_definitions]]
@@ -309,7 +309,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/proficiency/tool/painters-supplies"
 default_visibility = "Public"
-description = "Proficiency with Painter's Supplies."
+description = "You add your proficiency bonus to ability checks you make with painter’s supplies. You use them to create, repair, or study painted works."
 display_name = "Tool Proficiency: Painter's Supplies"
 
 [[capability_definitions]]
@@ -317,7 +317,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/proficiency/tool/potters-tools"
 default_visibility = "Public"
-description = "Proficiency with Potter's Tools."
+description = "You add your proficiency bonus to ability checks you make with potter’s tools. You use them to shape, fire, and repair ceramic objects."
 display_name = "Tool Proficiency: Potter's Tools"
 
 [[capability_definitions]]
@@ -325,7 +325,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/proficiency/tool/smiths-tools"
 default_visibility = "Public"
-description = "Proficiency with Smith's Tools."
+description = "You add your proficiency bonus to ability checks you make with smith’s tools. Use them to shape, repair, or assess metal items."
 display_name = "Tool Proficiency: Smith's Tools"
 
 [[capability_definitions]]
@@ -333,7 +333,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/proficiency/tool/tinkers-tools"
 default_visibility = "Public"
-description = "Proficiency with Tinker's Tools."
+description = "You add your proficiency bonus to ability checks you make with tinker's tools. You use them to repair, assemble, and identify small mechanical devices."
 display_name = "Tool Proficiency: Tinker's Tools"
 
 [[capability_definitions]]
@@ -341,7 +341,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/proficiency/tool/weavers-tools"
 default_visibility = "Public"
-description = "Proficiency with Weaver's Tools."
+description = "You add your proficiency bonus to checks you make with weaver’s tools. You use them to make, repair, or assess cloth and woven goods."
 display_name = "Tool Proficiency: Weaver's Tools"
 
 [[capability_definitions]]
@@ -349,7 +349,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/proficiency/tool/woodcarvers-tools"
 default_visibility = "Public"
-description = "Proficiency with Woodcarver's Tools."
+description = "You add your proficiency bonus to ability checks you make with woodcarver’s tools. Use them to shape, carve, and repair wooden objects."
 display_name = "Tool Proficiency: Woodcarver's Tools"
 
 [[capability_definitions]]
@@ -357,7 +357,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/proficiency/tool/musical-instrument-bagpipes"
 default_visibility = "Public"
-description = "Proficiency with Musical Instrument, Bagpipes."
+description = "You add your proficiency bonus to ability checks you make with bagpipes. You can use them to perform music or support related tasks."
 display_name = "Tool Proficiency: Musical Instrument, Bagpipes"
 
 [[capability_definitions]]
@@ -365,7 +365,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/proficiency/tool/musical-instrument-drum"
 default_visibility = "Public"
-description = "Proficiency with Musical Instrument, Drum."
+description = "You add your proficiency bonus to ability checks you make with a drum. You can use it to perform music, keep rhythm, or support related tasks."
 display_name = "Tool Proficiency: Musical Instrument, Drum"
 
 [[capability_definitions]]
@@ -373,7 +373,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/proficiency/tool/musical-instrument-dulcimer"
 default_visibility = "Public"
-description = "Proficiency with Musical Instrument, Dulcimer."
+description = "You add your proficiency bonus to checks you make with a dulcimer when it applies."
 display_name = "Tool Proficiency: Musical Instrument, Dulcimer"
 
 [[capability_definitions]]
@@ -381,7 +381,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/proficiency/tool/musical-instrument-flute"
 default_visibility = "Public"
-description = "Proficiency with Musical Instrument, Flute."
+description = "You add your proficiency bonus to ability checks you make with a flute."
 display_name = "Tool Proficiency: Musical Instrument, Flute"
 
 [[capability_definitions]]
@@ -389,7 +389,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/proficiency/tool/musical-instrument-horn"
 default_visibility = "Public"
-description = "Proficiency with Musical Instrument, Horn."
+description = "You add your proficiency bonus to ability checks you make with a horn. You can use it to perform music, signal others, or create similar sounds."
 display_name = "Tool Proficiency: Musical Instrument, Horn"
 
 [[capability_definitions]]
@@ -397,7 +397,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/proficiency/tool/musical-instrument-lute"
 default_visibility = "Public"
-description = "Proficiency with Musical Instrument, Lute."
+description = "You add your proficiency bonus to ability checks you make while playing or using a lute."
 display_name = "Tool Proficiency: Musical Instrument, Lute"
 
 [[capability_definitions]]
@@ -405,7 +405,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/proficiency/tool/musical-instrument-lyre"
 default_visibility = "Public"
-description = "Proficiency with Musical Instrument, Lyre."
+description = "You add your proficiency bonus to ability checks you make with a lyre."
 display_name = "Tool Proficiency: Musical Instrument, Lyre"
 
 [[capability_definitions]]
@@ -413,7 +413,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/proficiency/tool/musical-instrument-pan-flute"
 default_visibility = "Public"
-description = "Proficiency with Musical Instrument, Pan Flute."
+description = "You add your proficiency bonus to ability checks you make with a pan flute."
 display_name = "Tool Proficiency: Musical Instrument, Pan Flute"
 
 [[capability_definitions]]
@@ -421,7 +421,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/proficiency/tool/musical-instrument-shawm"
 default_visibility = "Public"
-description = "Proficiency with Musical Instrument, Shawm."
+description = "You add your proficiency bonus to checks you make with a shawm. You can use it to perform music or apply your musical training."
 display_name = "Tool Proficiency: Musical Instrument, Shawm"
 
 [[capability_definitions]]
@@ -429,7 +429,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/proficiency/tool/musical-instrument-viol"
 default_visibility = "Public"
-description = "Proficiency with Musical Instrument, Viol."
+description = "You add your proficiency bonus to ability checks you make with a viol."
 display_name = "Tool Proficiency: Musical Instrument, Viol"
 
 [[capability_definitions]]
@@ -437,7 +437,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/proficiency/tool/thieves-tools"
 default_visibility = "Public"
-description = "Holding this capability means the actor is proficient with Thieves' Tools. A tool check adds the one shared Proficiency Bonus via srd/proficiency_bonus. Later Character Creation class/background generation grants this capability; this slice does not grant it to any actor. SRD: cache/markdown/equipment.md:618-620; cache/markdown/playing-the-game.md:606-608."
+description = "You add your Proficiency Bonus to checks you make with thieves’ tools."
 display_name = "Tool Proficiency: Thieves' Tools"
 
 [[capability_definitions]]
@@ -445,7 +445,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/proficiency/tool/calligraphers-supplies"
 default_visibility = "Public"
-description = "Proficiency with Calligrapher's Supplies."
+description = "You add your proficiency bonus to ability checks you make with calligrapher’s supplies. You use them to create and assess fine writing, lettering, and official documents."
 display_name = "Tool Proficiency: Calligrapher's Supplies"
 
 [[capability_definitions]]
@@ -453,7 +453,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/proficiency/tool/gaming-set-dice"
 default_visibility = "Public"
-description = "Proficiency with a Gaming Set (Dice)."
+description = "You add your proficiency bonus to ability checks you make with a dice gaming set. Use it when you play, cheat at, or assess games of chance."
 display_name = "Tool Proficiency: Gaming Set (Dice)"
 
 [[capability_definitions]]
@@ -461,7 +461,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/check/lock-picking"
 default_visibility = "Public"
-description = "Lock picking — a tool check."
+description = "A tool check you make to open a lock without its key. Use it when you try to bypass a locked door, chest, or similar mechanism."
 display_name = "Check: Lock Picking"
 
 [[consequence_templates]]

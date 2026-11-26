@@ -21,7 +21,7 @@
 action_id = "srd/item/ball-bearings/spill"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Spill Ball Bearings where you stand. For 10 rounds, each round a creature standing there makes a DC 10 Dexterity saving throw or is knocked Prone; a creature is hit at most once until the start of its next turn. Creatures already there, you included, are spared until the start of their next turn. The item is used up."
+description = "You spill ball bearings from their pouch where you stand. For a minute, each round every creature there, you included, must make a Dexterity save or fall prone. The pouch is used up."
 display_name = "Spill Ball Bearings"
 on_failure = ""
 on_success = "srd/item/ball-bearings/spill/success"
@@ -38,7 +38,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/item/caltrops/spread"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Spread Caltrops where you stand. For 10 rounds, each round a creature standing there makes a DC 15 Dexterity saving throw or takes 1 piercing damage and has Speed 0 until the start of its next turn; a creature is hit at most once until the start of its next turn. Creatures already there, you included, are spared until the start of their next turn. The item is used up."
+description = "You spread caltrops from their bag where you stand. For a minute, each round every creature there, you included, must make a Dexterity save or take 1 piercing damage and be unable to move until the start of its next turn. The bag is used up."
 display_name = "Spread Caltrops"
 on_failure = ""
 on_success = "srd/item/caltrops/spread/success"
@@ -88,7 +88,7 @@ template_id = "srd/item/caltrops/spread/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/speed-zero"
-description = "Your walking Speed is 0 until the start of your next turn (equipment.md § Caltrops). The Speed axis is set to 0 while the condition holds."
+description = "Your Speed is 0 until the start of your next turn. You can't move from where you stand."
 display_name = "Speed 0"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []
@@ -476,7 +476,7 @@ priority = 0
 
 [[niche_definitions]]
 bundle_id = "srd"
-description = "Actor-carried niche for Utilize verbs on carried gear: the acting creature's own srd/action/utilize capability carries it everywhere, no place attachment."
+description = "You put a piece of carried gear to use where you stand, such as spreading caltrops or spilling ball bearings."
 display_name = "Utilize (self)"
 niche_id = "capability:srd/action/utilize"
 predicate_source = ""

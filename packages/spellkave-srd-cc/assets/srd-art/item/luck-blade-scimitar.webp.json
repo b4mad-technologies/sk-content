@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-scimitar",
+  "overlay_template": "luck-blade",
+  "overlay_badge": "luck",
+  "base_sha256": "d406f2301e4abeb753f47983eb084034ce907baeb8f8f4c85072fa62f6acaecc",
+  "overlay_sha256": "26d3eafb1c9d30759a8c41b8b28e7336f7198f5fa0333830f87cbbeacf09e8bb",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:46.539Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "29a3632b333119469aa97085e6f6b56cd92f40b293265e839781630915976c9f",
+  "target_attachment_ref": "srd/magic_item/luck-blade-scimitar#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-luck-blade-scimitar"
+}

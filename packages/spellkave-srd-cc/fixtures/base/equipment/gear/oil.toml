@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A stoppered flask of dark, clinging oil catches lamplight in a dull bronze sheen. Its sharp, smoky scent lingers on gloves and floorboards alike, promising warmth in a lantern or a sudden, ravenous bloom of flame when spilled where it matters most."
 display_name = "Oil"
 entity_def_id = "srd/item/oil"
 grants_capability_while_equipped = ""

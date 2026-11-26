@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "At a steady touch, stubborn stone softens like river clay beneath an unseen sculptor’s hand. Walls ripple aside, rough boulders gather into deliberate forms, and sealed thresholds become seamless as bedrock. When the shaping ends, the new work bears the quiet weight and ancient grain of stone that has always belonged there."
 display_name = "Stone Shape"
 entity_def_id = "srd/spell/stone-shape"
 grants_capability_while_equipped = ""

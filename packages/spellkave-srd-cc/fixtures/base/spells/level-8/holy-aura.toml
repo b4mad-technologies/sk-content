@@ -84,6 +84,7 @@ tag = "srd.spell.list.cleric"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush of consecrated radiance unfurls from the faithful, turning the air bright as dawn through cathedral glass. Allies within its glow move beneath an unseen benediction, while hostile blows falter at the threshold of that sacred calm. Creatures steeped in grave-dust or infernal malice find the brilliance especially cruel, their vision seared by a holiness they cannot endure."
 display_name = "Holy Aura"
 entity_def_id = "srd/spell/holy-aura"
 grants_capability_while_equipped = ""

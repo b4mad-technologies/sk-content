@@ -36,6 +36,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Two smooth stones, matched in color and not quite willing to sit apart. When one is closed in a fist, the other takes on a faint heat, as if someone had just set it down. A word spoken against the warm one seems to leave a damp mark on the air. The pair smells of river water and a road still being walked."
 display_name = "Sending Stones"
 entity_def_id = "srd/magic_item/sending-stones"
 grants_capability_while_equipped = ""

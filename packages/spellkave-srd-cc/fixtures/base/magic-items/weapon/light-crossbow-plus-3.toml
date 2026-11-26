@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_3"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Pale runes gleam along the crossbow’s polished stock, brightening whenever a quarrel settles into its groove. Its string draws with a silken, eager tension, and the release carries a crisp note that seems to linger in the air. In dim halls or wind-swept battlements, it feels uncannily certain of its aim."
 display_name = "Light Crossbow (+3)"
 entity_def_id = "srd/magic_item/light-crossbow-plus-3"
 grants_capability_while_equipped = ""

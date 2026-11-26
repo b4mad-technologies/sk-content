@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Three ivory goats stand shoulder to shoulder, their tiny carved horns polished smooth by generations of hopeful thumbs. Cast upon open ground, each remembers a different calling: dread, endurance, or the long road beneath unwearied hooves. A faint warmth lingers in the statuettes afterward, like sun caught in pale stone."
 display_name = "Figurine of Wondrous Power (Ivory Goats)"
 entity_def_id = "srd/magic_item/figurine-of-wondrous-power-ivory-goats"
 grants_capability_while_equipped = ""

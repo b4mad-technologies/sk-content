@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The amulet is small enough to vanish in a fist and bright enough to catch a candle across a dim room. Jewels or paint mark a sacred sign, the metal cool against the throat when it is worn. Held instead, it warms quickly, a quiet object for a prayer said under the breath."
 display_name = "Holy Symbol, Amulet)"
 entity_def_id = "srd/item/holy-symbol-amulet"
 grants_capability_while_equipped = ""

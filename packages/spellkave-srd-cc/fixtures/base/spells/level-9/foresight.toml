@@ -96,6 +96,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush settles behind the recipient’s eyes as the next few heartbeats unfold in glimmering fragments. Danger seems to announce itself in the tilt of a shoulder, the tremor before a blade is drawn, the faintest wrongness in a shadow. Around them, chance bends like grass before a coming wind, leaving foes always a breath behind."
 display_name = "Foresight"
 entity_def_id = "srd/spell/foresight"
 grants_capability_while_equipped = ""

@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The cloth is tough and a little scratchy, dyed a road-dust color that hides the miles. Seams are doubled, and the hem is already pale from brush and weather. It hangs close without fuss, the sort of garment that looks right whether the day ends in a village or a ditch."
 display_name = "Clothes, Traveler's"
 entity_def_id = "srd/item/clothes-travelers"
 grants_capability_while_equipped = ""

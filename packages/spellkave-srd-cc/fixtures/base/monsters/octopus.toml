@@ -140,6 +140,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "An octopus drifts through kelp shadows and coral hollows with unnerving patience, its skin rippling through colors and textures that mimic the seafloor. When disturbed, it vanishes in a cloud of ink or lashes out with swift, searching arms. Though often shy, a cornered specimen can turn a tranquil tide pool into a frantic tangle of suckers and slipping stone."
 display_name = "Octopus"
 entity_def_id = "srd/creature/octopus"
 grants_capability_while_equipped = ""

@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "pixellab-pixen",
+  "prompt": "Tree Stride. Two living trees linked by a swirling hollow-trunk portal. Isolated spell glyph of the magical effect itself, one symbol, no caster, no creature, no scenery, no weapon, no letters, centered. Theme-neutral Spellkave pixel art: mid-contrast cream, charcoal, muted gold, forest, and rust. Selective outline, basic-to-medium shading, no gloss or bloom. Transparent background, no frame, no baked scenery, no letters, words, numerals, logo, watermark, photorealism, or D&D branding. Centered, native pixel size.",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 1.1
+  },
+  "generated_at": "2026-09-24T09:20:42.776Z",
+  "source_manifest": ".local/glyph-burn2-art/manifest.json",
+  "sha256": "3b71ddee0c16dae32755b771a6214d2592f7ad86109d76c9ff08141b1658b2e0",
+  "target_attachment_ref": "srd/spell/tree-stride#srd.art.image",
+  "kind": "spell",
+  "entry_id": "spell-tree-stride",
+  "provider_ids": {
+    "api_base_url": "https://api.pixellab.ai/v2",
+    "route": "/create-image-pixen"
+  }
+}

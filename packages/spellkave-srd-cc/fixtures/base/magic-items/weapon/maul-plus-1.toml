@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its iron head bears the dull sheen of storm clouds, and each swing seems to gather the hush before thunder. The haft sits warm and certain in the grip, eager for doors, shields, and stubborn stone alike. Where it lands, the world feels briefly less solid."
 display_name = "Maul (+1)"
 entity_def_id = "srd/magic_item/maul-plus-1"
 grants_capability_while_equipped = ""

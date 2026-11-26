@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale gleam gathers in the sling’s worn cords, warming the hand like sunlight through chapel glass. Each stone set within it seems briefly crowned in silver fire, carrying a clean, bell-like hush into the air. Near it, dread enchantments feel thinner, as though some steadfast light has taken hold."
 display_name = "Holy Avenger (Sling)"
 entity_def_id = "srd/magic_item/holy-avenger-sling"
 grants_capability_while_equipped = ""

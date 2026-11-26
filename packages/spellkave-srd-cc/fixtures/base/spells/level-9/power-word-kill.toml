@@ -84,6 +84,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A single utterance falls into the air with the weight of a closing tomb door. Shadows seem to lean toward the chosen victim as their breath catches, their will buckles, and the world briefly forgets to hold them upright. Even survivors carry the echo behind their eyes: an absolute command that came terribly close to ending everything."
 display_name = "Power Word Kill"
 entity_def_id = "srd/spell/power-word-kill"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Coiled silver feathers trace the little owl’s body, each curve cool as moonlit wire beneath the thumb. When stirred to life, it becomes a broad-winged sentinel whose silent thoughts drift across any distance, calm and watchful. Its keen gaze seems made for midnight roads, high ruins, and secrets hidden beneath the forest canopy."
 display_name = "Figurine of Wondrous Power (Serpentine Owl)"
 entity_def_id = "srd/magic_item/figurine-of-wondrous-power-serpentine-owl"
 grants_capability_while_equipped = ""

@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its polished brow bears a faint chill, as though it has rested beneath stars no traveler can name. When lifted, distant places seem to crowd the mind: rain on foreign cobbles, salt wind over black water, the warm dust of roads never walked. At dawn, a muted gleam gathers along its rim, promising another impossible crossing."
 display_name = "Helm of Teleportation"
 entity_def_id = "srd/magic_item/helm-of-teleportation"
 grants_capability_while_equipped = ""

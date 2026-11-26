@@ -157,6 +157,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "An assassin moves through crowded halls and moonlit alleys with the patience of a hunting cat, leaving little sign of intent until the moment has passed. Beneath an ordinary cloak may lie years of discipline, false identities, and a carefully chosen weapon. Their presence turns familiar places uneasy, as any shadow or smiling stranger might conceal a final contract."
 display_name = "Assassin"
 entity_def_id = "srd/creature/assassin"
 grants_capability_while_equipped = ""

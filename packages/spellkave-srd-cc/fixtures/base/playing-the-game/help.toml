@@ -10,7 +10,7 @@
 action_id = "srd/help"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Help a nearby ally's ability check; the helped condition is a documented turn-bound approximation of the SRD's chosen-proficiency, next-check benefit."
+description = "You assist a nearby ally with an ability check. Until the end of your next turn, they have help on their next check using a proficiency you choose."
 display_name = "Help"
 non_steering = true
 on_failure = ""
@@ -44,7 +44,7 @@ template_id = "srd/help/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/helped"
-description = "Help approximation: ability checks made by this creature have Advantage until the start of its next turn. SRD 5.2.1 instead consumes the benefit on the next chosen skill/tool check and expires it at the helper's next turn; one-use and chosen-proficiency routing remain deferred."
+description = "Your ability checks have Advantage until the start of your next turn."
 display_name = "Helped"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

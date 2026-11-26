@@ -18,6 +18,7 @@ import { dirname, join } from "node:path";
 import { renderManifestIncludeRoot } from "@spellkave/tool-authoring";
 import { createLocalAuthorTarget } from "@spellkave/tool-node/authoring";
 import { inspectManifest, loadBundleChainDetailed } from "@spellkave/world-author";
+import { generateSrdArtFragment } from "./art";
 import { BUNDLE_ROW } from "./bundle-row";
 import { buildDmGrantFragment } from "./chapters/classes/dm-act-catalog";
 import { buildSrdDmActFragment } from "./chapters/classes/dm-act-units";
@@ -89,11 +90,13 @@ export interface RenderedBundle {
 const EQUIPMENT_SLOTS_MIGRATION_PATH = "migrations/2026-08-21-equipment-slots.manifest.toml";
 // Rendered after the chapter walk; excluded from the playing-the-game slice so
 // sharded and full renders place it identically (end of the root manifest).
+const SRD_ART_FRAGMENT_PATH = "base/playing-the-game/srd-art.toml";
 // Every fragment that lives under a `base/<chapter>/` dir but renders AFTER
 // the chapter walk: the art, DM grants and acts, reader prose and facts residuals. A
 // sharded render must not copy these from the committed chapter includes, or
 // they appear twice and out of place; each is appended by its own renderer.
 const POST_WALK_FRAGMENT_PATHS: ReadonlySet<string> = new Set([
+	SRD_ART_FRAGMENT_PATH,
 	CONTAINMENT_POLICIES_PATH,
 	"base/classes/dm-grants.toml",
 	"base/classes/dm-acts.toml",
@@ -280,6 +283,13 @@ export async function renderAll(options?: RenderAllOptions): Promise<RenderedBun
 		includePaths.push(...includePathsForPrefix(committedIncludes, "ui/"));
 	}
 
+	const renderArt = selected === undefined;
+	if (renderArt) {
+		files[SRD_ART_FRAGMENT_PATH] = await generateSrdArtFragment(committedTarget);
+		includePaths.push(SRD_ART_FRAGMENT_PATH);
+	} else {
+		includePaths.push(...includePathsForPrefix(committedIncludes, SRD_ART_FRAGMENT_PATH));
+	}
 
 	// Reader prose is author-owned metadata in direct includes, not a giant
 	// root table. It is independent from mechanical chapter selection, because

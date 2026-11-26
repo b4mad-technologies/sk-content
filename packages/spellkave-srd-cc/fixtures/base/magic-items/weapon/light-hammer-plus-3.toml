@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_3"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A squat-headed hammer of darkened steel, its face polished bright by blows that left no mark. When lifted, it seems to settle eagerly into the hand, carrying the quiet certainty of a bell about to ring. Each swing stirs a faint, metallic hush in the air."
 display_name = "Light Hammer (+3)"
 entity_def_id = "srd/magic_item/light-hammer-plus-3"
 grants_capability_while_equipped = ""

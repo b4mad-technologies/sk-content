@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_3"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Overlapping steel strips lie cool and close, each rivet catching the light like a watchful eye. When buckled into place, the armor settles with the solemn weight of a drawn portcullis, its polished seams turning aside more than steel alone. A faint, steady confidence seems to gather beneath its iron shell."
 display_name = "Splint Armor (+3)"
 entity_def_id = "srd/magic_item/splint-armor-plus-3"
 grants_capability_while_equipped = ""

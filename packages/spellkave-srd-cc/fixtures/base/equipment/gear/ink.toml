@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A small bottle of ink carries the sharp, mineral scent of soot and tannin, with darkness that clings to glass like a captive shadow. Its stopper comes free with a soft tack, ready to feed quills, mark maps, seal names into contracts, or leave hurried warnings where rain cannot reach."
 display_name = "Ink"
 entity_def_id = "srd/item/ink"
 grants_capability_while_equipped = ""

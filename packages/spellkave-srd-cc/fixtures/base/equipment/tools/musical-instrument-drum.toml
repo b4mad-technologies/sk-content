@@ -40,6 +40,7 @@ tag = "srd.tool.category.instrument"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A drum answers the hand with a deep, immediate voice, its hide humming beneath the palm. Carried through camp smoke or echoing halls, it gathers scattered footsteps into a single pulse. A practiced rhythm can turn a quiet room watchful, or make weary travelers remember the road is not yet finished."
 display_name = "Musical Instrument, Drum"
 entity_def_id = "srd/tool/musical-instrument-drum"
 grants_capability_while_equipped = ""

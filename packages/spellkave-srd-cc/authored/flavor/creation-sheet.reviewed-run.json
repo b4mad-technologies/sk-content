@@ -1,0 +1,175 @@
+{
+	"schema": "spellkave-compendium-prose-run/v1",
+	"via": "agent-session",
+	"generated_at": "2026-10-19T16:19:33.494Z",
+	"cells": [
+		{
+			"id": "action/srd/dm/creation-sheet/barbarian",
+			"prompt_id": "flavor-rule",
+			"text": "Set a new barbarian's first-level statistics. Use the adopted ability scores for starting Hit Points and unarmored Armor Class, and establish the class's starting resources.",
+			"usage": {},
+			"hygiene": {
+				"pass": true,
+				"missing": [],
+				"leaked": []
+			},
+			"provider": "agent-session",
+			"author": "agent-session:codex-gpt-6.1-sol-wAC-p2",
+			"prompt_hash": "sha256:37220e87a24790f42e834e1e8f2b804ea71b99eecae22168fd7ecc4a84f6d000"
+		},
+		{
+			"id": "action/srd/dm/creation-sheet/bard",
+			"prompt_id": "flavor-rule",
+			"text": "Set a new bard's first-level statistics. Use the adopted ability scores for starting Hit Points and unarmored Armor Class, and establish the class's starting resources.",
+			"usage": {},
+			"hygiene": {
+				"pass": true,
+				"missing": [],
+				"leaked": []
+			},
+			"provider": "agent-session",
+			"author": "agent-session:codex-gpt-6.1-sol-wAC-p2",
+			"prompt_hash": "sha256:5684c822bedaf4ca20a31a49373e48770d4aa7f3323ff47e3c218a0998107957"
+		},
+		{
+			"id": "action/srd/dm/creation-sheet/cleric",
+			"prompt_id": "flavor-rule",
+			"text": "Set a new cleric's first-level statistics. Use the adopted ability scores for starting Hit Points and unarmored Armor Class, and establish the class's starting resources.",
+			"usage": {},
+			"hygiene": {
+				"pass": true,
+				"missing": [],
+				"leaked": []
+			},
+			"provider": "agent-session",
+			"author": "agent-session:codex-gpt-6.1-sol-wAC-p2",
+			"prompt_hash": "sha256:6eb88d35808cd817a7cf9498968ffb5e3465912ab114cf7c44a16785a2ee85be"
+		},
+		{
+			"id": "action/srd/dm/creation-sheet/druid",
+			"prompt_id": "flavor-rule",
+			"text": "Set a new druid's first-level statistics. Use the adopted ability scores for starting Hit Points and unarmored Armor Class, and establish the class's starting resources.",
+			"usage": {},
+			"hygiene": {
+				"pass": true,
+				"missing": [],
+				"leaked": []
+			},
+			"provider": "agent-session",
+			"author": "agent-session:codex-gpt-6.1-sol-wAC-p2",
+			"prompt_hash": "sha256:52648d47dd1df9bda2093ee651ff0661e940f46816b3b93bfd671d82323fec55"
+		},
+		{
+			"id": "action/srd/dm/creation-sheet/fighter",
+			"prompt_id": "flavor-rule",
+			"text": "Set a new fighter's first-level statistics. Use the adopted ability scores for starting Hit Points and unarmored Armor Class, and establish the class's starting resources.",
+			"usage": {},
+			"hygiene": {
+				"pass": true,
+				"missing": [],
+				"leaked": []
+			},
+			"provider": "agent-session",
+			"author": "agent-session:codex-gpt-6.1-sol-wAC-p2",
+			"prompt_hash": "sha256:63beaab52ef8460d0e3ba9ede205ce0e80bbb30bc7d8cf313eda44362865dbef"
+		},
+		{
+			"id": "action/srd/dm/creation-sheet/monk",
+			"prompt_id": "flavor-rule",
+			"text": "Set a new monk's first-level statistics. Use the adopted ability scores for starting Hit Points and unarmored Armor Class, and establish the class's starting resources.",
+			"usage": {},
+			"hygiene": {
+				"pass": true,
+				"missing": [],
+				"leaked": []
+			},
+			"provider": "agent-session",
+			"author": "agent-session:codex-gpt-6.1-sol-wAC-p2",
+			"prompt_hash": "sha256:b7d08c4bb10d98e34846e5b6fc0db1ac22af2ed5e299825dc3bff9a9d13268ee"
+		},
+		{
+			"id": "action/srd/dm/creation-sheet/paladin",
+			"prompt_id": "flavor-rule",
+			"text": "Set a new paladin's first-level statistics. Use the adopted ability scores for starting Hit Points and unarmored Armor Class, and establish the class's starting resources.",
+			"usage": {},
+			"hygiene": {
+				"pass": true,
+				"missing": [],
+				"leaked": []
+			},
+			"provider": "agent-session",
+			"author": "agent-session:codex-gpt-6.1-sol-wAC-p2",
+			"prompt_hash": "sha256:ef46373d6383b423834dda32bc0d2a000f7bf4b211ab1742794a4831830957ad"
+		},
+		{
+			"id": "action/srd/dm/creation-sheet/ranger",
+			"prompt_id": "flavor-rule",
+			"text": "Set a new ranger's first-level statistics. Use the adopted ability scores for starting Hit Points and unarmored Armor Class, and establish the class's starting resources.",
+			"usage": {},
+			"hygiene": {
+				"pass": true,
+				"missing": [],
+				"leaked": []
+			},
+			"provider": "agent-session",
+			"author": "agent-session:codex-gpt-6.1-sol-wAC-p2",
+			"prompt_hash": "sha256:be7c5151a8b9c31be8394ed9288ea62f6e5f19e13b501fa08f93bdf059d0dc43"
+		},
+		{
+			"id": "action/srd/dm/creation-sheet/rogue",
+			"prompt_id": "flavor-rule",
+			"text": "Set a new rogue's first-level statistics. Use the adopted ability scores for starting Hit Points and unarmored Armor Class, and establish the class's starting resources.",
+			"usage": {},
+			"hygiene": {
+				"pass": true,
+				"missing": [],
+				"leaked": []
+			},
+			"provider": "agent-session",
+			"author": "agent-session:codex-gpt-6.1-sol-wAC-p2",
+			"prompt_hash": "sha256:21e64ee2f82aa7f3f7f16961018f2a8ad13e2a964cbed65e3dd08a5a03bdef94"
+		},
+		{
+			"id": "action/srd/dm/creation-sheet/sorcerer",
+			"prompt_id": "flavor-rule",
+			"text": "Set a new sorcerer's first-level statistics. Use the adopted ability scores for starting Hit Points and unarmored Armor Class, and establish the class's starting resources.",
+			"usage": {},
+			"hygiene": {
+				"pass": true,
+				"missing": [],
+				"leaked": []
+			},
+			"provider": "agent-session",
+			"author": "agent-session:codex-gpt-6.1-sol-wAC-p2",
+			"prompt_hash": "sha256:fd419c029e76c76052bcf45dc556c80f790911a80bb81cca298281068138b538"
+		},
+		{
+			"id": "action/srd/dm/creation-sheet/warlock",
+			"prompt_id": "flavor-rule",
+			"text": "Set a new warlock's first-level statistics. Use the adopted ability scores for starting Hit Points and unarmored Armor Class, and establish the class's starting resources.",
+			"usage": {},
+			"hygiene": {
+				"pass": true,
+				"missing": [],
+				"leaked": []
+			},
+			"provider": "agent-session",
+			"author": "agent-session:codex-gpt-6.1-sol-wAC-p2",
+			"prompt_hash": "sha256:6df142e44494f81ab58f5031b494fecd8edc7367d25c928e4b96fa768b01c46a"
+		},
+		{
+			"id": "action/srd/dm/creation-sheet/wizard",
+			"prompt_id": "flavor-rule",
+			"text": "Set a new wizard's first-level statistics. Use the adopted ability scores for starting Hit Points and unarmored Armor Class, and establish the class's starting resources.",
+			"usage": {},
+			"hygiene": {
+				"pass": true,
+				"missing": [],
+				"leaked": []
+			},
+			"provider": "agent-session",
+			"author": "agent-session:codex-gpt-6.1-sol-wAC-p2",
+			"prompt_hash": "sha256:448e1a382b8c00e2937d0a1254d8527e7112c8799819208e0434d96e046eb74c"
+		}
+	]
+}

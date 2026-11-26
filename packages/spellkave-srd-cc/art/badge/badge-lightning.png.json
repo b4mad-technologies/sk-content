@@ -1,0 +1,24 @@
+{
+	"schema": "spellkave-design-asset-provenance/v1",
+	"provider": "pixellab-pixen",
+	"prompt": "single small pixel-art icon of a lightning bolt, bright core, high contrast, light cream outline, no dark fill. Bright core, high contrast, light cream 1px outline, no dark fill, no charcoal blob. Centered, isolated on transparent background, no weapon, no object, no ground, no frame, no text.",
+	"style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+	"provenance": {
+		"license": "CC-BY-4.0",
+		"source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+	},
+	"usage": {
+		"type": "generations",
+		"generations": 1.1
+	},
+	"generated_at": "2026-09-20T17:36:45.035Z",
+	"source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+	"sha256": "d81f6dfd26ace976f849dbcb229a6921094729613198cc464b0fa0aef74cab8d",
+	"target_attachment_ref": "srd/badge/lightning#srd.art.image",
+	"kind": "badge",
+	"entry_id": "badge-lightning",
+	"provider_ids": {
+		"api_base_url": "https://api.pixellab.ai/v2",
+		"route": "/create-image-pixen"
+	}
+}

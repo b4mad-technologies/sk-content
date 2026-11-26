@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its pale ash shaft hums softly beneath the rider’s grip, as though eager for the thunder of hooves. Along the steel point, a cold glimmer gathers whenever it is lowered toward an enemy, turning a cavalry charge into a single bright line of intent."
 display_name = "Lance (+1)"
 entity_def_id = "srd/magic_item/lance-plus-1"
 grants_capability_while_equipped = ""

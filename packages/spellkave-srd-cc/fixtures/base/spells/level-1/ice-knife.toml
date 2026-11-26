@@ -88,6 +88,7 @@ tag = "srd.damage_type.piercing"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A bead of winter gathers between poised fingers, sharpening into a clear, merciless splinter. It streaks through the air with a hunter’s hiss, then bursts in a bloom of hoarfrost that bites every nearby breath. For a heartbeat, the battlefield gleams with white crystals and drifting shards."
 display_name = "Ice Knife"
 entity_def_id = "srd/spell/ice-knife"
 grants_capability_while_equipped = ""
@@ -114,7 +115,7 @@ target_ref = "srd/spell/ice-knife"
 action_id = "srd/spell/ice-knife/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Ice Knife — a spell action."
+description = "You cast a shard of ice at a creature, then it bursts in freezing spray around the target."
 display_name = "Cast Ice Knife"
 non_steering = true
 on_failure = "srd/spell/ice-knife/cast/miss"

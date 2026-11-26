@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its bright-edged head seems to drink shadow from the air, leaving a clean scent of rain on old stone. In a steady hand, the handaxe lends a solemn calm, as though a silent vow has taken form in steel. Nearby gloom recoils from its pale gleam, and foul enchantments feel thin as mist before dawn."
 display_name = "Holy Avenger (Handaxe)"
 entity_def_id = "srd/magic_item/holy-avenger-handaxe"
 grants_capability_while_equipped = ""

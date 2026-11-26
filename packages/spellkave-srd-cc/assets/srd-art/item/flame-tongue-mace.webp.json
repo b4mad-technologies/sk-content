@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-mace",
+  "overlay_template": "flame-tongue",
+  "overlay_badge": "fire",
+  "base_sha256": "a621ac02fe30e9d0e820a90cb78971276807f6fc5fd716cfb914bb4811603b81",
+  "overlay_sha256": "c4806ef2bb352ad495c05e155d9611cc695c3fa5894816ef751f3f11c8c261d9",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:41.431Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "dab47259d7a82dd2cfef843a011cb8f9cbf821d96fa44c2a1c5e58b0239b82d8",
+  "target_attachment_ref": "srd/magic_item/flame-tongue-mace#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-flame-tongue-mace"
+}

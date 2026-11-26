@@ -40,6 +40,7 @@ tag = "srd.tool.category.artisan"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A soot-darkened hammer, a handful of punches, and a nest of tongs carry the sharp scent of oil and hot iron. In practiced hands, the tools turn stubborn metal pliant, coaxing edges, links, rivets, and fitted plates into forms meant to endure hard travel and harder battles."
 display_name = "Smith's Tools"
 entity_def_id = "srd/tool/smiths-tools"
 grants_capability_while_equipped = ""

@@ -5,9 +5,6 @@
  * Full art 3500² @ 140px → 25×25; in-repo downscale 2000² @ 80px.
  */
 export const REGION_MAP = {
-	file: "259 Crossroads Encounter-grid.jpg",
-	asset_module: "ccc3-maps",
-	asset_path: "maps/259 Crossroads Encounter-grid.jpg",
 	grid_size_px: 80,
 	grid_distance_m: 1.5240000486373901, // 5 ft, converted x0.3048
 	image_width_px: 2000,

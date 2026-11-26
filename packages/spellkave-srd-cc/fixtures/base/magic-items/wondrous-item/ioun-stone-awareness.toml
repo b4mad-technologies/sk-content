@@ -36,6 +36,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "An amber stone hangs in a wide, watchful circle and catches movement at the edge of sight before the eyes do. The orbit never quite settles. A draft on the cheek arrives with a small bright tick from the stone. The room feels more occupied, even when it is not."
 display_name = "Ioun Stone (Awareness)"
 entity_def_id = "srd/magic_item/ioun-stone-awareness"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its compact head bears deep, deliberate notches like tally marks cut into old stone. In the hand, it seems to tug toward towering shapes, eager for the space behind a giant’s knee or the vulnerable curve of an ankle. Each swing lands with a startling, ground-shaking certainty."
 display_name = "Giant Slayer (Handaxe)"
 entity_def_id = "srd/magic_item/giant-slayer-handaxe"
 grants_capability_while_equipped = ""

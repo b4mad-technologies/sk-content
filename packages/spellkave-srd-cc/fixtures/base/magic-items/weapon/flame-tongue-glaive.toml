@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A low command wakes a ribbon of ember-red fire along the glaive’s sweeping blade, turning polished steel to wavering gold. Heat gathers in the haft without burning the bearer’s hands, while sparks drift from each measured turn. In darkness, its flame paints long shadows across the ground and lends every poised strike the menace of a forge door opening."
 display_name = "Flame Tongue Glaive"
 entity_def_id = "srd/magic_item/flame-tongue-glaive"
 grants_capability_while_equipped = ""

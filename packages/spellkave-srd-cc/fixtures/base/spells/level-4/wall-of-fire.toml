@@ -96,6 +96,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A roaring barricade erupts from the earth, its smoke-black heart veiled behind sheets of hammering flame. Heat pours fiercely from the chosen face, warping the air and driving foes back, while the far side glows with a deceptive, furnace-dim calm. Ash spirals upward as the blaze divides the battlefield into refuge and ruin."
 display_name = "Wall of Fire"
 entity_def_id = "srd/spell/wall-of-fire"
 grants_capability_while_equipped = ""

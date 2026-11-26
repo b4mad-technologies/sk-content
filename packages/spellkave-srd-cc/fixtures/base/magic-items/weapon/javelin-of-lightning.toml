@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Blue-white veins crawl beneath the javelin’s darkened shaft, gathering at its spearhead with the restless hum of a storm held captive. When lifted, the air tastes of rain on iron, and loose hairs rise along the hand. A cast sends not merely a weapon flying, but a sudden horizon-splitting flash that leaves thunder trembling in its wake."
 display_name = "Javelin of Lightning"
 entity_def_id = "srd/magic_item/javelin-of-lightning"
 grants_capability_while_equipped = ""

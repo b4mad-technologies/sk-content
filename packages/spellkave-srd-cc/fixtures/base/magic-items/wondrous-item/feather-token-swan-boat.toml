@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A single pale feather lies weightless in the palm, its barbs carrying the hush of moonlit lakes. At the water’s edge, it unfolds into a graceful white vessel, its carved neck arched proudly over the ripples. Those aboard hear only the soft lap of waves and the faint, patient rhythm of an unseen oar."
 display_name = "Feather Token (Swan Boat)"
 entity_def_id = "srd/magic_item/feather-token-swan-boat"
 grants_capability_while_equipped = ""

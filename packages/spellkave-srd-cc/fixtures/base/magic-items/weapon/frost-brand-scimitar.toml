@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale rime clings to the curved blade, yet its grip remains dry and sure beneath the hand. Heat recoils from its presence, candles guttering into silence as the weapon leaves its sheath. In bitter weather, blue-white radiance gathers along the edge, turning snow and breath to glittering ghosts."
 display_name = "Frost Brand (Scimitar)"
 entity_def_id = "srd/magic_item/frost-brand-scimitar"
 grants_capability_while_equipped = ""

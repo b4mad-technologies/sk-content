@@ -140,6 +140,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Small and sun-loving, lizards haunt warm stones, crumbling walls, and tangled undergrowth. Most freeze at the first sign of danger, trusting stillness and mottled scales to hide them from larger hunters. When startled, they vanish in a flick of tail and claws, leaving only a rustle in the leaves behind."
 display_name = "Lizard"
 entity_def_id = "srd/creature/lizard"
 grants_capability_while_equipped = ""

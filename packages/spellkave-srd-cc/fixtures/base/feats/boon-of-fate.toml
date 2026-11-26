@@ -18,6 +18,7 @@ tag = "srd.feat.epic_boon"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Fate gathers around such a soul like threads caught in a steady hand. At the turning point of triumph or disaster, the air seems to tighten, and a small, impossible nudge sends fortune down another path. Companions learn to watch for that quiet moment when destiny itself hesitates."
 display_name = "Boon of Fate"
 entity_def_id = "srd/feat/boon-of-fate"
 grants_capability_while_equipped = ""

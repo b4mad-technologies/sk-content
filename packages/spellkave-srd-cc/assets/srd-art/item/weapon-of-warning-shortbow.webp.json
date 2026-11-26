@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-shortbow",
+  "overlay_template": "weapon-of-warning",
+  "overlay_badge": "rune",
+  "base_sha256": "fd4454ec19bb5eb745b3d19b53681fd9af57f66f62f08b38765451634908da4f",
+  "overlay_sha256": "ed9b733c49d6fc246eb945a819df4069cadc2a65041679925c6fe215845c9e7d",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:52.302Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "985b8d383663c7308b3f23035c5e2298b05701f5b0f1dd1cecd94e97ea8d4666",
+  "target_attachment_ref": "srd/magic_item/weapon-of-warning-shortbow#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-weapon-of-warning-shortbow"
+}

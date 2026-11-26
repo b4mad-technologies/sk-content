@@ -78,6 +78,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Within a sealed cradle, a second life gathers in perfect silence: familiar features sleeping beneath glass, untouched by breath or time. The work feels less like healing than bargaining with the dark threshold beyond death. Should fate claim the first body, an unbroken thread of memory may awaken elsewhere, carrying an old self into newly formed flesh."
 display_name = "Clone"
 entity_def_id = "srd/spell/clone"
 grants_capability_while_equipped = ""

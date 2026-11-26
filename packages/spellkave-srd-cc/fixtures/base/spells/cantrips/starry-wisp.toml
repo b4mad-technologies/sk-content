@@ -82,6 +82,7 @@ tag = "srd.damage_type.radiant"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pinprick of night-sky brilliance gathers between outstretched fingers, humming with the hush of distant constellations. It streaks forward in a silver-blue arc and bursts across its mark, leaving a stubborn astral gleam clinging to shadow and form alike. Hidden shapes find themselves outlined by a cold, unmistakable starlight."
 display_name = "Starry Wisp"
 entity_def_id = "srd/spell/starry-wisp"
 grants_capability_while_equipped = ""
@@ -108,7 +109,7 @@ target_ref = "srd/spell/starry-wisp"
 action_id = "srd/spell/starry-wisp/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Starry Wisp — a spell action."
+description = "You cast this spell to create a spark of starlight that harms a creature at range and can reveal it with lingering light."
 display_name = "Cast Starry Wisp"
 non_steering = true
 on_failure = "srd/spell/starry-wisp/cast/miss"

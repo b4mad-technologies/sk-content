@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush falls around the slender blade until its hidden word is spoken. Fire races along the edge without consuming the hilt, filling nearby shadows with restless amber light and the sharp scent of struck flint. In the hand, it feels eager—warm, quick, and hungry for the dark."
 display_name = "Flame Tongue Dagger"
 entity_def_id = "srd/magic_item/flame-tongue-dagger"
 grants_capability_while_equipped = ""

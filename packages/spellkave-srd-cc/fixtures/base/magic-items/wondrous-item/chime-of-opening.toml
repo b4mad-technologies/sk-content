@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A slim silver tube, cool as moonlit stone, sings with a note so pure it seems to travel through hinges, bars, and buried seams. Locks shiver at its call, and sealed thresholds answer with reluctant clicks. Each ringing leaves a faint tremor in the metal, as though the chime remembers every door it has persuaded."
 display_name = "Chime of Opening"
 entity_def_id = "srd/magic_item/chime-of-opening"
 grants_capability_while_equipped = ""

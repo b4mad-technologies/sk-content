@@ -22,7 +22,7 @@
 action_id = "srd/advancement/level-up"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Advance one character level with a nearby trainer: srd/level +1, srd/hp grows by the acting creature's own srd/hp_per_level fact (Building Block 4 — Constitution-modifier composition is the Classes chapter's job). Sets the class-level tag that grants class features at level 2 for every class and level 3 for cleric, fighter, rogue and wizard. No ASI, spell slots, or multiclassing here. SRD: character-creation.md:769-810 (§ Gaining a Level)."
+description = "With a nearby trainer, you advance one level and increase your maximum hit points by your hit point gain per level."
 display_name = "Level Up"
 on_failure = ""
 on_success = "srd/advancement/level-up/success"
@@ -39,7 +39,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/claim-victory"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Claim the Experience Points a fallen creature was worth: requires the target to already carry srd/condition/dead (Monster Death) with an unclaimed srd/xp_value. SRD: monsters.md:203-209 (§ Challenge Rating > Experience Points, Experience Points by Challenge Rating table)."
+description = "When a creature dies, you claim the experience it was worth if no one has claimed it yet."
 display_name = "Claim Victory"
 on_failure = ""
 on_success = "srd/claim-victory/success"
@@ -103,7 +103,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/action/advancement/level-up"
 default_visibility = "Public"
-description = "Allows the acting creature to advance one character level once its XP total reaches the Character Advancement table's next threshold. SRD: character-creation.md:769-810 (§ Gaining a Level)."
+description = "When your experience reaches the next advancement threshold, you can gain one character level and apply your class’s level benefits."
 display_name = "Level Up"
 
 [[capability_definitions]]
@@ -111,7 +111,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/action/claim-victory"
 default_visibility = "Public"
-description = "Allows the acting creature to claim the Experience Points a defeated creature is worth."
+description = "When you defeat a creature, you can claim the Experience Points it is worth."
 display_name = "Claim Victory"
 
 [[consequence_frame_writes]]
@@ -1060,13 +1060,13 @@ template_id = "srd/advancement/level-up/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
-description = "Flourish: zero the target's own srd/xp_value latch so this offer cannot fire twice. XP itself is awarded at kill time by Aldwin (sk-0m4.27) — this action no longer grants any."
+description = "When you meet this offer’s requirement, you can claim it once. It marks itself used and does not grant experience."
 template_id = "srd/claim-victory/success"
 
 [[dsl_macro_definitions]]
 body_source = "cond(level <= 1, 0, cond(level == 2, 300, cond(level == 3, 900, cond(level == 4, 2700, cond(level == 5, 6500, cond(level == 6, 14000, cond(level == 7, 23000, cond(level == 8, 34000, cond(level == 9, 48000, cond(level == 10, 64000, cond(level == 11, 85000, cond(level == 12, 100000, cond(level == 13, 120000, cond(level == 14, 140000, cond(level == 15, 165000, cond(level == 16, 195000, cond(level == 17, 225000, cond(level == 18, 265000, cond(level == 19, 305000, 355000)))))))))))))))))))"
 bundle_id = "srd"
-description = """SRD: "The Character Advancement table lists the XP you need to advance to a level ... When your XP total equals or exceeds a number in the Experience Points column, you reach the corresponding level." (character-creation.md:657-767 (§ Level Advancement)) Encodes the table's Level -> XP column as a 19-deep cond ladder (no closed-form reduction exists, unlike srd/proficiency_bonus); level <= 1 clamps to 0."""
+description = "The total experience you need to reach a given level. When your experience meets or exceeds that amount, you advance to that level."
 macro_id = "srd/xp_threshold"
 return_type = "Int"
 
@@ -1085,7 +1085,7 @@ target_ref = "srd/xp"
 
 [[niche_definitions]]
 bundle_id = "srd"
-description = "actor-carried-verbs D2(c): a grounded entity affords srd/advancement/level-up via its own srd.advancement_trainer entity_definition_tag — no place attachment, no per-target predicate. The elven-mini adventure tags Aldwin with it (author/elven-mini/dm-npc.ts)."
+description = "An entity that can help you gain a level. You use it when you train with that entity during advancement."
 display_name = "Advancement Trainer (entity-provided)"
 niche_id = "srd.advancement_trainer"
 predicate_source = ""
@@ -1111,6 +1111,7 @@ sense_visibility = "local"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "A measure of your character’s progress. When you reach the required total, you gain a level in one of your classes."
 display_name = "Experience Points"
 initial_value = 0
 max_value = 999999
@@ -1121,6 +1122,7 @@ value_kind = "int"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "The Hit Points your class adds when you gain a level after 1st. Add them to your maximum Hit Points; each class contributes its own amount."
 display_name = "Hit Points Gained per Level"
 initial_value = 0
 max_value = 100
@@ -1131,6 +1133,7 @@ value_kind = "int"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "How many Experience Points a creature is worth. Award them when you defeat or otherwise neutralize it."
 display_name = "Experience Point Value"
 initial_value = 0
 max_value = 999999

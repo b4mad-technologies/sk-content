@@ -88,6 +88,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A clear flame blossoms upon the chosen vessel, steady as a star caught in iron or glass. Its glow paints warm gold across stone and shadow, yet leaves frost unmelted and fingers untouched. Rain may bead around it, wind may worry at its edges, but the silent fire endures."
 display_name = "Continual Flame"
 entity_def_id = "srd/spell/continual-flame"
 grants_capability_while_equipped = ""
@@ -115,7 +116,7 @@ target_ref = "srd/spell/continual-flame"
 action_id = "srd/spell/continual-flame/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Continual Flame — a spell action."
+description = "You cast a spell that creates a lasting flame on an object. The flame sheds light but produces no heat or smoke."
 display_name = "Cast Continual Flame"
 non_steering = true
 on_failure = ""

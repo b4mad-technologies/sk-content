@@ -24,6 +24,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Broad through the chest, feathered at the hoof, the draft horse moves like a cart that learned patience. Harness leather has darkened its coat in stripes. It lowers a heavy head for a scratch and then leans, testing whether the handler can take the weight. Flies bother it less than a badly fitted collar."
 display_name = "Horse, Draft"
 entity_def_id = "srd/item/horse-draft"
 grants_capability_while_equipped = ""

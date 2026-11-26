@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A small, cool pendant rests at the throat like a drop of moonlit water, its chain seeming to settle into place with a reassuring hush. Around it, foul vapors lose their menace and air from stranger realms tastes clean upon the tongue. Even in the reek of alchemical smoke or swamp rot, its wearer carries the quiet poise of a creature born to endure."
 display_name = "Necklace of Adaptation"
 entity_def_id = "srd/magic_item/necklace-of-adaptation"
 grants_capability_while_equipped = ""

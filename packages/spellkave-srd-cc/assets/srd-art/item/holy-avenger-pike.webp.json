@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-pike",
+  "overlay_template": "holy-avenger",
+  "overlay_badge": "holy",
+  "base_sha256": "fd76e233d0117c6e617c3d65b6fe1ca50eb0a290f6e98743441c9b9cc5089a5b",
+  "overlay_sha256": "64861c3849275cd13d635b8b7a62308bc7ed8397f3a844c78d4b2074fa40c88a",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:45.537Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "112100aa1d120bf3f4d99b8c3ca34782538076104fe0add3f841b665717c9655",
+  "target_attachment_ref": "srd/magic_item/holy-avenger-pike#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-holy-avenger-pike"
+}

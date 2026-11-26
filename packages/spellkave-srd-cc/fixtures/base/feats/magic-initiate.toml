@@ -18,6 +18,7 @@ tag = "srd.feat.origin"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A few careful syllables linger in the mind like sparks caught beneath glass. With practice, a novice learns to coax small wonders from breath, gesture, and intent, then preserves one deeper working for the moment it matters most. Their magic bears the character of its first discipline: solemn, wild, or keenly studied."
 display_name = "Magic Initiate"
 entity_def_id = "srd/feat/magic-initiate"
 grants_capability_while_equipped = ""

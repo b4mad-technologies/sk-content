@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale gleam runs along the broad crescent of its blade, catching firelight even in the deepest dusk. Its haft settles into the hands with a grave, eager balance, as though every swing has been remembered by old wood and tempered steel. When raised, the air nearby seems to draw taut."
 display_name = "Greataxe (+1)"
 entity_def_id = "srd/magic_item/greataxe-plus-1"
 grants_capability_while_equipped = ""

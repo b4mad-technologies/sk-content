@@ -78,6 +78,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A capering rhythm coils through the air, tugging pride and poise into a merciless revel. Boots stamp, arms flail, and every attempt at dignity becomes another flourish in an invisible jester’s tune. Onlookers hear no instrument, only the humiliating certainty that the beat will not be ignored."
 display_name = "Irresistible Dance"
 entity_def_id = "srd/spell/irresistible-dance"
 grants_capability_while_equipped = ""

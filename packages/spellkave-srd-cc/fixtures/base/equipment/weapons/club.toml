@@ -77,7 +77,7 @@ tag = "srd.damage_type.bludgeoning"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Club — a simple melee weapon."
+description = "A length of hardwood, knotted and scarred by weather, sits heavy and honest in the hand. Its plain grain carries the warmth of a campfire and the sting of old labor. When swung, it speaks in a blunt rush of air and a solid, final crack."
 display_name = "Club"
 entity_def_id = "srd/weapon/club"
 grants_capability_while_equipped = ""

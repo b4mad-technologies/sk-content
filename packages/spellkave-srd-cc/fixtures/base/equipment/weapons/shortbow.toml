@@ -89,7 +89,7 @@ tag = "srd.damage_type.piercing"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Shortbow — a simple ranged weapon."
+description = "A shortbow bends with a quick, eager spring, its cord humming softly in the hand. Light enough for a traveler’s pack yet swift to bring to bear, it favors quiet patience beneath boughs, ruined arches, or a rain-darkened roadside."
 display_name = "Shortbow"
 entity_def_id = "srd/weapon/shortbow"
 grants_capability_while_equipped = ""

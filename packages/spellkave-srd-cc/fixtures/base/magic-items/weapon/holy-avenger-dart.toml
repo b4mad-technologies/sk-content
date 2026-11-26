@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A slender dart of moon-bright steel, its balance feels unnaturally certain between finger and thumb. When loosed against creatures steeped in grave-dust or infernal malice, it streaks like a falling star. In its bearer’s grasp, a hush of steadfast light gathers around nearby companions, turning hostile sorcery aside like rain from a shield."
 display_name = "Holy Avenger (Dart)"
 entity_def_id = "srd/magic_item/holy-avenger-dart"
 grants_capability_while_equipped = ""

@@ -114,6 +114,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A remembered shape settles behind the eyes like a lodestone finding north. Invisible threads stir through dust, stone, and crowded streets, tugging the seeker toward a lost heirloom, hidden blade, or nearest thing of its kind. The pull shifts with its quarry, a quiet certainty that turns pursuit into instinct."
 display_name = "Locate Object"
 entity_def_id = "srd/spell/locate-object"
 grants_capability_while_equipped = ""

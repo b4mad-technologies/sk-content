@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Overlapping iron rings whisper softly with every step, their darkened links carrying the scent of rain on old stone. A pale gleam gathers along the mail’s edges when danger draws near, as though an unseen shield has settled over the wearer’s shoulders."
 display_name = "Ring Mail (+1)"
 entity_def_id = "srd/magic_item/ring-mail-plus-1"
 grants_capability_while_equipped = ""

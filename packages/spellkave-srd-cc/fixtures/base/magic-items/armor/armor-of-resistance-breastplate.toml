@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "This close-fitted breastplate bears a muted sheen that shifts with the dangers around it: frost-bright at dawn, ember-warm by torchlight, or darkly lustrous beneath storm clouds. When danger strikes, its polished curves seem to gather the blow’s fury and turn it aside in a hush of displaced air."
 display_name = "Armor of Resistance (Breastplate)"
 entity_def_id = "srd/magic_item/armor-of-resistance-breastplate"
 grants_capability_while_equipped = ""

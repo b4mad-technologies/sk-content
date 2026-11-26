@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its crescent edge gleams with a hungry, liquid brightness, as though moonlight has learned to cut. In motion, the blade leaves a whispering arc that seems to linger a heartbeat too long, followed by the faint scent of hot iron and rain. Even sheathed, it carries the restless promise of a wound eager to deepen."
 display_name = "Vicious Scimitar"
 entity_def_id = "srd/magic_item/vicious-scimitar"
 grants_capability_while_equipped = ""

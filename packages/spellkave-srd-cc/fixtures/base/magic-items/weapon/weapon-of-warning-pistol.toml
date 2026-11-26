@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its barrel hums softly in the dark, like a held breath before thunder. Resting beside a bedroll, it trembles at the first stirrings of violence and pulls nearby sleepers from ordinary dreams with a sharp, metallic shiver. In the hand, every shadow seems to announce itself a heartbeat early."
 display_name = "Weapon of Warning (Pistol)"
 entity_def_id = "srd/magic_item/weapon-of-warning-pistol"
 grants_capability_while_equipped = ""

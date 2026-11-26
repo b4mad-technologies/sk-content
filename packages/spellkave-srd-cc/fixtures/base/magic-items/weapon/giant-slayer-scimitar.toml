@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its curved edge carries a low, eager hum when towering foes draw near, as though the steel remembers every colossal shadow it has crossed. In the hand, it feels light as a reed until swung against immense flesh, where its keen arc seems to tug even the mightiest frame toward the earth."
 display_name = "Giant Slayer (Scimitar)"
 entity_def_id = "srd/magic_item/giant-slayer-scimitar"
 grants_capability_while_equipped = ""

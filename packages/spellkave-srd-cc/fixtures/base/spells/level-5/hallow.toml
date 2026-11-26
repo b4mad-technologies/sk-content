@@ -78,6 +78,7 @@ tag = "srd.spell.list.cleric"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Incense smoke settles into the stones, and the air takes on the grave stillness of a place claimed by solemn purpose. An unseen boundary rises around the consecrated ground: unwelcome presences falter at its edge, old terrors lose their hold, and the chosen blessing or bane lingers like a law woven into the dust."
 display_name = "Hallow"
 entity_def_id = "srd/spell/hallow"
 grants_capability_while_equipped = ""

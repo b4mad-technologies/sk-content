@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its dark blade drinks the light along its edge, leaving a slick green gleam that seems to crawl beneath the steel. When drawn in anger, a bitter herbal scent rises from the hilt, sharp enough to sting the eyes. The dagger rests quietly afterward, as though savoring the memory of a single, exquisite wound."
 display_name = "Dagger of Venom"
 entity_def_id = "srd/magic_item/dagger-of-venom"
 grants_capability_while_equipped = ""

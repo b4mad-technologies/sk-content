@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A short length of yew, pale at the heart and dark along the grain, fits the fist like a walking stick cut down. Ribbon and a carved notch mark it as more than a stick. It is warm from the pocket, and the wood still smells faintly of resin and rain."
 display_name = "Druidic Focus, Yew Wand"
 entity_def_id = "srd/item/druidic-focus-yew-wand"
 grants_capability_while_equipped = ""

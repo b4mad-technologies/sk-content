@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "pixellab-pixen",
+  "prompt": "Web. Taut sticky spiderweb lattice stretched between two anchor points. Isolated spell glyph of the magical effect itself, one symbol, no caster, no creature, no scenery, no weapon, no letters, centered. Theme-neutral Spellkave pixel art: mid-contrast cream, charcoal, muted gold, forest, and rust. Selective outline, basic-to-medium shading, no gloss or bloom. Transparent background, no frame, no baked scenery, no letters, words, numerals, logo, watermark, photorealism, or D&D branding. Centered, native pixel size.",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 1.1
+  },
+  "generated_at": "2026-09-23T10:19:49.668Z",
+  "source_manifest": ".local/glyph-pilot-terra/manifest.json",
+  "sha256": "5542f7f5cc6f556cc31d76c4c70511fecdbdc7339f3ce8dc459565c22b0b6236",
+  "target_attachment_ref": "srd/spell/web#srd.art.image",
+  "kind": "spell",
+  "entry_id": "spell-web",
+  "provider_ids": {
+    "api_base_url": "https://api.pixellab.ai/v2",
+    "route": "/create-image-pixen"
+  }
+}

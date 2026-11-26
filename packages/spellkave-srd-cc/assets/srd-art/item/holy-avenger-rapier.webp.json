@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-rapier",
+  "overlay_template": "holy-avenger",
+  "overlay_badge": "holy",
+  "base_sha256": "8b86956b85c888629b7c3c8297d67d034f444dede59c0283a17f3b56947af543",
+  "overlay_sha256": "64861c3849275cd13d635b8b7a62308bc7ed8397f3a844c78d4b2074fa40c88a",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:45.675Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "1f212bce5e927814265ef572c8fab008853c294ba9b601779425b626c59895b7",
+  "target_attachment_ref": "srd/magic_item/holy-avenger-rapier#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-holy-avenger-rapier"
+}

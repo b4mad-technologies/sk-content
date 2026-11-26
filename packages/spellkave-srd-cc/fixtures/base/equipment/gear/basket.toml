@@ -36,6 +36,7 @@ tag = "srd.item.container"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Woven reeds flex when the basket is lifted, a dry whisper against the hip. The rim is worn smooth where hands have hooked it again and again, and a few loose ends tickle the wrist. Light finds the gaps in the weave, striping whatever rests inside with thin bars of sun."
 display_name = "Basket"
 entity_def_id = "srd/item/basket"
 grants_capability_while_equipped = ""

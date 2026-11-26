@@ -163,6 +163,7 @@ tag = "srd.creature.role.archer"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hobgoblin warrior advances with drilled precision, turning even a rough skirmish into a disciplined assault. Its armor is kept serviceable, its weapon close at hand, and its gaze fixed on the weakest point in an enemy line. Alone it is stern and dangerous; beside allies, it becomes part of a relentless machine."
 display_name = "Hobgoblin Warrior"
 entity_def_id = "srd/creature/hobgoblin-warrior"
 grants_capability_while_equipped = ""

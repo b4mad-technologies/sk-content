@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A filament of intent slips beyond roads, storm walls, and the black gulfs between worlds. For one breath, a familiar presence blooms behind another mind’s thoughts, carrying urgency, tenderness, or warning in a voice no distance can thin. Sometimes the silence answers back; sometimes it closes like a locked door."
 display_name = "Sending"
 entity_def_id = "srd/spell/sending"
 grants_capability_while_equipped = ""

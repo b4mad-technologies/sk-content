@@ -88,6 +88,7 @@ tag = "srd.spell.list.paladin"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush passes over the feast as tarnished broth clears, bruised fruit brightens, and the sour reek of spoilage slips away like smoke through an open window. Cups regain their clean sparkle; bread sheds its hidden mold. In its wake, the table seems newly blessed by rain and sunlight."
 display_name = "Purify Food and Drink"
 entity_def_id = "srd/spell/purify-food-and-drink"
 grants_capability_while_equipped = ""
@@ -115,7 +116,7 @@ target_ref = "srd/spell/purify-food-and-drink"
 action_id = "srd/spell/purify-food-and-drink/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Purify Food and Drink — a spell action."
+description = "You cast this spell to cleanse nearby nonmagical food and drink of poison and disease."
 display_name = "Cast Purify Food and Drink"
 non_steering = true
 on_failure = ""

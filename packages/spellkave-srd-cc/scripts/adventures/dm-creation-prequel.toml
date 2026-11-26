@@ -1,0 +1,29 @@
+# Deprecated alias of elven-mini.toml (sk-0m4.44).
+#
+# There is only one adventure body now — the level-0 candidate. This file
+# stays so `just play-stage dm-creation-prequel` still resolves. Prefer
+# `just play-stage elven-mini`.
+
+name = "dm-creation-prequel"
+description = "Alias of elven-mini: the player starts as the level-0 creation candidate. Prefer play-stage elven-mini."
+
+tick_interval_secs = 5
+
+seeds = [
+    "packages/spellkave-srd-cc/fixtures/manifest.toml",
+    "packages/spellkave-srd-cc/fixtures/dm/manifest.toml",
+    "packages/spellkave-adventure-elven-mini/fixtures/adventure.manifest.toml",
+]
+
+[player]
+hero_seat_blueprint = "elven_mini/adventure/candidate"
+hero_seat_node = "elven_mini/creation_limbo/station"
+hero_seat_open_action = "elven_mini/dm/open-seat"
+profile = "elven-mini-candidate"
+credential = ".local/player-credentials/elven-mini/candidate.token"
+pi_profile = "spellkave_handplay_candidate"
+
+[npcs]
+cast = "packages/spellkave-adventure-elven-mini/npcs/cast.toml"
+credentials = ".local/npc-credentials/elven-mini"
+transcripts = ".local/npc-transcripts/elven-mini"

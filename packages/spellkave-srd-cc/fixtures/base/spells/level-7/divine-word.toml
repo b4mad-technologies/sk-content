@@ -66,6 +66,7 @@ tag = "srd.spell.list.cleric"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A single sanctified syllable rolls across the battlefield like a bell struck at the heart of the heavens. Lesser wills crumple beneath its echo, senses guttering out as though the world itself has withdrawn its welcome. Creatures born beyond the mortal veil are seized by an invisible tide and swept back through the threshold they crossed."
 display_name = "Divine Word"
 entity_def_id = "srd/spell/divine-word"
 grants_capability_while_equipped = ""

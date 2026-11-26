@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "This bright-forged harness carries the quiet authority of a castle gate, its fitted plates gleaming with a cold, steady confidence. When worn, every buckle seems to settle into place on its own, wrapping the bearer in the sensation of an unseen shield layered beneath the steel."
 display_name = "Plate Armor (+2)"
 entity_def_id = "srd/magic_item/plate-armor-plus-2"
 grants_capability_while_equipped = ""

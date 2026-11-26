@@ -71,7 +71,7 @@ tag = "srd.damage_type.piercing"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Morningstar — a martial melee weapon."
+description = "A squat iron head bristles with cruel spikes, each one catching torchlight like a row of cold teeth. Its haft carries a reassuring weight, built for hard grips and sudden, brutal arcs. When it strikes, the sound is less a clash than a wet, ringing verdict."
 display_name = "Morningstar"
 entity_def_id = "srd/weapon/morningstar"
 grants_capability_while_equipped = ""

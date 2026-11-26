@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Pale runes drift along the bow’s limbs like moonlight caught beneath clear ice. When danger closes, its taut string seems to hum with a choice: send its strength flying with the arrow, or draw it inward as an unseen guard around the archer. In practiced hands, every shot carries the calm precision of a shield raised at exactly the right moment."
 display_name = "Defender (Shortbow)"
 entity_def_id = "srd/magic_item/defender-shortbow"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Within its flawless depths, distant rooms gather like reflections in still water, each shadow sharpened by a tremor of thought. Warm beneath the palm, the orb seems to listen past spoken words, drawing secret fears and half-formed intentions across its glassy heart. Those who gaze too long may forget where their own thoughts end and another’s begin."
 display_name = "Crystal Ball of Mind Reading"
 entity_def_id = "srd/magic_item/crystal-ball-of-mind-reading"
 grants_capability_while_equipped = ""

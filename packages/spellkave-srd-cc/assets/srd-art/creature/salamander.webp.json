@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "pixellab-pixen",
+  "prompt": "Salamander. Salamander. large. elemental. fire. Full-body south-facing creature sprite, readable silhouette, one subject. Theme-neutral Spellkave pixel art: mid-contrast cream, charcoal, muted gold, forest, and rust. Selective outline, basic-to-medium shading, no gloss or bloom. Transparent background, no frame, no baked scenery, no letters, words, numerals, logo, watermark, photorealism, or D&D branding. Centered, native pixel size.",
+  "style_pack": null,
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts. Raw Pixen only: style_pack is omitted so the batch runner does not auto-apply entity-art-v1 reduce-colors."
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 1
+  },
+  "generated_at": "2026-09-07T19:40:32.043Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "9cdc9d21c6c60bb8549ac9d4f0d1349aa3b673ad7a98b91bcc27c4347e0962bb",
+  "target_attachment_ref": "entity_definition:srd/creature/salamander#srd.art.image",
+  "kind": "creature",
+  "entry_id": "creature-salamander",
+  "provider_ids": {
+    "api_base_url": "https://api.pixellab.ai/v2",
+    "route": "/create-image-pixen"
+  }
+}

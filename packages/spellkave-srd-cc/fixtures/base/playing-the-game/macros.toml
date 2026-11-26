@@ -47,7 +47,7 @@ return_type = "Int"
 [[dsl_macro_definitions]]
 body_source = "((score) - 10) / 2 + cond(((score) - 10) - (((score) - 10) / 2) * 2 < 0, -1, 0)"
 bundle_id = "srd"
-description = 'SRD: "Finally, determine your ability modifiers using the Ability Scores and Modifiers table." (cache/markdown/character-creation.md:487-489) Converts one ability score to its table-defined modifier.'
+description = "The number derived from an ability score using the ability score table. You add it to rolls and values affected by that ability."
 macro_id = "srd/ability_modifier"
 return_type = "Int"
 
@@ -58,7 +58,7 @@ value_type = "Int"
 [[dsl_macro_definitions]]
 body_source = "(((actor.effective('srd/str'))) - 10) / 2 + cond((((actor.effective('srd/str'))) - 10) - ((((actor.effective('srd/str'))) - 10) / 2) * 2 < 0, -1, 0)"
 bundle_id = "srd"
-description = "SRD Strength modifier, read from the actor's effective Strength score. This repeats the shared generated formula because manifest macro bodies cannot nest macro calls (MF-DSL-MACRO-IN-BODY)."
+description = "The bonus or penalty from your effective Strength score. You add it to checks, attacks, damage, and other rolls that use Strength."
 macro_id = "srd/strength_modifier"
 parameters = []
 return_type = "Int"
@@ -66,7 +66,7 @@ return_type = "Int"
 [[dsl_macro_definitions]]
 body_source = "(((actor.effective('srd/dex'))) - 10) / 2 + cond((((actor.effective('srd/dex'))) - 10) - ((((actor.effective('srd/dex'))) - 10) / 2) * 2 < 0, -1, 0)"
 bundle_id = "srd"
-description = "SRD Dexterity modifier, read from the actor's effective Dexterity score. This repeats the shared generated formula because manifest macro bodies cannot nest macro calls (MF-DSL-MACRO-IN-BODY)."
+description = "The bonus or penalty from your Dexterity score. You add it to Dexterity-based checks, attacks, and other rolls when a rule calls for it."
 macro_id = "srd/dexterity_modifier"
 parameters = []
 return_type = "Int"
@@ -74,7 +74,7 @@ return_type = "Int"
 [[dsl_macro_definitions]]
 body_source = "(((actor.effective('srd/con'))) - 10) / 2 + cond((((actor.effective('srd/con'))) - 10) - ((((actor.effective('srd/con'))) - 10) / 2) * 2 < 0, -1, 0)"
 bundle_id = "srd"
-description = "SRD Constitution modifier, read from the actor's effective Constitution score. This repeats the shared generated formula because manifest macro bodies cannot nest macro calls (MF-DSL-MACRO-IN-BODY)."
+description = "The bonus or penalty from your Constitution score. You add it to effects that depend on your physical resilience."
 macro_id = "srd/constitution_modifier"
 parameters = []
 return_type = "Int"
@@ -82,7 +82,7 @@ return_type = "Int"
 [[dsl_macro_definitions]]
 body_source = "(((actor.effective('srd/int'))) - 10) / 2 + cond((((actor.effective('srd/int'))) - 10) - ((((actor.effective('srd/int'))) - 10) / 2) * 2 < 0, -1, 0)"
 bundle_id = "srd"
-description = "SRD Intelligence modifier, read from the actor's effective Intelligence score. This repeats the shared generated formula because manifest macro bodies cannot nest macro calls (MF-DSL-MACRO-IN-BODY)."
+description = "The bonus or penalty from your Intelligence score. You add it to rolls and values that use Intelligence."
 macro_id = "srd/intelligence_modifier"
 parameters = []
 return_type = "Int"
@@ -90,7 +90,7 @@ return_type = "Int"
 [[dsl_macro_definitions]]
 body_source = "(((actor.effective('srd/wis'))) - 10) / 2 + cond((((actor.effective('srd/wis'))) - 10) - ((((actor.effective('srd/wis'))) - 10) / 2) * 2 < 0, -1, 0)"
 bundle_id = "srd"
-description = "SRD Wisdom modifier, read from the actor's effective Wisdom score. This repeats the shared generated formula because manifest macro bodies cannot nest macro calls (MF-DSL-MACRO-IN-BODY)."
+description = "The bonus or penalty from your effective Wisdom score. You add it to Wisdom-based checks, saving throws, and other rolls when a rule calls for it."
 macro_id = "srd/wisdom_modifier"
 parameters = []
 return_type = "Int"
@@ -98,7 +98,7 @@ return_type = "Int"
 [[dsl_macro_definitions]]
 body_source = "(((actor.effective('srd/cha'))) - 10) / 2 + cond((((actor.effective('srd/cha'))) - 10) - ((((actor.effective('srd/cha'))) - 10) / 2) * 2 < 0, -1, 0)"
 bundle_id = "srd"
-description = "SRD Charisma modifier, read from the actor's effective Charisma score. This repeats the shared generated formula because manifest macro bodies cannot nest macro calls (MF-DSL-MACRO-IN-BODY)."
+description = "The bonus or penalty from your Charisma score. You add it to Charisma-based checks, saves, attacks, and other rolls when a rule calls for it."
 macro_id = "srd/charisma_modifier"
 parameters = []
 return_type = "Int"
@@ -106,7 +106,7 @@ return_type = "Int"
 [[dsl_macro_definitions]]
 body_source = "2 + ((level_or_cr) - 1) / 4"
 bundle_id = "srd"
-description = 'SRD: "If you have proficiency with something, you can add your Proficiency Bonus to any D20 Test you make using that thing." (cache/markdown/rules-glossary.md:1179-1181) Derives the bonus from character level or monster Challenge Rating.'
+description = "A bonus based on your level or a creature’s challenge. Add it to a test when you are trained with the relevant weapon, tool, skill, or save."
 macro_id = "srd/proficiency_bonus"
 return_type = "Int"
 
@@ -117,7 +117,7 @@ value_type = "Int"
 [[dsl_macro_definitions]]
 body_source = "cond(override > 0, override, fallback)"
 bundle_id = "srd"
-description = 'SRD: "A Difficulty Class (DC) is the target number for an ability check or a saving throw." (cache/markdown/rules-glossary.md:736-738) Uses a positive authored override; otherwise keeps the supplied fallback target number.'
+description = "The target number for an ability check or saving throw. You use the listed value when one is provided; otherwise, use the supplied target number."
 macro_id = "srd/dc_or"
 return_type = "Int"
 
@@ -132,7 +132,7 @@ value_type = "Int"
 [[dsl_macro_definitions]]
 body_source = "10 + (dex_modifier)"
 bundle_id = "srd"
-description = """SRD: "Base AC = 10 + the creature's Dexterity modifier" (cache/markdown/playing-the-game.md:383). Calculates unarmored base Armor Class from a Dexterity modifier."""
+description = "Your starting Armor Class when unarmored. It equals 10 plus your Dexterity modifier."
 macro_id = "srd/base_ac"
 return_type = "Int"
 
@@ -143,7 +143,7 @@ value_type = "Int"
 [[dsl_macro_definitions]]
 body_source = "attack_roll != 1 && attack_roll >= crit_threshold || total >= ac"
 bundle_id = "srd"
-description = """SRD: "If you roll a 20 on the d20 (called a 'natural 20') for an attack roll, the attack hits regardless of any modifiers or the target's AC." "If you roll a 1 on the d20 (a 'natural 1') for an attack roll, the attack misses regardless of any modifiers or the target's AC." (cache/markdown/playing-the-game.md:389-393) Centralizes the attack-only automatic hit/miss rule; ordinary attacks compare total against AC. crit_threshold (default 20 at call sites without Improved Critical) is the auto-hit floor — Champion Improved Critical passes 19 via actor.has_capability at the call site."""
+description = "An attack hits if its total meets or exceeds the target’s Armor Class. An exceptional high roll hits automatically, while the lowest possible roll misses automatically."
 macro_id = "srd/attack_roll_hits"
 return_type = "Bool"
 
@@ -166,7 +166,7 @@ value_type = "Int"
 [[dsl_macro_definitions]]
 body_source = "actor.status('srd/condition/dead') == false"
 bundle_id = "srd"
-description = 'SRD: "A monster dies the instant it drops to 0 Hit Points" (cache/markdown/playing-the-game.md:1217) and "Whenever you start your turn with 0 Hit Points, you must make a Death Saving Throw" (cache/markdown/playing-the-game.md:1233). A combatant takes its turn unless it is Dead; Unconscious, Stable and Incapacitated creatures keep theirs. Session turn_eligibility_pred (ADR-0143); rule prose in order-of-combat-units.ts.'
+description = "Whether a combatant still takes its turn in initiative order. Every creature does unless it is dead: a monster dies the instant it drops to 0 Hit Points, while a character at 0 Hit Points falls unconscious and keeps its turn to make death saving throws."
 macro_id = "srd/takes-turn"
 parameters = []
 return_type = "Bool"

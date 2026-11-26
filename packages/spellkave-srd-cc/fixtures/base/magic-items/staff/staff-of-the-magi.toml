@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Dark grain runs beneath its polished surface like stormclouds trapped in old wood, and its crowned head holds a faint, restless gleam. In a practiced hand, the staff seems to drink stray sparks from the air, answering danger with a deep, resonant hush. Its power feels immense but tightly leashed—until the moment that leash is broken."
 display_name = "Staff of the Magi"
 entity_def_id = "srd/magic_item/staff-of-the-magi"
 grants_capability_while_equipped = ""

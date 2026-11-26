@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Blackened bronze and old ash give this squat vessel the patient warmth of a banked hearth. When kindled, its coals breathe in slow, furnace-deep pulses, and the air nearby shimmers with a presence eager to take shape. Even cold, it leaves the scent of rain striking hot stone."
 display_name = "Brazier of Commanding Fire Elementals"
 entity_def_id = "srd/magic_item/brazier-of-commanding-fire-elementals"
 grants_capability_while_equipped = ""

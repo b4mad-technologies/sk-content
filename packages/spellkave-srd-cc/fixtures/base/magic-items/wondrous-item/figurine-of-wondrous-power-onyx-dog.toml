@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Cool onyx, polished to a midnight sheen, holds the patient warmth of a hound curled beside a dying hearth. Its carved ears seem forever pricked toward sounds no mortal ear can catch. In the right moment, stone gives way to breath, pawsteps, and a deep-voiced companion whose gaze finds secrets hidden in darkened halls."
 display_name = "Figurine of Wondrous Power (Onyx Dog)"
 entity_def_id = "srd/magic_item/figurine-of-wondrous-power-onyx-dog"
 grants_capability_while_equipped = ""

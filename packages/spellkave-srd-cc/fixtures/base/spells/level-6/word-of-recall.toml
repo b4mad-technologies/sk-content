@@ -66,6 +66,7 @@ tag = "srd.spell.list.cleric"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A single sacred utterance gathers companions close as the world folds like cloth around a hidden altar. Dust, blood, and battlefield clamor vanish beneath a bell-clear hush. In the next heartbeat, familiar stone and consecrated air receive the weary travelers, while the danger they fled is left far beyond the threshold."
 display_name = "Word of Recall"
 entity_def_id = "srd/spell/word-of-recall"
 grants_capability_while_equipped = ""

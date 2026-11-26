@@ -96,6 +96,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush settles behind the eyes as nearby minds kindle like lanterns beyond a curtain. With careful focus, a single inner voice rises from the murmur: a sharp worry, a cherished memory, the logic beneath a guarded expression. Some thoughts recoil like startled birds, leaving the air suddenly cold and watchful."
 display_name = "Detect Thoughts"
 entity_def_id = "srd/spell/detect-thoughts"
 grants_capability_while_equipped = ""

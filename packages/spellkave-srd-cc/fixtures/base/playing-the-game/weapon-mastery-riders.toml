@@ -13,7 +13,7 @@
 action_id = "srd/attack/melee-sap"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Melee attack with a Sap mastery weapon: on hit, damage and Sap the target (Disadvantage on its next attack until its turn_start)."
+description = "Make a melee attack with a Sap mastery weapon. On a hit, you deal damage and hinder the target’s next attack until the start of its next turn."
 display_name = "Melee Attack (Sap)"
 on_failure = "srd/attack/melee-sap/miss"
 on_success = "srd/attack/melee-sap/success"
@@ -31,7 +31,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/attack/melee-slow"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Melee attack with a Slow mastery weapon: on hit, damage and reduce Speed by 10 ft until the target's turn_start."
+description = "Make a melee attack with a weapon that has the Slow mastery. On a hit, you deal damage and reduce the target’s Speed by 10 feet until the start of its next turn."
 display_name = "Melee Attack (Slow)"
 on_failure = "srd/attack/melee-slow/miss"
 on_success = "srd/attack/melee-slow/success"
@@ -49,7 +49,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/attack/melee-topple"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Melee attack with a Topple mastery weapon: on hit, damage and knock Prone. CON save half of Topple is not folded (attacker PB unavailable in ForEach target-rebound predicates) — automatic Prone is the content ceiling this lane."
+description = "Make a melee attack with a weapon that can topple foes. On a hit, you deal damage and knock the target prone."
 display_name = "Melee Attack (Topple)"
 on_failure = "srd/attack/melee-topple/miss"
 on_success = "srd/attack/melee-topple/success"
@@ -67,7 +67,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/attack/melee-graze"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Melee attack with a Graze mastery weapon: hit deals normal damage; miss still deals STR modifier damage (equipment.md:100)."
+description = "Make a melee attack with a weapon that has Graze. On a hit, deal its normal damage; on a miss, deal damage equal to your Strength modifier."
 display_name = "Melee Attack (Graze)"
 on_failure = "srd/attack/melee-graze/miss"
 on_success = "srd/attack/melee-graze/success"
@@ -85,7 +85,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/attack/melee-vex"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Melee attack with a Vex mastery weapon: on hit, damage and gain Advantage on your attack rolls until your next turn_start (equipment.md:112). RAW is vs the same target only — broad Advantage is the content ceiling."
+description = "Make a melee attack with a Vex weapon. When you hit, you deal damage and gain advantage on your attack rolls until the start of your next turn."
 display_name = "Melee Attack (Vex)"
 on_failure = "srd/attack/melee-vex/miss"
 on_success = "srd/attack/melee-vex/success"
@@ -187,7 +187,7 @@ template_id = "srd/attack/melee-vex/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/mastery-sap"
-description = "Weapon Mastery Sap (equipment.md:106): Disadvantage on the next attack roll before the start of this creature's next turn."
+description = "Your next attack roll is made with disadvantage. This ends at the start of your next turn."
 display_name = "Sapped"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []
@@ -202,7 +202,7 @@ suppresses_capability_while_active = []
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/mastery-slow"
-description = "Weapon Mastery Slow (equipment.md:108): Speed reduced by 10 feet until the start of this creature's next turn."
+description = "Your Speed is reduced by 10 feet until the start of your next turn."
 display_name = "Slowed (Mastery)"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []
@@ -217,7 +217,7 @@ suppresses_capability_while_active = []
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/mastery-vex"
-description = "Weapon Mastery Vex (equipment.md:112): Advantage on your next attack roll. RAW scopes Advantage to the same target hit; same-target identity is not readable in modifier predicates (Prone/Charmed gap class) — this condition grants broad attack_roll Advantage until the attacker's next turn_start."
+description = "You have advantage on attack rolls until the start of your next turn. This begins when you hit with a weapon that can vex a foe."
 display_name = "Vexed (Mastery)"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []
@@ -583,7 +583,7 @@ priority = 0
 
 [[niche_definitions]]
 bundle_id = "srd"
-description = "WA-CAP-002: capability:* niches require an explicit provider. spellkave_define_action_verb does not auto-attach, so this synthetic niche is actor-carried."
+description = "You make an attack when you try to harm a target with a weapon, spell, or other offensive ability. Resolve it using the rules for the attack you choose."
 display_name = "capability:srd/action/attack"
 niche_id = "capability:srd/action/attack"
 predicate_source = ""

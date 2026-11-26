@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale, thirsty powder that clings to the fingertips like flour from an abandoned mill. Scattered across a pool, it draws the water inward with a soft, impossible hush, leaving behind a tiny bead that trembles with captive tide. Even creatures born of surf and rain recoil from its dry, grave-cold touch."
 display_name = "Dust of Dryness"
 entity_def_id = "srd/magic_item/dust-of-dryness"
 grants_capability_while_equipped = ""

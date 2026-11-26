@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A lean black dagger with a hilt cold as grave earth, its blade seems to drink the color from nearby candlelight. Faint heartbeats sometimes shiver along the steel, each one vanishing beneath the wielder’s thumb. In a close, quiet room, it carries the unsettling stillness of a door shut forever."
 display_name = "Nine Lives Stealer (Dagger)"
 entity_def_id = "srd/magic_item/nine-lives-stealer-dagger"
 grants_capability_while_equipped = ""

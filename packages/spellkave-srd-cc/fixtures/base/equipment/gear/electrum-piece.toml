@@ -14,6 +14,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Pale metal that is not quite yellow, the electrum piece looks like moonlight poured into a disc. Merchants squint at it. The metal is smooth, a little soft at the rim, and it rings higher than copper when it strikes a table. In a dim room it could pass for something richer."
 display_name = "Electrum Piece"
 entity_def_id = "srd/item/electrum-piece"
 grants_capability_while_equipped = ""

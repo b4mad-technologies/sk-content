@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush settles into an ordinary thing: a door knocker, a weathered idol, a wine-stained cup. At the appointed sign, lips of pale light unfurl across its surface and release a waiting voice into the air. Long after the caster has gone, the object keeps its peculiar vigil, ready to greet, warn, accuse, or whisper secrets to the next passerby."
 display_name = "Magic Mouth"
 entity_def_id = "srd/spell/magic-mouth"
 grants_capability_while_equipped = ""

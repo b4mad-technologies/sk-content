@@ -1,0 +1,24 @@
+{
+	"schema": "spellkave-design-asset-provenance/v1",
+	"provider": "pixellab-pixen",
+	"prompt": "Zombie. Shambling zombie, one full-body undead, no detached extra arms, no scenery.. Full-body south-facing creature sprite, readable silhouette, one subject. Theme-neutral Spellkave pixel art: mid-contrast cream, charcoal, muted gold, forest, and rust. Selective outline, basic-to-medium shading, no gloss or bloom. Transparent background, no frame, no baked scenery, no letters, words, numerals, logo, watermark, photorealism, or D&D branding. Centered, native pixel size.",
+	"style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+	"provenance": {
+		"license": "CC-BY-4.0",
+		"source": "Elven Mini remaining cast and items (entity-art-v1 Pixen + reduce-colors)"
+	},
+	"usage": {
+		"type": "generations",
+		"generations": 1.1
+	},
+	"generated_at": "2026-09-07T15:20:01.526Z",
+	"source_manifest": "packages/spellkave-adventure-elven-mini/art/art-manifest.json",
+	"sha256": "72bc4df0d9111a30baefb0a936d888eb6af0d8dc8d739b02287e82c8e1397f41",
+	"target_attachment_ref": "entity_definition:srd/creature/zombie#elven_mini.art.image",
+	"kind": "creature",
+	"entry_id": "zombie",
+	"provider_ids": {
+		"api_base_url": "https://api.pixellab.ai/v2",
+		"route": "/create-image-pixen"
+	}
+}

@@ -84,6 +84,7 @@ tag = "srd.spell.list.cleric"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Incense curls through still air as mortal thought rises toward a presence beyond the veil. The world seems to hold its breath between each carefully shaped question, awaiting a sign carried on warmth, silence, or sudden certainty. Some mysteries receive a clear celestial echo; others remain shrouded where even holy sight cannot reach."
 display_name = "Commune"
 entity_def_id = "srd/spell/commune"
 grants_capability_while_equipped = ""

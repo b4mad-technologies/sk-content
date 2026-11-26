@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Black scales overlap like cooled volcanic glass, warm against the skin and faintly humming with a distant, hateful cadence. Its hooked gauntlets leave shallow crescents in wood and stone, eager for flesh. Once clasped shut, the mail settles with an intimate, possessive weight, as though some unseen abyss has learned the wearer’s shape."
 display_name = "Demon Scale Mail"
 entity_def_id = "srd/magic_item/demon-scale-mail"
 grants_capability_while_equipped = ""

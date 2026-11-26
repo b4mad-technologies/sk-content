@@ -94,6 +94,7 @@ tag = "srd.damage_type.fire"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A cruel ember kindles within worked iron, racing along rivets, blades, and buckles until the metal blushes like a forge fresh from the coals. The air shimmers with bitter heat and the sharp scent of scorched oil. What was trusted as protection or weapon becomes a searing betrayal against the flesh that grips it."
 display_name = "Heat Metal"
 entity_def_id = "srd/spell/heat-metal"
 grants_capability_while_equipped = ""
@@ -120,7 +121,7 @@ target_ref = "srd/spell/heat-metal"
 action_id = "srd/spell/heat-metal/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Heat Metal — a spell action."
+description = "You cast a spell that heats a metal object you can see, harming creatures in contact with it and making them struggle to hold or wear it."
 display_name = "Cast Heat Metal"
 non_steering = true
 on_failure = "srd/spell/heat-metal/cast/success"

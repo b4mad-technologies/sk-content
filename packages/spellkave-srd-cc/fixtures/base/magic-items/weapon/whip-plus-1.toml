@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A supple length of dark leather coils with the patience of a sleeping serpent, its braided surface catching a faint silver sheen in torchlight. When unfurled, it sings through the air with uncanny purpose, snapping toward distant targets as though guided by a hunter’s instinct."
 display_name = "Whip (+1)"
 entity_def_id = "srd/magic_item/whip-plus-1"
 grants_capability_while_equipped = ""

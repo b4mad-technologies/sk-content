@@ -96,6 +96,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A sickly yellow vapor unfurls with the wet hiss of something long buried and newly disturbed. Its reek crawls into throats and eyes, turning courage to retching panic as shapes vanish behind a greasy veil. Even hardened foes stagger from the choking miasma, desperate for clean air and solid ground."
 display_name = "Stinking Cloud"
 entity_def_id = "srd/spell/stinking-cloud"
 grants_capability_while_equipped = ""

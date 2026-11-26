@@ -14,7 +14,7 @@
 action_id = "srd/dash"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Take the Dash action (rules-glossary.md:664-668): spend your action, then gain one full extra Movement pool for the current turn."
+description = "You spend your action to gain extra movement for the current turn."
 display_name = "Dash"
 on_failure = ""
 on_success = "srd/dash/success"
@@ -59,7 +59,7 @@ template_id = "srd/dash/success"
 
 [[niche_definitions]]
 bundle_id = "srd"
-description = "actor-carried-verbs D1/D7 (ruling bead sk-rd0): revives Dash as a universal self-verb — see fragments/dodge.ts's own header for the full V1 dead-content finding this applies identically to."
+description = "When you take this action, you gain extra movement for the turn. Use it when you need to cover more ground quickly."
 display_name = "Dash (self)"
 niche_id = "capability:srd/action/dash"
 predicate_source = ""

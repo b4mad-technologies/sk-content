@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Two small lions crouch back to back in polished gold, their manes worked into fine, sunburst curls. They rest warm in the palm, as though they have been basking beside some distant savanna fire. When cast into open ground, the stillness breaks into a thunder of paws, twin roars, and the bright gleam of watchful amber eyes."
 display_name = "Figurine of Wondrous Power (Golden Lions)"
 entity_def_id = "srd/magic_item/figurine-of-wondrous-power-golden-lions"
 grants_capability_while_equipped = ""

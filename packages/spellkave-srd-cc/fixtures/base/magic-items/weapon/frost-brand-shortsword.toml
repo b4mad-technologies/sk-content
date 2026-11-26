@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A rime of pale crystals crawls along the short blade, leaving the grip dry and bitter-cold in the hand. At its drawing, nearby candleflames shudder into darkness, and the air takes on the clean, breathless stillness of deep winter. In bitter weather, its edge gleams with a cold, moonlike radiance."
 display_name = "Frost Brand (Shortsword)"
 entity_def_id = "srd/magic_item/frost-brand-shortsword"
 grants_capability_while_equipped = ""

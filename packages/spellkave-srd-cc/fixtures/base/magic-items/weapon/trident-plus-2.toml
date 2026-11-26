@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Three midnight-dark prongs rise from a haft wrapped in sea-green leather, each edge holding a cold gleam even beneath a clouded sky. In the hand, it balances with uncanny poise, as though eager to slip between shield gaps and find the heartbeat behind them. Saltwater beads along its head after storms, though it has never been near the shore."
 display_name = "Trident (+2)"
 entity_def_id = "srd/magic_item/trident-plus-2"
 grants_capability_while_equipped = ""

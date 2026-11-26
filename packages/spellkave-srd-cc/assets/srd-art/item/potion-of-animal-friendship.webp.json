@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "pixellab-pixen",
+  "prompt": "Potion of Animal Friendship. Potion of Animal Friendship. Single item icon, no wielder, no hands, object only, centered. Theme-neutral Spellkave pixel art: mid-contrast cream, charcoal, muted gold, forest, and rust. Selective outline, basic-to-medium shading, no gloss or bloom. Transparent background, no frame, no baked scenery, no letters, words, numerals, logo, watermark, photorealism, or D&D branding. Centered, native pixel size.",
+  "style_pack": null,
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts. Raw Pixen only: style_pack is omitted so the batch runner does not auto-apply entity-art-v1 reduce-colors."
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 1
+  },
+  "generated_at": "2026-09-07T21:48:48.371Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "99bb53ac3a6eb34706c835024fe0807f04d7fc4bad1db79790e5fcf4c09a7407",
+  "target_attachment_ref": "entity_definition:srd/magic_item/potion-of-animal-friendship#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-potion-of-animal-friendship",
+  "provider_ids": {
+    "api_base_url": "https://api.pixellab.ai/v2",
+    "route": "/create-image-pixen"
+  }
+}

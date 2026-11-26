@@ -82,6 +82,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A breath of unseen wind catches the doomed and turns panic into a drifting hush. Cloaks billow, loose hair lifts, and falling bodies descend like thistledown through the open air. For a few heartbeats, the ground below loses its hunger."
 display_name = "Feather Fall"
 entity_def_id = "srd/spell/feather-fall"
 grants_capability_while_equipped = ""
@@ -108,7 +109,7 @@ target_ref = "srd/spell/feather-fall"
 action_id = "srd/spell/feather-fall/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Feather Fall — a spell action."
+description = "You cast a spell that slows the fall of creatures you can see, protecting them from harm when they land. You use it in response to a sudden fall."
 display_name = "Cast Feather Fall"
 non_steering = true
 on_failure = ""
@@ -142,7 +143,7 @@ template_id = "srd/spell/feather-fall/cast/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/spell/feather-fall"
-description = "Feather Fall — a spell condition."
+description = "You descend slowly instead of falling at full speed. The effect ends when you reach the ground or the spell ends."
 display_name = "Feather Fall"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

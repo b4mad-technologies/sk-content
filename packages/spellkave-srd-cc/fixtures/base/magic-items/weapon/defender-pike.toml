@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its ash-dark shaft bears narrow bands of silver that drift like moonlight when danger nears. In battle, the pike seems to choose between the reach of its point and the shelter of its wielder, lending its keen purpose to either thrust or guard. Held close, it hums with the steady resolve of a shield wall."
 display_name = "Defender (Pike)"
 entity_def_id = "srd/magic_item/defender-pike"
 grants_capability_while_equipped = ""

@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A slender rod of dark wood, banded in tarnished silver that cools sharply near hidden enchantment. When raised, its tip gathers a faint, colorless gleam, and the air seems to ripple with secrets just beyond sight. At dawn, a bead of pale light slowly returns beneath the silverwork."
 display_name = "Wand of Magic Detection"
 entity_def_id = "srd/magic_item/wand-of-magic-detection"
 grants_capability_while_equipped = ""

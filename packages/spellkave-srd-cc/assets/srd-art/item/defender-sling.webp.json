@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-sling",
+  "overlay_template": "defender",
+  "overlay_badge": "rune",
+  "base_sha256": "4816c7f418021469be8694d6e776c8669e47036f52718038611cbb03ccbee331",
+  "overlay_sha256": "ed9b733c49d6fc246eb945a819df4069cadc2a65041679925c6fe215845c9e7d",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:40.449Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "9e017bd4bae6c25b2e9ae319c153efb687c8d5e46fb2872385cfc294fecf9f5d",
+  "target_attachment_ref": "srd/magic_item/defender-sling#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-defender-sling"
+}

@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "pixellab-pixen",
+  "prompt": "Potion of Growth. Potion of Growth. Single item icon, no wielder, no hands, object only, centered. Theme-neutral Spellkave pixel art: mid-contrast cream, charcoal, muted gold, forest, and rust. Selective outline, basic-to-medium shading, no gloss or bloom. Transparent background, no frame, no baked scenery, no letters, words, numerals, logo, watermark, photorealism, or D&D branding. Centered, native pixel size.",
+  "style_pack": null,
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts. Raw Pixen only: style_pack is omitted so the batch runner does not auto-apply entity-art-v1 reduce-colors."
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 1
+  },
+  "generated_at": "2026-09-07T21:53:26.459Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "0dd071a78e3e5b3cba15f4d0d7896d0b7d229ae0afbea899557cdee7cb1ed08b",
+  "target_attachment_ref": "entity_definition:srd/magic_item/potion-of-growth#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-potion-of-growth",
+  "provider_ids": {
+    "api_base_url": "https://api.pixellab.ai/v2",
+    "route": "/create-image-pixen"
+  }
+}

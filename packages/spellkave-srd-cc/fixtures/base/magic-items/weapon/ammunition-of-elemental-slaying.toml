@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale sigil coils along each shaft or bullet, shifting like smoke caught beneath glass. Near its destined quarry, the mark grows cold and keen, humming with a private hatred older than the bowstring’s snap. The moment it finds its mark, that buried fury blooms in a single merciless flash, leaving only ordinary ammunition behind."
 display_name = "Ammunition of Elemental Slaying"
 entity_def_id = "srd/magic_item/ammunition-of-elemental-slaying"
 grants_capability_while_equipped = ""

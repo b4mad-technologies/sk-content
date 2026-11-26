@@ -84,6 +84,7 @@ tag = "srd.spell.list.cleric"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale brilliance gathers around the fallen, threading through silence like dawn beneath a sealed door. Torn flesh remembers its shape, poison loses its hold, and even long-absent limbs answer the summons of returning breath. When the still heart stirs again, the world feels newly immense—beautiful, painful, and not yet entirely familiar."
 display_name = "Resurrection"
 entity_def_id = "srd/spell/resurrection"
 grants_capability_while_equipped = ""

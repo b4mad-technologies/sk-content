@@ -78,6 +78,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A dark seam settles across an unbroken wall, breathing cold air scented with dust, cedar, or ancient stone. Beyond its threshold waits a private chamber cut loose from the world: a place for hidden heirlooms, dangerous bargains, and secrets meant to outlast their keepers. When the passage fades, the silence beyond remains perfectly intact."
 display_name = "Demiplane"
 entity_def_id = "srd/spell/demiplane"
 grants_capability_while_equipped = ""

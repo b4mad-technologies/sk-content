@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A brass-shafted dart that rests cool in the palm, its feathering faintly scented with hearth smoke. At a whispered cue, ember-red fire races along its slender length without consuming wood, cord, or hand. In flight it draws a brief, blazing seam through the dark, like a spark flung from a forge."
 display_name = "Flame Tongue Dart"
 entity_def_id = "srd/magic_item/flame-tongue-dart"
 grants_capability_while_equipped = ""

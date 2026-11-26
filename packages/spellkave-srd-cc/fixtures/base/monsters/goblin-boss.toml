@@ -163,6 +163,7 @@ tag = "srd.creature.role.leader"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A goblin boss survives by turning every ambush, stolen trinket, and whispered insult into leverage. Draped in mismatched trophies and guarded by nervous underlings, it barks orders from the safest patch of shadow. Its authority rests less on courage than on a sharp instinct for making others take the risk first."
 display_name = "Goblin Boss"
 entity_def_id = "srd/creature/goblin-boss"
 grants_capability_while_equipped = ""

@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A broad blade of moon-pale steel, this greatsword hums softly when drawn beneath open sky. Its edge seems to gather the wielder’s intent, turning every practiced stroke into something cleaner, swifter, and impossible to ignore. In battle, it leaves a brief silver wake through dust and shadow."
 display_name = "Greatsword (+2)"
 entity_def_id = "srd/magic_item/greatsword-plus-2"
 grants_capability_while_equipped = ""

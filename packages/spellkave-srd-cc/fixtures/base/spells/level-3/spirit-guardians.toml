@@ -84,6 +84,7 @@ tag = "srd.spell.list.cleric"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush gathers around the faithful, then blossoms into a circling host of luminous wings, thorned shades, or laughing green phantoms. Their presence turns the air heavy for intruders, each step met by spectral hands and watchful, merciless eyes. Allies pass beneath their vigil as though welcomed into a sanctuary."
 display_name = "Spirit Guardians"
 entity_def_id = "srd/spell/spirit-guardians"
 grants_capability_while_equipped = ""

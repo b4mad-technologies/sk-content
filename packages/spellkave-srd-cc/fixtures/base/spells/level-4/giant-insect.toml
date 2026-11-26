@@ -78,6 +78,7 @@ tag = "srd.spell.list.druid"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A shiver runs through the air as a humble crawling thing swells into a towering omen of chitin, wings, and hooked limbs. Its many legs find purchase where none should exist, while the drone of its movement rattles shields and nerves alike. Bound to a guiding will, the beast turns its alien senses toward the caster’s chosen prey."
 display_name = "Giant Insect"
 entity_def_id = "srd/spell/giant-insect"
 grants_capability_while_equipped = ""

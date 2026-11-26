@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_3"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A broad crescent of darkened steel, its edge gleams with a cold, unwavering light even beneath rain or torchsmoke. The haft settles into a warrior’s grip as though shaped for that single hand, carrying a stern, eager balance. When swung, the air seems to snap aside before it."
 display_name = "Battleaxe (+3)"
 entity_def_id = "srd/magic_item/battleaxe-plus-3"
 grants_capability_while_equipped = ""

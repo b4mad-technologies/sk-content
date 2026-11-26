@@ -88,6 +88,7 @@ tag = "srd.damage_type.radiant"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A cold shaft of lunar radiance descends without cloud or warning, washing the ground in silver hush. Shadows recoil at its touch, and borrowed skins unravel beneath its searching glow. Wherever it drifts, the night seems to hold its breath."
 display_name = "Moonbeam"
 entity_def_id = "srd/spell/moonbeam"
 grants_capability_while_equipped = ""
@@ -115,7 +116,7 @@ target_ref = "srd/spell/moonbeam"
 action_id = "srd/spell/moonbeam/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Moonbeam — a spell action."
+description = "You cast the moonbeam spell, creating its effect by spending the spell slot and taking the required casting action."
 display_name = "Cast Moonbeam"
 non_steering = true
 on_failure = ""

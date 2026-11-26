@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Soft leather wraps the calves with the faint warmth of sunlit feathers. At a whispered impulse, pale pinions unfurl along the heels and beat against the air, carrying their wearer above road, river, and ruin. When their borrowed lift begins to fade, the boots settle into a gentle, reluctant descent."
 display_name = "Winged Boots"
 entity_def_id = "srd/magic_item/winged-boots"
 grants_capability_while_equipped = ""

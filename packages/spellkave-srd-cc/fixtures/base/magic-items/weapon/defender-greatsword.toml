@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A broad, mirror-bright blade that seems to catch dangers before they arrive. In a steady grip, its balance shifts with uncanny purpose, lending its bearer a guarded poise or a devastating sweep as the moment demands. Along the fuller, pale light gathers like a watchful sentinel refusing to yield."
 display_name = "Defender (Greatsword)"
 entity_def_id = "srd/magic_item/defender-greatsword"
 grants_capability_while_equipped = ""

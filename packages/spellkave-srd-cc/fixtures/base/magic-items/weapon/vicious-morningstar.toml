@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its dark iron head seems to drink the torchlight, each cruel flange polished to a patient gleam. In the hand, it carries a hungry weight, as though every swing remembers the yielding give of armor and bone. A faint, metallic thrill runs along the haft when danger draws near."
 display_name = "Vicious Morningstar"
 entity_def_id = "srd/magic_item/vicious-morningstar"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its iron head seems to remember every colossal foe it has ever felled, each spike cold with a patient, mountain-breaking purpose. In the hand, the morningstar carries a peculiar downward pull, as though eager to drag towering enemies from their pride into the dust. When swung beneath a giant’s shadow, its impact rings like a cracked bell across a battlefield."
 display_name = "Giant Slayer (Morningstar)"
 entity_def_id = "srd/magic_item/giant-slayer-morningstar"
 grants_capability_while_equipped = ""

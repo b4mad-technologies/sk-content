@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its lacquered tube is cool as gravewater, etched with tiny catlike eyes that seem to blink when no one watches. Each dart leaves with a whisper, carrying a hungry stillness that clings to living breath. In the aftermath, the weapon’s dark inlay gleams a little dimmer, as though some unseen predator has fed."
 display_name = "Nine Lives Stealer (Blowgun)"
 entity_def_id = "srd/magic_item/nine-lives-stealer-blowgun"
 grants_capability_while_equipped = ""

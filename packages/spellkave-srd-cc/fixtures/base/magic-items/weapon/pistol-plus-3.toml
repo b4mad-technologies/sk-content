@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_3"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its dark barrel drinks in the lamplight, leaving only a thin violet gleam along the etched metalwork. When raised, the mechanism settles with uncanny certainty, as though each moving piece has already glimpsed the shot to come. The air near its muzzle carries a faint scent of rain on cold stone."
 display_name = "Pistol (+3)"
 entity_def_id = "srd/magic_item/pistol-plus-3"
 grants_capability_while_equipped = ""

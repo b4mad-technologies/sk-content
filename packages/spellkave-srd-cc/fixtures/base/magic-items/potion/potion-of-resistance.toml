@@ -44,6 +44,7 @@ tag = "srd.consumable"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Within the vial, a single color stirs and shifts, never quite settling into a name. Its scent may carry rain on stone, bitter herbs, furnace smoke, or the sharp hush before a storm. Once uncorked, the draught leaves the skin tingling with a strange borrowed hardiness, as though one cruelty of the world has briefly forgotten how to bite."
 display_name = "Potion of Resistance"
 entity_def_id = "srd/magic_item/potion-of-resistance"
 grants_capability_while_equipped = ""
@@ -84,7 +85,7 @@ template_id = "srd/magic_item/potion-of-resistance/consume/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/magic_item/potion-of-resistance"
-description = "Resistance to one damage type for 1 hour (magic-items.md § Potion of Resistance)."
+description = "For 1 hour after you drink it, you have resistance to one type of damage. The damage type is determined by the potion."
 display_name = "Potion of Resistance"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

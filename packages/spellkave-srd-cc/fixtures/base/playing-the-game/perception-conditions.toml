@@ -9,7 +9,7 @@
 action_id = "srd/apply-in-darkness"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Node-entry ApplyStatus for In Darkness (spatial_niche_attachment.on_entry_action_id). Idiom: packages/spellkave-world-author/docs/examples/authored-dark-cave.md."
+description = "When you enter an area of darkness, you gain the In Darkness condition. It lasts while you remain in that darkness."
 display_name = "Enter Darkness"
 on_failure = ""
 on_success = "srd/apply-in-darkness/success"
@@ -26,7 +26,7 @@ spends_channel = ""
 action_id = "srd/spell/see-invisibility/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "See Invisibility — a spell action."
+description = "You cast a spell that lets you perceive invisible creatures and objects for its duration."
 display_name = "Cast See Invisibility"
 on_failure = ""
 on_success = "srd/spell/see-invisibility/cast/success"
@@ -78,7 +78,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/capability/see_invisibility"
 default_visibility = "Public"
-description = "Sensory counter-capability: the bearer treats Invisible creatures as visible for attack-roll bias (sk-609b.16). Granted while 'srd/condition/spell/see-invisibility' is active."
+description = "You can see creatures hidden by invisibility as though they were visible, so they gain no attack advantage or protection from you for being unseen."
 display_name = "See Invisibility"
 
 [[capability_definitions]]
@@ -86,7 +86,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/action/apply-in-darkness"
 default_visibility = "Hidden"
-description = "Internal capability for the dark-area on-entry action that applies 'srd/condition/in_darkness' (spatial_niche_attachment.on_entry_action_id)."
+description = "When you enter a dark area, you gain the effects of being in darkness until you leave it or the area becomes lit."
 display_name = "Apply In Darkness"
 
 [[capability_definitions]]
@@ -94,13 +94,13 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/action/see-invisibility"
 default_visibility = "Public"
-description = "Dedicated cast capability for See Invisibility (avoids re-emitting srd/action/magic — MF-VAL-266)."
+description = "You cast See Invisibility to reveal unseen creatures and objects around you for a limited time."
 display_name = "Cast See Invisibility"
 
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/in_darkness"
-description = "In Darkness (sk-609b.16 / perception-kernel-design.md C.1): while the bearer is in a dark area and lacks Darkvision, resolution checks they participate in as actor carry Disadvantage. Gate reads actor.has_capability('srd/capability/darkvision') via the roll-bias capability fact pool. Applied on node entry via 'srd/apply-in-darkness'."
+description = "While you are in darkness without darkvision, you have disadvantage on checks you make to resolve actions."
 display_name = "In Darkness"
 gate_predicate_source = "actor.has_capability('srd/capability/darkvision') == false"
 grants_capability_while_active = []
@@ -115,7 +115,7 @@ suppresses_capability_while_active = []
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/invisible/attack-advantage"
-description = "Internal actor-side half of Invisible: while Invisible, attack rolls made by this creature have Advantage (Unseen Attackers)."
+description = "While you are invisible, you have advantage on attack rolls."
 display_name = "Invisible: Attack Advantage"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []
@@ -130,7 +130,7 @@ suppresses_capability_while_active = []
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/invisible"
-description = "Invisible (sk-609b.16 / perception-kernel-design.md C.2): attacks against this creature have Disadvantage unless the attacker has See Invisibility ('srd/capability/see_invisibility'). Twin actor-side Advantage lives on 'srd/condition/invisible/attack-advantage'. Pattern: cross-party-capability-gate."
+description = "While you are unseen, attacks against you have disadvantage unless the attacker can see invisible creatures."
 display_name = "Invisible"
 gate_predicate_source = "actor.has_capability('srd/capability/see_invisibility') == false"
 grants_capability_while_active = []
@@ -145,7 +145,7 @@ suppresses_capability_while_active = []
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/spell/see-invisibility"
-description = "See Invisibility (L2, sk-609b.16 C.4): while active, grants 'srd/capability/see_invisibility' so Invisible's ResolutionCheck Disadvantage gate fails closed for this attacker. pattern: condition-grant-and-suppression."
+description = "You can see creatures and objects hidden by invisibility. Their invisibility does not hinder your attacks against them."
 display_name = "See Invisibility"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = ["srd/capability/see_invisibility"]
@@ -247,7 +247,7 @@ priority = 0
 
 [[niche_definitions]]
 bundle_id = "srd"
-description = "Place niche for heavily dark nodes. Attach with on_entry_action_id = 'srd/apply-in-darkness' so entrants receive In Darkness (pattern: cross-party-capability-gate; idiom authored-dark-cave)."
+description = "A heavily dark place where sight is blocked without a suitable sense or light source. Entering it gives you the In Darkness condition."
 display_name = "Dark Area"
 niche_id = "srd/niche/dark-area"
 predicate_source = ""
@@ -255,7 +255,7 @@ provider = "place"
 
 [[niche_definitions]]
 bundle_id = "srd"
-description = "Actor-carried niche for Cast See Invisibility (provider=actor)."
+description = "You can see invisible creatures and objects as though they were visible for the effect’s duration."
 display_name = "See Invisibility (self)"
 niche_id = "capability:srd/action/see-invisibility"
 predicate_source = ""

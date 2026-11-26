@@ -76,6 +76,7 @@ tag = "srd.damage_type.fire"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Pain becomes a spark struck from the soul’s anvil. In the same heartbeat, sickly green fire coils around the offender, hissing with the scent of brimstone and scorched iron. The blaze vanishes almost as quickly as wrath is born, leaving only smoke and the memory of having provoked something infernal."
 display_name = "Hellish Rebuke"
 entity_def_id = "srd/spell/hellish-rebuke"
 grants_capability_while_equipped = ""
@@ -102,7 +103,7 @@ target_ref = "srd/spell/hellish-rebuke"
 action_id = "srd/spell/hellish-rebuke/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Hellish Rebuke — a spell action."
+description = "You cast this spell as a reaction when a creature damages you, searing it with infernal fire."
 display_name = "Cast Hellish Rebuke"
 non_steering = true
 on_failure = "srd/spell/hellish-rebuke/cast/failure"

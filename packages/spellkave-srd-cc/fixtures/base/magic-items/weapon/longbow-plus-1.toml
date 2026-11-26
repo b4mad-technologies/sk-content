@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale gleam follows the bow’s curve, like moonlight caught beneath polished yew. Its string hums with a clear, patient note when drawn, and every arrow seems to leave it carrying a fragment of the archer’s intent. In still air, the weapon feels eager for distant horizons."
 display_name = "Longbow (+1)"
 entity_def_id = "srd/magic_item/longbow-plus-1"
 grants_capability_while_equipped = ""

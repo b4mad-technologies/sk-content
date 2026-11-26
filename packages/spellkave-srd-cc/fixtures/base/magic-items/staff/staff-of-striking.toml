@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale seam of light sleeps within the dark grain, stirring only when the staff is gripped with intent. Each blow lands with the clean, ringing certainty of a hammer on an unseen bell, sending a shudder through stone, steel, and bone alike. At dawn, warmth slowly returns to its polished length, as though it has been drinking from the first light."
 display_name = "Staff of Striking"
 entity_def_id = "srd/magic_item/staff-of-striking"
 grants_capability_while_equipped = ""

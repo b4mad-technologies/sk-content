@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Even at rest, the heavy crossbow seems to listen: its string hums at distant footfalls, and the stock grows faintly warm before danger draws near. Sleep around it remains light and uneasy, as though some watchful instinct keeps vigil through the darkest hours. When violence breaks the silence, its bearer’s hands find the weapon before thought can follow."
 display_name = "Weapon of Warning (Heavy Crossbow)"
 entity_def_id = "srd/magic_item/weapon-of-warning-heavy-crossbow"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale fire gathers along the lance’s polished length, brightening whenever grave-cold shadows or infernal malice draw near. Its grip is warm beneath a steadfast hand, and the air around its bearer seems to ring like a distant chapel bell. Companions who stand close find their courage settling into something clear, calm, and difficult to break."
 display_name = "Holy Avenger (Lance)"
 entity_def_id = "srd/magic_item/holy-avenger-lance"
 grants_capability_while_equipped = ""

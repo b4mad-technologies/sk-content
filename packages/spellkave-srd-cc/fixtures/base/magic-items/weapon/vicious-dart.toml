@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its narrow shaft hums with a spiteful tension, as though it resents the empty air between hand and target. When loosed, the dart flies with a vicious certainty, leaving a fleeting shiver in the silence before it strikes. The wound it makes seems far deeper than so small a missile should allow."
 display_name = "Vicious Dart"
 entity_def_id = "srd/magic_item/vicious-dart"
 grants_capability_while_equipped = ""

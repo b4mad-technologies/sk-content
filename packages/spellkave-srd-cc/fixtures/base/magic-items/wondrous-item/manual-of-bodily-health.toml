@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its stout pages smell of bitter herbs, clean linen, and rain-washed stone. Diagrams of breath, posture, and humble meals seem to shift with the reader’s growing understanding, while the ink carries a steady warmth beneath the fingertips. Long study leaves the body feeling newly acquainted with its own quiet strength."
 display_name = "Manual of Bodily Health"
 entity_def_id = "srd/magic_item/manual-of-bodily-health"
 grants_capability_while_equipped = ""

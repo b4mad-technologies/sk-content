@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its limbs hum faintly in the dark, as though catching distant thunder before the storm arrives. Resting hands twitch awake at the first breath of danger, while nearby companions find sleep suddenly shallow and watchful. The crossbow’s polished stock feels cool and impatient, forever listening for the moment silence breaks."
 display_name = "Weapon of Warning (Light Crossbow)"
 entity_def_id = "srd/magic_item/weapon-of-warning-light-crossbow"
 grants_capability_while_equipped = ""

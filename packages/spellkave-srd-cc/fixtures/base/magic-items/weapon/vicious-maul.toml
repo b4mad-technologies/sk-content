@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The iron head bears old dents that never seem to dull its brutal purpose. When swung, it carries a low, eager hum, as though the weapon remembers every shattered shield and broken bone. Its haft is warm in a clenched hand, pulsing with a violence that demands release."
 display_name = "Vicious Maul"
 entity_def_id = "srd/magic_item/vicious-maul"
 grants_capability_while_equipped = ""

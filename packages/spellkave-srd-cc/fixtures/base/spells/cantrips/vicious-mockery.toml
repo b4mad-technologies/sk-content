@@ -70,6 +70,7 @@ tag = "srd.damage_type.psychic"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A barbed verse slips past armor and pride alike, finding the tender seam between confidence and doubt. Laughter curdles in the air as the victim’s thoughts snag on the cruel refrain, leaving every following motion haunted by a sudden, humiliating hesitation."
 display_name = "Vicious Mockery"
 entity_def_id = "srd/spell/vicious-mockery"
 grants_capability_while_equipped = ""
@@ -96,7 +97,7 @@ target_ref = "srd/spell/vicious-mockery"
 action_id = "srd/spell/vicious-mockery/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Vicious Mockery — a spell action."
+description = "You hurl a cutting magical insult at a creature you can see. It takes psychic harm if it fails its saving throw, and its next attack is weakened."
 display_name = "Cast Vicious Mockery"
 non_steering = true
 on_failure = "srd/spell/vicious-mockery/cast/success"

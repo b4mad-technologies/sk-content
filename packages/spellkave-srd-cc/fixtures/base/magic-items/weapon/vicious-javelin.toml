@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its polished shaft seems to drink the light, leaving only a thin, hungry gleam along the point. When hurled, it cuts the air with a sound like a hunting hawk’s cry, and the wound it leaves carries a brutal, lingering force."
 display_name = "Vicious Javelin"
 entity_def_id = "srd/magic_item/vicious-javelin"
 grants_capability_while_equipped = ""

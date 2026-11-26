@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Each overlapping scale bears a muted sheen, like rain lingering on river stones at dusk. When worn, the armor settles with a reassuring weight, its linked plates whispering together as though remembering the rhythm of old shields raised against the storm."
 display_name = "Scale Mail (+2)"
 entity_def_id = "srd/magic_item/scale-mail-plus-2"
 grants_capability_while_equipped = ""

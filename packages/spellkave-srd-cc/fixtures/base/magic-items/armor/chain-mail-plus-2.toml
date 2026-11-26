@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Each ring is darkly polished and cool against the palm, linked with a patient precision that seems almost ceremonial. When worn, the mail settles into a reassuring hush, its weight distributing like a veteran guard taking position at every vulnerable seam. In torchlight, the woven steel catches brief, stern glints."
 display_name = "Chain Mail (+2)"
 entity_def_id = "srd/magic_item/chain-mail-plus-2"
 grants_capability_while_equipped = ""

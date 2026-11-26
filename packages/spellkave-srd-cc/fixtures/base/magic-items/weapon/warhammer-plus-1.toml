@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The hammer’s square head bears a soft, silvery sheen that never dulls beneath mud or blood. When lifted, it seems eager for the swing, settling into the wielder’s grip with the certainty of a struck anvil. Each blow lands with a resonant, bell-deep finality."
 display_name = "Warhammer (+1)"
 entity_def_id = "srd/magic_item/warhammer-plus-1"
 grants_capability_while_equipped = ""

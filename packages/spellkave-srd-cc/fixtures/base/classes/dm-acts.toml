@@ -7,6 +7,7 @@
 action_id = "srd/dm/creation-sheet/barbarian"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a new barbarian's first-level statistics. Use the adopted ability scores for starting Hit Points and unarmored Armor Class, and establish the class's starting resources."
 display_name = "srd/dm/creation-sheet/barbarian"
 on_failure = ""
 on_success = "srd/dm/creation-sheet/barbarian/success"
@@ -22,6 +23,7 @@ session_def_id = ""
 action_id = "srd/dm/creation-sheet/bard"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a new bard's first-level statistics. Use the adopted ability scores for starting Hit Points and unarmored Armor Class, and establish the class's starting resources."
 display_name = "srd/dm/creation-sheet/bard"
 on_failure = ""
 on_success = "srd/dm/creation-sheet/bard/success"
@@ -37,6 +39,7 @@ session_def_id = ""
 action_id = "srd/dm/creation-sheet/cleric"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a new cleric's first-level statistics. Use the adopted ability scores for starting Hit Points and unarmored Armor Class, and establish the class's starting resources."
 display_name = "srd/dm/creation-sheet/cleric"
 on_failure = ""
 on_success = "srd/dm/creation-sheet/cleric/success"
@@ -52,6 +55,7 @@ session_def_id = ""
 action_id = "srd/dm/creation-sheet/druid"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a new druid's first-level statistics. Use the adopted ability scores for starting Hit Points and unarmored Armor Class, and establish the class's starting resources."
 display_name = "srd/dm/creation-sheet/druid"
 on_failure = ""
 on_success = "srd/dm/creation-sheet/druid/success"
@@ -67,6 +71,7 @@ session_def_id = ""
 action_id = "srd/dm/creation-sheet/fighter"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a new fighter's first-level statistics. Use the adopted ability scores for starting Hit Points and unarmored Armor Class, and establish the class's starting resources."
 display_name = "srd/dm/creation-sheet/fighter"
 on_failure = ""
 on_success = "srd/dm/creation-sheet/fighter/success"
@@ -82,6 +87,7 @@ session_def_id = ""
 action_id = "srd/dm/creation-sheet/monk"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a new monk's first-level statistics. Use the adopted ability scores for starting Hit Points and unarmored Armor Class, and establish the class's starting resources."
 display_name = "srd/dm/creation-sheet/monk"
 on_failure = ""
 on_success = "srd/dm/creation-sheet/monk/success"
@@ -97,6 +103,7 @@ session_def_id = ""
 action_id = "srd/dm/creation-sheet/paladin"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a new paladin's first-level statistics. Use the adopted ability scores for starting Hit Points and unarmored Armor Class, and establish the class's starting resources."
 display_name = "srd/dm/creation-sheet/paladin"
 on_failure = ""
 on_success = "srd/dm/creation-sheet/paladin/success"
@@ -112,6 +119,7 @@ session_def_id = ""
 action_id = "srd/dm/creation-sheet/ranger"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a new ranger's first-level statistics. Use the adopted ability scores for starting Hit Points and unarmored Armor Class, and establish the class's starting resources."
 display_name = "srd/dm/creation-sheet/ranger"
 on_failure = ""
 on_success = "srd/dm/creation-sheet/ranger/success"
@@ -127,6 +135,7 @@ session_def_id = ""
 action_id = "srd/dm/creation-sheet/rogue"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a new rogue's first-level statistics. Use the adopted ability scores for starting Hit Points and unarmored Armor Class, and establish the class's starting resources."
 display_name = "srd/dm/creation-sheet/rogue"
 on_failure = ""
 on_success = "srd/dm/creation-sheet/rogue/success"
@@ -142,6 +151,7 @@ session_def_id = ""
 action_id = "srd/dm/creation-sheet/sorcerer"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a new sorcerer's first-level statistics. Use the adopted ability scores for starting Hit Points and unarmored Armor Class, and establish the class's starting resources."
 display_name = "srd/dm/creation-sheet/sorcerer"
 on_failure = ""
 on_success = "srd/dm/creation-sheet/sorcerer/success"
@@ -157,6 +167,7 @@ session_def_id = ""
 action_id = "srd/dm/creation-sheet/warlock"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a new warlock's first-level statistics. Use the adopted ability scores for starting Hit Points and unarmored Armor Class, and establish the class's starting resources."
 display_name = "srd/dm/creation-sheet/warlock"
 on_failure = ""
 on_success = "srd/dm/creation-sheet/warlock/success"
@@ -172,6 +183,7 @@ session_def_id = ""
 action_id = "srd/dm/creation-sheet/wizard"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a new wizard's first-level statistics. Use the adopted ability scores for starting Hit Points and unarmored Armor Class, and establish the class's starting resources."
 display_name = "srd/dm/creation-sheet/wizard"
 on_failure = ""
 on_success = "srd/dm/creation-sheet/wizard/success"
@@ -187,6 +199,7 @@ session_def_id = ""
 action_id = "srd/dm/advance/barbarian"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Recognize a character's earned barbarian level. The selected level grants the class abilities available at that stage."
 display_name = "srd/dm/advance/barbarian"
 on_failure = ""
 on_success = "srd/dm/advance/barbarian/success"
@@ -202,6 +215,7 @@ session_def_id = ""
 action_id = "srd/dm/advance/bard"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Recognize a character's earned bard level. The selected level grants the class abilities available at that stage."
 display_name = "srd/dm/advance/bard"
 on_failure = ""
 on_success = "srd/dm/advance/bard/success"
@@ -217,6 +231,7 @@ session_def_id = ""
 action_id = "srd/dm/advance/cleric"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Recognize a character's earned cleric level. The selected level grants the class abilities available at that stage."
 display_name = "srd/dm/advance/cleric"
 on_failure = ""
 on_success = "srd/dm/advance/cleric/success"
@@ -232,6 +247,7 @@ session_def_id = ""
 action_id = "srd/dm/advance/druid"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Recognize a character's earned druid level. The selected level grants the class abilities available at that stage."
 display_name = "srd/dm/advance/druid"
 on_failure = ""
 on_success = "srd/dm/advance/druid/success"
@@ -247,6 +263,7 @@ session_def_id = ""
 action_id = "srd/dm/advance/fighter"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Recognize a character's earned fighter level. The selected level grants the class abilities available at that stage."
 display_name = "srd/dm/advance/fighter"
 on_failure = ""
 on_success = "srd/dm/advance/fighter/success"
@@ -262,6 +279,7 @@ session_def_id = ""
 action_id = "srd/dm/advance/monk"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Recognize a character's earned monk level. The selected level grants the class abilities available at that stage."
 display_name = "srd/dm/advance/monk"
 on_failure = ""
 on_success = "srd/dm/advance/monk/success"
@@ -277,6 +295,7 @@ session_def_id = ""
 action_id = "srd/dm/advance/paladin"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Recognize a character's earned paladin level. The selected level grants the class abilities available at that stage."
 display_name = "srd/dm/advance/paladin"
 on_failure = ""
 on_success = "srd/dm/advance/paladin/success"
@@ -292,6 +311,7 @@ session_def_id = ""
 action_id = "srd/dm/advance/ranger"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Recognize a character's earned ranger level. The selected level grants the class abilities available at that stage."
 display_name = "srd/dm/advance/ranger"
 on_failure = ""
 on_success = "srd/dm/advance/ranger/success"
@@ -307,6 +327,7 @@ session_def_id = ""
 action_id = "srd/dm/advance/rogue"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Recognize a character's earned rogue level. The selected level grants the class abilities available at that stage."
 display_name = "srd/dm/advance/rogue"
 on_failure = ""
 on_success = "srd/dm/advance/rogue/success"
@@ -322,6 +343,7 @@ session_def_id = ""
 action_id = "srd/dm/advance/sorcerer"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Recognize a character's earned sorcerer level. The selected level grants the class abilities available at that stage."
 display_name = "srd/dm/advance/sorcerer"
 on_failure = ""
 on_success = "srd/dm/advance/sorcerer/success"
@@ -337,6 +359,7 @@ session_def_id = ""
 action_id = "srd/dm/advance/warlock"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Recognize a character's earned warlock level. The selected level grants the class abilities available at that stage."
 display_name = "srd/dm/advance/warlock"
 on_failure = ""
 on_success = "srd/dm/advance/warlock/success"
@@ -352,6 +375,7 @@ session_def_id = ""
 action_id = "srd/dm/advance/wizard"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Recognize a character's earned wizard level. The selected level grants the class abilities available at that stage."
 display_name = "srd/dm/advance/wizard"
 on_failure = ""
 on_success = "srd/dm/advance/wizard/success"
@@ -367,6 +391,7 @@ session_def_id = ""
 action_id = "srd/dm/train/skill"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Grant a character their chosen skill training. The choice must come from the available options."
 display_name = "srd/dm/train/skill"
 on_failure = ""
 on_success = "srd/dm/train/skill/success"
@@ -382,6 +407,7 @@ session_def_id = ""
 action_id = "srd/dm/train/origin-feat"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Grant a character their chosen origin feat training. The choice must come from the available options."
 display_name = "srd/dm/train/origin-feat"
 on_failure = ""
 on_success = "srd/dm/train/origin-feat/success"
@@ -397,6 +423,7 @@ session_def_id = ""
 action_id = "srd/dm/train/proficiency"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Grant a character their chosen proficiency training. The choice must come from the available options."
 display_name = "srd/dm/train/proficiency"
 on_failure = ""
 on_success = "srd/dm/train/proficiency/success"
@@ -412,6 +439,7 @@ session_def_id = ""
 action_id = "srd/dm/identify/class"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Record a character's chosen class. The choice must come from the available options."
 display_name = "srd/dm/identify/class"
 on_failure = ""
 on_success = "srd/dm/identify/class/success"
@@ -427,6 +455,7 @@ session_def_id = ""
 action_id = "srd/dm/retract/class"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Remove a recorded class choice from a character. Other character choices remain in place."
 display_name = "srd/dm/retract/class"
 on_failure = ""
 on_success = "srd/dm/retract/class/success"
@@ -442,6 +471,7 @@ session_def_id = ""
 action_id = "srd/dm/identify/species"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Record a character's chosen species. The choice must come from the available options."
 display_name = "srd/dm/identify/species"
 on_failure = ""
 on_success = "srd/dm/identify/species/success"
@@ -457,6 +487,7 @@ session_def_id = ""
 action_id = "srd/dm/retract/species"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Remove a recorded species choice from a character. Other character choices remain in place."
 display_name = "srd/dm/retract/species"
 on_failure = ""
 on_success = "srd/dm/retract/species/success"
@@ -472,6 +503,7 @@ session_def_id = ""
 action_id = "srd/dm/identify/background"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Record a character's chosen background. The choice must come from the available options."
 display_name = "srd/dm/identify/background"
 on_failure = ""
 on_success = "srd/dm/identify/background/success"
@@ -487,6 +519,7 @@ session_def_id = ""
 action_id = "srd/dm/retract/background"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Remove a recorded background choice from a character. Other character choices remain in place."
 display_name = "srd/dm/retract/background"
 on_failure = ""
 on_success = "srd/dm/retract/background/success"
@@ -502,6 +535,7 @@ session_def_id = ""
 action_id = "srd/dm/name"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Give a character their adopted name. The name also appears on the seat used to play them."
 display_name = "srd/dm/name"
 on_failure = ""
 on_success = "srd/dm/name/success"
@@ -517,6 +551,7 @@ session_def_id = ""
 action_id = "srd/dm/describe/appearance"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Record a character's adopted appearance. The description keeps the visibility already assigned to that part of their character."
 display_name = "srd/dm/describe/appearance"
 on_failure = ""
 on_success = "srd/dm/describe/appearance/success"
@@ -532,6 +567,7 @@ session_def_id = ""
 action_id = "srd/dm/describe/backstory"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Record a character's adopted backstory. The description keeps the visibility already assigned to that part of their character."
 display_name = "srd/dm/describe/backstory"
 on_failure = ""
 on_success = "srd/dm/describe/backstory/success"
@@ -547,6 +583,7 @@ session_def_id = ""
 action_id = "srd/dm/set/srd.ac"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a character's Armor Class to the stated value."
 display_name = "srd/dm/set/srd.ac"
 on_failure = ""
 on_success = "srd/dm/set/srd.ac/success"
@@ -562,6 +599,7 @@ session_def_id = ""
 action_id = "srd/dm/clear/srd.ac"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Reset a character's Armor Class to zero."
 display_name = "srd/dm/clear/srd.ac"
 on_failure = ""
 on_success = "srd/dm/clear/srd.ac/success"
@@ -577,6 +615,7 @@ session_def_id = ""
 action_id = "srd/dm/set/srd.barbarian.rage-uses"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a character's Rage Uses to the stated value."
 display_name = "srd/dm/set/srd.barbarian.rage-uses"
 on_failure = ""
 on_success = "srd/dm/set/srd.barbarian.rage-uses/success"
@@ -592,6 +631,7 @@ session_def_id = ""
 action_id = "srd/dm/clear/srd.barbarian.rage-uses"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Reset a character's Rage Uses to zero."
 display_name = "srd/dm/clear/srd.barbarian.rage-uses"
 on_failure = ""
 on_success = "srd/dm/clear/srd.barbarian.rage-uses/success"
@@ -607,6 +647,7 @@ session_def_id = ""
 action_id = "srd/dm/set/srd.bard.bardic-inspiration-uses"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a character's Bardic Inspiration Uses to the stated value."
 display_name = "srd/dm/set/srd.bard.bardic-inspiration-uses"
 on_failure = ""
 on_success = "srd/dm/set/srd.bard.bardic-inspiration-uses/success"
@@ -622,6 +663,7 @@ session_def_id = ""
 action_id = "srd/dm/clear/srd.bard.bardic-inspiration-uses"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Reset a character's Bardic Inspiration Uses to zero."
 display_name = "srd/dm/clear/srd.bard.bardic-inspiration-uses"
 on_failure = ""
 on_success = "srd/dm/clear/srd.bard.bardic-inspiration-uses/success"
@@ -637,6 +679,7 @@ session_def_id = ""
 action_id = "srd/dm/set/srd.cha"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a character's Charisma to the stated value."
 display_name = "srd/dm/set/srd.cha"
 on_failure = ""
 on_success = "srd/dm/set/srd.cha/success"
@@ -652,6 +695,7 @@ session_def_id = ""
 action_id = "srd/dm/clear/srd.cha"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Reset a character's Charisma to zero."
 display_name = "srd/dm/clear/srd.cha"
 on_failure = ""
 on_success = "srd/dm/clear/srd.cha/success"
@@ -667,6 +711,7 @@ session_def_id = ""
 action_id = "srd/dm/set/srd.cleric.channel-divinity-uses"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a character's Channel Divinity Uses (Cleric) to the stated value."
 display_name = "srd/dm/set/srd.cleric.channel-divinity-uses"
 on_failure = ""
 on_success = "srd/dm/set/srd.cleric.channel-divinity-uses/success"
@@ -682,6 +727,7 @@ session_def_id = ""
 action_id = "srd/dm/clear/srd.cleric.channel-divinity-uses"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Reset a character's Channel Divinity Uses (Cleric) to zero."
 display_name = "srd/dm/clear/srd.cleric.channel-divinity-uses"
 on_failure = ""
 on_success = "srd/dm/clear/srd.cleric.channel-divinity-uses/success"
@@ -697,6 +743,7 @@ session_def_id = ""
 action_id = "srd/dm/set/srd.con"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a character's Constitution to the stated value."
 display_name = "srd/dm/set/srd.con"
 on_failure = ""
 on_success = "srd/dm/set/srd.con/success"
@@ -712,6 +759,7 @@ session_def_id = ""
 action_id = "srd/dm/clear/srd.con"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Reset a character's Constitution to zero."
 display_name = "srd/dm/clear/srd.con"
 on_failure = ""
 on_success = "srd/dm/clear/srd.con/success"
@@ -727,6 +775,7 @@ session_def_id = ""
 action_id = "srd/dm/set/srd.dex"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a character's Dexterity to the stated value."
 display_name = "srd/dm/set/srd.dex"
 on_failure = ""
 on_success = "srd/dm/set/srd.dex/success"
@@ -742,6 +791,7 @@ session_def_id = ""
 action_id = "srd/dm/clear/srd.dex"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Reset a character's Dexterity to zero."
 display_name = "srd/dm/clear/srd.dex"
 on_failure = ""
 on_success = "srd/dm/clear/srd.dex/success"
@@ -757,6 +807,7 @@ session_def_id = ""
 action_id = "srd/dm/set/srd.druid.wild-shape-uses"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a character's Wild Shape Uses to the stated value."
 display_name = "srd/dm/set/srd.druid.wild-shape-uses"
 on_failure = ""
 on_success = "srd/dm/set/srd.druid.wild-shape-uses/success"
@@ -772,6 +823,7 @@ session_def_id = ""
 action_id = "srd/dm/clear/srd.druid.wild-shape-uses"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Reset a character's Wild Shape Uses to zero."
 display_name = "srd/dm/clear/srd.druid.wild-shape-uses"
 on_failure = ""
 on_success = "srd/dm/clear/srd.druid.wild-shape-uses/success"
@@ -787,6 +839,7 @@ session_def_id = ""
 action_id = "srd/dm/set/srd.fighter.second-wind-uses"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a character's Second Wind Uses to the stated value."
 display_name = "srd/dm/set/srd.fighter.second-wind-uses"
 on_failure = ""
 on_success = "srd/dm/set/srd.fighter.second-wind-uses/success"
@@ -802,6 +855,7 @@ session_def_id = ""
 action_id = "srd/dm/clear/srd.fighter.second-wind-uses"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Reset a character's Second Wind Uses to zero."
 display_name = "srd/dm/clear/srd.fighter.second-wind-uses"
 on_failure = ""
 on_success = "srd/dm/clear/srd.fighter.second-wind-uses/success"
@@ -817,6 +871,7 @@ session_def_id = ""
 action_id = "srd/dm/set/srd.hp"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a character's Hit Points to the stated value."
 display_name = "srd/dm/set/srd.hp"
 on_failure = ""
 on_success = "srd/dm/set/srd.hp/success"
@@ -832,6 +887,7 @@ session_def_id = ""
 action_id = "srd/dm/clear/srd.hp"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Reset a character's Hit Points to zero."
 display_name = "srd/dm/clear/srd.hp"
 on_failure = ""
 on_success = "srd/dm/clear/srd.hp/success"
@@ -847,6 +903,7 @@ session_def_id = ""
 action_id = "srd/dm/set/srd.hp_per_level"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a character's Hit Points Gained per Level to the stated value."
 display_name = "srd/dm/set/srd.hp_per_level"
 on_failure = ""
 on_success = "srd/dm/set/srd.hp_per_level/success"
@@ -862,6 +919,7 @@ session_def_id = ""
 action_id = "srd/dm/clear/srd.hp_per_level"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Reset a character's Hit Points Gained per Level to zero."
 display_name = "srd/dm/clear/srd.hp_per_level"
 on_failure = ""
 on_success = "srd/dm/clear/srd.hp_per_level/success"
@@ -877,6 +935,7 @@ session_def_id = ""
 action_id = "srd/dm/set/srd.int"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a character's Intelligence to the stated value."
 display_name = "srd/dm/set/srd.int"
 on_failure = ""
 on_success = "srd/dm/set/srd.int/success"
@@ -892,6 +951,7 @@ session_def_id = ""
 action_id = "srd/dm/clear/srd.int"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Reset a character's Intelligence to zero."
 display_name = "srd/dm/clear/srd.int"
 on_failure = ""
 on_success = "srd/dm/clear/srd.int/success"
@@ -907,6 +967,7 @@ session_def_id = ""
 action_id = "srd/dm/set/srd.level"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a character's Character Level to the stated value."
 display_name = "srd/dm/set/srd.level"
 on_failure = ""
 on_success = "srd/dm/set/srd.level/success"
@@ -922,6 +983,7 @@ session_def_id = ""
 action_id = "srd/dm/clear/srd.level"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Reset a character's Character Level to zero."
 display_name = "srd/dm/clear/srd.level"
 on_failure = ""
 on_success = "srd/dm/clear/srd.level/success"
@@ -937,6 +999,7 @@ session_def_id = ""
 action_id = "srd/dm/set/srd.monk.focus-points"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a character's Focus Points to the stated value."
 display_name = "srd/dm/set/srd.monk.focus-points"
 on_failure = ""
 on_success = "srd/dm/set/srd.monk.focus-points/success"
@@ -952,6 +1015,7 @@ session_def_id = ""
 action_id = "srd/dm/clear/srd.monk.focus-points"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Reset a character's Focus Points to zero."
 display_name = "srd/dm/clear/srd.monk.focus-points"
 on_failure = ""
 on_success = "srd/dm/clear/srd.monk.focus-points/success"
@@ -967,6 +1031,7 @@ session_def_id = ""
 action_id = "srd/dm/set/srd.monk.martial-arts-die-sides"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a character's Martial Arts Die Sides to the stated value."
 display_name = "srd/dm/set/srd.monk.martial-arts-die-sides"
 on_failure = ""
 on_success = "srd/dm/set/srd.monk.martial-arts-die-sides/success"
@@ -982,6 +1047,7 @@ session_def_id = ""
 action_id = "srd/dm/clear/srd.monk.martial-arts-die-sides"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Reset a character's Martial Arts Die Sides to zero."
 display_name = "srd/dm/clear/srd.monk.martial-arts-die-sides"
 on_failure = ""
 on_success = "srd/dm/clear/srd.monk.martial-arts-die-sides/success"
@@ -997,6 +1063,7 @@ session_def_id = ""
 action_id = "srd/dm/set/srd.paladin.channel-divinity-uses"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a character's Channel Divinity Uses (Paladin) to the stated value."
 display_name = "srd/dm/set/srd.paladin.channel-divinity-uses"
 on_failure = ""
 on_success = "srd/dm/set/srd.paladin.channel-divinity-uses/success"
@@ -1012,6 +1079,7 @@ session_def_id = ""
 action_id = "srd/dm/clear/srd.paladin.channel-divinity-uses"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Reset a character's Channel Divinity Uses (Paladin) to zero."
 display_name = "srd/dm/clear/srd.paladin.channel-divinity-uses"
 on_failure = ""
 on_success = "srd/dm/clear/srd.paladin.channel-divinity-uses/success"
@@ -1027,6 +1095,7 @@ session_def_id = ""
 action_id = "srd/dm/set/srd.proficiency_bonus"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a character's Proficiency Bonus to the stated value."
 display_name = "srd/dm/set/srd.proficiency_bonus"
 on_failure = ""
 on_success = "srd/dm/set/srd.proficiency_bonus/success"
@@ -1042,6 +1111,7 @@ session_def_id = ""
 action_id = "srd/dm/clear/srd.proficiency_bonus"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Reset a character's Proficiency Bonus to zero."
 display_name = "srd/dm/clear/srd.proficiency_bonus"
 on_failure = ""
 on_success = "srd/dm/clear/srd.proficiency_bonus/success"
@@ -1057,6 +1127,7 @@ session_def_id = ""
 action_id = "srd/dm/set/srd.ranger.favored-enemy-uses"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a character's Favored Enemy Uses to the stated value."
 display_name = "srd/dm/set/srd.ranger.favored-enemy-uses"
 on_failure = ""
 on_success = "srd/dm/set/srd.ranger.favored-enemy-uses/success"
@@ -1072,6 +1143,7 @@ session_def_id = ""
 action_id = "srd/dm/clear/srd.ranger.favored-enemy-uses"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Reset a character's Favored Enemy Uses to zero."
 display_name = "srd/dm/clear/srd.ranger.favored-enemy-uses"
 on_failure = ""
 on_success = "srd/dm/clear/srd.ranger.favored-enemy-uses/success"
@@ -1087,6 +1159,7 @@ session_def_id = ""
 action_id = "srd/dm/set/srd.rogue.sneak-attack-dice"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a character's Sneak Attack Dice to the stated value."
 display_name = "srd/dm/set/srd.rogue.sneak-attack-dice"
 on_failure = ""
 on_success = "srd/dm/set/srd.rogue.sneak-attack-dice/success"
@@ -1102,6 +1175,7 @@ session_def_id = ""
 action_id = "srd/dm/clear/srd.rogue.sneak-attack-dice"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Reset a character's Sneak Attack Dice to zero."
 display_name = "srd/dm/clear/srd.rogue.sneak-attack-dice"
 on_failure = ""
 on_success = "srd/dm/clear/srd.rogue.sneak-attack-dice/success"
@@ -1117,6 +1191,7 @@ session_def_id = ""
 action_id = "srd/dm/set/srd.sorcerer.innate-sorcery-uses"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a character's Innate Sorcery Uses to the stated value."
 display_name = "srd/dm/set/srd.sorcerer.innate-sorcery-uses"
 on_failure = ""
 on_success = "srd/dm/set/srd.sorcerer.innate-sorcery-uses/success"
@@ -1132,6 +1207,7 @@ session_def_id = ""
 action_id = "srd/dm/clear/srd.sorcerer.innate-sorcery-uses"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Reset a character's Innate Sorcery Uses to zero."
 display_name = "srd/dm/clear/srd.sorcerer.innate-sorcery-uses"
 on_failure = ""
 on_success = "srd/dm/clear/srd.sorcerer.innate-sorcery-uses/success"
@@ -1147,6 +1223,7 @@ session_def_id = ""
 action_id = "srd/dm/set/srd.speed-walk"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a character's Walking Speed to the stated value."
 display_name = "srd/dm/set/srd.speed-walk"
 on_failure = ""
 on_success = "srd/dm/set/srd.speed-walk/success"
@@ -1162,6 +1239,7 @@ session_def_id = ""
 action_id = "srd/dm/clear/srd.speed-walk"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Reset a character's Walking Speed to zero."
 display_name = "srd/dm/clear/srd.speed-walk"
 on_failure = ""
 on_success = "srd/dm/clear/srd.speed-walk/success"
@@ -1177,6 +1255,7 @@ session_def_id = ""
 action_id = "srd/dm/set/srd.spell_slot_1"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a character's Level 1 Spell Slot to the stated value."
 display_name = "srd/dm/set/srd.spell_slot_1"
 on_failure = ""
 on_success = "srd/dm/set/srd.spell_slot_1/success"
@@ -1192,6 +1271,7 @@ session_def_id = ""
 action_id = "srd/dm/clear/srd.spell_slot_1"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Reset a character's Level 1 Spell Slot to zero."
 display_name = "srd/dm/clear/srd.spell_slot_1"
 on_failure = ""
 on_success = "srd/dm/clear/srd.spell_slot_1/success"
@@ -1207,6 +1287,7 @@ session_def_id = ""
 action_id = "srd/dm/set/srd.spell_slot_2"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a character's Level 2 Spell Slot to the stated value."
 display_name = "srd/dm/set/srd.spell_slot_2"
 on_failure = ""
 on_success = "srd/dm/set/srd.spell_slot_2/success"
@@ -1222,6 +1303,7 @@ session_def_id = ""
 action_id = "srd/dm/clear/srd.spell_slot_2"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Reset a character's Level 2 Spell Slot to zero."
 display_name = "srd/dm/clear/srd.spell_slot_2"
 on_failure = ""
 on_success = "srd/dm/clear/srd.spell_slot_2/success"
@@ -1237,6 +1319,7 @@ session_def_id = ""
 action_id = "srd/dm/set/srd.str"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a character's Strength to the stated value."
 display_name = "srd/dm/set/srd.str"
 on_failure = ""
 on_success = "srd/dm/set/srd.str/success"
@@ -1252,6 +1335,7 @@ session_def_id = ""
 action_id = "srd/dm/clear/srd.str"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Reset a character's Strength to zero."
 display_name = "srd/dm/clear/srd.str"
 on_failure = ""
 on_success = "srd/dm/clear/srd.str/success"
@@ -1267,6 +1351,7 @@ session_def_id = ""
 action_id = "srd/dm/set/srd.warlock.magical-cunning-uses"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a character's Magical Cunning Uses to the stated value."
 display_name = "srd/dm/set/srd.warlock.magical-cunning-uses"
 on_failure = ""
 on_success = "srd/dm/set/srd.warlock.magical-cunning-uses/success"
@@ -1282,6 +1367,7 @@ session_def_id = ""
 action_id = "srd/dm/clear/srd.warlock.magical-cunning-uses"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Reset a character's Magical Cunning Uses to zero."
 display_name = "srd/dm/clear/srd.warlock.magical-cunning-uses"
 on_failure = ""
 on_success = "srd/dm/clear/srd.warlock.magical-cunning-uses/success"
@@ -1297,6 +1383,7 @@ session_def_id = ""
 action_id = "srd/dm/set/srd.wis"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a character's Wisdom to the stated value."
 display_name = "srd/dm/set/srd.wis"
 on_failure = ""
 on_success = "srd/dm/set/srd.wis/success"
@@ -1312,6 +1399,7 @@ session_def_id = ""
 action_id = "srd/dm/clear/srd.wis"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Reset a character's Wisdom to zero."
 display_name = "srd/dm/clear/srd.wis"
 on_failure = ""
 on_success = "srd/dm/clear/srd.wis/success"
@@ -1327,6 +1415,7 @@ session_def_id = ""
 action_id = "srd/dm/set/srd.wizard.arcane-recovery-uses"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a character's Arcane Recovery Uses to the stated value."
 display_name = "srd/dm/set/srd.wizard.arcane-recovery-uses"
 on_failure = ""
 on_success = "srd/dm/set/srd.wizard.arcane-recovery-uses/success"
@@ -1342,6 +1431,7 @@ session_def_id = ""
 action_id = "srd/dm/clear/srd.wizard.arcane-recovery-uses"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Reset a character's Arcane Recovery Uses to zero."
 display_name = "srd/dm/clear/srd.wizard.arcane-recovery-uses"
 on_failure = ""
 on_success = "srd/dm/clear/srd.wizard.arcane-recovery-uses/success"
@@ -1357,6 +1447,7 @@ session_def_id = ""
 action_id = "srd/dm/set/srd.xp"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Set a character's Experience Points to the stated value."
 display_name = "srd/dm/set/srd.xp"
 on_failure = ""
 on_success = "srd/dm/set/srd.xp/success"
@@ -1372,6 +1463,7 @@ session_def_id = ""
 action_id = "srd/dm/clear/srd.xp"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Reset a character's Experience Points to zero."
 display_name = "srd/dm/clear/srd.xp"
 on_failure = ""
 on_success = "srd/dm/clear/srd.xp/success"
@@ -1387,6 +1479,7 @@ session_def_id = ""
 action_id = "srd/dm/revive"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "The DM calls a fallen hero back: 1 Hit Point, no Unconscious or Dead condition, and every death-save tally cleared."
 display_name = "srd/dm/revive"
 on_failure = ""
 on_success = "srd/dm/revive/success"
@@ -1402,6 +1495,7 @@ session_def_id = ""
 action_id = "srd/dm/award-xp"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Award a character the stated amount of experience for their accomplishments."
 display_name = "srd/dm/award-xp"
 on_failure = ""
 on_success = "srd/dm/award-xp/success"
@@ -1417,6 +1511,7 @@ session_def_id = ""
 action_id = "srd/dm/spend-xp-value"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Spend the stated amount of a creature's remaining experience reward. The amount cannot exceed what remains."
 display_name = "srd/dm/spend-xp-value"
 on_failure = ""
 on_success = "srd/dm/spend-xp-value/success"
@@ -1432,6 +1527,7 @@ session_def_id = ""
 action_id = "srd/dm/give"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Give a character one item chosen from the available starting equipment."
 display_name = "srd/dm/give"
 on_failure = ""
 on_success = "srd/dm/give/success"
@@ -1447,6 +1543,7 @@ session_def_id = ""
 action_id = "srd/dm/give-equipped/srd/slot/chest"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Give a character one chosen item and equip it in their chest slot. The item must fit that slot."
 display_name = "srd/dm/give-equipped/srd/slot/chest"
 on_failure = ""
 on_success = "srd/dm/give-equipped/srd/slot/chest/success"
@@ -1462,6 +1559,7 @@ session_def_id = ""
 action_id = "srd/dm/give-equipped/srd/slot/main-hand"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Give a character one chosen item and equip it in their main hand slot. The item must fit that slot."
 display_name = "srd/dm/give-equipped/srd/slot/main-hand"
 on_failure = ""
 on_success = "srd/dm/give-equipped/srd/slot/main-hand/success"
@@ -1477,6 +1575,7 @@ session_def_id = ""
 action_id = "srd/dm/give-equipped/srd/slot/off-hand"
 bundle_id = "srd"
 cost_time_ms = 0
+description = "Give a character one chosen item and equip it in their off hand slot. The item must fit that slot."
 display_name = "srd/dm/give-equipped/srd/slot/off-hand"
 on_failure = ""
 on_success = "srd/dm/give-equipped/srd/slot/off-hand/success"
@@ -14336,322 +14435,402 @@ template_id = "srd/dm/creation-sheet/wizard/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Recognize a character's earned barbarian level. The selected level grants the class abilities available at that stage."
 template_id = "srd/dm/advance/barbarian/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Recognize a character's earned bard level. The selected level grants the class abilities available at that stage."
 template_id = "srd/dm/advance/bard/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Recognize a character's earned cleric level. The selected level grants the class abilities available at that stage."
 template_id = "srd/dm/advance/cleric/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Recognize a character's earned druid level. The selected level grants the class abilities available at that stage."
 template_id = "srd/dm/advance/druid/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Recognize a character's earned fighter level. The selected level grants the class abilities available at that stage."
 template_id = "srd/dm/advance/fighter/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Recognize a character's earned monk level. The selected level grants the class abilities available at that stage."
 template_id = "srd/dm/advance/monk/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Recognize a character's earned paladin level. The selected level grants the class abilities available at that stage."
 template_id = "srd/dm/advance/paladin/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Recognize a character's earned ranger level. The selected level grants the class abilities available at that stage."
 template_id = "srd/dm/advance/ranger/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Recognize a character's earned rogue level. The selected level grants the class abilities available at that stage."
 template_id = "srd/dm/advance/rogue/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Recognize a character's earned sorcerer level. The selected level grants the class abilities available at that stage."
 template_id = "srd/dm/advance/sorcerer/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Recognize a character's earned warlock level. The selected level grants the class abilities available at that stage."
 template_id = "srd/dm/advance/warlock/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Recognize a character's earned wizard level. The selected level grants the class abilities available at that stage."
 template_id = "srd/dm/advance/wizard/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Grant a character their chosen skill training. The choice must come from the available options."
 template_id = "srd/dm/train/skill/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Grant a character their chosen origin feat training. The choice must come from the available options."
 template_id = "srd/dm/train/origin-feat/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Grant a character their chosen proficiency training. The choice must come from the available options."
 template_id = "srd/dm/train/proficiency/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Record a character's chosen class. The choice must come from the available options."
 template_id = "srd/dm/identify/class/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Remove a recorded class choice from a character. Other character choices remain in place."
 template_id = "srd/dm/retract/class/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Record a character's chosen species. The choice must come from the available options."
 template_id = "srd/dm/identify/species/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Remove a recorded species choice from a character. Other character choices remain in place."
 template_id = "srd/dm/retract/species/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Record a character's chosen background. The choice must come from the available options."
 template_id = "srd/dm/identify/background/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Remove a recorded background choice from a character. Other character choices remain in place."
 template_id = "srd/dm/retract/background/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Give a character their adopted name. The name also appears on the seat used to play them."
 template_id = "srd/dm/name/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Record a character's adopted appearance. The description keeps the visibility already assigned to that part of their character."
 template_id = "srd/dm/describe/appearance/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Record a character's adopted backstory. The description keeps the visibility already assigned to that part of their character."
 template_id = "srd/dm/describe/backstory/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Set a character's Armor Class to the stated value."
 template_id = "srd/dm/set/srd.ac/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Reset a character's Armor Class to zero."
 template_id = "srd/dm/clear/srd.ac/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Set a character's Rage Uses to the stated value."
 template_id = "srd/dm/set/srd.barbarian.rage-uses/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Reset a character's Rage Uses to zero."
 template_id = "srd/dm/clear/srd.barbarian.rage-uses/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Set a character's Bardic Inspiration Uses to the stated value."
 template_id = "srd/dm/set/srd.bard.bardic-inspiration-uses/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Reset a character's Bardic Inspiration Uses to zero."
 template_id = "srd/dm/clear/srd.bard.bardic-inspiration-uses/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Set a character's Charisma to the stated value."
 template_id = "srd/dm/set/srd.cha/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Reset a character's Charisma to zero."
 template_id = "srd/dm/clear/srd.cha/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Set a character's Channel Divinity Uses (Cleric) to the stated value."
 template_id = "srd/dm/set/srd.cleric.channel-divinity-uses/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Reset a character's Channel Divinity Uses (Cleric) to zero."
 template_id = "srd/dm/clear/srd.cleric.channel-divinity-uses/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Set a character's Constitution to the stated value."
 template_id = "srd/dm/set/srd.con/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Reset a character's Constitution to zero."
 template_id = "srd/dm/clear/srd.con/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Set a character's Dexterity to the stated value."
 template_id = "srd/dm/set/srd.dex/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Reset a character's Dexterity to zero."
 template_id = "srd/dm/clear/srd.dex/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Set a character's Wild Shape Uses to the stated value."
 template_id = "srd/dm/set/srd.druid.wild-shape-uses/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Reset a character's Wild Shape Uses to zero."
 template_id = "srd/dm/clear/srd.druid.wild-shape-uses/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Set a character's Second Wind Uses to the stated value."
 template_id = "srd/dm/set/srd.fighter.second-wind-uses/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Reset a character's Second Wind Uses to zero."
 template_id = "srd/dm/clear/srd.fighter.second-wind-uses/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Set a character's Hit Points to the stated value."
 template_id = "srd/dm/set/srd.hp/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Reset a character's Hit Points to zero."
 template_id = "srd/dm/clear/srd.hp/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Set a character's Hit Points Gained per Level to the stated value."
 template_id = "srd/dm/set/srd.hp_per_level/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Reset a character's Hit Points Gained per Level to zero."
 template_id = "srd/dm/clear/srd.hp_per_level/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Set a character's Intelligence to the stated value."
 template_id = "srd/dm/set/srd.int/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Reset a character's Intelligence to zero."
 template_id = "srd/dm/clear/srd.int/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Set a character's Character Level to the stated value."
 template_id = "srd/dm/set/srd.level/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Reset a character's Character Level to zero."
 template_id = "srd/dm/clear/srd.level/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Set a character's Focus Points to the stated value."
 template_id = "srd/dm/set/srd.monk.focus-points/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Reset a character's Focus Points to zero."
 template_id = "srd/dm/clear/srd.monk.focus-points/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Set a character's Martial Arts Die Sides to the stated value."
 template_id = "srd/dm/set/srd.monk.martial-arts-die-sides/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Reset a character's Martial Arts Die Sides to zero."
 template_id = "srd/dm/clear/srd.monk.martial-arts-die-sides/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Set a character's Channel Divinity Uses (Paladin) to the stated value."
 template_id = "srd/dm/set/srd.paladin.channel-divinity-uses/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Reset a character's Channel Divinity Uses (Paladin) to zero."
 template_id = "srd/dm/clear/srd.paladin.channel-divinity-uses/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Set a character's Proficiency Bonus to the stated value."
 template_id = "srd/dm/set/srd.proficiency_bonus/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Reset a character's Proficiency Bonus to zero."
 template_id = "srd/dm/clear/srd.proficiency_bonus/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Set a character's Favored Enemy Uses to the stated value."
 template_id = "srd/dm/set/srd.ranger.favored-enemy-uses/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Reset a character's Favored Enemy Uses to zero."
 template_id = "srd/dm/clear/srd.ranger.favored-enemy-uses/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Set a character's Sneak Attack Dice to the stated value."
 template_id = "srd/dm/set/srd.rogue.sneak-attack-dice/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Reset a character's Sneak Attack Dice to zero."
 template_id = "srd/dm/clear/srd.rogue.sneak-attack-dice/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Set a character's Innate Sorcery Uses to the stated value."
 template_id = "srd/dm/set/srd.sorcerer.innate-sorcery-uses/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Reset a character's Innate Sorcery Uses to zero."
 template_id = "srd/dm/clear/srd.sorcerer.innate-sorcery-uses/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Set a character's Walking Speed to the stated value."
 template_id = "srd/dm/set/srd.speed-walk/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Reset a character's Walking Speed to zero."
 template_id = "srd/dm/clear/srd.speed-walk/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Set a character's Level 1 Spell Slot to the stated value."
 template_id = "srd/dm/set/srd.spell_slot_1/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Reset a character's Level 1 Spell Slot to zero."
 template_id = "srd/dm/clear/srd.spell_slot_1/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Set a character's Level 2 Spell Slot to the stated value."
 template_id = "srd/dm/set/srd.spell_slot_2/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Reset a character's Level 2 Spell Slot to zero."
 template_id = "srd/dm/clear/srd.spell_slot_2/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Set a character's Strength to the stated value."
 template_id = "srd/dm/set/srd.str/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Reset a character's Strength to zero."
 template_id = "srd/dm/clear/srd.str/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Set a character's Magical Cunning Uses to the stated value."
 template_id = "srd/dm/set/srd.warlock.magical-cunning-uses/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Reset a character's Magical Cunning Uses to zero."
 template_id = "srd/dm/clear/srd.warlock.magical-cunning-uses/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Set a character's Wisdom to the stated value."
 template_id = "srd/dm/set/srd.wis/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Reset a character's Wisdom to zero."
 template_id = "srd/dm/clear/srd.wis/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Set a character's Arcane Recovery Uses to the stated value."
 template_id = "srd/dm/set/srd.wizard.arcane-recovery-uses/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Reset a character's Arcane Recovery Uses to zero."
 template_id = "srd/dm/clear/srd.wizard.arcane-recovery-uses/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Set a character's Experience Points to the stated value."
 template_id = "srd/dm/set/srd.xp/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Reset a character's Experience Points to zero."
 template_id = "srd/dm/clear/srd.xp/success"
 
 [[consequence_templates]]
@@ -14660,31 +14839,37 @@ template_id = "srd/dm/revive/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Award a character the stated amount of experience for their accomplishments."
 template_id = "srd/dm/award-xp/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Spend the stated amount of a creature's remaining experience reward. The amount cannot exceed what remains."
 template_id = "srd/dm/spend-xp-value/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Give a character one item chosen from the available starting equipment."
 template_id = "srd/dm/give/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Give a character one chosen item and equip it in their chest slot. The item must fit that slot."
 template_id = "srd/dm/give-equipped/srd/slot/chest/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Give a character one chosen item and equip it in their main hand slot. The item must fit that slot."
 template_id = "srd/dm/give-equipped/srd/slot/main-hand/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
+description = "Give a character one chosen item and equip it in their off hand slot. The item must fit that slot."
 template_id = "srd/dm/give-equipped/srd/slot/off-hand/success"
 
 [[niche_definitions]]
 bundle_id = "srd"
-description = "A body addressed by an authored privileged act."
+description = "A character or creature addressed by the game master's action. The action's effects apply to that body."
 display_name = "DM act target"
 niche_id = "srd/dm/act-target"
 predicate_source = ""

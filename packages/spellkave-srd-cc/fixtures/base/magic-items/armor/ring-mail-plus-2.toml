@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Dull iron rings overlap like scales shed by some patient, armored beast, their edges softened by years of rain and road dust. When worn, the mail settles with a reassuring heft, each faint clink seeming to turn aside ill fortune before it can find flesh."
 display_name = "Ring Mail (+2)"
 entity_def_id = "srd/magic_item/ring-mail-plus-2"
 grants_capability_while_equipped = ""

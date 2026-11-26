@@ -77,7 +77,7 @@ tag = "srd.damage_type.bludgeoning"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Warhammer — a martial melee weapon."
+description = "A squat iron head crowns a haft worn smooth by hard palms and damp weather. Its balance favors a short, brutal swing, carrying the satisfying jolt of a struck anvil through wrist and elbow. In a cramped shield line or beside a forge door, it feels bluntly dependable."
 display_name = "Warhammer"
 entity_def_id = "srd/weapon/warhammer"
 grants_capability_while_equipped = ""

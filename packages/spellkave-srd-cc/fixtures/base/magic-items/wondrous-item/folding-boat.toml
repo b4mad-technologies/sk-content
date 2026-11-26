@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Salt clings to the seams of this unassuming cedar coffer, and its brass fittings are always cool with river-mist. A whispered phrase sends timber sighing outward, planks finding their places as though remembering a larger shape. When the journey ends, the vessel gathers itself again, leaving only wet footprints and the smell of deep water behind."
 display_name = "Folding Boat"
 entity_def_id = "srd/magic_item/folding-boat"
 grants_capability_while_equipped = ""

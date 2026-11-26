@@ -8,6 +8,7 @@
     "adventures",
     "author",
     "assets",
+    "art",
     "fixtures",
     "npcs",
     "scripts",
@@ -25,15 +26,24 @@
   "dependencies": {
     "@spellkave/adventure-runtime": "workspace:*",
     "@spellkave/sdk": "0.1.2",
-    "@spellkave/world-author": "0.1.2",
     "@spellkave/tool-authoring": "0.1.2",
     "@spellkave/tool-node": "0.1.2",
-    "smol-toml": "^1.9.1",
+    "@spellkave/world-author": "0.1.2",
     "h3-js": "^4.5.0",
+    "smol-toml": "^1.9.1",
     "tsx": "^4.19.2"
   },
   "exports": {
+    "./art": {
+      "types": "./art/index.ts",
+      "default": "./art/index.ts"
+    },
     "./compendium/*": "./dist/compendium/*"
   },
-  "license": "(CC-BY-4.0 AND PolyForm-Shield-1.0.0)"
+  "license": "(CC-BY-4.0 AND PolyForm-Shield-1.0.0)",
+  "devDependencies": {
+    "@spellkave/session": "0.1.2",
+    "@spellkave/tool-runtime": "0.1.2",
+    "esbuild": "0.28.2"
+  }
 }

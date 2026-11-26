@@ -36,6 +36,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The ring is a plain band, and the air just beyond the fingertip leans toward it, the way dust leans toward a warm lamp. Nothing in the room has moved, yet a cup on the table feels already half-lifted. The metal stays cool. A thought of reaching arrives before the hand does."
 display_name = "Ring of Telekinesis"
 entity_def_id = "srd/magic_item/ring-of-telekinesis"
 grants_capability_while_equipped = ""

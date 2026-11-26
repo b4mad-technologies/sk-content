@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A blackened chain coils around its haft like a sleeping serpent, each iron link faintly warm from some remembered violence. When the flail begins to swing, its spiked head drags a hungry whistle through the air, as though eager to strike harder than the hand that guides it."
 display_name = "Vicious Flail"
 entity_def_id = "srd/magic_item/vicious-flail"
 grants_capability_while_equipped = ""

@@ -20,7 +20,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/feat/alert"
 default_visibility = "Public"
-description = "Gate capability for Alert's 'Initiative Proficiency' benefit (PB added to the Initiative roll). Composed by alert-units.ts's alertInitiativeRollExpr — NOT wired into any live order_roll_source row this slice (composition-point finding, that module's own header: the only real order_roll_source rows in this package are owned by the Playing the Game chapter's proof scene). SRD: cache/markdown/feats.md:27."
+description = "You add your proficiency bonus to initiative rolls."
 display_name = "Feat: Alert (Initiative Proficiency)"
 
 [[entity_definition_tag]]
@@ -38,6 +38,7 @@ tag = "srd.feat.origin"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Sleep never settles deeply in an alert soul. A shifted curtain, a hush in birdsong, the faint scrape of leather in a dark hall—each small disturbance arrives sharpened and clear. In the first heartbeat of danger, they are already moving, placing the right companion where the clash will break."
 display_name = "Alert"
 entity_def_id = "srd/feat/alert"
 grants_capability_while_equipped = ""

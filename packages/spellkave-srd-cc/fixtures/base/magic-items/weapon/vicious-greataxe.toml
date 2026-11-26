@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The broad blade bears a hungry sheen, as though every nick along its edge remembers the warmth of battle. In the hand, its haft feels unnaturally eager to swing, gathering brutal purpose through the arc. When it lands, the impact seems to echo a heartbeat too long."
 display_name = "Vicious Greataxe"
 entity_def_id = "srd/magic_item/vicious-greataxe"
 grants_capability_while_equipped = ""

@@ -34,6 +34,7 @@ tag = "srd.tool"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A velvet pouch spills its little bones across tavern tables and campaign chests, each polished face catching firelight before the roll. The true game lives in the pause afterward: the twitch of a gambler’s smile, the too-careful sweep of a hand, the hush around a fortunate throw."
 display_name = "Gaming Set, Dice"
 entity_def_id = "srd/tool/gaming-set-dice"
 grants_capability_while_equipped = ""

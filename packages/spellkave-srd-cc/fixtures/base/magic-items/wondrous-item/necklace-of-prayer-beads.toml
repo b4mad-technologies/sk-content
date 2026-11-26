@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A quiet strand of stone, pearl, and sea-bright crystal rests cool against the throat, each bead polished by patient fingers and whispered devotions. Among the ordinary tokens, a few seem to hold dawn beneath their surfaces: warmth gathers at a touch, old hurts loosen, and the air briefly remembers hymns carried on high winds."
 display_name = "Necklace of Prayer Beads"
 entity_def_id = "srd/magic_item/necklace-of-prayer-beads"
 grants_capability_while_equipped = ""

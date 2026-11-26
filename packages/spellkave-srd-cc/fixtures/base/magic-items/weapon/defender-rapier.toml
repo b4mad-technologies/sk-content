@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A rapier of perfect balance, its slender blade seems to turn aside danger before it arrives. In a duel, the wielder feels its poise shift with every breath—sometimes urging a decisive thrust, sometimes drawing an invisible ward close about the body. Its polished guard bears the quiet wear of countless close escapes."
 display_name = "Defender (Rapier)"
 entity_def_id = "srd/magic_item/defender-rapier"
 grants_capability_while_equipped = ""

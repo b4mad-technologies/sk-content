@@ -96,6 +96,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "At the caster’s touch, flesh loosens into a pale drifting veil, garments and gear dissolving with it into the same silver vapor. The transformed traveler glides through cracks, keyholes, and crowded chambers as a breath of cold air, untouchable by most crude blows. Speech and steel alike fall silent until the mist gathers itself whole again."
 display_name = "Gaseous Form"
 entity_def_id = "srd/spell/gaseous-form"
 grants_capability_while_equipped = ""

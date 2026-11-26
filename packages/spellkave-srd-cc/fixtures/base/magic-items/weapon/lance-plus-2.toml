@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A long ashwood shaft, darkened by old rain and battlefield smoke, carries a steel head that never seems to dull. When lowered for a charge, it hums faintly in the rider’s grip, eager as a hunting hawk. Its balance lends uncommon certainty to the instant before impact."
 display_name = "Lance (+2)"
 entity_def_id = "srd/magic_item/lance-plus-2"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The dark yew limbs seem to lean forward when hulking foes loom near, its taut string humming with a low, hungry note. Arrows loosed from its grip strike with the force of falling stone, turning towering strides into stumbling ruin. Pale knotwork along the stave resembles mountain peaks split by old thunder."
 display_name = "Giant Slayer (Longbow)"
 entity_def_id = "srd/magic_item/giant-slayer-longbow"
 grants_capability_while_equipped = ""

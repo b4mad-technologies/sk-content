@@ -1,0 +1,1478 @@
+{
+	"schema": "spellkave-prose-manifest/v1",
+	"output_dir": "packages/spellkave-srd-cc/authored/flavor/.runs",
+	"entries": [
+		{
+			"id": "consequence/srd/claim-victory/success",
+			"display_name": "Success",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "Flourish: zero the target's own srd/xp_value latch so this offer cannot fire twice. XP itself is awarded at kill time by Aldwin (sk-0m4.27) — this action no longer grants any."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "consequence/srd/trait/relentless-endurance/intercept",
+			"display_name": "Intercept",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "Relentless Endurance: when uses remain, set HP to 1 and spend the charge. Uses gate is HERE (consequence has full actor.stat facts) — not on the hook detail_filter (hook facts are event detail + holder id + statuses only). pattern: condition-hook-on-event"
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "macro/srd/ability_modifier",
+			"display_name": "Ability Modifier",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "SRD: \"Finally, determine your ability modifiers using the Ability Scores and Modifiers table.\" (cache/markdown/character-creation.md:487-489) Converts one ability score to its table-defined modifier."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "macro/srd/attack_roll_hits",
+			"display_name": "Attack Roll Hits",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "SRD: \"If you roll a 20 on the d20 (called a 'natural 20') for an attack roll, the attack hits regardless of any modifiers or the target's AC.\" \"If you roll a 1 on the d20 (a 'natural 1') for an attack roll, the attack misses regardless of any modifiers or the target's AC.\" (cache/markdown/playing-the-game.md:389-393) Centralizes the attack-only automatic hit/miss rule; ordinary attacks compare total against AC. crit_threshold (default 20 at call sites without Improved Critical) is the auto-hit floor — Champion Improved Critical passes 19 via actor.has_capability at the call site."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "macro/srd/barbarian_unarmored_ac",
+			"display_name": "Barbarian Unarmored Ac",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "Barbarian Unarmored Defense: base AC = 10 + Dexterity modifier + Constitution modifier while not wearing armor (classes.md:258-260 (§ Barbarian > Level 1: Unarmored Defense)). Leaf body inlines ability-mod floor math (MF-DSL-MACRO-IN-BODY)."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "macro/srd/base_ac",
+			"display_name": "Base Ac",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "SRD: \"Base AC = 10 + the creature's Dexterity modifier\" (cache/markdown/playing-the-game.md:383). Calculates unarmored base Armor Class from a Dexterity modifier."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "macro/srd/charisma_modifier",
+			"display_name": "Charisma Modifier",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "SRD Charisma modifier, read from the actor's effective Charisma score. This repeats the shared generated formula because manifest macro bodies cannot nest macro calls (MF-DSL-MACRO-IN-BODY)."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "macro/srd/constitution_modifier",
+			"display_name": "Constitution Modifier",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "SRD Constitution modifier, read from the actor's effective Constitution score. This repeats the shared generated formula because manifest macro bodies cannot nest macro calls (MF-DSL-MACRO-IN-BODY)."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "macro/srd/dc_or",
+			"display_name": "Dc Or",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "SRD: \"A Difficulty Class (DC) is the target number for an ability check or a saving throw.\" (cache/markdown/rules-glossary.md:736-738) Uses a positive authored override; otherwise keeps the supplied fallback target number."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "macro/srd/dexterity_modifier",
+			"display_name": "Dexterity Modifier",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "SRD Dexterity modifier, read from the actor's effective Dexterity score. This repeats the shared generated formula because manifest macro bodies cannot nest macro calls (MF-DSL-MACRO-IN-BODY)."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "macro/srd/intelligence_modifier",
+			"display_name": "Intelligence Modifier",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "SRD Intelligence modifier, read from the actor's effective Intelligence score. This repeats the shared generated formula because manifest macro bodies cannot nest macro calls (MF-DSL-MACRO-IN-BODY)."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "macro/srd/monk_unarmored_ac",
+			"display_name": "Monk Unarmored Ac",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "Monk Unarmored Defense: base AC = 10 + Dexterity + Wisdom modifiers (classes.md:5145-5147 (§ Monk > Level 1: Unarmored Defense))."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "macro/srd/proficiency_bonus",
+			"display_name": "Proficiency Bonus",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "SRD: \"If you have proficiency with something, you can add your Proficiency Bonus to any D20 Test you make using that thing.\" (cache/markdown/rules-glossary.md:1179-1181) Derives the bonus from character level or monster Challenge Rating."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "macro/srd/strength_modifier",
+			"display_name": "Strength Modifier",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "SRD Strength modifier, read from the actor's effective Strength score. This repeats the shared generated formula because manifest macro bodies cannot nest macro calls (MF-DSL-MACRO-IN-BODY)."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "macro/srd/wisdom_modifier",
+			"display_name": "Wisdom Modifier",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "SRD Wisdom modifier, read from the actor's effective Wisdom score. This repeats the shared generated formula because manifest macro bodies cannot nest macro calls (MF-DSL-MACRO-IN-BODY)."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "macro/srd/xp_threshold",
+			"display_name": "Xp Threshold",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "SRD: \"The Character Advancement table lists the XP you need to advance to a level ... When your XP total equals or exceeds a number in the Experience Points column, you reach the corresponding level.\" (character-creation.md:657-767 (§ Level Advancement)) Encodes the table's Level -> XP column as a 19-deep cond ladder (no closed-form reduction exists, unlike srd/proficiency_bonus); level <= 1 clamps to 0."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/action/attack",
+			"display_name": "capability:srd/action/attack",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "WA-CAP-002: capability:* niches require an explicit provider. spellkave_define_action_verb does not auto-attach, so this synthetic niche is actor-carried."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/action/communicate/speak",
+			"display_name": "Speak (actor-carried)",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "actor-carried-verbs (sk-0m4.4): Speak Aloud is a performance the acting creature's own Speak capability carries everywhere — no spatial_niche_attachment, no per-room opt-in. Place-level speech prohibitions are a later separate mechanism, not this row."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/action/dash",
+			"display_name": "Dash (self)",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "actor-carried-verbs D1/D7 (ruling bead sk-rd0): revives Dash as a universal self-verb — see fragments/dodge.ts's own header for the full V1 dead-content finding this applies identically to."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/action/dodge",
+			"display_name": "Dodge (self)",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "actor-carried-verbs D1/D7 (ruling bead sk-rd0): revives Dodge as a universal self-verb — the acting creature's own capability carries this niche everywhere, no spatial_niche_attachment required (V1: Dodge was dead content without it)."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/action/dragonborn/breath-weapon",
+			"display_name": "Breath Weapon",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "Actor-carried feature verb niche for Dragonborn Breath Weapon."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/action/drop-prone",
+			"display_name": "Drop Prone (self)",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "actor-carried-verbs D1/D7 (sk-rd0): revives Drop Prone as a universal self-verb — see fragments/dodge.ts's own header for the full V1 dead-content finding this applies identically to."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/action/heroic_inspiration/reroll",
+			"display_name": "Heroic Inspiration Reroll (self)",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "actor-carried-verbs D1/D7 (sk-rd0): revives Heroic Inspiration Reroll as a universal self-verb — see fragments/dodge.ts's own header for the full V1 dead-content finding this applies identically to."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/action/long-rest",
+			"display_name": "Complete a Long Rest (self)",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "actor-carried-verbs D1/D7 (sk-rd0): revives Long Rest completion as a universal self-verb — same rationale as Short Rest above."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/action/see-invisibility",
+			"display_name": "See Invisibility (self)",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "Actor-carried niche for Cast See Invisibility (provider=actor)."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/action/short-rest",
+			"display_name": "Complete a Short Rest (self)",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "actor-carried-verbs D1/D7 (sk-rd0): revives Short Rest completion as a universal self-verb — see fragments/dodge.ts's own header for the full V1 dead-content finding this applies identically to."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/action/stand-up",
+			"display_name": "Stand Up (self)",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "actor-carried-verbs D1/D7 (sk-rd0): revives Stand Up as a universal self-verb — see fragments/dodge.ts's own header for the full V1 dead-content finding this applies identically to."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/capability/death_save",
+			"display_name": "Death Saving Throw (self)",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "actor-carried-verbs: self-only death-save roll while Unconscious and not Stable/Dead."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/class-feature/barbarian/danger-sense",
+			"display_name": "Danger Sense (self)",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "Actor-carried Danger Sense attune."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/class-feature/barbarian/rage",
+			"display_name": "Enter Rage (self)",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "sk-0m4.69: Barbarian Rage is actor-carried — capability carries this niche everywhere."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/class-feature/barbarian/reckless-attack",
+			"display_name": "Reckless Attack (self)",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "sk-0m4.69: Reckless Attack is actor-carried."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/class-feature/cleric/channel-divinity",
+			"display_name": "Channel Divinity (Cleric)",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "sk-0m4.69: class features are actor-carried — capability carries this niche everywhere."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/class-feature/druid/wild-companion",
+			"display_name": "Wild Companion",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "sk-0m4.69: class features are actor-carried — capability carries this niche everywhere."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/class-feature/druid/wild-shape",
+			"display_name": "Wild Shape",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "sk-0m4.69: class features are actor-carried — capability carries this niche everywhere."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/class-feature/fighter/action-surge",
+			"display_name": "Use Action Surge (self)",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "sk-0m4.69 (operator ruling 2026-08-20, reversal of D2(c) 2026-08-13): Action Surge is actor-carried — the acting creature's own capability carries this niche everywhere. The earlier room-scoping premise (only exercised at Aldwin's level-up) was falsified: a fighter needs the feature wherever they stand."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/class-feature/fighter/champion/remarkable-athlete",
+			"display_name": "Remarkable Athlete (self)",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "Champion Remarkable Athlete attune."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/class-feature/fighter/second-wind",
+			"display_name": "Use Second Wind (self)",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "sk-0m4.69 (operator ruling 2026-08-20): Fighter class features are actor-carried — the acting creature's own Second Wind capability carries this niche everywhere, no spatial_niche_attachment required. Reverses the silent place-provided fallback that left this verb dead outside an authored node."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/class-feature/monk/deflect-attacks",
+			"display_name": "Deflect Attacks (attune)",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "Actor-carried Deflect Attacks ready-state."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/class-feature/monk/martial-arts",
+			"display_name": "Martial Arts Bonus Unarmed (self)",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "Actor-carried."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/class-feature/monk/monks-focus/flurry",
+			"display_name": "Flurry of Blows (self)",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "Monk Focus technique — actor-carried."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/class-feature/monk/monks-focus/patient-defense",
+			"display_name": "Patient Defense (self)",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "Monk Focus technique — actor-carried."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/class-feature/monk/monks-focus/step-of-the-wind",
+			"display_name": "Step of the Wind (self)",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "Monk Focus technique — actor-carried."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/class-feature/monk/slow-fall",
+			"display_name": "Slow Fall (reaction)",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "Actor-carried Slow Fall."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/class-feature/monk/unarmored-movement",
+			"display_name": "Unarmored Movement (self)",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "Actor-carried attune for +10 ft speed."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/class-feature/paladin/channel-divinity",
+			"display_name": "Channel Divinity (Paladin)",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "sk-0m4.69: class features are actor-carried — capability carries this niche everywhere."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/class-feature/paladin/divine-smite",
+			"display_name": "Divine Smite",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "sk-0m4.69: class features are actor-carried — capability carries this niche everywhere."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/class-feature/paladin/lay-on-hands",
+			"display_name": "Lay On Hands",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "sk-0m4.69: class features are actor-carried — capability carries this niche everywhere."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/class-feature/ranger/favored-enemy",
+			"display_name": "Favored Enemy",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "sk-0m4.69: class features are actor-carried — capability carries this niche everywhere."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/class-feature/rogue/cunning-action",
+			"display_name": "Cunning Action (self)",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "Rogue Cunning Action — actor-carried."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/class-feature/rogue/steady-aim",
+			"display_name": "Steady Aim (self)",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "Rogue Steady Aim — actor-carried."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/class-feature/rogue/thief/fast-hands",
+			"display_name": "Fast Hands (self)",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "Thief Fast Hands — actor-carried."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/class-feature/rogue/thief/second-story-work",
+			"display_name": "Second-Story Work (self)",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "Thief Second-Story — actor-carried."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/class-feature/sorcerer/font-of-magic",
+			"display_name": "Font of Magic",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "sk-0m4.69: class features are actor-carried — capability carries this niche everywhere."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/class-feature/sorcerer/innate-sorcery",
+			"display_name": "Innate Sorcery",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "sk-0m4.69: class features are actor-carried — capability carries this niche everywhere."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/class-feature/warlock/magical-cunning",
+			"display_name": "Magical Cunning",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "sk-0m4.69: class features are actor-carried — capability carries this niche everywhere."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/class-feature/wizard/arcane-recovery",
+			"display_name": "Arcane Recovery",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "sk-0m4.69: class features are actor-carried — capability carries this niche everywhere."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/eldritch-invocation/armor-of-shadows",
+			"display_name": "Armor of Shadows",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "sk-0m4.69: class features are actor-carried — capability carries this niche everywhere."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/capability:srd/feat/ability-score-improvement",
+			"display_name": "Ability Score Improvement (self)",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "Actor-carried ASI raise menu — six +1-to-score actions gated on srd/asi_points."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/srd.advancement_trainer",
+			"display_name": "Advancement Trainer (entity-provided)",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "actor-carried-verbs D2(c): a grounded entity affords srd/advancement/level-up via its own srd.advancement_trainer entity_definition_tag — no place attachment, no per-target predicate. The elven-mini adventure tags Aldwin with it (author/elven-mini/dm-npc.ts)."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/srd.creature",
+			"display_name": "Creature (entity-provided)",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "actor-carried-verbs D2(c): a grounded entity affords this niche via its own srd.creature entity_definition_tag (pushed verbatim into its derived target-niche set, creature-type-units.ts's own module header) — no place attachment, no per-target predicate. Shared by the 24 generic-check verbs (fragments/generic.ts), Help (fragments/help.ts), and Claim Victory (character-creation/advancement-units.ts)."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/srd/niche/attack-verb",
+			"display_name": "Attack (actor-carried)",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "An attack is a capability of the ACTOR, not a property of the target (operator ruling 2026-08-12, bead sk-rd0): the acting entity's own srd/action/attack capability carries this niche everywhere, gated on nothing target-side — AC remains a resolution input only (target.effective('srd/ac')), never an offer doorman."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/srd/niche/communicable",
+			"display_name": "Communicable (entity-provided)",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "Any living-or-at-least-creature body that can be addressed by a communicate speech act — the srd-own baseline communication TARGET niche. Entity-provided (sk-0m4.4): a candidate's own srd.creature tag satisfies admission directly, no spatial_niche_attachment, no per-room opt-in. Place-level speech prohibitions (underwater, silence) are a later separate mechanism — this row is not a hook for them."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "niche/srd/niche/dark-area",
+			"display_name": "Dark Area",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "Place niche for heavily dark nodes. Attach with on_entry_action_id = 'srd/apply-in-darkness' so entrants receive In Darkness (pattern: cross-party-capability-gate; idiom authored-dark-cave)."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		},
+		{
+			"id": "session/srd/long_running_move",
+			"display_name": "Long Running Move",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "rule",
+				"srd_text": "Clock-only Sequential travel session for over-reach r_move (sk-0m4.30). The kernel names the long_running_move_session BINDING; this row is the srd-owned session_definition that binding points at. Empty turn_scheduler_id on purpose — a clock, not combat initiative."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"sk-0m4",
+				"actor.stat",
+				"operator ruling"
+			]
+		}
+	]
+}

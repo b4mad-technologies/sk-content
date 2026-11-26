@@ -82,6 +82,7 @@ tag = "srd.damage_type.poison"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A wan lance of bilious green light coils from the caster’s hand, trailing the sour reek of spoiled herbs and stagnant water. Where it strikes, color seems to drain from flesh as feverish nausea rolls through the victim. For an instant, even nearby air tastes metallic and unclean."
 display_name = "Ray of Sickness"
 entity_def_id = "srd/spell/ray-of-sickness"
 grants_capability_while_equipped = ""
@@ -108,7 +109,7 @@ target_ref = "srd/spell/ray-of-sickness"
 action_id = "srd/spell/ray-of-sickness/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Ray of Sickness — a spell action."
+description = "You cast a spell that sends a sickening ray at a creature within range, harming it and potentially leaving it poisoned for a short time."
 display_name = "Cast Ray of Sickness"
 non_steering = true
 on_failure = "srd/spell/ray-of-sickness/cast/miss"

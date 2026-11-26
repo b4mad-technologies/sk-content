@@ -82,6 +82,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale, humming circle gathers beneath burdens that would bow a mule’s back, its surface smooth as moonlit glass. It drifts in patient obedience over rutted roads and winding steps, carrying packs, plunder, or a weary companion without complaint. Yet deep gaps and sheer breaks in the path leave the silent bearer stranded, trembling faintly at the edge."
 display_name = "Floating Disk"
 entity_def_id = "srd/spell/floating-disk"
 grants_capability_while_equipped = ""
@@ -109,7 +110,7 @@ target_ref = "srd/spell/floating-disk"
 action_id = "srd/spell/floating-disk/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Floating Disk — a spell action."
+description = "You cast the spell to create a hovering disk that carries items for you. It follows nearby and lasts until the spell ends."
 display_name = "Cast Floating Disk"
 non_steering = true
 on_failure = ""

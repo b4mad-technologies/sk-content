@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its curved blade catches no common light, but gleams with the clean brilliance of dawn on untouched snow. In the hand, it carries the solemn stillness of a shrine before the bells begin, pressing back dread and sour enchantment alike. Shadows seem thinner wherever its edge is drawn."
 display_name = "Holy Avenger (Scimitar)"
 entity_def_id = "srd/magic_item/holy-avenger-scimitar"
 grants_capability_while_equipped = ""

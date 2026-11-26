@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-breastplate",
+  "overlay_template": "adamantine-armor",
+  "overlay_badge": "metal",
+  "base_sha256": "e9f4887976b587fd74826faef07dac7c76959ef0ce403d782d9c8b1045d42893",
+  "overlay_sha256": "ccc7c944d91b356336aa1f1e27505e8b85e5220a061c5010888b5067d6625261",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:52.692Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "a597a531f9a4aa9e6ef629f248e4a86d415296472b277b8d07466791b63ed55b",
+  "target_attachment_ref": "srd/magic_item/adamantine-armor-breastplate#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-adamantine-armor-breastplate"
+}

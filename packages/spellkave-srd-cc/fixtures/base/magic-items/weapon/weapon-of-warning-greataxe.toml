@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its broad, moon-pale blade hums faintly in the hush before danger, as though listening through the ground for marching feet. Resting beside a sleeper, the greataxe grows cold at the first stir of violence and sends a sharp shiver through nearby dreams. In battle, its haft seems to tug toward the instant before the first blow falls."
 display_name = "Weapon of Warning (Greataxe)"
 entity_def_id = "srd/magic_item/weapon-of-warning-greataxe"
 grants_capability_while_equipped = ""

@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A colossal hand of pale force unfolds from empty air, its fingers flexing with the caster’s smallest motion. It can swat aside charging foes, close around a fleeing shape, or stand like a glittering barricade amid the chaos. Each gesture leaves a low, glassy tremor in the air, as though the world itself has been seized."
 display_name = "Arcane Hand"
 entity_def_id = "srd/spell/arcane-hand"
 grants_capability_while_equipped = ""

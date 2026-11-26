@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A fine band of silvered metal, warm as a living pulse, hums faintly when held near a spoken incantation. Fleeting colors gather beneath its surface like stormlight trapped under ice, each one carrying the memory of another hand’s intent. When awakened, that borrowed magic slips free in a breath of familiar, lingering perfume."
 display_name = "Ring of Spell Storing"
 entity_def_id = "srd/magic_item/ring-of-spell-storing"
 grants_capability_while_equipped = ""

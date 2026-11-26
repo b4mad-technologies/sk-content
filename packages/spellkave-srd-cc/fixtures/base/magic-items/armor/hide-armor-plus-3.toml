@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_3"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Thick cured hide, dark as rain-soaked bark, bears the faint scent of woodsmoke and wild grass. Its hardened layers settle around the wearer with the stubborn resilience of an old forest beast, turning glancing blows aside in muted, leathery thuds."
 display_name = "Hide Armor (+3)"
 entity_def_id = "srd/magic_item/hide-armor-plus-3"
 grants_capability_while_equipped = ""

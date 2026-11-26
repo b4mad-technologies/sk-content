@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The greatclub’s dark grain seems to drink in torchlight, its ironbound head marked by old impacts that never splintered. When lifted, it settles into the hands with the stubborn certainty of a felled oak, eager for the next wall, shield, or beast foolish enough to stand before it."
 display_name = "Greatclub (+1)"
 entity_def_id = "srd/magic_item/greatclub-plus-1"
 grants_capability_while_equipped = ""

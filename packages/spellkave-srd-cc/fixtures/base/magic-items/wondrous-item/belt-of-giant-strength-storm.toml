@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Braided from midnight-blue hide and studded with dull silver, this broad belt murmurs like distant thunder when fastened. The air seems to tighten around its wearer, carrying the sharp scent of rain on high stone. Every movement settles with the grave certainty of a gathering storm, as though the ground itself has become something meant to yield."
 display_name = "Belt of Giant Strength (Storm)"
 entity_def_id = "srd/magic_item/belt-of-giant-strength-storm"
 grants_capability_while_equipped = ""

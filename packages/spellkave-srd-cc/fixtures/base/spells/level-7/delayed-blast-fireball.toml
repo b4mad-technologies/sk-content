@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A lone ember hangs in the air, bright as a captive sun and humming with restrained hunger. Its glow deepens by the heartbeat, painting nearby faces in fever-gold and making every shadow tremble. When its patience finally breaks, the world blossoms into a roaring flower of heat, leaving smoke, sparks, and newly kindled ruin behind."
 display_name = "Delayed Blast Fireball"
 entity_def_id = "srd/spell/delayed-blast-fireball"
 grants_capability_while_equipped = ""

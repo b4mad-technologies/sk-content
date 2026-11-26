@@ -89,7 +89,7 @@ tag = "srd.damage_type.piercing"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Dart — a simple ranged weapon."
+description = "A dart rests almost unnoticed between the fingers, light enough to vanish into a sleeve or belt fold. Its narrow shaft hums with a quick flick of the wrist, then cuts a brief, straight path through torch smoke. A handful carries the quiet promise of sudden attention."
 display_name = "Dart"
 entity_def_id = "srd/weapon/dart"
 grants_capability_while_equipped = ""

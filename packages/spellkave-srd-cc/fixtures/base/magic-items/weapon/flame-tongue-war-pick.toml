@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A squat iron pick with a head blackened by old soot, it seems cold and ordinary until its hidden word is spoken. Then fire races along the hooked beak in a roaring mantle, filling the air with furnace heat and the sharp tang of struck flint. Its glow turns every nearby shadow into a trembling thing."
 display_name = "Flame Tongue War Pick"
 entity_def_id = "srd/magic_item/flame-tongue-war-pick"
 grants_capability_while_equipped = ""

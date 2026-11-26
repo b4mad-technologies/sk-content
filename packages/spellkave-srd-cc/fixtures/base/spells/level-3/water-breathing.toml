@@ -102,6 +102,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush of river-cool magic settles over a gathered company, carrying the clean scent of reeds and rain-dark stones. Beneath the surface, panic gives way to calm as each breath arrives as naturally as wind on a hilltop. The drowned world opens around them—silent forests of weed, silver fish, and drifting shafts of light."
 display_name = "Water Breathing"
 entity_def_id = "srd/spell/water-breathing"
 grants_capability_while_equipped = ""

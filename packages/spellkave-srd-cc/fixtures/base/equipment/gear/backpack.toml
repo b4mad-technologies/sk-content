@@ -36,6 +36,7 @@ tag = "srd.item.container"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Canvas creaks softly beneath buckles and cord, carrying the ordinary burdens that keep a traveler moving after the road turns mean. Slung over a shoulder or lashed behind a saddle, it gathers provisions, tools, and small comforts into one familiar, dust-stained companion."
 display_name = "Backpack"
 entity_def_id = "srd/item/backpack"
 grants_capability_while_equipped = ""

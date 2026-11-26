@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Supple dark leather, studded in a pattern that seems to shift beneath candlelight, carries a quiet refusal in every stitch. Its scent and texture hint at the danger it was made to endure: rain-slick stone, bitter smoke, grave-cold earth, or the sharp tang before a storm. When worn, it settles close as a second skin and leaves the air around its bearer faintly changed."
 display_name = "Armor of Resistance (Studded Leather)"
 entity_def_id = "srd/magic_item/armor-of-resistance-studded-leather"
 grants_capability_while_equipped = ""

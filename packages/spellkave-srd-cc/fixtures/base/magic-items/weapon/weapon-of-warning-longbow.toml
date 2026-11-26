@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its pale wood hums softly in the stillness before danger, the string tightening of its own accord when hostile intent draws near. Sleepers stirred by its presence rise with racing hearts and clear eyes, as though some watchful spirit has called their names from the dark. In battle, the bow seems always a breath ahead of the first cry."
 display_name = "Weapon of Warning (Longbow)"
 entity_def_id = "srd/magic_item/weapon-of-warning-longbow"
 grants_capability_while_equipped = ""

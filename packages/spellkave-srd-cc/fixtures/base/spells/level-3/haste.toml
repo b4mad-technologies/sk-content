@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A bright current races through the chosen warrior’s limbs, turning breath, heartbeat, and instinct into a single swift cadence. Footfalls blur across the battlefield while danger seems to arrive a heartbeat late. When the borrowed momentum finally breaks, the world returns with the crushing weight of stillness."
 display_name = "Haste"
 entity_def_id = "srd/spell/haste"
 grants_capability_while_equipped = ""

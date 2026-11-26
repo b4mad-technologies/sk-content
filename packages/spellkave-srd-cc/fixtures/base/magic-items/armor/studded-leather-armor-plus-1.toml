@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Supple dark hide, set with dull metal studs, shifts like a second skin and carries the faint scent of rain-soaked earth. In torchlight, each rivet catches a brief ember-glint before vanishing again, as though the armor prefers shadows. Its close-fitted panels settle with reassuring ease, lending every movement a quiet, guarded confidence."
 display_name = "Studded Leather Armor (+1)"
 entity_def_id = "srd/magic_item/studded-leather-armor-plus-1"
 grants_capability_while_equipped = ""

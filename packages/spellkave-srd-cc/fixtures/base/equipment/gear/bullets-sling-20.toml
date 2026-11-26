@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Smooth stones, chosen for the same weight and the same sullen grey, rattle in a soft leather cup. A thumb finds the familiar egg-shape without looking. They smell of riverbank and pocket lint, and they leave a chalky dust in the seams of the pouch. One stone missing is a small, irritating absence."
 display_name = "Bullets, Sling (20)"
 entity_def_id = "srd/item/bullets-sling-20"
 grants_capability_while_equipped = ""

@@ -96,6 +96,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A thought takes shape in the air: a watchful sentry, a barred gate, a prowling beast, or a curtain of impossible flame. It glides and gestures with convincing grace, painted in light but untouched by wind, scent, or sound. Only a careless hand—or a searching eye—finds the hollow space beneath its splendid surface."
 display_name = "Silent Image"
 entity_def_id = "srd/spell/silent-image"
 grants_capability_while_equipped = ""

@@ -84,6 +84,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A towering spirit coils out of sigils and smoke, its scales gleaming with the hue of stormclouds, embers, or deep poison-green seas. Its arrival carries the old weight of mountain caverns and thunderous wings, while a chosen elemental chill, heat, or crackle settles protectively over its caller. At a gesture, the phantom dragon tears through foes and exhales ruin."
 display_name = "Summon Dragon"
 entity_def_id = "srd/spell/summon-dragon"
 grants_capability_while_equipped = ""

@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_3"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A deep, bell-like hum stirs within its heavy head whenever danger draws near. The metal bears a dusky sheen that catches torchlight in stern, cold flashes, while the haft sits in the hand with uncanny certainty. Each swing seems to carry the solemn momentum of an old judgment."
 display_name = "Mace (+3)"
 entity_def_id = "srd/magic_item/mace-plus-3"
 grants_capability_while_equipped = ""

@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A slim blade of moon-pale steel, cool even beside a hearth, with an edge that seems to find the gaps in shadow. Its balance settles eagerly into the hand, turning a simple flick of the wrist into a whisper of certainty. In dim light, faint silver motes gather along its keen point."
 display_name = "Dagger (+1)"
 entity_def_id = "srd/magic_item/dagger-plus-1"
 grants_capability_while_equipped = ""

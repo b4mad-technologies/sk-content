@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Silver ink blooms across the floor in a pattern older than roads, each curling mark answering a remembered place beyond the horizon. The completed ring shivers like a moonlit pond, then opens onto distant air, carrying the scent, light, and echo of another threshold. For a fleeting breath, footsteps may cross where no journey lies."
 display_name = "Teleportation Circle"
 entity_def_id = "srd/spell/teleportation-circle"
 grants_capability_while_equipped = ""

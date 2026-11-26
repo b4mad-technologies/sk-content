@@ -157,6 +157,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A bandit captain rules the roadside by nerve, reputation, and a blade always close at hand. Their crew moves when they speak, cutting off escape routes and pressing every advantage with practiced cruelty. A meeting with one feels less like a robbery than a grim negotiation conducted under drawn steel."
 display_name = "Bandit Captain"
 entity_def_id = "srd/creature/bandit-captain"
 grants_capability_while_equipped = ""

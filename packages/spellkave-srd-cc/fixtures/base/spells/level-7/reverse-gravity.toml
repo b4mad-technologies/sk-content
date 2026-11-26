@@ -96,6 +96,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The world forgets which way is down. Loose stone, weapons, and startled bodies surge skyward in a sudden, terrible tide, while dust hangs like a storm trapped beneath an unseen vault. For a breathless span, the battlefield becomes an overturned dream—until the earth remembers its claim."
 display_name = "Reverse Gravity"
 entity_def_id = "srd/spell/reverse-gravity"
 grants_capability_while_equipped = ""

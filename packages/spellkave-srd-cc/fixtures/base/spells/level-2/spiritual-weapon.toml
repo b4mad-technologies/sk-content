@@ -82,6 +82,7 @@ tag = "srd.damage_type.force"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "At a whispered command, unseen conviction takes shape in the air: a luminous blade, hammer, sickle, or stranger emblem forged from devotion alone. It glides with eerie purpose through the clash of battle, striking where its bearer’s will points. Its glow leaves brief afterimages on steel and stone, like moonlight made suddenly merciless."
 display_name = "Spiritual Weapon"
 entity_def_id = "srd/spell/spiritual-weapon"
 grants_capability_while_equipped = ""
@@ -108,7 +109,7 @@ target_ref = "srd/spell/spiritual-weapon"
 action_id = "srd/spell/spiritual-weapon/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Spiritual Weapon — a spell action."
+description = "You cast this spell to create a floating magical weapon that strikes a creature you choose and can attack again on later turns."
 display_name = "Cast Spiritual Weapon"
 non_steering = true
 on_failure = "srd/spell/spiritual-weapon/cast/miss"

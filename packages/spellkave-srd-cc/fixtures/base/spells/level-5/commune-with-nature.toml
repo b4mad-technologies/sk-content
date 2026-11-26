@@ -84,6 +84,7 @@ tag = "srd.spell.list.ranger"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Roots murmur beneath the soil, stones remember the pressure of distant feet, and hidden waters answer in cool, silver impressions. For a breathless moment, the wild becomes a vast listening mind, offering glimpses of old paths, crowded dens, strange thresholds, and the strongest pulse stirring beyond the next ridge."
 display_name = "Commune with Nature"
 entity_def_id = "srd/spell/commune-with-nature"
 grants_capability_while_equipped = ""

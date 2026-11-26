@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "For a heartbeat, the battlefield falls into perfect order: a gap in the guard, a flicker of fate, a shining line drawn from hand to target. The weapon answers with uncanny certainty, carrying a pale brilliance that lingers in the air like dawn caught on steel."
 display_name = "True Strike"
 entity_def_id = "srd/spell/true-strike"
 grants_capability_while_equipped = ""

@@ -1,0 +1,13 @@
+*.blueprint.json
+events.jsonl
+/*/
+!creature/
+!item/
+!spell/
+!feat/
+!class_emblem/
+!character_portrait/
+!species/
+!background/
+!skill/
+!divine_order/

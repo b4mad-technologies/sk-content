@@ -74,6 +74,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A thumb-sized crystal rests cool against the palm, its buried facets catching colors that do not belong to the room. Fine wire or a carved setting keeps it close at hand, ready to gather a murmured formula into a single bright intention. In still moments, it seems to hold the faint afterglow of distant stars."
 display_name = "Arcane Focus (crystal)"
 entity_def_id = "srd/item/arcane-focus-crystal"
 grants_capability_while_equipped = ""
@@ -89,6 +90,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A polished sphere rests cool in the palm, its depths catching candlelight like water beneath ice. Fine etching or tiny suspended flecks give the eye somewhere to linger, though the true fascination lies in the faint pressure it gathers when held during careful workings. In a velvet pouch, it carries the hush of an unopened secret."
 display_name = "Arcane Focus (orb)"
 entity_def_id = "srd/item/arcane-focus-orb"
 grants_capability_while_equipped = ""
@@ -104,6 +106,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A short rod, metal or dark wood, banded and a little too fine for a walking stick. It warms in the hand. Faint carving catches on a fingertip. It is the sort of object a caster sets on a table so the room understands who is working. It leaves a round print in a wax tablet."
 display_name = "Arcane Focus (rod)"
 entity_def_id = "srd/item/arcane-focus-rod"
 grants_capability_while_equipped = ""
@@ -119,6 +122,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Slender, balanced, the tip darker than the grip. It lives in a sleeve or a narrow case and comes out with a small flourish the owner pretends is accidental. The wood or bone is smooth from years of the same fingers. Set down, it still looks aimed at something. The case lining is worn to the shape of it."
 display_name = "Arcane Focus (wand)"
 entity_def_id = "srd/item/arcane-focus-wand"
 grants_capability_while_equipped = ""
@@ -134,6 +138,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A small emblem of hammered metal, carved bone, or painted wood, kept close by those who carry solemn vows. Its surface bears careful marks brightened with pigment or tiny stones, warm from the hand and cool in the quiet between prayers. Held aloft, it catches firelight like a promise made visible."
 display_name = "Holy Symbol"
 entity_def_id = "srd/item/holy-symbol"
 grants_capability_while_equipped = ""
@@ -149,6 +154,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A spellbook bears the private habits of its maker: ink stained by sleepless study, margins crowded with corrections, and clasps worn smooth by restless hands. Its pages may be crisp vellum, soot-dark paper, or thin sheets stitched between humble boards, yet every mark seems to wait for the proper mind to awaken it."
 display_name = "Spellbook"
 entity_def_id = "srd/item/spellbook"
 grants_capability_while_equipped = ""

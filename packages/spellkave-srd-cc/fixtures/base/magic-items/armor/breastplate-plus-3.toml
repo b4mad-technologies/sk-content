@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_3"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "This fitted cuirass gleams with a depthless, moonlit sheen, its metal cool even beside a forge. When buckled in place, it settles against the body like a second ribcage—quiet, immovable, and oddly reassuring. Blows seem to lose their certainty upon its polished curves, as though the armor remembers every weapon that has failed against it."
 display_name = "Breastplate (+3)"
 entity_def_id = "srd/magic_item/breastplate-plus-3"
 grants_capability_while_equipped = ""

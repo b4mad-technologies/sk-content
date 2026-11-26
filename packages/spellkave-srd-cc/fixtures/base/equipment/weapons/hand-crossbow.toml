@@ -95,7 +95,7 @@ tag = "srd.damage_type.piercing"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Hand Crossbow — a martial ranged weapon."
+description = "A compact frame of dark wood and taut cord sits snug against the palm, its mechanism clicking with a quiet, deliberate menace. It is easily hidden beneath a cloak or drawn in the cramped shadows of a stairwell, where a longer weapon would snag on stone. The sharp scent of oiled metal clings to every careful reload."
 display_name = "Hand Crossbow"
 entity_def_id = "srd/weapon/hand-crossbow"
 grants_capability_while_equipped = ""

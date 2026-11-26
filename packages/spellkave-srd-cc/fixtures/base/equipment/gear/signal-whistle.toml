@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A small metal whistle, cold on the lips, with a single tone that cuts cleaner than any shout in a crowd. The loop of cord is frayed from being worn against a collar. Blown hard, the note hangs in the air a moment longer than the breath that made it, bright and hard to ignore."
 display_name = "Signal Whistle"
 entity_def_id = "srd/item/signal-whistle"
 grants_capability_while_equipped = ""

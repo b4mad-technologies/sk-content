@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale gleam travels along the spearhead like dawn caught on a river’s edge. Its shaft sits perfectly balanced in the hand, eager for the cast or the sudden forward thrust. Even at rest, the weapon seems to lean toward distant movement, as though it remembers every path it has ever flown."
 display_name = "Spear (+2)"
 entity_def_id = "srd/magic_item/spear-plus-2"
 grants_capability_while_equipped = ""

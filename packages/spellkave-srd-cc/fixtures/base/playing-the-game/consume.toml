@@ -13,7 +13,7 @@
 action_id = "srd/consume"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Bonus Action: drink a potion (or use another consumable) you are carrying. Choose the item as the target; it loses one dose and its own effect applies to you (magic-items.md § Potions)."
+description = "As a bonus action, you drink a potion or use another consumable you are carrying. Choose the item: it loses one dose and its effect takes hold of you."
 display_name = "Use a Consumable"
 on_failure = ""
 on_success = "srd/consume/success"
@@ -37,7 +37,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/action/consume"
 default_visibility = "Public"
-description = "Drink a potion or use another carried consumable on yourself. Potions are a Bonus Action to drink (magic-items.md § Potions); the chosen item loses one dose and applies its effect. pattern: consumable-inventory-consume."
+description = "You can drink a potion or use another consumable you carry on yourself; a potion takes a Bonus Action to drink."
 display_name = "Use a Consumable"
 
 [[consequence_frame_writes]]
@@ -56,7 +56,7 @@ template_id = "srd/consume/success"
 
 [[niche_definitions]]
 bundle_id = "srd"
-description = "A consumable item (a potion) in the acting creature's own carriage."
+description = "A potion or other consumable that the acting creature is carrying."
 display_name = "Carried Consumable"
 niche_id = "srd/consumable"
 predicate_source = "target.has_niche('srd.consumable') && target.has_niche('core/owned')"

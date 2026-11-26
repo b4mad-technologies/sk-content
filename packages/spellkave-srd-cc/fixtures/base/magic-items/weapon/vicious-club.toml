@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The club’s scarred grain seems to tighten around the wielder’s grip, warm as a living pulse beneath old splinters. Each swing carries a cruel, lingering weight, as though the wood remembers every crack of bone it has ever made. Its impact leaves the air briefly hushed."
 display_name = "Vicious Club"
 entity_def_id = "srd/magic_item/vicious-club"
 grants_capability_while_equipped = ""

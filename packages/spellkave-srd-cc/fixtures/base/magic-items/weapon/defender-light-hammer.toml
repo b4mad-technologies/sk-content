@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its compact head hums with a guarded purpose, as though every blow asks how much strength to lend the hand and how much to keep watch around the bearer. In motion, pale sparks gather along its iron planes, then settle into an unseen ward that turns danger aside with a ringing breath."
 display_name = "Defender (Light Hammer)"
 entity_def_id = "srd/magic_item/defender-light-hammer"
 grants_capability_while_equipped = ""

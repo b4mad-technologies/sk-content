@@ -72,6 +72,7 @@ tag = "srd.spell.list.druid"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush passes through the gathered company, then bone, fur, feather, and claw answer an older summons. Where companions stood, the wild arrives in many guises: a stalking cat, a broad-winged hunter, a horned beast breathing mist into the grass. Their familiar eyes remain bright behind every borrowed face."
 display_name = "Animal Shapes"
 entity_def_id = "srd/spell/animal-shapes"
 grants_capability_while_equipped = ""

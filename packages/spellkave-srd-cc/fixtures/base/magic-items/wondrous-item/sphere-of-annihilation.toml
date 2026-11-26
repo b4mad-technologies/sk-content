@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A perfect circle of absence hangs within its invisible cradle, swallowing torchlight without reflection or warmth. Nearby air seems thinned and sound arrives strangely muffled, as though the world is holding its breath. Even the steadiest hand feels a cold, patient hunger behind its silence."
 display_name = "Sphere of Annihilation"
 entity_def_id = "srd/magic_item/sphere-of-annihilation"
 grants_capability_while_equipped = ""

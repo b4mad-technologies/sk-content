@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "This slim dart hums faintly when held near towering foes, its balance seeming to shift toward the largest shadow in the room. A pale notch along its shaft catches the light like a mountain cleft, and its flight carries a startling, downward force. Even a giant’s stride can falter beneath its small, bitter sting."
 display_name = "Giant Slayer (Dart)"
 entity_def_id = "srd/magic_item/giant-slayer-dart"
 grants_capability_while_equipped = ""

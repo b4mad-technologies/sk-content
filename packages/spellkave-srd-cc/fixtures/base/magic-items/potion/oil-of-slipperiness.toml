@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Within its dark glass, the unguent clings like midnight tar, yet slips free in a sudden, eager stream when the stopper is drawn. A thin sheen leaves armor gleaming with an uncanny looseness, as though buckles, straps, and grasping hands have all forgotten how to hold fast. Spilled across stone, it turns firm ground into a treacherous mirror."
 display_name = "Oil of Slipperiness"
 entity_def_id = "srd/magic_item/oil-of-slipperiness"
 grants_capability_while_equipped = ""

@@ -18,6 +18,7 @@ tag = "srd.feat.origin"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A restless curiosity becomes a well-stocked kit: lockpicks beside charcoal, field notes beside a dancer’s ribbon. Each new discipline leaves its own callus, habit, and way of reading a room. Where others see a closed door or unfamiliar craft, this veteran sees another lesson waiting to be learned."
 display_name = "Skilled"
 entity_def_id = "srd/feat/skilled"
 grants_capability_while_equipped = ""

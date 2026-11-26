@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The blade carries a cold, immaculate gleam, as though moonlight has learned the shape of steel. Its edge passes through mail, hide, and stubborn flesh with an unsettling lack of resistance, leaving only a brief silver whisper in the air. In the hands of a resolute warrior, every stroke seems to seek the swiftest possible ending."
 display_name = "Vorpal Longsword"
 entity_def_id = "srd/magic_item/vorpal-longsword"
 grants_capability_while_equipped = ""

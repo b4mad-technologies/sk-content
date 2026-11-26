@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A roll of waxed cloth unfolds to reveal stoppered vials, a small knife, drying papers, and a pestle stained green with old remedies. Bitter sap clings to the fingers while crushed leaves release sharp, earthy scents. In patient hands, roadside weeds and garden herbs become careful preparations against fever, venom, and worse."
 display_name = "Herbalism Kit"
 entity_def_id = "srd/item/herbalism-kit"
 grants_capability_while_equipped = ""

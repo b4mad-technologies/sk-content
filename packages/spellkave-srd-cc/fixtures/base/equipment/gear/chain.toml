@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The chain spills from the hand in a cold metallic ribbon, each link scarred where it has bitten wood or stone. It is heavier than a glance suggests, and the end hook is blunt from old use. Wrapped once around a post, it settles with a final clink and stays."
 display_name = "Chain"
 entity_def_id = "srd/item/chain"
 grants_capability_while_equipped = ""

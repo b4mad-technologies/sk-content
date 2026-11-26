@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its crescent edge catches the light with a cold, hungry gleam, as though moonlight has been hammered into iron. Each swing leaves a whisper in the air like stalks bending beneath a harvest wind. In a steady hand, the sickle seems to anticipate the pull of flesh and the finality of the cut."
 display_name = "Vicious Sickle"
 entity_def_id = "srd/magic_item/vicious-sickle"
 grants_capability_while_equipped = ""

@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "pixellab-pixen",
+  "prompt": "Magic Initiate. Three glowing arcane runes orbiting a small spellbook. Isolated feat icon of the named benefit, one object or mark, no person, no armor, no heraldic shield, no letters, centered. Theme-neutral Spellkave pixel art: mid-contrast cream, charcoal, muted gold, forest, and rust. Selective outline, basic-to-medium shading, no gloss or bloom. Transparent background, no frame, no baked scenery, no letters, words, numerals, logo, watermark, photorealism, or D&D branding. Centered, native pixel size.",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 1.1
+  },
+  "generated_at": "2026-09-23T10:41:52.447Z",
+  "source_manifest": ".local/glyph-burn-art/manifest.json",
+  "sha256": "a1c84ed76650e52de2d85aba6c7c63a069a81865efc7c87b721a09184a839d56",
+  "target_attachment_ref": "srd/feat/magic-initiate#srd.art.image",
+  "kind": "feat",
+  "entry_id": "feat-magic-initiate",
+  "provider_ids": {
+    "api_base_url": "https://api.pixellab.ai/v2",
+    "route": "/create-image-pixen"
+  }
+}

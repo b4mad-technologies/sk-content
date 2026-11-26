@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its polished limbs bear a muted gleam, as though each bolt loosed from the string leaves a warding echo in the air. In a steady hand, the crossbow seems to weigh every threat nearby, lending its strength either to the shot or to the thin, unseen shelter around its bearer."
 display_name = "Defender (Light Crossbow)"
 entity_def_id = "srd/magic_item/defender-light-crossbow"
 grants_capability_while_equipped = ""

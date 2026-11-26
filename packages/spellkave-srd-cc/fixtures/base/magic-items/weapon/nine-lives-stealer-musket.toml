@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its dark barrel bears faint scratch marks like tally lines, each one warming beneath the hand when danger draws near. A shot from this musket cracks with a hungry echo, and the smoke that follows seems to curl around the fallen as though searching for something unseen. Even unloaded, it leaves a room feeling briefly colder."
 display_name = "Nine Lives Stealer (Musket)"
 entity_def_id = "srd/magic_item/nine-lives-stealer-musket"
 grants_capability_while_equipped = ""

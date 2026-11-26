@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_3"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A long, dark shaft balances with uncanny ease, its blade catching even the faintest light along a keen silver edge. When lifted for the first time, it seems to settle into the bearer’s grip like a remembered oath, eager for the sweep and turn of battle."
 display_name = "Glaive (+3)"
 entity_def_id = "srd/magic_item/glaive-plus-3"
 grants_capability_while_equipped = ""

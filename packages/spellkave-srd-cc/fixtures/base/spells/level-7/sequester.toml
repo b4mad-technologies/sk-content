@@ -78,6 +78,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush deeper than sleep settles over the chosen thing, folding it beyond searching eyes and prying sorcery. For a living subject, time loses its claim: breath stills, hunger fades, and years pass like dust across a sealed vault. Only a foretold sign—or a cruel disturbance—can call the hidden presence back into the waking world."
 display_name = "Sequester"
 entity_def_id = "srd/spell/sequester"
 grants_capability_while_equipped = ""

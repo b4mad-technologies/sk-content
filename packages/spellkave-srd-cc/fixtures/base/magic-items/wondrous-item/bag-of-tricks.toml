@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A humble cloth pouch, faded by smoke, rust, or sun, it seems to hold nothing but dust and old warmth. Yet each searching hand finds a soft pulse of fur within, alive with a skittish, expectant energy. Cast loose, that small mystery lands with a flash of wild breath and answering paws, wings, or claws."
 display_name = "Bag of Tricks"
 entity_def_id = "srd/magic_item/bag-of-tricks"
 grants_capability_while_equipped = ""

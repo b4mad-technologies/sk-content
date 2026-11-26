@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-javelin",
+  "overlay_template": "holy-avenger",
+  "overlay_badge": "holy",
+  "base_sha256": "9420838f8dc6e16cb8f0eb41451124cf975ef67a7945e8f6e08c97510a6efc4e",
+  "overlay_sha256": "64861c3849275cd13d635b8b7a62308bc7ed8397f3a844c78d4b2074fa40c88a",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:45.080Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "905f467f35caee04b9a7c7a999977565f220d61eb16f9bc76902f964b8bfb7d3",
+  "target_attachment_ref": "srd/magic_item/holy-avenger-javelin#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-holy-avenger-javelin"
+}

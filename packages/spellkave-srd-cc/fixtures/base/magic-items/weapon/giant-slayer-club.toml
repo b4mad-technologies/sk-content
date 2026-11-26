@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "This squat, ironwood club carries the stubborn weight of a fallen oak and hums faintly when towering footsteps shake the ground. Its scarred head seems drawn toward great shadows, striking with a force that buckles knees and scatters pride into the dust."
 display_name = "Giant Slayer (Club)"
 entity_def_id = "srd/magic_item/giant-slayer-club"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Overlapping steel plates carry a muted, uncanny sheen, as though tempered beneath a storm-dark sky or in the hush of a winter crypt. When danger gathers, the armor seems to draw close around its wearer, answering the world’s harshest fury with a steady, protective calm."
 display_name = "Armor of Resistance (Half Plate)"
 entity_def_id = "srd/magic_item/armor-of-resistance-half-plate"
 grants_capability_while_equipped = ""

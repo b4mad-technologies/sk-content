@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-trident",
+  "overlay_template": "of-fish-command",
+  "overlay_badge": "water",
+  "base_sha256": "89c2a40e25d7fbdf8eb1390e0d855fa17c68faeadc20a053bcba9819f1940a03",
+  "overlay_sha256": "3f591930cb03c0d848a269abccc12d0df88a569414a0e79b6ee8a6ed161184de",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:49.074Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "578b1b6f27afe2c4919c1a5fd0e54ebb667c1d323bcc948ab1e6b54823bcc68b",
+  "target_attachment_ref": "srd/magic_item/trident-of-fish-command#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-trident-of-fish-command"
+}

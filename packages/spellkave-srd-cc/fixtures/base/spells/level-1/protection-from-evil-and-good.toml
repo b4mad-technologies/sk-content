@@ -106,6 +106,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A clear hush settles over the chosen soul, bright as rain on a temple bell and sharp as salt on an old wound. Unnatural gazes slide away from that quiet radiance; beguiling whispers lose their sweetness, and borrowed terror finds no purchase. Even spirits already coiled around the heart feel the ward’s steady pressure, like dawn pressing through barred shutters."
 display_name = "Protection from Evil and Good"
 entity_def_id = "srd/spell/protection-from-evil-and-good"
 grants_capability_while_equipped = ""
@@ -132,7 +133,7 @@ target_ref = "srd/spell/protection-from-evil-and-good"
 action_id = "srd/spell/protection-from-evil-and-good/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Protection from Evil and Good — a spell action."
+description = "You cast this spell to ward a willing creature against certain supernatural foes, making their attacks less effective and hindering their influence."
 display_name = "Cast Protection from Evil and Good"
 non_steering = true
 on_failure = ""
@@ -166,7 +167,7 @@ template_id = "srd/spell/protection-from-evil-and-good/cast/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/spell/protection-from-evil-and-good"
-description = "Protection from Evil and Good — a spell condition."
+description = "While it lasts, certain supernatural creatures have trouble attacking or frightening you, possessing you, or taking control of your mind."
 display_name = "Protection from Evil and Good"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

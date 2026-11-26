@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Two dull iron cuffs, linked by a chain that seems longer when stared at, settle around the wrists with a chill beyond metal. Their clasp closes in utter silence, and the air nearby grows strangely still, as though every distant road and hidden threshold has abruptly forgotten the captive’s name."
 display_name = "Dimensional Shackles"
 entity_def_id = "srd/magic_item/dimensional-shackles"
 grants_capability_while_equipped = ""

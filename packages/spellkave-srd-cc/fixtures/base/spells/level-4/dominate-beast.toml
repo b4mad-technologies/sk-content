@@ -90,6 +90,7 @@ tag = "srd.spell.list.sorcerer"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A wild mind turns beneath an unseen hand, its fury softened into a thread of shared instinct. Through that living bond, intent travels without sound: a glance toward prey, a summons to heel, a warning carried on the pulse of the hunt. Yet the creature’s old nature remains close beneath the borrowed calm."
 display_name = "Dominate Beast"
 entity_def_id = "srd/spell/dominate-beast"
 grants_capability_while_equipped = ""

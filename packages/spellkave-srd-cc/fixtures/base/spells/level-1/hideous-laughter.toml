@@ -94,6 +94,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A crooked spark of humor slips beneath the guard of the mind, blooming into a joke too vast and terrible to resist. Breath catches, dignity shatters, and the victim collapses amid helpless peals of mirth. Even the battlefield seems to recoil from the sound: laughter stripped of joy and sharpened into cruelty."
 display_name = "Hideous Laughter"
 entity_def_id = "srd/spell/hideous-laughter"
 grants_capability_while_equipped = ""
@@ -121,7 +122,7 @@ target_ref = "srd/spell/hideous-laughter"
 action_id = "srd/spell/hideous-laughter/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Hideous Laughter — a spell action."
+description = "You cast a spell that overwhelms a creature with uncontrollable laughter, leaving it unable to act normally until the effect ends."
 display_name = "Cast Hideous Laughter"
 non_steering = true
 on_failure = "srd/spell/hideous-laughter/cast/success"
@@ -155,7 +156,7 @@ template_id = "srd/spell/hideous-laughter/cast/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/spell/hideous-laughter"
-description = "Hideous Laughter — a spell condition."
+description = "You fall prone and cannot stand while laughter overwhelms you. The effect ends when it expires, you take damage, or something rouses you."
 display_name = "Hideous Laughter"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

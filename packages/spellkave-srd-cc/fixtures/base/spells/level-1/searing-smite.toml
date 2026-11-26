@@ -70,6 +70,7 @@ tag = "srd.damage_type.fire"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A weapon’s edge flares like metal fresh from the forge, leaving a wound that refuses the mercy of cooling. Each movement of the stricken foe stirs the embers deeper, smoke curling from armor seams and clenched teeth. The blaze clings with a grim, judicial hunger until will or endurance finally smothers it."
 display_name = "Searing Smite"
 entity_def_id = "srd/spell/searing-smite"
 grants_capability_while_equipped = ""
@@ -96,7 +97,7 @@ target_ref = "srd/spell/searing-smite"
 action_id = "srd/spell/searing-smite/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Searing Smite — a spell action."
+description = "You cast the spell to make your next weapon strike flare with fire, dealing extra damage and potentially setting the target ablaze."
 display_name = "Cast Searing Smite"
 non_steering = true
 on_failure = "srd/spell/searing-smite/cast/miss"

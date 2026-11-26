@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A storm, tide, wildfire, or buried mountain seems to slumber behind the gem’s polished face. It thrums faintly in the palm, answering nearby motion with a pressure in the air and a restless gleam beneath its color. For all its beauty, it carries the tense stillness of something vast waiting to be set free."
 display_name = "Elemental Gem"
 entity_def_id = "srd/magic_item/elemental-gem"
 grants_capability_while_equipped = ""

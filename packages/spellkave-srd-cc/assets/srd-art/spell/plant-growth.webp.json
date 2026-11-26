@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "pixellab-pixen",
+  "prompt": "Plant Growth. Bursting tangle of vines, leaves, and ripe grain heads. Isolated spell glyph of the magical effect itself, one symbol, no caster, no creature, no scenery, no weapon, no letters, centered. Theme-neutral Spellkave pixel art: mid-contrast cream, charcoal, muted gold, forest, and rust. Selective outline, basic-to-medium shading, no gloss or bloom. Transparent background, no frame, no baked scenery, no letters, words, numerals, logo, watermark, photorealism, or D&D branding. Centered, native pixel size.",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 1.1
+  },
+  "generated_at": "2026-09-24T08:16:43.659Z",
+  "source_manifest": ".local/glyph-burn2-art/manifest.json",
+  "sha256": "fce595bc6f313d10d08e98b1fa33973db2a40e9a6c24c0e819e6d1f747066a07",
+  "target_attachment_ref": "srd/spell/plant-growth#srd.art.image",
+  "kind": "spell",
+  "entry_id": "spell-plant-growth",
+  "provider_ids": {
+    "api_base_url": "https://api.pixellab.ai/v2",
+    "route": "/create-image-pixen"
+  }
+}

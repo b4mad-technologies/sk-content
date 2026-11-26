@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-padded-armor",
+  "overlay_template": "armor-of-resistance",
+  "overlay_badge": "resistance",
+  "base_sha256": "892d316c898d6091713fc9b880440cb150383a9babdfd1434a721749a32afc09",
+  "overlay_sha256": "cfe6a7a74ee32b99d526a27bf91af010f45ca0baf99340d8f11c006af8a11b6b",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:53.467Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "1d72783c97445405a6c4b3b420647397eaba47b1ef0785486d0265104bc42c2f",
+  "target_attachment_ref": "srd/magic_item/armor-of-resistance-padded#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-armor-of-resistance-padded"
+}

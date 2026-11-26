@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Within the clear vial, a scarlet mote draws itself tight as a seed, then blooms outward in slow, patient pulses. Glass seems vast in the hand, its curves bending the candlelight into towering shapes. A faint coolness lingers at the stopper, like air drawn from beneath a door too small to enter."
 display_name = "Potion of Diminution"
 entity_def_id = "srd/magic_item/potion-of-diminution"
 grants_capability_while_equipped = ""

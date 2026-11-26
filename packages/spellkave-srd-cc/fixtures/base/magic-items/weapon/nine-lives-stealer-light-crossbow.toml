@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its darkwood stock is polished smooth by hands that never linger long. When the string is drawn, a faint, hungry hush gathers around the bolt, as though the air itself expects a final breath. Each shot leaves behind the cold impression of a door closing somewhere far beyond the battlefield."
 display_name = "Nine Lives Stealer (Light Crossbow)"
 entity_def_id = "srd/magic_item/nine-lives-stealer-light-crossbow"
 grants_capability_while_equipped = ""

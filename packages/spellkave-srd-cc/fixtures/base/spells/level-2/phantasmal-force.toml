@@ -96,6 +96,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A private nightmare takes shape behind a single pair of eyes: a lurking beast, a wall of flame, a collapsing ledge, vivid in sound, heat, and dreadful certainty. The victim’s mind supplies every missing explanation, stitching absurdity into sense while the imagined peril leaves real terror in its wake."
 display_name = "Phantasmal Force"
 entity_def_id = "srd/spell/phantasmal-force"
 grants_capability_while_equipped = ""

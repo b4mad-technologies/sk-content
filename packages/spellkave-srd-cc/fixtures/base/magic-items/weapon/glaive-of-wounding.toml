@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its dark haft feels oddly warm beneath the hand, as though remembering every wound it has opened. Along the blade’s edge, a soot-colored sheen drinks torchlight and leaves the air smelling of iron after each sweep. Creatures struck by it often find their injuries slow to close, haunted by a chill that clings beneath the skin."
 display_name = "Glaive of Wounding"
 entity_def_id = "srd/magic_item/glaive-of-wounding"
 grants_capability_while_equipped = ""

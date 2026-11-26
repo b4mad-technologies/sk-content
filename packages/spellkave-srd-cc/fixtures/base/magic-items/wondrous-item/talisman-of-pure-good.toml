@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A steady warmth gathers beneath its sacred emblem, like dawn held close against the chest. Shadows recoil from its gleam, and things born of grave or abyss find its presence unbearable. When judgment is called, the earth itself seems to remember an older, brighter law."
 display_name = "Talisman of Pure Good"
 entity_def_id = "srd/magic_item/talisman-of-pure-good"
 grants_capability_while_equipped = ""

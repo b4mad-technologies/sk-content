@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its silvered face holds more than the room before it: pale silhouettes drift behind the glass, appearing and vanishing in banks of endless mist. A whispered phrase wakes its hungry sheen, and every reflected gaze seems to linger a heartbeat too long. Those who stand near it may hear distant voices pressing softly against the mirror’s cold reverse side."
 display_name = "Mirror of Life Trapping"
 entity_def_id = "srd/magic_item/mirror-of-life-trapping"
 grants_capability_while_equipped = ""

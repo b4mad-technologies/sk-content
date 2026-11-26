@@ -78,6 +78,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A veil of practiced deceit settles over flesh or treasure, subtle as silk drawn across a lantern. Divinations find the story the caster has planted: a harmless trinket glimmers with forbidden promise, a potent relic falls quiet, or a living soul wears another nature beneath unseen scrutiny. With patient renewal, even suspicion can be taught to look away."
 display_name = "Arcanist's Magic Aura"
 entity_def_id = "srd/spell/arcanists-magic-aura"
 grants_capability_while_equipped = ""

@@ -102,6 +102,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A flawless ring tears open across the air, its threshold framing a sky no mortal horizon has ever held. Wind, strange light, and distant scents spill through from beyond the world, while the edges hum with the strain of impossible distance. A true name can turn that shining wound into a summons, drawing a far-off presence to stand before the caster."
 display_name = "Gate"
 entity_def_id = "srd/spell/gate"
 grants_capability_while_equipped = ""

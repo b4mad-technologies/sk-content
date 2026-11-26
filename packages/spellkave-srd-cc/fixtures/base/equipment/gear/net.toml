@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Weighted cord gathered into a loose coil, the knots biting the palm when it is lifted. It smells of tar and salt, and it wants to open. A practiced toss turns the tangle into a wide mouth. Until then it is only weight and the promise of a snare. Drying, it stiffens until the next throw loosens it."
 display_name = "Net"
 entity_def_id = "srd/item/net"
 grants_capability_while_equipped = ""

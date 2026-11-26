@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A polished dart that seems to hover a heartbeat longer than it should before the throw. Its balance shifts with the wielder’s intent: eager and needle-true when danger must be met, then suddenly steadfast, as though an unseen shield has closed around the hand that holds it. In torchlight, its narrow point catches a cold, watchful gleam."
 display_name = "Defender (Dart)"
 entity_def_id = "srd/magic_item/defender-dart"
 grants_capability_while_equipped = ""

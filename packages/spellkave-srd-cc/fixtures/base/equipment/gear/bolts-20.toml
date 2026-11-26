@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A tight bundle of short quarrels rides in oiled cloth, their points dark and their fletching trimmed to the same stubborn length. They knock together with a dry wooden tick when the bundle is lifted. Each one is made to vanish down a groove and not come back pretty. A hunter checks the bundle before checking the bow."
 display_name = "Bolts (20)"
 entity_def_id = "srd/item/bolts-20"
 grants_capability_while_equipped = ""

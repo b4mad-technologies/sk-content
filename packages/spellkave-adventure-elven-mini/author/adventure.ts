@@ -9,7 +9,7 @@ import type { VerbCall } from "@spellkave/adventure-runtime/dm/lib";
 import type { AuthorTarget } from "@spellkave/tool-authoring";
 import { advancementLimbo } from "./advancement-limbo.ts";
 import { advancementTeleport } from "./advancement-teleport.ts";
-import { backdrops } from "./backdrops.ts";
+import { adventureArt } from "./art.ts";
 import { elvenMiniBundleHeaderCall } from "./bundle-header.ts";
 import { companionAgreementActions, companionAgreementDefinitions } from "./companion-agreement.ts";
 import {
@@ -122,7 +122,6 @@ export function buildAdventure(target?: AuthorTarget): VerbCall[] {
 		...cc.calls,
 		...dt.calls,
 		...poolHazard(),
-		...backdrops(),
 		...links(),
 		...occupancy(),
 		// Needs INNKEEPER_ENTITY_KEY already placed above — its own
@@ -166,6 +165,7 @@ export function buildAdventure(target?: AuthorTarget): VerbCall[] {
 		// All initial capability/state vocabulary exists before the unplaced blueprint.
 		...candidateOccupancy(target),
 		...adventureDmActs(),
+		...adventureArt(),
 		...adventurePoi(),
 		...containmentPolicies(),
 	];

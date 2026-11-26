@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its blackened beak bears old dents like mountain crags, yet the haft sits light and eager in the hand. When swung beneath towering foes, the pick seems to find the hidden seams beneath armor, stone-hard hide, and pride. A low tremor follows each telling blow, as though the earth itself remembers how great things fall."
 display_name = "Giant Slayer (War Pick)"
 entity_def_id = "srd/magic_item/giant-slayer-war-pick"
 grants_capability_while_equipped = ""

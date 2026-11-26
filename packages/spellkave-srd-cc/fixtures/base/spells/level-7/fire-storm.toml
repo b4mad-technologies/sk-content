@@ -84,6 +84,7 @@ tag = "srd.spell.list.sorcerer"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The sky answers with a furnace roar as pillars of flame erupt in a chosen pattern, turning earth and air alike to wavering gold. Heat hammers outward in rolling waves, kindling loose timber, dry brush, and abandoned banners. When the blaze vanishes, the world is left smoking beneath a rain of blackened ash."
 display_name = "Fire Storm"
 entity_def_id = "srd/spell/fire-storm"
 grants_capability_while_equipped = ""

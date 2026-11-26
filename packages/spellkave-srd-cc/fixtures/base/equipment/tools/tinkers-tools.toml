@@ -40,6 +40,7 @@ tag = "srd.tool.category.artisan"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A velvet roll of picks, snips, tiny hammers, and soot-darkened lenses, each tool bears the patient wear of a hundred small repairs. In practiced hands, loose springs and bent wire become brief marvels of motion and light. The work leaves fingertips blackened, ears tuned for the faint, satisfying click of a mechanism settling true."
 display_name = "Tinker's Tools"
 entity_def_id = "srd/tool/tinkers-tools"
 grants_capability_while_equipped = ""

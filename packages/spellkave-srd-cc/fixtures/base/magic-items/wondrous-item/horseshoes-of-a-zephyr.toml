@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Four pale shoes, light as shed leaves, cling to a mount’s hooves with a whisper of wind. Once fitted, they carry horse and rider just above the world: over reeds without stirring them, across snow without a print, and through treacherous ground as though it were a smooth road. Even after a long day beneath the open sky, the steed’s breath remains cool and steady."
 display_name = "Horseshoes of a Zephyr"
 entity_def_id = "srd/magic_item/horseshoes-of-a-zephyr"
 grants_capability_while_equipped = ""

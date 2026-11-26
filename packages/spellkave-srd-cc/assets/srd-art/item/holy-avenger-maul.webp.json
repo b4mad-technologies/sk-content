@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-maul",
+  "overlay_template": "holy-avenger",
+  "overlay_badge": "holy",
+  "base_sha256": "6515b7e46a6b0f744aca51e6851f2193eafd665ca68c74e5b7d93b5f917933aa",
+  "overlay_sha256": "64861c3849275cd13d635b8b7a62308bc7ed8397f3a844c78d4b2074fa40c88a",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:45.403Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "bee9710ebbda2a92a87082399a9ad906b91f34bf680d08f7c317deb3ab92420b",
+  "target_attachment_ref": "srd/magic_item/holy-avenger-maul#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-holy-avenger-maul"
+}

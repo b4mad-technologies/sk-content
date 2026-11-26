@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_3"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Dark heartwood and blackened iron bind together beneath a skin of old battle-scars. When lifted, the club seems to gather the weight of every blow ever dealt with it, humming faintly in eager anticipation. Its presence turns a warrior’s grip steady and terrible."
 display_name = "Greatclub (+3)"
 entity_def_id = "srd/magic_item/greatclub-plus-3"
 grants_capability_while_equipped = ""

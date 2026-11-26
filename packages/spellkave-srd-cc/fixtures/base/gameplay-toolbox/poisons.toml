@@ -355,6 +355,7 @@ tag = "srd.item.poison.injury"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The vial is small and dark, and the liquid inside clings to the glass like cooled ink. Unstoppered, it smells of iron and a closed room. A drop on the tongue is bitter long after the swallow. The cork sits too tightly for a casual hand. The glass is the kind a person palms and does not show."
 display_name = "Assassin's Blood"
 entity_def_id = "srd/item/assassins-blood"
 grants_capability_while_equipped = ""
@@ -370,6 +371,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The packet is a twist of coarse paper, warm to the thumb and gritty at the seam. Opened, it throws a sharp, burnt-metal smell that catches at the back of the nose. The powder lifts in a thin veil and then settles on every nearby surface. Even a closed mouth does not keep the scent out."
 display_name = "Burnt Othur Fumes"
 entity_def_id = "srd/item/burnt-othur-fumes"
 grants_capability_while_equipped = ""
@@ -385,6 +387,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The jar holds a clear, slow slime that strings between the lid and the rim. It smells of wet stone and something recently crawled. A smear stays glossy on skin and cloth. The hands want washing before they touch anything else. Even a careful lid leaves a thread on the jar's lip."
 display_name = "Crawler Mucus"
 entity_def_id = "srd/item/crawler-mucus"
 grants_capability_while_equipped = ""
@@ -400,6 +403,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The vial is light, and the liquid inside seems thinner than water, with a sweet, dizzy smell that arrives before the cork is fully out. A breath near the neck of the glass makes the room feel farther away. The glass stays cool. The stopper leaves a faint film on the fingers."
 display_name = "Essence of Ether"
 entity_def_id = "srd/item/essence-of-ether"
 grants_capability_while_equipped = ""
@@ -415,6 +419,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A grey dust sits in a narrow horn, fine enough to vanish into a draft. It smells of cold ash and a cellar that has not been aired. Blown from the palm, it hangs for a heartbeat as a pale cloud and then is gone. The eyes water if they meet it."
 display_name = "Malice"
 entity_def_id = "srd/item/malice"
 grants_capability_while_equipped = ""
@@ -430,6 +435,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The drops are clear and almost tasteless, with a faint salt smell like rain on a windowsill after dark. They leave no stain in a cup. Held to a lamp, each drop keeps a small bright point that does not quite settle. The vial is the sort of thing a person forgets is open."
 display_name = "Midnight Tears"
 entity_def_id = "srd/item/midnight-tears"
 grants_capability_while_equipped = ""
@@ -445,6 +451,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The oil is pale and slow, and it smells of crushed flowers left too long in a warm room. A smear on a glove stays slick and sweet. The cork comes away with a soft pull. Afterward the fingers feel heavier than the work they were doing. The sweetness lingers in the room after the vial is closed."
 display_name = "Oil of Taggit"
 entity_def_id = "srd/item/oil-of-taggit"
 grants_capability_while_equipped = ""
@@ -460,6 +467,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The liquid is the color of weak tea and smells of dried herbs and a sickroom kettle. It leaves a thin film on the glass that does not rinse away at once. A sip is bitter, then merely dry. The vial looks ordinary until the light hits the residue. The residue smells stronger the next day than it did when poured."
 display_name = "Pale Tincture"
 entity_def_id = "srd/item/pale-tincture"
 grants_capability_while_equipped = ""
@@ -475,6 +483,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The vial is heavy for its size, and the liquid inside is a deep violet that stains the glass. It smells of turned earth and a hot, animal musk. A drop beads rather than spreads. The cork is waxed, as if someone did not trust the seal. Nobody sets this vial near a plate without thinking twice."
 display_name = "Purple Worm Poison"
 entity_def_id = "srd/item/purple-worm-poison"
 grants_capability_while_equipped = ""
@@ -490,6 +499,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A yellow-green liquid sits in a narrow vial and smells of crushed grass and something sharp underneath. It beads on the lip of the glass. A finger near the opening feels a faint sting that is not quite heat. The stopper is small and worn smooth. The yellow-green clings to the stopper in a thin ring."
 display_name = "Serpent Venom"
 entity_def_id = "srd/item/serpent-venom"
 grants_capability_while_equipped = ""
@@ -505,6 +515,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The vial is no bigger than a thumb, and the liquid inside is clear with a single dark thread that will not mix. It smells of dust and old webs. A drop on a blade looks like water until it dries to a faint gloss. The glass is cold. It would be easy to lose among ordinary sewing things, and hard to mistake once opened."
 display_name = "Spider's Sting"
 entity_def_id = "srd/item/spiders-sting"
 grants_capability_while_equipped = ""
@@ -520,6 +531,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The draught is thick and brown, and it smells of honey gone stale and a closed pantry. It pours slowly, leaving a trail on the cup. A sip sits heavy on the tongue. The hands that hold the vial want to set it down and not pick it up again."
 display_name = "Torpor"
 entity_def_id = "srd/item/torpor"
 grants_capability_while_equipped = ""
@@ -535,6 +547,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The liquid is clear and faintly sweet, with a smell like crushed mint and clean linen. It leaves no color in water. A swallow is mild, then the mouth feels oddly unwilling to hurry a sentence. The vial is plain glass, unmarked except for a nick on the lip that says it has been used before."
 display_name = "Truth Serum"
 entity_def_id = "srd/item/truth-serum"
 grants_capability_while_equipped = ""
@@ -550,6 +563,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The vial is dark glass, and the liquid inside moves like oil, leaving a green-black film. It smells of hot stone and a carcass left in the sun. A drop on metal bites the nose. The cork is blackened where it meets the neck. The film on the glass does not wipe clean with a thumb."
 display_name = "Wyvern Poison"
 entity_def_id = "srd/item/wyvern-poison"
 grants_capability_while_equipped = ""
@@ -676,30 +690,30 @@ target_ref = "srd/item/wyvern-poison"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = ""
+description = "A single dose of a harmful substance kept for later use. The label names how it is delivered. The rules for what it does live with the dose, not in this label."
 prefix = "srd"
 tag = "srd.item.poison"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = ""
+description = "This dose is meant to be smeared on a surface and left until bare skin meets it."
 prefix = "srd"
 tag = "srd.item.poison.contact"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = ""
+description = "This dose has to be swallowed, usually hidden in food or drink, before it can act."
 prefix = "srd"
 tag = "srd.item.poison.ingested"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = ""
+description = "This dose is a powder or vapor. A breath of the cloud is enough to meet it."
 prefix = "srd"
 tag = "srd.item.poison.inhaled"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = ""
+description = "This dose is meant for a blade or a point, and it waits there until a wound carries it in."
 prefix = "srd"
 tag = "srd.item.poison.injury"

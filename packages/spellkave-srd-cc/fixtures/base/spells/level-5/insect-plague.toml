@@ -96,6 +96,7 @@ tag = "srd.spell.list.sorcerer"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A bruise-dark cloud erupts in a roar of wings, each tiny body flashing like a hooked splinter in the light. The air turns dry with chitin, dust, and the bitter green scent of devoured leaves. Beneath its crawling shadow, every step becomes a struggle against a living tide that bites, clings, and blots out the ground."
 display_name = "Insect Plague"
 entity_def_id = "srd/spell/insect-plague"
 grants_capability_while_equipped = ""

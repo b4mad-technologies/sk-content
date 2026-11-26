@@ -84,6 +84,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "An unseen grasp closes across the air, answering thought with terrible precision. Stones drift like dust, iron hinges groan open, and armed foes may find the ground abandoning them beneath a silent, immovable will. In deft hands, the same force can turn a key, uncork a vial, or pluck a prized possession from trembling fingers."
 display_name = "Telekinesis"
 entity_def_id = "srd/spell/telekinesis"
 grants_capability_while_equipped = ""

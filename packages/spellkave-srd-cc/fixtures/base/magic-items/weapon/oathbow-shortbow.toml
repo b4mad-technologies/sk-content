@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Pale script winds along the limbs of this bow like frost on moonlit branches. When an arrow is set to its string, a breath of ancient elven hatred stirs in the wood, eager for a single face in the crowd. Once its vengeance is named, every other weapon feels strangely distant and dull."
 display_name = "Oathbow (Shortbow)"
 entity_def_id = "srd/magic_item/oathbow-shortbow"
 grants_capability_while_equipped = ""

@@ -24,6 +24,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Smaller than the stories, sturdier than the jokes. The pony's mane is tangled with burrs, and its eye is bright and unimpressed. It picks a path through stone that a taller mount would argue with, hooves sure and a little wicked. It will take a child or a stubborn adult and complain either way."
 display_name = "Pony"
 entity_def_id = "srd/item/pony"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its narrow blade drinks the warmth from the air, leaving frost-bright whispers along its edge. When it finds a living heartbeat, a shadowy pulse runs up the hilt and settles beneath the wielder’s skin like stolen summer. In still rooms, the sword seems to listen for breath."
 display_name = "Shortsword of Life Stealing"
 entity_def_id = "srd/magic_item/shortsword-of-life-stealing"
 grants_capability_while_equipped = ""

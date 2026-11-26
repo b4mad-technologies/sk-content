@@ -34,6 +34,7 @@ tag = "srd.tool"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Boot tips, a coil of cord, pitons that have already met stone. The harness smells of sweat and cold iron. Buckles bite if they are left loose. It is a kit that assumes the wall is not a suggestion. Chalk dust lives in every seam. The pitons are nicked, and proud of it."
 display_name = "Climber's Kit"
 entity_def_id = "srd/tool/climbers-kit"
 grants_capability_while_equipped = ""

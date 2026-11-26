@@ -36,6 +36,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The staff is a full walking length of pale wood, balanced so the center seems to move when the grip changes. It is far too long to hide in a hand. A turn of the wrist makes the far end whisper, and the feet want to follow that whisper onto a narrower footing. The grain smells of resin and a practice floor."
 display_name = "Quarterstaff of the Acrobat"
 entity_def_id = "srd/magic_item/quarterstaff-of-the-acrobat"
 grants_capability_while_equipped = ""

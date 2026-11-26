@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The glaive’s dark blade drinks torchlight, leaving a chill along the haft and a faint taste of iron in the air. With each clean sweep, a distant feline cry seems to echo beneath the clash of steel. Those who linger near it often feel their heartbeat counted by unseen claws."
 display_name = "Nine Lives Stealer (Glaive)"
 entity_def_id = "srd/magic_item/nine-lives-stealer-glaive"
 grants_capability_while_equipped = ""

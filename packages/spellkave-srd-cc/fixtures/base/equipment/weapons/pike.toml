@@ -89,7 +89,7 @@ tag = "srd.damage_type.piercing"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Pike — a martial melee weapon."
+description = "A pike is more a moving wall than a weapon, its long shaft demanding room, rhythm, and steady hands. When leveled with a rank of companions, its iron point becomes a distant, glittering threat, keeping claws and cavalry alike at the edge of reach."
 display_name = "Pike"
 entity_def_id = "srd/weapon/pike"
 grants_capability_while_equipped = ""

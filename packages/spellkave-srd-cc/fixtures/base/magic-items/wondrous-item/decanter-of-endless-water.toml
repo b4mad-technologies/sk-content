@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its glass is always cool, its belly forever murmuring with the hush of unseen tides. A whispered command and the vessel answers in moods ranging from a courteous pour to a roaring, salt-sprayed torrent. Even sealed, it carries the clean scent of rain on stone."
 display_name = "Decanter of Endless Water"
 entity_def_id = "srd/magic_item/decanter-of-endless-water"
 grants_capability_while_equipped = ""

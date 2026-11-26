@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale radiance gathers along this compact blade, warming the hand that grips its hilt and casting hard shadows from lurking things. Its edge hums softly in the presence of grave-cold malice, as though eager to cut through curses, sorcery, and unquiet flesh. Companions standing near its bearer find their courage steadied beneath its clear, sheltering glow."
 display_name = "Holy Avenger (Shortsword)"
 entity_def_id = "srd/magic_item/holy-avenger-shortsword"
 grants_capability_while_equipped = ""

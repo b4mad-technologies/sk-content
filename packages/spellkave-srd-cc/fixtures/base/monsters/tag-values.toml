@@ -10,264 +10,264 @@
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition tag as one of the SRD creature Size categories (playing-the-game.md § Combat > Movement and Position > Creature Size). This bundle's Creature.json dataset carries no Tiny creature, so only 5 of the 6 SRD size categories are represented as values under this prefix."
+description = "Marks a creature’s physical scale category. It helps determine the space it controls and how it interacts with movement and positioning."
 prefix = "srd"
 tag = "srd.size"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature entity definition as a Small creature."
+description = "A size category for creatures smaller than Medium. It affects how you occupy space and interact with size-based rules."
 prefix = "srd.size"
 tag = "srd.size.small"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature entity definition as a Medium creature."
+description = "A size category for creatures of ordinary humanoid scale. It helps determine the space you occupy and how other rules affect you."
 prefix = "srd.size"
 tag = "srd.size.medium"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature entity definition as a Large creature."
+description = "Marks a creature as Large, determining the space it occupies and how it interacts with size-based rules."
 prefix = "srd.size"
 tag = "srd.size.large"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature entity definition as a Huge creature."
+description = "Marks a creature as Huge, determining the space it occupies and how size-based rules affect it."
 prefix = "srd.size"
 tag = "srd.size.huge"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature entity definition as a Gargantuan creature."
+description = "Marks a creature as exceptionally large, affecting the space it occupies and how it interacts with its surroundings."
 prefix = "srd.size"
 tag = "srd.size.gargantuan"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition tag as a creature's SRD Challenge Rating (CR) — documentary only, no resource_definitions row: no DSL predicate reads CR today (ledger/designs/monsters-chapter-design.md §3)."
+description = "A creature’s challenge rating, used to indicate its relative threat in encounters. It is a reference label and does not affect play by itself."
 prefix = "srd"
 tag = "srd.cr"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature entity definition with Challenge Rating 0."
+description = "Marks a creature with no challenge rating value above zero. Use it to identify the least dangerous creature entries."
 prefix = "srd.cr"
 tag = "srd.cr.0"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature entity definition with Challenge Rating 1/8."
+description = "A label for a creature with a very low threat level, used to estimate its difficulty in an encounter."
 prefix = "srd.cr"
 tag = "srd.cr.1-8"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature entity definition with Challenge Rating 1/4."
+description = "A tag that identifies a creature with a low challenge rating, indicating its relative threat in play."
 prefix = "srd.cr"
 tag = "srd.cr.1-4"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature entity definition with Challenge Rating 1/2."
+description = "Identifies a creature entry with a challenge rating of one-half, indicating its relative threat in play."
 prefix = "srd.cr"
 tag = "srd.cr.1-2"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature entity definition with Challenge Rating 1."
+description = "A creature designation for encounters of moderate danger. It helps you judge how difficult that creature may be for an adventuring party."
 prefix = "srd.cr"
 tag = "srd.cr.1"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature entity definition with Challenge Rating 2."
+description = "Marks a creature as a moderate threat for encounter building and related rules."
 prefix = "srd.cr"
 tag = "srd.cr.2"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature entity definition with Challenge Rating 3."
+description = "A creature entry rated for a moderate encounter. Use it to gauge the threat it adds to a party."
 prefix = "srd.cr"
 tag = "srd.cr.3"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature entity definition with Challenge Rating 4."
+description = "Marks a creature designed as a moderate threat for a capable adventuring group. Use it to compare creature difficulty when building an encounter."
 prefix = "srd.cr"
 tag = "srd.cr.4"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature entity definition with Challenge Rating 5."
+description = "A label for creature definitions with a moderate level of threat. Use it to identify creatures rated at this challenge level."
 prefix = "srd.cr"
 tag = "srd.cr.5"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature entity definition with Challenge Rating 6."
+description = "A label for a creature built to challenge a typical group of adventurers at a moderate tier of play. Use it to gauge encounter difficulty alongside the rest of the group."
 prefix = "srd.cr"
 tag = "srd.cr.6"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature entity definition with Challenge Rating 7."
+description = "Identifies a creature designed as a significant threat for a capable adventuring party. Use it to gauge encounter difficulty alongside the rest of the group."
 prefix = "srd.cr"
 tag = "srd.cr.7"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature entity definition with Challenge Rating 8."
+description = "A label for a creature with a threat rating of 8. Use it to gauge the creature’s difficulty when building an encounter."
 prefix = "srd.cr"
 tag = "srd.cr.8"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature entity definition with Challenge Rating 9."
+description = "Marks a creature designed as a significant threat for an experienced adventuring party."
 prefix = "srd.cr"
 tag = "srd.cr.9"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature entity definition with Challenge Rating 10."
+description = "A label for a creature built to challenge a capable adventuring party. It helps you judge how dangerous the creature is when planning an encounter."
 prefix = "srd.cr"
 tag = "srd.cr.10"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature entity definition with Challenge Rating 11."
+description = "Identifies a creature built to challenge a capable adventuring party. It indicates the creature’s overall threat level when planning or running an encounter."
 prefix = "srd.cr"
 tag = "srd.cr.11"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature entity definition with Challenge Rating 12."
+description = "A label for a creature built to challenge a capable adventuring party. It helps the GM judge how dangerous that creature may be in combat."
 prefix = "srd.cr"
 tag = "srd.cr.12"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature entity definition with Challenge Rating 13."
+description = "Marks a creature as a significant threat for encounter building and other rules that compare creature difficulty."
 prefix = "srd.cr"
 tag = "srd.cr.13"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature entity definition with Challenge Rating 14."
+description = "Marks a creature built to challenge a capable adventuring group. Use it to gauge the creature’s relative threat when planning an encounter."
 prefix = "srd.cr"
 tag = "srd.cr.14"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature entity definition with Challenge Rating 15."
+description = "Identifies a creature built to challenge a well-equipped adventuring party. It indicates the creature’s overall threat level for encounter building."
 prefix = "srd.cr"
 tag = "srd.cr.15"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature entity definition with Challenge Rating 16."
+description = "A label for a creature built to challenge a capable adventuring party. It helps the GM judge how dangerous that creature may be in an encounter."
 prefix = "srd.cr"
 tag = "srd.cr.16"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature entity definition with Challenge Rating 17."
+description = "A label for a creature built as a high-threat opponent. It helps you gauge the danger it presents when planning encounters."
 prefix = "srd.cr"
 tag = "srd.cr.17"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature entity definition with Challenge Rating 19."
+description = "Marks a creature as a very dangerous foe. Use it to gauge the threat it may pose to an adventuring party."
 prefix = "srd.cr"
 tag = "srd.cr.19"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature entity definition with Challenge Rating 20."
+description = "A creature entry marked with a Challenge Rating of 20, indicating its expected threat level in an encounter."
 prefix = "srd.cr"
 tag = "srd.cr.20"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature entity definition with Challenge Rating 21."
+description = "Marks a creature designed as an extreme challenge for very powerful adventurers. Use it to gauge encounter difficulty and reward expectations."
 prefix = "srd.cr"
 tag = "srd.cr.21"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature entity definition with Challenge Rating 22."
+description = "A creature classification for especially dangerous foes. It helps the GM judge their threat when building an encounter."
 prefix = "srd.cr"
 tag = "srd.cr.22"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature entity definition with Challenge Rating 23."
+description = "A creature tag for opponents built to challenge an exceptionally powerful adventuring party."
 prefix = "srd.cr"
 tag = "srd.cr.23"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature entity definition with Challenge Rating 24."
+description = "A label for a creature built to challenge a very powerful adventuring group. It helps you judge how dangerous that creature may be in an encounter."
 prefix = "srd.cr"
 tag = "srd.cr.24"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature entity definition with Challenge Rating 30."
+description = "Marks a creature as having the highest standard threat rating. Use it to identify opponents intended for the most powerful adventuring groups."
 prefix = "srd.cr"
 tag = "srd.cr.30"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature entity definition's combat-role brain (`@spellkave/adventure-runtime/npc-kinds` combat-role presets; elven-mini-storyline.md §6). Documentary + seat-factory selection; no DSL predicate reads this family today."
+description = "A label that identifies a creature’s combat role and behavior preset. It helps select the creature’s tactical approach when it is created."
 prefix = "srd"
 tag = "srd.creature.role"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Selects the content-free 'skirmisher' combat-role brain for this creature definition."
+description = "Marks a creature as a mobile combatant that relies on movement and positioning during a fight."
 prefix = "srd.creature.role"
 tag = "srd.creature.role.skirmisher"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Selects the content-free 'archer' combat-role brain for this creature definition."
+description = "Marks this creature as a ranged combatant. Use it to assign archer behavior when the creature acts."
 prefix = "srd.creature.role"
 tag = "srd.creature.role.archer"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Selects the content-free 'brute' combat-role brain for this creature definition."
+description = "Marks this creature as a straightforward melee combatant. Its combat behavior favors direct attacks and closing with enemies."
 prefix = "srd.creature.role"
 tag = "srd.creature.role.brute"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Selects the content-free 'leader' combat-role brain for this creature definition."
+description = "Marks this creature as a combat leader. Use it to assign leader-focused behavior when building or running the creature."
 prefix = "srd.creature.role"
 tag = "srd.creature.role.leader"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Selects the content-free 'lurker' combat-role brain for this creature definition."
+description = "Marks this creature as a lurking combat role. It uses the lurker behavior profile when its actions are run."
 prefix = "srd.creature.role"
 tag = "srd.creature.role.lurker"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Selects the content-free 'undead-tide' combat-role brain for this creature definition."
+description = "Marks this creature as using the undead tide combat role when it takes part in combat."
 prefix = "srd.creature.role"
 tag = "srd.creature.role.undead-tide"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Selects the content-free 'caster-boss' combat-role brain for this creature definition."
+description = "Marks this creature as a powerful spellcasting opponent. Its combat behavior prioritizes using magic to control the fight and threaten the party."
 prefix = "srd.creature.role"
 tag = "srd.creature.role.caster-boss"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Selects the content-free 'healer' combat-role brain for this creature definition."
+description = "Marks this creature as a healer in combat, guiding it to prioritize supporting and restoring allies."
 prefix = "srd.creature.role"
 tag = "srd.creature.role.healer"

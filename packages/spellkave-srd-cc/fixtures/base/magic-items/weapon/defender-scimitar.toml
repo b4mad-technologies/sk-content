@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its curved steel carries a quiet, watchful gleam, as though every polished inch remembers the shape of a warding hand. In motion, the blade seems to choose between hungry precision and a broader, sheltering arc, its balance shifting with the wielder’s intent. A faint hush follows each guard, like rain striking a drawn curtain."
 display_name = "Defender (Scimitar)"
 entity_def_id = "srd/magic_item/defender-scimitar"
 grants_capability_while_equipped = ""

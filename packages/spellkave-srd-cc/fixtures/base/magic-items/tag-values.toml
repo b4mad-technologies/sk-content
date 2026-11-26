@@ -5,43 +5,43 @@
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as an SRD magic item."
+description = "A label for an item with magical properties and rules for using it."
 prefix = "srd"
 tag = "srd.magic_item"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a magic item that requires attunement (magic-items.md § Attunement)."
+description = "A magic item with this tag must be attuned to you before you can use its magical properties."
 prefix = "srd"
 tag = "srd.magic_item.attunement.required"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a magic item that does not require attunement."
+description = "A magic item you can use without forming a special bond with it."
 prefix = "srd"
 tag = "srd.magic_item.attunement.none"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a magic item whose description documents a charge pool (magic-items.md § Charges)."
+description = "Marks a magic item with a limited pool of stored power. Its description explains how you spend and restore that power."
 prefix = "srd"
 tag = "srd.magic_item.charges"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a +1 magic weapon or armor."
+description = "Marks a magic weapon or armor with a small enhancement to its combat effectiveness."
 prefix = "srd"
 tag = "srd.magic_item.bonus.plus_1"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a +2 magic weapon or armor."
+description = "A magic weapon or suit of armor with a +2 bonus. Its enchantment improves your attacks or defenses while you use it."
 prefix = "srd"
 tag = "srd.magic_item.bonus.plus_2"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a +3 magic weapon or armor."
+description = "A magic weapon or suit of armor with a powerful enhancement. Its magic improves the attacks or protection it provides."
 prefix = "srd"
 tag = "srd.magic_item.bonus.plus_3"
 
@@ -59,90 +59,90 @@ tag = "srd.magic_item.rarity.varies"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a magic item in the armor category (magic-items.md § Magic Item Categories)."
+description = "A magic item worn as protective gear. Its properties apply while you wear it."
 prefix = "srd"
 tag = "srd.magic_item.category.armor"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a magic item in the potion category (magic-items.md § Magic Item Categories)."
+description = "A magic item meant to be consumed or applied for a temporary effect. You use it as described in its item entry."
 prefix = "srd"
 tag = "srd.magic_item.category.potion"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a magic item in the ring category (magic-items.md § Magic Item Categories)."
+description = "A magic item worn on a finger. You use it according to the magic it holds."
 prefix = "srd"
 tag = "srd.magic_item.category.ring"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a magic item in the rod category (magic-items.md § Magic Item Categories)."
+description = "A magic item shaped for use as a rod. It follows the rules for magic items and any properties described in its entry."
 prefix = "srd"
 tag = "srd.magic_item.category.rod"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a magic item in the staff category (magic-items.md § Magic Item Categories)."
+description = "A magic item shaped and used as a staff. It follows the rules for magic items in the staff category."
 prefix = "srd"
 tag = "srd.magic_item.category.staff"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a magic item in the wand category (magic-items.md § Magic Item Categories)."
+description = "A magic item made to channel magical effects. You use it as described in its individual rules."
 prefix = "srd"
 tag = "srd.magic_item.category.wand"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a magic item in the weapon category (magic-items.md § Magic Item Categories)."
+description = "Identifies a magic item made to be used in combat as a weapon. It follows the rules for magic weapons and any properties listed in its description."
 prefix = "srd"
 tag = "srd.magic_item.category.weapon"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a magic item in the wondrous item category (magic-items.md § Magic Item Categories)."
+description = "A magic item with an unusual form or effect that does not fit another item category."
 prefix = "srd"
 tag = "srd.magic_item.category.wondrous_item"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a common magic item (magic-items.md § Magic Item Rarity)."
+description = "A rarity label for magic items that are widely available and usually have simple effects."
 prefix = "srd"
 tag = "srd.magic_item.rarity.common"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a uncommon magic item (magic-items.md § Magic Item Rarity)."
+description = "Marks a magic item as uncommon, indicating its relative scarcity and typical availability in play."
 prefix = "srd"
 tag = "srd.magic_item.rarity.uncommon"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a rare magic item (magic-items.md § Magic Item Rarity)."
+description = "Marks a magic item as rare, placing it among the less common and more valuable magical treasures."
 prefix = "srd"
 tag = "srd.magic_item.rarity.rare"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a very rare magic item (magic-items.md § Magic Item Rarity)."
+description = "Marks a magic item as exceptionally uncommon and difficult to find. Its rarity helps the GM judge how often it appears in treasure or trade."
 prefix = "srd"
 tag = "srd.magic_item.rarity.very_rare"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a legendary magic item (magic-items.md § Magic Item Rarity)."
+description = "A legendary magic item is exceptionally rare and powerful. Its rarity helps determine its value, availability, and the kind of adventures needed to find it."
 prefix = "srd"
 tag = "srd.magic_item.rarity.legendary"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a artifact magic item (magic-items.md § Magic Item Rarity)."
+description = "A magic item of exceptional power and rarity. It is usually unique and may carry abilities or drawbacks beyond ordinary enchanted gear."
 prefix = "srd"
 tag = "srd.magic_item.rarity.artifact"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a roll_tables row as an SRD loot/treasure draw table."
+description = "Marks a table used to generate treasure or other rewards. You roll on it when the rules call for a loot draw."
 prefix = "srd"
 tag = "srd.loot_table"

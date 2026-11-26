@@ -82,6 +82,7 @@ tag = "srd.spell.list.paladin"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A warm, clear radiance settles over the chosen heart, steady as a banner in a windless hall. Dread finds no purchase there; every threatening shadow seems smaller, every roar more distant. With each breath, fresh resolve gathers beneath the skin, carrying the bearer forward through peril with a hero’s unshaken stride."
 display_name = "Heroism"
 entity_def_id = "srd/spell/heroism"
 grants_capability_while_equipped = ""
@@ -108,7 +109,7 @@ target_ref = "srd/spell/heroism"
 action_id = "srd/spell/heroism/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Heroism — a spell action."
+description = "You cast the heroism spell, granting a willing creature courage and temporary protection against fear."
 display_name = "Cast Heroism"
 non_steering = true
 on_failure = ""

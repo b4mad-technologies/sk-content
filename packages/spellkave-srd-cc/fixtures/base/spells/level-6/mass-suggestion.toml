@@ -84,6 +84,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A calm command slips into the air like silk over steel, carrying the warm certainty of a thought long held. Faces soften, weapons lower, and a scattered crowd finds sudden purpose in the same simple errand. For a while, the spoken path seems not imposed, but obvious—the sensible thing everyone had meant to do all along."
 display_name = "Mass Suggestion"
 entity_def_id = "srd/spell/mass-suggestion"
 grants_capability_while_equipped = ""

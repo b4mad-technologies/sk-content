@@ -78,6 +78,7 @@ tag = "srd.spell.list.bard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A silken command slips beneath thought, turning certainty into a distant, muffled thing. At a gesture, unwilling feet find a common course, each traveler drifting along the safest path as though the world itself has quietly rearranged its urgencies. The spell’s hold feels less like chains than a persuasive tide, forever urging minds toward escape."
 display_name = "Compulsion"
 entity_def_id = "srd/spell/compulsion"
 grants_capability_while_equipped = ""

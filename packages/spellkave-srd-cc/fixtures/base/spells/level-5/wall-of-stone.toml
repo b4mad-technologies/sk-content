@@ -96,6 +96,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "With a grinding roar, the earth answers a shaping hand, thrusting up a barricade of fresh-hewn rock. Dust rolls through the air as impossible arches, ramps, and rugged parapets knit themselves to cliff and ruin alike. For a brief, breathless while, the battlefield belongs to whoever can command the stone."
 display_name = "Wall of Stone"
 entity_def_id = "srd/spell/wall-of-stone"
 grants_capability_while_equipped = ""

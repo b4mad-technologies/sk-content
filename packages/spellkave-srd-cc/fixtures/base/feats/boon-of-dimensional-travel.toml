@@ -18,6 +18,7 @@ tag = "srd.feat.epic_boon"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Space loosens around the seasoned traveler like a curtain caught in a sudden draft. Between blade-swing and spellflare, the world offers a brief, silent shortcut—one heartbeat here, the next beyond a barricade, a chasm, or an enemy’s grasp. Their passage leaves only stirred dust and the uneasy sense that distance has forgotten its purpose."
 display_name = "Boon of Dimensional Travel"
 entity_def_id = "srd/feat/boon-of-dimensional-travel"
 grants_capability_while_equipped = ""

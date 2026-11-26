@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Pale light gathers along the slim tube, turning each breath through it into a whispered vow. Its darts leave trailing threads of dawn that cling to grave-born shadows and infernal smoke alike. Held ready, the weapon surrounds its bearer and nearby companions with the hush of a consecrated sanctuary."
 display_name = "Holy Avenger (Blowgun)"
 entity_def_id = "srd/magic_item/holy-avenger-blowgun"
 grants_capability_while_equipped = ""

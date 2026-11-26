@@ -88,6 +88,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale, weightless hand gathers from motes of light and drifting dust, its fingers moving with the caster’s quiet intent. It glides through the air with uncanny delicacy, lifting a latch, drawing a cork, or plucking some small prize from beyond safer reach. For a fleeting moment, the unseen servant’s touch makes distance feel negotiable."
 display_name = "Mage Hand"
 entity_def_id = "srd/spell/mage-hand"
 grants_capability_while_equipped = ""
@@ -115,7 +116,7 @@ target_ref = "srd/spell/mage-hand"
 action_id = "srd/spell/mage-hand/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Mage Hand — a spell action."
+description = "You cast the spell, creating a spectral hand that can manipulate objects at a distance."
 display_name = "Cast Mage Hand"
 non_steering = true
 on_failure = ""

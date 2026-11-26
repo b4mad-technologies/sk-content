@@ -78,6 +78,7 @@ tag = "srd.spell.list.druid"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Moonlit pollen gathers into a graceful stranger with antlers, petals, or eyes too bright to meet for long. It slips between shadows in a heartbeat, leaving cold laughter and the scent of rain-soaked leaves behind. Wherever it turns its gaze, courage buckles beneath the weight of old forests and untamed dreams."
 display_name = "Conjure Fey"
 entity_def_id = "srd/spell/conjure-fey"
 grants_capability_while_equipped = ""

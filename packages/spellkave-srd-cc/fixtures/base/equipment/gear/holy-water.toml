@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A stoppered glass vial holds water that catches the light with an almost dawnlike clarity. Its chill seeps through the palm, carrying the clean scent of rain on old stone and a faint, ringing hush when the seal is broken. Even in a smoke-dark hall, the liquid seems reluctant to lose its pale gleam."
 display_name = "Holy Water"
 entity_def_id = "srd/item/holy-water"
 grants_capability_while_equipped = ""

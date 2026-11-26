@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A thumb-sized kit of hard stone, dark steel, and oil-scented scraps, kept close against damp and cold. Its contents rattle softly in a pocket, promising a bright spark when camp grows dim. Even in rain-muted woods, the practiced strike carries a small, sharp hope."
 display_name = "Tinderbox"
 entity_def_id = "srd/item/tinderbox"
 grants_capability_while_equipped = ""

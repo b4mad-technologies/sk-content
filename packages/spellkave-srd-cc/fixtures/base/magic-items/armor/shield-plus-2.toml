@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Moon-pale sigils drift across its battered face like reflections on deep water, then vanish when no one is watching. In the hand, it carries the steady assurance of a castle gate barred against a storm. Blows seem to hesitate at its rim, as though the air itself has learned caution."
 display_name = "Shield (+2)"
 entity_def_id = "srd/magic_item/shield-plus-2"
 grants_capability_while_equipped = ""

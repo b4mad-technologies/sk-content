@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Overlapping steel bands close around the wearer with a grave, deliberate weight, each rivet faintly alive to some hidden peril. When danger of its chosen kind draws near, the armor answers with a hush of unnatural calm: frost smokes, sparks crawl, shadows recoil, or distant thunder seems to strike behind a wall."
 display_name = "Armor of Resistance (Splint)"
 entity_def_id = "srd/magic_item/armor-of-resistance-splint"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Bound in soft blue leather, this slender volume seems to warm beneath attentive fingers. Its pages carry the faint scent of ink, cedar smoke, and crowded halls after rain, while every measured phrase suggests the precise moment when silence turns in one’s favor. Long study leaves the reader’s voice tempered like silver: calm, bright, and difficult to refuse."
 display_name = "Tome of Leadership and Influence"
 entity_def_id = "srd/magic_item/tome-of-leadership-and-influence"
 grants_capability_while_equipped = ""

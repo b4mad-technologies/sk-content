@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its pale shaft bears a hush like winter starlight, and its point seems to lean toward a foe no mortal eye has marked. In the presence of its appointed quarry, the air tightens around it with grave, radiant purpose. Once loosed, its borrowed splendor gutters away, leaving only an ordinary remnant behind."
 display_name = "Ammunition of Celestial Slaying"
 entity_def_id = "srd/magic_item/ammunition-of-celestial-slaying"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The curved blade seems impatient even at rest, its keen edge whispering against the air with a sound like silk drawn through rings. In the hand, it lends every motion a sudden, exhilarating lightness, urging the wielder onward before the last stroke has finished. Its polished steel catches torchlight in quicksilver flashes, forever poised for the next opening."
 display_name = "Scimitar of Speed"
 entity_def_id = "srd/magic_item/scimitar-of-speed"
 grants_capability_while_equipped = ""

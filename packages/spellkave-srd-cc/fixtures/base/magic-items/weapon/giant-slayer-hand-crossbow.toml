@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its compact limbs hum with a stubborn force, as though every bolt remembers the weight of towering foes. The stock is worn smooth by steady hands, and its drawn string carries the sharp scent of storm-struck wood. Against enormous shadows, it seems to find the surest seam in armor and sinew."
 display_name = "Giant Slayer (Hand Crossbow)"
 entity_def_id = "srd/magic_item/giant-slayer-hand-crossbow"
 grants_capability_while_equipped = ""

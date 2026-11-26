@@ -1,0 +1,24 @@
+{
+	"schema": "spellkave-design-asset-provenance/v1",
+	"provider": "pixellab-pixen",
+	"prompt": "Ironfold Tomb Key. The key Durgan kept — opens the deep tomb.. Single item icon, no wielder, no hands, object only, centered. Theme-neutral Spellkave pixel art: mid-contrast cream, charcoal, muted gold, forest, and rust. Selective outline, basic-to-medium shading, no gloss or bloom. Transparent background, no frame, no baked scenery, no letters, words, numerals, logo, watermark, photorealism, or D&D branding. Centered, native pixel size.",
+	"style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+	"provenance": {
+		"license": "CC-BY-4.0",
+		"source": "Elven Mini remaining cast and items (entity-art-v1 Pixen + reduce-colors)"
+	},
+	"usage": {
+		"type": "generations",
+		"generations": 1.1
+	},
+	"generated_at": "2026-09-07T15:08:48.403Z",
+	"source_manifest": "packages/spellkave-adventure-elven-mini/art/art-manifest.json",
+	"sha256": "bceddf225e6ca048dc51abf20587000c20453cccd5bbde96e15853cb865b293c",
+	"target_attachment_ref": "entity_definition:elven_mini/adventure/item/tomb_key#elven_mini.art.image",
+	"kind": "item",
+	"entry_id": "ironfold-tomb-key",
+	"provider_ids": {
+		"api_base_url": "https://api.pixellab.ai/v2",
+		"route": "/create-image-pixen"
+	}
+}

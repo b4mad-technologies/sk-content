@@ -82,6 +82,7 @@ tag = "srd.damage_type.cold"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale lance of winter flashes from the caster’s hand, leaving frost drifting in its wake. Where it strikes, breath catches and rime races across cloth, steel, and skin, stealing momentum with a sudden, biting chill."
 display_name = "Ray of Frost"
 entity_def_id = "srd/spell/ray-of-frost"
 grants_capability_while_equipped = ""
@@ -108,7 +109,7 @@ target_ref = "srd/spell/ray-of-frost"
 action_id = "srd/spell/ray-of-frost/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Ray of Frost — a spell action."
+description = "You cast a chilling ray at a creature within range, making a spell attack. On a hit, it takes cold damage and its speed is reduced briefly."
 display_name = "Cast Ray of Frost"
 non_steering = true
 on_failure = "srd/spell/ray-of-frost/cast/miss"

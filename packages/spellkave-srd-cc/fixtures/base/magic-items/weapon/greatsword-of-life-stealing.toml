@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its darkened blade drinks the warmth from the air, leaving frost along the guard and a hush in its wake. In battle, a perfect stroke draws more than blood: a fleeting vigor courses through the wielder’s limbs as the fallen enemy’s final heat gutters out."
 display_name = "Greatsword of Life Stealing"
 entity_def_id = "srd/magic_item/greatsword-of-life-stealing"
 grants_capability_while_equipped = ""

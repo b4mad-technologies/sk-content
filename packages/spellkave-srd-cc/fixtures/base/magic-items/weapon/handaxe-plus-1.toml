@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A faint silver gleam clings to the handaxe’s edge even in rain or torchsmoke. Its compact head seems eager in the grip, balancing each swing with a sure, clean hunger. When it strikes wood, shield, or stone, the ringing note lingers like a promise kept."
 display_name = "Handaxe (+1)"
 entity_def_id = "srd/magic_item/handaxe-plus-1"
 grants_capability_while_equipped = ""

@@ -24,6 +24,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Oars in long rows, a drum somewhere forward, and a deck that never quite dries. The galley smells of pitch, sweat, and salt. When the blades bite, the whole ship leans into the stroke like a single animal. The rowers' benches are polished by years of the same motion. Bilgewater finds every bare ankle."
 display_name = "Galley"
 entity_def_id = "srd/item/galley"
 grants_capability_while_equipped = ""

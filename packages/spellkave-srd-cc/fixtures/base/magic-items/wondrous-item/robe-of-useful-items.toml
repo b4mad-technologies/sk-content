@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A motley quilt of bright cloth shapes clings to this travel-stained robe, each one strangely crisp beneath the fingertips. A tug at the right seam can turn an embroidered convenience into a startlingly solid answer to trouble. As the little tokens vanish, the garment grows quieter, plainer, and faintly wistful."
 display_name = "Robe of Useful Items"
 entity_def_id = "srd/magic_item/robe-of-useful-items"
 grants_capability_while_equipped = ""

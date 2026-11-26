@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale spiral coils along each shaft or blade, seeming to stir when draconic breath hangs in the air. Drawn across the fingers, the ammunition carries a faint scent of storm-scorched stone and old scales. Its purpose feels patient and absolute, as though it has waited centuries for a single beating pair of wings."
 display_name = "Ammunition of Dragon Slaying"
 entity_def_id = "srd/magic_item/ammunition-of-dragon-slaying"
 grants_capability_while_equipped = ""

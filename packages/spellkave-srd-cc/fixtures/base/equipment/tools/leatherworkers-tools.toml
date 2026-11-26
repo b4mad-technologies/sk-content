@@ -40,6 +40,7 @@ tag = "srd.tool.category.artisan"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A crescent knife, waxed thread, stout needles, and polished awls rest in a roll that smells of smoke, oil, and cured hide. In practiced hands, stiff skins soften into straps, pouches, and protective layers, each seam drawn tight with a steady pull. Fresh-cut leather carries the promise of road dust, rainstorms, and long service."
 display_name = "Leatherworker's Tools"
 entity_def_id = "srd/tool/leatherworkers-tools"
 grants_capability_while_equipped = ""

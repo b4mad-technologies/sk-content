@@ -34,6 +34,7 @@ tag = "srd.difficulty_class"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "The target you must meet or exceed when you make an Acrobatics check. The DM sets it based on the task’s difficulty."
 display_name = "Check: Acrobatics — DC override"
 initial_value = 0
 max_value = 30
@@ -52,6 +53,7 @@ tag = "srd.difficulty_class"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "The target number you must meet or exceed when you make an ability check or saving throw."
 display_name = "Check: Animal Handling — DC override"
 initial_value = 0
 max_value = 30
@@ -70,6 +72,7 @@ tag = "srd.difficulty_class"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "The target number you must meet or exceed when you make an ability check or saving throw."
 display_name = "Check: Arcana — DC override"
 initial_value = 0
 max_value = 30
@@ -88,6 +91,7 @@ tag = "srd.difficulty_class"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "The target number you must meet or exceed when you make an ability check or saving throw."
 display_name = "Check: Athletics — DC override"
 initial_value = 0
 max_value = 30
@@ -106,6 +110,7 @@ tag = "srd.difficulty_class"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "A target number for an ability check or saving throw. You succeed when your result meets or exceeds it."
 display_name = "Check: Charisma (raw ability) — DC override"
 initial_value = 0
 max_value = 30
@@ -124,6 +129,7 @@ tag = "srd.difficulty_class"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "The target number you must meet or exceed on an ability check or saving throw."
 display_name = "Check: Constitution (raw ability) — DC override"
 initial_value = 0
 max_value = 30
@@ -142,6 +148,7 @@ tag = "srd.difficulty_class"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "The target number you must meet or exceed on an ability check or saving throw to succeed."
 display_name = "Check: Deception — DC override"
 initial_value = 0
 max_value = 30
@@ -160,6 +167,7 @@ tag = "srd.difficulty_class"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "The target number you must meet or exceed on an ability check or saving throw to succeed."
 display_name = "Check: Dexterity (raw ability) — DC override"
 initial_value = 0
 max_value = 30
@@ -178,6 +186,7 @@ tag = "srd.difficulty_class"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "The target number you must meet or exceed on a History check to succeed. The DM sets it based on how difficult the task is."
 display_name = "Check: History — DC override"
 initial_value = 0
 max_value = 30
@@ -196,6 +205,7 @@ tag = "srd.difficulty_class"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "The target number you must meet or exceed on an ability check or saving throw to succeed."
 display_name = "Check: Insight — DC override"
 initial_value = 0
 max_value = 30
@@ -214,6 +224,7 @@ tag = "srd.difficulty_class"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "The target number you must meet or exceed on an ability check or saving throw."
 display_name = "Check: Intelligence (raw ability) — DC override"
 initial_value = 0
 max_value = 30
@@ -232,6 +243,7 @@ tag = "srd.difficulty_class"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "The target number you must meet or exceed when you make an Intimidation check. The GM sets it based on how difficult the attempt is."
 display_name = "Check: Intimidation — DC override"
 initial_value = 0
 max_value = 30
@@ -250,6 +262,7 @@ tag = "srd.difficulty_class"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "The target you must meet or beat on an Investigation check to succeed. The GM sets it based on how difficult the task is."
 display_name = "Check: Investigation — DC override"
 initial_value = 0
 max_value = 30
@@ -268,6 +281,7 @@ tag = "srd.difficulty_class"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "The target number you must meet or exceed when you make an ability check or saving throw."
 display_name = "Check: Medicine — DC override"
 initial_value = 0
 max_value = 30
@@ -286,6 +300,7 @@ tag = "srd.difficulty_class"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "The target number you must meet or exceed on an ability check or saving throw to succeed."
 display_name = "Check: Nature — DC override"
 initial_value = 0
 max_value = 30
@@ -304,6 +319,7 @@ tag = "srd.difficulty_class"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "The target number you must meet or exceed when you make an ability check or saving throw."
 display_name = "Check: Perception — DC override"
 initial_value = 0
 max_value = 30
@@ -322,6 +338,7 @@ tag = "srd.difficulty_class"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "The target you must meet or exceed when making an ability check or saving throw. The DM sets it based on how difficult the task or hazard is."
 display_name = "Check: Performance — DC override"
 initial_value = 0
 max_value = 30
@@ -340,6 +357,7 @@ tag = "srd.difficulty_class"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "The target number you must meet or exceed on a Persuasion check to succeed. The DM sets it based on how difficult the request is."
 display_name = "Check: Persuasion — DC override"
 initial_value = 0
 max_value = 30
@@ -358,6 +376,7 @@ tag = "srd.difficulty_class"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "The target you must meet or exceed on a Religion check. The DM sets it based on how difficult the question or task is."
 display_name = "Check: Religion — DC override"
 initial_value = 0
 max_value = 30
@@ -376,6 +395,7 @@ tag = "srd.difficulty_class"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "The target number for a Sleight of Hand check. You succeed if your check meets or exceeds it."
 display_name = "Check: Sleight Of Hand — DC override"
 initial_value = 0
 max_value = 30
@@ -394,6 +414,7 @@ tag = "srd.difficulty_class"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "The target number you must meet or exceed on a Stealth check to avoid being noticed. The DM sets it based on how hard it is to stay hidden."
 display_name = "Check: Stealth — DC override"
 initial_value = 0
 max_value = 30
@@ -412,6 +433,7 @@ tag = "srd.difficulty_class"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "The target number you must meet or exceed when you make an ability check or saving throw."
 display_name = "Check: Strength (raw ability) — DC override"
 initial_value = 0
 max_value = 30
@@ -430,6 +452,7 @@ tag = "srd.difficulty_class"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "The target number you must meet or exceed when you make an ability check or saving throw."
 display_name = "Check: Survival — DC override"
 initial_value = 0
 max_value = 30
@@ -448,6 +471,7 @@ tag = "srd.difficulty_class"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "The target number you must meet or exceed when you make an ability check or saving throw."
 display_name = "Check: Wisdom (raw ability) — DC override"
 initial_value = 0
 max_value = 30

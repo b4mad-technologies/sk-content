@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The bow’s dark wood bears pale, thornlike veins beneath a flawless polish. When its string is drawn, the air tightens with a hungry hush, and each loosed arrow seems to carry the weapon’s old, merciless intent. Those who witness its strikes often hear a faint crack like winter branches snapping."
 display_name = "Vicious Longbow"
 entity_def_id = "srd/magic_item/vicious-longbow"
 grants_capability_while_equipped = ""

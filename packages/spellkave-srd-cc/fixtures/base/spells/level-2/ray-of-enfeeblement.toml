@@ -82,6 +82,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A wan gray lance slips through the air, carrying the chill of spent graves and winter-bare bones. Where it settles, muscle remembers fatigue: weapon arms tremble, claws lose their certainty, and every exertion feels like lifting against deep water. The victim’s strength does not vanish at once—it simply turns traitor beneath its skin."
 display_name = "Ray of Enfeeblement"
 entity_def_id = "srd/spell/ray-of-enfeeblement"
 grants_capability_while_equipped = ""
@@ -109,7 +110,7 @@ target_ref = "srd/spell/ray-of-enfeeblement"
 action_id = "srd/spell/ray-of-enfeeblement/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Ray of Enfeeblement — a spell action."
+description = "You cast a spell that weakens a creature you can see, reducing the force of its weapon attacks for a short time."
 display_name = "Cast Ray of Enfeeblement"
 non_steering = true
 on_failure = "srd/spell/ray-of-enfeeblement/cast/success"
@@ -143,7 +144,7 @@ template_id = "srd/spell/ray-of-enfeeblement/cast/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/spell/enfeebled"
-description = "Ray of Enfeeblement — a spell condition."
+description = "A weakening magical effect that reduces the damage you deal with Strength-based weapon attacks. It lasts until the spell ends or the effect is removed."
 display_name = "Ray of Enfeeblement"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

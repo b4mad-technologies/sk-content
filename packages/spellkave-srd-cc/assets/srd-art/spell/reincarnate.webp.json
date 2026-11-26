@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "pixellab-pixen",
+  "prompt": "Reincarnate. Glowing cocoon cracked open around a spiraling soul sigil. Isolated spell glyph of the magical effect itself, one symbol, no caster, no creature, no scenery, no weapon, no letters, centered. Theme-neutral Spellkave pixel art: mid-contrast cream, charcoal, muted gold, forest, and rust. Selective outline, basic-to-medium shading, no gloss or bloom. Transparent background, no frame, no baked scenery, no letters, words, numerals, logo, watermark, photorealism, or D&D branding. Centered, native pixel size.",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 1.1
+  },
+  "generated_at": "2026-09-24T09:15:43.557Z",
+  "source_manifest": ".local/glyph-burn2-art/manifest.json",
+  "sha256": "e25d6ed220b00de1e6a91db62310d1426a285f6f1a99680658df2aadaea5e433",
+  "target_attachment_ref": "srd/spell/reincarnate#srd.art.image",
+  "kind": "spell",
+  "entry_id": "spell-reincarnate",
+  "provider_ids": {
+    "api_base_url": "https://api.pixellab.ai/v2",
+    "route": "/create-image-pixen"
+  }
+}

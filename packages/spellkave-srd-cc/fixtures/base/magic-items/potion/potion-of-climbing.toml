@@ -44,6 +44,7 @@ tag = "srd.consumable"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Within the glass, unmoving strata of brown, silver, and slate cling to one another like a mountainside caught in miniature. The cork carries the cold scent of rain on old stone. Once opened, the draught leaves a gritty brightness on the tongue and a restless pull in the hands, as though every wall has suddenly revealed its hidden holds."
 display_name = "Potion of Climbing"
 entity_def_id = "srd/magic_item/potion-of-climbing"
 grants_capability_while_equipped = ""
@@ -84,7 +85,7 @@ template_id = "srd/magic_item/potion-of-climbing/consume/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/magic_item/potion-of-climbing"
-description = "Gain Climb Speed equal to Speed and Advantage on Strength (Athletics) checks to climb for 1 hour (magic-items.md § Potion of Climbing)."
+description = "For 1 hour, you gain a climbing speed equal to your speed and have advantage on Strength (Athletics) checks you make to climb."
 display_name = "Potion of Climbing"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

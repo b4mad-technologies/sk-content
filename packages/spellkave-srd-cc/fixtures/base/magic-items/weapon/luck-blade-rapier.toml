@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale gleam follows the rapier’s edge even in the dark, as though chance itself has taken a liking to polished steel. Its balance is uncannily reassuring, turning near disaster into a breathless pause before fortune changes course. Beneath the guard, a faint warmth lingers—an invitation to ask the impossible of the world."
 display_name = "Luck Blade (Rapier)"
 entity_def_id = "srd/magic_item/luck-blade-rapier"
 grants_capability_while_equipped = ""

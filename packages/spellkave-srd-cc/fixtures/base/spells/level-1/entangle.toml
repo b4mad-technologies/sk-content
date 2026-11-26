@@ -82,6 +82,7 @@ tag = "srd.spell.list.ranger"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "At a whispered summons, the earth answers with a sudden riot of roots, thorned creepers, and green tendrils. They coil around boots and ankles with patient, living insistence, turning open ground into a snarled patch of wilderness. For a breath, the land itself seems to remember it was never meant to be crossed without permission."
 display_name = "Entangle"
 entity_def_id = "srd/spell/entangle"
 grants_capability_while_equipped = ""
@@ -109,7 +110,7 @@ target_ref = "srd/spell/entangle"
 action_id = "srd/spell/entangle/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Entangle — a spell action."
+description = "You cast the Entangle spell, using its casting time and components to restrain creatures and hinder movement in its area."
 display_name = "Cast Entangle"
 non_steering = true
 on_failure = "srd/spell/entangle/cast/success"

@@ -10,120 +10,120 @@
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Languages known at character creation."
+description = "The languages you can speak, read, and write. You choose them when you create your character."
 prefix = "srd"
 tag = "srd.language"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Common — a standard language."
+description = "A widely spoken language used for everyday conversation, trade, and communication among many peoples."
 prefix = "srd.language"
 tag = "srd.language.common"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Common Sign Language — a standard language."
+description = "A widely used visual language expressed through hand signs, gestures, and body movement. You can use it to communicate with others who know it."
 prefix = "srd.language"
 tag = "srd.language.common-sign-language"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Draconic — a standard language."
+description = "A language used in speech and writing. You can communicate with others who know it."
 prefix = "srd.language"
 tag = "srd.language.draconic"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Dwarvish — a standard language."
+description = "A standard language you can speak, read, and write if you know it."
 prefix = "srd.language"
 tag = "srd.language.dwarvish"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Elvish — a standard language."
+description = "A standard language used by elves and others who learn it. You can speak, read, and write it if you know the language."
 prefix = "srd.language"
 tag = "srd.language.elvish"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Giant — a standard language."
+description = "A language used by giants and others who learn their speech. You can speak, read, and write it."
 prefix = "srd.language"
 tag = "srd.language.giant"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Gnomish — a standard language."
+description = "A language commonly used by gnomes. You can speak, read, and write it."
 prefix = "srd.language"
 tag = "srd.language.gnomish"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Goblin — a standard language."
+description = "A standard language spoken by goblins and others who learn it. You can speak, read, and write it if you know the language."
 prefix = "srd.language"
 tag = "srd.language.goblin"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Halfling — a standard language."
+description = "A language spoken by halflings. You can speak, read, and write it."
 prefix = "srd.language"
 tag = "srd.language.halfling"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Orc — a standard language."
+description = "A language you can speak, read, and write if you know it."
 prefix = "srd.language"
 tag = "srd.language.orc"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Abyssal — a rare language."
+description = "A rare language associated with fiends from the Abyss. You can speak, read, and write it if you know it."
 prefix = "srd.language"
 tag = "srd.language.abyssal"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Primordial — a rare language."
+description = "An uncommon language spoken and written by elemental beings and others tied to the raw forces of nature."
 prefix = "srd.language"
 tag = "srd.language.primordial"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Celestial — a rare language."
+description = "A rare language used by beings of the upper planes and those who study their lore."
 prefix = "srd.language"
 tag = "srd.language.celestial"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Sylvan — a rare language."
+description = "A rare language associated with fey creatures and enchanted forests. You can speak, read, and write it if you know it."
 prefix = "srd.language"
 tag = "srd.language.sylvan"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Deep Speech — a rare language."
+description = "A rare language used to communicate with creatures that know it."
 prefix = "srd.language"
 tag = "srd.language.deep-speech"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Thieves' Cant — a rare language."
+description = "A rare secret language used to share hidden meanings with those who know it. You can speak, write, or signal in it to communicate discreetly."
 prefix = "srd.language"
 tag = "srd.language.thieves-cant"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Druidic — a rare language."
+description = "A rare language known by druids and those taught their traditions. You can speak, read, and write it."
 prefix = "srd.language"
 tag = "srd.language.druidic"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Undercommon — a rare language."
+description = "A rare language used in subterranean communities. You can speak, read, and write it if you know it."
 prefix = "srd.language"
 tag = "srd.language.undercommon"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Infernal — a rare language."
+description = "A rare language used in dealings with fiends and infernal magic. You can speak, read, and write it if you know it."
 prefix = "srd.language"
 tag = "srd.language.infernal"

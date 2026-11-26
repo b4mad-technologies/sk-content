@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its broad blade hums with a restless note, as though it remembers the rhythm of a battlefield long after the music has stopped. Loosed from the hand, it wheels through the air in stern, sweeping arcs, its edge turning with uncanny purpose. When the fray quiets, the sword returns like a hawk to a familiar glove."
 display_name = "Dancing Greatsword"
 entity_def_id = "srd/magic_item/dancing-greatsword"
 grants_capability_while_equipped = ""

@@ -157,6 +157,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A noble carries the polish of courtly life like armor, whether draped in silk or travel-stained velvet. Their authority may rest on old blood, sharp wit, or a web of favors carefully maintained behind smiling conversation. In a crowded hall or a desperate frontier camp, they are accustomed to being heard."
 display_name = "Noble"
 entity_def_id = "srd/creature/noble"
 grants_capability_while_equipped = ""

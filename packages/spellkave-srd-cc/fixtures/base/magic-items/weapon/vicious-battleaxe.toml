@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its crescent edge bears a dark, glassy sheen that seems to drink the light around it. In battle, each swing carries a hungry weight, followed by a sharp, ugly hush as though the weapon itself is listening for the fallen. The haft remains cold even beside a roaring fire."
 display_name = "Vicious Battleaxe"
 entity_def_id = "srd/magic_item/vicious-battleaxe"
 grants_capability_while_equipped = ""

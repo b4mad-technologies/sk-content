@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its iron head is shaped into a grim, hollow visage whose empty eyes seem to watch every shadow in the room. At a clenched grip, a cold pressure rolls outward like the memory of a battlefield gone silent. Even seasoned foes may find their courage scattering before the soundless command of its swing."
 display_name = "Mace of Terror"
 entity_def_id = "srd/magic_item/mace-of-terror"
 grants_capability_while_equipped = ""

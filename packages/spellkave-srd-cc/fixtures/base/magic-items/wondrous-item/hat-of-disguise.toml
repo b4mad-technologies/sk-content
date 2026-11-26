@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its brim seems to remember every face that has ever passed beneath it. A faint, cool shimmer gathers around the wearer’s features, softening familiar lines and inviting new ones into place. In candlelight, the hat’s shadow never quite agrees with the figure casting it."
 display_name = "Hat of Disguise"
 entity_def_id = "srd/magic_item/hat-of-disguise"
 grants_capability_while_equipped = ""

@@ -147,6 +147,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A flash of patterned scales and translucent wings slips through the canopy, almost too quick to follow. Flying snakes favor warm ruins, jungle clearings, and hidden gardens, where they coil among branches before darting out to seize small prey. Their sudden swoops make even a quiet grove feel watched from above."
 display_name = "Flying Snake"
 entity_def_id = "srd/creature/flying-snake"
 grants_capability_while_equipped = ""

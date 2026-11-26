@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_3"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A smooth riverstone seated in its cradle seems to hum with pent-up momentum. The sling’s braided cords tighten eagerly around the hand, as though every cast remembers the path of a hunting hawk. Even in still air, its leather pouch carries the faint scent of rain on distant cliffs."
 display_name = "Sling (+3)"
 entity_def_id = "srd/magic_item/sling-plus-3"
 grants_capability_while_equipped = ""

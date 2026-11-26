@@ -21,7 +21,7 @@
 action_id = "srd/communicate/assert"
 bundle_id = "srd"
 cost_time_ms = 100
-description = """Baseline srd communicate primitive (D9, level-up-dm-arc-plan.md §4/§5 S4): a deterministic speech act directed at any creature (self-sufficiency chain, mirrors the "core" bundle's own Assert action). No mechanical consequence: purely a flavor line future dialogue content can grant directly, or pattern-copy for its own distinct speech act (this package's own srd/persuade-shaped dialogue options, e.g. the DM level-up/* actions, author THEIR OWN communication_speech_act_id rather than reusing this one)."""
+description = "You make a clear statement to a creature. This has no rules effect unless another feature gives it one."
 display_name = "Assert"
 on_failure = ""
 on_success = "srd/communicate/assert/success"
@@ -60,7 +60,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/action/communicate/assert"
 default_visibility = "Public"
-description = "Actor performs a deterministic, flavor-only speech act (no mechanical effect)."
+description = "You speak, signal, or otherwise convey a message. This has no mechanical effect unless another rule says it does."
 display_name = "Communicate"
 
 [[consequence_templates]]
@@ -69,7 +69,7 @@ template_id = "srd/communicate/assert/success"
 
 [[niche_definitions]]
 bundle_id = "srd"
-description = "Any living-or-at-least-creature body that can be addressed by a communicate speech act — the srd-own baseline communication TARGET niche. Entity-provided (sk-0m4.4): a candidate's own srd.creature tag satisfies admission directly, no spatial_niche_attachment, no per-room opt-in. Place-level speech prohibitions (underwater, silence) are a later separate mechanism — this row is not a hook for them."
+description = "A creature that can be addressed by speech. Its own nature makes it a valid recipient without needing a special location or permission."
 display_name = "Communicable (entity-provided)"
 niche_id = "srd/niche/communicable"
 predicate_source = "target.has_niche('srd.creature')"

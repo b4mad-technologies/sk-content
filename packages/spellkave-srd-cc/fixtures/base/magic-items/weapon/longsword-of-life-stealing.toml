@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its blackened steel drinks torchlight without gleam, leaving only a pale line along the edge. When blood touches the blade, a chill climbs the wielder’s arm and settles beneath the ribs like borrowed winter. Each fateful stroke leaves the fallen strangely hushed, while warmth stolen from their last breath lingers in the sword hand."
 display_name = "Longsword of Life Stealing"
 entity_def_id = "srd/magic_item/longsword-of-life-stealing"
 grants_capability_while_equipped = ""

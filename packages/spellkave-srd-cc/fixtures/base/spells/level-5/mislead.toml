@@ -84,6 +84,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A second self steps into the open as the original slips beyond notice, leaving only a faint chill where they stood. The phantom wears its maker’s voice and mannerisms with unnerving ease, striding through danger, trading words, and drawing every searching eye. Far away, hidden senses ride behind its borrowed gaze."
 display_name = "Mislead"
 entity_def_id = "srd/spell/mislead"
 grants_capability_while_equipped = ""

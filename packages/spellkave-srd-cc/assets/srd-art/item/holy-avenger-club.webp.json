@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-club",
+  "overlay_template": "holy-avenger",
+  "overlay_badge": "holy",
+  "base_sha256": "99ed8b09c4d3f2fe6165a2f556d9104e00955cac8c54f75f990e90fc07f2e70a",
+  "overlay_sha256": "64861c3849275cd13d635b8b7a62308bc7ed8397f3a844c78d4b2074fa40c88a",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:44.526Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "18502b901e56ae0dc857564e11137f8a8a8b40f0e74ee7158dc718b57086fd1c",
+  "target_attachment_ref": "srd/magic_item/holy-avenger-club#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-holy-avenger-club"
+}

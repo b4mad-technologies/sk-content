@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Blackened ashwood spirals around a heart of banked ember, warm even beneath winter rain. When its bearer grips the polished shaft, the air tastes faintly of smoke and struck flint, while orange light stirs deep within its grain. Flames seem to recognize the staff’s presence, bowing and brightening as though called to an older, hungrier blaze."
 display_name = "Staff of Fire"
 entity_def_id = "srd/magic_item/staff-of-fire"
 grants_capability_while_equipped = ""

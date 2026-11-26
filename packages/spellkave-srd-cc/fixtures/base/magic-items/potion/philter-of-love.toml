@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A rose-bright draught that fizzes with the hush of a secret kept too long. Beneath its sparkling surface, a tiny heart-shaped bubble drifts and vanishes, only to reappear when the bottle is turned. Its perfume suggests summer orchards, pressed petals, and the dangerous sweetness of sudden devotion."
 display_name = "Philter of Love"
 entity_def_id = "srd/magic_item/philter-of-love"
 grants_capability_while_equipped = ""

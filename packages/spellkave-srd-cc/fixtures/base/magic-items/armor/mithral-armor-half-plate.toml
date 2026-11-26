@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Pale as moonlit water, these overlapping plates settle against the body with a surprising, silken ease. Their cool gleam slips readily beneath a traveler’s cloak, answering each turn and crouch with a soft, almost secretive whisper. Even in close quarters, the armor seems to remember movement rather than resist it."
 display_name = "Mithral Armor (Half Plate)"
 entity_def_id = "srd/magic_item/mithral-armor-half-plate"
 grants_capability_while_equipped = ""

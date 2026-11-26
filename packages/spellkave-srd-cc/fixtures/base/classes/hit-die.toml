@@ -9,6 +9,7 @@ target_ref = "srd/hit-die"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "Your class Hit Point die. You roll it when you gain a level, and you spend it when you rest to recover."
 display_name = "Hit Die (face)"
 initial_value = 8
 max_value = 12

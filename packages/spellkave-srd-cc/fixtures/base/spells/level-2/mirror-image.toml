@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Light fractures around the caster in a shimmer of polished glass and moonlit water. Several selves glide through the same motion with uncanny precision, each smile, feint, and raised blade arriving a heartbeat together. Blows find only a brittle flash, leaving the true figure somewhere within the shifting chorus."
 display_name = "Mirror Image"
 entity_def_id = "srd/spell/mirror-image"
 grants_capability_while_equipped = ""

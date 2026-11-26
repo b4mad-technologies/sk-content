@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A squat, brutal axehead with a keen edge that seems to drink the light along its bevel. In the hand, it carries a hungry forward pull, as though each swing wishes to bite deeper than the last. Fresh-cut wood and old iron linger in the air after its passing."
 display_name = "Vicious Handaxe"
 entity_def_id = "srd/magic_item/vicious-handaxe"
 grants_capability_while_equipped = ""

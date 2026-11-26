@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-scimitar",
+  "overlay_template": "flame-tongue",
+  "overlay_badge": "fire",
+  "base_sha256": "d406f2301e4abeb753f47983eb084034ce907baeb8f8f4c85072fa62f6acaecc",
+  "overlay_sha256": "c4806ef2bb352ad495c05e155d9611cc695c3fa5894816ef751f3f11c8c261d9",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:41.721Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "10eaa392405ebb7f111cb1125a180b59d6ee76ab5fe27b3bf30efecd2a05b513",
+  "target_attachment_ref": "srd/magic_item/flame-tongue-scimitar#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-flame-tongue-scimitar"
+}

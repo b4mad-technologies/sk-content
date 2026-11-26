@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its heavy pages smell of dust, hot metal, and rain-dark earth, each diagram seeming to shift when viewed beside a half-finished sculpture. The margins bristle with stern corrections in several hands, as though generations of makers argued with the same stubborn principles. When the final instruction is understood, the book’s ink gleams like banked embers awaiting a body to wake."
 display_name = "Manual of Golems"
 entity_def_id = "srd/magic_item/manual-of-golems"
 grants_capability_while_equipped = ""

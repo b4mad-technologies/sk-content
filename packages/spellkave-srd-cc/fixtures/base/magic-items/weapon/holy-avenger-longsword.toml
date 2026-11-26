@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale fire glides along the blade’s fuller, leaving no heat but a clean, rain-washed scent in the air. In its presence, shadows seem less certain of themselves, and sinister whispers lose their hold. Drawn beneath a darkened sky, the sword gathers companions close in a hush of steadfast courage."
 display_name = "Holy Avenger (Longsword)"
 entity_def_id = "srd/magic_item/holy-avenger-longsword"
 grants_capability_while_equipped = ""

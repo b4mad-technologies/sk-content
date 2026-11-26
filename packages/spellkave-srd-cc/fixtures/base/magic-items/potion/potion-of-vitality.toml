@@ -36,6 +36,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The vial is warm to the touch, and the red-gold liquid keeps a small motion even when the table is still. It smells of crushed citrus peel and a hearth just fed. One swallow leaves the chest bright and the hands unwilling to stay folded. Color returns to the knuckles as if a window had been opened."
 display_name = "Potion of Vitality"
 entity_def_id = "srd/magic_item/potion-of-vitality"
 grants_capability_while_equipped = ""

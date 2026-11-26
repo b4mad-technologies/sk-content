@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A slender reed of dark lacquer, this blowgun carries the faint scent of bitter herbs and rain-soaked bamboo. Its mouthpiece stays cool even beside a campfire, and a breathed dart leaves with an eerie, effortless hush. In skilled hands, it seems to favor patience over spectacle."
 display_name = "Blowgun (+1)"
 entity_def_id = "srd/magic_item/blowgun-plus-1"
 grants_capability_while_equipped = ""

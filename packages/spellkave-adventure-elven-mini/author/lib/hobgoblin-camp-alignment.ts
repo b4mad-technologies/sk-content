@@ -6,7 +6,6 @@
 import { type Pin, sheetMetrics } from "./map-metrics.ts";
 
 export const HOBGOBLIN_CAMP_MAP = sheetMetrics({
-	file: "17-Hobgoblin-camp-L.jpg",
 	image_width_px: 1503,
 	image_height_px: 2000,
 	grid_size_px: 50,

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Midnight cloth spills from the shoulders like a fragment of cloudless sky, its silver stitches cold beneath the fingertips. Among the lesser constellations, a handful of brighter stars seem to throb with distant, impatient light. When the robe stirs, the air tastes of winter and the world feels briefly thin enough to step beyond."
 display_name = "Robe of Stars"
 entity_def_id = "srd/magic_item/robe-of-stars"
 grants_capability_while_equipped = ""

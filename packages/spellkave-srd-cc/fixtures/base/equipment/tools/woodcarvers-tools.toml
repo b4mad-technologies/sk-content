@@ -40,6 +40,7 @@ tag = "srd.tool.category.artisan"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A roll of chisels, knives, and sanded handles carries the warm, resinous scent of a forest workshop. Under patient hands, plain branches become curling beasts, feather-light shafts, or polished tokens marked with quiet meaning. Each shaving gathers at the carver’s boots like fallen leaves."
 display_name = "Woodcarver's Tools"
 entity_def_id = "srd/tool/woodcarvers-tools"
 grants_capability_while_equipped = ""

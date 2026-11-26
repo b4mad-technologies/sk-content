@@ -82,6 +82,7 @@ tag = "srd.spell.list.paladin"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Two matched rings catch the light, and a quiet thread of silver steadies between their wearers. Around one, unseen force turns cruelty aside; through the other, every hard-won wound answers like a distant bell beneath the ribs. It is a vow made tangible: no peril need be borne alone while the bond endures."
 display_name = "Warding Bond"
 entity_def_id = "srd/spell/warding-bond"
 grants_capability_while_equipped = ""
@@ -109,7 +110,7 @@ target_ref = "srd/spell/warding-bond"
 action_id = "srd/spell/warding-bond/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Warding Bond — a spell action."
+description = "You cast the spell to link yourself to a willing creature, protecting it from harm while you remain close. The bond ends if you and the creature become too far apart."
 display_name = "Cast Warding Bond"
 non_steering = true
 on_failure = ""
@@ -143,7 +144,7 @@ template_id = "srd/spell/warding-bond/cast/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/spell/warding-bond"
-description = "Warding Bond — a spell condition."
+description = "A protective spell links you to another creature, granting it extra protection while you remain nearby. You share some of the damage it takes until the spell ends."
 display_name = "Warding Bond"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

@@ -1,0 +1,424 @@
+{
+	"schema": "spellkave-prose-manifest/v1",
+	"output_dir": "packages/spellkave-srd-cc/authored/flavor/.runs",
+	"entries": [
+		{
+			"id": "tool/thieves-tools",
+			"display_name": "Thieves' Tools",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Dexterity. Utilize: Pick a lock (DC 15), or disarm a trap (DC 15)"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/calligraphers-supplies",
+			"display_name": "Calligrapher's Supplies",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Dexterity. Utilize: Write text with impressive flourishes that guard against forgery (DC 15). Craft: Ink, *Spell Scroll*"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/gaming-set-dice",
+			"display_name": "Gaming Set, Dice",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Wisdom. Utilize: Discern whether someone is cheating (DC 10), or win the game (DC 20)"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/climbers-kit",
+			"display_name": "Climber's Kit",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Climber's Kit includes boot tips, gloves, pitons, and a harness. As a Utilize action, you can use the Climber's Kit to anchor yourself; when you do, you can't fall more than 25 feet from the anchor point, and you can't move more than 25 feet from there without undoing the anchor as a Bonus Action."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/disguise-kit",
+			"display_name": "Disguise Kit",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Charisma. Utilize: Apply makeup (DC 10). Craft: Costume"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/forgery-kit",
+			"display_name": "Forgery Kit",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Dexterity. Utilize: Mimic 10 or fewer words of someone else's handwriting (DC 15), or duplicate a wax seal (DC 20)"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/gaming-set-dragonchess",
+			"display_name": "Gaming Set, Dragonchess",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Intelligence. Utilize: Discern an opponent's mood and intentions (DC 15), or win the game (DC 20)"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/gaming-set-playing-cards",
+			"display_name": "Gaming Set, Playing Cards",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Charisma. Utilize: Discern an opponent's mood and intentions (DC 15), or win the game (DC 20)"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/gaming-set-three-dragon-ante",
+			"display_name": "Gaming Set, Three-Dragon Ante",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Charisma. Utilize: Discern an opponent's mood and intentions (DC 15), or win the game (DC 20)"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/healers-kit",
+			"display_name": "Healer's Kit",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Healer's Kit has ten uses. As a Utilize action, you can expend one of its uses to stabilize an Unconscious creature that has 0 Hit Points without needing to make a Wisdom (Medicine) check."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/navigators-tools",
+			"display_name": "Navigator's Tools",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Wisdom. Utilize: Plot a course (DC 15), or determine position (DC 15)"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/poisoners-kit",
+			"display_name": "Poisoner's Kit",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Intelligence. Utilize: Detect a poisoned object (DC 10). Craft: Basic Poison"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/alchemists-supplies",
+			"display_name": "Alchemist's Supplies",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Intelligence. Utilize: Identify a substance (DC 15), or start a fire (DC 15). Craft: Acid, Alchemist's Fire, Component Pouch, Oil, Paper, Perfume"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/brewers-supplies",
+			"display_name": "Brewer's Supplies",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Intelligence. Utilize: Detect poisoned drink (DC 15), or identify alcohol (DC 10). Craft: Antitoxin"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/carpenters-tools",
+			"display_name": "Carpenter's Tools",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Strength. Utilize: Seal or pry open a door or container (DC 20). Craft: Club, Greatclub, Quarterstaff, Barrel, Chest, Ladder, Pole, Portable Ram, Torch"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/cartographers-tools",
+			"display_name": "Cartographer's Tools",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Wisdom. Utilize: Draft a map of a small area (DC 15). Craft: Map"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/cobblers-tools",
+			"display_name": "Cobbler's Tools",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Dexterity. Utilize: Modify footwear to give Advantage on the wearer's next Dexterity (Acrobatics) check (DC 10). Craft: Climber's Kit"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/cooks-utensils",
+			"display_name": "Cook's Utensils",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Wisdom. Utilize: Improve food's flavor (DC 10), or detect spoiled or poisoned food (DC 15). Craft: Rations"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/glassblowers-tools",
+			"display_name": "Glassblower's Tools",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Intelligence. Utilize: Discern what a glass object held in the past 24 hours (DC 15). Craft: Glass Bottle, Magnifying Glass, Spyglass, Vial"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/jewelers-tools",
+			"display_name": "Jeweler's Tools",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Intelligence. Utilize: Discern a gem's value (DC 15). Craft: Arcane Focus, Holy Symbol"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/leatherworkers-tools",
+			"display_name": "Leatherworker's Tools",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Dexterity. Utilize: Add a design to a leather item (DC 10). Craft: Sling, Whip, Hide Armor, Leather Armor, Studded Leather Armor, Backpack, Crossbow Bolt Case, Map or Scroll Case, Parchment, Pouch, Quiver, Waterskin"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/masons-tools",
+			"display_name": "Mason's Tools",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Strength. Utilize: Chisel a symbol or hole in stone (DC 10). Craft: Block and Tackle"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/painters-supplies",
+			"display_name": "Painter's Supplies",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Wisdom. Utilize: Paint a recognizable image of something you've seen (DC 10). Craft: Druidic Focus, Holy Symbol"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/potters-tools",
+			"display_name": "Potter's Tools",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Intelligence. Utilize: Discern what a ceramic object held in the past 24 hours (DC 15). Craft: Jug, Lamp"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/smiths-tools",
+			"display_name": "Smith's Tools",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Strength. Utilize: Pry open a door or container (DC 20). Craft: Any Melee weapon (except Club, Greatclub, Quarterstaff, and Whip), Medium armor (except Hide), Heavy armor, Ball Bearings, Bucket, Caltrops, Chain, Crowbar, Firearm Bullets, Grappling Hook, Iron Pot, Iron Spikes, Sling Bullets"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/tinkers-tools",
+			"display_name": "Tinker's Tools",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Dexterity. Utilize: Assemble a Tiny item composed of scrap, which falls apart in 1 minute (DC 20). Craft: Musket, Pistol, Bell, Bullseye Lantern, Flask, Hooded Lantern, Hunting Trap, Lock, Manacles, Mirror, Shovel, Signal Whistle, Tinderbox"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/weavers-tools",
+			"display_name": "Weaver's Tools",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Dexterity. Utilize: Mend a tear in clothing (DC 10), or sew a Tiny design (DC 10). Craft: Padded Armor, Basket, Bedroll, Blanket, Fine Clothes, Net, Robe, Rope, Sack, String, Tent, Traveler's Clothes"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/woodcarvers-tools",
+			"display_name": "Woodcarver's Tools",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Dexterity. Utilize: Carve a pattern in wood (DC 10). Craft: Club, Greatclub, Quarterstaff, Ranged weapons (except Pistol, Musket, and Sling), Arcane Focus, Arrows, Bolts, Druidic Focus, Ink Pen, Needles"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/musical-instrument-bagpipes",
+			"display_name": "Musical Instrument, Bagpipes",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Charisma. Utilize: Identify a musical piece (DC 15)"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/musical-instrument-drum",
+			"display_name": "Musical Instrument, Drum",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Charisma. Utilize: Identify a musical piece (DC 15)"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/musical-instrument-dulcimer",
+			"display_name": "Musical Instrument, Dulcimer",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Charisma. Utilize: Identify a musical piece (DC 15)"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/musical-instrument-flute",
+			"display_name": "Musical Instrument, Flute",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Charisma. Utilize: Identify a musical piece (DC 15)"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/musical-instrument-horn",
+			"display_name": "Musical Instrument, Horn",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Charisma. Utilize: Identify a musical piece (DC 15)"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/musical-instrument-lute",
+			"display_name": "Musical Instrument, Lute",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Charisma. Utilize: Identify a musical piece (DC 15)"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/musical-instrument-lyre",
+			"display_name": "Musical Instrument, Lyre",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Charisma. Utilize: Identify a musical piece (DC 15)"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/musical-instrument-pan-flute",
+			"display_name": "Musical Instrument, Pan Flute",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Charisma. Utilize: Identify a musical piece (DC 15)"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/musical-instrument-shawm",
+			"display_name": "Musical Instrument, Shawm",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Charisma. Utilize: Identify a musical piece (DC 15)"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "tool/musical-instrument-viol",
+			"display_name": "Musical Instrument, Viol",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Charisma. Utilize: Identify a musical piece (DC 15)"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		}
+	]
+}

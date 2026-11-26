@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A dark, polished band that seems to drink the glint from nearby candlelight, leaving only a faint warmth against the finger. Around it, intrusive whispers lose their way, as though meeting a locked door in a moonless hall. In quiet moments, the metal carries the unsettling impression of a listener who has learned patience beyond death."
 display_name = "Ring of Mind Shielding"
 entity_def_id = "srd/magic_item/ring-of-mind-shielding"
 grants_capability_while_equipped = ""

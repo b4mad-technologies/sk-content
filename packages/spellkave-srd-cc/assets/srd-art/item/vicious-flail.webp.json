@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-flail",
+  "overlay_template": "vicious",
+  "overlay_badge": "rune",
+  "base_sha256": "94d236cda2194228e8469b0ec6cf1246d01cf3936de662a46d133f0e010a3ab5",
+  "overlay_sha256": "ed9b733c49d6fc246eb945a819df4069cadc2a65041679925c6fe215845c9e7d",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:49.358Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "e80953523a7d6a259a15be37e28809738abe8c706e0de3a1aa0b9754ed111fd0",
+  "target_attachment_ref": "srd/magic_item/vicious-flail#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-vicious-flail"
+}

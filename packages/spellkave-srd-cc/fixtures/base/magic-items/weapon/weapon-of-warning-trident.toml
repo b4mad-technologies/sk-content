@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its three prongs hum softly in the stillness before danger, as though tasting distant currents of fear. In a sleeping camp, the trident’s shaft grows faintly warm when violence draws near, stirring companions from ordinary dreams with the urgency of a struck bell. Held ready, it lends every nearby heartbeat a keen, braced awareness."
 display_name = "Weapon of Warning (Trident)"
 entity_def_id = "srd/magic_item/weapon-of-warning-trident"
 grants_capability_while_equipped = ""

@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "pixellab-v2",
+  "route": "/generate-with-style-v2",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Selected from the character-portrait-v1 SRD class batch."
+  },
+  "selection": {
+    "manifest": "scripts/design-assets/character-portrait-v1.selection.json",
+    "candidate": "pixellab-generations/class-portrait-style-pilot/barbarian-style-3.png",
+    "reason": "Clear full-body fighter silhouette and axe without the helmet clutter of candidate four."
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 20,
+    "candidate_count": 4
+  },
+  "sha256": "a5624292738d9f0e068d7f9880baaa4d2bff3cf97b48c0e4e437137f9bdc1a51",
+  "target_attachment_ref": "entity_definition:srd/class/barbarian#srd.art.image",
+  "kind": "character_portrait",
+  "entry_id": "character-portrait-barbarian"
+}

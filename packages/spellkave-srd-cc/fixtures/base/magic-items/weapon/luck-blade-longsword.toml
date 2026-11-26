@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale gleam runs along this longsword’s edge even beneath storm clouds, as though fortune itself has found a blade to follow. Its balance settles every grip with uncanny assurance, and near it, missed chances seem reluctant to stay missed. When drawn in earnest, the steel hums with the hush that falls before an impossible hope is spoken."
 display_name = "Luck Blade (Longsword)"
 entity_def_id = "srd/magic_item/luck-blade-longsword"
 grants_capability_while_equipped = ""

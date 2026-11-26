@@ -9,432 +9,432 @@
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as an SRD spell."
+description = "A magical effect defined for use with the game’s spellcasting rules. Spells have their own casting requirements, range, duration, and effects."
 prefix = "srd"
 tag = "srd.spell"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity as a cantrip (spell level 0)."
+description = "A spell you can cast without using a spell slot. Its power may improve as you gain levels."
 prefix = "srd"
 tag = "srd.spell.level.0"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity as a level 1 spell."
+description = "Marks a spell as first level for rules that refer to its level."
 prefix = "srd"
 tag = "srd.spell.level.1"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity as a level 2 spell."
+description = "Marks a spell as second level for features and rules that depend on its level."
 prefix = "srd"
 tag = "srd.spell.level.2"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity as a level 3 spell."
+description = "Marks a spell as being of the third level. You use this level when a rule refers to the spell’s rank or casting requirements."
 prefix = "srd"
 tag = "srd.spell.level.3"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity as a level 4 spell."
+description = "Marks a spell as fourth level, which affects the resources needed to cast it and how it interacts with other magic."
 prefix = "srd"
 tag = "srd.spell.level.4"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity as a level 5 spell."
+description = "Identifies a spell as a fifth-level spell for effects that depend on its level."
 prefix = "srd"
 tag = "srd.spell.level.5"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity as a level 6 spell."
+description = "Marks a spell as 6th level, indicating its relative power and the resources needed to cast it."
 prefix = "srd"
 tag = "srd.spell.level.6"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity as a level 7 spell."
+description = "Marks a spell as seventh level for effects that refer to its spell level."
 prefix = "srd"
 tag = "srd.spell.level.7"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity as a level 8 spell."
+description = "Marks a spell as an eighth-level spell. This level affects how you prepare, cast, or otherwise use it."
 prefix = "srd"
 tag = "srd.spell.level.8"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity as a level 9 spell."
+description = "Marks a spell as one of the most powerful levels of magic. This level is used when a rule refers to the spell’s rank."
 prefix = "srd"
 tag = "srd.spell.level.9"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity as belonging to the Abjuration school of magic."
+description = "Marks a spell as part of the school of protective and warding magic."
 prefix = "srd"
 tag = "srd.spell.school.abjuration"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity as belonging to the Conjuration school of magic."
+description = "A spell school for magic that creates, transports, or calls creatures and objects."
 prefix = "srd"
 tag = "srd.spell.school.conjuration"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity as belonging to the Divination school of magic."
+description = "A spell school focused on discovering information, revealing hidden things, and perceiving events beyond your normal senses."
 prefix = "srd"
 tag = "srd.spell.school.divination"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity as belonging to the Enchantment school of magic."
+description = "A spell school for magic that influences minds, emotions, or behavior."
 prefix = "srd"
 tag = "srd.spell.school.enchantment"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity as belonging to the Evocation school of magic."
+description = "A spell school for magic that channels energy to create direct effects, often through force, flame, or other elemental power."
 prefix = "srd"
 tag = "srd.spell.school.evocation"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity as belonging to the Illusion school of magic."
+description = "A spell school for magic that deceives the senses, creates false appearances, or alters what creatures perceive."
 prefix = "srd"
 tag = "srd.spell.school.illusion"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity as belonging to the Necromancy school of magic."
+description = "A spell school concerned with death, life force, and restoring or altering the dead."
 prefix = "srd"
 tag = "srd.spell.school.necromancy"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity as belonging to the Transmutation school of magic."
+description = "A spell school for magic that alters creatures, objects, or physical properties."
 prefix = "srd"
 tag = "srd.spell.school.transmutation"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with the cached SRD casting time '10minutes'."
+description = "A casting time that requires 10 minutes to cast the spell. You must spend that time casting before the spell takes effect."
 prefix = "srd"
 tag = "srd.spell.casting_time.10minutes"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with the cached SRD casting time '1hour'."
+description = "A tag for spells that take 1 hour to cast. You must spend that time casting the spell before its effects begin."
 prefix = "srd"
 tag = "srd.spell.casting_time.1hour"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with the cached SRD casting time '1minute'."
+description = "A spell casting time that takes 1 minute to complete. You must spend the full time casting it unless the spell says otherwise."
 prefix = "srd"
 tag = "srd.spell.casting_time.1minute"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with the cached SRD casting time 'action'."
+description = "A spell you cast using your action on your turn."
 prefix = "srd"
 tag = "srd.spell.casting_time.action"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with the cached SRD casting time 'bonus-action'."
+description = "A spell you cast using your bonus action on your turn. You can use it alongside other actions, subject to the usual spellcasting limits."
 prefix = "srd"
 tag = "srd.spell.casting_time.bonus_action"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with the cached SRD casting time 'reaction'."
+description = "A spell cast in response to a trigger. You use it when its stated trigger occurs."
 prefix = "srd"
 tag = "srd.spell.casting_time.reaction"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with a range of 1 mile."
+description = "This spell can target creatures or points up to 1 mile away."
 prefix = "srd"
 tag = "srd.spell.range.1_mile"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with a range of 10 feet."
+description = "A spell range that reaches targets up to 10 feet from you."
 prefix = "srd"
 tag = "srd.spell.range.10_feet"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with a range of 100 feet."
+description = "A spell range showing you can target a creature, object, or point up to 100 feet away."
 prefix = "srd"
 tag = "srd.spell.range.100_feet"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with a range of 120 feet."
+description = "This spell can target creatures, objects, or points up to 120 feet away."
 prefix = "srd"
 tag = "srd.spell.range.120_feet"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with a range of 15 feet."
+description = "This spell can affect a target up to 15 feet away."
 prefix = "srd"
 tag = "srd.spell.range.15_feet"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with a range of 150 feet."
+description = "This spell can affect a target or point up to 150 feet away."
 prefix = "srd"
 tag = "srd.spell.range.150_feet"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with a range of 30 feet."
+description = "A spell range that reaches a target within 30 feet of you."
 prefix = "srd"
 tag = "srd.spell.range.30_feet"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with a range of 300 feet."
+description = "A spell range that lets you choose targets or points up to 300 feet away."
 prefix = "srd"
 tag = "srd.spell.range.300_feet"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with a range of 5 feet."
+description = "This spell can affect a target no more than 5 feet from you."
 prefix = "srd"
 tag = "srd.spell.range.5_feet"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with a range of 500 feet."
+description = "This spell can target a creature, object, or point up to 500 feet away."
 prefix = "srd"
 tag = "srd.spell.range.500_feet"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with a range of 500 miles."
+description = "A spell range that can reach a target up to 500 miles away."
 prefix = "srd"
 tag = "srd.spell.range.500_miles"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with a range of 60 feet."
+description = "This spell can target a creature, object, or point up to 60 feet away, as described in its effect."
 prefix = "srd"
 tag = "srd.spell.range.60_feet"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with a range of 90 feet."
+description = "This spell can target a creature, object, or point within 90 feet of you."
 prefix = "srd"
 tag = "srd.spell.range.90_feet"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with a range of Self."
+description = "Marks a spell that affects you or originates from you, rather than targeting a creature or point at a distance."
 prefix = "srd"
 tag = "srd.spell.range.self"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with a range of Sight."
+description = "This spell can target something you can see, within the limits described by its other effects."
 prefix = "srd"
 tag = "srd.spell.range.sight"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with a range of Special."
+description = "Marks a spell whose reach is defined by its own description rather than a standard distance. Check that spell’s text to determine its range."
 prefix = "srd"
 tag = "srd.spell.range.special"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with a range of Touch."
+description = "Marks a spell that affects a creature, object, or point you can reach with your touch."
 prefix = "srd"
 tag = "srd.spell.range.touch"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with a range of Unlimited."
+description = "Marks a spell that can reach any distance, subject to its other targeting requirements."
 prefix = "srd"
 tag = "srd.spell.range.unlimited"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with a duration of 1 day."
+description = "A spell duration that lasts for 1 day after you cast it, unless it ends sooner."
 prefix = "srd"
 tag = "srd.spell.duration.1_day"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with a duration of 1 hour."
+description = "A spell duration showing that its effects last for 1 hour unless they end sooner."
 prefix = "srd"
 tag = "srd.spell.duration.1_hour"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with a duration of 1 minute."
+description = "A spell duration lasting 1 minute. Its effects end when that time passes unless ended sooner."
 prefix = "srd"
 tag = "srd.spell.duration.1_minute"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with a duration of 1 round."
+description = "This spell lasts until the start of your next turn."
 prefix = "srd"
 tag = "srd.spell.duration.1_round"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with a duration of 10 days."
+description = "A spell duration that lasts for 10 days unless it ends earlier."
 prefix = "srd"
 tag = "srd.spell.duration.10_days"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with a duration of 10 minutes."
+description = "A spell marked this way lasts for 10 minutes unless it ends early."
 prefix = "srd"
 tag = "srd.spell.duration.10_minutes"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with a duration of 2 hours."
+description = "A duration label for a spell that lasts up to 2 hours unless it ends earlier."
 prefix = "srd"
 tag = "srd.spell.duration.2_hours"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with a duration of 24 hours."
+description = "A spell marked this way lasts for 24 hours unless it ends early."
 prefix = "srd"
 tag = "srd.spell.duration.24_hours"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with a duration of 30 days."
+description = "A spell marked this way lasts for 30 days unless it ends early."
 prefix = "srd"
 tag = "srd.spell.duration.30_days"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with a duration of 6 rounds."
+description = "This spell lasts for 6 rounds unless it ends early."
 prefix = "srd"
 tag = "srd.spell.duration.6_rounds"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with a duration of 7 days."
+description = "A spell duration lasting for 7 days after the spell takes effect, unless it ends early."
 prefix = "srd"
 tag = "srd.spell.duration.7_days"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with a duration of 8 hours."
+description = "A duration tag showing that the spell’s effects last for 8 hours unless ended sooner."
 prefix = "srd"
 tag = "srd.spell.duration.8_hours"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with a duration of instantaneous."
+description = "A spell effect that happens immediately and does not continue after it resolves."
 prefix = "srd"
 tag = "srd.spell.duration.instantaneous"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with a duration of special."
+description = "Marks a spell whose duration is defined by its own effect rather than a standard time. Its description explains when the spell ends."
 prefix = "srd"
 tag = "srd.spell.duration.special"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with a duration of until dispelled."
+description = "This spell remains in effect until something ends it, such as a successful dispelling effect."
 prefix = "srd"
 tag = "srd.spell.duration.until_dispelled"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity with a duration of until dispelled or triggered."
+description = "The spell remains in place until something triggers it or magic ends it."
 prefix = "srd"
 tag = "srd.spell.duration.until_dispelled_or_triggered"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity that requires Concentration to maintain."
+description = "Marks a spell that needs your ongoing focus to remain active. The spell ends if you lose that focus or stop maintaining it."
 prefix = "srd"
 tag = "srd.spell.concentration"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity that can be cast as a Ritual."
+description = "Marks a spell that you can cast using its ritual option, if you have access to that option."
 prefix = "srd"
 tag = "srd.spell.ritual"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity that requires a Verbal (V) component."
+description = "A spell tag showing that you must speak aloud to cast it. You can’t provide this component while unable to speak."
 prefix = "srd"
 tag = "srd.spell.component.v"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity that requires a Somatic (S) component."
+description = "Marks a spell that requires precise gestures to cast. You must be able to perform those movements when you cast it."
 prefix = "srd"
 tag = "srd.spell.component.s"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity that requires a Material (M) component."
+description = "Marks a spell that requires a physical component to cast. You provide the listed material or a suitable spellcasting substitute."
 prefix = "srd"
 tag = "srd.spell.component.m"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity on the Bard class spell list (cache/open5e/Spell.json fields.classes). docs/spellcasting-substrate.md."
+description = "A spell available to the Bard class. You can choose it when your Bard features let you learn or prepare spells."
 prefix = "srd"
 tag = "srd.spell.list.bard"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity on the Cleric class spell list (cache/open5e/Spell.json fields.classes). docs/spellcasting-substrate.md."
+description = "A spell available to the Cleric class. You can choose it when your cleric features let you prepare or learn spells."
 prefix = "srd"
 tag = "srd.spell.list.cleric"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity on the Druid class spell list (cache/open5e/Spell.json fields.classes). docs/spellcasting-substrate.md."
+description = "A tag that marks a spell as available to druids. You can choose it when selecting spells from the druid spell list."
 prefix = "srd"
 tag = "srd.spell.list.druid"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity on the Paladin class spell list (cache/open5e/Spell.json fields.classes). docs/spellcasting-substrate.md."
+description = "A spell available to the Paladin class. You can choose it when your class lets you learn or prepare Paladin spells."
 prefix = "srd"
 tag = "srd.spell.list.paladin"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity on the Ranger class spell list (cache/open5e/Spell.json fields.classes). docs/spellcasting-substrate.md."
+description = "A spell available to the ranger class. You can choose it when a ranger feature lets you learn or prepare spells."
 prefix = "srd"
 tag = "srd.spell.list.ranger"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity on the Sorcerer class spell list (cache/open5e/Spell.json fields.classes). docs/spellcasting-substrate.md."
+description = "A spell available to the Sorcerer class. You can choose it when your Sorcerer features let you learn or prepare a spell."
 prefix = "srd"
 tag = "srd.spell.list.sorcerer"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity on the Warlock class spell list (cache/open5e/Spell.json fields.classes). docs/spellcasting-substrate.md."
+description = "A spell available to the warlock class. You can choose it when a warlock feature lets you learn or prepare a spell."
 prefix = "srd"
 tag = "srd.spell.list.warlock"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a spell entity on the Wizard class spell list (cache/open5e/Spell.json fields.classes). docs/spellcasting-substrate.md."
+description = "A spell available to the Wizard class. You can choose it when your Wizard features let you learn or prepare spells."
 prefix = "srd"
 tag = "srd.spell.list.wizard"

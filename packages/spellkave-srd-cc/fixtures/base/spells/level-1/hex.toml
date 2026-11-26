@@ -82,6 +82,7 @@ tag = "srd.spell.list.warlock"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A whispered malison settles over its mark like cold ash, staining every wound with a deeper, hungrier shadow. One facet of the victim’s spirit grows brittle—strength falters, senses blur, or resolve slips at the worst moment. When the cursed falls, the lingering spite seeks another heartbeat to haunt."
 display_name = "Hex"
 entity_def_id = "srd/spell/hex"
 grants_capability_while_equipped = ""
@@ -108,7 +109,7 @@ target_ref = "srd/spell/hex"
 action_id = "srd/spell/hex/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Hex — a spell action."
+description = "You cast a spell, choosing its targets and effects as the spell describes. You use this action when you have a spell ready to cast."
 display_name = "Cast Hex"
 non_steering = true
 on_failure = ""
@@ -142,7 +143,7 @@ template_id = "srd/spell/hex/cast/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/spell/hexed"
-description = "Hex — a spell condition."
+description = "A magical curse placed on you by a spell. It lasts until the spell ends or the curse is removed."
 display_name = "Hex"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale gleam gathers along the hammer’s compact head, as though dawn has been caught beneath its polished surface. It sits eagerly in the hand, balanced for quick, ringing strokes, and each swing leaves a brief scent of rain on old stone. Against iron or bone, its impact carries a clear, bell-like certainty."
 display_name = "Light Hammer (+1)"
 entity_def_id = "srd/magic_item/light-hammer-plus-1"
 grants_capability_while_equipped = ""

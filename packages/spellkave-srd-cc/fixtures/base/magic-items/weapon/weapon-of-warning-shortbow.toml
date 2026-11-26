@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its polished wood never quite settles into silence, giving off a faint, watchful hum beneath the fingers. In moonlit camps, the bowstring trembles at distant danger, stirring sleepers from honest dreams before the first hostile footfall lands. Those gathered near it feel their senses sharpen, as though dawn has arrived a heartbeat early."
 display_name = "Weapon of Warning (Shortbow)"
 entity_def_id = "srd/magic_item/weapon-of-warning-shortbow"
 grants_capability_while_equipped = ""

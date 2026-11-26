@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Etched scales catch the light beneath its crystal skin, while a storm of pale vapor coils around a shape too vast to name. Held close, the globe hums with ancient hunger and distant wings, offering miracles with the intimacy of a whispered bargain. Sometimes, in the quiet after midnight, something inside seems to listen for an answer."
 display_name = "Dragon Orb"
 entity_def_id = "srd/magic_item/dragon-orb"
 grants_capability_while_equipped = ""

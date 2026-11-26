@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_3"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its dark barrel bears a sheen like rain on midnight stone, while faint blue sparks crawl along the lock when danger draws near. In the hand, it feels unnaturally steady, as though the thunder waiting within has already chosen its mark."
 display_name = "Musket (+3)"
 entity_def_id = "srd/magic_item/musket-plus-3"
 grants_capability_while_equipped = ""

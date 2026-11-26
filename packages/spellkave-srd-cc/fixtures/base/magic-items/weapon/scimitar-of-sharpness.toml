@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its curved edge catches the light in a line so fine it seems to divide the room. When drawn, the blade carries a dry, whispering hunger for seams, joints, and brittle places. Even a glancing flourish leaves nearby wood and cloth feeling suddenly fragile."
 display_name = "Scimitar of Sharpness"
 entity_def_id = "srd/magic_item/scimitar-of-sharpness"
 grants_capability_while_equipped = ""

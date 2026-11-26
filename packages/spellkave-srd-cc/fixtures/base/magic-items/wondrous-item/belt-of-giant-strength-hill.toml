@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Broad leather bands, rough as a mountain trail, encircle the waist beneath a heavy iron clasp. When drawn tight, they seem to settle with the patient certainty of buried stone, lending every breath a deep, earthy steadiness. Nearby timbers creak, tankards feel fragile, and even a casual grip carries the promise of shifted boulders."
 display_name = "Belt of Giant Strength (Hill)"
 entity_def_id = "srd/magic_item/belt-of-giant-strength-hill"
 grants_capability_while_equipped = ""

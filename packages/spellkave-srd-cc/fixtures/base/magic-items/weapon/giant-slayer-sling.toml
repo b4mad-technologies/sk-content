@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "This humble sling hums taut between the fingers, its cords braided with wiry strands that seem to remember mountain winds. Stones launched from its cradle strike with a startling, ground-shaking insistence, as though even towering foes have suddenly found the earth pulling hard at their heels."
 display_name = "Giant Slayer (Sling)"
 entity_def_id = "srd/magic_item/giant-slayer-sling"
 grants_capability_while_equipped = ""

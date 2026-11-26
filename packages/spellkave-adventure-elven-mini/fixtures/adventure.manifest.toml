@@ -12,7 +12,7 @@ depends_on = [
     "srd",
     "dm",
 ]
-description = "Playing-the-Game proof mini-world (elven multi-graph). Map art © Elven Tower Maps (CC BY 4.0). https://www.patreon.com/elventower/posts/creative-commons-153067169"
+description = "Playing-the-Game proof mini-world (elven multi-graph)."
 display_name = "Playing the Game proof scene"
 version = "1.0.0"
 
@@ -38,14 +38,6 @@ anchor = "name-elven-mini"
 license = "CC-BY-4.0"
 path = "adventures/elven-mini.toml"
 
-[[metadata.docs.attributions]]
-body = "Map art by Derek Ruiz / Elven Tower Cartography. Resized/re-encoded and adapted by Spellkave. Per-file credits: assets/ccc3-maps/ATTRIBUTION.md. CC BY 4.0. Source: https://www.patreon.com/elventower/posts/creative-commons-153067169 Creator: https://www.patreon.com/elventower License: https://creativecommons.org/licenses/by/4.0/"
-
-[metadata.docs.attributions.source]
-anchor = "backdrops"
-license = "CC-BY-4.0"
-path = "author/backdrops.ts"
-
 [[metadata.docs.sections]]
 id = "adventure-subjects"
 intro = "Installed subjects from the adventure and its SRD dependency."
@@ -65,7 +57,68 @@ license = "CC-BY-4.0"
 path = "author/docs.ts"
 
 [[metadata.docs.sections.pages]]
-body = "These SRD creatures and items appear in the adventure."
+body = """
+These are SRD subjects — creatures and gear the adventure does not own — shown here with the art this adventure gives them. Their own SRD page carries none of it; it lives only on this page.
+
+::subject{kind="entity_definition" ref="srd/armor/shield" view="full"}
+
+::subject{kind="entity_definition" ref="srd/creature/cultist" view="full"}
+
+::subject{kind="entity_definition" ref="srd/creature/ghast" view="full"}
+
+::subject{kind="entity_definition" ref="srd/creature/ghoul" view="full"}
+
+::subject{kind="entity_definition" ref="srd/creature/giant-frog" view="full"}
+
+::subject{kind="entity_definition" ref="srd/creature/giant-rat" view="full"}
+
+::subject{kind="entity_definition" ref="srd/creature/giant-spider" view="full"}
+
+::subject{kind="entity_definition" ref="srd/creature/goblin-minion" view="full"}
+
+::subject{kind="entity_definition" ref="srd/creature/goblin-warrior" view="full"}
+
+::subject{kind="entity_definition" ref="srd/creature/gray-ooze" view="full"}
+
+::subject{kind="entity_definition" ref="srd/creature/hobgoblin-warrior" view="full"}
+
+::subject{kind="entity_definition" ref="srd/creature/ogre-zombie" view="full"}
+
+::subject{kind="entity_definition" ref="srd/creature/owlbear" view="full"}
+
+::subject{kind="entity_definition" ref="srd/creature/shadow" view="full"}
+
+::subject{kind="entity_definition" ref="srd/creature/skeleton" view="full"}
+
+::subject{kind="entity_definition" ref="srd/creature/specter" view="full"}
+
+::subject{kind="entity_definition" ref="srd/creature/stirge" view="full"}
+
+::subject{kind="entity_definition" ref="srd/creature/swarm-of-rats" view="full"}
+
+::subject{kind="entity_definition" ref="srd/creature/wererat" view="full"}
+
+::subject{kind="entity_definition" ref="srd/creature/wight" view="full"}
+
+::subject{kind="entity_definition" ref="srd/creature/will-o-wisp" view="full"}
+
+::subject{kind="entity_definition" ref="srd/creature/wolf" view="full"}
+
+::subject{kind="entity_definition" ref="srd/creature/worg" view="full"}
+
+::subject{kind="entity_definition" ref="srd/creature/zombie" view="full"}
+
+::subject{kind="entity_definition" ref="srd/item/lantern-hooded" view="full"}
+
+::subject{kind="entity_definition" ref="srd/item/potion-of-healing" view="full"}
+
+::subject{kind="entity_definition" ref="srd/item/rope" view="full"}
+
+::subject{kind="entity_definition" ref="srd/item/waterskin" view="full"}
+
+::subject{kind="entity_definition" ref="srd/magic_item/longsword-plus-1" view="full"}
+
+::subject{kind="entity_definition" ref="srd/weapon/shortsword" view="full"}"""
 id = "srd-subjects"
 title = "Creatures and gear from the SRD"
 

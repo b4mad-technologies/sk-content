@@ -36,6 +36,7 @@ tag = "srd.item.light"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Brass petals fold around the steady flame with a soft metallic whisper, taming its glare to a watchful ember. Raised, the hood lets warm light spill across wet roads and cellar walls; lowered, it keeps only a close pool of amber at hand. Oil smoke and heated metal linger faintly in the bearer’s gloves."
 display_name = "Lantern, Hooded"
 entity_def_id = "srd/item/lantern-hooded"
 grants_capability_while_equipped = ""

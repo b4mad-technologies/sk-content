@@ -31,6 +31,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A closed box on high wheels, paint chipped at the door, curtains that smell of dust and old perfume. The step is narrow. Inside, the bench is hard and the world goes by as a muffled rumble of road. The door latch sticks in wet weather and yields to a practiced shove."
 display_name = "Carriage"
 entity_def_id = "srd/item/carriage"
 grants_capability_while_equipped = ""

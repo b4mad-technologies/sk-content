@@ -76,6 +76,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A sharp syllable cracks the air, and every hidden catch within the chosen barrier shudders in answer. Bolts recoil, stubborn hinges loosen, and iron clasps yield with a guilty clatter. The final sound rolls outward like a hammer striking a cathedral door, announcing that something sealed has been invited to open."
 display_name = "Knock"
 entity_def_id = "srd/spell/knock"
 grants_capability_while_equipped = ""
@@ -102,7 +103,7 @@ target_ref = "srd/spell/knock"
 action_id = "srd/spell/knock/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Knock — a spell action."
+description = "You cast this spell to open a locked, stuck, or magically sealed object, or to suppress certain magical barriers briefly."
 display_name = "Cast Knock"
 non_steering = true
 on_failure = ""

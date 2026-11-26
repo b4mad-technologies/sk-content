@@ -72,6 +72,7 @@ tag = "srd.spell.list.cleric"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A single utterance rolls across the battlefield like a bell struck beneath clear water. Bruises fade, breath steadies, and the body remembers its unbroken shape. Panic, venom, and numbing dread scatter before the sound, leaving the fallen with strength enough to rise into the light."
 display_name = "Power Word Heal"
 entity_def_id = "srd/spell/power-word-heal"
 grants_capability_while_equipped = ""

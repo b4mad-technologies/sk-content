@@ -7,7 +7,6 @@
 import { type Pin, sheetMetrics } from "./map-metrics.ts";
 
 export const GOBLIN_WARREN_MAP = sheetMetrics({
-	file: "319 Goblin Lair-PC.jpg",
 	image_width_px: 2000,
 	image_height_px: 2000,
 	grid_size_px: 50,

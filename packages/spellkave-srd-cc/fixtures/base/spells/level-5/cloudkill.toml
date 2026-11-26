@@ -84,6 +84,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A bruised haze spills across the ground, its sickly hue swallowing torchlight and turning every breath into a bitter gamble. It creeps with deliberate hunger, curling around boots, stones, and shattered shields while unseen lungs seize in panic. Even after the vapor passes, the air seems to retain a rancid, metallic taste."
 display_name = "Cloudkill"
 entity_def_id = "srd/spell/cloudkill"
 grants_capability_while_equipped = ""

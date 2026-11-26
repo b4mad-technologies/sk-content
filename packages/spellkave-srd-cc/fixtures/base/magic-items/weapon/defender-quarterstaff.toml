@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Dark grain ripples beneath the polished wood, as though the staff remembers every shield wall it has stood beside. In a practiced grip, its balance seems to shift with danger, lending itself now to a decisive strike, now to a watchful guard. A faint, steady warmth gathers along its length when steel comes near."
 display_name = "Defender (Quarterstaff)"
 entity_def_id = "srd/magic_item/defender-quarterstaff"
 grants_capability_while_equipped = ""

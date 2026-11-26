@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush like velvet settles over the chosen thing, softening every unseen thread that might lead toward it. Crystal motes vanish against skin, stone, or steel, leaving no glimmer for seeking eyes beyond the ordinary. Even distant watchers find only a quiet blank where certainty should be."
 display_name = "Nondetection"
 entity_def_id = "srd/spell/nondetection"
 grants_capability_while_equipped = ""

@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "pixellab-pixen",
+  "prompt": "Orc adventurer. orc of human height with grey-green skin, small lower tusks and dark tied-back hair. One full-body south-facing humanoid adventurer standing upright with ordinary adventurer proportions, plain cream tunic, brown belt and boots, forest-green travel cloak, empty hands, no weapon. Show the people through body shape, face, ears, skin, and hair; do not invent heraldry. Not a monster, no hunched pose, no face close-up, scene, companions, letters, logos, or watermarks. Theme-neutral Spellkave pixel art: mid-contrast cream, charcoal, muted gold, forest, and rust. Selective outline, basic-to-medium shading, no gloss or bloom. Transparent background, no frame, no baked scenery, no letters, words, numerals, logo, watermark, photorealism, or D&D branding. Centered, native pixel size.",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 1.1
+  },
+  "generated_at": "2026-11-16T11:30:29.776Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "7d9ebd1f16212ff7c517648d856ca09f9c5be4826c8f5b1e51f2460de9582ecb",
+  "target_attachment_ref": "srd/species/orc#srd.art.image",
+  "kind": "species",
+  "entry_id": "species-orc",
+  "provider_ids": {
+    "api_base_url": "https://api.pixellab.ai/v2",
+    "route": "/create-image-pixen"
+  }
+}

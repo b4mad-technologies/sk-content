@@ -1,0 +1,9 @@
+---
+id: srd/creature/hippopotamus/action/multiattack
+kind: action
+locale: en
+model: openai/gpt-5.6-terra
+prompt_id: flavor-rule
+reviewed: true
+---
+You make two Bite attacks, resolving each separately. A miss with one Bite does not prevent the other.

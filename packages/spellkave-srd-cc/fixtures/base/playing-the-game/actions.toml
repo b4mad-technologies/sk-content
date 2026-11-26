@@ -27,7 +27,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/action/attack"
 default_visibility = "Public"
-description = "Attack with a weapon or an Unarmed Strike."
+description = "Make an attack with a weapon or an Unarmed Strike. You use it when you take the Attack action."
 display_name = "Action: Attack"
 
 # markdown: playing-the-game.md § Actions (no open5e pk — see module header)
@@ -44,7 +44,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/action/dash"
 default_visibility = "Public"
-description = "For the rest of the turn, give yourself extra movement equal to your Speed."
+description = "When you take this action, you gain extra movement equal to your Speed for the rest of the turn."
 display_name = "Action: Dash"
 
 # markdown: playing-the-game.md § Actions (no open5e pk — see module header)
@@ -61,7 +61,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/action/disengage"
 default_visibility = "Public"
-description = "Your movement doesn't provoke Opportunity Attacks for the rest of the turn."
+description = "When you take this action, your movement does not provoke Opportunity Attacks for the rest of the turn."
 display_name = "Action: Disengage"
 
 # markdown: playing-the-game.md § Actions (no open5e pk — see module header)
@@ -78,7 +78,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/action/dodge"
 default_visibility = "Public"
-description = "Until the start of your next turn, attack rolls against you have Disadvantage, and you make Dexterity saving throws with Advantage. You lose this benefit if you have the Incapacitated condition or if your Speed is 0."
+description = "You focus on avoiding harm until your next turn. Attacks against you are less likely to hit, and you are better at Dexterity saves, unless you are incapacitated or cannot move."
 display_name = "Action: Dodge"
 
 # markdown: playing-the-game.md § Actions (no open5e pk — see module header)
@@ -95,7 +95,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/action/help"
 default_visibility = "Public"
-description = "Help another creature's ability check or attack roll, or administer first aid."
+description = "You use your action to aid another creature’s ability check or attack, or to provide first aid."
 display_name = "Action: Help"
 
 # markdown: playing-the-game.md § Actions (no open5e pk — see module header)
@@ -112,7 +112,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/action/hide"
 default_visibility = "Public"
-description = "Make a Dexterity (Stealth) check."
+description = "You try to stay unnoticed by making a Dexterity (Stealth) check. Use it when you move carefully, conceal yourself, or avoid drawing attention."
 display_name = "Action: Hide"
 
 # markdown: playing-the-game.md § Actions (no open5e pk — see module header)
@@ -129,7 +129,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/action/influence"
 default_visibility = "Public"
-description = "Make a Charisma (Deception, Intimidation, Performance, or Persuasion) or Wisdom (Animal Handling) check to alter a creature's attitude."
+description = "You try to shift a creature’s attitude with charm, threats, performance, deception, or animal handling. Make the appropriate Charisma or Wisdom check."
 display_name = "Action: Influence"
 
 # markdown: playing-the-game.md § Actions (no open5e pk — see module header)
@@ -146,7 +146,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/action/magic"
 default_visibility = "Public"
-description = "Cast a spell, use a magic item, or use a magical feature."
+description = "You use your action to cast a spell, activate a magic item, or use a magical feature that requires an action."
 display_name = "Action: Magic"
 
 # markdown: playing-the-game.md § Actions (no open5e pk — see module header)
@@ -163,7 +163,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/action/ready"
 default_visibility = "Public"
-description = "Prepare to take an action in response to a trigger you define."
+description = "You prepare an action and choose a trigger. You use that action as a reaction when the trigger occurs."
 display_name = "Action: Ready"
 
 # markdown: playing-the-game.md § Actions (no open5e pk — see module header)
@@ -180,7 +180,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/action/search"
 default_visibility = "Public"
-description = "Make a Wisdom (Insight, Medicine, Perception, or Survival) check."
+description = "Make a Wisdom check using Insight, Medicine, Perception, or Survival to look for clues, creatures, or other hidden details."
 display_name = "Action: Search"
 
 # markdown: playing-the-game.md § Actions (no open5e pk — see module header)
@@ -197,7 +197,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/action/study"
 default_visibility = "Public"
-description = "Make an Intelligence (Arcana, History, Investigation, Nature, or Religion) check."
+description = "You make an Intelligence check using Arcana, History, Investigation, Nature, or Religion to learn or recall useful information."
 display_name = "Action: Study"
 
 # markdown: playing-the-game.md § Actions (no open5e pk — see module header)
@@ -214,5 +214,5 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/action/utilize"
 default_visibility = "Public"
-description = "Use a nonmagical object."
+description = "Use a nonmagical object that calls for an action to operate, such as opening a door or activating a mechanism."
 display_name = "Action: Utilize"

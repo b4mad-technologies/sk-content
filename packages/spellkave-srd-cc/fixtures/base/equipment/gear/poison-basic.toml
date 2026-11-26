@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Dark glass hides a slow liquid that catches a dull sheen when the vial is tilted toward a lamp. The stopper is seated hard, and even so a bitter edge rides the air around it. It is kept apart from food and drink, a thing meant for a blade and handled with cloth between skin and glass."
 display_name = "Poison, Basic"
 entity_def_id = "srd/item/poison-basic"
 grants_capability_while_equipped = ""

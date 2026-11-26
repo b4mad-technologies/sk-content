@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "At a whispered command, the mace’s iron head blooms with fierce orange fire, each ridge glowing like a forge fresh from the bellows. Heat rolls from it in steady waves, yet the haft remains cool and sure beneath the hand. In darkness, its burning crown paints walls and armor in trembling gold."
 display_name = "Flame Tongue Mace"
 entity_def_id = "srd/magic_item/flame-tongue-mace"
 grants_capability_while_equipped = ""

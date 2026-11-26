@@ -24,6 +24,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A green bottle of ordinary wine, cork stained, label gone or never grand. The glass is cool. Poured, it smells of fruit that has already decided to become vinegar someday, and of a table that does not expect a toast."
 display_name = "Wine (bottle), Common"
 entity_def_id = "srd/item/wine-common"
 grants_capability_while_equipped = ""

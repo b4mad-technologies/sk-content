@@ -18,6 +18,7 @@ tag = "srd.feat.origin"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A brutal instinct guides each committed swing, finding the tender seam in mail, hide, or bone. In the crush of close combat, hesitation burns away beneath the old, hard rhythm of survival. Every weapon becomes an argument settled with ruthless certainty."
 display_name = "Savage Attacker"
 entity_def_id = "srd/feat/savage-attacker"
 grants_capability_while_equipped = ""

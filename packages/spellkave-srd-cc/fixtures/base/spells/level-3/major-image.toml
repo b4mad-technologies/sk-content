@@ -102,6 +102,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A vacant hall fills with the warmth of a roaring hearth, the scent of cedar smoke, and the murmur of unseen guests. A phantom beast pads across the flagstones with bright, watchful eyes, or a distant bell tower chimes beneath a painted storm. The glamour answers its maker’s intent, shifting with the scene until a careless hand finds only empty air."
 display_name = "Major Image"
 entity_def_id = "srd/spell/major-image"
 grants_capability_while_equipped = ""

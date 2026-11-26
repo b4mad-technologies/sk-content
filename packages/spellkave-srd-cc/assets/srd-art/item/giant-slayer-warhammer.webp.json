@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-warhammer",
+  "overlay_template": "giant-slayer",
+  "overlay_badge": "death",
+  "base_sha256": "f1337a68fa10fd2665ec84e428dce066bdb1506d9eda1eb630cff6e010e9b84d",
+  "overlay_sha256": "9bf5fbdf25b4d354919a4426d4ad056425b09b580f5cb0c80c74ae592fe6a728",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:43.970Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "3c0b0ead395db7d15b0869ef7fd36d1479dae7ac1e9c503a9ffb0813ee81860c",
+  "target_attachment_ref": "srd/magic_item/giant-slayer-warhammer#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-giant-slayer-warhammer"
+}

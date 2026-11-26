@@ -78,6 +78,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Reality loosens its grip in a stuttering shimmer, and the caster slips beyond the solid world between heartbeats. From that pale, muffled elsewhere, familiar shapes linger as gray silhouettes behind a veil of cold silence. Each return comes with the faint snap of air reclaiming what it briefly lost."
 display_name = "Blink"
 entity_def_id = "srd/spell/blink"
 grants_capability_while_equipped = ""

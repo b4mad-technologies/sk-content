@@ -72,6 +72,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A single utterance hangs in the air like a hook caught in the fabric of creation. The world listens, shivers, and rearranges its seams around the speaker’s intent—sometimes with breathtaking grace, sometimes with a cruel literalness. When the silence returns, even the one who spoke may feel diminished, as though reality demanded a piece of them in payment."
 display_name = "Wish"
 entity_def_id = "srd/spell/wish"
 grants_capability_while_equipped = ""

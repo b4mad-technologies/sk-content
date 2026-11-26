@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its long blade carries a hush like the pause before thunder, cold against the palm even beside a cheerful fire. At the first stir of violence, the glaive trembles with a thin, urgent note, pulling sleepers from honest rest and setting nearby hearts racing toward readiness."
 display_name = "Weapon of Warning (Glaive)"
 entity_def_id = "srd/magic_item/weapon-of-warning-glaive"
 grants_capability_while_equipped = ""

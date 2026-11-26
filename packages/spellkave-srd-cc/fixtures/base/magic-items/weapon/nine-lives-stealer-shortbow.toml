@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Blackened yew curves like a hooked talon, its string humming with a note too low for ordinary hearing. Each arrow nocked against it seems to draw the air thin and cold, as though some unseen presence leans close to count a fleeing heartbeat. Pale scratches along the limbs deepen after moments of cruel fortune, one more mark claimed from the living."
 display_name = "Nine Lives Stealer (Shortbow)"
 entity_def_id = "srd/magic_item/nine-lives-stealer-shortbow"
 grants_capability_while_equipped = ""

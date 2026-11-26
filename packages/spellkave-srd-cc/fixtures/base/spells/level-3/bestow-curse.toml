@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A cold mark passes from palm to flesh, sinking beneath the skin like ink through wet parchment. Fate seems to snag around the victim’s movements: strength falters, courage curdles, and every hostile effort turns uncertain. In darker castings, the malison lingers like a patient shadow, feeding on each wound it helps create."
 display_name = "Bestow Curse"
 entity_def_id = "srd/spell/bestow-curse"
 grants_capability_while_equipped = ""

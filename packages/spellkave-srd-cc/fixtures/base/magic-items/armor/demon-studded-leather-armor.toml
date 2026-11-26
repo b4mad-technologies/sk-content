@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Black leather clings like a second hide, its iron studs warm beneath the palm and its gauntlets ending in hooked, predatory talons. A harsh, guttural tongue presses at the edge of thought whenever the buckles are drawn tight. Once worn, the armor settles with dreadful satisfaction, as though it has finally found its proper flesh."
 display_name = "Demon Studded Leather Armor"
 entity_def_id = "srd/magic_item/demon-studded-leather-armor"
 grants_capability_while_equipped = ""

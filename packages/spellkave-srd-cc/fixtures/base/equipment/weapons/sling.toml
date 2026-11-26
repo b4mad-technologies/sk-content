@@ -83,7 +83,7 @@ tag = "srd.damage_type.bludgeoning"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Sling — a simple ranged weapon."
+description = "A smooth stone settles into the leather cradle with a familiar, humble weight. Twisted cord whispers through callused fingers, then snaps outward in a sharp, circling blur. Small enough to vanish beneath a belt or in a shepherd’s satchel, it carries the patient menace of a distant storm."
 display_name = "Sling"
 entity_def_id = "srd/weapon/sling"
 grants_capability_while_equipped = ""

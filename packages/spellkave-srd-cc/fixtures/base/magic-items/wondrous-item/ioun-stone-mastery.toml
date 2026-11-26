@@ -36,6 +36,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A many-faced stone turns as it orbits, and each face throws a different thin color. The hands feel as if they remember a craft they have only watched. The circle is patient and exact. It smells of tool oil and a workshop left tidy. Watching it turn makes the wrists want a tool they do not yet hold."
 display_name = "Ioun Stone (Mastery)"
 entity_def_id = "srd/magic_item/ioun-stone-mastery"
 grants_capability_while_equipped = ""

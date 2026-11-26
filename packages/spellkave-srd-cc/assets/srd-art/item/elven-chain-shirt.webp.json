@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-chain-shirt",
+  "overlay_template": "elven",
+  "overlay_badge": "metal",
+  "base_sha256": "d38b60c1cb2c9fe27093cab8f3d64d034cafdb60d8bd6ad0e663301eb8cf01db",
+  "overlay_sha256": "ccc7c944d91b356336aa1f1e27505e8b85e5220a061c5010888b5067d6625261",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:55.154Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "2dfc5f9f2d6349a822a1d3b1e3fd9ea1f2b04f4ebfb556a7c45c0e46227d7f88",
+  "target_attachment_ref": "srd/magic_item/elven-chain-shirt#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-elven-chain-shirt"
+}

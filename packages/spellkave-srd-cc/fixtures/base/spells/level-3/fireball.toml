@@ -84,6 +84,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A coal-bright ember tears across the air, trailing a sulfurous hiss before blooming into a sun-hot blossom of flame. The blast rolls outward with a furnace roar, swallowing shadows in gold and red. When the glare fades, smoke clings to the ground and every loose spark seems eager to find something dry."
 display_name = "Fireball"
 entity_def_id = "srd/spell/fireball"
 grants_capability_while_equipped = ""

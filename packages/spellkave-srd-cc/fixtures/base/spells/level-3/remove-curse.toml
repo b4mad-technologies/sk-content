@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A clear, bell-like hush rolls outward from the caster’s hand, loosening invisible knots of spite and old misfortune. Tarnished charms dim, fevered shadows retreat, and burdens that clung like barbed wire fall away in dust. Even a malign treasure may be pried free, left glinting coldly without a claim upon its former bearer."
 display_name = "Remove Curse"
 entity_def_id = "srd/spell/remove-curse"
 grants_capability_while_equipped = ""

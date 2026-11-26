@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The blackwood stock bears a faint silver grain that catches torchlight like a drawn breath. When its string is set, the mechanism settles into a poised, deliberate hush, as though the weapon has already chosen the path of its next bolt. Cold rain beads on its limbs without dulling their dark sheen."
 display_name = "Heavy Crossbow (+1)"
 entity_def_id = "srd/magic_item/heavy-crossbow-plus-1"
 grants_capability_while_equipped = ""

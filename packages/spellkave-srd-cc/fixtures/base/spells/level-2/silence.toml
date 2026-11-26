@@ -96,6 +96,7 @@ tag = "srd.spell.list.ranger"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush settles like fresh snow over a chosen patch of earth, swallowing bootsteps, breath, and the ring of drawn steel. Lips move without a whisper; a bell may swing, yet no note escapes its throat. At the boundary, the world’s ordinary clamor presses close, unable to cross."
 display_name = "Silence"
 entity_def_id = "srd/spell/silence"
 grants_capability_while_equipped = ""

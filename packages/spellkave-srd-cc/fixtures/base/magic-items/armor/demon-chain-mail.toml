@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Black links cling close as wet ink, their hooked gauntlets flexing with a patient, predatory life. A low, alien murmur gathers beneath the helm whenever infernal tongues are spoken nearby. Once buckled shut, the mail settles against its bearer like a second skin—and seems reluctant to surrender its hold."
 display_name = "Demon Chain Mail"
 entity_def_id = "srd/magic_item/demon-chain-mail"
 grants_capability_while_equipped = ""

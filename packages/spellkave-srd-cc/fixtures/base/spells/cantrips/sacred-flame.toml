@@ -76,6 +76,7 @@ tag = "srd.damage_type.radiant"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush gathers around the chosen foe, then the air opens in a pillar of merciless white-gold fire. It leaves no smoke, only the sharp scent of rain on stone and the lingering afterimage of holiness. Even behind walls and shields, the condemned seem briefly outlined in an unforgiving dawn."
 display_name = "Sacred Flame"
 entity_def_id = "srd/spell/sacred-flame"
 grants_capability_while_equipped = ""
@@ -102,7 +103,7 @@ target_ref = "srd/spell/sacred-flame"
 action_id = "srd/spell/sacred-flame/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Sacred Flame — a spell action."
+description = "You cast a divine burst at a creature you can see, forcing it to evade or take radiant damage."
 display_name = "Cast Sacred Flame"
 non_steering = true
 on_failure = "srd/spell/sacred-flame/cast/success"

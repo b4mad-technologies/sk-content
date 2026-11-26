@@ -94,6 +94,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush settles over the departed, cool as stone beneath moonlight. The body is kept from the slow claims of earth and weather, preserved in a stillness that feels reverent rather than cold. Even restless shadows find no welcome here; the fallen sleep undisturbed, held gently beyond time’s ordinary reach."
 display_name = "Gentle Repose"
 entity_def_id = "srd/spell/gentle-repose"
 grants_capability_while_equipped = ""
@@ -120,7 +121,7 @@ target_ref = "srd/spell/gentle-repose"
 action_id = "srd/spell/gentle-repose/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Gentle Repose — a spell action."
+description = "You cast this spell on a corpse to preserve it from decay and delay the time limit for returning it to life."
 display_name = "Cast Gentle Repose"
 non_steering = true
 on_failure = ""
@@ -154,7 +155,7 @@ template_id = "srd/spell/gentle-repose/cast/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/spell/gentle-repose"
-description = "Gentle Repose — a spell condition."
+description = "A preserved state placed on a corpse. It slows decay and prevents the body from becoming undead for the spell’s duration."
 display_name = "Gentle Repose"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

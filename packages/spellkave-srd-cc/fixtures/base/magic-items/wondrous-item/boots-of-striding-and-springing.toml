@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Supple leather wraps the calves like a runner’s promise, its soles always faintly warm against stone, moss, or snow. With each step, the ground seems eager to fall away beneath them, while burdens lose their cruel insistence. A poised wearer can cross broken walls and moonlit gullies in a single breathless bound."
 display_name = "Boots of Striding and Springing"
 entity_def_id = "srd/magic_item/boots-of-striding-and-springing"
 grants_capability_while_equipped = ""

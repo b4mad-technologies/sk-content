@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A broad length of ironwood, banded in dark steel, it seems to settle into a wielder’s grip with watchful purpose. Its weight can turn from crushing force to steadfast shelter in the space between heartbeats. When danger closes, the weapon hums low, as though choosing whether to strike the foe or stand guard against them."
 display_name = "Defender (Greatclub)"
 entity_def_id = "srd/magic_item/defender-greatclub"
 grants_capability_while_equipped = ""

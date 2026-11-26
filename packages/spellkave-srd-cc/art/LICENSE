@@ -1,0 +1,15 @@
+SRD art manifest and badges
+===========================
+
+Copyright B4mad Technologies and Spellkave contributors.
+
+The badge images in `badge/` are licensed under the Creative Commons
+Attribution 4.0 International License (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+They are original Spellkave material, generated with PixelLab. Each
+`.png.json` sidecar records the generator, prompt and SHA-256. The
+composites in `../assets/srd-art/` place these badges on base sprites.
+`art-manifest.json` is first-party data under the same licence.
+
+Some images were generated with PixelLab. PixelLab's terms restrict using its outputs to train other models; that restriction may apply to you.

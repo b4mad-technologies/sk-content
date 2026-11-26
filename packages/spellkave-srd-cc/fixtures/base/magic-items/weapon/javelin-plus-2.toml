@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A slender shaft of ashwood, balanced so perfectly that it seems eager to leave the hand. Its steel head holds a pale, unwavering gleam, and the air gives a faint keen when the weapon is drawn back to throw. Even at rest, it carries the tense certainty of a hunter’s aim."
 display_name = "Javelin (+2)"
 entity_def_id = "srd/magic_item/javelin-plus-2"
 grants_capability_while_equipped = ""

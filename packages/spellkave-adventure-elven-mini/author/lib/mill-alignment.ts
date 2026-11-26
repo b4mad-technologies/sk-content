@@ -7,7 +7,6 @@
 import { type Pin, sheetMetrics } from "./map-metrics.ts";
 
 export const MILL_MAP = sheetMetrics({
-	file: "131 The Windmill Cult-DM.jpg",
 	image_width_px: 2000,
 	image_height_px: 1941,
 	grid_size_px: 50,

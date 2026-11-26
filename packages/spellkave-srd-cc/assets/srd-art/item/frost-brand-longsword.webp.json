@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-longsword",
+  "overlay_template": "frost-brand",
+  "overlay_badge": "cold",
+  "base_sha256": "b288dfe407b1060933a87aea12cee9ded2ad446ca281c72647e94d38b98890e3",
+  "overlay_sha256": "b600b74eed7651b8521a2b3a1f2ba79042c66415e986119281eccdcd5fbff0ed",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:42.180Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "6f157c968a66d88ac18f5eaa18f49ae6470c197222ac36fc38eed9dad5d7ce87",
+  "target_attachment_ref": "srd/magic_item/frost-brand-longsword#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-frost-brand-longsword"
+}

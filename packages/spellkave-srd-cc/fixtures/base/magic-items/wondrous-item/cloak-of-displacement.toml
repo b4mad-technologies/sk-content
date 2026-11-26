@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "This velvet-dark mantle never seems to hang where the eye expects. Its hem lingers a heartbeat behind each step, and torchlight finds a second silhouette drifting just beyond the wearer’s true shape. In stillness, the illusion thins to a faint shimmer; in motion, it becomes a dancer’s evasive afterimage."
 display_name = "Cloak of Displacement"
 entity_def_id = "srd/magic_item/cloak-of-displacement"
 grants_capability_while_equipped = ""

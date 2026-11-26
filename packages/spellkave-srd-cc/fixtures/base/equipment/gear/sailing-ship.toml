@@ -24,6 +24,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Tall masts, a web of line, and a deck that rings under boots. Canvas sleeps in bundles until someone shouts. The ship smells of tar, citrus meant to fight scurvy, and the iron of the galley stove. The horizon is a job. Night watches learn the creak of every stay."
 display_name = "Sailing Ship"
 entity_def_id = "srd/item/sailing-ship"
 grants_capability_while_equipped = ""

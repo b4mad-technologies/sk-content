@@ -84,6 +84,7 @@ tag = "srd.spell.list.druid"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A warm tide spills through the fray, carrying the scent of rain on sunlit leaves and the faint chime of distant bells. Bruised bodies straighten beneath its passing, breath returning in startled, grateful gasps. For a heartbeat, the battlefield seems to remember gentler days."
 display_name = "Mass Cure Wounds"
 entity_def_id = "srd/spell/mass-cure-wounds"
 grants_capability_while_equipped = ""

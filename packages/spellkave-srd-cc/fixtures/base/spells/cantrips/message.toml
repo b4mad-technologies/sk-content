@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A thread of intent slips from one mind to another, finer than breath and quieter than candle smoke. Across a crowded hall or behind a closed door, a secret thought arrives as a private murmur, leaving no ripple for nearby ears. For a heartbeat, distance becomes an illusion shared by two conspirators."
 display_name = "Message"
 entity_def_id = "srd/spell/message"
 grants_capability_while_equipped = ""

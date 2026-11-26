@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A long ashwood shaft, banded in cold iron, seems to grow steadier when towering shapes loom near. Its point carries the stern certainty of a siege engine, striking with a force that buckles knees and shakes the ground beneath colossal feet. In a rider’s hands, it feels made for bringing mountains low."
 display_name = "Giant Slayer (Lance)"
 entity_def_id = "srd/magic_item/giant-slayer-lance"
 grants_capability_while_equipped = ""

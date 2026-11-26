@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale, crackling sheet with a faint scent of limewash and dust, parchment welcomes ink in crisp, deliberate strokes. It curls near candlelight and drinks spilled wax with quiet patience, preserving bargains, maps, prayers, and names long after the hand that penned them has gone."
 display_name = "Parchment"
 entity_def_id = "srd/item/parchment"
 grants_capability_while_equipped = ""

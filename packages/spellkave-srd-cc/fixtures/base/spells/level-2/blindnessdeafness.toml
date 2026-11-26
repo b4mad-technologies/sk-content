@@ -82,6 +82,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A sharp syllable rings through the air, and the world betrays its victim: colors gutter into blackness, or every sound is swallowed by a sudden, airless hush. For a heartbeat, even seasoned warriors may falter, cut adrift from the senses that anchor them to danger."
 display_name = "Blindness/Deafness"
 entity_def_id = "srd/spell/blindnessdeafness"
 grants_capability_while_equipped = ""
@@ -109,7 +110,7 @@ target_ref = "srd/spell/blindnessdeafness"
 action_id = "srd/spell/blindnessdeafness/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Blindness/Deafness — a spell action."
+description = "You cast this spell to blind or deafen a creature within range, hindering its sight or hearing for a time."
 display_name = "Cast Blindness/Deafness"
 non_steering = true
 on_failure = "srd/spell/blindnessdeafness/cast/success"
@@ -143,7 +144,7 @@ template_id = "srd/spell/blindnessdeafness/cast/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/spell/blinded"
-description = "Blindness/Deafness — a spell condition."
+description = "A spell effect that makes a creature unable to see or unable to hear. It lasts until the effect ends or is removed."
 display_name = "Blindness/Deafness"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

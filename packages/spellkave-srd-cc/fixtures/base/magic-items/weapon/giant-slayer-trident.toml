@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The trident’s three darkened prongs seem to lean toward towering silhouettes, as though remembering old battles beneath colossal feet. Its haft carries a deep, steady vibration when raised against a mighty foe, and each cast promises to bring even the proudest brute crashing down into the dust."
 display_name = "Giant Slayer (Trident)"
 entity_def_id = "srd/magic_item/giant-slayer-trident"
 grants_capability_while_equipped = ""

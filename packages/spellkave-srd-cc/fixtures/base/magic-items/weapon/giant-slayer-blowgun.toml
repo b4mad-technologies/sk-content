@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "This slender tube is carved with tiny toppled colossi, each face worn smooth by countless breaths. A dart loosed through it carries a sharp, whistling spite, striking with the force of a falling stone. In the hands of a patient hunter, even towering foes seem suddenly uncertain of their footing."
 display_name = "Giant Slayer (Blowgun)"
 entity_def_id = "srd/magic_item/giant-slayer-blowgun"
 grants_capability_while_equipped = ""

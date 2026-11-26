@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its painted face bears old nicks and dulled heraldry, yet the rim hums softly when danger draws near. At a word and gesture, the shield lifts with a clatter of unseen mail, circling its bearer like a stern, silent guardian. Its movements are quick, deliberate, and faintly uncanny, as though a watchful soldier still stands behind the metal."
 display_name = "Animated Shield"
 entity_def_id = "srd/magic_item/animated-shield"
 grants_capability_while_equipped = ""

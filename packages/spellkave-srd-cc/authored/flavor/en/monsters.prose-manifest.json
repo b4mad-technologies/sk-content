@@ -1,0 +1,5302 @@
+{
+	"schema": "spellkave-prose-manifest/v1",
+	"output_dir": "packages/spellkave-srd-cc/authored/flavor/.runs",
+	"entries": [
+		{
+			"id": "monster/aboleth",
+			"display_name": "Aboleth",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/adult-black-dragon",
+			"display_name": "Adult Black Dragon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/adult-blue-dragon",
+			"display_name": "Adult Blue Dragon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/adult-brass-dragon",
+			"display_name": "Adult Brass Dragon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/adult-bronze-dragon",
+			"display_name": "Adult Bronze Dragon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/adult-copper-dragon",
+			"display_name": "Adult Copper Dragon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/adult-gold-dragon",
+			"display_name": "Adult Gold Dragon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/adult-green-dragon",
+			"display_name": "Adult Green Dragon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/adult-red-dragon",
+			"display_name": "Adult Red Dragon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/adult-silver-dragon",
+			"display_name": "Adult Silver Dragon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/adult-white-dragon",
+			"display_name": "Adult White Dragon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/air-elemental",
+			"display_name": "Air Elemental",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/allosaurus",
+			"display_name": "Allosaurus",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/ancient-black-dragon",
+			"display_name": "Ancient Black Dragon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/ancient-blue-dragon",
+			"display_name": "Ancient Blue Dragon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/ancient-brass-dragon",
+			"display_name": "Ancient Brass Dragon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/ancient-bronze-dragon",
+			"display_name": "Ancient Bronze Dragon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/ancient-copper-dragon",
+			"display_name": "Ancient Copper Dragon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/ancient-gold-dragon",
+			"display_name": "Ancient Gold Dragon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/ancient-green-dragon",
+			"display_name": "Ancient Green Dragon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/ancient-red-dragon",
+			"display_name": "Ancient Red Dragon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/ancient-silver-dragon",
+			"display_name": "Ancient Silver Dragon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/ancient-white-dragon",
+			"display_name": "Ancient White Dragon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/animated-armor",
+			"display_name": "Animated Armor",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/animated-flying-sword",
+			"display_name": "Animated Flying Sword",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/animated-rug-of-smothering",
+			"display_name": "Animated Rug of Smothering",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/ankheg",
+			"display_name": "Ankheg",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/ankylosaurus",
+			"display_name": "Ankylosaurus",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/ape",
+			"display_name": "Ape",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/archelon",
+			"display_name": "Archelon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/archmage",
+			"display_name": "Archmage",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/assassin",
+			"display_name": "Assassin",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/awakened-shrub",
+			"display_name": "Awakened Shrub",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/awakened-tree",
+			"display_name": "Awakened Tree",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/axe-beak",
+			"display_name": "Axe Beak",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/azer-sentinel",
+			"display_name": "Azer Sentinel",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/baboon",
+			"display_name": "Baboon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/badger",
+			"display_name": "Badger",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/balor",
+			"display_name": "Balor",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/bandit",
+			"display_name": "Bandit",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/bandit-captain",
+			"display_name": "Bandit Captain",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/barbed-devil",
+			"display_name": "Barbed Devil",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/basilisk",
+			"display_name": "Basilisk",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/bat",
+			"display_name": "Bat",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/bearded-devil",
+			"display_name": "Bearded Devil",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/behir",
+			"display_name": "Behir",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/berserker",
+			"display_name": "Berserker",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/black-bear",
+			"display_name": "Black Bear",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/black-dragon-wyrmling",
+			"display_name": "Black Dragon Wyrmling",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/black-pudding",
+			"display_name": "Black Pudding",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/blink-dog",
+			"display_name": "Blink Dog",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/blood-hawk",
+			"display_name": "Blood Hawk",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/blue-dragon-wyrmling",
+			"display_name": "Blue Dragon Wyrmling",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/boar",
+			"display_name": "Boar",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/bone-devil",
+			"display_name": "Bone Devil",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/brass-dragon-wyrmling",
+			"display_name": "Brass Dragon Wyrmling",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/bronze-dragon-wyrmling",
+			"display_name": "Bronze Dragon Wyrmling",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/brown-bear",
+			"display_name": "Brown Bear",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/bugbear-stalker",
+			"display_name": "Bugbear Stalker",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/bugbear-warrior",
+			"display_name": "Bugbear Warrior",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/bulette",
+			"display_name": "Bulette",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/camel",
+			"display_name": "Camel",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/cat",
+			"display_name": "Cat",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/centaur-trooper",
+			"display_name": "Centaur Trooper",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/chain-devil",
+			"display_name": "Chain Devil",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/chimera",
+			"display_name": "Chimera",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/chuul",
+			"display_name": "Chuul",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/clay-golem",
+			"display_name": "Clay Golem",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/cloaker",
+			"display_name": "Cloaker",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/cloud-giant",
+			"display_name": "Cloud Giant",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/cockatrice",
+			"display_name": "Cockatrice",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/commoner",
+			"display_name": "Commoner",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/constrictor-snake",
+			"display_name": "Constrictor Snake",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/copper-dragon-wyrmling",
+			"display_name": "Copper Dragon Wyrmling",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/couatl",
+			"display_name": "Couatl",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/crab",
+			"display_name": "Crab",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/crocodile",
+			"display_name": "Crocodile",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/cultist",
+			"display_name": "Cultist",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/cultist-fanatic",
+			"display_name": "Cultist Fanatic",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/darkmantle",
+			"display_name": "Darkmantle",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/death-dog",
+			"display_name": "Death Dog",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/deer",
+			"display_name": "Deer",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/deva",
+			"display_name": "Deva",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/dire-wolf",
+			"display_name": "Dire Wolf",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/djinni",
+			"display_name": "Djinni",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/doppelganger",
+			"display_name": "Doppelganger",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/draft-horse",
+			"display_name": "Draft Horse",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/dragon-turtle",
+			"display_name": "Dragon Turtle",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/dretch",
+			"display_name": "Dretch",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/drider",
+			"display_name": "Drider",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/druid",
+			"display_name": "Druid",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/dryad",
+			"display_name": "Dryad",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/dust-mephit",
+			"display_name": "Dust Mephit",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/eagle",
+			"display_name": "Eagle",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/earth-elemental",
+			"display_name": "Earth Elemental",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/efreeti",
+			"display_name": "Efreeti",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/elephant",
+			"display_name": "Elephant",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/elk",
+			"display_name": "Elk",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/erinyes",
+			"display_name": "Erinyes",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/ettercap",
+			"display_name": "Ettercap",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/ettin",
+			"display_name": "Ettin",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/fire-elemental",
+			"display_name": "Fire Elemental",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/fire-giant",
+			"display_name": "Fire Giant",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/flesh-golem",
+			"display_name": "Flesh Golem",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/flying-snake",
+			"display_name": "Flying Snake",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/frog",
+			"display_name": "Frog",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/frost-giant",
+			"display_name": "Frost Giant",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/gargoyle",
+			"display_name": "Gargoyle",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/gelatinous-cube",
+			"display_name": "Gelatinous Cube",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/ghast",
+			"display_name": "Ghast",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/ghost",
+			"display_name": "Ghost",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/ghoul",
+			"display_name": "Ghoul",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/giant-ape",
+			"display_name": "Giant Ape",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/giant-badger",
+			"display_name": "Giant Badger",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/giant-bat",
+			"display_name": "Giant Bat",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/giant-boar",
+			"display_name": "Giant Boar",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/giant-centipede",
+			"display_name": "Giant Centipede",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/giant-constrictor-snake",
+			"display_name": "Giant Constrictor Snake",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/giant-crab",
+			"display_name": "Giant Crab",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/giant-crocodile",
+			"display_name": "Giant Crocodile",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/giant-eagle",
+			"display_name": "Giant Eagle",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/giant-elk",
+			"display_name": "Giant Elk",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/giant-fire-beetle",
+			"display_name": "Giant Fire Beetle",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/giant-fly",
+			"display_name": "Giant Fly",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/giant-frog",
+			"display_name": "Giant Frog",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/giant-goat",
+			"display_name": "Giant Goat",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/giant-hyena",
+			"display_name": "Giant Hyena",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/giant-lizard",
+			"display_name": "Giant Lizard",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/giant-octopus",
+			"display_name": "Giant Octopus",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/giant-owl",
+			"display_name": "Giant Owl",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/giant-rat",
+			"display_name": "Giant Rat",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/giant-scorpion",
+			"display_name": "Giant Scorpion",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/giant-seahorse",
+			"display_name": "Giant Seahorse",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/giant-shark",
+			"display_name": "Giant Shark",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/giant-spider",
+			"display_name": "Giant Spider",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/giant-toad",
+			"display_name": "Giant Toad",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/giant-venomous-snake",
+			"display_name": "Giant Venomous Snake",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/giant-vulture",
+			"display_name": "Giant Vulture",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/giant-wasp",
+			"display_name": "Giant Wasp",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/giant-weasel",
+			"display_name": "Giant Weasel",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/giant-wolf-spider",
+			"display_name": "Giant Wolf Spider",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/gibbering-mouther",
+			"display_name": "Gibbering Mouther",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/glabrezu",
+			"display_name": "Glabrezu",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/gladiator",
+			"display_name": "Gladiator",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/gnoll-warrior",
+			"display_name": "Gnoll Warrior",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/goat",
+			"display_name": "Goat",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/goblin-boss",
+			"display_name": "Goblin Boss",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/goblin-minion",
+			"display_name": "Goblin Minion",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/goblin-warrior",
+			"display_name": "Goblin Warrior",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/gold-dragon-wyrmling",
+			"display_name": "Gold Dragon Wyrmling",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/gorgon",
+			"display_name": "Gorgon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/gray-ooze",
+			"display_name": "Gray Ooze",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/green-dragon-wyrmling",
+			"display_name": "Green Dragon Wyrmling",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/green-hag",
+			"display_name": "Green Hag",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/grick",
+			"display_name": "Grick",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/griffon",
+			"display_name": "Griffon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/grimlock",
+			"display_name": "Grimlock",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/guard",
+			"display_name": "Guard",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/guard-captain",
+			"display_name": "Guard Captain",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/guardian-naga",
+			"display_name": "Guardian Naga",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/half-dragon",
+			"display_name": "Half-Dragon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/harpy",
+			"display_name": "Harpy",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/hawk",
+			"display_name": "Hawk",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/hell-hound",
+			"display_name": "Hell Hound",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/hezrou",
+			"display_name": "Hezrou",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/hill-giant",
+			"display_name": "Hill Giant",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/hippogriff",
+			"display_name": "Hippogriff",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/hippopotamus",
+			"display_name": "Hippopotamus",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/hobgoblin-captain",
+			"display_name": "Hobgoblin Captain",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/hobgoblin-warrior",
+			"display_name": "Hobgoblin Warrior",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/homunculus",
+			"display_name": "Homunculus",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/horned-devil",
+			"display_name": "Horned Devil",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/hunter-shark",
+			"display_name": "Hunter Shark",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/hydra",
+			"display_name": "Hydra",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/hyena",
+			"display_name": "Hyena",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/ice-devil",
+			"display_name": "Ice Devil",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/ice-mephit",
+			"display_name": "Ice Mephit",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/imp",
+			"display_name": "Imp",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/incubus",
+			"display_name": "Incubus",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/invisible-stalker",
+			"display_name": "Invisible Stalker",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/iron-golem",
+			"display_name": "Iron Golem",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/jackal",
+			"display_name": "Jackal",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/killer-whale",
+			"display_name": "Killer Whale",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/knight",
+			"display_name": "Knight",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/kobold-warrior",
+			"display_name": "Kobold Warrior",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/kraken",
+			"display_name": "Kraken",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/lamia",
+			"display_name": "Lamia",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/lemure",
+			"display_name": "Lemure",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/lich",
+			"display_name": "Lich",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/lion",
+			"display_name": "Lion",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/lizard",
+			"display_name": "Lizard",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/mage",
+			"display_name": "Mage",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/magma-mephit",
+			"display_name": "Magma Mephit",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/magmin",
+			"display_name": "Magmin",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/mammoth",
+			"display_name": "Mammoth",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/manticore",
+			"display_name": "Manticore",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/marilith",
+			"display_name": "Marilith",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/mastiff",
+			"display_name": "Mastiff",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/medusa",
+			"display_name": "Medusa",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/merfolk-skirmisher",
+			"display_name": "Merfolk Skirmisher",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/merrow",
+			"display_name": "Merrow",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/mimic",
+			"display_name": "Mimic",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/minotaur-of-baphomet",
+			"display_name": "Minotaur of Baphomet",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/minotaur-skeleton",
+			"display_name": "Minotaur Skeleton",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/mule",
+			"display_name": "Mule",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/mummy",
+			"display_name": "Mummy",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/mummy-lord",
+			"display_name": "Mummy Lord",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/nalfeshnee",
+			"display_name": "Nalfeshnee",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/night-hag",
+			"display_name": "Night Hag",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/nightmare",
+			"display_name": "Nightmare",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/noble",
+			"display_name": "Noble",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/ochre-jelly",
+			"display_name": "Ochre Jelly",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/octopus",
+			"display_name": "Octopus",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/ogre",
+			"display_name": "Ogre",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/ogre-zombie",
+			"display_name": "Ogre Zombie",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/oni",
+			"display_name": "Oni",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/otyugh",
+			"display_name": "Otyugh",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/owl",
+			"display_name": "Owl",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/owlbear",
+			"display_name": "Owlbear",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/panther",
+			"display_name": "Panther",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/pegasus",
+			"display_name": "Pegasus",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/phase-spider",
+			"display_name": "Phase Spider",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/piranha",
+			"display_name": "Piranha",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/pirate",
+			"display_name": "Pirate",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/pirate-captain",
+			"display_name": "Pirate Captain",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/pit-fiend",
+			"display_name": "Pit Fiend",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/planetar",
+			"display_name": "Planetar",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/plesiosaurus",
+			"display_name": "Plesiosaurus",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/polar-bear",
+			"display_name": "Polar Bear",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/pony",
+			"display_name": "Pony",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/priest",
+			"display_name": "Priest",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/priest-acolyte",
+			"display_name": "Priest Acolyte",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/pseudodragon",
+			"display_name": "Pseudodragon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/pteranodon",
+			"display_name": "Pteranodon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/purple-worm",
+			"display_name": "Purple Worm",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/quasit",
+			"display_name": "Quasit",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/rakshasa",
+			"display_name": "Rakshasa",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/rat",
+			"display_name": "Rat",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/raven",
+			"display_name": "Raven",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/red-dragon-wyrmling",
+			"display_name": "Red Dragon Wyrmling",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/reef-shark",
+			"display_name": "Reef Shark",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/remorhaz",
+			"display_name": "Remorhaz",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/rhinoceros",
+			"display_name": "Rhinoceros",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/riding-horse",
+			"display_name": "Riding Horse",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/roc",
+			"display_name": "Roc",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/roper",
+			"display_name": "Roper",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/rust-monster",
+			"display_name": "Rust Monster",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/saber-toothed-tiger",
+			"display_name": "Saber-Toothed Tiger",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/sahuagin-warrior",
+			"display_name": "Sahuagin Warrior",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/salamander",
+			"display_name": "Salamander",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/satyr",
+			"display_name": "Satyr",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/scorpion",
+			"display_name": "Scorpion",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/scout",
+			"display_name": "Scout",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/sea-hag",
+			"display_name": "Sea Hag",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/seahorse",
+			"display_name": "Seahorse",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/shadow",
+			"display_name": "Shadow",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/shambling-mound",
+			"display_name": "Shambling Mound",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/shield-guardian",
+			"display_name": "Shield Guardian",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/shrieker-fungus",
+			"display_name": "Shrieker Fungus",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/silver-dragon-wyrmling",
+			"display_name": "Silver Dragon Wyrmling",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/skeleton",
+			"display_name": "Skeleton",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/solar",
+			"display_name": "Solar",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/specter",
+			"display_name": "Specter",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/sphinx-of-lore",
+			"display_name": "Sphinx of Lore",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/sphinx-of-valor",
+			"display_name": "Sphinx of Valor",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/sphinx-of-wonder",
+			"display_name": "Sphinx of Wonder",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/spider",
+			"display_name": "Spider",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/spirit-naga",
+			"display_name": "Spirit Naga",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/sprite",
+			"display_name": "Sprite",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/spy",
+			"display_name": "Spy",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/steam-mephit",
+			"display_name": "Steam Mephit",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/stirge",
+			"display_name": "Stirge",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/stone-giant",
+			"display_name": "Stone Giant",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/stone-golem",
+			"display_name": "Stone Golem",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/storm-giant",
+			"display_name": "Storm Giant",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/succubus",
+			"display_name": "Succubus",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/swarm-of-bats",
+			"display_name": "Swarm of Bats",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/swarm-of-crawling-claws",
+			"display_name": "Swarm of Crawling Claws",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/swarm-of-insects",
+			"display_name": "Swarm of Insects",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/swarm-of-piranhas",
+			"display_name": "Swarm of Piranhas",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/swarm-of-rats",
+			"display_name": "Swarm of Rats",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/swarm-of-ravens",
+			"display_name": "Swarm of Ravens",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/swarm-of-venomous-snakes",
+			"display_name": "Swarm of Venomous Snakes",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/tarrasque",
+			"display_name": "Tarrasque",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/tiger",
+			"display_name": "Tiger",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/tough",
+			"display_name": "Tough",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/tough-boss",
+			"display_name": "Tough Boss",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/treant",
+			"display_name": "Treant",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/triceratops",
+			"display_name": "Triceratops",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/troll",
+			"display_name": "Troll",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/troll-limb",
+			"display_name": "Troll Limb",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/tyrannosaurus-rex",
+			"display_name": "Tyrannosaurus Rex",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/unicorn",
+			"display_name": "Unicorn",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/vampire",
+			"display_name": "Vampire",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/vampire-familiar",
+			"display_name": "Vampire Familiar",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/vampire-spawn",
+			"display_name": "Vampire Spawn",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/venomous-snake",
+			"display_name": "Venomous Snake",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/violet-fungus",
+			"display_name": "Violet Fungus",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/vrock",
+			"display_name": "Vrock",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/vulture",
+			"display_name": "Vulture",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/warhorse",
+			"display_name": "Warhorse",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/warhorse-skeleton",
+			"display_name": "Warhorse Skeleton",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/warrior-infantry",
+			"display_name": "Warrior Infantry",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/warrior-veteran",
+			"display_name": "Warrior Veteran",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/water-elemental",
+			"display_name": "Water Elemental",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/weasel",
+			"display_name": "Weasel",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/werebear",
+			"display_name": "Werebear",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/wereboar",
+			"display_name": "Wereboar",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/wererat",
+			"display_name": "Wererat",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/weretiger",
+			"display_name": "Weretiger",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/werewolf",
+			"display_name": "Werewolf",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/white-dragon-wyrmling",
+			"display_name": "White Dragon Wyrmling",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/wight",
+			"display_name": "Wight",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/will-o-wisp",
+			"display_name": "Will-o'-Wisp",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/winter-wolf",
+			"display_name": "Winter Wolf",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/wolf",
+			"display_name": "Wolf",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/worg",
+			"display_name": "Worg",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/wraith",
+			"display_name": "Wraith",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/wyvern",
+			"display_name": "Wyvern",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/xorn",
+			"display_name": "Xorn",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/young-black-dragon",
+			"display_name": "Young Black Dragon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/young-blue-dragon",
+			"display_name": "Young Blue Dragon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/young-brass-dragon",
+			"display_name": "Young Brass Dragon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/young-bronze-dragon",
+			"display_name": "Young Bronze Dragon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/young-copper-dragon",
+			"display_name": "Young Copper Dragon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/young-gold-dragon",
+			"display_name": "Young Gold Dragon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/young-green-dragon",
+			"display_name": "Young Green Dragon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/young-red-dragon",
+			"display_name": "Young Red Dragon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/young-silver-dragon",
+			"display_name": "Young Silver Dragon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/young-white-dragon",
+			"display_name": "Young White Dragon",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		},
+		{
+			"id": "monster/zombie",
+			"display_name": "Zombie",
+			"prompt_id": "flavor-creature",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {},
+			"must_include": [],
+			"must_not": [
+				"Caster Type",
+				"Challenge Rating",
+				"Hit Point",
+				"Armor Class",
+				"Forgotten Realms",
+				"CR "
+			]
+		}
+	]
+}

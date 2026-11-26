@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The jug has a thick lip and a handle worn smooth, the body gone familiar with years of use. It sits heavy even before it is filled, and the mouth is wide enough for a careful pour. A thumb over the lip steadies it on a rough table when the floor is not."
 display_name = "Jug"
 entity_def_id = "srd/item/jug"
 grants_capability_while_equipped = ""

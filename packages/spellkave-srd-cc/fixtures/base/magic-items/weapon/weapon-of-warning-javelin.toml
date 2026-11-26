@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its spearhead carries a faint, restless hum, like wind worrying at a shutter before a storm. In a sleeping camp, the javelin grows cool and taut in the hand, stirring companions from honest slumber at the first breath of danger. Those gathered near it find their senses sharpened, as though the coming clash has already whispered their names."
 display_name = "Weapon of Warning (Javelin)"
 entity_def_id = "srd/magic_item/weapon-of-warning-javelin"
 grants_capability_while_equipped = ""

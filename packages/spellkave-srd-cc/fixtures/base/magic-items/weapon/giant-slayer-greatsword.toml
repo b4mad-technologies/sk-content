@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The blade bears a patient, mountain-cold heft, as though it remembers every towering foe it has humbled. In the hands of a determined warrior, its edge seems to seek the knees and balance of colossal enemies, singing with a deep iron note when great shadows loom nearby."
 display_name = "Giant Slayer (Greatsword)"
 entity_def_id = "srd/magic_item/giant-slayer-greatsword"
 grants_capability_while_equipped = ""

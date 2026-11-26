@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its blackened shaft is warm even in winter, veined with ember-red cracks that brighten beneath a steady grip. A faint scent of smoke clings to the air around it, as though some vast furnace waits behind the polished tip. At dawn, the coals within stir again—unless the wand has spent its final breath in a blaze of glory."
 display_name = "Wand of Fireballs"
 entity_def_id = "srd/magic_item/wand-of-fireballs"
 grants_capability_while_equipped = ""
@@ -68,7 +69,7 @@ target_ref = "srd/magic_item/wand-of-fireballs"
 action_id = "srd/magic_item/wand-of-fireballs/cast_l3"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Spend 1 charge to cast Fireball at 3rd level. Charge debit only this slice — spell resolution reuses the Spells chapter."
+description = "Spend 1 charge to cast fireball at its base power. Resolve the spell normally."
 display_name = "Wand of Fireballs (1 charge)"
 on_failure = ""
 on_success = "srd/magic_item/wand-of-fireballs/cast_l3/success"
@@ -107,7 +108,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/magic_item/wand-of-fireballs/cast"
 default_visibility = "Public"
-description = "Expend charges from a Wand of Fireballs to cast Fireball (magic-items.md; spell identity srd/spell/fireball)."
+description = "You expend charges from a Wand of Fireballs to cast Fireball."
 display_name = "Use Wand of Fireballs"
 
 [[consequence_frame_writes]]
@@ -149,6 +150,7 @@ tag = "srd.magic_item.charges"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "The wand’s remaining magical energy. You spend charges to activate its fireball effect, and it regains charges according to its rules."
 display_name = "Wand of Fireballs Charges"
 initial_value = 7
 max_value = 7

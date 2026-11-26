@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale sigil coils along this arrowhead, cold as grave soil beneath the thumb. Near the restless dead, its stillness sharpens into a faint, hungry tremor, as though it remembers every unquiet grave. When loosed, it leaves a brief silver wound in the air and returns to ordinary metal only after its purpose is spent."
 display_name = "Ammunition of Undead Slaying"
 entity_def_id = "srd/magic_item/ammunition-of-undead-slaying"
 grants_capability_while_equipped = ""

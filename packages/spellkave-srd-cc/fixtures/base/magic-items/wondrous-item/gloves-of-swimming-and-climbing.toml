@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Supple hide darkens at the fingertips as though perpetually damp, yet its palms cling cleanly to stone, bark, and slick river reeds. When worn, each grasp finds a hidden purchase, and cold water seems to part around the arms like a familiar current."
 display_name = "Gloves of Swimming and Climbing"
 entity_def_id = "srd/magic_item/gloves-of-swimming-and-climbing"
 grants_capability_while_equipped = ""

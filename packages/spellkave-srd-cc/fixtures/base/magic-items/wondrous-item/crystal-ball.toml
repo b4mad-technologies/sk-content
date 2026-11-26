@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Within its flawless depths, distant places drift like reflections on black water, sharpening only when held in perfect stillness. The glass remains cool against the palm, yet seems to carry the hush of faraway rooms, storm-lashed roads, and secrets spoken beyond closed doors."
 display_name = "Crystal Ball"
 entity_def_id = "srd/magic_item/crystal-ball"
 grants_capability_while_equipped = ""

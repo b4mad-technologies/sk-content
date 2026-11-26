@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Fine silver links flow with the hush of poured water, settling close to the body without the usual drag of iron. Beneath a traveler’s cloak, the pale mesh catches only the faintest glimmer when firelight turns. It moves with each breath and step, leaving little more than a cool whisper against the skin."
 display_name = "Mithral Armor (Ring Mail)"
 entity_def_id = "srd/magic_item/mithral-armor-ring-mail"
 grants_capability_while_equipped = ""

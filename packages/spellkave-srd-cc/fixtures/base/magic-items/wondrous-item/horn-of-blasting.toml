@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its dark brass throat seems to drink the silence around it, growing cold against the palm. When sounded, it looses a brutal roar that shakes windows to glittering dust and leaves the air trembling long after the note has died. Each call carries the sharp scent of storm-struck stone—and the uneasy sense that the horn may not survive its own voice."
 display_name = "Horn of Blasting"
 entity_def_id = "srd/magic_item/horn-of-blasting"
 grants_capability_while_equipped = ""

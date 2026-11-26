@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-club",
+  "overlay_template": "defender",
+  "overlay_badge": "rune",
+  "base_sha256": "99ed8b09c4d3f2fe6165a2f556d9104e00955cac8c54f75f990e90fc07f2e70a",
+  "overlay_sha256": "ed9b733c49d6fc246eb945a819df4069cadc2a65041679925c6fe215845c9e7d",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:39.022Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "30bf9e119892ba078153a2fa397c1fa19244190276975217cef28b98928fb028",
+  "target_attachment_ref": "srd/magic_item/defender-club#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-defender-club"
+}

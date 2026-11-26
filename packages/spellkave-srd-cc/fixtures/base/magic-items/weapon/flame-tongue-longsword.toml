@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A quiet word wakes the blade’s sleeping ember, and fire races along its length without consuming steel or hand. Its glow paints wavering gold across armor and stone, carrying the dry scent of hearth ash into the dark. In battle, each sweeping stroke leaves a brief, fierce afterimage in the air."
 display_name = "Flame Tongue Longsword"
 entity_def_id = "srd/magic_item/flame-tongue-longsword"
 grants_capability_while_equipped = ""

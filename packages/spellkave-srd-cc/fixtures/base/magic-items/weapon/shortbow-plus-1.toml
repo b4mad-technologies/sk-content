@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The bow’s pale wood carries a faint, silvery sheen beneath its waxed grain, as though moonlight has settled into every curve. Its string hums with a clean, eager note when drawn, and even a hurried shot seems to find a calmer path through the air."
 display_name = "Shortbow (+1)"
 entity_def_id = "srd/magic_item/shortbow-plus-1"
 grants_capability_while_equipped = ""

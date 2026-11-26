@@ -78,6 +78,7 @@ tag = "srd.spell.list.druid"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The horizon rises in a roaring blue cliff, blotting out sun and sky beneath a mane of white spray. Its advance turns earth to churning seabed, hurling timber, stone, and struggling bodies through a deafening crush of current. Even as the towering surge dwindles, its retreat leaves the world sodden, broken, and stunned into silence."
 display_name = "Tsunami"
 entity_def_id = "srd/spell/tsunami"
 grants_capability_while_equipped = ""

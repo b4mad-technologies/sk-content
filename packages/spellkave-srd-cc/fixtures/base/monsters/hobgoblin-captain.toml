@@ -163,6 +163,7 @@ tag = "srd.creature.role.leader"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hobgoblin captain leads from the front with a measured eye and a voice sharpened by countless drills. Its troops move like parts of a single weapon, closing ranks, exploiting hesitation, and turning open ground into a killing field. Even defeat is met with grim discipline rather than panic."
 display_name = "Hobgoblin Captain"
 entity_def_id = "srd/creature/hobgoblin-captain"
 grants_capability_while_equipped = ""

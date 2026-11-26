@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its pale pages seem almost blank at first glance, until careful attention reveals elegant puzzles nested within one another like clockwork. The ink cools the fingertips, and each solved passage leaves the mind strangely spacious, as though dusted windows have been thrown open in a long-shuttered tower. When the final lesson settles, the volume falls quiet for generations."
 display_name = "Tome of Clear Thought"
 entity_def_id = "srd/magic_item/tome-of-clear-thought"
 grants_capability_while_equipped = ""

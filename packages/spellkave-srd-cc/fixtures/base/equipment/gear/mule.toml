@@ -24,6 +24,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Long ears, a hard mouth, and an opinion about every slope. The mule's coat is dusty, its pack frame worn shiny at the corners. It will carry what a horse complains about, and it will stop dead if the load is an insult. The ears telegraph the verdict a moment before the feet do."
 display_name = "Mule"
 entity_def_id = "srd/item/mule"
 grants_capability_while_equipped = ""

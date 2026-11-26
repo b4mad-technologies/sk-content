@@ -18,6 +18,7 @@ tag = "srd.feat.fighting_style"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Armor becomes more than a shell in the hands of a disciplined warrior: every strap sits true, every plate turns with the body instead of against it. Blows glance away along practiced angles, finding leather, mail, and steel arranged with quiet, stubborn care."
 display_name = "Defense"
 entity_def_id = "srd/feat/defense"
 grants_capability_while_equipped = ""

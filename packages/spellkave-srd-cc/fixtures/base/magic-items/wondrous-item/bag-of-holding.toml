@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its soft mouth opens onto a darkness that seems to lean away from the world, swallowing lanterns, bedrolls, and heirlooms without a rustle. Reaching within feels like searching a cool, starless cupboard where familiar possessions wait just beyond the fingertips. Handle its seams gently; strange distances have little patience for careless hands."
 display_name = "Bag of Holding"
 entity_def_id = "srd/magic_item/bag-of-holding"
 grants_capability_while_equipped = ""

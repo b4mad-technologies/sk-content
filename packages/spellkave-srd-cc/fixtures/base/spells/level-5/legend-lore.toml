@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Old songs stir in the dust, and forgotten witnesses gather at the edge of thought. A crowned blade, a ruined gate, or a name buried beneath centuries may answer in fragments: triumphs, betrayals, and odd little truths preserved where history cannot reach. When nothing worthy answers, the silence carries a single mournful, comic note."
 display_name = "Legend Lore"
 entity_def_id = "srd/spell/legend-lore"
 grants_capability_while_equipped = ""

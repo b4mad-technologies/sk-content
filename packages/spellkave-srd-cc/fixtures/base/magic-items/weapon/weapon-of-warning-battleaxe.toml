@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its broad steel head gives a faint, restless hum whenever danger gathers nearby, like a storm trapped beneath the forge-dark metal. In camp, the axe lies cold and still until the first hostile breath breaks the night, then shudders awake with a warning that races through every sleeping companion. Those who carry its echo into battle find themselves moving before fear has time to speak."
 display_name = "Weapon of Warning (Battleaxe)"
 entity_def_id = "srd/magic_item/weapon-of-warning-battleaxe"
 grants_capability_while_equipped = ""

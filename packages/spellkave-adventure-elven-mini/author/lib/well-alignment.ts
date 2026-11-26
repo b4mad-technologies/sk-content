@@ -7,14 +7,12 @@
 import { type Pin, sheetMetrics } from "./map-metrics.ts";
 
 export const WELL_MAP = sheetMetrics({
-	file: "211 The Hidden Well.jpg",
 	image_width_px: 2000,
 	image_height_px: 1428,
 	grid_size_px: 50,
 });
 
 export const WELL_DEPTH_MAP = sheetMetrics({
-	file: "197 The Darkness From the Well-PC.jpg",
 	image_width_px: 2000,
 	image_height_px: 2000,
 	grid_size_px: 50,

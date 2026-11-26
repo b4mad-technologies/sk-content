@@ -90,6 +90,7 @@ tag = "srd.spell.list.ranger"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "At a palm’s command, stubborn stone softens into a secret refuge, swallowing cloak, breath, and heartbeat without a seam. Inside the cool mineral hush, time passes in muffled solitude while the world beyond becomes a distant tremor. When the hidden traveler returns, the rock releases them as though it had never been disturbed."
 display_name = "Meld into Stone"
 entity_def_id = "srd/spell/meld-into-stone"
 grants_capability_while_equipped = ""

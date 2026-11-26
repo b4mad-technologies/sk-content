@@ -16,7 +16,7 @@
 action_id = "srd/heroic_inspiration/reroll"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Post-roll stochastic intervention: spend one Heroic Inspiration and reroll exactly one eligible die."
+description = "Spend one Heroic Inspiration after rolling an eligible die to reroll it. You use the new result."
 display_name = "Heroic Inspiration Reroll"
 on_failure = ""
 on_success = "srd/heroic_inspiration/reroll/success"
@@ -58,7 +58,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/action/heroic_inspiration/reroll"
 default_visibility = "Public"
-description = "Allows the acting creature to consume Heroic Inspiration after rolling a stochastic resolution in a context where rerolling one die is legal."
+description = "After you roll for an uncertain outcome, you can spend Heroic Inspiration to reroll one die when a reroll is allowed."
 display_name = "Heroic Inspiration Reroll"
 
 [[consequence_frame_writes]]
@@ -86,7 +86,7 @@ target_ref = "srd/heroic_inspiration"
 
 [[niche_definitions]]
 bundle_id = "srd"
-description = "actor-carried-verbs D1/D7 (sk-rd0): revives Heroic Inspiration Reroll as a universal self-verb — see fragments/dodge.ts's own header for the full V1 dead-content finding this applies identically to."
+description = "When you fail a d20 Test, you can spend Heroic Inspiration to roll it again. You must use the new result."
 display_name = "Heroic Inspiration Reroll (self)"
 niche_id = "capability:srd/action/heroic_inspiration/reroll"
 predicate_source = ""
@@ -103,6 +103,7 @@ sense_visibility = "local"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "A reward you can spend to reroll a die you just rolled, using the new result. You can hold only one; pass an extra one to another player character or lose it."
 display_name = "Heroic Inspiration"
 initial_value = 0
 max_value = 1

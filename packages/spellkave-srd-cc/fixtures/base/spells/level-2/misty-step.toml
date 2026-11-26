@@ -76,6 +76,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Silver vapor coils around the caster’s boots, swallowing their outline in a breath of moonlit chill. Before the fog can settle, it loosens around an empty space nearby, and a familiar silhouette steps free as though the world had briefly forgotten the distance between."
 display_name = "Misty Step"
 entity_def_id = "srd/spell/misty-step"
 grants_capability_while_equipped = ""
@@ -102,7 +103,7 @@ target_ref = "srd/spell/misty-step"
 action_id = "srd/spell/misty-step/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Misty Step — a spell action."
+description = "You cast this spell to teleport yourself a short distance to an unoccupied space you can see."
 display_name = "Cast Misty Step"
 non_steering = true
 on_failure = ""

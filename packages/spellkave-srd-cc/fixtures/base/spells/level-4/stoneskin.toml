@@ -102,6 +102,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A gray luster creeps across the recipient’s flesh, settling into a surface like weathered cliffstone without stealing warmth or motion. Blades skid away in shrill sparks, arrows glance aside, and crushing blows land with the dull futility of waves striking a sea wall. Beneath the stony sheen, a living heartbeat endures."
 display_name = "Stoneskin"
 entity_def_id = "srd/spell/stoneskin"
 grants_capability_while_equipped = ""

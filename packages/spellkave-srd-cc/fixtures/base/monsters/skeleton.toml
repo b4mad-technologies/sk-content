@@ -151,6 +151,7 @@ tag = "srd.creature.role.undead-tide"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A skeleton rises with hollow patience, its bones held together by a stubborn spark of necromantic will. It moves without breath or hesitation, answering ancient commands long after flesh and memory have faded. In forgotten crypts and abandoned battlefields, its rattling approach is often the first warning that the dead have not truly rested."
 display_name = "Skeleton"
 entity_def_id = "srd/creature/skeleton"
 grants_capability_while_equipped = ""

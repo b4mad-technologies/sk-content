@@ -78,6 +78,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A polished vessel becomes a cold second heartbeat, holding a mind awake behind glass while its flesh lies still. Nearby bodies seem suddenly door-like—warm, breathing thresholds that may open to an invading will. Within the crystal’s silent confines, displaced spirits can only watch as their own hands answer another master."
 display_name = "Magic Jar"
 entity_def_id = "srd/spell/magic-jar"
 grants_capability_while_equipped = ""

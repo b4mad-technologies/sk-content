@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Clear as mountain air, the draught gathers at the bottle’s crown, where pale wisps drift like captive clouds. Its glass feels oddly light in the hand, eager to rise from any resting place. A swallowed breath of it leaves the body buoyant and the world suddenly spread wide beneath waiting feet."
 display_name = "Potion of Flying"
 entity_def_id = "srd/magic_item/potion-of-flying"
 grants_capability_while_equipped = ""

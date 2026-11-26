@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A squat, weather-stained pouch that feels strangely weighty for its size, its contents rattle with the dry patience of buried seeds. Soil and water seem to draw out improbable ambitions from each little kernel: strange fires, gaudy creatures, sudden roots, and wonders with sharp edges. Even spilling the bag carelessly carries the tense hush of a storm about to break."
 display_name = "Bag of Beans"
 entity_def_id = "srd/magic_item/bag-of-beans"
 grants_capability_while_equipped = ""

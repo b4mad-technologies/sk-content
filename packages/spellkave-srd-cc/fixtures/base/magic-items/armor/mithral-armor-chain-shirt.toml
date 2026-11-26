@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Fine silver links ripple like cloth in the hand, cool as moonlit water and scarcely heavier than a traveler’s coat. Beneath ordinary garments, the shirt settles close and silent, moving with every turn of the shoulder instead of resisting it. Its pale weave catches stray light in brief, secret flashes."
 display_name = "Mithral Armor (Chain Shirt)"
 entity_def_id = "srd/magic_item/mithral-armor-chain-shirt"
 grants_capability_while_equipped = ""

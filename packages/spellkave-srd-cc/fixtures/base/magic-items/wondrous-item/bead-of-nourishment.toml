@@ -36,6 +36,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A clay-brown bead sits warm in a closed fist, lighter than bread and heavier than a promise. When it breaks, the air fills with the smell of a just-cut loaf and a kettle left on the coals. Hunger loosens its grip before the last crumb is gone. The mouth remembers a meal that never touched a plate."
 display_name = "Bead of Nourishment"
 entity_def_id = "srd/magic_item/bead-of-nourishment"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A coil of pale braided cord lies quiet as a sleeping serpent, its fibers cool and faintly alive beneath the hand. At a whispered impulse it unspools with startling purpose, lashing around fleeing limbs and drawing tight in a patient, unyielding embrace. When the struggle ends, it gathers itself again in neat, innocent loops."
 display_name = "Rope of Entanglement"
 entity_def_id = "srd/magic_item/rope-of-entanglement"
 grants_capability_while_equipped = ""

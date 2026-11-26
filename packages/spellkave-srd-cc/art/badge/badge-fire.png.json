@@ -1,0 +1,24 @@
+{
+	"schema": "spellkave-design-asset-provenance/v1",
+	"provider": "pixellab-pixen",
+	"prompt": "single small pixel-art icon of a flame, bright core, high contrast, light cream outline, no dark fill. Bright core, high contrast, light cream 1px outline, no dark fill, no charcoal blob. Centered, isolated on transparent background, no weapon, no object, no ground, no frame, no text.",
+	"style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+	"provenance": {
+		"license": "CC-BY-4.0",
+		"source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+	},
+	"usage": {
+		"type": "generations",
+		"generations": 1.1
+	},
+	"generated_at": "2026-09-20T17:34:58.864Z",
+	"source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+	"sha256": "c4806ef2bb352ad495c05e155d9611cc695c3fa5894816ef751f3f11c8c261d9",
+	"target_attachment_ref": "srd/badge/fire#srd.art.image",
+	"kind": "badge",
+	"entry_id": "badge-fire",
+	"provider_ids": {
+		"api_base_url": "https://api.pixellab.ai/v2",
+		"route": "/create-image-pixen"
+	}
+}

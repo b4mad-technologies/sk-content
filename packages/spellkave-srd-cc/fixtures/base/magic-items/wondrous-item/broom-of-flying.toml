@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its worn bristles whisper against flagstones, yet a faint breeze stirs around the handle even indoors. When gripped with purpose, the humble household tool seems eager to trade dust and cobwebs for rooftops, cloudbanks, and moonlit air. Left unattended, it leans patiently in a corner, as though listening for the next errand carried on the wind."
 display_name = "Broom of Flying"
 entity_def_id = "srd/magic_item/broom-of-flying"
 grants_capability_while_equipped = ""

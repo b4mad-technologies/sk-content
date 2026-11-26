@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Pale fire gathers in the grain of this humble club, turning each knot in the wood into a tiny, watchful star. In a steady hand, it carries the hush of a consecrated hall and casts a clean radiance over nearby companions. Creatures steeped in grave-cold malice recoil from its passing glow."
 display_name = "Holy Avenger (Club)"
 entity_def_id = "srd/magic_item/holy-avenger-club"
 grants_capability_while_equipped = ""

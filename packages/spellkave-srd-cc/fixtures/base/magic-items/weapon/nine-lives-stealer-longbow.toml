@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The black yew limbs seem to drink the light around them, while its string hums with a pulse like a distant heartbeat. Each drawn arrow leaves the bow colder, as though some unseen hunter has exhaled across the archer’s hands. In stillness, faint whispers gather near the grip—counting losses that have not yet occurred."
 display_name = "Nine Lives Stealer (Longbow)"
 entity_def_id = "srd/magic_item/nine-lives-stealer-longbow"
 grants_capability_while_equipped = ""

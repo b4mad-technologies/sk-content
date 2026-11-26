@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its linked heads gleam with a cold dawn-light, each swing trailing the scent of rain on old stone. In a steadfast hand, the flail seems to gather courage from every nearby heartbeat, turning sinister workings aside like sparks against a shield. Shadows recoil from its measured, chapel-bell cadence."
 display_name = "Holy Avenger (Flail)"
 entity_def_id = "srd/magic_item/holy-avenger-flail"
 grants_capability_while_equipped = ""

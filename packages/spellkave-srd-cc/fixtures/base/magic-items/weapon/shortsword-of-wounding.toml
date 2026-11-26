@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its narrow blade drinks the warmth from torchlight, leaving only a dull crimson gleam along the edge. A cut from this weapon lingers like a winter ache beneath the skin, stubborn and hungry, as though the wound remembers the steel that made it. Even sheathed, it seems to chill the hand that rests too long upon its hilt."
 display_name = "Shortsword of Wounding"
 entity_def_id = "srd/magic_item/shortsword-of-wounding"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Dark, iron-gray links lie heavy against the palm, each one carrying a cold, unyielding certainty. When worn, the mail settles with the grave assurance of a mountain’s heart, turning sudden killing blows into sparks and bruises. Its muted clink seems to promise that fate may strike hard, but not cleanly."
 display_name = "Adamantine Armor (Chain Mail)"
 entity_def_id = "srd/magic_item/adamantine-armor-chain-mail"
 grants_capability_while_equipped = ""

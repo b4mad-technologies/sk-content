@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A patient coil of hemp, warm beneath the palm, stirs at a murmured direction like a hunting snake catching a scent. Its free end creeps over ledges, cinches around stone, and gathers itself into neat loops when the climb is done. Thick knots rise along its length at need, offering steady handholds above any dark drop."
 display_name = "Rope of Climbing"
 entity_def_id = "srd/magic_item/rope-of-climbing"
 grants_capability_while_equipped = ""

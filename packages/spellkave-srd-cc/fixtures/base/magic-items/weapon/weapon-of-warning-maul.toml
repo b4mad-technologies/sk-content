@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its iron head thrums with a low, uneasy note when danger gathers nearby, like thunder felt through a floor before the storm arrives. Resting hands find the haft strangely alert, the wood warm with restrained urgency. At the first hint of violence, its presence pulls companions from ordinary sleep and sharpens the room into a moment of breathless readiness."
 display_name = "Weapon of Warning (Maul)"
 entity_def_id = "srd/magic_item/weapon-of-warning-maul"
 grants_capability_while_equipped = ""

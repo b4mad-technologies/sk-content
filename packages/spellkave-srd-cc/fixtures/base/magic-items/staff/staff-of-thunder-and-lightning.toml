@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Dark grain runs beneath the staff’s lacquer like storm clouds trapped in old wood, and the iron caps prickle with a dry, blue promise. In a tightened grip it hums with the pressure before a summer squall, eager to answer motion with blinding fire or a peal that shakes dust from distant rafters."
 display_name = "Staff of Thunder and Lightning"
 entity_def_id = "srd/magic_item/staff-of-thunder-and-lightning"
 grants_capability_while_equipped = ""

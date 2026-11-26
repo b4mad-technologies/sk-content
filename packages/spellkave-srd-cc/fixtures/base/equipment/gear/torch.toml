@@ -36,6 +36,7 @@ tag = "srd.item.light"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A torch is a small, stubborn sun bound in pitch and splintered wood. Its smoke clings to hair and cloak, while its restless flame paints wet stone in gold and throws every distant shape into suspicion. Held low, it makes a companion of the hand and a warning of the dark."
 display_name = "Torch"
 entity_def_id = "srd/item/torch"
 grants_capability_while_equipped = ""

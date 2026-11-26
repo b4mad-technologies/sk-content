@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale sunrise clings to the flanged head, gleaming along every cruel ridge without warming the hand that bears it. In its presence, foul shadows seem to recoil, and the air settles into a solemn hush that steadies allies gathered close. When raised against the grave-born or infernal, its impact rings like a chapel bell struck at dawn."
 display_name = "Holy Avenger (Morningstar)"
 entity_def_id = "srd/magic_item/holy-avenger-morningstar"
 grants_capability_while_equipped = ""

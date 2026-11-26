@@ -40,6 +40,7 @@ tag = "srd.tool.category.instrument"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A flute answers the breath with a clear, silver thread of sound, quick to brighten a quiet room or drift over a campfire’s last embers. Its smooth body warms beneath the fingers, while careful changes in pressure can turn a simple melody wistful, merry, or sharp with warning."
 display_name = "Musical Instrument, Flute"
 entity_def_id = "srd/tool/musical-instrument-flute"
 grants_capability_while_equipped = ""

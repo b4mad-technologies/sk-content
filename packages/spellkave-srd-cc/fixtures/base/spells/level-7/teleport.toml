@@ -78,6 +78,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Space folds around a remembered threshold, swallowing travelers in a hush of cold starlight and ringing silence. A beloved place draws the spell true, while a hazy recollection can lead to a familiar echo, a lonely near-miss, or a bruising passage through the cracks between moments."
 display_name = "Teleport"
 entity_def_id = "srd/spell/teleport"
 grants_capability_while_equipped = ""

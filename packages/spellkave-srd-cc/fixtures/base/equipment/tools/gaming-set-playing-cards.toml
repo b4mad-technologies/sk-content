@@ -34,6 +34,7 @@ tag = "srd.tool"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A soft deck, corners rounded by thumbs, backs patterned so a cheat has to work for it. They flutter when shuffled and stick if the room is damp. Someone has marked nothing, or has marked everything too well to see. The deck is never quite square after a long night."
 display_name = "Gaming Set, Playing Cards"
 entity_def_id = "srd/tool/gaming-set-playing-cards"
 grants_capability_while_equipped = ""

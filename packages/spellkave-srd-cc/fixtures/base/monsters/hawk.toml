@@ -140,6 +140,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hawk wheels high above fields and forest edges, its keen gaze tracking the smallest flicker of movement below. Silent wings and sudden dives make it a feared hunter among mice, lizards, and careless songbirds. Patient handlers prize these sharp-eyed raptors as scouts and hunting companions."
 display_name = "Hawk"
 entity_def_id = "srd/creature/hawk"
 grants_capability_while_equipped = ""

@@ -84,6 +84,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Static gathers in the air until every hair rises and the world tastes of iron. With a sharp gesture, a blazing lance tears across the battlefield, leaving thunder in its wake and scorched shadows stamped upon stone. For a heartbeat afterward, silence seems afraid to return."
 display_name = "Lightning Bolt"
 entity_def_id = "srd/spell/lightning-bolt"
 grants_capability_while_equipped = ""

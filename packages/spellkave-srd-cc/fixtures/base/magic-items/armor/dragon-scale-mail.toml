@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Each overlapping scale keeps the memory of a vast living hide: storm-slick, furnace-warm, or cold as a mountain shadow. When fastened around a warrior, the armor settles with a faint, watchful rustle, as though some distant wingbeat has stirred the air. In moments of stillness, its wearer may feel an unerring tug toward a kinred presence beyond the horizon."
 display_name = "Dragon Scale Mail"
 entity_def_id = "srd/magic_item/dragon-scale-mail"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Soft leather shifts beneath the fingertips, its dark rivets catching light like watchful eyes. At a passing thought, its surface ripples into courtly velvet, a soldier’s harness, or the plain homespun of a roadside traveler. Beneath every borrowed appearance, it keeps the quiet, reassuring heft of well-made protection."
 display_name = "Glamoured Studded Leather"
 entity_def_id = "srd/magic_item/glamoured-studded-leather"
 grants_capability_while_equipped = ""

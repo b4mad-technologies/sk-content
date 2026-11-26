@@ -18,6 +18,7 @@ committed TOML to JSON and puts the licence and credits beside the outputs.
 
 ```sh
 pnpm install --frozen-lockfile
+export SPELLKAVE_CORE_FIXTURES=../sk-grimoire/packages/spellkave-mechanics/fixtures/core
 pnpm test
 pnpm run typecheck
 pnpm run build
@@ -41,6 +42,12 @@ Wasm comes through the SDK authoring tools. Elven Mini's generator also
 needs the sk-grimoire mechanics core fixture at the path supplied in
 `SPELLKAVE_CORE_FIXTURES`.
 
+The offline tests and the Elven Mini generator read the sk-grimoire
+mechanics core fixture from `SPELLKAVE_CORE_FIXTURES`. CI checks out
+sk-grimoire at the commit pinned as `SK_GRIMOIRE_REF` in
+`.github/workflows/ci.yml`; use the same commit locally.
+
 Publish the raw bundles with this tree's notices or the built compendium
-directories with their attached notices. Elven Mini backdrops are under
-`assets/ccc3-maps` in that package.
+directories with their attached notices. The sprites are under `assets/srd-art`
+and `assets/elven-mini-art`; Elven Mini exports a build-time catalogue as
+`@spellkave/adventure-elven-mini/art`.

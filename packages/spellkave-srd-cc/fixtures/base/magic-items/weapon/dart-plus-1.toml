@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its slim shaft seems to lean toward distant targets, eager as a hunting hawk held just before release. A faint silver glimmer clings to the point, and the air around it tightens when it is balanced between careful fingers."
 display_name = "Dart (+1)"
 entity_def_id = "srd/magic_item/dart-plus-1"
 grants_capability_while_equipped = ""

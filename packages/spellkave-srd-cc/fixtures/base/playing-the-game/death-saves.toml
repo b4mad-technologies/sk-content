@@ -14,7 +14,7 @@
 action_id = "srd/death_save/roll"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "At 0 Hit Points you roll when you choose: no timer forces it. Each roll counts at once, so three failures can come within a minute if you roll fast. Waiting for a friend to heal you is allowed. DC 10: three successes wake you at 1 Hit Point, three failures kill you, and only the DM can bring back the dead."
+description = "With 0 Hit Points, make this free check. Three successes wake you at 1 Hit Point, while three failures kill you."
 display_name = "Roll a Death Saving Throw (DC 10)"
 on_failure = ""
 on_success = "srd/death_save/roll/success"
@@ -53,7 +53,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/capability/death_save"
 default_visibility = "Public"
-description = "Turn-gated free self-action: an Unconscious character rolls a flat DC 10 check. 3 failures → Dead, 3 successes → Stable. Granted by Unconscious while active."
+description = "While unconscious, you make this check at the start of each of your turns. Three successes make you stable; three failures kill you."
 display_name = "Roll a Death Saving Throw"
 
 [[consequence_frame_writes]]
@@ -294,7 +294,7 @@ target_ref = "srd/death_save_successes"
 
 [[niche_definitions]]
 bundle_id = "srd"
-description = "actor-carried-verbs: self-only death-save roll while Unconscious and not Stable/Dead."
+description = "When you are unconscious and neither stable nor dead, you make this roll at the start of each turn to see whether you cling to life or move closer to dying."
 display_name = "Death Saving Throw (self)"
 niche_id = "capability:srd/capability/death_save"
 predicate_source = ""
@@ -312,6 +312,7 @@ sense_visibility = "local"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "Tracks your successful death saves at 0 Hit Points. After enough successes, you become stable; the count resets when you regain Hit Points or become stable."
 display_name = "Death save successes"
 initial_value = 0
 max_value = 3
@@ -322,6 +323,7 @@ value_kind = "int"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "Failures you have accumulated while at 0 Hit Points. Taking damage adds failures; reaching three means you die. They reset when you regain Hit Points or become Stable."
 display_name = "Death save failures"
 initial_value = 0
 max_value = 3
@@ -332,7 +334,7 @@ value_kind = "int"
 
 [[resource_definitions]]
 bundle_id = "srd"
-description = "Scratch cell capturing ONE d20 draw per death-save roll so ordinal tallies never re-draw."
+description = "The last death saving throw you rolled. The rest of that save uses this result so the sequence does not roll twice."
 display_name = "Death save — last d20 draw (scratch)"
 initial_value = 0
 max_value = 20

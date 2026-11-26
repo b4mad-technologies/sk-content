@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Three sea-dark prongs rise from a shaft that never seems quite dry, even far from shore. In the hand, it carries the poised hush of deep water before a storm, balanced for a clean cast or a sudden thrust. Pale reflections gather along its barbs like moonlight caught beneath waves."
 display_name = "Trident (+1)"
 entity_def_id = "srd/magic_item/trident-plus-1"
 grants_capability_while_equipped = ""

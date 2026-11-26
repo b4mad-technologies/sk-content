@@ -268,7 +268,7 @@
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/fighting-style (unique under metadata_attachment natural key). Names srd/feat/archery."
+description = "Choose this style when you gain a fighter fighting style. You gain a bonus to attack rolls you make with ranged weapons."
 display_name = "Advancement choice: fighter L1 → feat/archery"
 entity_def_id = "srd/advancement-choice-option/fighter/1/feat/archery"
 grants_capability_while_equipped = ""
@@ -284,7 +284,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/fighting-style (unique under metadata_attachment natural key). Names srd/feat/defense."
+description = "At 1st level, choose the Defense fighting style. While you wear armor, you gain a bonus to your Armor Class."
 display_name = "Advancement choice: fighter L1 → feat/defense"
 entity_def_id = "srd/advancement-choice-option/fighter/1/feat/defense"
 grants_capability_while_equipped = ""
@@ -300,7 +300,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/fighting-style (unique under metadata_attachment natural key). Names srd/feat/great-weapon-fighting."
+description = "You adopt a combat style suited to heavy melee weapons, improving the consistency of your weapon damage."
 display_name = "Advancement choice: fighter L1 → feat/great-weapon-fighting"
 entity_def_id = "srd/advancement-choice-option/fighter/1/feat/great-weapon-fighting"
 grants_capability_while_equipped = ""
@@ -316,7 +316,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/fighting-style (unique under metadata_attachment natural key). Names srd/feat/two-weapon-fighting."
+description = "You can add your ability modifier to the damage of your off-hand attack when fighting with two light melee weapons."
 display_name = "Advancement choice: fighter L1 → feat/two-weapon-fighting"
 entity_def_id = "srd/advancement-choice-option/fighter/1/feat/two-weapon-fighting"
 grants_capability_while_equipped = ""
@@ -332,7 +332,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/3/subclass (unique under metadata_attachment natural key). Names srd/subclass/path-of-the-berserker."
+description = "At 3rd level, you choose a barbarian path that shapes your rage and grants new features as you gain levels. This path embraces relentless battle fury."
 display_name = "Advancement choice: barbarian L3 → subclass/path-of-the-berserker"
 entity_def_id = "srd/advancement-choice-option/barbarian/3/subclass/path-of-the-berserker"
 grants_capability_while_equipped = ""
@@ -348,7 +348,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/bard/3/subclass (unique under metadata_attachment natural key). Names srd/subclass/college-of-lore."
+description = "At 3rd level, choose this bard college to gain its features as you advance in the class."
 display_name = "Advancement choice: bard L3 → subclass/college-of-lore"
 entity_def_id = "srd/advancement-choice-option/bard/3/subclass/college-of-lore"
 grants_capability_while_equipped = ""
@@ -364,7 +364,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/cleric/3/subclass (unique under metadata_attachment natural key). Names srd/subclass/life-domain."
+description = "Choose this option at 3rd level to follow the Life Domain. It grants the domain features listed for your cleric subclass."
 display_name = "Advancement choice: cleric L3 → subclass/life-domain"
 entity_def_id = "srd/advancement-choice-option/cleric/3/subclass/life-domain"
 grants_capability_while_equipped = ""
@@ -380,7 +380,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/druid/3/subclass (unique under metadata_attachment natural key). Names srd/subclass/circle-of-the-land."
+description = "At 3rd level, you choose this druid circle as your subclass. It grants features tied to the natural lands that shape your magic."
 display_name = "Advancement choice: druid L3 → subclass/circle-of-the-land"
 entity_def_id = "srd/advancement-choice-option/druid/3/subclass/circle-of-the-land"
 grants_capability_while_equipped = ""
@@ -396,7 +396,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/3/subclass (unique under metadata_attachment natural key). Names srd/subclass/champion."
+description = "Choose the Champion subclass at 3rd level to gain its martial features as you advance in fighter."
 display_name = "Advancement choice: fighter L3 → subclass/champion"
 entity_def_id = "srd/advancement-choice-option/fighter/3/subclass/champion"
 grants_capability_while_equipped = ""
@@ -412,7 +412,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/monk/3/subclass (unique under metadata_attachment natural key). Names srd/subclass/warrior-of-the-open-hand."
+description = "At 3rd level, choose this monastic tradition to shape your monk features. It grants techniques that let you disrupt foes with the strikes you empower."
 display_name = "Advancement choice: monk L3 → subclass/warrior-of-the-open-hand"
 entity_def_id = "srd/advancement-choice-option/monk/3/subclass/warrior-of-the-open-hand"
 grants_capability_while_equipped = ""
@@ -428,7 +428,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/paladin/3/subclass (unique under metadata_attachment natural key). Names srd/subclass/oath-of-devotion."
+description = "At 3rd level, you choose this sacred path as your paladin subclass. It grants features as you gain paladin levels."
 display_name = "Advancement choice: paladin L3 → subclass/oath-of-devotion"
 entity_def_id = "srd/advancement-choice-option/paladin/3/subclass/oath-of-devotion"
 grants_capability_while_equipped = ""
@@ -444,7 +444,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/ranger/3/subclass (unique under metadata_attachment natural key). Names srd/subclass/hunter."
+description = "At 3rd level, you choose the Hunter archetype, gaining features that shape how you pursue and defeat your foes."
 display_name = "Advancement choice: ranger L3 → subclass/hunter"
 entity_def_id = "srd/advancement-choice-option/ranger/3/subclass/hunter"
 grants_capability_while_equipped = ""
@@ -460,7 +460,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/3/subclass (unique under metadata_attachment natural key). Names srd/subclass/thief."
+description = "At 3rd level, you choose the Thief archetype, gaining features that sharpen your skill at stealth, theft, and quick movement."
 display_name = "Advancement choice: rogue L3 → subclass/thief"
 entity_def_id = "srd/advancement-choice-option/rogue/3/subclass/thief"
 grants_capability_while_equipped = ""
@@ -476,7 +476,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/sorcerer/3/subclass (unique under metadata_attachment natural key). Names srd/subclass/draconic-sorcery."
+description = "At 3rd level, you choose this origin to shape your magic around draconic power. Its features grant you traits and spells tied to a dragon’s lineage."
 display_name = "Advancement choice: sorcerer L3 → subclass/draconic-sorcery"
 entity_def_id = "srd/advancement-choice-option/sorcerer/3/subclass/draconic-sorcery"
 grants_capability_while_equipped = ""
@@ -492,7 +492,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/3/subclass (unique under metadata_attachment natural key). Names srd/subclass/fiend-patron."
+description = "At 3rd level, you choose the Fiend as your otherworldly patron. This choice grants subclass features as you gain warlock levels."
 display_name = "Advancement choice: warlock L3 → subclass/fiend-patron"
 entity_def_id = "srd/advancement-choice-option/warlock/3/subclass/fiend-patron"
 grants_capability_while_equipped = ""
@@ -508,7 +508,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/wizard/3/subclass (unique under metadata_attachment natural key). Names srd/subclass/evoker."
+description = "At 3rd level, you choose the Evoker tradition as your wizard subclass, gaining features that strengthen your evocation magic."
 display_name = "Advancement choice: wizard L3 → subclass/evoker"
 entity_def_id = "srd/advancement-choice-option/wizard/3/subclass/evoker"
 grants_capability_while_equipped = ""
@@ -524,7 +524,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/ability-score-improvement."
+description = "When you reach this barbarian level, you choose a feat or increase one or more of your ability scores, following the option’s rules."
 display_name = "Advancement choice: barbarian L4 → feat/ability-score-improvement"
 entity_def_id = "srd/advancement-choice-option/barbarian/4/feat/ability-score-improvement"
 grants_capability_while_equipped = ""
@@ -540,7 +540,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/grappler."
+description = "A feat option you can choose when your class grants an advancement choice. It improves your ability to hold and fight creatures you have grappled."
 display_name = "Advancement choice: barbarian L4 → feat/grappler"
 entity_def_id = "srd/advancement-choice-option/barbarian/4/feat/grappler"
 grants_capability_while_equipped = ""
@@ -556,7 +556,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/bard/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/ability-score-improvement."
+description = "At this bard level, you choose either a feat or an ability score improvement, following the rules for that option."
 display_name = "Advancement choice: bard L4 → feat/ability-score-improvement"
 entity_def_id = "srd/advancement-choice-option/bard/4/feat/ability-score-improvement"
 grants_capability_while_equipped = ""
@@ -572,7 +572,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/bard/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/grappler."
+description = "Choose this option when you reach this bard level to gain the Grappler feat instead of increasing an ability score. It improves your ability to restrain and fight creatures in your grasp."
 display_name = "Advancement choice: bard L4 → feat/grappler"
 entity_def_id = "srd/advancement-choice-option/bard/4/feat/grappler"
 grants_capability_while_equipped = ""
@@ -588,7 +588,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/cleric/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/ability-score-improvement."
+description = "At this level, you choose a feat or increase one or more of your ability scores, following the advancement rules."
 display_name = "Advancement choice: cleric L4 → feat/ability-score-improvement"
 entity_def_id = "srd/advancement-choice-option/cleric/4/feat/ability-score-improvement"
 grants_capability_while_equipped = ""
@@ -604,7 +604,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/cleric/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/grappler."
+description = "A feat option you can choose when your cleric reaches 4th level, instead of increasing an ability score. It improves your ability to seize and hold creatures in close combat."
 display_name = "Advancement choice: cleric L4 → feat/grappler"
 entity_def_id = "srd/advancement-choice-option/cleric/4/feat/grappler"
 grants_capability_while_equipped = ""
@@ -620,7 +620,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/druid/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/ability-score-improvement."
+description = "When you reach this druid level, you choose an ability score improvement or a feat you qualify for."
 display_name = "Advancement choice: druid L4 → feat/ability-score-improvement"
 entity_def_id = "srd/advancement-choice-option/druid/4/feat/ability-score-improvement"
 grants_capability_while_equipped = ""
@@ -636,7 +636,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/druid/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/grappler."
+description = "At this level, you can choose the Grappler feat instead of increasing an ability score. It improves how you hold and fight creatures you have grappled."
 display_name = "Advancement choice: druid L4 → feat/grappler"
 entity_def_id = "srd/advancement-choice-option/druid/4/feat/grappler"
 grants_capability_while_equipped = ""
@@ -652,7 +652,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/ability-score-improvement."
+description = "At this fighter level, you choose a feat or increase your ability scores, following the rules for that option."
 display_name = "Advancement choice: fighter L4 → feat/ability-score-improvement"
 entity_def_id = "srd/advancement-choice-option/fighter/4/feat/ability-score-improvement"
 grants_capability_while_equipped = ""
@@ -668,7 +668,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/grappler."
+description = "Choose this option to gain the Grappler feat, improving how you hold and fight creatures you have grappled."
 display_name = "Advancement choice: fighter L4 → feat/grappler"
 entity_def_id = "srd/advancement-choice-option/fighter/4/feat/grappler"
 grants_capability_while_equipped = ""
@@ -684,7 +684,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/monk/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/ability-score-improvement."
+description = "At this level, you choose either a feat or an increase to one or more of your ability scores."
 display_name = "Advancement choice: monk L4 → feat/ability-score-improvement"
 entity_def_id = "srd/advancement-choice-option/monk/4/feat/ability-score-improvement"
 grants_capability_while_equipped = ""
@@ -700,7 +700,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/monk/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/grappler."
+description = "Choose this option when you reach the monk’s fourth level to gain the Grappler feat instead of increasing an ability score."
 display_name = "Advancement choice: monk L4 → feat/grappler"
 entity_def_id = "srd/advancement-choice-option/monk/4/feat/grappler"
 grants_capability_while_equipped = ""
@@ -716,7 +716,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/paladin/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/ability-score-improvement."
+description = "At this level, you choose a feat or increase one or more of your ability scores, following the normal limits."
 display_name = "Advancement choice: paladin L4 → feat/ability-score-improvement"
 entity_def_id = "srd/advancement-choice-option/paladin/4/feat/ability-score-improvement"
 grants_capability_while_equipped = ""
@@ -732,7 +732,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/paladin/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/grappler."
+description = "At this level, you can choose the Grappler feat instead of increasing your ability scores. It improves your ability to hold and control creatures in close combat."
 display_name = "Advancement choice: paladin L4 → feat/grappler"
 entity_def_id = "srd/advancement-choice-option/paladin/4/feat/grappler"
 grants_capability_while_equipped = ""
@@ -748,7 +748,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/ranger/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/ability-score-improvement."
+description = "When you reach this ranger level, choose a feat or increase one ability score, following the rules for that choice."
 display_name = "Advancement choice: ranger L4 → feat/ability-score-improvement"
 entity_def_id = "srd/advancement-choice-option/ranger/4/feat/ability-score-improvement"
 grants_capability_while_equipped = ""
@@ -764,7 +764,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/ranger/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/grappler."
+description = "At this ranger level, you can choose this feat instead of increasing an ability score. It improves your ability to hold and fight creatures you grapple."
 display_name = "Advancement choice: ranger L4 → feat/grappler"
 entity_def_id = "srd/advancement-choice-option/ranger/4/feat/grappler"
 grants_capability_while_equipped = ""
@@ -780,7 +780,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/ability-score-improvement."
+description = "At this level, you choose a feat or increase one or more of your ability scores, following the option’s rules."
 display_name = "Advancement choice: rogue L4 → feat/ability-score-improvement"
 entity_def_id = "srd/advancement-choice-option/rogue/4/feat/ability-score-improvement"
 grants_capability_while_equipped = ""
@@ -796,7 +796,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/grappler."
+description = "Choose this feat when you gain a rogue advancement. It improves your ability to hold foes in a grapple and fight them at close range."
 display_name = "Advancement choice: rogue L4 → feat/grappler"
 entity_def_id = "srd/advancement-choice-option/rogue/4/feat/grappler"
 grants_capability_while_equipped = ""
@@ -812,7 +812,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/sorcerer/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/ability-score-improvement."
+description = "At this level, you choose a feat or increase one or more of your ability scores, following the normal limits for ability scores."
 display_name = "Advancement choice: sorcerer L4 → feat/ability-score-improvement"
 entity_def_id = "srd/advancement-choice-option/sorcerer/4/feat/ability-score-improvement"
 grants_capability_while_equipped = ""
@@ -828,7 +828,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/sorcerer/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/grappler."
+description = "Choose this option when you reach the appropriate sorcerer level to gain the Grappler feat instead of increasing an ability score. It improves how you restrain and fight creatures you have grappled."
 display_name = "Advancement choice: sorcerer L4 → feat/grappler"
 entity_def_id = "srd/advancement-choice-option/sorcerer/4/feat/grappler"
 grants_capability_while_equipped = ""
@@ -844,7 +844,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/ability-score-improvement."
+description = "At this level, you choose a feat or increase one or more of your ability scores, following the rules for your chosen option."
 display_name = "Advancement choice: warlock L4 → feat/ability-score-improvement"
 entity_def_id = "srd/advancement-choice-option/warlock/4/feat/ability-score-improvement"
 grants_capability_while_equipped = ""
@@ -860,7 +860,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/grappler."
+description = "At this level, you choose the Grappler feat instead of increasing your ability scores. It improves your ability to hold and control creatures you grapple."
 display_name = "Advancement choice: warlock L4 → feat/grappler"
 entity_def_id = "srd/advancement-choice-option/warlock/4/feat/grappler"
 grants_capability_while_equipped = ""
@@ -876,7 +876,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/wizard/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/ability-score-improvement."
+description = "When you reach this wizard level, choose a feat or increase one or more ability scores, following the advancement rules."
 display_name = "Advancement choice: wizard L4 → feat/ability-score-improvement"
 entity_def_id = "srd/advancement-choice-option/wizard/4/feat/ability-score-improvement"
 grants_capability_while_equipped = ""
@@ -892,7 +892,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/wizard/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/grappler."
+description = "At this level, you can choose the Grappler feat instead of increasing your ability scores. It improves your ability to hold and control creatures in close combat."
 display_name = "Advancement choice: wizard L4 → feat/grappler"
 entity_def_id = "srd/advancement-choice-option/wizard/4/feat/grappler"
 grants_capability_while_equipped = ""
@@ -908,7 +908,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/battleaxe."
+description = "Choose the battleaxe for your fighter’s weapon training at 1st level. You gain the battleaxe’s weapon mastery property when you use it."
 display_name = "Advancement choice: fighter L1 → weapon/battleaxe"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/battleaxe"
 grants_capability_while_equipped = ""
@@ -924,7 +924,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/blowgun."
+description = "Choose the blowgun as a weapon you have mastered through your fighter training. You gain its mastery property when you use it."
 display_name = "Advancement choice: fighter L1 → weapon/blowgun"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/blowgun"
 grants_capability_while_equipped = ""
@@ -940,7 +940,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/club."
+description = "Choose the club for your fighter’s weapon mastery. You gain its mastery property when you meet the weapon’s requirements."
 display_name = "Advancement choice: fighter L1 → weapon/club"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/club"
 grants_capability_while_equipped = ""
@@ -956,7 +956,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/dagger."
+description = "A weapon option you choose for your fighter training. It lets you use the dagger’s mastery property when you meet its requirements."
 display_name = "Advancement choice: fighter L1 → weapon/dagger"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/dagger"
 grants_capability_while_equipped = ""
@@ -972,7 +972,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/dart."
+description = "A weapon option you can choose when your fighter gains Weapon Mastery. You gain its mastery property when you use a dart."
 display_name = "Advancement choice: fighter L1 → weapon/dart"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/dart"
 grants_capability_while_equipped = ""
@@ -988,7 +988,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/flail."
+description = "Choose the flail for your fighter weapon training. You can use its weapon mastery property when you wield it."
 display_name = "Advancement choice: fighter L1 → weapon/flail"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/flail"
 grants_capability_while_equipped = ""
@@ -1004,7 +1004,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/glaive."
+description = "Choose the glaive for your fighter’s weapon mastery. You can use its mastery property whenever you wield it."
 display_name = "Advancement choice: fighter L1 → weapon/glaive"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/glaive"
 grants_capability_while_equipped = ""
@@ -1020,7 +1020,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/greataxe."
+description = "Choose the greataxe as one of your fighter weapon options at 1st level. You gain the weapon benefit granted by your class."
 display_name = "Advancement choice: fighter L1 → weapon/greataxe"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/greataxe"
 grants_capability_while_equipped = ""
@@ -1036,7 +1036,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/greatclub."
+description = "Choose the greatclub for your fighter’s weapon mastery. You gain its mastery property when you meet the feature’s requirements."
 display_name = "Advancement choice: fighter L1 → weapon/greatclub"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/greatclub"
 grants_capability_while_equipped = ""
@@ -1052,7 +1052,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/greatsword."
+description = "Choose the greatsword for your fighter’s weapon mastery. You gain its listed mastery benefit when you use it."
 display_name = "Advancement choice: fighter L1 → weapon/greatsword"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/greatsword"
 grants_capability_while_equipped = ""
@@ -1068,7 +1068,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/halberd."
+description = "Choose the halberd as a weapon you have mastered. You can use its mastery property when you meet the requirements to wield it."
 display_name = "Advancement choice: fighter L1 → weapon/halberd"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/halberd"
 grants_capability_while_equipped = ""
@@ -1084,7 +1084,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/hand-crossbow."
+description = "Your choice of weapon mastery for the hand crossbow. You gain its mastery property while you meet the requirements to use it."
 display_name = "Advancement choice: fighter L1 → weapon/hand-crossbow"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/hand-crossbow"
 grants_capability_while_equipped = ""
@@ -1100,7 +1100,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/handaxe."
+description = "Choose the handaxe for your fighter’s weapon training at 1st level. You gain its weapon mastery property when you use a handaxe you are proficient with."
 display_name = "Advancement choice: fighter L1 → weapon/handaxe"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/handaxe"
 grants_capability_while_equipped = ""
@@ -1116,7 +1116,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/heavy-crossbow."
+description = "Choose the heavy crossbow as one of your fighter weapon mastery options. You can use its mastery property when you attack with it."
 display_name = "Advancement choice: fighter L1 → weapon/heavy-crossbow"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/heavy-crossbow"
 grants_capability_while_equipped = ""
@@ -1132,7 +1132,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/javelin."
+description = "Choose the javelin as one of your fighter weapon mastery options. You can use its mastery property whenever you wield a javelin."
 display_name = "Advancement choice: fighter L1 → weapon/javelin"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/javelin"
 grants_capability_while_equipped = ""
@@ -1148,7 +1148,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/lance."
+description = "Choose the lance for your weapon mastery when you gain this fighter feature. You can use its mastery property with weapons you are proficient with."
 display_name = "Advancement choice: fighter L1 → weapon/lance"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/lance"
 grants_capability_while_equipped = ""
@@ -1164,7 +1164,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/light-crossbow."
+description = "Choose the light crossbow for your weapon training option. You gain its listed weapon mastery property when you use it."
 display_name = "Advancement choice: fighter L1 → weapon/light-crossbow"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/light-crossbow"
 grants_capability_while_equipped = ""
@@ -1180,7 +1180,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/light-hammer."
+description = "A weapon mastery option you choose as a fighter. You gain its mastery property when you use a light hammer."
 display_name = "Advancement choice: fighter L1 → weapon/light-hammer"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/light-hammer"
 grants_capability_while_equipped = ""
@@ -1196,7 +1196,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/longbow."
+description = "A weapon choice for your fighter training. Choose the longbow to gain its associated weapon benefits."
 display_name = "Advancement choice: fighter L1 → weapon/longbow"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/longbow"
 grants_capability_while_equipped = ""
@@ -1212,7 +1212,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/longsword."
+description = "Choose the longsword as your weapon mastery option. You gain its special combat property when you use a longsword."
 display_name = "Advancement choice: fighter L1 → weapon/longsword"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/longsword"
 grants_capability_while_equipped = ""
@@ -1228,7 +1228,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/mace."
+description = "A mace you can choose for your fighter’s Weapon Mastery. You gain its mastery property while you meet the feature’s requirements."
 display_name = "Advancement choice: fighter L1 → weapon/mace"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/mace"
 grants_capability_while_equipped = ""
@@ -1244,7 +1244,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/maul."
+description = "Choose the maul as one of your fighter weapon mastery options. You can use its mastery property when you wield it and meet the feature’s requirements."
 display_name = "Advancement choice: fighter L1 → weapon/maul"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/maul"
 grants_capability_while_equipped = ""
@@ -1260,7 +1260,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/morningstar."
+description = "Choose the morningstar for your fighter’s weapon mastery. You gain its listed mastery property when you use it."
 display_name = "Advancement choice: fighter L1 → weapon/morningstar"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/morningstar"
 grants_capability_while_equipped = ""
@@ -1276,7 +1276,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/musket."
+description = "A weapon option you can choose for your fighter training. You gain proficiency with the musket and can use its weapon mastery property."
 display_name = "Advancement choice: fighter L1 → weapon/musket"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/musket"
 grants_capability_while_equipped = ""
@@ -1292,7 +1292,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/pike."
+description = "A weapon option you choose for your fighter’s weapon mastery feature. Select the pike to use its associated mastery property."
 display_name = "Advancement choice: fighter L1 → weapon/pike"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/pike"
 grants_capability_while_equipped = ""
@@ -1308,7 +1308,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/pistol."
+description = "A weapon option you choose when you gain the fighter’s Weapon Mastery feature. You learn its mastery property and can use it with pistols you are proficient with."
 display_name = "Advancement choice: fighter L1 → weapon/pistol"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/pistol"
 grants_capability_while_equipped = ""
@@ -1324,7 +1324,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/quarterstaff."
+description = "Choose the quarterstaff as a weapon you have mastered. You can use its mastery property when you make attacks with it."
 display_name = "Advancement choice: fighter L1 → weapon/quarterstaff"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/quarterstaff"
 grants_capability_while_equipped = ""
@@ -1340,7 +1340,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/rapier."
+description = "Choose the rapier as a weapon you have mastered. You can use its mastery property when you meet the requirements to do so."
 display_name = "Advancement choice: fighter L1 → weapon/rapier"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/rapier"
 grants_capability_while_equipped = ""
@@ -1356,7 +1356,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/scimitar."
+description = "Choose the scimitar as one of your fighter weapon mastery options. You can use its mastery property when you wield it."
 display_name = "Advancement choice: fighter L1 → weapon/scimitar"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/scimitar"
 grants_capability_while_equipped = ""
@@ -1372,7 +1372,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/shortbow."
+description = "Choose the shortbow for your fighter’s weapon training at 1st level. You gain its mastery property when you use it."
 display_name = "Advancement choice: fighter L1 → weapon/shortbow"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/shortbow"
 grants_capability_while_equipped = ""
@@ -1388,7 +1388,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/shortsword."
+description = "Choose a shortsword as one of your fighter weapon mastery options. You can use its mastery property when you attack with it."
 display_name = "Advancement choice: fighter L1 → weapon/shortsword"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/shortsword"
 grants_capability_while_equipped = ""
@@ -1404,7 +1404,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/sickle."
+description = "Choose the sickle for your weapon training. You gain its associated weapon mastery property when you meet the feature’s requirements."
 display_name = "Advancement choice: fighter L1 → weapon/sickle"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/sickle"
 grants_capability_while_equipped = ""
@@ -1420,7 +1420,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/sling."
+description = "Choose the sling as one of your weapon mastery options. You can use its mastery property when you meet the fighter’s weapon mastery requirements."
 display_name = "Advancement choice: fighter L1 → weapon/sling"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/sling"
 grants_capability_while_equipped = ""
@@ -1436,7 +1436,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/spear."
+description = "Choose the spear for your fighter’s weapon training at 1st level. You gain its mastery property when you use it."
 display_name = "Advancement choice: fighter L1 → weapon/spear"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/spear"
 grants_capability_while_equipped = ""
@@ -1452,7 +1452,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/trident."
+description = "A weapon you can choose for your fighter’s Weapon Mastery. Its mastery property applies when you attack with it using the required weapon."
 display_name = "Advancement choice: fighter L1 → weapon/trident"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/trident"
 grants_capability_while_equipped = ""
@@ -1468,7 +1468,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/war-pick."
+description = "Choose the war pick as one of your fighter weapon mastery options. You can use its mastery property when you wield it."
 display_name = "Advancement choice: fighter L1 → weapon/war-pick"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/war-pick"
 grants_capability_while_equipped = ""
@@ -1484,7 +1484,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/warhammer."
+description = "Choose the warhammer as a weapon you have mastered. You can use its mastery property when you meet the feature’s requirements."
 display_name = "Advancement choice: fighter L1 → weapon/warhammer"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/warhammer"
 grants_capability_while_equipped = ""
@@ -1500,7 +1500,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/whip."
+description = "A weapon option you choose as a 1st-level fighter when you gain Weapon Mastery. You gain its mastery property when you use a whip."
 display_name = "Advancement choice: fighter L1 → weapon/whip"
 entity_def_id = "srd/advancement-choice-option/fighter/1/weapon/whip"
 grants_capability_while_equipped = ""
@@ -1516,7 +1516,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/battleaxe."
+description = "A battleaxe is a martial melee weapon you can choose for your barbarian’s weapon mastery."
 display_name = "Advancement choice: barbarian L1 → weapon/battleaxe"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/battleaxe"
 grants_capability_while_equipped = ""
@@ -1532,7 +1532,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/blowgun."
+description = "Choose the blowgun as a weapon you have mastered through your barbarian training."
 display_name = "Advancement choice: barbarian L1 → weapon/blowgun"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/blowgun"
 grants_capability_while_equipped = ""
@@ -1548,7 +1548,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/club."
+description = "Choose the club as a weapon you have mastered through your barbarian training."
 display_name = "Advancement choice: barbarian L1 → weapon/club"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/club"
 grants_capability_while_equipped = ""
@@ -1564,7 +1564,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/dagger."
+description = "A simple melee weapon you can wield in one hand or throw. Choose it for your barbarian’s weapon mastery option when you gain that feature."
 display_name = "Advancement choice: barbarian L1 → weapon/dagger"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/dagger"
 grants_capability_while_equipped = ""
@@ -1580,7 +1580,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/dart."
+description = "Choose the dart as a weapon you have mastered through your barbarian training."
 display_name = "Advancement choice: barbarian L1 → weapon/dart"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/dart"
 grants_capability_while_equipped = ""
@@ -1596,7 +1596,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/flail."
+description = "Choose the flail for your weapon training. You can use its mastery property when you wield it."
 display_name = "Advancement choice: barbarian L1 → weapon/flail"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/flail"
 grants_capability_while_equipped = ""
@@ -1612,7 +1612,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/glaive."
+description = "A polearm with reach that you wield in two hands. You can choose it for your barbarian’s weapon mastery at 1st level."
 display_name = "Advancement choice: barbarian L1 → weapon/glaive"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/glaive"
 grants_capability_while_equipped = ""
@@ -1628,7 +1628,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/greataxe."
+description = "Choose the greataxe for your barbarian weapon training at 1st level. You gain its associated weapon mastery option when you use it."
 display_name = "Advancement choice: barbarian L1 → weapon/greataxe"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/greataxe"
 grants_capability_while_equipped = ""
@@ -1644,7 +1644,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/greatclub."
+description = "A heavy two-handed club you can choose for your barbarian weapon training at 1st level."
 display_name = "Advancement choice: barbarian L1 → weapon/greatclub"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/greatclub"
 grants_capability_while_equipped = ""
@@ -1660,7 +1660,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/greatsword."
+description = "A heavy two-handed melee weapon. You use it to make powerful close-range attacks."
 display_name = "Advancement choice: barbarian L1 → weapon/greatsword"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/greatsword"
 grants_capability_while_equipped = ""
@@ -1676,7 +1676,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/halberd."
+description = "Choose the halberd as a weapon you have mastered. You can use its mastery property when you wield it."
 display_name = "Advancement choice: barbarian L1 → weapon/halberd"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/halberd"
 grants_capability_while_equipped = ""
@@ -1692,7 +1692,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/hand-crossbow."
+description = "A weapon choice available to a 1st-level barbarian. You gain mastery with the hand crossbow."
 display_name = "Advancement choice: barbarian L1 → weapon/hand-crossbow"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/hand-crossbow"
 grants_capability_while_equipped = ""
@@ -1708,7 +1708,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/handaxe."
+description = "Choose the handaxe as your weapon mastery option. You gain its mastery property when you use it."
 display_name = "Advancement choice: barbarian L1 → weapon/handaxe"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/handaxe"
 grants_capability_while_equipped = ""
@@ -1724,7 +1724,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/heavy-crossbow."
+description = "Choose the heavy crossbow as a weapon option for your barbarian’s weapon mastery feature at 1st level."
 display_name = "Advancement choice: barbarian L1 → weapon/heavy-crossbow"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/heavy-crossbow"
 grants_capability_while_equipped = ""
@@ -1740,7 +1740,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/javelin."
+description = "A weapon you can choose for your barbarian’s weapon training at 1st level. You gain its mastery property when you use it."
 display_name = "Advancement choice: barbarian L1 → weapon/javelin"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/javelin"
 grants_capability_while_equipped = ""
@@ -1756,7 +1756,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/lance."
+description = "A martial weapon with reach that deals piercing damage. You have disadvantage when you use it against a creature within 5 feet of you."
 display_name = "Advancement choice: barbarian L1 → weapon/lance"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/lance"
 grants_capability_while_equipped = ""
@@ -1772,7 +1772,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/light-crossbow."
+description = "Choose the light crossbow as a weapon mastery option when you gain this barbarian feature."
 display_name = "Advancement choice: barbarian L1 → weapon/light-crossbow"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/light-crossbow"
 grants_capability_while_equipped = ""
@@ -1788,7 +1788,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/light-hammer."
+description = "A weapon option you choose when you gain this class feature. You gain mastery with the light hammer and can use its mastery property."
 display_name = "Advancement choice: barbarian L1 → weapon/light-hammer"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/light-hammer"
 grants_capability_while_equipped = ""
@@ -1804,7 +1804,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/longbow."
+description = "Choose the longbow as a weapon you have mastered. You can use its mastery property when you wield it."
 display_name = "Advancement choice: barbarian L1 → weapon/longbow"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/longbow"
 grants_capability_while_equipped = ""
@@ -1820,7 +1820,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/longsword."
+description = "Choose the longsword as your weapon mastery option. You gain its mastery property when you use it."
 display_name = "Advancement choice: barbarian L1 → weapon/longsword"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/longsword"
 grants_capability_while_equipped = ""
@@ -1836,7 +1836,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/mace."
+description = "Choose the mace as a weapon you have mastered through your barbarian training. You can use its mastery property when you make attacks with it."
 display_name = "Advancement choice: barbarian L1 → weapon/mace"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/mace"
 grants_capability_while_equipped = ""
@@ -1852,7 +1852,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/maul."
+description = "Your chosen weapon for this class feature. You gain its mastery property when you use a maul."
 display_name = "Advancement choice: barbarian L1 → weapon/maul"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/maul"
 grants_capability_while_equipped = ""
@@ -1868,7 +1868,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/morningstar."
+description = "A simple martial weapon with a heavy, spiked head. You can use it to make melee attacks that deal piercing damage."
 display_name = "Advancement choice: barbarian L1 → weapon/morningstar"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/morningstar"
 grants_capability_while_equipped = ""
@@ -1884,7 +1884,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/musket."
+description = "Choose the musket as a weapon you can use with your barbarian weapon mastery feature."
 display_name = "Advancement choice: barbarian L1 → weapon/musket"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/musket"
 grants_capability_while_equipped = ""
@@ -1900,7 +1900,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/pike."
+description = "Choose the pike as a weapon you have mastered through your barbarian training. You can use its mastery property when you attack with it."
 display_name = "Advancement choice: barbarian L1 → weapon/pike"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/pike"
 grants_capability_while_equipped = ""
@@ -1916,7 +1916,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/pistol."
+description = "A weapon choice available when you gain your first barbarian level. Choose a pistol as part of your weapon training or mastery selection."
 display_name = "Advancement choice: barbarian L1 → weapon/pistol"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/pistol"
 grants_capability_while_equipped = ""
@@ -1932,7 +1932,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/quarterstaff."
+description = "A weapon mastery option for the quarterstaff. Choose it when your barbarian gains Weapon Mastery at 1st level."
 display_name = "Advancement choice: barbarian L1 → weapon/quarterstaff"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/quarterstaff"
 grants_capability_while_equipped = ""
@@ -1948,7 +1948,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/rapier."
+description = "A weapon choice you make when you gain this barbarian feature. You select the rapier and gain its mastery property."
 display_name = "Advancement choice: barbarian L1 → weapon/rapier"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/rapier"
 grants_capability_while_equipped = ""
@@ -1964,7 +1964,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/scimitar."
+description = "A curved martial melee weapon you can choose for your barbarian’s weapon mastery at 1st level."
 display_name = "Advancement choice: barbarian L1 → weapon/scimitar"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/scimitar"
 grants_capability_while_equipped = ""
@@ -1980,7 +1980,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/shortbow."
+description = "A weapon choice available to you as a 1st-level barbarian. Choose the shortbow for your weapon mastery."
 display_name = "Advancement choice: barbarian L1 → weapon/shortbow"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/shortbow"
 grants_capability_while_equipped = ""
@@ -1996,7 +1996,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/shortsword."
+description = "Choose the shortsword as a weapon you have mastered. You can use its mastery property when you wield it."
 display_name = "Advancement choice: barbarian L1 → weapon/shortsword"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/shortsword"
 grants_capability_while_equipped = ""
@@ -2012,7 +2012,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/sickle."
+description = "Choose the sickle as a weapon you have mastered. You can use its mastery property when you attack with it."
 display_name = "Advancement choice: barbarian L1 → weapon/sickle"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/sickle"
 grants_capability_while_equipped = ""
@@ -2028,7 +2028,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/sling."
+description = "Choose the sling as a weapon you know how to use with your barbarian training."
 display_name = "Advancement choice: barbarian L1 → weapon/sling"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/sling"
 grants_capability_while_equipped = ""
@@ -2044,7 +2044,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/spear."
+description = "Choose the spear for your weapon mastery. You gain its mastery property when you use it with the required training."
 display_name = "Advancement choice: barbarian L1 → weapon/spear"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/spear"
 grants_capability_while_equipped = ""
@@ -2060,7 +2060,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/trident."
+description = "A martial melee weapon you can use with one hand or throw at a target. As a barbarian, you can choose it for your weapon mastery."
 display_name = "Advancement choice: barbarian L1 → weapon/trident"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/trident"
 grants_capability_while_equipped = ""
@@ -2076,7 +2076,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/war-pick."
+description = "Choose the war pick as your weapon mastery option. You gain its mastery property when you use it."
 display_name = "Advancement choice: barbarian L1 → weapon/war-pick"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/war-pick"
 grants_capability_while_equipped = ""
@@ -2092,7 +2092,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/warhammer."
+description = "Choose the warhammer as a weapon you have mastered through your barbarian training."
 display_name = "Advancement choice: barbarian L1 → weapon/warhammer"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/warhammer"
 grants_capability_while_equipped = ""
@@ -2108,7 +2108,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/whip."
+description = "Choose the whip as a weapon you have mastered through your barbarian training."
 display_name = "Advancement choice: barbarian L1 → weapon/whip"
 entity_def_id = "srd/advancement-choice-option/barbarian/1/weapon/whip"
 grants_capability_while_equipped = ""
@@ -2124,7 +2124,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/battleaxe."
+description = "A weapon mastery option available to you as a rogue. Choose it when you gain your first level to use a battleaxe with your mastery feature."
 display_name = "Advancement choice: rogue L1 → weapon/battleaxe"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/battleaxe"
 grants_capability_while_equipped = ""
@@ -2140,7 +2140,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/blowgun."
+description = "Choose the blowgun for your rogue weapon mastery. You gain its mastery property when you attack with it."
 display_name = "Advancement choice: rogue L1 → weapon/blowgun"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/blowgun"
 grants_capability_while_equipped = ""
@@ -2156,7 +2156,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/club."
+description = "Your choice of weapon to master as a rogue. Choose the club to gain its mastery property when you use it."
 display_name = "Advancement choice: rogue L1 → weapon/club"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/club"
 grants_capability_while_equipped = ""
@@ -2172,7 +2172,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/dagger."
+description = "You gain mastery with daggers, letting you use their special weapon property when you make attacks with them."
 display_name = "Advancement choice: rogue L1 → weapon/dagger"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/dagger"
 grants_capability_while_equipped = ""
@@ -2188,7 +2188,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/dart."
+description = "Choose the dart for your rogue’s weapon training. You gain its listed weapon property when you use it."
 display_name = "Advancement choice: rogue L1 → weapon/dart"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/dart"
 grants_capability_while_equipped = ""
@@ -2204,7 +2204,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/flail."
+description = "A weapon option you choose when your rogue gains Weapon Mastery. You gain its mastery property when you use a flail."
 display_name = "Advancement choice: rogue L1 → weapon/flail"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/flail"
 grants_capability_while_equipped = ""
@@ -2220,7 +2220,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/glaive."
+description = "Choose the glaive for your rogue’s weapon mastery option. You gain its mastery property when you use that weapon."
 display_name = "Advancement choice: rogue L1 → weapon/glaive"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/glaive"
 grants_capability_while_equipped = ""
@@ -2236,7 +2236,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/greataxe."
+description = "Choose the greataxe as your weapon mastery option for this class feature. You gain its mastery property when you use that weapon."
 display_name = "Advancement choice: rogue L1 → weapon/greataxe"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/greataxe"
 grants_capability_while_equipped = ""
@@ -2252,7 +2252,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/greatclub."
+description = "Choose the greatclub as one of your weapon mastery options. You can use its mastery property when you wield it with a qualifying feature."
 display_name = "Advancement choice: rogue L1 → weapon/greatclub"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/greatclub"
 grants_capability_while_equipped = ""
@@ -2268,7 +2268,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/greatsword."
+description = "Choose this weapon mastery when you gain the rogue feature that grants one. You can use its mastery property while wielding a greatsword."
 display_name = "Advancement choice: rogue L1 → weapon/greatsword"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/greatsword"
 grants_capability_while_equipped = ""
@@ -2284,7 +2284,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/halberd."
+description = "Choose the halberd as a weapon you master. You can use its mastery property when you meet the feature’s requirements."
 display_name = "Advancement choice: rogue L1 → weapon/halberd"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/halberd"
 grants_capability_while_equipped = ""
@@ -2300,7 +2300,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/hand-crossbow."
+description = "Choose the hand crossbow as your weapon mastery option. You gain its mastery property when you use that weapon."
 display_name = "Advancement choice: rogue L1 → weapon/hand-crossbow"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/hand-crossbow"
 grants_capability_while_equipped = ""
@@ -2316,7 +2316,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/handaxe."
+description = "Choose the handaxe for your rogue weapon training. You gain the weapon property granted by your class while wielding it."
 display_name = "Advancement choice: rogue L1 → weapon/handaxe"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/handaxe"
 grants_capability_while_equipped = ""
@@ -2332,7 +2332,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/heavy-crossbow."
+description = "Choose the heavy crossbow as your weapon mastery option when you gain this rogue feature. You can use its mastery property when you attack with it."
 display_name = "Advancement choice: rogue L1 → weapon/heavy-crossbow"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/heavy-crossbow"
 grants_capability_while_equipped = ""
@@ -2348,7 +2348,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/javelin."
+description = "A weapon choice for your rogue training. You gain mastery with the javelin when you select it."
 display_name = "Advancement choice: rogue L1 → weapon/javelin"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/javelin"
 grants_capability_while_equipped = ""
@@ -2364,7 +2364,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/lance."
+description = "Choose the lance as a weapon you have mastered through your rogue training. You can use its mastery property when you wield it."
 display_name = "Advancement choice: rogue L1 → weapon/lance"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/lance"
 grants_capability_while_equipped = ""
@@ -2380,7 +2380,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/light-crossbow."
+description = "A weapon mastery option available to a 1st-level rogue. Choose the light crossbow to use its mastery property when you wield it."
 display_name = "Advancement choice: rogue L1 → weapon/light-crossbow"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/light-crossbow"
 grants_capability_while_equipped = ""
@@ -2396,7 +2396,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/light-hammer."
+description = "Choose the light hammer as your weapon mastery option. You can use its mastery property when you wield it."
 display_name = "Advancement choice: rogue L1 → weapon/light-hammer"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/light-hammer"
 grants_capability_while_equipped = ""
@@ -2412,7 +2412,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/longbow."
+description = "Choose the longbow as a weapon you have mastered through your rogue training. You can use its mastery property when you make attacks with it."
 display_name = "Advancement choice: rogue L1 → weapon/longbow"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/longbow"
 grants_capability_while_equipped = ""
@@ -2428,7 +2428,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/longsword."
+description = "Choose the longsword as one of your rogue weapon options at 1st level. You gain the listed weapon benefit for it."
 display_name = "Advancement choice: rogue L1 → weapon/longsword"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/longsword"
 grants_capability_while_equipped = ""
@@ -2444,7 +2444,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/mace."
+description = "Choose the mace as a weapon you have mastered through your rogue training. You can use its mastery property when you wield it."
 display_name = "Advancement choice: rogue L1 → weapon/mace"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/mace"
 grants_capability_while_equipped = ""
@@ -2460,7 +2460,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/maul."
+description = "Choose the maul as your weapon mastery option. You gain its mastery property when you use that weapon."
 display_name = "Advancement choice: rogue L1 → weapon/maul"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/maul"
 grants_capability_while_equipped = ""
@@ -2476,7 +2476,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/morningstar."
+description = "A weapon choice you gain through your rogue training. Choose the morningstar to use its available weapon mastery property."
 display_name = "Advancement choice: rogue L1 → weapon/morningstar"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/morningstar"
 grants_capability_while_equipped = ""
@@ -2492,7 +2492,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/musket."
+description = "You gain mastery with the musket, letting you use its special weapon property when you attack with it."
 display_name = "Advancement choice: rogue L1 → weapon/musket"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/musket"
 grants_capability_while_equipped = ""
@@ -2508,7 +2508,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/pike."
+description = "You choose the pike for your weapon training, gaining its associated mastery property when you use it."
 display_name = "Advancement choice: rogue L1 → weapon/pike"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/pike"
 grants_capability_while_equipped = ""
@@ -2524,7 +2524,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/pistol."
+description = "Choose the pistol for your weapon training. You can use its weapon mastery property when you attack with it."
 display_name = "Advancement choice: rogue L1 → weapon/pistol"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/pistol"
 grants_capability_while_equipped = ""
@@ -2540,7 +2540,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/quarterstaff."
+description = "Choose quarterstaff for your rogue weapon mastery. You gain its mastery property whenever you use it with a weapon you have mastered."
 display_name = "Advancement choice: rogue L1 → weapon/quarterstaff"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/quarterstaff"
 grants_capability_while_equipped = ""
@@ -2556,7 +2556,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/rapier."
+description = "Choose the rapier as your weapon mastery option. You gain its mastery property when you use a rapier you are proficient with."
 display_name = "Advancement choice: rogue L1 → weapon/rapier"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/rapier"
 grants_capability_while_equipped = ""
@@ -2572,7 +2572,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/scimitar."
+description = "Choose the scimitar as your weapon mastery option when you gain this rogue feature. You can use its mastery property when you wield it."
 display_name = "Advancement choice: rogue L1 → weapon/scimitar"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/scimitar"
 grants_capability_while_equipped = ""
@@ -2588,7 +2588,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/shortbow."
+description = "Choose the shortbow as a weapon mastery option when you gain this rogue feature. You can use its mastery property when you wield it."
 display_name = "Advancement choice: rogue L1 → weapon/shortbow"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/shortbow"
 grants_capability_while_equipped = ""
@@ -2604,7 +2604,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/shortsword."
+description = "Choose the shortsword for your weapon training. You can use its available weapon mastery property when you meet the feature’s requirements."
 display_name = "Advancement choice: rogue L1 → weapon/shortsword"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/shortsword"
 grants_capability_while_equipped = ""
@@ -2620,7 +2620,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/sickle."
+description = "A weapon choice available when you gain this rogue feature. Choose the sickle to gain its associated weapon mastery property."
 display_name = "Advancement choice: rogue L1 → weapon/sickle"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/sickle"
 grants_capability_while_equipped = ""
@@ -2636,7 +2636,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/sling."
+description = "Choose the sling for your rogue’s weapon mastery option at 1st level. You gain the mastery property associated with that weapon."
 display_name = "Advancement choice: rogue L1 → weapon/sling"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/sling"
 grants_capability_while_equipped = ""
@@ -2652,7 +2652,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/spear."
+description = "A weapon training choice available when you gain your first rogue level. Choose the spear to use its weapon mastery property."
 display_name = "Advancement choice: rogue L1 → weapon/spear"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/spear"
 grants_capability_while_equipped = ""
@@ -2668,7 +2668,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/trident."
+description = "A weapon option available to your rogue when you gain Weapon Mastery. Choose it to use the trident’s mastery property."
 display_name = "Advancement choice: rogue L1 → weapon/trident"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/trident"
 grants_capability_while_equipped = ""
@@ -2684,7 +2684,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/war-pick."
+description = "Choose the war pick as a weapon mastery option for your rogue. You can use its mastery property when you attack with it."
 display_name = "Advancement choice: rogue L1 → weapon/war-pick"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/war-pick"
 grants_capability_while_equipped = ""
@@ -2700,7 +2700,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/warhammer."
+description = "Choose the warhammer for your rogue’s weapon mastery option. You gain its mastery property when you use it."
 display_name = "Advancement choice: rogue L1 → weapon/warhammer"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/warhammer"
 grants_capability_while_equipped = ""
@@ -2716,7 +2716,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/whip."
+description = "A weapon option you choose when you gain the rogue’s Weapon Mastery feature. You learn to use the whip’s mastery property."
 display_name = "Advancement choice: rogue L1 → weapon/whip"
 entity_def_id = "srd/advancement-choice-option/rogue/1/weapon/whip"
 grants_capability_while_equipped = ""
@@ -2732,7 +2732,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/acrobatics."
+description = "Choose Acrobatics as one of your Expertise skills. Your proficiency bonus is doubled for ability checks you make with Acrobatics."
 display_name = "Advancement choice: rogue L1 → expertise-option/acrobatics"
 entity_def_id = "srd/advancement-choice-option/rogue/1/expertise-option/acrobatics"
 grants_capability_while_equipped = ""
@@ -2748,7 +2748,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/animal-handling."
+description = "Choose Animal Handling as one of your Expertise skills. Your proficiency bonus is doubled for ability checks you make with it."
 display_name = "Advancement choice: rogue L1 → expertise-option/animal-handling"
 entity_def_id = "srd/advancement-choice-option/rogue/1/expertise-option/animal-handling"
 grants_capability_while_equipped = ""
@@ -2764,7 +2764,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/arcana."
+description = "Choose Arcana as a skill you excel in. Your proficiency bonus is doubled for ability checks you make with that skill."
 display_name = "Advancement choice: rogue L1 → expertise-option/arcana"
 entity_def_id = "srd/advancement-choice-option/rogue/1/expertise-option/arcana"
 grants_capability_while_equipped = ""
@@ -2780,7 +2780,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/athletics."
+description = "Choose Athletics for your rogue’s Expertise. You gain double your proficiency bonus on Athletics checks."
 display_name = "Advancement choice: rogue L1 → expertise-option/athletics"
 entity_def_id = "srd/advancement-choice-option/rogue/1/expertise-option/athletics"
 grants_capability_while_equipped = ""
@@ -2796,7 +2796,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/deception."
+description = "Choose Deception for your rogue expertise. Your proficiency bonus is doubled for ability checks you make using that skill."
 display_name = "Advancement choice: rogue L1 → expertise-option/deception"
 entity_def_id = "srd/advancement-choice-option/rogue/1/expertise-option/deception"
 grants_capability_while_equipped = ""
@@ -2812,7 +2812,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/history."
+description = "Choose History as one of the skills you know especially well. You add double your proficiency bonus to History checks you make."
 display_name = "Advancement choice: rogue L1 → expertise-option/history"
 entity_def_id = "srd/advancement-choice-option/rogue/1/expertise-option/history"
 grants_capability_while_equipped = ""
@@ -2828,7 +2828,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/insight."
+description = "Choose Insight for your rogue expertise. Your proficiency bonus is doubled for Insight checks you make."
 display_name = "Advancement choice: rogue L1 → expertise-option/insight"
 entity_def_id = "srd/advancement-choice-option/rogue/1/expertise-option/insight"
 grants_capability_while_equipped = ""
@@ -2844,7 +2844,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/intimidation."
+description = "Choose Intimidation for your Expertise. Your proficiency bonus is doubled for ability checks you make with that skill."
 display_name = "Advancement choice: rogue L1 → expertise-option/intimidation"
 entity_def_id = "srd/advancement-choice-option/rogue/1/expertise-option/intimidation"
 grants_capability_while_equipped = ""
@@ -2860,7 +2860,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/investigation."
+description = "Choose Investigation as one of your Expertise skills. Your proficiency bonus is doubled for ability checks you make using Investigation."
 display_name = "Advancement choice: rogue L1 → expertise-option/investigation"
 entity_def_id = "srd/advancement-choice-option/rogue/1/expertise-option/investigation"
 grants_capability_while_equipped = ""
@@ -2876,7 +2876,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/medicine."
+description = "Choose Medicine for your Expertise. Your proficiency bonus is doubled for ability checks you make using Medicine."
 display_name = "Advancement choice: rogue L1 → expertise-option/medicine"
 entity_def_id = "srd/advancement-choice-option/rogue/1/expertise-option/medicine"
 grants_capability_while_equipped = ""
@@ -2892,7 +2892,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/nature."
+description = "Choose Nature as one of the skills improved by your rogue training. Your proficiency bonus is doubled for ability checks you make using Nature."
 display_name = "Advancement choice: rogue L1 → expertise-option/nature"
 entity_def_id = "srd/advancement-choice-option/rogue/1/expertise-option/nature"
 grants_capability_while_equipped = ""
@@ -2908,7 +2908,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/perception."
+description = "Choose Perception as one of the skills improved by your rogue training. You add double your proficiency bonus to checks you make with that skill."
 display_name = "Advancement choice: rogue L1 → expertise-option/perception"
 entity_def_id = "srd/advancement-choice-option/rogue/1/expertise-option/perception"
 grants_capability_while_equipped = ""
@@ -2924,7 +2924,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/performance."
+description = "Choose Performance as one of your Expertise skills. Your proficiency bonus is doubled for ability checks you make using it."
 display_name = "Advancement choice: rogue L1 → expertise-option/performance"
 entity_def_id = "srd/advancement-choice-option/rogue/1/expertise-option/performance"
 grants_capability_while_equipped = ""
@@ -2940,7 +2940,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/persuasion."
+description = "Choose Persuasion for your rogue expertise. Your proficiency bonus is doubled for ability checks you make using Persuasion."
 display_name = "Advancement choice: rogue L1 → expertise-option/persuasion"
 entity_def_id = "srd/advancement-choice-option/rogue/1/expertise-option/persuasion"
 grants_capability_while_equipped = ""
@@ -2956,7 +2956,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/religion."
+description = "Choose Religion as one of the skills improved by your Expertise feature. Your proficiency bonus is doubled for ability checks you make with Religion."
 display_name = "Advancement choice: rogue L1 → expertise-option/religion"
 entity_def_id = "srd/advancement-choice-option/rogue/1/expertise-option/religion"
 grants_capability_while_equipped = ""
@@ -2972,7 +2972,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/sleight-of-hand."
+description = "Choose Sleight of Hand for your rogue’s Expertise. You add double your proficiency bonus to checks you make with that skill."
 display_name = "Advancement choice: rogue L1 → expertise-option/sleight-of-hand"
 entity_def_id = "srd/advancement-choice-option/rogue/1/expertise-option/sleight-of-hand"
 grants_capability_while_equipped = ""
@@ -2988,7 +2988,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/stealth."
+description = "Choose Stealth as one of the skills improved by your rogue training. You gain greater proficiency with Stealth checks."
 display_name = "Advancement choice: rogue L1 → expertise-option/stealth"
 entity_def_id = "srd/advancement-choice-option/rogue/1/expertise-option/stealth"
 grants_capability_while_equipped = ""
@@ -3004,7 +3004,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/survival."
+description = "Choose Survival as one of your Expertise skills. Your proficiency bonus is doubled for checks you make with Survival."
 display_name = "Advancement choice: rogue L1 → expertise-option/survival"
 entity_def_id = "srd/advancement-choice-option/rogue/1/expertise-option/survival"
 grants_capability_while_equipped = ""
@@ -3020,7 +3020,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/3/primal-knowledge (unique under metadata_attachment natural key). Names srd/skill-option/animal-handling."
+description = "A skill proficiency option you can choose when a barbarian feature lets you gain a skill from its list. It lets you apply your training when handling, calming, or guiding animals."
 display_name = "Advancement choice: barbarian L3 → skill-option/animal-handling"
 entity_def_id = "srd/advancement-choice-option/barbarian/3/skill-option/animal-handling"
 grants_capability_while_equipped = ""
@@ -3036,7 +3036,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/3/primal-knowledge (unique under metadata_attachment natural key). Names srd/skill-option/athletics."
+description = "Choose Athletics proficiency when this class feature lets you learn a skill. You add your proficiency bonus to Athletics checks."
 display_name = "Advancement choice: barbarian L3 → skill-option/athletics"
 entity_def_id = "srd/advancement-choice-option/barbarian/3/skill-option/athletics"
 grants_capability_while_equipped = ""
@@ -3052,7 +3052,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/3/primal-knowledge (unique under metadata_attachment natural key). Names srd/skill-option/intimidation."
+description = "Choose Intimidation as a skill proficiency when this class feature lets you gain a new skill. You add your proficiency bonus to checks you make to frighten, coerce, or threaten others."
 display_name = "Advancement choice: barbarian L3 → skill-option/intimidation"
 entity_def_id = "srd/advancement-choice-option/barbarian/3/skill-option/intimidation"
 grants_capability_while_equipped = ""
@@ -3068,7 +3068,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/3/primal-knowledge (unique under metadata_attachment natural key). Names srd/skill-option/nature."
+description = "Choose proficiency in Nature, representing your ability to recall lore about terrain, plants, animals, weather, and natural phenomena."
 display_name = "Advancement choice: barbarian L3 → skill-option/nature"
 entity_def_id = "srd/advancement-choice-option/barbarian/3/skill-option/nature"
 grants_capability_while_equipped = ""
@@ -3084,7 +3084,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/3/primal-knowledge (unique under metadata_attachment natural key). Names srd/skill-option/perception."
+description = "A skill proficiency you can choose when this feature lets you gain one. It applies to checks you make to notice details, creatures, and changes around you."
 display_name = "Advancement choice: barbarian L3 → skill-option/perception"
 entity_def_id = "srd/advancement-choice-option/barbarian/3/skill-option/perception"
 grants_capability_while_equipped = ""
@@ -3100,7 +3100,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/barbarian/3/primal-knowledge (unique under metadata_attachment natural key). Names srd/skill-option/survival."
+description = "A skill choice available through your barbarian training. You gain proficiency in Survival."
 display_name = "Advancement choice: barbarian L3 → skill-option/survival"
 entity_def_id = "srd/advancement-choice-option/barbarian/3/skill-option/survival"
 grants_capability_while_equipped = ""

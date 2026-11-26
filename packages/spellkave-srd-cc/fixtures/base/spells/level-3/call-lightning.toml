@@ -78,6 +78,7 @@ tag = "srd.spell.list.druid"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The air tightens beneath a bruise-dark canopy, charged with the scent of rain on stone. At a whispered summons, white fire spears downward, turning shadowed ground into a momentary, thunder-ringing scar. Each renewed gesture draws another answer from the roiling heavens."
 display_name = "Call Lightning"
 entity_def_id = "srd/spell/call-lightning"
 grants_capability_while_equipped = ""

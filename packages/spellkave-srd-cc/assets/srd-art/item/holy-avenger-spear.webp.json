@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-spear",
+  "overlay_template": "holy-avenger",
+  "overlay_badge": "holy",
+  "base_sha256": "09abc86a8d0b62c2af57019808e2bd378ea8e309fe26073bffbae0dc2a2a5e81",
+  "overlay_sha256": "64861c3849275cd13d635b8b7a62308bc7ed8397f3a844c78d4b2074fa40c88a",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:45.942Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "5211d3bf6c641642fe6cbee211bab5b843e2149bb7c8333489d8efa0eb3025de",
+  "target_attachment_ref": "srd/magic_item/holy-avenger-spear#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-holy-avenger-spear"
+}

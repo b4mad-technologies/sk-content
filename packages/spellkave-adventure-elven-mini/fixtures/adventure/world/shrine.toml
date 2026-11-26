@@ -1,26 +1,3 @@
-[[map_layers]]
-asset_module = "ccc3-maps"
-asset_path = "maps/235 Shrine of the Sun and Moon-PC.jpg"
-bundle_id = "elven_mini"
-description = "Backdrop maps/235 Shrine of the Sun and Moon-PC.jpg (ccc3-maps)"
-display_name = "Shrine of the Sun and Moon"
-grid_distance_m = 1.5240000486373901
-grid_size_px = 50
-image_height_px = 1682
-image_origin_x = 0.0
-image_origin_y = 0.0
-image_width_px = 2000
-local_height_cells = 33.63999938964844
-local_width_cells = 40.0
-map_layer_id = "elven_mini/shrine/elven_tower_backdrop"
-max_zoom = 0.0
-min_zoom = 0.0
-place_graph_id = "elven_mini/shrine"
-posture = "cc-by-4.0"
-rotation_deg = 0.0
-source_kind = "elven-tower-ccc"
-state = "aligned"
-
 [[place_edges]]
 bundle_id = "elven_mini"
 cell_anchor = 0

@@ -10,7 +10,7 @@
  * `adventure.ts` (which composes the seed-time capability grant).
  */
 import type { VerbCall } from "@spellkave/adventure-runtime/dm/lib";
-import { ATTRIBUTION, BUNDLE } from "./lib/ids.ts";
+import { BUNDLE } from "./lib/ids.ts";
 
 export function elvenMiniBundleHeaderCall(): VerbCall {
 	// Raw `[[bundles]]` row through the write_rows escape hatch rather than
@@ -35,7 +35,7 @@ export function elvenMiniBundleHeaderCall(): VerbCall {
 					display_name: "Playing the Game proof scene",
 					author: "spellkave-srd-cc",
 					version: "1.0.0",
-					description: `Playing-the-Game proof mini-world (elven multi-graph). Map art © ${ATTRIBUTION.creator} (${ATTRIBUTION.license}). ${ATTRIBUTION.postUrl}`,
+					description: "Playing-the-Game proof mini-world (elven multi-graph).",
 					// place-node-extent (sk-71u): region/hamlet/inn/tomb author position/
 					// topology only, no per-node extent — a bundle default keeps every
 					// node well-formed. core/area/cube is kernel vocabulary

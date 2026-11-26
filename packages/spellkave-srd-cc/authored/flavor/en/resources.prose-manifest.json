@@ -1,0 +1,2034 @@
+{
+	"schema": "spellkave-prose-manifest/v1",
+	"output_dir": "packages/spellkave-srd-cc/authored/flavor/.runs",
+	"entries": [
+		{
+			"id": "resource/hit-die",
+			"display_name": "Hit Die",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "### Hit Points and Hit Point Dice\n\nYou gain the Hit Points from your new class as described for levels after 1. You gain the level 1 Hit Points for a class only when your total character level is 1.\n\nAdd together the Hit Dice granted by all your classes to form your pool of Hit Dice. If these dice are the same die type, you can pool them together. For example, both the Fighter and the Paladin have a d10 Hit Die, so if you are a level 5 Fighter / level 5 Paladin, you have ten d10 Hit Dice. If your classes give you Hit Dice of different types, track them separately. If you are a level 5 Cleric / level 5 Paladin, for example, you have five d8 Hit Dice and five d10 Hit Dice."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/spell-slot-1",
+			"display_name": "Level 1 Spell Slot",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Spell Slots\n\nSpellcasting is taxing, so a spellcaster can cast only a limited number of level 1+ spells before resting. Spell slots are the main way a spellcaster's magical potential is represented. Each spellcasting class gives its members a limited number of spell slots of certain spell levels. For example, a level 3 Wizard has four level 1 spell slots and two level 2 slots.\n\nWhen you cast a spell, you expend a slot of that spell's level or higher, effectively \"filling\" a slot with the spell. Imagine a spell slot is a groove of a certain size—small for a level 1 slot and larger for a higher-level spell. A level 1 spell fits into a slot of any size, but a level 2 spell fits only into a slot that's at least level 2. So when a level 3 Wizard casts _Magic Missile_, a level 1 spell, that Wizard spends one of four level 1 slots and has three remaining.\n\nFinishing a Long Rest restores any expended spell slots."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/spell-slot-2",
+			"display_name": "Level 2 Spell Slot",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Spell Slots\n\nSpellcasting is taxing, so a spellcaster can cast only a limited number of level 1+ spells before resting. Spell slots are the main way a spellcaster's magical potential is represented. Each spellcasting class gives its members a limited number of spell slots of certain spell levels. For example, a level 3 Wizard has four level 1 spell slots and two level 2 slots.\n\nWhen you cast a spell, you expend a slot of that spell's level or higher, effectively \"filling\" a slot with the spell. Imagine a spell slot is a groove of a certain size—small for a level 1 slot and larger for a higher-level spell. A level 1 spell fits into a slot of any size, but a level 2 spell fits only into a slot that's at least level 2. So when a level 3 Wizard casts _Magic Missile_, a level 1 spell, that Wizard spends one of four level 1 slots and has three remaining.\n\nFinishing a Long Rest restores any expended spell slots."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/speed-walk",
+			"display_name": "Walking Speed",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "### Movement and Position\n\nOn your turn, you can move a distance equal to your Speed or less. Or you can decide not to move.\n\nYour movement can include climbing, crawling, jumping, and swimming (each explained in \"Rules Glossary\"). These different modes of movement can be combined with your regular movement, or they can constitute your entire move.\n\nHowever you're moving with your Speed, you deduct the distance of each part of your move from it until it is used up or until you are done moving, whichever comes first.\n\nA character's Speed is determined during character creation. A monster's Speed is noted in the monster's stat block. See \"Rules Glossary\" for more about Speed as well as about special speeds, such as a Climb Speed, Fly Speed, or Swim Speed.\n\n#### Difficult Terrain\n\nCombatants are often slowed down by Difficult Terrain. Low furniture, rubble, undergrowth, steep stairs, snow, and shallow bogs are examples of Difficult Terrain.\n\nEvery foot of movement in Difficult Terrain costs 1 extra foot, even if multiple things in a space count as Difficult Terrain.\n\n#### Breaking Up Your Move\n\nYou can break up your move, using some of its movement before and after any action, Bonus Action, or Reaction you take on the same turn. For example, if you have a Speed of 30 feet, you could go 10 feet, take an action, and then go 20 feet.\n\n#### Dropping Prone\n\nOn your turn, you can give yourself the Prone condition (see \"Rules Glossary\") without using an action or any of your Speed, but you can't do so if your Speed is 0.\n\n#### Creature Size\n\nA creature belongs to a size category, which determines the width of the square space the creature occupies on a map, as shown on the Creature Size and Space table. That table lists the sizes from smallest (Tiny) to largest (Gargantuan). A creature's space is the area that it effectively controls in combat and the area it needs to fight effectively.\n\nA character's size is determined by species, and a monster's size is specified in the monster's stat block.\n\n**Creature Size and Space**\n\n<table>\n  <thead>\n    <tr>\n      <th>Size</th>\n      <th>Space (Feet)</th>\n      <th>Space (Squares)</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Tiny</td>\n      <td>2½ by 2½ feet</td>\n      <td>4 per square</td>\n    </tr>\n    <tr>\n      <td>Small</td>\n      <td>5 by 5 feet</td>\n      <td>1 square</td>\n    </tr>\n    <tr>\n      <td>Medium</td>\n      <td>5 by 5 feet</td>\n      <td>1 square</td>\n    </tr>\n    <tr>\n      <td>Large</td>\n      <td>10 by 10 feet</td>\n      <td>4 squares (2 by 2)</td>\n    </tr>\n    <tr>\n      <td>Huge</td>\n      <td>15 by 15 feet</td>\n      <td>9 squares (3 by 3)</td>\n    </tr>\n    <tr>\n      <td>Gargantuan</td>\n      <td>20 by 20 feet</td>\n      <td>16 squares (4 by 4)</td>\n    </tr>\n  </tbody>\n</table>\n\n#### Moving around Other Creatures\n\nDuring your move, you can pass through the space of an ally, a creature that has the Incapacitated condition (see \"Rules Glossary\"), a Tiny creature, or a creature that is two sizes larger or smaller than you.\n\nAnother creature's space is Difficult Terrain for you unless that creature is Tiny or your ally.\n\nYou can't willingly end a move in a space occupied by another creature. If you somehow end a turn in a space with another creature, you have the Prone condition (see \"Rules Glossary\") unless you are Tiny or are of a larger size than the other creature."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/speed-climb",
+			"display_name": "Climbing Speed",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Climbing\n\nWhile you're climbing, each foot of movement costs 1 extra foot (2 extra feet in Difficult Terrain). You ignore this extra cost if you have a Climb Speed and use it to climb.\nAt the GM's option, climbing a slippery surface or one with few handholds might require a successful DC 15 Strength (Athletics) check."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/speed-swim",
+			"display_name": "Swimming Speed",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Swimming\n\nWhile you're swimming, each foot of movement costs 1 extra foot (2 extra feet in Difficult Terrain). You ignore this extra cost if you have a Swim Speed and use it to swim. At the GM's option, moving any distance in rough water might require a successful DC 15 Strength (Athletics) check."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/speed-fly",
+			"display_name": "Flying Speed",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Flying\n\nA variety of effects allow a creature to fly. While flying, you fall if you have the Incapacitated or Prone condition or your Fly Speed is reduced to 0. You can stay aloft in those circumstances if you can hover. _See also_ \"Falling\" and \"Fly Speed.\""
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/ac",
+			"display_name": "Armor Class",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Armor Class\n\nAn Armor Class (AC) is the target number for an attack roll. AC represents how difficult it is to hit a target.\n\nYour base AC calculation is 10 plus your Dexterity modifier. If a rule gives you another base AC calculation, you choose which calculation to use; you can't use more than one. _See also_ \"Attack Roll.\""
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/asi-points",
+			"display_name": "ASI Points",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Ability Score Improvement\n\n_General Feat (Prerequisite: Level 4+)_\n\nIncrease one ability score of your choice by 2, or increase two ability scores of your choice by 1. This feat can't increase an ability score above 20.\n\n_Repeatable._ You can take this feat more than once."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/cost-cp",
+			"display_name": "Cost (copper)",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "## Coins\n\nCharacters often find coins on their adventures and can spend those coins in shops, inns, and other businesses. Coins come in different denominations based on the relative worth of their material. The Coin Values table lists coins and how much they're worth relative to the Gold Piece, which is the game's main coin. For example, 100 Copper Pieces are worth 1 Gold Piece.\n\nA coin weighs about a third of an ounce, so fifty coins weigh a pound.\n\n**Coin Values**\n\n<table>\n  <thead>\n    <tr>\n      <th>Coin</th>\n      <th>Value in GP</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Copper Piece (CP)</td>\n      <td>1/100</td>\n    </tr>\n    <tr>\n      <td>Silver Piece (SP)</td>\n      <td>1/10</td>\n    </tr>\n    <tr>\n      <td>Electrum Piece (EP)</td>\n      <td>1/2</td>\n    </tr>\n    <tr>\n      <td>Gold Piece (GP)</td>\n      <td>1</td>\n    </tr>\n    <tr>\n      <td>Platinum Piece (PP)</td>\n      <td>10</td>\n    </tr>\n  </tbody>\n</table>"
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/weight-lb10",
+			"display_name": "Weight",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "## Adventuring Gear\n\nThe Adventuring Gear table in this section includes gear that adventurers often find useful. These items are described here in alphabetical order, with an item's price appearing after its name.\n\n#### Acid (25 GP)\n\nWhen you take the Attack action, you can replace one of your attacks with throwing a vial of Acid. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 2d6 Acid damage.\n\n#### Alchemist's Fire (50 GP)\n\nWhen you take the Attack action, you can replace one of your attacks with throwing a flask of Alchemist's Fire. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 1d4 Fire damage and start burning (see \"Rules Glossary\").\n\n#### Ammunition (Varies)\n\nAmmunition is required by a weapon that has the Ammunition property. A weapon's description specifies the type of ammunition used by the weapon. The Ammunition table lists the different types and the amount you get when you buy them. The table also lists the item that is typically used to store each type; storage must be bought separately.\n\n**Adventuring Gear**\n\n<table>\n  <thead>\n    <tr>\n      <th>Item</th>\n      <th>Weight</th>\n      <th>Cost</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Acid</td>\n      <td>1 lb.</td>\n      <td>25 GP</td>\n    </tr>\n    <tr>\n      <td>Alchemist's Fire</td>\n      <td>1 lb.</td>\n      <td>50 GP</td>\n    </tr>\n    <tr>\n      <td>Ammunition</td>\n      <td>Varies</td>\n      <td>Varies</td>\n    </tr>\n    <tr>\n      <td>Antitoxin</td>\n      <td>—</td>\n      <td>50 GP</td>\n    </tr>\n    <tr>\n      <td>Arcane Focus</td>\n      <td>Varies</td>\n      <td>Varies</td>\n    </tr>\n    <tr>\n      <td>Backpack</td>\n      <td>5 lb.</td>\n      <td>2 GP</td>\n    </tr>\n    <tr>\n      <td>Ball Bearings</td>\n "
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/armor-ac-base",
+			"display_name": "Armor AC base",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "## Armor\n\nThe Armor table lists the game's main armor. The table includes the cost and weight of armor, as well as the following details:\n\n**Category.** Every type of armor falls into a category: Light, Medium, or Heavy. The category determines how long it takes to don or doff the armor (as shown in the table).\n\n**Armor Class (AC).** The table's Armor Class column tells you what your base AC is when you wear a type of armor. For example, if you wear Leather Armor, your base AC is 11 plus your Dexterity modifier, whereas your AC is 16 in Chain Mail.\n\n**Strength.** If the table shows a Strength score in the Strength column for an armor type, that armor reduces the wearer's speed by 10 feet unless the wearer has a Strength score equal to or higher than the listed score.\n\n**Stealth.** If the table shows \"Disadvantage\" in the Stealth column for an armor type, the wearer has Disadvantage on Dexterity (Stealth) checks.\n\n**Armor**\n\n<table>\n  <thead>\n    <tr>\n      <th>Armor</th>\n      <th>Armor Class (AC)</th>\n      <th>Strength</th>\n      <th>Stealth</th>\n      <th>Weight</th>\n      <th>Cost</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th colspan=\"6\"><em>Light Armor (1 Minute to Don or Doff)</em></th>\n    </tr>\n    <tr>\n      <td>Padded Armor</td>\n      <td>11 + Dex modifier</td>\n      <td>—</td>\n      <td>Disadvantage</td>\n      <td>8 lb.</td>\n      <td>5 GP</td>\n    </tr>\n    <tr>\n      <td>Leather Armor</td>\n      <td>11 + Dex modifier</td>\n      <td>—</td>\n      <td>—</td>\n      <td>10 lb.</td>\n      <td>10 GP</td>\n    </tr>\n    <tr>\n      <td>Studded Leather Armor</td>\n      <td>12 + Dex modifier</td>\n      <td>—</td>\n      <td>—</td>\n      <td>13 lb.</td>\n      <td>45 GP</td>\n    </tr>\n    <tr>\n      <th colspan=\"6\"><em>Medium Armor (5 Minutes to Don and 1 Minute to Doff)</em></th>\n    </tr>\n    <tr>\n      <td>Hide Armor</td>\n      <td>12 + Dex modifier (max 2)</td>\n      <td>—</td>\n      <td>—</td>\n      <td>12 lb.</td>\n      <td>10 GP</td>\n    </tr>\n    <tr>\n      <td>Chain Shirt</td>\n      <td>13 + Dex modifier (max 2)</td>\n      <td>—</td>\n      <td>—</td>\n      <td>20 lb.</td>\n      <td>50 GP</td>\n    </tr>\n    <tr>\n      <td>Scale Mail</td>\n      <td>14 + Dex modifier (max 2)</td>\n      <td>—</td>\n      <td>Disadvantage</td>\n      <td>45 lb.</td>\n      <td>50 GP</td>\n    </tr>\n    <tr>\n      <td>Breastplate</td>\n      <td>14 + Dex modifier (max 2)</td>\n      <td>—</td>\n      <td>—</td>\n      <td>20 lb.</td>\n      <td>400 GP</td>\n    </tr>\n    <tr>\n      <td>Half Plate Armor</td>\n      <td>15 + Dex modifier (max 2)</td>\n      <td>—</td>\n      <td>Disadvantage</td>\n      <td>40 lb.</td>\n      <td>750 GP</td>\n    </tr>\n    <tr>\n      <th colspan=\"6\"><em>Heavy Armor (10 Minutes to Don and 5 Minutes to Doff)</em></th>\n    </tr>\n    <tr>\n      <td>Ring Mail</td>\n      <td>14</td>\n      <td>—</td>\n      <td>Disadvantage</td>\n      <td>40 lb.</td>\n      <td>30 GP</td>\n    </tr>\n    <tr>\n      <td>Chain Mail</td>\n      <td>16</td>\n      <td>Str 13</td>\n      <td>Disadvantage</td>\n      <td>55 lb.</td>\n      <td>75 GP</td>\n    </tr>\n    <tr>\n      <td>Splint Armor</td>\n      <td>17</td>\n      <td>Str 15</td>\n      <td>Disadvantage</td>\n      <td>60 lb.</td>\n      <td>200 GP</td>\n    </tr>\n    <tr>\n      <td>Plate Armor</td>\n      <td>18</td>\n      <td>Str 15</td>\n      <td>Disadvantage</td>\n      <td>65 lb.</td>\n      <td>1,500 GP</td>\n    </tr>\n    <tr>\n      <th colspan=\"6\"><em>Shield (Utilize Action to Don or Doff)</em></th>\n    </tr>\n    <tr>\n      <td>Shield</td>\n      <td>+2</td>\n      <td>—</td>\n      <td>—</td>\n      <td>6 lb.</td>\n      <td>10 GP</td>\n    </tr>\n  </tbody>\n</table>\n\n### Armor Training\n\nAnyone can don armor or hold a Shield, but only those with training can use them effectively, as explained below. A character's class and other features determine the character's armor training. A monster has training with any armor in its stat block.\n\n**Light, Medium, or Heavy Armor.** If you wear Light, Medium, or Heavy armor and lack training with it, you have Disadvantage on any D20 Test that involves Strength or Dexterity, and you can't cast spells.\n\n**Shield.** You gain the Armor Class benefit of a Shield only if you have training with it.\n\n### One at a Time\n\nA creature can wear only one suit of armor at a time and wield only one Shield at a time."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/armor-dex-cap",
+			"display_name": "Armor Dexterity cap",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "## Armor\n\nThe Armor table lists the game's main armor. The table includes the cost and weight of armor, as well as the following details:\n\n**Category.** Every type of armor falls into a category: Light, Medium, or Heavy. The category determines how long it takes to don or doff the armor (as shown in the table).\n\n**Armor Class (AC).** The table's Armor Class column tells you what your base AC is when you wear a type of armor. For example, if you wear Leather Armor, your base AC is 11 plus your Dexterity modifier, whereas your AC is 16 in Chain Mail.\n\n**Strength.** If the table shows a Strength score in the Strength column for an armor type, that armor reduces the wearer's speed by 10 feet unless the wearer has a Strength score equal to or higher than the listed score.\n\n**Stealth.** If the table shows \"Disadvantage\" in the Stealth column for an armor type, the wearer has Disadvantage on Dexterity (Stealth) checks.\n\n**Armor**\n\n<table>\n  <thead>\n    <tr>\n      <th>Armor</th>\n      <th>Armor Class (AC)</th>\n      <th>Strength</th>\n      <th>Stealth</th>\n      <th>Weight</th>\n      <th>Cost</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th colspan=\"6\"><em>Light Armor (1 Minute to Don or Doff)</em></th>\n    </tr>\n    <tr>\n      <td>Padded Armor</td>\n      <td>11 + Dex modifier</td>\n      <td>—</td>\n      <td>Disadvantage</td>\n      <td>8 lb.</td>\n      <td>5 GP</td>\n    </tr>\n    <tr>\n      <td>Leather Armor</td>\n      <td>11 + Dex modifier</td>\n      <td>—</td>\n      <td>—</td>\n      <td>10 lb.</td>\n      <td>10 GP</td>\n    </tr>\n    <tr>\n      <td>Studded Leather Armor</td>\n      <td>12 + Dex modifier</td>\n      <td>—</td>\n      <td>—</td>\n      <td>13 lb.</td>\n      <td>45 GP</td>\n    </tr>\n    <tr>\n      <th colspan=\"6\"><em>Medium Armor (5 Minutes to Don and 1 Minute to Doff)</em></th>\n    </tr>\n    <tr>\n      <td>Hide Armor</td>\n      <td>12 + Dex modifier (max 2)</td>\n      <td>—</td>\n      <td>—</td>\n      <td>12 lb.</td>\n      <td>10 GP</td>\n    </tr>\n    <tr>\n      <td>Chain Shirt</td>\n      <td>13 + Dex modifier (max 2)</td>\n      <td>—</td>\n      <td>—</td>\n      <td>20 lb.</td>\n      <td>50 GP</td>\n    </tr>\n    <tr>\n      <td>Scale Mail</td>\n      <td>14 + Dex modifier (max 2)</td>\n      <td>—</td>\n      <td>Disadvantage</td>\n      <td>45 lb.</td>\n      <td>50 GP</td>\n    </tr>\n    <tr>\n      <td>Breastplate</td>\n      <td>14 + Dex modifier (max 2)</td>\n      <td>—</td>\n      <td>—</td>\n      <td>20 lb.</td>\n      <td>400 GP</td>\n    </tr>\n    <tr>\n      <td>Half Plate Armor</td>\n      <td>15 + Dex modifier (max 2)</td>\n      <td>—</td>\n      <td>Disadvantage</td>\n      <td>40 lb.</td>\n      <td>750 GP</td>\n    </tr>\n    <tr>\n      <th colspan=\"6\"><em>Heavy Armor (10 Minutes to Don and 5 Minutes to Doff)</em></th>\n    </tr>\n    <tr>\n      <td>Ring Mail</td>\n      <td>14</td>\n      <td>—</td>\n      <td>Disadvantage</td>\n      <td>40 lb.</td>\n      <td>30 GP</td>\n    </tr>\n    <tr>\n      <td>Chain Mail</td>\n      <td>16</td>\n      <td>Str 13</td>\n      <td>Disadvantage</td>\n      <td>55 lb.</td>\n      <td>75 GP</td>\n    </tr>\n    <tr>\n      <td>Splint Armor</td>\n      <td>17</td>\n      <td>Str 15</td>\n      <td>Disadvantage</td>\n      <td>60 lb.</td>\n      <td>200 GP</td>\n    </tr>\n    <tr>\n      <td>Plate Armor</td>\n      <td>18</td>\n      <td>Str 15</td>\n      <td>Disadvantage</td>\n      <td>65 lb.</td>\n      <td>1,500 GP</td>\n    </tr>\n    <tr>\n      <th colspan=\"6\"><em>Shield (Utilize Action to Don or Doff)</em></th>\n    </tr>\n    <tr>\n      <td>Shield</td>\n      <td>+2</td>\n      <td>—</td>\n      <td>—</td>\n      <td>6 lb.</td>\n      <td>10 GP</td>\n    </tr>\n  </tbody>\n</table>\n\n### Armor Training\n\nAnyone can don armor or hold a Shield, but only those with training can use them effectively, as explained below. A character's class and other features determine the character's armor training. A monster has training with any armor in its stat block.\n\n**Light, Medium, or Heavy Armor.** If you wear Light, Medium, or Heavy armor and lack training with it, you have Disadvantage on any D20 Test that involves Strength or Dexterity, and you can't cast spells.\n\n**Shield.** You gain the Armor Class benefit of a Shield only if you have training with it.\n\n### One at a Time\n\nA creature can wear only one suit of armor at a time and wield only one Shield at a time."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/armor-str-required",
+			"display_name": "Armor Strength required",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "## Armor\n\nThe Armor table lists the game's main armor. The table includes the cost and weight of armor, as well as the following details:\n\n**Category.** Every type of armor falls into a category: Light, Medium, or Heavy. The category determines how long it takes to don or doff the armor (as shown in the table).\n\n**Armor Class (AC).** The table's Armor Class column tells you what your base AC is when you wear a type of armor. For example, if you wear Leather Armor, your base AC is 11 plus your Dexterity modifier, whereas your AC is 16 in Chain Mail.\n\n**Strength.** If the table shows a Strength score in the Strength column for an armor type, that armor reduces the wearer's speed by 10 feet unless the wearer has a Strength score equal to or higher than the listed score.\n\n**Stealth.** If the table shows \"Disadvantage\" in the Stealth column for an armor type, the wearer has Disadvantage on Dexterity (Stealth) checks.\n\n**Armor**\n\n<table>\n  <thead>\n    <tr>\n      <th>Armor</th>\n      <th>Armor Class (AC)</th>\n      <th>Strength</th>\n      <th>Stealth</th>\n      <th>Weight</th>\n      <th>Cost</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th colspan=\"6\"><em>Light Armor (1 Minute to Don or Doff)</em></th>\n    </tr>\n    <tr>\n      <td>Padded Armor</td>\n      <td>11 + Dex modifier</td>\n      <td>—</td>\n      <td>Disadvantage</td>\n      <td>8 lb.</td>\n      <td>5 GP</td>\n    </tr>\n    <tr>\n      <td>Leather Armor</td>\n      <td>11 + Dex modifier</td>\n      <td>—</td>\n      <td>—</td>\n      <td>10 lb.</td>\n      <td>10 GP</td>\n    </tr>\n    <tr>\n      <td>Studded Leather Armor</td>\n      <td>12 + Dex modifier</td>\n      <td>—</td>\n      <td>—</td>\n      <td>13 lb.</td>\n      <td>45 GP</td>\n    </tr>\n    <tr>\n      <th colspan=\"6\"><em>Medium Armor (5 Minutes to Don and 1 Minute to Doff)</em></th>\n    </tr>\n    <tr>\n      <td>Hide Armor</td>\n      <td>12 + Dex modifier (max 2)</td>\n      <td>—</td>\n      <td>—</td>\n      <td>12 lb.</td>\n      <td>10 GP</td>\n    </tr>\n    <tr>\n      <td>Chain Shirt</td>\n      <td>13 + Dex modifier (max 2)</td>\n      <td>—</td>\n      <td>—</td>\n      <td>20 lb.</td>\n      <td>50 GP</td>\n    </tr>\n    <tr>\n      <td>Scale Mail</td>\n      <td>14 + Dex modifier (max 2)</td>\n      <td>—</td>\n      <td>Disadvantage</td>\n      <td>45 lb.</td>\n      <td>50 GP</td>\n    </tr>\n    <tr>\n      <td>Breastplate</td>\n      <td>14 + Dex modifier (max 2)</td>\n      <td>—</td>\n      <td>—</td>\n      <td>20 lb.</td>\n      <td>400 GP</td>\n    </tr>\n    <tr>\n      <td>Half Plate Armor</td>\n      <td>15 + Dex modifier (max 2)</td>\n      <td>—</td>\n      <td>Disadvantage</td>\n      <td>40 lb.</td>\n      <td>750 GP</td>\n    </tr>\n    <tr>\n      <th colspan=\"6\"><em>Heavy Armor (10 Minutes to Don and 5 Minutes to Doff)</em></th>\n    </tr>\n    <tr>\n      <td>Ring Mail</td>\n      <td>14</td>\n      <td>—</td>\n      <td>Disadvantage</td>\n      <td>40 lb.</td>\n      <td>30 GP</td>\n    </tr>\n    <tr>\n      <td>Chain Mail</td>\n      <td>16</td>\n      <td>Str 13</td>\n      <td>Disadvantage</td>\n      <td>55 lb.</td>\n      <td>75 GP</td>\n    </tr>\n    <tr>\n      <td>Splint Armor</td>\n      <td>17</td>\n      <td>Str 15</td>\n      <td>Disadvantage</td>\n      <td>60 lb.</td>\n      <td>200 GP</td>\n    </tr>\n    <tr>\n      <td>Plate Armor</td>\n      <td>18</td>\n      <td>Str 15</td>\n      <td>Disadvantage</td>\n      <td>65 lb.</td>\n      <td>1,500 GP</td>\n    </tr>\n    <tr>\n      <th colspan=\"6\"><em>Shield (Utilize Action to Don or Doff)</em></th>\n    </tr>\n    <tr>\n      <td>Shield</td>\n      <td>+2</td>\n      <td>—</td>\n      <td>—</td>\n      <td>6 lb.</td>\n      <td>10 GP</td>\n    </tr>\n  </tbody>\n</table>\n\n### Armor Training\n\nAnyone can don armor or hold a Shield, but only those with training can use them effectively, as explained below. A character's class and other features determine the character's armor training. A monster has training with any armor in its stat block.\n\n**Light, Medium, or Heavy Armor.** If you wear Light, Medium, or Heavy armor and lack training with it, you have Disadvantage on any D20 Test that involves Strength or Dexterity, and you can't cast spells.\n\n**Shield.** You gain the Armor Class benefit of a Shield only if you have training with it.\n\n### One at a Time\n\nA creature can wear only one suit of armor at a time and wield only one Shield at a time."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/armor-stealth-disadvantage",
+			"display_name": "Armor stealth disadvantage",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "## Armor\n\nThe Armor table lists the game's main armor. The table includes the cost and weight of armor, as well as the following details:\n\n**Category.** Every type of armor falls into a category: Light, Medium, or Heavy. The category determines how long it takes to don or doff the armor (as shown in the table).\n\n**Armor Class (AC).** The table's Armor Class column tells you what your base AC is when you wear a type of armor. For example, if you wear Leather Armor, your base AC is 11 plus your Dexterity modifier, whereas your AC is 16 in Chain Mail.\n\n**Strength.** If the table shows a Strength score in the Strength column for an armor type, that armor reduces the wearer's speed by 10 feet unless the wearer has a Strength score equal to or higher than the listed score.\n\n**Stealth.** If the table shows \"Disadvantage\" in the Stealth column for an armor type, the wearer has Disadvantage on Dexterity (Stealth) checks.\n\n**Armor**\n\n<table>\n  <thead>\n    <tr>\n      <th>Armor</th>\n      <th>Armor Class (AC)</th>\n      <th>Strength</th>\n      <th>Stealth</th>\n      <th>Weight</th>\n      <th>Cost</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th colspan=\"6\"><em>Light Armor (1 Minute to Don or Doff)</em></th>\n    </tr>\n    <tr>\n      <td>Padded Armor</td>\n      <td>11 + Dex modifier</td>\n      <td>—</td>\n      <td>Disadvantage</td>\n      <td>8 lb.</td>\n      <td>5 GP</td>\n    </tr>\n    <tr>\n      <td>Leather Armor</td>\n      <td>11 + Dex modifier</td>\n      <td>—</td>\n      <td>—</td>\n      <td>10 lb.</td>\n      <td>10 GP</td>\n    </tr>\n    <tr>\n      <td>Studded Leather Armor</td>\n      <td>12 + Dex modifier</td>\n      <td>—</td>\n      <td>—</td>\n      <td>13 lb.</td>\n      <td>45 GP</td>\n    </tr>\n    <tr>\n      <th colspan=\"6\"><em>Medium Armor (5 Minutes to Don and 1 Minute to Doff)</em></th>\n    </tr>\n    <tr>\n      <td>Hide Armor</td>\n      <td>12 + Dex modifier (max 2)</td>\n      <td>—</td>\n      <td>—</td>\n      <td>12 lb.</td>\n      <td>10 GP</td>\n    </tr>\n    <tr>\n      <td>Chain Shirt</td>\n      <td>13 + Dex modifier (max 2)</td>\n      <td>—</td>\n      <td>—</td>\n      <td>20 lb.</td>\n      <td>50 GP</td>\n    </tr>\n    <tr>\n      <td>Scale Mail</td>\n      <td>14 + Dex modifier (max 2)</td>\n      <td>—</td>\n      <td>Disadvantage</td>\n      <td>45 lb.</td>\n      <td>50 GP</td>\n    </tr>\n    <tr>\n      <td>Breastplate</td>\n      <td>14 + Dex modifier (max 2)</td>\n      <td>—</td>\n      <td>—</td>\n      <td>20 lb.</td>\n      <td>400 GP</td>\n    </tr>\n    <tr>\n      <td>Half Plate Armor</td>\n      <td>15 + Dex modifier (max 2)</td>\n      <td>—</td>\n      <td>Disadvantage</td>\n      <td>40 lb.</td>\n      <td>750 GP</td>\n    </tr>\n    <tr>\n      <th colspan=\"6\"><em>Heavy Armor (10 Minutes to Don and 5 Minutes to Doff)</em></th>\n    </tr>\n    <tr>\n      <td>Ring Mail</td>\n      <td>14</td>\n      <td>—</td>\n      <td>Disadvantage</td>\n      <td>40 lb.</td>\n      <td>30 GP</td>\n    </tr>\n    <tr>\n      <td>Chain Mail</td>\n      <td>16</td>\n      <td>Str 13</td>\n      <td>Disadvantage</td>\n      <td>55 lb.</td>\n      <td>75 GP</td>\n    </tr>\n    <tr>\n      <td>Splint Armor</td>\n      <td>17</td>\n      <td>Str 15</td>\n      <td>Disadvantage</td>\n      <td>60 lb.</td>\n      <td>200 GP</td>\n    </tr>\n    <tr>\n      <td>Plate Armor</td>\n      <td>18</td>\n      <td>Str 15</td>\n      <td>Disadvantage</td>\n      <td>65 lb.</td>\n      <td>1,500 GP</td>\n    </tr>\n    <tr>\n      <th colspan=\"6\"><em>Shield (Utilize Action to Don or Doff)</em></th>\n    </tr>\n    <tr>\n      <td>Shield</td>\n      <td>+2</td>\n      <td>—</td>\n      <td>—</td>\n      <td>6 lb.</td>\n      <td>10 GP</td>\n    </tr>\n  </tbody>\n</table>\n\n### Armor Training\n\nAnyone can don armor or hold a Shield, but only those with training can use them effectively, as explained below. A character's class and other features determine the character's armor training. A monster has training with any armor in its stat block.\n\n**Light, Medium, or Heavy Armor.** If you wear Light, Medium, or Heavy armor and lack training with it, you have Disadvantage on any D20 Test that involves Strength or Dexterity, and you can't cast spells.\n\n**Shield.** You gain the Armor Class benefit of a Shield only if you have training with it.\n\n### One at a Time\n\nA creature can wear only one suit of armor at a time and wield only one Shield at a time."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/hp",
+			"display_name": "Hit Points",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "### Hit Points\n\nHit Points represent durability and the will to live. Creatures with more Hit Points are more difficult to kill. Your Hit Point maximum is the number of Hit Points you have when uninjured. Your current Hit Points can be any number from that maximum down to 0, which is the lowest Hit Points can go.\n\nWhenever you take damage, subtract it from your Hit Points. Hit Point loss has no effect on your capabilities until you reach 0 Hit Points.\n\nIf you have half your Hit Points or fewer, you're Bloodied, which has no game effect on its own but which might trigger other game effects.\n\n> **RESTING**\n>\n> Adventurers can't spend every hour adventuring. They need rest. Any creature can take hour-long Short Rests in the midst of a day and an 8-hour Long Rest to end it. Regaining Hit Points is one of the main benefits of a rest. \"Rules Glossary\" provides the rules for Short and Long Rests."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/temp-hp",
+			"display_name": "Temporary Hit Points",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "### Temporary Hit Points\n\nSome spells and other effects confer Temporary Hit Points, which are a buffer against losing actual Hit Points, as explained below.\n\n#### Lose Temporary Hit Points First\n\nIf you have Temporary Hit Points and take damage, those points are lost first, and any leftover damage carries over to your Hit Points. For example, if you have 5 Temporary Hit Points and take 7 damage, you lose those points and then lose 2 Hit Points.\n\n#### Duration\n\nTemporary Hit Points last until they're depleted or you finish a Long Rest (see \"Rules Glossary\").\n\n#### They Don't Stack\n\nTemporary Hit Points can't be added together. If you have Temporary Hit Points and receive more of them, you decide whether to keep the ones you have or to gain the new ones. For example, if a spell grants you 12 Temporary Hit Points when you already have 10, you can have 12 or 10, not 22.\n\n#### They're Not Hit Points or Healing\n\nTemporary Hit Points can't be added to your Hit Points, healing can't restore them, and receiving Temporary Hit Points doesn't count as healing. Because Temporary Hit Points aren't Hit Points, a creature can be at full Hit Points and receive Temporary Hit Points.\n\nIf you have 0 Hit Points, receiving Temporary Hit Points doesn't restore you to consciousness. Only true healing can save you."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/level",
+			"display_name": "Level",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "## Level Advancement\n\nWhile going on adventures, your character gains experience, represented by Experience Points (XP). A character who reaches a specified Experience Point total advances in capability. This advancement is called gaining a level.\n\nThe Character Advancement table lists the XP you need to advance to a level and the Proficiency Bonus for a character of that level. When your XP total equals or exceeds a number in the Experience Points column, you reach the corresponding level.\n\n**Character Advancement**\n\n<table>\n  <thead>\n    <tr>\n      <th>Level</th>\n      <th>Experience Points</th>\n      <th>Proficiency Bonus</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>1</td>\n      <td>0</td>\n      <td>+2</td>\n    </tr>\n    <tr>\n      <td>2</td>\n      <td>300</td>\n      <td>+2</td>\n    </tr>\n    <tr>\n      <td>3</td>\n      <td>900</td>\n      <td>+2</td>\n    </tr>\n    <tr>\n      <td>4</td>\n      <td>2,700</td>\n      <td>+2</td>\n    </tr>\n    <tr>\n      <td>5</td>\n      <td>6,500</td>\n      <td>+3</td>\n    </tr>\n    <tr>\n      <td>6</td>\n      <td>14,000</td>\n      <td>+3</td>\n    </tr>\n    <tr>\n      <td>7</td>\n      <td>23,000</td>\n      <td>+3</td>\n    </tr>\n    <tr>\n      <td>8</td>\n      <td>34,000</td>\n      <td>+3</td>\n    </tr>\n    <tr>\n      <td>9</td>\n      <td>48,000</td>\n      <td>+4</td>\n    </tr>\n    <tr>\n      <td>10</td>\n      <td>64,000</td>\n      <td>+4</td>\n    </tr>\n    <tr>\n      <td>11</td>\n      <td>85,000</td>\n      <td>+4</td>\n    </tr>\n    <tr>\n      <td>12</td>\n      <td>100,000</td>\n      <td>+4</td>\n    </tr>\n    <tr>\n      <td>13</td>\n      <td>120,000</td>\n      <td>+5</td>\n    </tr>\n    <tr>\n      <td>14</td>\n      <td>140,000</td>\n      <td>+5</td>\n    </tr>\n    <tr>\n      <td>15</td>\n      <td>165,000</td>\n      <td>+5</td>\n    </tr>\n    <tr>\n      <td>16</td>\n      <td>195,000</td>\n      <td>+5</td>\n    </tr>\n    <tr>\n      <td>17</td>\n      <td>225,000</td>\n      <td>+6</td>\n    </tr>\n    <tr>\n      <td>18</td>\n      <td>265,000</td>\n      <td>+6</td>\n    </tr>\n    <tr>\n      <td>19</td>\n      <td>305,000</td>\n      <td>+6</td>\n    </tr>\n    <tr>\n      <td>20</td>\n      <td>355,000</td>\n      <td>+6</td>\n    </tr>\n  </tbody>\n</table>\n\n### Gaining a Level\n\nWhen you gain a level, follow these steps:\n\n**1: Choose a Class.** Most characters advance in the same class. However, you might decide to gain a level in another class using the rules in the \"Multiclassing\" section.\n\n**2: Adjust Hit Points and Hit Point Dice.** Each time you gain a level, you gain an additional Hit Die. Roll that die, add your Constitution modifier to the roll, and add the total (minimum of 1) to your Hit Point maximum. Instead of rolling, you can use the fixed value shown in the Fixed Hit Points by Class table.\n\n**Fixed Hit Points by Class**\n\n<table>\n  <thead>\n    <tr>\n      <th>Class</th>\n      <th>Hit Points per Level</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Barbarian</td>\n      <td>7 + Con. modifier</td>\n    </tr>\n    <tr>\n      <td>Fighter, Paladin, or Ranger</td>\n      <td>6 + Con. modifier</td>\n    </tr>\n    <tr>\n      <td>Bard, Cleric, Druid, Monk, Rogue, or Warlock</td>\n      <td>5 + Con. modifier</td>\n    </tr>\n    <tr>\n      <td>Sorcerer or Wizard</td>\n      <td>4 + Con. modifier</td>\n    </tr>\n  </tbody>\n</table>\n\n**3: Record New Class Features.** Look at your class features table in \"Classes,\" and note the features you gain at your new level in that class. Make any choices offered by a new feature.\n\n**4: Adjust Proficiency Bonus.** A character's Proficiency Bonus increases at certain levels, as shown in the Character Advancement table and your class features table in \"Classes.\" When your Proficiency Bonus increases, increase all the numbers on your character sheet that include your Proficiency Bonus.\n\n**5: Adjust Ability Modifiers.** If you choose a feat that increases one or more of your ability scores, your ability modifier also changes if the new score is an even number. When that happens, adjust all the numbers on your character sheet that use that ability modifier. When your Constitution modifier increases by 1, your Hit Point maximum increases by 1 for each level you have attained. For example, if a character reaches level 8 and increases their Constitution score from 17 to 18, the Constitution modifier increases to +4. The character's Hit Point maximum then increases by 8, in addition to the Hit Points gained for reaching level 8.\n\n### Tiers of Play\n\nWith each new level, characters acquire new capabilities that equip them to handle greater challenges. As characters advance in level, the tone of the game also changes, and the stakes of the campaign get higher. It's helpful to think of a character's (and a campaign's) arc in terms of four tiers of play,\ndescribing the journey from a level 1 character just beginning an adventuring career to the epic heights of level 20. These tiers don't have any rules associated with them; they point to the fact that the play experience evolves as characters gain levels.\n\n#### Tier 1 (Levels 1–4)\n\nIn tier 1, characters are apprentice adventurers, though they are already set apart from the broader populace by virtue of their extraordinary abilities. They learn their starting class features and choose a subclass. The threats they face usually pose a danger to local farmsteads or villages.\n\n#### Tier 2 (Levels 5–10)\n\nIn tier 2, characters are full-fledged adventurers. Spellcasters gain iconic spells such as _Fireball_, _Lightning Bolt_, and _Raise Dead_. Most weapon-focused classes gain the ability to make multiple attacks in a round. The characters now face dangers that threaten cities and kingdoms.\n\n#### Tier 3 (Levels 11–16)\n\nIn tier 3, characters have reached a level of power that makes them special among adventurers. At level 11, many spellcasters learn reality-altering spells. Other characters gain features that allow them to make more attacks or to do more impressive things with those attacks. These adventurers often confront threats to whole regions.\n\n#### Tier 4 (Levels 17–20)\n\nAt tier 4, characters achieve the pinnacle of their class features, becoming heroic archetypes. The fate of the world or even the order of the multiverse might hang in the balance during their adventures."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/xp",
+			"display_name": "Experience Points",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "### Experience Points\n\nThe Experience Point cost to gain a level is based on your total character level, not your level in a particular class, as shown in the Character Advancement table in \"Character Creation.\" For example, if you are a level 6 Cleric / level 1 Fighter, you must gain enough XP to reach level 8 before you can take your second level as a Fighter or your seventh level as a Cleric."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/proficiency-bonus",
+			"display_name": "Proficiency Bonus",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "### Proficiency Bonus\n\nYour Proficiency Bonus is based on your total character level, not your level in a particular class, as shown in the Character Advancement table. For example, if you are a level 3 Fighter / level 2 Rogue, you have the Proficiency Bonus of a level 5 character, which is +3."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/reach-mm",
+			"display_name": "Reach",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Reach\n\nA creature has a 5-foot reach and can thus attack targets within 5 feet when making a melee attack. Certain creatures have melee attacks with a reach greater than 5 feet, as noted in their descriptions."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/death-save-successes",
+			"display_name": "Death Save Successes",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Death Saving Throws\n\nWhenever you start your turn with 0 Hit Points, you must make a Death Saving Throw to determine whether you creep closer to death or hang on to life. Unlike other saving throws, this one isn't tied to an ability score. You're in the hands of fate now.\n\n_Three Successes/Failures._ Roll 1d20. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success or failure has no effect by itself. On your third success, you become Stable (see \"Stabilizing a Character\" below). On your third failure, you die.\n\nThe successes and failures don't need to be consecutive; keep track of both until you collect three of a kind. The number of both is reset to zero when you regain any Hit Points or become Stable.\n\n**Rolling a 1 or 20.** When you roll a 1 on the d20 for a Death Saving Throw, you suffer two failures. If you roll a 20 on the d20, you regain 1 Hit Point.\n\n**Damage at 0 Hit Points.** If you take any damage while you have 0 Hit Points, you suffer a Death Saving Throw failure. If the damage is from a Critical Hit, you suffer two failures instead. If the damage equals or exceeds your Hit Point maximum, you die."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/death-save-failures",
+			"display_name": "Death Save Failures",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Death Saving Throws\n\nWhenever you start your turn with 0 Hit Points, you must make a Death Saving Throw to determine whether you creep closer to death or hang on to life. Unlike other saving throws, this one isn't tied to an ability score. You're in the hands of fate now.\n\n_Three Successes/Failures._ Roll 1d20. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success or failure has no effect by itself. On your third success, you become Stable (see \"Stabilizing a Character\" below). On your third failure, you die.\n\nThe successes and failures don't need to be consecutive; keep track of both until you collect three of a kind. The number of both is reset to zero when you regain any Hit Points or become Stable.\n\n**Rolling a 1 or 20.** When you roll a 1 on the d20 for a Death Saving Throw, you suffer two failures. If you roll a 20 on the d20, you regain 1 Hit Point.\n\n**Damage at 0 Hit Points.** If you take any damage while you have 0 Hit Points, you suffer a Death Saving Throw failure. If the damage is from a Critical Hit, you suffer two failures instead. If the damage equals or exceeds your Hit Point maximum, you die."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/hp-per-level",
+			"display_name": "Hit Points Gained per Level",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "### Hit Points and Hit Point Dice\n\nYou gain the Hit Points from your new class as described for levels after 1. You gain the level 1 Hit Points for a class only when your total character level is 1.\n\nAdd together the Hit Dice granted by all your classes to form your pool of Hit Dice. If these dice are the same die type, you can pool them together. For example, both the Fighter and the Paladin have a d10 Hit Die, so if you are a level 5 Fighter / level 5 Paladin, you have ten d10 Hit Dice. If your classes give you Hit Dice of different types, track them separately. If you are a level 5 Cleric / level 5 Paladin, for example, you have five d8 Hit Dice and five d10 Hit Dice."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/xp-value",
+			"display_name": "Experience Point Value",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Experience Points\n\nAs they overcome challenges and complete adventures, characters earn Experience Points (XP), which are awarded by the Game Master. When a character's XP total crosses certain thresholds, the character's level increases. _See also_ \"Level Advancement.\""
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/size",
+			"display_name": "Size Category",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Size\n\nYour character's species determines the character's size. Individuals within a species cover a wide range of heights, and some species include such diversity of size that you can choose whether your character is Small or Medium."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/dragonborn-breath-weapon-uses",
+			"display_name": "Dragonborn Breath Weapon Uses",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Dragonborn\n\n**Creature Type:** Humanoid\n**Size:** Medium (about 5–7 feet tall)\n**Speed:** 30 feet\n\nAs a Dragonborn, you have these special traits.\n\n_Draconic Ancestry._ Your lineage stems from a dragon progenitor. Choose the kind of dragon from the Draconic Ancestors table. Your choice affects your Breath Weapon and Damage Resistance traits as well as your appearance.\n\n**Draconic Ancestors**\n\n<table>\n  <thead>\n    <tr>\n      <th>Dragon</th>\n      <th>Damage Type</th>\n      <th>Dragon</th>\n      <th>Damage Type</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Black</td>\n      <td>Acid</td>\n      <td>Gold</td>\n      <td>Fire</td>\n    </tr>\n    <tr>\n      <td>Blue</td>\n      <td>Lightning</td>\n      <td>Green</td>\n      <td>Poison</td>\n    </tr>\n    <tr>\n      <td>Brass</td>\n      <td>Fire</td>\n      <td>Red</td>\n      <td>Fire</td>\n    </tr>\n    <tr>\n      <td>Bronze</td>\n      <td>Lightning</td>\n      <td>Silver</td>\n      <td>Cold</td>\n    </tr>\n    <tr>\n      <td>Copper</td>\n      <td>Acid</td>\n      <td>White</td>\n      <td>Cold</td>\n    </tr>\n  </tbody>\n</table>\n\n_Breath Weapon._ When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).\n\nYou can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.\n\n_Damage Resistance._ You have Resistance to the damage type determined by your Draconic Ancestry trait.\n\n_Darkvision._ You have Darkvision with a range of 60 feet.\n\n_Draconic Flight._ When you reach character level 5, you can channel draconic magic to give yourself temporary flight. As a Bonus Action, you sprout spectral wings on your back that last for 10 minutes or until you retract the wings (no action required) or have the Incapacitated condition. During that time, you have a Fly Speed equal to your Speed. Your wings appear to be made of the same energy as your Breath Weapon. Once you use this trait, you can't use it again until you f"
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/orc-relentless-endurance-uses",
+			"display_name": "Relentless Endurance Uses",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Orc\n\n**Creature Type:** Humanoid\n**Size:** Medium (about 6–7 feet tall)\n**Speed:** 30 feet\n\nAs an Orc, you have these special traits.\n\n_Adrenaline Rush._ You can take the Dash action as a Bonus Action. When you do so, you gain a number of Temporary Hit Points equal to your Proficiency Bonus.\n\nYou can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Short or Long Rest.\n\n_Darkvision._ You have Darkvision with a range of 120 feet.\n\n_Relentless Endurance._ When you are reduced to 0 Hit Points but not killed outright, you can drop to 1 Hit Point instead. Once you use this trait, you can't do so again until you finish a Long Rest."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/barbarian-rage-uses",
+			"display_name": "Rage Uses",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Level 1: Rage\n\nYou can imbue yourself with a primal power called Rage, a force that grants you extraordinary might and resilience. You can enter it as a Bonus Action if you aren't wearing Heavy armor.\n\nYou can enter your Rage the number of times shown for your Barbarian level in the Rages column of the Barbarian Features table. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.\n\nWhile active, your Rage follows the rules below.\n\n_Damage Resistance._ You have Resistance to Bludgeoning, Piercing, and Slashing damage.\n\n_Rage Damage._ When you make an attack using Strength—with either a weapon or an Unarmed Strike—and deal damage to the target, you gain a bonus to the damage that increases as you gain levels as a Barbarian, as shown in the Rage Damage column of the Barbarian Features table.\n\n_Strength Advantage._ You have Advantage on Strength checks and Strength saving throws.\n\n_No Concentration or Spells._ You can't maintain Concentration, and you can't cast spells.\n\n_Duration._ The Rage lasts until the end of your next turn, and it ends early if you don Heavy armor or have the Incapacitated condition. If your Rage is still active on your next turn, you can extend the Rage for another round by doing one of the following:\n\n- Make an attack roll against an enemy.\n- Force an enemy to make a saving throw.\n- Take a Bonus Action to extend your Rage.\n\nEach time the Rage is extended, it lasts until the end of your next turn. You can maintain a Rage for up to 10 minutes."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/cleric-channel-divinity-uses",
+			"display_name": "Channel Divinity Uses (Cleric)",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Level 2: Channel Divinity\n\nYou can channel divine energy directly from the Outer Planes to fuel magical effects. You start with two such effects: Divine Spark and Turn Undead, each of which is described below. Each time you use this class's Channel Divinity, choose which Channel Divinity effect from this class to create. You gain additional effect options at higher Cleric levels.\n\nYou can use this class's Channel Divinity twice. You regain one of its expended uses when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest. You gain additional uses when you reach certain Cleric levels, as shown in the Channel Divinity column of the Cleric Features table.\n\nIf a Channel Divinity effect requires a saving throw, the DC equals the spell save DC from this class's Spellcasting feature.\n\n_Divine Spark._ As a Magic action, you point your Holy Symbol at another creature you can see within 30 feet of yourself and focus divine energy at it. Roll 1d8 and add your Wisdom modifier. You either restore Hit Points to the creature equal to that total or force the creature to make a Constitution saving throw. On a failed save, the creature takes Necrotic or Radiant damage (your choice) equal to that total. On a successful save, the creature takes half as much damage (round down).\n\nYou roll an additional d8 when you reach Cleric levels 7 (2d8), 13 (3d8), and 18 (4d8).\n\n_Turn Undead._ As a Magic action, you present your Holy Symbol and censure Undead creatures. Each Undead of your choice within 30 feet of you must make a Wisdom saving throw. If the creature fails its save, it has the Frightened and Incapacitated conditions for 1 minute. For that duration, it tries to move as far from you as it can on its turns. This effect ends early on the creature if it takes any damage, if you have the Incapacitated condition, or if you die."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/paladin-channel-divinity-uses",
+			"display_name": "Channel Divinity Uses (Paladin)",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Level 3: Channel Divinity\n\nYou can channel divine energy directly from the Outer Planes, using it to fuel magical effects. You start with one such effect: Divine Sense, which is described below. Other Paladin features give additional Channel Divinity effect options. Each time you use this class's Channel Divinity, you choose which effect from this class to create.\n\nYou can use this class's Channel Divinity twice. You regain one of its expended uses when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest. You gain an additional use when you reach Paladin level 11.\n\n> ### Breaking Your Oath\n>\n> A Paladin tries to hold to the highest standards of conduct, but even the most dedicated are fallible. Sometimes a Paladin transgresses their oath.\n>\n> A Paladin who has broken a vow typically seeks absolution, spending an all-night vigil as a sign of penitence or undertaking a fast. After a rite of forgiveness, the Paladin starts fresh.\n>\n> If your Paladin unrepentantly violates their oath, talk to your GM. Your Paladin should probably take a more appropriate subclass or even abandon the class and adopt another one.\n> If a Channel Divinity effect requires a saving throw, the DC equals the spell save DC from this class's Spellcasting feature.\n\n_Divine Sense._ As a Bonus Action, you can open your awareness to detect Celestials, Fiends, and Undead. For the next 10 minutes or until you have the Incapacitated condition, you know the location of any creature of those types within 60 feet of yourself, and you know its creature type. Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the _Hallow_ spell."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/bard-bardic-inspiration-uses",
+			"display_name": "Bardic Inspiration Uses",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Level 1: Bardic Inspiration\n\nYou can supernaturally inspire others through words, music, or dance. This inspiration is represented by your Bardic Inspiration die, which is a d6.\n\n_Using Bardic Inspiration._ As a Bonus Action, you can inspire another creature within 60 feet of yourself who can see or hear you. That creature gains one of your Bardic Inspiration dice. A creature can have only one Bardic Inspiration die at a time.\n\nOnce within the next hour when the creature fails a D20 Test, the creature can roll the Bardic Inspiration die and add the number rolled to the d20, potentially turning the failure into a success. A Bardic Inspiration die is expended when it's rolled.\n\n_Number of Uses._ You can confer a Bardic Inspiration die a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.\n\n_At Higher Levels._ Your Bardic Inspiration die changes when you reach certain Bard levels, as shown in the Bardic Die column of the Bard Features table. The die becomes a d8 at level 5, a d10 at level 10, and a d12 at level 15."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/druid-wild-shape-uses",
+			"display_name": "Wild Shape Uses",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Level 2: Wild Shape\n\nThe power of nature allows you to assume the form of an animal. As a Bonus Action, you shape-shift into a Beast form that you have learned for this feature (see \"Known Forms\" below). You stay in that form for a number of hours equal to half your Druid level or until you use Wild Shape again, have the Incapacitated condition, or die. You can also leave the form early as a Bonus Action.\n\n_Number of Uses._ You can use Wild Shape twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.\n\nYou gain additional uses when you reach certain Druid levels, as shown in the Wild Shape column of the Druid Features table.\n\n_Known Forms._ You know four Beast forms for this feature, chosen from among Beast stat blocks that have a maximum Challenge Rating of 1/4 and that lack a Fly Speed (see \"Animals\" in \"Monsters\" for stat block options). The **Rat**, **Riding Horse**, **Spider**, and **Wolf** are recommended. Whenever you finish a Long Rest, you can replace one of your known forms with another eligible form.\n\nWhen you reach certain Druid levels, your number of known forms and the maximum Challenge Rating for those forms increases, as shown in the Beast Shapes table. In addition, starting at level 8, you can adopt a form that has a Fly Speed.\n\nWhen choosing known forms, you may look in other sources for eligible Beasts if the Game Master permits you to do so.\n\n**Beast Shapes**\n\n<table>\n  <thead>\n    <tr>\n      <th>Druid Level</th>\n      <th>Known Forms</th>\n      <th>Max CR</th>\n      <th>Fly Speed</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>2</td>\n      <td>4</td>\n      <td>1/4</td>\n      <td>No</td>\n    </tr>\n    <tr>\n      <td>4</td>\n      <td>6</td>\n      <td>1/2</td>\n      <td>No</td>\n    </tr>\n    <tr>\n      <td>8</td>\n      <td>8</td>\n      <td>1</td>\n      <td>Yes</td>\n    </tr>\n  </tbody>\n</table>\n\n**Rules While Shape-Shifted.** While in a form, you retain your personality, memories, and ability to speak, and the following rules apply:\n\n**Temporary Hit Points.** When you assume a Wild Shape form, you gain a number of Temporary Hit Points equal to your Druid level.\n\n**Game Statistics.** Your game statistics are replaced by the Beast's stat block, but you retain your creature type; Hit Points; Hit Point Dice; Intelligence, Wisdom, and Charisma scores; class features; languages; and feats. You also retain your skill and saving throw proficiencies and use your Proficiency Bonus for them, in addition to gaining the proficiencies of the creature. If a skill or saving throw modifier in the Beast's stat block is higher than yours, use the one in the stat block.\n\n**No Spellcasting.** You can't cast spells, but shapeshifting doesn't break your Concentration or otherwise interfere with a spell you've already cast.\n\n**Objects.** Your ability to handle objects is determined by the form's limbs rather than your own. In addition, you choose whether your equipment falls in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the GM decides whether it's practical for the new form to wear a piece of equipment based on the creature's size and shape. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with the form. Equipment that merges with the form has no effect while you're in that form."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/paladin-lay-on-hands",
+			"display_name": "Lay On Hands Pool",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Level 1: Lay On Hands\n\nYour blessed touch can heal wounds. You have a pool of healing power that replenishes when you finish a Long Rest. With that pool, you can restore a total number of Hit Points equal to five times your Paladin level.\n\nAs a Bonus Action, you can touch a creature (which could be yourself) and draw power from the pool of healing to restore a number of Hit Points to that creature, up to the maximum amount remaining in the pool.\n\nYou can also expend 5 Hit Points from the pool of healing power to remove the Poisoned condition from the creature; those points don't also restore Hit Points to the creature."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/ranger-favored-enemy-uses",
+			"display_name": "Favored Enemy Uses",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Level 1: Favored Enemy\n\nYou always have the _Hunter's Mark_ spell prepared. You can cast it twice without expending a spell slot, and you regain all expended uses of this ability when you finish a Long Rest.\n\nThe number of times you can cast the spell without a spell slot increases when you reach certain Ranger levels, as shown in the Favored Enemy column of the Ranger Features table."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/sorcerer-innate-sorcery-uses",
+			"display_name": "Innate Sorcery Uses",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Level 1: Innate Sorcery\n\nAn event in your past left an indelible mark on you, infusing you with simmering magic. As a Bonus Action, you can unleash that magic for 1 minute, during which you gain the following benefits:\n• The spell save DC of your Sorcerer spells increases by 1.\n• You have Advantage on the attack rolls of Sorcerer spells you cast.\n\nYou can use this feature twice, and you regain all expended uses of it when you finish a Long Rest."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/wizard-arcane-recovery-uses",
+			"display_name": "Arcane Recovery Uses",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Level 1: Arcane Recovery\n\nYou can regain some of your magical energy by studying your spellbook. When you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level equal to no more than half your Wizard level (round up), and none of the slots can be level 6 or higher. For example, if you're a level 4 Wizard, you can recover up to two levels' worth of spell slots, regaining either one level 2 spell slot or two level 1 spell slots.\n\nOnce you use this feature, you can't do so again until you finish a Long Rest."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/warlock-magical-cunning-uses",
+			"display_name": "Magical Cunning Uses",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Level 2: Magical Cunning\n\nYou can perform an esoteric rite for 1 minute. At the end of it, you regain expended Pact Magic spell slots but no more than a number equal to half your maximum (round up). Once you use this feature, you can't do so again until you finish a Long Rest."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/sorcerer-sorcery-points",
+			"display_name": "Sorcery Points",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Level 2: Font of Magic\n\nYou can tap into the wellspring of magic within yourself. This wellspring is represented by Sorcery Points, which allow you to create a variety of magical effects.\n\nYou have 2 Sorcery Points, and you gain more as you reach higher levels, as shown in the Sorcery Points column of the Sorcerer Features table. You can't have more Sorcery Points than the number shown in the table for your level. You regain all expended Sorcery Points when you finish a Long Rest.\n\nYou can use your Sorcery Points to fuel the options below, along with other features, such as Metamagic, that use those points.\n\n_Converting Spell Slots to Sorcery Points._ You can expend a spell slot to gain a number of Sorcery Points equal to the slot's level (no action required).\n\n_Creating Spell Slots._ As a Bonus Action, you can transform unexpended Sorcery Points into one spell slot. The Creating Spell Slots table shows the cost of creating a spell slot of a given level, and it lists the minimum Sorcerer level you must be to create a slot. You can create a spell slot no higher than level 5.\n\nAny spell slot you create with this feature vanishes when you finish a Long Rest.\n\n**Creating Spell Slots**\n\n<table>\n  <thead>\n    <tr>\n      <th>Spell Slot Level</th>\n      <th>Sorcery Point Cost</th>\n      <th>Min. Sorcerer Level</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>1</td>\n      <td>2</td>\n      <td>2</td>\n    </tr>\n    <tr>\n      <td>2</td>\n      <td>3</td>\n      <td>3</td>\n    </tr>\n    <tr>\n      <td>3</td>\n      <td>5</td>\n      <td>5</td>\n    </tr>\n    <tr>\n      <td>4</td>\n      <td>6</td>\n      <td>7</td>\n    </tr>\n    <tr>\n      <td>5</td>\n      <td>7</td>\n      <td>9</td>\n    </tr>\n  </tbody>\n</table>"
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/fighter-second-wind-uses",
+			"display_name": "Second Wind Uses",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Level 1: Second Wind\n\nYou have a limited well of physical and mental stamina that you can draw on. As a Bonus Action, you can use it to regain Hit Points equal to 1d10 plus your Fighter level.\n\nYou can use this feature twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.\n\nWhen you reach certain Fighter levels, you gain more uses of this feature, as shown in the Second Wind column of the Fighter Features table."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/fighter-action-surge-uses",
+			"display_name": "Action Surge Uses",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Level 2: Action Surge\n\nYou can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action, except the Magic action.\n\nOnce you use this feature, you can't do so again until you finish a Short or Long Rest. Starting at level 17, you can use it twice before a rest but only once on a turn."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/monk-focus-points",
+			"display_name": "Focus Points",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Level 2: Monk's Focus\n\nYour focus and martial training allow you to harness a well of extraordinary energy within yourself. This energy is represented by Focus Points. Your Monk level determines the number of points you have, as shown in the Focus Points column of the Monk Features table.\n\nYou can expend these points to enhance or fuel certain Monk features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind, each of which is detailed below.\n\nWhen you expend a Focus Point, it is unavailable until you finish a Short or Long Rest, at the end of which you regain all your expended points.\n\nSome features that use Focus Points require your target to make a saving throw. The save DC equals 8 plus your Wisdom modifier and Proficiency Bonus.\n\n**_Flurry of Blows._** You can expend 1 Focus Point to make two Unarmed Strikes as a Bonus Action.\n\n**_Patient Defense._** You can take the Disengage action as a Bonus Action. Alternatively, you can\nexpend 1 Focus Point to take both the Disengage and the Dodge actions as a Bonus Action.\n\n**_Step of the Wind._** You can take the Dash action as a Bonus Action. Alternatively, you can expend 1 Focus Point to take both the Disengage and Dash actions as a Bonus Action, and your jump distance is doubled for the turn."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/monk-martial-arts-die-sides",
+			"display_name": "Martial Arts Die Sides",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Level 1: Martial Arts\n\nYour practice of martial arts gives you mastery of combat styles that use your Unarmed Strike and Monk weapons, which are the following:\n\n- Simple Melee weapons\n- Martial Melee weapons that have the Light property\n\nYou gain the following benefits while you are unarmed or wielding only Monk weapons and you aren't wearing armor or wielding a Shield.\n\n_Bonus Unarmed Strike._ You can make an Unarmed Strike as a Bonus Action.\n\n_Martial Arts Die._ You can roll 1d6 in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.\n\n_Dexterous Attacks._ You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/rogue-sneak-attack-dice",
+			"display_name": "Sneak Attack Dice",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Level 1: Sneak Attack\n\nYou know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack roll if you have Advantage on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage's type is the same as the weapon's type.\n\nYou don't need Advantage on the attack roll if at least one of your allies is within 5 feet of the target, the ally doesn't have the Incapacitated condition, and you don't have Disadvantage on the attack roll. The extra damage increases as you gain Rogue levels, as shown in the Sneak Attack column of the Rogue Features table."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/magic-item-wand-of-fireballs-charges",
+			"display_name": "Wand of Fireballs Charges",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Charges\n\nSome magic items have charges that must be expended to activate their properties. The number of charges an item has remaining is revealed when the _Identify_ spell is cast on it. A creature attuned to an item knows how many charges the item has and how many it regains."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/magic-item-wand-of-magic-missiles-charges",
+			"display_name": "Wand of Magic Missiles Charges",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Charges\n\nSome magic items have charges that must be expended to activate their properties. The number of charges an item has remaining is revealed when the _Identify_ spell is cast on it. A creature attuned to an item knows how many charges the item has and how many it regains."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/heroic-inspiration",
+			"display_name": "Heroic Inspiration",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Heroic Inspiration\n\nIf you (a player character) have Heroic Inspiration, you can expend it to reroll any die immediately after rolling it, and you must use the new roll.\n\nIf you gain Heroic Inspiration but already have it, it's lost unless you give it to a player character who lacks it."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/spellcasting-mod",
+			"display_name": "Spellcasting Modifier",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Spellcasting\n\nYour capacity for spellcasting depends partly on your combined levels in all your spellcasting classes and partly on your individual levels in those classes. Once you have the Spellcasting feature from more than one class, use the rules below. If you multiclass but have the Spellcasting feature from only one class, follow the rules for that class.\n\n_Spells Prepared_. You determine what spells you can prepare for each class individually, as if you were a single-classed member of that class. If you are a level 4 Ranger / level 3 Sorcerer, for example, you can prepare five level 1 Ranger spells, and you can prepare six Sorcerer spells of level 1 or 2 (as well as four Sorcerer cantrips).\n\nEach spell you prepare is associated with one of your classes, and you use the spellcasting ability of that class when you cast the spell.\n\n_Cantrips_. If a cantrip of yours increases in power at higher levels, the increase is based on your total character level, not your level in a particular class, unless the spell says otherwise.\n\n_Spell Slots_. You determine your available spell slots by adding together the following:\n\n- All your levels in the Bard, Cleric, Druid, Sorcerer, and Wizard classes\n- Half your levels (round up) in the Paladin and Ranger classes\n\nThen look up this total level in the Level column of the Multiclass Spellcaster table. You use the slots for that level to cast spells of an appropriate level from any class whose Spellcasting feature you have.\n\nThis table might give you spell slots of a higher level than the spells you prepare. You can use those slots but only to cast your lower-level spells. If a lower-level spell that you cast, like _Burning Hands_, has an enhanced effect when cast at a higher level, you can use the enhanced effect as normal.\n\nFor example, if you are a level 4 Ranger / level 3 Sorcerer, you count as a level 5 character when determining your spell slots, counting all your levels as a Sorcerer and half your Ranger levels. As shown\nin the Multiclass Spellcaster table, you have four level 1 spell slots, three level 2 slots, and two level 3 slots. However, you can't prepare any level 3 spells, nor can you prepare any level 2 Ranger spells. You can use the spell slots of those levels to cast the spells you do prepare—and potentially enhance their effects.\n\n_Pact Magic._ If you have the Pact Magic feature from the Warlock class and the Spellcasting feature, you can use the spell slots you gain from Pact Magic to cast spells you have prepared from classes with the Spellcasting feature, and you can use the spell slots you gain from the Spellcasting feature to cast Warlock spells you have prepared.\n\n**Multiclass Spellcaster: Spell Slots per Spell Level**\n\n<table>\n  <thead>\n    <tr>\n      <th>Level</th>\n      <th>1</th>\n      <th>2</th>\n      <th>3</th>\n      <th>4</th>\n      <th>5</th>\n      <th>6</th>\n      <th>7</th>\n      <th>8</th>\n      <th>9</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>1</td>\n      <td>2</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n    </tr>\n    <tr>\n      <td>2</td>\n      <td>3</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n    </tr>\n    <tr>\n      <td>3</td>\n      <td>4</td>\n      <td>2</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n    </tr>\n    <tr>\n      <td>4</td>\n      <td>4</td>\n      <td>3</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n    </tr>\n    <tr>\n      <td>5</td>\n      <td>4</td>\n      <td>3</td>\n      <td>2</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n    </tr>\n    <tr>\n      <td>6</td>\n      <td>4</td>\n      <td>3</td>\n      <td>3</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n    </tr>\n    <tr>\n      <td>7</td>\n      <td>4</td>\n      <td>3</td>\n      <td>3</td>\n      <td>1</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n    </tr>\n    <tr>\n      <td>8</td>\n      <td>4</td>\n      <td>3</td>\n      <td>3</td>\n      <td>2</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n    </tr>\n    <tr>\n      <td>9</td>\n      <td>4</td>\n      <td>3</td>\n      <td>3</td>\n      <td>3</td>\n      <td>1</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n    </tr>\n    <tr>\n      <td>10</td>\n      <td>4</td>\n      <td>3</td>\n      <td>3</td>\n      <td>3</td>\n      <td>2</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n    </tr>\n    <tr>\n      <td>11</td>\n      <td>4</td>\n      <td>3</td>\n      <td>3</td>\n      <td>3</td>\n      <td>2</td>\n      <td>1</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n    </tr>\n    <tr>\n      <td>12</td>\n      <td>4</td>\n      <td>3</td>\n      <td>3</td>\n      <td>3</td>\n      <td>2</td>\n      <td>1</td>\n      <td>—</td>\n      <td>—</td>\n      <td>—</td>\n    </tr>\n    <tr>\n      <td>13</td>\n      <td>4</td>\n      <td>3</td>\n      <td>3</td>\n      <td>3</td>\n      <td>2</td>\n      <td>1</td>\n      <td>1</td>\n      <td>—</td>\n      <td>—</td>\n    </tr>\n    <tr>\n      <td>14</td>\n      <td>4</td>\n      <td>3</td>\n      <td>3</td>\n      <td>3</td>\n      <td>2</td>\n      <td>1</td>\n      <td>1</td>\n      <td>—</td>\n      <td>—</td>\n    </tr>\n    <tr>\n      <td>15</td>\n      <td>4</td>\n      <td>3</td>\n      <td>3</td>\n      <td>3</td>\n      <td>2</td>\n      <td>1</td>\n      <td>1</td>\n      <td>1</td>\n      <td>—</td>\n    </tr>\n    <tr>\n      <td>16</td>\n      <td>4</td>\n      <td>3</td>\n      <td>3</td>\n      <td>3</td>\n      <td>2</td>\n      <td>1</td>\n      <td>1</td>\n      <td>1</td>\n      <td>—</td>\n    </tr>\n    <tr>\n      <td>17</td>\n      <td>4</td>\n      <td>3</td>\n      <td>3</td>\n      <td>3</td>\n      <td>2</td>\n      <td>1</td>\n      <td>1</td>\n      <td>1</td>\n      <td>1</td>\n    </tr>\n    <tr>\n      <td>18</td>\n      <td>4</td>\n      <td>3</td>\n      <td>3</td>\n      <td>3</td>\n      <td>3</td>\n      <td>1</td>\n      <td>1</td>\n      <td>1</td>\n      <td>1</td>\n    </tr>\n    <tr>\n      <td>19</td>\n      <td>4</td>\n      <td>3</td>\n      <td>3</td>\n      <td>3</td>\n      <td>3</td>\n      <td>2</td>\n      <td>1</td>\n      <td>1</td>\n      <td>1</td>\n    </tr>\n    <tr>\n      <td>20</td>\n      <td>4</td>\n      <td>3</td>\n      <td>3</td>\n      <td>3</td>\n      <td>3</td>\n      <td>2</td>\n      <td>2</td>\n      <td>1</td>\n      <td>1</td>\n    </tr>\n  </tbody>\n</table>"
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/cha",
+			"display_name": "Charisma",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Confidence, poise, and charm"
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/con",
+			"display_name": "Constitution",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Health and stamina"
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/dex",
+			"display_name": "Dexterity",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Agility, reflexes, and balance"
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/int",
+			"display_name": "Intelligence",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Reasoning and memory"
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/str",
+			"display_name": "Strength",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Physical might"
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/wis",
+			"display_name": "Wisdom",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Perceptiveness and mental fortitude"
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/dc-acrobatics",
+			"display_name": "Check: Acrobatics",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Difficulty Class\n\nA Difficulty Class (DC) is the target number for an ability check or a saving throw. _See also_ \"Playing the Game\" (\"D20 Tests\")."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/dc-animal-handling",
+			"display_name": "Check: Animal Handling",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Difficulty Class\n\nA Difficulty Class (DC) is the target number for an ability check or a saving throw. _See also_ \"Playing the Game\" (\"D20 Tests\")."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/dc-arcana",
+			"display_name": "Check: Arcana",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Difficulty Class\n\nA Difficulty Class (DC) is the target number for an ability check or a saving throw. _See also_ \"Playing the Game\" (\"D20 Tests\")."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/dc-athletics",
+			"display_name": "Check: Athletics",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Difficulty Class\n\nA Difficulty Class (DC) is the target number for an ability check or a saving throw. _See also_ \"Playing the Game\" (\"D20 Tests\")."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/dc-ability-cha",
+			"display_name": "Check: Charisma (raw ability)",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Difficulty Class\n\nA Difficulty Class (DC) is the target number for an ability check or a saving throw. _See also_ \"Playing the Game\" (\"D20 Tests\")."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/dc-ability-con",
+			"display_name": "Check: Constitution (raw ability)",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Difficulty Class\n\nA Difficulty Class (DC) is the target number for an ability check or a saving throw. _See also_ \"Playing the Game\" (\"D20 Tests\")."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/dc-deception",
+			"display_name": "Check: Deception",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Difficulty Class\n\nA Difficulty Class (DC) is the target number for an ability check or a saving throw. _See also_ \"Playing the Game\" (\"D20 Tests\")."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/dc-ability-dex",
+			"display_name": "Check: Dexterity (raw ability)",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Difficulty Class\n\nA Difficulty Class (DC) is the target number for an ability check or a saving throw. _See also_ \"Playing the Game\" (\"D20 Tests\")."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/dc-history",
+			"display_name": "Check: History",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Difficulty Class\n\nA Difficulty Class (DC) is the target number for an ability check or a saving throw. _See also_ \"Playing the Game\" (\"D20 Tests\")."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/dc-insight",
+			"display_name": "Check: Insight",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Difficulty Class\n\nA Difficulty Class (DC) is the target number for an ability check or a saving throw. _See also_ \"Playing the Game\" (\"D20 Tests\")."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/dc-ability-int",
+			"display_name": "Check: Intelligence (raw ability)",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Difficulty Class\n\nA Difficulty Class (DC) is the target number for an ability check or a saving throw. _See also_ \"Playing the Game\" (\"D20 Tests\")."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/dc-intimidation",
+			"display_name": "Check: Intimidation",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Difficulty Class\n\nA Difficulty Class (DC) is the target number for an ability check or a saving throw. _See also_ \"Playing the Game\" (\"D20 Tests\")."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/dc-investigation",
+			"display_name": "Check: Investigation",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Difficulty Class\n\nA Difficulty Class (DC) is the target number for an ability check or a saving throw. _See also_ \"Playing the Game\" (\"D20 Tests\")."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/dc-medicine",
+			"display_name": "Check: Medicine",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Difficulty Class\n\nA Difficulty Class (DC) is the target number for an ability check or a saving throw. _See also_ \"Playing the Game\" (\"D20 Tests\")."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/dc-nature",
+			"display_name": "Check: Nature",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Difficulty Class\n\nA Difficulty Class (DC) is the target number for an ability check or a saving throw. _See also_ \"Playing the Game\" (\"D20 Tests\")."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/dc-perception",
+			"display_name": "Check: Perception",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Difficulty Class\n\nA Difficulty Class (DC) is the target number for an ability check or a saving throw. _See also_ \"Playing the Game\" (\"D20 Tests\")."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/dc-performance",
+			"display_name": "Check: Performance",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Difficulty Class\n\nA Difficulty Class (DC) is the target number for an ability check or a saving throw. _See also_ \"Playing the Game\" (\"D20 Tests\")."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/dc-persuasion",
+			"display_name": "Check: Persuasion",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Difficulty Class\n\nA Difficulty Class (DC) is the target number for an ability check or a saving throw. _See also_ \"Playing the Game\" (\"D20 Tests\")."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/dc-religion",
+			"display_name": "Check: Religion",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Difficulty Class\n\nA Difficulty Class (DC) is the target number for an ability check or a saving throw. _See also_ \"Playing the Game\" (\"D20 Tests\")."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/dc-sleight-of-hand",
+			"display_name": "Check: Sleight Of Hand",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Difficulty Class\n\nA Difficulty Class (DC) is the target number for an ability check or a saving throw. _See also_ \"Playing the Game\" (\"D20 Tests\")."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/dc-stealth",
+			"display_name": "Check: Stealth",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Difficulty Class\n\nA Difficulty Class (DC) is the target number for an ability check or a saving throw. _See also_ \"Playing the Game\" (\"D20 Tests\")."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/dc-ability-str",
+			"display_name": "Check: Strength (raw ability)",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Difficulty Class\n\nA Difficulty Class (DC) is the target number for an ability check or a saving throw. _See also_ \"Playing the Game\" (\"D20 Tests\")."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/dc-survival",
+			"display_name": "Check: Survival",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Difficulty Class\n\nA Difficulty Class (DC) is the target number for an ability check or a saving throw. _See also_ \"Playing the Game\" (\"D20 Tests\")."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		},
+		{
+			"id": "resource/dc-ability-wis",
+			"display_name": "Check: Wisdom (raw ability)",
+			"prompt_id": "flavor-resource",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "#### Difficulty Class\n\nA Difficulty Class (DC) is the target number for an ability check or a saving throw. _See also_ \"Playing the Game\" (\"D20 Tests\")."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"CharacterClass.json",
+				"actor.stat",
+				"CELL COUNT",
+				"d6",
+				"d8",
+				"d10",
+				"d12",
+				"d20",
+				"+1",
+				"+2",
+				"+3"
+			]
+		}
+	]
+}

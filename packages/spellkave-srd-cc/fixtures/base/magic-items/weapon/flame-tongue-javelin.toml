@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A low, eager heat stirs beneath the javelin’s polished shaft, as though a forge has been sealed inside the wood and steel. At a spoken cue, fire races along its length without consuming it, painting nearby faces in restless amber. In flight, it leaves a brief scar of sparks across the dark."
 display_name = "Flame Tongue Javelin"
 entity_def_id = "srd/magic_item/flame-tongue-javelin"
 grants_capability_while_equipped = ""

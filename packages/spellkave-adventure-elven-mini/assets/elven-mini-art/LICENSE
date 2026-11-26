@@ -1,0 +1,21 @@
+Elven Mini sprites
+==================
+
+Copyright B4mad Technologies and Spellkave contributors.
+
+These images are licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Suggested credit: "Spellkave art, CC BY 4.0".
+
+Spellkave sprites for the Elven Mini cast, creatures and items. They are
+original Spellkave material, generated with PixelLab
+(https://www.pixellab.ai). The `.json` sidecar next to each image records
+the generator, prompt, time and SHA-256 of the image bytes.
+
+The SRD 5.2.1 names and rules text these images illustrate stay under their
+own CC BY 4.0 grant and credit (see the repository NOTICE.md). The images are
+not Wizards of the Coast material and do not imply endorsement.
+
+Some images were generated with PixelLab. PixelLab's terms restrict using its outputs to train other models; that restriction may apply to you.

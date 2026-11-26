@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Coiled in darkness, the whip feels like a sleeping ember beneath the hand. At a whispered command, fire races along its length, painting the air in molten arcs and filling the room with the sharp scent of scorched leather. Its lash leaves a lingering warmth that makes shadows recoil."
 display_name = "Flame Tongue Whip"
 entity_def_id = "srd/magic_item/flame-tongue-whip"
 grants_capability_while_equipped = ""

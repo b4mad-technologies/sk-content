@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "pixellab-pixen",
+  "prompt": "Boon of the Night Spirit. A crescent moon dissolving into a dark shadow silhouette. Isolated feat icon of the named benefit, one object or mark, no person, no armor, no heraldic shield, no letters, centered. Theme-neutral Spellkave pixel art: mid-contrast cream, charcoal, muted gold, forest, and rust. Selective outline, basic-to-medium shading, no gloss or bloom. Transparent background, no frame, no baked scenery, no letters, words, numerals, logo, watermark, photorealism, or D&D branding. Centered, native pixel size.",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 1.1
+  },
+  "generated_at": "2026-09-23T10:21:50.458Z",
+  "source_manifest": ".local/glyph-pilot-terra/manifest.json",
+  "sha256": "60d0f3d97165c4a4c624faf3280135f1824edd4370a681cf58102d4dadab4211",
+  "target_attachment_ref": "srd/feat/boon-of-the-night-spirit#srd.art.image",
+  "kind": "feat",
+  "entry_id": "feat-boon-of-the-night-spirit",
+  "provider_ids": {
+    "api_base_url": "https://api.pixellab.ai/v2",
+    "route": "/create-image-pixen"
+  }
+}

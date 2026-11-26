@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A low, restless hum lives in the grain of this weathered staff, like wind worrying at a shutter before a storm. In quiet moments it lies harmlessly still, yet its bearer’s dreams grow thin and watchful beneath its shadow. When danger draws near, the wood seems to tense in the hand, urging nearby companions toward sudden wakefulness."
 display_name = "Weapon of Warning (Quarterstaff)"
 entity_def_id = "srd/magic_item/weapon-of-warning-quarterstaff"
 grants_capability_while_equipped = ""

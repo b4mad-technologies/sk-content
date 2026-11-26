@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale sheen clings to its limbs, like moonlight caught in polished bone. When its string is drawn, the weapon gives a thin, hungry hum that seems to sharpen the air ahead of it. Bolts loosed from its groove strike with a cruel finality, leaving even hard-eyed foes suddenly still."
 display_name = "Vicious Light Crossbow"
 entity_def_id = "srd/magic_item/vicious-light-crossbow"
 grants_capability_while_equipped = ""

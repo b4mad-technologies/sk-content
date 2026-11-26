@@ -157,6 +157,7 @@ tag = "srd.creature.role.archer"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A guard stands where danger is expected, eyes trained on doors, alleys, and shadowed rooftops. Some are disciplined professionals, others frightened locals with a spear and a borrowed helm, but all know that a quiet watch can turn violent in an instant. Their presence brings order to crowded streets and uneasy silence to forbidden thresholds."
 display_name = "Guard"
 entity_def_id = "srd/creature/guard"
 grants_capability_while_equipped = ""

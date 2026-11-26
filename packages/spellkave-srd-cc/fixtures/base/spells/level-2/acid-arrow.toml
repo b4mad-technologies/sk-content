@@ -82,6 +82,7 @@ tag = "srd.damage_type.acid"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A virulent lance of green light hisses through the air, trailing the sharp reek of scorched herbs and metal. Where it strikes, it blossoms into clinging droplets that smoke against steel, stone, and flesh alike. Even a near miss leaves the ground pitted and steaming in its wake."
 display_name = "Acid Arrow"
 entity_def_id = "srd/spell/acid-arrow"
 grants_capability_while_equipped = ""
@@ -108,7 +109,7 @@ target_ref = "srd/spell/acid-arrow"
 action_id = "srd/spell/acid-arrow/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Acid Arrow — a spell action."
+description = "You cast a stream of acid at a target you can see. On a hit, it deals acid damage immediately and again at the end of its next turn."
 display_name = "Cast Acid Arrow"
 non_steering = true
 on_failure = "srd/spell/acid-arrow/cast/miss"

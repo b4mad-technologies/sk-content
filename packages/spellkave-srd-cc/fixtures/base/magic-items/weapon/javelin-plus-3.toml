@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_3"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A slim ash shaft hums faintly in the hand, its head bright as a winter star. When cast, it cuts the air with a hard, clean whistle and seems eager to find the smallest gap in armor or shadow. Even at rest, it carries the poised certainty of a storm held at arm’s length."
 display_name = "Javelin (+3)"
 entity_def_id = "srd/magic_item/javelin-plus-3"
 grants_capability_while_equipped = ""

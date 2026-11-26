@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its dark iron point drinks the light, while faint heartbeats seem to throb beneath the shaft’s worn bindings. Cast through the air, it leaves a chill in its wake and returns with the hush of a candle snuffed in an empty hall. Each fateful strike makes the weapon feel a little lighter, as though some unseen burden has slipped away."
 display_name = "Nine Lives Stealer (Javelin)"
 entity_def_id = "srd/magic_item/nine-lives-stealer-javelin"
 grants_capability_while_equipped = ""

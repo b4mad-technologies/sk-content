@@ -23,6 +23,7 @@ target_ref = "srd/temp_hp"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "A buffer that absorbs damage before your Hit Points. They last until used up or you finish a Long Rest; new temporary points replace your current amount if you choose them."
 display_name = "Temporary Hit Points"
 initial_value = 0
 max_value = 999

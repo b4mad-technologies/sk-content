@@ -76,6 +76,7 @@ tag = "srd.spell.list.cleric"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush gathers around the chosen soul, bright as breath on polished glass. Hostile intent falters at the threshold, thoughts slipping sideways as though some gentler law has claimed the space around them. The ward endures only while its bearer remains apart from the violence, a small island of stillness amid the clash."
 display_name = "Sanctuary"
 entity_def_id = "srd/spell/sanctuary"
 grants_capability_while_equipped = ""
@@ -102,7 +103,7 @@ target_ref = "srd/spell/sanctuary"
 action_id = "srd/spell/sanctuary/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Sanctuary — a spell action."
+description = "You cast the sanctuary spell, protecting a creature from attacks while the spell lasts."
 display_name = "Cast Sanctuary"
 non_steering = true
 on_failure = ""
@@ -136,7 +137,7 @@ template_id = "srd/spell/sanctuary/cast/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/spell/sanctuary"
-description = "Sanctuary — a spell condition."
+description = "A ward protects you from attacks and harmful effects. A creature must overcome the ward before it can target you, and the protection ends if you harm another creature."
 display_name = "Sanctuary"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

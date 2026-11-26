@@ -31,6 +31,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A deep bed under a hooped frame, canvas patched in two colors, axles complaining on the first turn. It smells of grain and tar. Someone has carved a tally into the tailgate. It is a house that remembers how to move. At night the canvas turns the bed into a dim, breathing room."
 display_name = "Wagon"
 entity_def_id = "srd/item/wagon"
 grants_capability_while_equipped = ""

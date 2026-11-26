@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-greatclub",
+  "overlay_template": "vicious",
+  "overlay_badge": "rune",
+  "base_sha256": "797fef16aa8182f21e221aacafb717c150588c42ec300db9b4b1c60ffa92f70c",
+  "overlay_sha256": "ed9b733c49d6fc246eb945a819df4069cadc2a65041679925c6fe215845c9e7d",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:49.497Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "85faa4cda2b53df216435cfee4325c9d8072697deb3669b0171ee4c7d78f10bc",
+  "target_attachment_ref": "srd/magic_item/vicious-greatclub#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-vicious-greatclub"
+}

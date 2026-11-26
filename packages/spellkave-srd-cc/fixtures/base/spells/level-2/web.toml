@@ -88,6 +88,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Silvery strands burst outward in a hungry lattice, stitching stone, branch, and shadow into a glistening snare. The air turns close and muffled within its tangled veil, each hurried movement drawing the fibers tighter. A stray spark can transform the shining trap into a brief, vicious blaze."
 display_name = "Web"
 entity_def_id = "srd/spell/web"
 grants_capability_while_equipped = ""
@@ -115,7 +116,7 @@ target_ref = "srd/spell/web"
 action_id = "srd/spell/web/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Web — a spell action."
+description = "You cast the spell by using its listed casting time, components, and range. Its effects last as described in the spell."
 display_name = "Cast Web"
 non_steering = true
 on_failure = "srd/spell/web/cast/success"

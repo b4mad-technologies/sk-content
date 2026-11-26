@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The broad blade bears a cruel, mirror-dark edge that seems to drink the torchlight around it. In battle, each stroke lands with a shuddering finality, as though the steel remembers every wound it has ever opened. Its grip remains cold long after the clash has ended."
 display_name = "Vicious Greatsword"
 entity_def_id = "srd/magic_item/vicious-greatsword"
 grants_capability_while_equipped = ""

@@ -78,6 +78,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The caster’s outline slips loose from the world, trailing faint afterimages like heat haze over sunstruck stone. Edges waver, footsteps seem to arrive a heartbeat from the figure that made them, and reaching hands close on empty air. Only those who perceive beyond ordinary sight can follow the true shape moving within the shimmer."
 display_name = "Blur"
 entity_def_id = "srd/spell/blur"
 grants_capability_while_equipped = ""

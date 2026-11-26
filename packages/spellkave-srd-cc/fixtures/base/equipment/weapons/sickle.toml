@@ -77,7 +77,7 @@ tag = "srd.damage_type.slashing"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Sickle — a simple melee weapon."
+description = "A crescent blade flashes at the end of a short wooden grip, keen enough to whisper through reeds and stubborn vines. Its hooked edge catches, pulls, and parts with a quick twist of the wrist, leaving the air sharp with crushed green scent. In close quarters, it feels less like a soldier’s weapon than a harvest tool pressed into urgent service."
 display_name = "Sickle"
 entity_def_id = "srd/weapon/sickle"
 grants_capability_while_equipped = ""

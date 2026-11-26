@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale gleam runs along the pike’s length like moonlight trapped beneath clear ice. Its point hums softly when battle draws near, eager to find the narrow gaps between shield, mail, and bone. In a steady grip, the weapon feels uncannily balanced despite its reach."
 display_name = "Pike (+2)"
 entity_def_id = "srd/magic_item/pike-plus-2"
 grants_capability_while_equipped = ""

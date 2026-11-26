@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A cool, steady weight settles into the hand, as though the iron head remembers every blow ever turned aside. Its dark haft hums faintly when danger closes, inviting the bearer to choose between a sure strike and an unyielding guard. In torchlight, the pick’s edges seem to drink the gleam and return it as a hard, watchful sheen."
 display_name = "Defender (War Pick)"
 entity_def_id = "srd/magic_item/defender-war-pick"
 grants_capability_while_equipped = ""

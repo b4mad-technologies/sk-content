@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A cold, ancient purpose clings to this weapon, sharpening its edge whenever scaled shadows darken the sky. In its presence, the scent of storm clouds and old smoke seems to gather, and its balance grows unnervingly sure in hands set against draconic majesty."
 display_name = "Dragon Slayer"
 entity_def_id = "srd/magic_item/dragon-slayer"
 grants_capability_while_equipped = ""

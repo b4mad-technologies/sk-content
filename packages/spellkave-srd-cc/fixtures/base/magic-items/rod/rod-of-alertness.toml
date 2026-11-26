@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its polished head feels warm before danger shows its face, humming faintly at lies in the dark and footsteps beyond the firelight. Set into earth, it blooms into a clear, watchful radiance that makes hidden presences feel suddenly exposed. Around its glow, even a weary camp seems to stand straighter."
 display_name = "Rod of Alertness"
 entity_def_id = "srd/magic_item/rod-of-alertness"
 grants_capability_while_equipped = ""

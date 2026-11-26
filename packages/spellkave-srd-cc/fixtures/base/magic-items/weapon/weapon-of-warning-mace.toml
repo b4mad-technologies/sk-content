@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its iron head bears a faint, restless tremor, like distant thunder trapped beneath cold metal. Near a campfire it seems to listen harder than any sentry, stirring sleepers with a sudden pulse of warning when danger gathers. In a tightened grip, the mace lends the sharp, breath-held certainty of being ready before the first blade is drawn."
 display_name = "Weapon of Warning (Mace)"
 entity_def_id = "srd/magic_item/weapon-of-warning-mace"
 grants_capability_while_equipped = ""

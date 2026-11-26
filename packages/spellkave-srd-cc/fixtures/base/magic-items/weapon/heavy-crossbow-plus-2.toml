@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Blackened steel limbs hum with a restrained, predatory tension, while pale sigils along the stock catch the light like frost on a grave marker. When drawn, the string seems to hold the room’s breath. Its bolts leave with a clean, merciless certainty, trailing a brief whisper of blue-white radiance through the air."
 display_name = "Heavy Crossbow (+2)"
 entity_def_id = "srd/magic_item/heavy-crossbow-plus-2"
 grants_capability_while_equipped = ""

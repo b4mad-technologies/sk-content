@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale sheen follows the long steel head, like dawn caught along a frozen river. Its ash shaft sits steady in the hands, balanced for the patient line-holder and the sudden, decisive thrust. When raised among ordinary spears, it seems to draw the eye toward the space it commands."
 display_name = "Pike (+1)"
 entity_def_id = "srd/magic_item/pike-plus-1"
 grants_capability_while_equipped = ""

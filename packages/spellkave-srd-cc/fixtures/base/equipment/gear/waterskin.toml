@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A squat leather flask hangs cool against the hip, its stopper darkened by countless thumbs. When tipped, it offers a clean, hollow glug and the faint tang of cured hide. Travelers keep it close beneath sun-bleached cloaks, where a small reserve of water can feel like a private miracle."
 display_name = "Waterskin"
 entity_def_id = "srd/item/waterskin"
 grants_capability_while_equipped = ""

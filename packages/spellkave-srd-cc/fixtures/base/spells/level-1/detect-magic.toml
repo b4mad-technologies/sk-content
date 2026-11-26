@@ -126,6 +126,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush settles behind the eyes as the world’s ordinary colors grow thin. Enchanted things betray themselves in pearly halos, each shimmer carrying a different temper: keen, grave, wild, or strangely hollow. Hidden workings remain quiet behind heavy barriers, but nearby magic glimmers like moonlight caught in a spider’s web."
 display_name = "Detect Magic"
 entity_def_id = "srd/spell/detect-magic"
 grants_capability_while_equipped = ""

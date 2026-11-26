@@ -78,6 +78,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A small likeness becomes the keeper of an unspoken command, its jeweled eyes holding a single moment in reserve. Around the bearer, fate tightens like a drawn thread, waiting for the precise tremor that will snap it. When peril finally speaks the appointed word, hidden magic answers before fear can."
 display_name = "Contingency"
 entity_def_id = "srd/spell/contingency"
 grants_capability_while_equipped = ""

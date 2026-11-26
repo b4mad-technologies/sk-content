@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-javelin",
+  "overlay_template": "of-lightning",
+  "overlay_badge": "lightning",
+  "base_sha256": "9420838f8dc6e16cb8f0eb41451124cf975ef67a7945e8f6e08c97510a6efc4e",
+  "overlay_sha256": "d81f6dfd26ace976f849dbcb229a6921094729613198cc464b0fa0aef74cab8d",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:46.184Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "89d228d1def031e9ef5b9ff78afb484dee21d5eef86a42df71e1a931007c23b0",
+  "target_attachment_ref": "srd/magic_item/javelin-of-lightning#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-javelin-of-lightning"
+}

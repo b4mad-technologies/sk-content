@@ -84,6 +84,7 @@ tag = "srd.spell.list.ranger"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush falls over the passage as hidden malice stirs beneath stone, brass, and dust. The caster tastes old oil, bitter sparks, or the faint chill of waiting sorcery—an uneasy impression of what kind of harm has been prepared. Though the danger keeps its precise hiding place, its presence can no longer feel entirely unseen."
 display_name = "Find Traps"
 entity_def_id = "srd/spell/find-traps"
 grants_capability_while_equipped = ""

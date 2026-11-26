@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Brass tubes slide into one another with a soft, oiled resistance, the lens caps snug and a little scratched from the road. Raised to the eye, the far ridge jumps closer and the world narrows to a bright circle. It is heavier than a glance suggests, and the focus ring is worn smooth by a thumb."
 display_name = "Spyglass"
 entity_def_id = "srd/item/spyglass"
 grants_capability_while_equipped = ""

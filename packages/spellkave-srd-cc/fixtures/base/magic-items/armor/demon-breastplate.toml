@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Black iron plates cling to the torso like cooled volcanic glass, their seams faintly warm beneath the touch. Hooked gauntlets flex with a hunger not entirely their wearer’s, leaving thin crescents in wood, leather, and stone. When fiends draw near, a low, guttural murmur stirs within the armor, sounding almost like recognition."
 display_name = "Demon Breastplate"
 entity_def_id = "srd/magic_item/demon-breastplate"
 grants_capability_while_equipped = ""

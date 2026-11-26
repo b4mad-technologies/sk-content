@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A whispered syllable wakes a hungry fire along the rapier’s slender edge, turning polished steel into a wavering line of furnace-bright gold. Heat curls around the guard without touching the wielder, and each thrust leaves the air shimmering in its wake. Even sheathed, the weapon carries the faint scent of ash after rain."
 display_name = "Flame Tongue Rapier"
 entity_def_id = "srd/magic_item/flame-tongue-rapier"
 grants_capability_while_equipped = ""

@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The iron head swings with a patient, moonlit weight, its chain whispering over gauntlet and leather. Along the haft, faint silver threads seem to tighten whenever battle draws near. Each measured arc leaves the air tasting of rain on stone."
 display_name = "Flail (+1)"
 entity_def_id = "srd/magic_item/flail-plus-1"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A dull iron cask waits with the stubborn silence of old siegework, its secret seam nearly lost beneath rivets and salt stains. Within, cramped brass controls answer with jolts, groans, and the heavy rhythm of unfolding limbs. Once awakened, it lumbers through surf and darkness alike, lantern-eyes glinting beneath the water like some patient, armored thing from the deep."
 display_name = "Apparatus of the Crab"
 entity_def_id = "srd/magic_item/apparatus-of-the-crab"
 grants_capability_while_equipped = ""

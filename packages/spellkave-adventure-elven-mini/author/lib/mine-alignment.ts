@@ -7,7 +7,6 @@
 import { type Pin, sheetMetrics } from "./map-metrics.ts";
 
 export const MINE_MAP = sheetMetrics({
-	file: "36 Old dwarven minePC.jpg",
 	image_width_px: 2000,
 	image_height_px: 1482,
 	grid_size_px: 50,

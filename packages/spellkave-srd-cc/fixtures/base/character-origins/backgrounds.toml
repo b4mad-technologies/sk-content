@@ -68,6 +68,7 @@ tag = "srd.background.soldier"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Raised among incense, bells, and whispered vows, an acolyte learned to find meaning in ritual and comfort in service. Whether tending a humble shrine or guarding secrets within a grand temple, they carry the habits of devotion into a wider, less orderly world. Faith may be their compass, but experience teaches them that mercy and conviction are rarely simple."
 display_name = "Acolyte"
 entity_def_id = "srd/background/acolyte"
 grants_capability_while_equipped = ""
@@ -83,6 +84,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Life in the shadows taught them to read a room before entering it and to vanish before questions began. They know the value of favors, false names, and doors left carelessly unlatched. Whether driven by desperation, ambition, or old loyalties, their past rarely stays buried for long."
 display_name = "Criminal"
 entity_def_id = "srd/background/criminal"
 grants_capability_while_equipped = ""
@@ -98,6 +100,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Years spent among dust-veiled shelves, observatory towers, and disputatious halls have taught the sage that every mystery leaves a trail. They pursue forgotten languages, strange celestial signs, and the stubborn questions others dismiss as impractical. Even far from their accustomed desks, they measure the world by what it might yet reveal."
 display_name = "Sage"
 entity_def_id = "srd/background/sage"
 grants_capability_while_equipped = ""
@@ -113,6 +116,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Years of drills, hard marches, and shouted orders have shaped a life of discipline under pressure. Whether bound by loyalty, necessity, or a cause long since abandoned, this veteran understands how to hold a line when fear begins to spread. Old campaigns leave behind habits that do not fade easily—and memories that may yet call them back to war."
 display_name = "Soldier"
 entity_def_id = "srd/background/soldier"
 grants_capability_while_equipped = ""

@@ -1,0 +1,24 @@
+{
+	"schema": "spellkave-design-asset-provenance/v1",
+	"provider": "pixellab-pixen",
+	"prompt": "Sister Maelis. Human woman fanatic priest in red-and-gold robes, full-body south-facing, readable face, not a symbol or emblem, no scenery, one person.. Full-body south-facing creature sprite, readable silhouette, one subject. Theme-neutral Spellkave pixel art: mid-contrast cream, charcoal, muted gold, forest, and rust. Selective outline, basic-to-medium shading, no gloss or bloom. Transparent background, no frame, no baked scenery, no letters, words, numerals, logo, watermark, photorealism, or D&D branding. Centered, native pixel size.",
+	"style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+	"provenance": {
+		"license": "CC-BY-4.0",
+		"source": "Elven Mini remaining cast and items (entity-art-v1 Pixen + reduce-colors)"
+	},
+	"usage": {
+		"type": "generations",
+		"generations": 1.1
+	},
+	"generated_at": "2026-09-07T15:14:04.149Z",
+	"source_manifest": "packages/spellkave-adventure-elven-mini/art/art-manifest.json",
+	"sha256": "3b2e7787b3f55d1015575846a198c14ce808b53f1f7fdfff222b95b1beb5ea32",
+	"target_attachment_ref": "entity:elven_mini/adventure/encounter/sister_maelis_1#elven_mini.art.image",
+	"kind": "creature",
+	"entry_id": "sister-maelis",
+	"provider_ids": {
+		"api_base_url": "https://api.pixellab.ai/v2",
+		"route": "/create-image-pixen"
+	}
+}

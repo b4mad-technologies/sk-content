@@ -36,6 +36,7 @@ tag = "srd.item.container"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The bolt case is a slim leather tube, stitched tight and closed with a flap that snaps under the thumb. Shafts shift inside with a dry wooden click when it is slung across the back. The strap has darkened where it rides the shoulder, a quiet companion to the weapon it serves."
 display_name = "Case, Crossbow Bolt"
 entity_def_id = "srd/item/case-crossbow-bolt"
 grants_capability_while_equipped = ""

@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The saddle is cut for a back that is not a horse's, the seat deep and the straps arranged in an unfamiliar pattern. Leather is supple, the stitching heavy, and a faint salt or high-wind smell clings to the pads. It looks incomplete until an unusual mount steps under it and the shape suddenly makes sense."
 display_name = "Saddle (Exotic)"
 entity_def_id = "srd/item/saddle-exotic"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its iron head bears deep, deliberate scars, each groove darkened as though it remembers every shattered shield. In the hand, it seems to lean toward conflict, gathering dreadful force behind even a measured swing. The impact lands with a cruel finality that lingers in the bones."
 display_name = "Vicious Mace"
 entity_def_id = "srd/magic_item/vicious-mace"
 grants_capability_while_equipped = ""

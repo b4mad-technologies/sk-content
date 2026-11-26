@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its edge carries a watchful gleam, as though every old duel still waits beneath the steel. In a steady hand, the weapon seems to decide whether to bite deeper or turn danger aside, answering instinct with a subtle shift in balance. Even at rest, it lends the bearer the guarded poise of a veteran standing before a drawn blade."
 display_name = "Defender"
 entity_def_id = "srd/magic_item/defender"
 grants_capability_while_equipped = ""

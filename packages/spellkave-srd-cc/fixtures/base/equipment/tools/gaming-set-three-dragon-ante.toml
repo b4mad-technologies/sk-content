@@ -34,6 +34,7 @@ tag = "srd.tool"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Cards thicker than a tavern deck, dragons stamped in colors that have not yet faded. They slap the table with a satisfying weight. The box is dented. The game that lives here is half luck and half nerve. Players lean in when the last card waits. The cards smell faintly of smoke and orange peel."
 display_name = "Gaming Set, Three-Dragon Ante"
 entity_def_id = "srd/tool/gaming-set-three-dragon-ante"
 grants_capability_while_equipped = ""

@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-rapier",
+  "overlay_template": "luck-blade",
+  "overlay_badge": "luck",
+  "base_sha256": "8b86956b85c888629b7c3c8297d67d034f444dede59c0283a17f3b56947af543",
+  "overlay_sha256": "26d3eafb1c9d30759a8c41b8b28e7336f7198f5fa0333830f87cbbeacf09e8bb",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:46.493Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "45ebc2cad96b610d67db0c1d64b4a05d2c7a12a5efa7ad8b984df7dde24c14c5",
+  "target_attachment_ref": "srd/magic_item/luck-blade-rapier#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-luck-blade-rapier"
+}

@@ -96,6 +96,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A faint, tar-sweet sheen gathers along the skin as gravity loosens its jealous hold. Stone walls become pathways, rafters become roads, and every surface offers a silent, impossible foothold. Those touched by the charm move with the eerie assurance of a creature born beneath the eaves."
 display_name = "Spider Climb"
 entity_def_id = "srd/spell/spider-climb"
 grants_capability_while_equipped = ""

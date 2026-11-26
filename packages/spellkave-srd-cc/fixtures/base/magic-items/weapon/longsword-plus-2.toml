@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Moonlight gathers along the blade’s fuller, though no moon need be near. Its edge hums softly when drawn, carrying the clean scent of rain on cold iron. In a warrior’s grip, every practiced motion seems to settle into perfect, ringing certainty."
 display_name = "Longsword (+2)"
 entity_def_id = "srd/magic_item/longsword-plus-2"
 grants_capability_while_equipped = ""

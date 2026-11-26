@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A plain iron bar with a thumb-worn stud at one end, it carries a peculiar stillness even before it is set. When awakened, the air around it seems to tighten, as though the world has found a single point it cannot argue with. Suspended over a chasm or braced beneath a gate, it waits in perfect, stubborn silence."
 display_name = "Immovable Rod"
 entity_def_id = "srd/magic_item/immovable-rod"
 grants_capability_while_equipped = ""

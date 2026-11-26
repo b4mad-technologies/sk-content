@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its long crescent blade catches stray light like a promise not yet spoken, while the ashwood shaft rests warm and steady in the hand. Around it, near-misses become glancing escapes and desperate moments seem to hesitate. Deep within the glaive sleeps a final, world-bending favor, waiting for a bearer bold enough to ask."
 display_name = "Luck Blade (Glaive)"
 entity_def_id = "srd/magic_item/luck-blade-glaive"
 grants_capability_while_equipped = ""

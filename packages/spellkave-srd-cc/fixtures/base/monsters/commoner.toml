@@ -157,6 +157,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Commoners are the farmers, laborers, craftsfolk, and shopkeepers who keep a settlement breathing from dawn until dark. Most prefer a quiet life of familiar work and familiar faces, though hardship can reveal surprising courage. In a crowd, they are easy to overlook—until their hopes, fears, and rumors begin moving the world around them."
 display_name = "Commoner"
 entity_def_id = "srd/creature/commoner"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A greatclub of dark, close-grained wood, its head wrapped in iron bands scored by countless brutal impacts. It rests with a heavy, watchful stillness, as though every old fracture in its haft remembers the moment it was made. When raised, the air around it seems to tense in anticipation of a crushing blow."
 display_name = "Vicious Greatclub"
 entity_def_id = "srd/magic_item/vicious-greatclub"
 grants_capability_while_equipped = ""

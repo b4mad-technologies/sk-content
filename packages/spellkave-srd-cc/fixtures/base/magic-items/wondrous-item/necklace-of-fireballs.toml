@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A string of polished beads rests warm against the throat, each one holding a tiny, captive sunset beneath its glassy surface. When disturbed, the necklace gives off a dry scent of smoke and hot metal, as though a forge has opened somewhere nearby. Its beauty is festive only until one bead leaves the cord."
 display_name = "Necklace of Fireballs"
 entity_def_id = "srd/magic_item/necklace-of-fireballs"
 grants_capability_while_equipped = ""

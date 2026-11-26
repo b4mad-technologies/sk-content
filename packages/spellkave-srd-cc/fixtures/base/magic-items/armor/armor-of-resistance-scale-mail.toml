@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Overlapping scales murmur softly as they settle, each plate carrying a faint, peculiar warmth or chill beneath the fingertips. When danger gathers, the armor seems to draw the hostile element into its patterned ridges, dulling its bite with a low metallic sigh. Its finish bears a subtle hue that shifts in certain light, like a storm seen through deep water."
 display_name = "Armor of Resistance (Scale Mail)"
 entity_def_id = "srd/magic_item/armor-of-resistance-scale-mail"
 grants_capability_while_equipped = ""

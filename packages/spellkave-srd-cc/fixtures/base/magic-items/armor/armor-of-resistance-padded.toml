@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Soft quilting wraps the wearer in a hush that seems to anticipate a single cruel force. Its stitching carries a faint, peculiar character—cool as cellar stone, warm as banked coals, or prickling with distant stormlight—revealed only when danger draws near. Beneath its humble surface, the padding answers harm with a quiet refusal."
 display_name = "Armor of Resistance (Padded)"
 entity_def_id = "srd/magic_item/armor-of-resistance-padded"
 grants_capability_while_equipped = ""

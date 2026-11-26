@@ -40,6 +40,7 @@ tag = "srd.tool.category.instrument"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A dulcimer’s bright strings answer the lightest touch with clear, bell-like notes that linger in quiet rooms. Its polished wood rests easily across the lap, carrying melodies from hearthside laments to lively market dances. Beneath a practiced hand, each shimmering chord can tease an old tune from memory."
 display_name = "Musical Instrument, Dulcimer"
 entity_def_id = "srd/tool/musical-instrument-dulcimer"
 grants_capability_while_equipped = ""

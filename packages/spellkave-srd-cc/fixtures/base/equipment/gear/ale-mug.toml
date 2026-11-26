@@ -24,6 +24,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A clay mug of ale, foam already settling, bitter and a little warm from the tap. The handle is sticky. It smells of malt and a tavern that has not opened a window in years. One swallow is enough to know the rest of the evening's plan."
 display_name = "Ale (mug)"
 entity_def_id = "srd/item/ale-mug"
 grants_capability_while_equipped = ""

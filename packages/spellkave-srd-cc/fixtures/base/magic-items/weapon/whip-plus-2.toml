@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A braided lash of midnight leather, its silver-threaded core hums faintly when drawn through the air. Each crack lands with the sharp certainty of a storm splitting over distant hills, leaving the wielder’s hand tingling with disciplined, predatory purpose."
 display_name = "Whip (+2)"
 entity_def_id = "srd/magic_item/whip-plus-2"
 grants_capability_while_equipped = ""

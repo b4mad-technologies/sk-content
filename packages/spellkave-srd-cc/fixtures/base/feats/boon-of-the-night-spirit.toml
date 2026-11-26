@@ -18,6 +18,7 @@ tag = "srd.feat.epic_boon"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "In moonless halls and beneath starless boughs, the bearer becomes a rumor carried by cold air. Darkness gathers close like a familiar cloak, softening every edge and turning mortal substance strangely insubstantial. Only the keenest light, or a wound aimed at the mind, can readily find what the night has claimed."
 display_name = "Boon of the Night Spirit"
 entity_def_id = "srd/feat/boon-of-the-night-spirit"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its narrow blade drinks the light along its edge, leaving only a cold gleam where steel should shine. In the hand, it seems eager for the smallest opening, trembling with a cruel certainty that every wound can be made deeper. A faint metallic scent clings to it, like rain on old armor."
 display_name = "Vicious Dagger"
 entity_def_id = "srd/magic_item/vicious-dagger"
 grants_capability_while_equipped = ""

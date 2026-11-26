@@ -12,7 +12,7 @@ depends_on = [
     "srd",
     "dm",
 ]
-description = "Playing-the-Game proof mini-world (elven multi-graph). Map art © Elven Tower Maps (CC BY 4.0). https://www.patreon.com/elventower/posts/creative-commons-153067169"
+description = "Playing-the-Game proof mini-world (elven multi-graph)."
 display_name = "Playing the Game proof scene"
 version = "1.0.0"
 

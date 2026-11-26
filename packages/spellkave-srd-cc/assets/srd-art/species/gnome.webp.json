@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "pixellab-pixen",
+  "prompt": "Gnome adventurer. very small gnome with a large nose, wild hair and bright curious eyes. One full-body south-facing humanoid adventurer standing upright with ordinary adventurer proportions, plain cream tunic, brown belt and boots, forest-green travel cloak, empty hands, no weapon. Show the people through body shape, face, ears, skin, and hair; do not invent heraldry. Not a monster, no hunched pose, no face close-up, scene, companions, letters, logos, or watermarks. Theme-neutral Spellkave pixel art: mid-contrast cream, charcoal, muted gold, forest, and rust. Selective outline, basic-to-medium shading, no gloss or bloom. Transparent background, no frame, no baked scenery, no letters, words, numerals, logo, watermark, photorealism, or D&D branding. Centered, native pixel size.",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 1.1
+  },
+  "generated_at": "2026-11-16T11:33:38.913Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "ade360e9c447e72938f99836eed2129bc337bc81595bcfe39e543417a9baff69",
+  "target_attachment_ref": "srd/species/gnome#srd.art.image",
+  "kind": "species",
+  "entry_id": "species-gnome",
+  "provider_ids": {
+    "api_base_url": "https://api.pixellab.ai/v2",
+    "route": "/create-image-pixen"
+  }
+}

@@ -9,9 +9,6 @@
  * remains available in Git history.
  */
 export const HAMLET_MAP = {
-	file: "306 Fortified Hamlet.jpg",
-	asset_module: "ccc3-maps",
-	asset_path: "maps/306 Fortified Hamlet.jpg",
 	/** px per cell on the in-repo downscaled asset (2000×2138). */
 	grid_size_px: 69, // u32; ≈ 2000/29 on downscaled asset
 	grid_distance_m: 1.5240000486373901, // 5 ft, converted x0.3048

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its blade bears the quiet weight of old mountain storms, balanced for the moment when towering shadows loom overhead. In a giant’s presence, the steel seems to wake with a low, hungry hum, drawing strength from the earth beneath broad feet. A clean stroke leaves even colossal foes reeling, as though the ground itself has turned against them."
 display_name = "Giant Slayer (Longsword)"
 entity_def_id = "srd/magic_item/giant-slayer-longsword"
 grants_capability_while_equipped = ""

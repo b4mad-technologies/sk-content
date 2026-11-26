@@ -37,6 +37,7 @@ tag = "srd.item.container"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Iron bands cross the lid in dark stripes, cool and faintly rough beneath an exploring hand. The hinges settle with a low groan when opened, revealing a hollow that smells of cedar and old rope. Closed, the chest sits heavy and stubborn, an anchor for whatever it guards, keeping its contents exactly where they were left."
 display_name = "Chest"
 entity_def_id = "srd/item/chest"
 grants_capability_while_equipped = ""

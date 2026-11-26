@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A fistful of prismatic brilliance bursts outward, sharp as shattered dawn and wild as festival banners in a storm. Colors wheel across the air in impossible combinations, flooding nearby eyes with afterimages that linger long after the flash has vanished."
 display_name = "Color Spray"
 entity_def_id = "srd/spell/color-spray"
 grants_capability_while_equipped = ""

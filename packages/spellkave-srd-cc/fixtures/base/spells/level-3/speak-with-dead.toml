@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Incense curls through still air as a forgotten face stirs behind lifeless eyes. A voice rises from the silence, carrying old grudges, half-buried secrets, and the brittle certainty of its final days. Each answer feels borrowed from a locked tomb—cold, incomplete, and liable to turn cruel in the telling."
 display_name = "Speak with Dead"
 entity_def_id = "srd/spell/speak-with-dead"
 grants_capability_while_equipped = ""

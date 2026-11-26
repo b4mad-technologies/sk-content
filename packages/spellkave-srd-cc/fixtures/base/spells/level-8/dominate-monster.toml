@@ -96,6 +96,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "An unseen tether slips beneath fang, claw, or alien thought, turning primal will toward a distant guiding presence. The creature’s gaze may remain wild, yet its terrible strength moves to another rhythm—obedient until pain, instinct, or a sudden flare of defiance snaps the bond."
 display_name = "Dominate Monster"
 entity_def_id = "srd/spell/dominate-monster"
 grants_capability_while_equipped = ""

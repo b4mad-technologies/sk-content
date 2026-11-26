@@ -76,6 +76,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A plain cord stiffens, then rises as though seized by an unseen hand, drawing wary climbers toward a seam in the air. Beyond its threshold waits a cramped hush, suspended above the world’s notice. From within, hidden eyes may watch the passing road below while the rope sways like an ordinary scrap of travel gear."
 display_name = "Rope Trick"
 entity_def_id = "srd/spell/rope-trick"
 grants_capability_while_equipped = ""
@@ -103,7 +104,7 @@ target_ref = "srd/spell/rope-trick"
 action_id = "srd/spell/rope-trick/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Rope Trick — a spell action."
+description = "You cast the spell to create a hidden space above a rope. You and others can climb inside for temporary shelter."
 display_name = "Cast Rope Trick"
 non_steering = true
 on_failure = ""

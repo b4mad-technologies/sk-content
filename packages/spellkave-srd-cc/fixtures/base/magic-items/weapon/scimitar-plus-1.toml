@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its curved steel holds a moonlit sheen even in the deepest torch-smoke, the edge whispering softly as it leaves the scabbard. A faint warmth gathers along the grip when danger nears, lending each practiced sweep an uncanny certainty."
 display_name = "Scimitar (+1)"
 entity_def_id = "srd/magic_item/scimitar-plus-1"
 grants_capability_while_equipped = ""

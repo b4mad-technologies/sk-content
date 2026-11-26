@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A mirrored band of pale silver, cool as moonlit water, it catches stray candleflame and sends it wandering across nearby walls. Arcane force seems to hesitate at its polished curve, as though recognizing an old and implacable rival. When danger gathers in a caster’s hands, the ring hums with the quiet promise of a path reversed."
 display_name = "Ring of Spell Turning"
 entity_def_id = "srd/magic_item/ring-of-spell-turning"
 grants_capability_while_equipped = ""

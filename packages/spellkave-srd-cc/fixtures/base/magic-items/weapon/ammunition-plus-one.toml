@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Each shaft bears a faint, silvery balance that seems to steady the hand and quiet the bowstring. In flight, it slips through the air with uncanny purpose, leaving only a brief glimmer at the edge of sight. After finding its mark, the enchantment fades like frost beneath a rising sun."
 display_name = "Ammunition (+1)"
 entity_def_id = "srd/magic_item/ammunition-plus-one"
 grants_capability_while_equipped = ""

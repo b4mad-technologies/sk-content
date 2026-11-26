@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its pale flame burns with an unsettling steadiness, turning dust motes into drifting sparks and pulling hidden outlines from the dark. In its glow, empty rooms seem suddenly crowded: a gloved hand on a latch, a watchful shape behind a curtain, the faint gleam of something that believed itself unseen. Lower the hood, and the light dwindles to a wary ember."
 display_name = "Lantern of Revealing"
 entity_def_id = "srd/magic_item/lantern-of-revealing"
 grants_capability_while_equipped = ""

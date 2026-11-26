@@ -36,6 +36,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A soft green stone pulses once each time it completes a circle, and the pulse seems to answer the one in the wrist. Small aches feel less interested in staying. The orbit is low and kind. It smells of crushed leaves and warm water. The green deepens for a heartbeat and then returns to its quieter shade."
 display_name = "Ioun Stone (Regeneration)"
 entity_def_id = "srd/magic_item/ioun-stone-regeneration"
 grants_capability_while_equipped = ""

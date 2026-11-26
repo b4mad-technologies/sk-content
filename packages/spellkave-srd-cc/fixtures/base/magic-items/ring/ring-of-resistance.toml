@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its stone holds a quiet, elemental mood: a coal-deep warmth, a bead of winter stillness, a storm’s impatient gleam, or some subtler omen. Against the finger, the band seems to teach the flesh a private defiance. When danger gathers in its chosen guise, the gem answers with a faint pulse beneath the skin."
 display_name = "Ring of Resistance"
 entity_def_id = "srd/magic_item/ring-of-resistance"
 grants_capability_while_equipped = ""

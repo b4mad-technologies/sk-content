@@ -36,6 +36,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The cloak is a full length of dull cloth, too broad to fold into a pocket, and light slides off it as if the weave were oiled. Held up, the room behind it looks thinner. A draft moves the hem while the shoulders underneath feel briefly unaccounted for. Eyes keep trying to finish a shape the cloth refuses to hold."
 display_name = "Cloak of Invisibility"
 entity_def_id = "srd/magic_item/cloak-of-invisibility"
 grants_capability_while_equipped = ""

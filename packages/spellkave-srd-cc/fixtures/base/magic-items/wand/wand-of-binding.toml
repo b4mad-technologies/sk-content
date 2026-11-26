@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A slender rod of blackthorn, wrapped at the grip with silver wire cold as winter rain. When raised in judgment, its tip gathers a pale, motionless gleam, and even restless shadows seem to pause around it. The air tightens with the hush of unseen chains drawing closed."
 display_name = "Wand of Binding"
 entity_def_id = "srd/magic_item/wand-of-binding"
 grants_capability_while_equipped = ""

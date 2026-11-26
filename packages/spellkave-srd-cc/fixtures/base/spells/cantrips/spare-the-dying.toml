@@ -76,6 +76,7 @@ tag = "srd.spell.list.druid"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush settles over the brink of loss as pale warmth gathers around the fallen. Breath that had nearly fled catches again, thin but steady, while the panic of unraveling life recedes into stillness. For a moment, death waits beyond the threshold and finds no welcome."
 display_name = "Spare the Dying"
 entity_def_id = "srd/spell/spare-the-dying"
 grants_capability_while_equipped = ""
@@ -102,7 +103,7 @@ target_ref = "srd/spell/spare-the-dying"
 action_id = "srd/spell/spare-the-dying/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Spare the Dying — a spell action."
+description = "You cast this spell to stabilize a creature at 0 hit points within range. It stops the creature from making death saves until it takes damage again."
 display_name = "Cast Spare the Dying"
 non_steering = true
 on_failure = ""

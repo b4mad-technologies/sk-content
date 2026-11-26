@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A dark, thumb-sized seal swings from its chain with the patient weight of a distant moon. Near it, emptiness seems to gather itself into a listening hush, and stray motes of dust veer from its path. Its bearer feels the terrible geometry of the void become almost legible—an obedient curve traced through the air."
 display_name = "Talisman of the Sphere"
 entity_def_id = "srd/magic_item/talisman-of-the-sphere"
 grants_capability_while_equipped = ""

@@ -77,7 +77,7 @@ tag = "srd.damage_type.piercing"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Rapier — a martial melee weapon."
+description = "A slender blade balanced like a secret, its polished guard catching candlelight in quick silver flashes. It favors a patient hand and a watchful eye, slipping through openings before heavier steel can answer. In a quiet room, even its draw from the scabbard sounds like a challenge."
 display_name = "Rapier"
 entity_def_id = "srd/weapon/rapier"
 grants_capability_while_equipped = ""

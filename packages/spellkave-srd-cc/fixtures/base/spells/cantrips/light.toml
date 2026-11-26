@@ -88,6 +88,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A quiet radiance gathers beneath the caster’s hand, sinking into a chosen object like dawn caught in glass. It blooms in any hue the heart can name, casting warm certainty across old corridors, tangled roots, and rain-slick stone. Hidden beneath a cloak or shutter, the glow waits patiently for darkness to claim the road again."
 display_name = "Light"
 entity_def_id = "srd/spell/light"
 grants_capability_while_equipped = ""
@@ -115,7 +116,7 @@ target_ref = "srd/spell/light"
 action_id = "srd/spell/light/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Light — a spell action."
+description = "You use a spell to create magical illumination, choosing its target and effects as the spell describes."
 display_name = "Cast Light"
 non_steering = true
 on_failure = ""

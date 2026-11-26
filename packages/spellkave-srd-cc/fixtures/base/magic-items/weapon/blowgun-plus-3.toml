@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_3"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "This slender tube is lacquered in deep green and banded with pale silver, cool as river stone beneath the fingers. A whispered breath through its bore sends even the smallest dart away with uncanny purpose, leaving only a faint, reedlike sigh in the air."
 display_name = "Blowgun (+3)"
 entity_def_id = "srd/magic_item/blowgun-plus-3"
 grants_capability_while_equipped = ""

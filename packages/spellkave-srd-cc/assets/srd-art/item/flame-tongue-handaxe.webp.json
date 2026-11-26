@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-handaxe",
+  "overlay_template": "flame-tongue",
+  "overlay_badge": "fire",
+  "base_sha256": "5dcc707bc193c343ec8f740f53a90d76365f3f60870537694086a45d3ca9dcfc",
+  "overlay_sha256": "c4806ef2bb352ad495c05e155d9611cc695c3fa5894816ef751f3f11c8c261d9",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:41.206Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "cf46c1fba6105274fc72438924d8a765b1cc36ba541c4cad398550e8bf0983cd",
+  "target_attachment_ref": "srd/magic_item/flame-tongue-handaxe#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-flame-tongue-handaxe"
+}

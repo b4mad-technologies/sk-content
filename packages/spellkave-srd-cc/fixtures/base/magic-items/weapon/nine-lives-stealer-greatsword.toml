@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its dark blade drinks the torchlight without reflection, while faint, feline whispers stir along the fuller when danger nears. A killing stroke leaves the air suddenly thin and cold, as though some unseen predator has passed close by. Each life claimed settles deeper into the sword’s hungry silence."
 display_name = "Nine Lives Stealer (Greatsword)"
 entity_def_id = "srd/magic_item/nine-lives-stealer-greatsword"
 grants_capability_while_equipped = ""

@@ -157,6 +157,7 @@ tag = "srd.creature.role.brute"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "An ettin lumbers from the wilds like a quarrel given flesh, its two heads forever snarling, arguing, and occasionally agreeing on where to find the next meal. Each watches a different path, making ambush difficult and escape uncertain. Their crude camps stink of smoke, spoiled meat, and the trophies of travelers who mistook bickering for weakness."
 display_name = "Ettin"
 entity_def_id = "srd/creature/ettin"
 grants_capability_while_equipped = ""

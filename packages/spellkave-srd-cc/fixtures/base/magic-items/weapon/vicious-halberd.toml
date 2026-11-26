@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A cold glimmer follows the blade’s long, hooked edge, as though every old wound it has opened still remembers the steel. In battle, its sweeping cuts carry a cruel finality, leaving the air sharp with the scent of torn earth and iron. Even at rest, the haft seems eager to be lifted."
 display_name = "Vicious Halberd"
 entity_def_id = "srd/magic_item/vicious-halberd"
 grants_capability_while_equipped = ""

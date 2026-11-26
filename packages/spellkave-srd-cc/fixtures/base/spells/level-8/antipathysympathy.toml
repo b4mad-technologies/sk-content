@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Honeyed longing or vinegar-sharp dread settles over a chosen presence, invisible as scent yet impossible to ignore. To the marked bloodline or breed, it becomes a lodestone of unbearable desire—or a place the soul recoils from before feet can follow. Even the boldest creatures may find their instincts turned traitor at its threshold."
 display_name = "Antipathy/Sympathy"
 entity_def_id = "srd/spell/antipathysympathy"
 grants_capability_while_equipped = ""

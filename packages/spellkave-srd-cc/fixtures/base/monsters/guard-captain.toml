@@ -157,6 +157,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A guard captain carries the weight of a city gate in every measured step, watching crowds with a veteran’s eye for trouble. Their orders cut cleanly through panic, turning scattered watchmen into a disciplined wall of steel. Bandits and rabble alike soon learn that this officer is hardest to surprise when the streets grow loud."
 display_name = "Guard Captain"
 entity_def_id = "srd/creature/guard-captain"
 grants_capability_while_equipped = ""

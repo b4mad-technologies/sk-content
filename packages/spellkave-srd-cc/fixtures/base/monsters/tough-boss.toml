@@ -157,6 +157,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hard-eyed veteran who has survived every betrayal, ambush, and desperate last stand, the tough boss commands attention without raising their voice. Their presence turns a loose band of cutthroats into a disciplined threat, each order landing with the weight of experience. Facing them means contending not only with a formidable fighter, but with every ally ready to follow their lead."
 display_name = "Tough Boss"
 entity_def_id = "srd/creature/tough-boss"
 grants_capability_while_equipped = ""

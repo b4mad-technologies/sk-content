@@ -29,254 +29,254 @@
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = """Identifies an entity definition as one of the 33 SRD species traits (character-origins.md:97-374 (§ Character Species: every species' "As a <Species>, you have these special traits" paragraph run))."""
+description = "Marks a special feature granted by your character’s species. You gain it when you choose that species."
 prefix = "srd"
 tag = "srd.trait"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a definition as a sensory category."
+description = "Marks a definition as a type of perception. Senses tell you what you can notice about creatures, objects, or your surroundings."
 prefix = "srd"
 tag = "srd.sense"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a definition as an immunity category."
+description = "A label for rules that prevent a creature from being affected by a specified damage type, condition, or effect."
 prefix = "srd"
 tag = "srd.immunity"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature or trait as possessing Darkvision."
+description = "You can see in darkness as though it were dim light, and in dim light as though it were bright light, within a limited range. Colors appear as shades of gray."
 prefix = "srd.sense"
 tag = "srd.sense.darkvision"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "60-foot range Darkvision."
+description = "You can see in darkness within 60 feet as though it were dim light. Colors appear as shades of gray."
 prefix = "srd.sense"
 tag = "srd.sense.darkvision.60"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "120-foot range Darkvision."
+description = "You can see in dim light within 120 feet as if it were bright light, and in darkness as if it were dim light."
 prefix = "srd.sense"
 tag = "srd.sense.darkvision.120"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Magic cannot put the creature to sleep, and it does not need sleep."
+description = "Magic cannot make you sleep, and you do not need sleep to rest."
 prefix = "srd.immunity"
 tag = "srd.immunity.magic_sleep"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Immunity to exhaustion from lack of rest or sleep effects."
+description = "You cannot gain exhaustion from going without rest or from effects that deprive you of sleep."
 prefix = "srd.immunity"
 tag = "srd.immunity.sleep_exhaustion"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD 'Draconic Ancestry' (dragonborn) species trait."
+description = "A dragonborn heritage that gives you a draconic damage affinity and a breath weapon. You choose its draconic type when you gain the trait."
 prefix = "srd.trait"
 tag = "srd.trait.draconic-ancestry"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD 'Breath Weapon' (dragonborn) species trait."
+description = "A species trait that lets you exhale destructive energy in a chosen area, using the damage type tied to your draconic ancestry."
 prefix = "srd.trait"
 tag = "srd.trait.breath-weapon"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD 'Damage Resistance' (dragonborn) species trait."
+description = "A trait that helps you withstand a particular type of harm. Damage of that type is reduced when it affects you."
 prefix = "srd.trait"
 tag = "srd.trait.damage-resistance"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD 'Darkvision' (dragonborn) species trait."
+description = "You can see in darkness as though it were dim light, and in dim light as though it were bright light, within a limited range. You can’t discern color in darkness."
 prefix = "srd.trait"
 tag = "srd.trait.darkvision-dragonborn"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD 'Draconic Flight' (dragonborn) species trait."
+description = "A species trait that gives you a flying speed, allowing you to move through the air while your wings can support you."
 prefix = "srd.trait"
 tag = "srd.trait.draconic-flight"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD 'Darkvision' (dwarf) species trait."
+description = "You can see in darkness within a limited range as though it were dim light, but you see no color there."
 prefix = "srd.trait"
 tag = "srd.trait.darkvision-dwarf"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD 'Dwarven Resilience' (dwarf) species trait."
+description = "You have advantage on saving throws against poison, and you have resistance to poison damage."
 prefix = "srd.trait"
 tag = "srd.trait.dwarven-resilience"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD 'Dwarven Toughness' (dwarf) species trait."
+description = "Your sturdy build gives you extra hit points. Your hit point maximum increases when you gain this trait and rises again as you gain levels."
 prefix = "srd.trait"
 tag = "srd.trait.dwarven-toughness"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD 'Stonecunning' (dwarf) species trait."
+description = "You have a knack for working with stone. When you search for hidden stonework, you are especially likely to notice it."
 prefix = "srd.trait"
 tag = "srd.trait.stonecunning"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD 'Darkvision' (elf) species trait."
+description = "You can see in dim light as though it were bright light, and in darkness as dim light, out to a limited range. You can’t discern color in darkness."
 prefix = "srd.trait"
 tag = "srd.trait.darkvision-elf"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD 'Elven Lineage' (elf) species trait."
+description = "A species trait that marks you as an elf and gives you the features of your elven ancestry."
 prefix = "srd.trait"
 tag = "srd.trait.elven-lineage"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD 'Fey Ancestry' (elf) species trait."
+description = "You have an otherworldly heritage that makes you resistant to magical sleep and harder to charm."
 prefix = "srd.trait"
 tag = "srd.trait.fey-ancestry"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD 'Keen Senses' (elf) species trait."
+description = "You have heightened awareness. You are proficient in the Perception skill."
 prefix = "srd.trait"
 tag = "srd.trait.keen-senses"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD 'Trance' (elf) species trait."
+description = "A trait that lets you remain conscious during a long rest by meditating instead of sleeping. You complete the rest in less time than most creatures."
 prefix = "srd.trait"
 tag = "srd.trait.trance"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD 'Darkvision' (gnome) species trait."
+description = "You can see in darkness within a limited range, treating it as dim light. In that darkness, you see without color."
 prefix = "srd.trait"
 tag = "srd.trait.darkvision-gnome"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD 'Gnomish Cunning' (gnome) species trait."
+description = "You have advantage on Intelligence, Wisdom, and Charisma saving throws against magic."
 prefix = "srd.trait"
 tag = "srd.trait.gnomish-cunning"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD 'Gnomish Lineage' (gnome) species trait."
+description = "A species lineage that marks a character as a gnome and grants the traits associated with that heritage."
 prefix = "srd.trait"
 tag = "srd.trait.gnomish-lineage"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD 'Giant Ancestry' (goliath) species trait."
+description = "A species trait that marks you as a goliath and grants the features tied to your giant heritage."
 prefix = "srd.trait"
 tag = "srd.trait.giant-ancestry"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD 'Large Form' (goliath) species trait."
+description = "A species trait that marks a creature as having the Large Form ancestry and its associated features."
 prefix = "srd.trait"
 tag = "srd.trait.large-form"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD 'Powerful Build' (goliath) species trait."
+description = "You count as one size larger when determining the weight you can carry, push, drag, or lift."
 prefix = "srd.trait"
 tag = "srd.trait.powerful-build"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD 'Brave' (halfling) species trait."
+description = "You have advantage on saving throws against being frightened."
 prefix = "srd.trait"
 tag = "srd.trait.brave"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD 'Halfling Nimbleness' (halfling) species trait."
+description = "You can move through the space of a creature larger than you, as long as that space is not blocked."
 prefix = "srd.trait"
 tag = "srd.trait.halfling-nimbleness"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD 'Luck' (halfling) species trait."
+description = "A halfling trait that lets you turn a disastrous roll into another chance. When you fail in a particular way on an attack, ability check, or saving throw, you reroll it."
 prefix = "srd.trait"
 tag = "srd.trait.luck"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD 'Naturally Stealthy' (halfling) species trait."
+description = "You can try to hide even when only a creature larger than you is between you and the observer."
 prefix = "srd.trait"
 tag = "srd.trait.naturally-stealthy"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD 'Resourceful' (human) species trait."
+description = "Marks a character option that grants a special benefit from the Resourceful human trait. You use that benefit as described by the trait’s rules."
 prefix = "srd.trait"
 tag = "srd.trait.resourceful"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD 'Skillful' (human) species trait."
+description = "Marks a character as having the human trait that grants training in one skill of your choice."
 prefix = "srd.trait"
 tag = "srd.trait.skillful"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD 'Versatile' (human) species trait."
+description = "Marks a human ancestry with broad training and adaptability, granting a general benefit that reflects varied talents."
 prefix = "srd.trait"
 tag = "srd.trait.versatile"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD 'Adrenaline Rush' (orc) species trait."
+description = "You can move quickly as a bonus action, gaining temporary resilience when you do. You can use this a limited number of times before you need to finish a long rest."
 prefix = "srd.trait"
 tag = "srd.trait.adrenaline-rush"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD 'Darkvision' (orc) species trait."
+description = "You can see in darkness within a limited range as though it were dim light, and in dim light as though it were bright light. You cannot distinguish color in darkness."
 prefix = "srd.trait"
 tag = "srd.trait.darkvision-orc"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD 'Relentless Endurance' (orc) species trait."
+description = "When damage would reduce you to 0 hit points but not kill you outright, you drop to 1 hit point instead. Once you use this trait, you must finish a long rest before using it again."
 prefix = "srd.trait"
 tag = "srd.trait.relentless-endurance"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD 'Darkvision' (tiefling) species trait."
+description = "You can see in dim light as though it were bright light, and in darkness as though it were dim light, out to a limited distance. You cannot see color in darkness."
 prefix = "srd.trait"
 tag = "srd.trait.darkvision-tiefling"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD 'Fiendish Legacy' (tiefling) species trait."
+description = "Marks a fiend-touched heritage and the species traits that come with it. You use those traits when their listed conditions are met."
 prefix = "srd.trait"
 tag = "srd.trait.fiendish-legacy"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD 'Otherworldly Presence' (tiefling) species trait."
+description = "A species trait that marks you as having infernal ancestry and otherworldly influence."
 prefix = "srd.trait"
 tag = "srd.trait.otherworldly-presence"
 [[action_definitions]]
 action_id = "srd/dragonborn/breath-weapon"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Exhale destructive energy in an area (Dexterity save, 1d10 damage), spending 1 breath weapon use."
+description = "You spend a use to exhale destructive energy over an area. Creatures there make a Dexterity save, taking damage on a failure."
 display_name = "Breath Weapon"
 on_failure = ""
 on_success = "srd/dragonborn/breath-weapon/success"
@@ -336,7 +336,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/capability/darkvision"
 default_visibility = "Public"
-description = "Sensory counter-capability allowing perception and navigation in dark passages."
+description = "You can see in darkness as though it were dim light, though colors appear only as shades of gray."
 display_name = "Darkvision"
 
 [[capability_definitions]]
@@ -344,13 +344,13 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/action/dragonborn/breath-weapon"
 default_visibility = "Public"
-description = "Exhale destructive energy in a 15-foot cone or 30-foot line (Dexterity save vs DC 8+CON+PB, 1d10 damage)."
+description = "You exhale destructive energy in a short cone or long line. Creatures in the area make a Dexterity save against your Breath Weapon DC, taking damage on a failed save."
 display_name = "Breath Weapon"
 
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/relentless-endurance-ready"
-description = "Relentless Endurance ready (cache/markdown/character-origins.md:323 (Orc Relentless Endurance)). While active, dropping to 0 HP invokes the intercept (uses spent inside the consequence). pattern: condition-hook-on-event"
+description = "While this condition lasts, the next time you would drop to 0 hit points, you instead stay at 1 hit point. It ends when it prevents you from falling."
 display_name = "Relentless Endurance Ready"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []
@@ -409,7 +409,7 @@ template_id = "srd/dragonborn/breath-weapon/success"
 
 [[consequence_templates]]
 bundle_id = "srd"
-description = "Relentless Endurance: when uses remain, set HP to 1 and spend the charge. Uses gate is HERE (consequence has full actor.stat facts) — not on the hook detail_filter (hook facts are event detail + holder id + statuses only). pattern: condition-hook-on-event"
+description = "When damage would reduce you to 0 hit points, you can spend a use to remain at 1 hit point instead."
 template_id = "srd/trait/relentless-endurance/intercept"
 
 [[entity_definition_tag]]
@@ -1099,7 +1099,7 @@ tag = "srd.species.tiefling"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Draconic Ancestry — a dragonborn species trait."
+description = "A primal legacy stirs beneath the skin: ember-warm breath, stormlight in the blood, winter’s hush, or the sharp tang of venom and acid. Old scales may glimmer at the throat or along the hands, while ancestral instinct lends every glare, growl, and held silence a hint of something vast."
 display_name = "Draconic Ancestry"
 entity_def_id = "srd/trait/draconic-ancestry"
 grants_capability_while_equipped = ""
@@ -1115,7 +1115,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Breath Weapon — a dragonborn species trait."
+description = "A furnace-stirring force coils behind the ribs, tasting of storm metal, embers, venom, or winter stars. In the crush of battle, it can be loosed in a single dreadful breath, leaving the air scorched, crackling, or rimed with frost. Each release carries the ancient, elemental pride of dragonkind."
 display_name = "Breath Weapon"
 entity_def_id = "srd/trait/breath-weapon"
 grants_capability_while_equipped = ""
@@ -1131,7 +1131,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Damage Resistance — a dragonborn species trait."
+description = "A drake-blooded hardiness stirs beneath the skin, answering flame, frost, venom, or storm with an ancient refusal. What should sear or scour becomes a distant ache, as though some scaled ancestor still coils around the heart."
 display_name = "Damage Resistance"
 entity_def_id = "srd/trait/damage-resistance"
 grants_capability_while_equipped = ""
@@ -1147,7 +1147,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Darkvision — a dragonborn species trait."
+description = "Night gathers differently around those schooled in midnight paths: less a curtain than a tapestry of softened shapes and patient movement. In unlit halls and moonless woods, shadows yield their secrets in muted shades, guiding steady steps where others would grope blindly."
 display_name = "Darkvision"
 entity_def_id = "srd/trait/darkvision-dragonborn"
 grants_capability_while_equipped = ""
@@ -1163,7 +1163,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Draconic Flight — a dragonborn species trait."
+description = "A pulse of ancestral power gathers between the shoulders, unfolding into vast, translucent wings of ember, frost, stormlight, or acid mist. Air yields beneath their beat, and the world below becomes a shifting map of rooftops, treetops, and distant roads. When the magic fades, a faint echo of scales and thunder lingers in the blood."
 display_name = "Draconic Flight"
 entity_def_id = "srd/trait/draconic-flight"
 grants_capability_while_equipped = ""
@@ -1179,7 +1179,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Darkvision — a dwarf species trait."
+description = "Night does not blind them; it merely changes the language of the world. In moonless halls and root-choked tunnels, warmth, motion, and pale edges gather into a quiet map where others find only blackness."
 display_name = "Darkvision"
 entity_def_id = "srd/trait/darkvision-dwarf"
 grants_capability_while_equipped = ""
@@ -1195,7 +1195,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Dwarven Resilience — a dwarf species trait."
+description = "Bitter fumes sting the eyes, but find little purchase in lungs tempered by stone dust and forge smoke. Years of enduring harsh ale, mineral springs, and smoke-choked halls leave the body stubbornly unwelcoming to venom. Even when sickness takes hold, it is met with a slow, iron-willed refusal to yield."
 display_name = "Dwarven Resilience"
 entity_def_id = "srd/trait/dwarven-resilience"
 grants_capability_while_equipped = ""
@@ -1211,7 +1211,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Dwarven Toughness — a dwarf species trait."
+description = "Stone-deep endurance settles into the bones, turning hard marches and bitter wounds into familiar burdens. Where others falter, this stout resilience gathers itself like a mountain bracing against the storm, carrying its bearer onward through one more dawn, one more battle, one more impossible road."
 display_name = "Dwarven Toughness"
 entity_def_id = "srd/trait/dwarven-toughness"
 grants_capability_while_equipped = ""
@@ -1227,7 +1227,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Stonecunning — a dwarf species trait."
+description = "With palm against a cold wall or boots planted on ancient flagstones, the world begins to murmur. Faint shivers travel through bedrock, carrying the weight of footsteps, settling mortar, and hidden movement beyond sight. In caverns and ruined halls, stone becomes a patient, whispering guide."
 display_name = "Stonecunning"
 entity_def_id = "srd/trait/stonecunning"
 grants_capability_while_equipped = ""
@@ -1243,7 +1243,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Darkvision — a elf species trait."
+description = "Night no longer arrives as a blindfold, but as a softened world of charcoal edges and silvered motion. In unlit halls and moonless woods, familiar shapes rise from the gloom with uncanny clarity, as though darkness itself has learned to whisper where danger waits."
 display_name = "Darkvision"
 entity_def_id = "srd/trait/darkvision-elf"
 grants_capability_while_equipped = ""
@@ -1259,7 +1259,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Elven Lineage — a elf species trait."
+description = "Old blood answers in subtle ways: a shimmer kindled in the dark, a trick of light at waiting fingertips, or a footfall that vanishes beneath wind-stirred leaves. The inheritance deepens with experience, unfolding as instinct rather than study. Even far from ancestral boughs and moonless halls, its quiet magic remembers the way home."
 display_name = "Elven Lineage"
 entity_def_id = "srd/trait/elven-lineage"
 grants_capability_while_equipped = ""
@@ -1275,7 +1275,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Fey Ancestry — a elf species trait."
+description = "A mind touched by old moonlight learns to recognize honeyed words for what they are: threads, hooks, and painted doors. Enchantment may brush the senses with perfume and song, but the heart keeps a hidden path through the thorns."
 display_name = "Fey Ancestry"
 entity_def_id = "srd/trait/fey-ancestry"
 grants_capability_while_equipped = ""
@@ -1291,7 +1291,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Keen Senses — a elf species trait."
+description = "A practiced hush settles over the mind as crowded rooms, wind-scoured trails, and guarded faces begin to speak in subtler languages. A bent blade of grass, a pause before an answer, or the faintest change in birdsong can carry meaning enough to alter the course ahead."
 display_name = "Keen Senses"
 entity_def_id = "srd/trait/keen-senses"
 grants_capability_while_equipped = ""
@@ -1307,7 +1307,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Trance — a elf species trait."
+description = "Stillness settles over them like moonlight on a quiet pool, yet their awareness never truly dims. Hours pass beneath lowered lids while every creak of leather, distant wingbeat, and shift of campfire ash remains clear. When dawn arrives, they rise carrying the calm of deep rest without surrendering the night to dreams."
 display_name = "Trance"
 entity_def_id = "srd/trait/trance"
 grants_capability_while_equipped = ""
@@ -1323,7 +1323,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Darkvision — a gnome species trait."
+description = "In lightless halls, shadows separate into shades of charcoal and silver rather than swallowing the way ahead. A lifetime of twilight sharpens every outline: damp stone, a lurking silhouette, the faint glint of steel beneath a cloak. Darkness becomes a veil, not a wall."
 display_name = "Darkvision"
 entity_def_id = "srd/trait/darkvision-gnome"
 grants_capability_while_equipped = ""
@@ -1339,7 +1339,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Gnomish Cunning — a gnome species trait."
+description = "A gnome’s mind is a lantern behind stained glass: bright, crooked, and difficult to snuff out. Beguiling whispers, polished arguments, and unseen pressures find little purchase amid a lifetime of riddles, curiosities, and cheerful suspicion."
 display_name = "Gnomish Cunning"
 entity_def_id = "srd/trait/gnomish-cunning"
 grants_capability_while_equipped = ""
@@ -1355,7 +1355,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Gnomish Lineage — a gnome species trait."
+description = "A curious inheritance hums beneath nimble fingers and bright, watchful eyes. In one bloodline, leaves whisper secrets through birdcall and burrow-song; in another, springs, gears, and tiny marvels gather wherever there is a scrap of wire and an idle moment. Magic arrives not as grandeur, but as clever companionship."
 display_name = "Gnomish Lineage"
 entity_def_id = "srd/trait/gnomish-lineage"
 grants_capability_while_equipped = ""
@@ -1371,7 +1371,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Giant Ancestry — a goliath species trait."
+description = "An old enormity stirs beneath the skin: cloud-silent steps, furnace heat, glacier breath, or the unyielding patience of stone. In battle, that inheritance answers with the force of a landslide or the crack of stormlight across high peaks. Each awakening leaves the air tasting of distant mountains and ancient weather."
 display_name = "Giant Ancestry"
 entity_def_id = "srd/trait/giant-ancestry"
 grants_capability_while_equipped = ""
@@ -1387,7 +1387,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Large Form — a goliath species trait."
+description = "When battle calls for a greater presence, the body swells with ancient vigor and every footfall lands like a warning drum. Muscles answer with iron certainty, doors seem smaller, and open ground vanishes beneath long, thundering strides. The change is brief, but its memory lingers in cracked flagstones and startled silence."
 display_name = "Large Form"
 entity_def_id = "srd/trait/large-form"
 grants_capability_while_equipped = ""
@@ -1403,7 +1403,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Powerful Build — a goliath species trait."
+description = "Broad shoulders and a rooted stance turn crushing holds into problems meant for someone else. Weight settles differently across such a frame: packs ride easier, burdens feel lighter, and even a loaded cart seems to yield when given a determined shove."
 display_name = "Powerful Build"
 entity_def_id = "srd/trait/powerful-build"
 grants_capability_while_equipped = ""
@@ -1419,7 +1419,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Brave — a halfling species trait."
+description = "When dread rolls across the field like winter fog, this soul keeps moving. A steady breath, a tightened grip, and the remembered weight of hard-won courage hold the dark at bay. Fear may whisper close, but it finds no easy home in a heart trained to stand fast."
 display_name = "Brave"
 entity_def_id = "srd/trait/brave"
 grants_capability_while_equipped = ""
@@ -1435,7 +1435,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Halfling Nimbleness — a halfling species trait."
+description = "Small feet find the seams in a crowded melee: the gap beneath a shield arm, the turn of a cloak, the breath between bodies. Years of slipping past larger folk have made close quarters feel less like a wall and more like a winding, living corridor."
 display_name = "Halfling Nimbleness"
 entity_def_id = "srd/trait/halfling-nimbleness"
 grants_capability_while_equipped = ""
@@ -1451,7 +1451,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Luck — a halfling species trait."
+description = "Fortune seems to linger at the edge of disaster, turning a fatal misstep into a narrow escape. A snapped strap holds, a loose stone settles, or a sudden glimmer reveals the safer path just before ruin takes hold."
 display_name = "Luck"
 entity_def_id = "srd/trait/luck"
 grants_capability_while_equipped = ""
@@ -1467,7 +1467,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Naturally Stealthy — a halfling species trait."
+description = "Among crowded taverns, battlefield press, and torchlit corridors, this knack turns larger companions into moving curtains. A small wanderer learns the rhythm of another’s stride, slipping through the blind spaces cast by cloaks, shields, and broad shoulders."
 display_name = "Naturally Stealthy"
 entity_def_id = "srd/trait/naturally-stealthy"
 grants_capability_while_equipped = ""
@@ -1483,7 +1483,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Resourceful — a human species trait."
+description = "Each dawn leaves a small reserve of courage tucked behind the ribs, bright as flint in a damp pocket. When fortune sours and plans splinter, that inner spark can turn a desperate moment toward possibility."
 display_name = "Resourceful"
 entity_def_id = "srd/trait/resourceful"
 grants_capability_while_equipped = ""
@@ -1499,7 +1499,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Skillful — a human species trait."
+description = "A practiced eye finds patterns in crowded ledgers, muddy tracks, nervous smiles, or the hush before a storm. Through patient repetition, one humble craft becomes second nature, ready to answer when the road turns uncertain."
 display_name = "Skillful"
 entity_def_id = "srd/trait/skillful"
 grants_capability_while_equipped = ""
@@ -1515,7 +1515,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Versatile — a human species trait."
+description = "A life spent learning leaves room for one more craft, one more secret, one more hard-earned habit. This talent marks an adventurer whose hands and instincts refuse to be confined to a single path, always finding another useful trick when the road turns strange."
 display_name = "Versatile"
 entity_def_id = "srd/trait/versatile"
 grants_capability_while_equipped = ""
@@ -1531,7 +1531,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Adrenaline Rush — a orc species trait."
+description = "When danger snaps close, the body answers before thought can catch it. Breath burns cold, muscles flood with sudden purpose, and every stride carries a fierce refusal to fall. Even after the sprint ends, that bright, borrowed strength lingers beneath the skin like a struck match."
 display_name = "Adrenaline Rush"
 entity_def_id = "srd/trait/adrenaline-rush"
 grants_capability_while_equipped = ""
@@ -1547,7 +1547,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Darkvision — a orc species trait."
+description = "Moonless corridors unfold in silvered shades, each stone edge and drifting mote clear to eyes tempered for the dark. Where others grope for lanterns, this watcher moves by hush, heat, and the faint gleam of hidden paths."
 display_name = "Darkvision"
 entity_def_id = "srd/trait/darkvision-orc"
 grants_capability_while_equipped = ""
@@ -1563,7 +1563,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Relentless Endurance — a orc species trait."
+description = "When pain narrows the world to a ringing void, stubborn breath still burns beneath the ribs. Some warriors meet the edge of collapse with clenched teeth and a refusal too fierce for death to claim. After such a stand, even iron-willed bodies must seek silence, warmth, and time to gather themselves again."
 display_name = "Relentless Endurance"
 entity_def_id = "srd/trait/relentless-endurance"
 grants_capability_while_equipped = ""
@@ -1579,7 +1579,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Darkvision — a tiefling species trait."
+description = "Moonless corridors hold no true darkness for them. Shapes gather in softened shades of gray, heat and motion separating friend from lurking threat. Even beneath sealed crypt-stones or deep forest canopies, the world leaves enough shadow to read."
 display_name = "Darkvision"
 entity_def_id = "srd/trait/darkvision-tiefling"
 grants_capability_while_equipped = ""
@@ -1595,7 +1595,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Fiendish Legacy — a tiefling species trait."
+description = "An old stain lingers in the blood: ash on the tongue, grave-cold beneath the skin, or the distant roar of a bottomless storm. In moments of danger, that inheritance answers with a cruel spark and a presence that makes candlelight seem suddenly less certain."
 display_name = "Fiendish Legacy"
 entity_def_id = "srd/trait/fiendish-legacy"
 grants_capability_while_equipped = ""
@@ -1611,7 +1611,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Otherworldly Presence — a tiefling species trait."
+description = "A quiet word can bend the room around its speaker: candles gutter, distant thunder answers, and shadows seem to lean closer. Those who bear such a presence carry the unmistakable hush of somewhere beyond the mortal road, turning small gestures into unsettling omens."
 display_name = "Otherworldly Presence"
 entity_def_id = "srd/trait/otherworldly-presence"
 grants_capability_while_equipped = ""
@@ -1891,7 +1891,7 @@ target_ref = "srd/trait/otherworldly-presence"
 
 [[niche_definitions]]
 bundle_id = "srd"
-description = "Actor-carried feature verb niche for Dragonborn Breath Weapon."
+description = "You exhale destructive energy in a short area before you. Choose its form when you use it, and creatures caught in it must make a saving throw."
 display_name = "Breath Weapon"
 niche_id = "capability:srd/action/dragonborn/breath-weapon"
 predicate_source = ""
@@ -1908,6 +1908,7 @@ sense_visibility = "local"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "Uses of your Dragonborn breath weapon. Spend one when you replace an attack with a damaging exhalation, and regain all spent uses when you finish a Long Rest."
 display_name = "Dragonborn Breath Weapon Uses"
 initial_value = 2
 max_value = 6
@@ -1918,6 +1919,7 @@ value_kind = "int"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "The number of times you can avoid dropping to 0 Hit Points by staying at 1 instead. You regain its use when you finish a Long Rest."
 display_name = "Relentless Endurance Uses"
 initial_value = 1
 max_value = 1

@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-hand-crossbow",
+  "overlay_template": "defender",
+  "overlay_badge": "rune",
+  "base_sha256": "7b2df2c510b0adea5a5f9059fa58ccf8b525d90fca2e1e05efb3518ee9530e69",
+  "overlay_sha256": "ed9b733c49d6fc246eb945a819df4069cadc2a65041679925c6fe215845c9e7d",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:39.467Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "aeebf66dcc4b2cda6c46e12905f58b11ff5e38793ce277134295f2ff13a462f9",
+  "target_attachment_ref": "srd/magic_item/defender-hand-crossbow#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-defender-hand-crossbow"
+}

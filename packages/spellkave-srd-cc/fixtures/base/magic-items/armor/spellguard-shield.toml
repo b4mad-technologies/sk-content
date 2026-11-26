@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A dim, glassy sheen drifts across this shield’s face like moonlight trapped beneath ice. Arcane bolts bend aside at its rim, their colors smearing into harmless sparks, while hostile enchantments seem to lose their certainty in its presence. Held close, it carries the stillness of a warded threshold."
 display_name = "Spellguard Shield"
 entity_def_id = "srd/magic_item/spellguard-shield"
 grants_capability_while_equipped = ""

@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A round lens sits in a brass rim, cool at the edge and warmer where a thumb rests. Held to the light, the glass gathers a bright coin of sun and throws the grain of wood or the weave of cloth into sudden clarity. The handle is short, balanced, and a little tarnished from being pocketed."
 display_name = "Magnifying Glass"
 entity_def_id = "srd/item/magnifying-glass"
 grants_capability_while_equipped = ""

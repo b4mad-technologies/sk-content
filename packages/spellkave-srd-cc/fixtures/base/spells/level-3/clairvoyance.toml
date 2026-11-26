@@ -102,6 +102,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A polished lens of thought drifts beyond walls and distance, settling where memory or intuition gives it purchase. Through it, far-off chambers bloom in silent detail, or hidden voices arrive clear as breath beside the ear. Those rare souls who pierce its veil may glimpse a small, watchful gleam hanging in the air."
 display_name = "Clairvoyance"
 entity_def_id = "srd/spell/clairvoyance"
 grants_capability_while_equipped = ""

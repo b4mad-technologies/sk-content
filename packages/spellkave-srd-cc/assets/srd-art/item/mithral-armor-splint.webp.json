@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-splint-armor",
+  "overlay_template": "mithral-armor",
+  "overlay_badge": "metal",
+  "base_sha256": "7024c8f8fa4ee644ace8815530c9163efac312651e18edf9b6bcd0c74f8c635c",
+  "overlay_sha256": "ccc7c944d91b356336aa1f1e27505e8b85e5220a061c5010888b5067d6625261",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:55.605Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "52556c5329b85f3c0f18001458bfcc6005d534801cd398213e7b9122e2a95df4",
+  "target_attachment_ref": "srd/magic_item/mithral-armor-splint#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-mithral-armor-splint"
+}

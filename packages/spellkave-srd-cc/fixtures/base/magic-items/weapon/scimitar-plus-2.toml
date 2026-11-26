@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale crescent gleam travels along its curved edge even in the dullest light, as though moonrise has been trapped beneath the steel. The hilt settles into the hand with uncanny balance, inviting swift, clean arcs that leave a whispering chill in their wake."
 display_name = "Scimitar (+2)"
 entity_def_id = "srd/magic_item/scimitar-plus-2"
 grants_capability_while_equipped = ""

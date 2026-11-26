@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Pale runes curl along the bow’s limbs like frost caught beneath clear varnish. When drawn, the string hums with a steady, eager note, and the air before it seems to narrow into a single unerring path. In moonlight, its polished wood holds the quiet sheen of a hunting hawk’s eye."
 display_name = "Longbow (+2)"
 entity_def_id = "srd/magic_item/longbow-plus-2"
 grants_capability_while_equipped = ""

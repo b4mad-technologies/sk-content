@@ -70,6 +70,7 @@ tag = "srd.spell.list.paladin"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A low, steady litany settles over the weary like warm rain on stone. Bruises fade, ragged breath deepens, and the strain of hard miles loosens from gathered companions as a shared hush gathers around them. When the final word falls silent, each rises carrying a little more strength than before."
 display_name = "Prayer of Healing"
 entity_def_id = "srd/spell/prayer-of-healing"
 grants_capability_while_equipped = ""
@@ -96,7 +97,7 @@ target_ref = "srd/spell/prayer-of-healing"
 action_id = "srd/spell/prayer-of-healing/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Prayer of Healing — a spell action."
+description = "You spend time leading a restorative prayer that heals several willing creatures within range. The spell cannot be cast as a quick response in combat."
 display_name = "Cast Prayer of Healing"
 non_steering = true
 on_failure = ""

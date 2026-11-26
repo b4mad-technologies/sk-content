@@ -163,6 +163,7 @@ tag = "srd.creature.role.archer"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Small but seldom solitary, goblin warriors turn broken ground, cluttered ruins, and shadowed thickets into dangerous territory. They fight with shrill confidence when the advantage is theirs, darting from cover to surround distracted foes. A lone goblin may seem like a nuisance; a band with time to prepare can make every doorway and dark corner feel hostile."
 display_name = "Goblin Warrior"
 entity_def_id = "srd/creature/goblin-warrior"
 grants_capability_while_equipped = ""

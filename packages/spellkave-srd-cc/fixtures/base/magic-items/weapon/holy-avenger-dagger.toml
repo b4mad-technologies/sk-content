@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "This slim, silvered blade carries the hush of a chapel before dawn. In the hand, its edge seems to drink shadows from the air, leaving a clean, sunlit stillness around its bearer. Malignant magic falters near its drawn point, while restless dead and infernal things recoil from the quiet certainty gleaming along its spine."
 display_name = "Holy Avenger (Dagger)"
 entity_def_id = "srd/magic_item/holy-avenger-dagger"
 grants_capability_while_equipped = ""

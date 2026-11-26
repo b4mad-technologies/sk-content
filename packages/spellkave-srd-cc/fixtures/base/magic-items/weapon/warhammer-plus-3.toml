@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_3"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The hammer’s square head bears a deep, steel-blue sheen, as though quenched beneath a thundercloud. Each swing leaves a sharp chill in the air and a low, resonant hum in the wielder’s bones. In the hand, it feels eager for stone, shield, and stubborn iron."
 display_name = "Warhammer (+3)"
 entity_def_id = "srd/magic_item/warhammer-plus-3"
 grants_capability_while_equipped = ""

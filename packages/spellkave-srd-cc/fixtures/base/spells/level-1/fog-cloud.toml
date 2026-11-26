@@ -94,6 +94,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale hush spills across the ground, swallowing boots, banners, and the certainty of open space. Within its pearled folds, sounds arrive softened and strangely close, while every silhouette becomes a rumor. The air tastes of rain on cold stone, and even seasoned hunters hesitate before entering its drifting veil."
 display_name = "Fog Cloud"
 entity_def_id = "srd/spell/fog-cloud"
 grants_capability_while_equipped = ""
@@ -121,7 +122,7 @@ target_ref = "srd/spell/fog-cloud"
 action_id = "srd/spell/fog-cloud/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Fog Cloud — a spell action."
+description = "You cast a spell that creates a cloud of fog, blocking sight within and through the area for its duration."
 display_name = "Cast Fog Cloud"
 non_steering = true
 on_failure = ""

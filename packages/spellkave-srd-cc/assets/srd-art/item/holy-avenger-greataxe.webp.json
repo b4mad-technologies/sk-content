@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-greataxe",
+  "overlay_template": "holy-avenger",
+  "overlay_badge": "holy",
+  "base_sha256": "929e1e4a785d9f018040972eb4fd5f53868f8cff517ae2b691fa5d5b33db5ea7",
+  "overlay_sha256": "64861c3849275cd13d635b8b7a62308bc7ed8397f3a844c78d4b2074fa40c88a",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:44.765Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "e48155823f8c52968bb08840ef215f7e2a2185b49abb360df835ec1f36aaf31d",
+  "target_attachment_ref": "srd/magic_item/holy-avenger-greataxe#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-holy-avenger-greataxe"
+}

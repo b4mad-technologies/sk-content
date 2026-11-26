@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The ladder is a plain frame of rungs and rails, the wood pale where boots have scraped the grain away. It leans with a dry knock against stone and settles into the lean. Climbing it, the hands find the rungs already polished by other hands, and the frame flexes once, then holds."
 display_name = "Ladder"
 entity_def_id = "srd/item/ladder"
 grants_capability_while_equipped = ""

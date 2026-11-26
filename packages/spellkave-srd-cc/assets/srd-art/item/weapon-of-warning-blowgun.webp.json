@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-blowgun",
+  "overlay_template": "weapon-of-warning",
+  "overlay_badge": "rune",
+  "base_sha256": "ee389d3acdd29f284d505abab99e3a69b3dfc2dc49299db6165274e6ef7871b3",
+  "overlay_sha256": "ed9b733c49d6fc246eb945a819df4069cadc2a65041679925c6fe215845c9e7d",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:51.052Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "5687aee2bdf042af633a895d7e98d54df93e64245881ac62954d0a38e3fb77d0",
+  "target_attachment_ref": "srd/magic_item/weapon-of-warning-blowgun#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-weapon-of-warning-blowgun"
+}

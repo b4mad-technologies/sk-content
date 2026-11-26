@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Braided with pale hide and slabs of rune-scarred stone, this broad belt feels cold even beside a roaring hearth. Its clasp settles against the wearer’s spine like a mountain finding its footing, lending every movement a grave, effortless certainty. Frost gathers along its carved edges when anger stirs nearby."
 display_name = "Belt of Giant Strength (Frost or Stone)"
 entity_def_id = "srd/magic_item/belt-of-giant-strength-frost-or-stone"
 grants_capability_while_equipped = ""

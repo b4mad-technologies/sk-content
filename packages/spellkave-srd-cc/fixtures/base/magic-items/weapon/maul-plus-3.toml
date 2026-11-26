@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_3"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A weapon of brutal simplicity, its broad iron head bears a cold luster that never dulls, even after shattering stone. When lifted, it seems to gather the weight of thunderclouds and the certainty of a falling tower. Each swing leaves the air trembling, as though the world itself expects to yield."
 display_name = "Maul (+3)"
 entity_def_id = "srd/magic_item/maul-plus-3"
 grants_capability_while_equipped = ""

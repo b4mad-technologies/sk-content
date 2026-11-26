@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its broad, crescent blade bears old soot in grooves that never seem to cool. At a spoken stirring, fire races along the edge without consuming the haft, filling the air with resin smoke and the hungry roar of a forge. In its glow, even a silent warrior casts a fierce, shifting shadow."
 display_name = "Flame Tongue Greataxe"
 entity_def_id = "srd/magic_item/flame-tongue-greataxe"
 grants_capability_while_equipped = ""

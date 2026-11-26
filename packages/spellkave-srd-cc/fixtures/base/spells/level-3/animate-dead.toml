@@ -84,6 +84,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Bone dust stirs in a breathless spiral, and the silence around the fallen grows suddenly attentive. Empty sockets kindle with a cold, borrowed purpose while ruined limbs gather themselves into obedience. An unseen tether hums between the living will and its grim attendants, taut as a funeral cord."
 display_name = "Animate Dead"
 entity_def_id = "srd/spell/animate-dead"
 grants_capability_while_equipped = ""

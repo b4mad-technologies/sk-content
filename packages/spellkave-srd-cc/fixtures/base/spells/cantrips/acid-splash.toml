@@ -82,6 +82,7 @@ tag = "srd.damage_type.acid"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A translucent globe swells in the air with a wet, eager hiss, its surface swirling in sickly shades of green and gold. When it bursts, sharp droplets scatter like rain from a corroded sky, smoking where they strike stone, steel, and flesh."
 display_name = "Acid Splash"
 entity_def_id = "srd/spell/acid-splash"
 grants_capability_while_equipped = ""
@@ -108,7 +109,7 @@ target_ref = "srd/spell/acid-splash"
 action_id = "srd/spell/acid-splash/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Acid Splash — a spell action."
+description = "You cast a burst of corrosive magic at one or two nearby creatures, forcing them to resist the spray or take acid damage."
 display_name = "Cast Acid Splash"
 non_steering = true
 on_failure = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its mirrored blade drinks the dimness from chapel stones and battlefield ash, answering with a clear, sunlit gleam. In a steadfast hand, the greatsword hums like a distant choir, wrapping nearby companions in a hush that turns hostile sorcery brittle. Creatures steeped in grave-cold malice find its radiance unbearable."
 display_name = "Holy Avenger (Greatsword)"
 entity_def_id = "srd/magic_item/holy-avenger-greatsword"
 grants_capability_while_equipped = ""

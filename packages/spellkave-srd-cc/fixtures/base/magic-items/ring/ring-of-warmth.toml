@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A band of dull silver that keeps a quiet ember against the skin, even beneath wind-scoured mail. Frost gathering on a traveler’s cloak softens to glittering dew, and bitter air loses its teeth around the hand that bears it. In deep winter, the ring’s warmth feels less like fire than a remembered hearth."
 display_name = "Ring of Warmth"
 entity_def_id = "srd/magic_item/ring-of-warmth"
 grants_capability_while_equipped = ""

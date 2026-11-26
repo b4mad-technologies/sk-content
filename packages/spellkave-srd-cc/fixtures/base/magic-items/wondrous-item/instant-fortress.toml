@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A cold little keep rests in the palm, every crenellation cut with impossible precision. At its whispered awakening, the air shudders with iron authority as walls climb skyward and a sealed refuge claims the ground. Within, the scent of dark metal and rainless stone lingers beneath the watchful silence of narrow windows."
 display_name = "Instant Fortress"
 entity_def_id = "srd/magic_item/instant-fortress"
 grants_capability_while_equipped = ""

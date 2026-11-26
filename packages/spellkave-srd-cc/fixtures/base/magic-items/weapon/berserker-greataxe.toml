@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its broad, nicked blade seems to drink the heat from the hand that grips it, settling there with a stubborn, living weight. The haft carries a faint thrum like distant war drums, growing sharper whenever blood is spilled nearby. Once claimed, it feels less like a tool than a hungry companion, forever urging its bearer toward the nearest heartbeat."
 display_name = "Berserker Greataxe"
 entity_def_id = "srd/magic_item/berserker-greataxe"
 grants_capability_while_equipped = ""

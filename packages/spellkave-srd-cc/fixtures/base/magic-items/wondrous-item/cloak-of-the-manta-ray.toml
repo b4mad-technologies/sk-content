@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "This midnight-blue cloak clings like cool kelp when it meets the sea, its broad hem unfurling in silent, graceful folds. Beneath the surface, its wearer moves with the calm certainty of a creature born to the depths, while saltwater tastes as clean as rain."
 display_name = "Cloak of the Manta Ray"
 entity_def_id = "srd/magic_item/cloak-of-the-manta-ray"
 grants_capability_while_equipped = ""

@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A cold blue sheen clings to the handaxe’s compact head, brightening whenever its edge catches the light. Its ash haft sits snugly in the palm, balanced with the quiet certainty of a tool made for swift, decisive work. Even at rest, it seems to carry the hush of a winter-cleared grove."
 display_name = "Handaxe (+2)"
 entity_def_id = "srd/magic_item/handaxe-plus-2"
 grants_capability_while_equipped = ""

@@ -89,6 +89,7 @@ tag = "srd.spell.list.paladin"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A whispered devotion catches the light and becomes a translucent mantle around its chosen guardian. Blows glance away in ripples of pale radiance, as though an unseen hand turns steel aside at the last breath. Within the glow, courage settles like warm iron beneath the ribs."
 display_name = "Shield of Faith"
 entity_def_id = "srd/spell/shield-of-faith"
 grants_capability_while_equipped = ""
@@ -116,7 +117,7 @@ target_ref = "srd/spell/shield-of-faith"
 action_id = "srd/spell/shield-of-faith/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Shield of Faith — a spell action."
+description = "You cast a protective spell on a creature you can see, improving its defense while you maintain the spell."
 display_name = "Cast Shield of Faith"
 non_steering = true
 on_failure = ""
@@ -150,7 +151,7 @@ template_id = "srd/spell/shield-of-faith/cast/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/spell/shield-of-faith"
-description = "Shield of Faith — a spell condition."
+description = "A protective magical ward surrounds you, making you harder to hit. It lasts while the spell is maintained or until it ends."
 display_name = "Shield of Faith"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

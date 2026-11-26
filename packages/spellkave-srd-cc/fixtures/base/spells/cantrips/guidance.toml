@@ -82,6 +82,7 @@ tag = "srd.spell.list.druid"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A quiet blessing settles like a warm thread around a companion’s chosen talent. For a fleeting while, instincts sharpen, hands find surer purchase, and half-remembered lessons rise at the needed moment. The magic leaves no grand spectacle—only the comforting sense that fortune has leaned close to listen."
 display_name = "Guidance"
 entity_def_id = "srd/spell/guidance"
 grants_capability_while_equipped = ""
@@ -109,7 +110,7 @@ target_ref = "srd/spell/guidance"
 action_id = "srd/spell/guidance/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Guidance — a spell action."
+description = "You cast a brief spell that aids a willing creature you can touch. Before the spell ends, it can add a small bonus to one ability check."
 display_name = "Cast Guidance"
 non_steering = true
 on_failure = ""
@@ -143,7 +144,7 @@ template_id = "srd/spell/guidance/cast/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/spell/guided"
-description = "Guidance — a spell condition."
+description = "A magical effect that helps you succeed at a task. While it lasts, you can add a small bonus when you make an ability check."
 display_name = "Guidance"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

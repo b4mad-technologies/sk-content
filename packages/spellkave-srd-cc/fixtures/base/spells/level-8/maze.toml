@@ -78,6 +78,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "With a crooked gesture, the world folds around a chosen foe and leaves only a hush where they stood. Beyond sight lies a shifting prison of endless corridors, cold stone, and passages that seem to rearrange with every doubtful thought. When the enchantment loosens, the lost figure is cast back into the waking world, disoriented by impossible distances."
 display_name = "Maze"
 entity_def_id = "srd/spell/maze"
 grants_capability_while_equipped = ""

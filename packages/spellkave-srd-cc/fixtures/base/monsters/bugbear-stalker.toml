@@ -163,6 +163,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A bugbear stalker turns tangled woods, ruined halls, and torchlit roads into hunting grounds, moving with a patience that makes every shadow feel watched. It favors isolated prey and sudden violence, looming from concealment with brutal confidence before melting back into cover. Even seasoned travelers may mistake its approach for nothing more than a branch settling in the dark."
 display_name = "Bugbear Stalker"
 entity_def_id = "srd/creature/bugbear-stalker"
 grants_capability_while_equipped = ""

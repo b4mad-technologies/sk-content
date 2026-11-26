@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-greatsword",
+  "overlay_template": "defender",
+  "overlay_badge": "rune",
+  "base_sha256": "a772203f65f0607eccf457e03e7cbb82738fdcb1e3542633fecf5ac8c85a5510",
+  "overlay_sha256": "ed9b733c49d6fc246eb945a819df4069cadc2a65041679925c6fe215845c9e7d",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:39.375Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "0e882d092e55b7159a6be9bf1db01286e44bac79bb2223b81ba4c049dad6c92a",
+  "target_attachment_ref": "srd/magic_item/defender-greatsword#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-defender-greatsword"
+}

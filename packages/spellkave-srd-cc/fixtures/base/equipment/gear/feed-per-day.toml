@@ -36,6 +36,7 @@ tag = "srd.item.food"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A sack of mount feed gives off a warm, mealy smell when the mouth is opened, chaff clinging to the fingers and the cuff. It is ordinary and welcome at the end of a long road, nothing fine and nothing wasted. The animal knows the sound of it before the first handful falls."
 display_name = "Feed (per day)"
 entity_def_id = "srd/item/feed-per-day"
 grants_capability_while_equipped = ""

@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_3"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Three dark prongs rise from a shaft wrapped in salt-stiff leather, each edge holding a pale, unwavering gleam. In the hand, it feels eager and perfectly balanced, as though every thrown arc has already been traced through the air. A faint scent of rain clings to its metal even beneath a cloudless sky."
 display_name = "Trident (+3)"
 entity_def_id = "srd/magic_item/trident-plus-3"
 grants_capability_while_equipped = ""

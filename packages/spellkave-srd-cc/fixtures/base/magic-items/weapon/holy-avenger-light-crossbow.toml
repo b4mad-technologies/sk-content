@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Pale sigils stir along the stock when its string is drawn, casting a hush over the air like dawn through cathedral glass. In the hands of a steadfast hunter, its bolts leave silvered trails that make grave-cold shadows recoil. Those standing close feel their courage settle, sheltered beneath an unseen, sanctified calm."
 display_name = "Holy Avenger (Light Crossbow)"
 entity_def_id = "srd/magic_item/holy-avenger-light-crossbow"
 grants_capability_while_equipped = ""

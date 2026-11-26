@@ -84,6 +84,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A fan of impossible color bursts forth, each hue bearing a different catastrophe in its heart. Scarlet sears, azure steals warmth, and stranger shades bind flesh or pull sight beyond the world’s familiar edge. For an instant, the battlefield gleams like a shattered rainbow caught in a storm."
 display_name = "Prismatic Spray"
 entity_def_id = "srd/spell/prismatic-spray"
 grants_capability_while_equipped = ""

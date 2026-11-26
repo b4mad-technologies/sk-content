@@ -40,6 +40,7 @@ tag = "srd.tool.category.artisan"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Glass vials chime softly in their padded case, each stoppered against sharp fumes and brighter accidents. Mortar, tongs, powders, and stained stirring rods invite patient hands to tease secrets from sap, salt, and stone. Even closed, the kit carries the dry mineral scent of workshops where a single spark can become revelation—or trouble."
 display_name = "Alchemist's Supplies"
 entity_def_id = "srd/tool/alchemists-supplies"
 grants_capability_while_equipped = ""

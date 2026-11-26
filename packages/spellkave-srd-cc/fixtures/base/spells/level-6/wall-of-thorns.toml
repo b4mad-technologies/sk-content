@@ -84,6 +84,7 @@ tag = "srd.spell.list.druid"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The earth answers in a furious rush of green, knotting itself into a living barricade of briar and thorn. Leaves shudder in an unseen wind while hooked branches claw at passing shadows, turning open ground into a snarled, blood-bright maze. Beyond its dense veil, even torchlight seems to lose its way."
 display_name = "Wall of Thorns"
 entity_def_id = "srd/spell/wall-of-thorns"
 grants_capability_while_equipped = ""

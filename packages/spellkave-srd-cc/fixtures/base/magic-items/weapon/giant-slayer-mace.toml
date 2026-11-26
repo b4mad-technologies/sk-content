@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "This heavy-headed mace hums faintly when towering footsteps shake the ground, its iron flanges seeming to lean toward the source. In battle, each swing carries the hard certainty of a falling bell, striking at knees and shins with a force that can make even colossal foes falter."
 display_name = "Giant Slayer (Mace)"
 entity_def_id = "srd/magic_item/giant-slayer-mace"
 grants_capability_while_equipped = ""

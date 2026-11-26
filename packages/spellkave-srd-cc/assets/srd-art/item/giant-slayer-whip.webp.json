@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-whip",
+  "overlay_template": "giant-slayer",
+  "overlay_badge": "death",
+  "base_sha256": "93951aece2c8a2e20dcd178eaa71bf7d28aade43975166874691c642b69e2065",
+  "overlay_sha256": "9bf5fbdf25b4d354919a4426d4ad056425b09b580f5cb0c80c74ae592fe6a728",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:44.013Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "d205a3c6936b674226253da67e21eccc5bc1fddfd608cbe9cf71b1e8e10524c0",
+  "target_attachment_ref": "srd/magic_item/giant-slayer-whip#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-giant-slayer-whip"
+}

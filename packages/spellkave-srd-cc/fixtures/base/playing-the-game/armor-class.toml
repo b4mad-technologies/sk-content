@@ -25,6 +25,7 @@ target_id = "srd/ac"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "The number an attacker must meet or exceed to hit you. Your armor, agility, and other defenses can change how hard you are to strike."
 display_name = "Armor Class"
 initial_value = 10
 max_value = 30

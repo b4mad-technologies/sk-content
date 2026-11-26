@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "This broad, sainted cudgel bears pale sigils beneath its iron bands, warm as sunlit stone in a temple ruin. When lifted against creatures steeped in grave-cold malice, its heavy head blooms with dawn-bright fire. Allies standing near its bearer find hostile sorcery faltering like rain against a ringing bell."
 display_name = "Holy Avenger (Greatclub)"
 entity_def_id = "srd/magic_item/holy-avenger-greatclub"
 grants_capability_while_equipped = ""

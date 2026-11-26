@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Pale rime veils the blade’s edge, and its hilt carries the deep, clean chill of midnight snow. Drawn from its scabbard, it drinks the warmth from nearby candlelight and leaves the air hushed with drifting frost. In bitter weather, the steel kindles with a cold blue gleam, as though a winter star had been hammered into a sword."
 display_name = "Frost Brand (Longsword)"
 entity_def_id = "srd/magic_item/frost-brand-longsword"
 grants_capability_while_equipped = ""

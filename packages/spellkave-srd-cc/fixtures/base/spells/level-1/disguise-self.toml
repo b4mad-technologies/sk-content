@@ -84,6 +84,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A whisper of glamour slides over flesh, cloth, and carried steel, settling like moonlight on still water. Familiar features loosen into a chosen stranger’s smile, while colors, cuts, and trappings rearrange themselves to suit the masquerade. Only a searching hand finds the hollow places where the illusion has painted more than reality can hold."
 display_name = "Disguise Self"
 entity_def_id = "srd/spell/disguise-self"
 grants_capability_while_equipped = ""

@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A chill, silver-bright balance rests in its hilt, as though the blade remembers every quick decision ever made with it. In dim light, its edge gathers a faint gleam that never seems to come from the room. Drawn close, it carries the quiet confidence of a secret kept sharp."
 display_name = "Dagger (+2)"
 entity_def_id = "srd/magic_item/dagger-plus-2"
 grants_capability_while_equipped = ""

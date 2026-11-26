@@ -33,241 +33,241 @@ tag = "srd.difficulty_class"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a capability definition as an SRD skill."
+description = "Marks a capability as a skill: a trained area of ability you use when a task calls for it."
 prefix = "srd"
 tag = "srd.skill"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a capability definition as one of the named SRD actions."
+description = "A label for a capability that uses one of the game’s standard actions. You use it when that action is available to you."
 prefix = "srd"
 tag = "srd.action"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a capability definition as an SRD ability or skill check."
+description = "Marks a capability as an ability or skill check. You use it when a rule calls for testing an ability or trained skill."
 prefix = "srd"
 tag = "srd.check"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as an SRD item."
+description = "Marks an entity as an item: an object that can be carried, used, equipped, or otherwise handled in play."
 prefix = "srd"
 tag = "srd.item"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as a consumable used through the srd/consume verb (one dose per use; fragments/consume.ts)."
+description = "Marks an item that is used up as you use it, one dose at a time, such as a potion."
 prefix = "srd"
 tag = "srd.consumable"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as an SRD tool. Tool identity is separate from the actor capability that represents proficiency with that tool."
+description = "Marks an entity definition as a tool. This identifies the item itself, separate from any capability that lets you use it proficiently."
 prefix = "srd"
 tag = "srd.tool"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a capability definition as an SRD tool proficiency. Future Character Creation class/background generation grants this capability; the tag itself is metadata only."
+description = "Marks a capability as proficiency with a specific tool. You gain it from your class, background, or other character options."
 prefix = "srd"
 tag = "srd.tool_proficiency"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as a lock target for the sourced Thieves' Tools lock-picking check. SRD source: Item.json pk srd-2024_lock."
+description = "Marks an object as a lock you can attempt to pick with Thieves’ Tools."
 prefix = "srd"
 tag = "srd.lock"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition or modifier template as SRD armor."
+description = "Marks an entity or modifier template as armor for rules that refer to armor."
 prefix = "srd"
 tag = "srd.armor"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition or modifier template as SRD heavy armor."
+description = "Marks an entity or modifier as heavy armor for rules that refer to that armor category."
 prefix = "srd"
 tag = "srd.armor.heavy"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition or modifier template as SRD light armor."
+description = "Marks an item or modifier as light armor for rules that refer to that armor category."
 prefix = "srd"
 tag = "srd.armor.light"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition or modifier template as SRD medium armor."
+description = "Marks an item or template as medium armor for rules that refer to that armor category."
 prefix = "srd"
 tag = "srd.armor.medium"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition or modifier template as an SRD Shield. Distinct table subsection from Light/Medium/Heavy armor (equipment.md's own 'Shield' heading)."
+description = "Marks an equipment entry or modifier template as a shield. Shields are listed separately from light, medium, and heavy armor."
 prefix = "srd"
 tag = "srd.armor.shield"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a modifier template that grants Advantage on a ResolutionCheck. SRD source: playing-the-game.md:395-399."
+description = "A modifier that lets you roll a Resolution Check twice and use the better result."
 prefix = "srd"
 tag = "srd.roll_bias.advantage"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a modifier template that imposes Disadvantage on a ResolutionCheck. SRD source: playing-the-game.md:395-399."
+description = "A modifier that makes a resolution check less favorable. When it applies, you use the lower of two rolls for that check."
 prefix = "srd"
 tag = "srd.roll_bias.disadvantage"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a creature-shaped entity. The entity tag supplies target-niche membership and derives the bundle's implemented universal creature attempts through tag_capability_grant."
+description = "Marks an entity as a creature. It can be targeted by effects and use the basic actions available to creatures."
 prefix = "srd"
 tag = "srd.creature"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a monster entity definition — Monster Death (playing-the-game.md:1217) applies only to a tagged actor: a monster dies the instant it drops to 0 Hit Points, where a character instead falls Unconscious and makes Death Saving Throws (:1229-1247). Omitting this tag on a specific monster is the SRD's own documented escape hatch ('a Game Master can ignore this rule for an individual monster and treat it like a character', :1217). Player characters and all other actors carry no tag under this prefix."
+description = "Marks an actor as a monster. When it drops to 0 Hit Points, it dies instead of falling Unconscious and making Death Saving Throws."
 prefix = "srd"
 tag = "srd.monster"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a player-character entity definition and anchors its PC-only identity->capability bridge (tag_capability_grant): a player character may Level Up, Claim Victory, and spend Heroic Inspiration to reroll. Universal creature attempts derive separately from srd.creature. It does NOT ship the character death branch: Death Saving Throws (playing-the-game.md:1229-1247) remain unshipped and the Monster Death guard still keys on srd.monster alone, so this tag is not its negation. Never authored on a monster or ordinary NPC."
+description = "Marks an entity as a player character. You can level up, claim victory, and spend Heroic Inspiration to reroll."
 prefix = "srd"
 tag = "srd.player_character"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition with an established vocal communication modality and grants the shipped Speak capability through tag_capability_grant. It is independent of srd.creature target identity, srd.language.* competence, and non-vocal modalities."
+description = "You can communicate aloud using a voice. This lets you use the Speak capability, regardless of what languages you know."
 prefix = "srd"
 tag = "srd.communication.vocal"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as an SRD feat."
+description = "A special option that grants you a new benefit. You choose one when a rule lets you gain a feat."
 prefix = "srd"
 tag = "srd.feat"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a feat entity definition (or its gate capability) as an Origin feat."
+description = "Marks a feat as an Origin feat. You can choose it only when a rule lets you select a feat from that category."
 prefix = "srd"
 tag = "srd.feat.origin"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a feat entity definition as a General feat."
+description = "Marks a feat as a General feat. You can choose it whenever you meet its prerequisites and gain a feat choice."
 prefix = "srd"
 tag = "srd.feat.general"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a feat entity definition as a Fighting Style feat."
+description = "A feat category for combat training options. You gain one when a feature lets you choose a Fighting Style."
 prefix = "srd"
 tag = "srd.feat.fighting_style"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies a feat entity definition as an Epic Boon feat."
+description = "A feat granted for extraordinary achievements beyond ordinary advancement. It marks a character option as an Epic Boon."
 prefix = "srd"
 tag = "srd.feat.epic_boon"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as an SRD background."
+description = "Marks an entity as a character background. A background represents your life before adventuring and helps determine your starting proficiencies and equipment."
 prefix = "srd"
 tag = "srd.background"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Acolyte background. Skill proficiencies: Insight and Religion. Origin feat: Magic Initiate (Cleric)."
+description = "A background for someone trained in religious service. You gain proficiency in Insight and Religion, and you begin with the Magic Initiate feat for cleric magic."
 prefix = "srd"
 tag = "srd.background.acolyte"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Criminal background. Skill proficiencies: Sleight of Hand and Stealth. Origin feat: Alert."
+description = "You gain proficiency in Sleight of Hand and Stealth, along with the Alert origin feat."
 prefix = "srd"
 tag = "srd.background.criminal"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Sage background. Skill proficiencies: Arcana and History. Origin feat: Magic Initiate (Wizard)."
+description = "A scholarly background that grants proficiency in Arcana and History. You also gain the Magic Initiate feat, choosing wizard magic."
 prefix = "srd"
 tag = "srd.background.sage"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Soldier background. Skill proficiencies: Athletics and Intimidation. Origin feat: Savage Attacker."
+description = "You are trained for battle, gaining proficiency in Athletics and Intimidation. You also gain the Savage Attacker origin feat."
 prefix = "srd"
 tag = "srd.background.soldier"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity instance as standing with the player's own party — a combat_grid session's termination/winner predicates group participants by this tag's prefix ('srd.faction.'). Renamed from the legacy colon-shaped 'faction:party' (sk-ntz.3)."
+description = "Marks a creature or entity as part of your party. Rules that determine allies, winners, or encounter outcomes can treat it as belonging to your group."
 prefix = "srd"
 tag = "srd.faction.party"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity instance as standing with the opposing monster faction — the same combat_grid termination/winner grouping as srd.faction.party, the other side. Renamed from the legacy colon-shaped 'faction:monsters' (sk-ntz.3)."
+description = "Marks a creature as part of the opposing side in combat. It is grouped with other monsters when determining the battle’s outcome."
 prefix = "srd"
 tag = "srd.faction.monsters"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as a container item — a pack or other vessel that can hold other items. Renamed from the legacy flat 'container' (sk-ntz.7)."
+description = "Marks an item as able to hold other items, such as a pack, pouch, or similar vessel."
 prefix = "srd"
 tag = "srd.item.container"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as adventuring gear. Renamed from the legacy flat 'gear' (sk-ntz.7)."
+description = "Marks an item as adventuring gear for rules that refer to equipment and supplies."
 prefix = "srd"
 tag = "srd.item.gear"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as food (rations or similar). Renamed from the legacy flat 'food' (sk-ntz.7)."
+description = "Marks an item as food, such as rations or similar provisions. You can eat it when a rule calls for food or supplies."
 prefix = "srd"
 tag = "srd.item.food"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as a light source (a torch or similar). Distinct from srd.armor.light. Renamed from the legacy flat 'light' (sk-ntz.7)."
+description = "Marks an item or effect as a source of illumination, such as a torch or lantern."
 prefix = "srd"
 tag = "srd.item.light"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity instance as Aldwin (the hearth-ledger keeper) — the level-up wizard's directed target. Renamed from the legacy slash-flat 'dm-npc/aldwin' (sk-ntz.7)."
+description = "Marks this entity as Aldwin, the level-up guide. You select it when a rule or tool asks for Aldwin as its target."
 prefix = "srd"
 tag = "srd.dm_npc.aldwin"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity instance as a character-creation station — the creation wizard's directed target. Renamed from the legacy slash-flat 'dm-npc/creation' (sk-ntz.7)."
+description = "Marks a character-creation station. The creation wizard uses it as the target for creating a new character."
 prefix = "srd"
 tag = "srd.dm_npc.creation"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an NPC that provides numbered dialog answers (entity-provided dm/niche/dialog). tag_capability_grant on this tag composes the self-only set-open verb; Answer k is gated on the NPC's dm/dialog/open count."
+description = "Marks an NPC who can offer numbered conversation choices. You can open their dialogue for yourself, then select an available answer."
 prefix = "srd"
 tag = "srd.dm_npc.talker"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity instance as a member of the elven-mini heroes party. A party extent grant names this same string as extent_ref; membership is every body carrying the tag, plus their current session peers. Renamed from the legacy colon-shaped 'member_of:elven_mini/party/heroes' (sk-ntz.7)."
+description = "Marks you as a member of the Heroes party. You are included with other tagged members and their current session companions."
 prefix = "srd"
 tag = "srd.party.heroes"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identity tag marking an entity as a trainer that affords srd/advancement/level-up to a co-located eligible actor (character-creation.md:769-810 (§ Gaining a Level)). Carries identity only — the affordance rides the same-named niche_definitions row, never this vocabulary entry."
+description = "Marks an entity as a trainer. An eligible character sharing its location can use it to gain a level."
 prefix = "srd"
 tag = "srd.advancement_trainer"
 
@@ -291,84 +291,84 @@ tag = "srd.travel_pace.slow"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Aberrations are utterly alien beings, such as aboleths and cloakers."
+description = "A creature type for beings with alien minds and bodies, unlike ordinary natural life."
 prefix = "srd.creature_type"
 tag = "srd.creature_type.aberration"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Beasts are non-Humanoid natural creatures, like horses and wolves, as well as most giant animals."
+description = "A Beast is a natural creature that is not Humanoid, such as a horse, wolf, or giant animal."
 prefix = "srd.creature_type"
 tag = "srd.creature_type.beast"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Celestials are magical creatures, such as angels and pegasi, with ties to the Upper Planes."
+description = "A magical creature tied to the Upper Planes, such as an angel or pegasus."
 prefix = "srd.creature_type"
 tag = "srd.creature_type.celestial"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Constructs are magically created creatures such as homunculi and shield guardians."
+description = "A creature made through magic or artifice rather than natural life. It often follows the purpose or commands built into it."
 prefix = "srd.creature_type"
 tag = "srd.creature_type.construct"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Dragons are scaly beings of ancient origin, such as red dragons and wyverns."
+description = "A creature tag for scaly beings of ancient origin, including red dragons and wyverns."
 prefix = "srd.creature_type"
 tag = "srd.creature_type.dragon"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Elementals are beings from the Elemental Planes, such as efreet and water elementals."
+description = "A creature tied to one of the Elemental Planes, often shaped by fire, water, earth, or air."
 prefix = "srd.creature_type"
 tag = "srd.creature_type.elemental"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Fey are creatures tied to the Feywild or the forces of nature, such as dryads and goblins."
+description = "A creature type for beings linked to the Feywild or primal natural forces. It includes creatures such as dryads and goblins."
 prefix = "srd.creature_type"
 tag = "srd.creature_type.fey"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Fiends are creatures tied to terrifying Lower Planes, such as balors and hell hounds."
+description = "A creature associated with the Lower Planes and their malevolent powers. Some magic and class features specifically affect creatures of this type."
 prefix = "srd.creature_type"
 tag = "srd.creature_type.fiend"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Giants are towering beings with humanlike shapes, like fire giants and trolls."
+description = "A creature type for towering, humanlike beings such as trolls and fire giants. Traits and effects may apply differently to creatures of this type."
 prefix = "srd.creature_type"
 tag = "srd.creature_type.giant"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Humanoids are people defined by their roles and professions, such as mages, pirates, and warriors. They include members of varied species."
+description = "A creature with a personlike body and a role or profession, such as a mage, pirate, or warrior. Humanoids can belong to many different species."
 prefix = "srd.creature_type"
 tag = "srd.creature_type.humanoid"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Monstrosities are unnatural creatures with strange origins, such as mimics and owlbears."
+description = "A creature type for unnatural beings shaped by strange magic, experiments, or unknown origins."
 prefix = "srd.creature_type"
 tag = "srd.creature_type.monstrosity"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Oozes are gelatinous creatures, including black puddings and gelatinous cubes."
+description = "A creature type for gelatinous beings such as slimes, puddings, and cubes. Traits that affect oozes apply to creatures with this type."
 prefix = "srd.creature_type"
 tag = "srd.creature_type.ooze"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Plants are sentient vegetation and fungal monsters, such as shambling mounds and treants."
+description = "A creature type for sentient plants and fungi. It includes animated vegetation and similar living growths."
 prefix = "srd.creature_type"
 tag = "srd.creature_type.plant"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Undead are spirits and the reanimated dead, such as ghosts, vampires, and zombies."
+description = "A creature type for spirits and reanimated corpses, including ghosts, vampires, and zombies. Effects that refer to undead apply to creatures of this type."
 prefix = "srd.creature_type"
 tag = "srd.creature_type.undead"

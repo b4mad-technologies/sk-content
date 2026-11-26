@@ -71,7 +71,7 @@ tag = "srd.damage_type.bludgeoning"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Flail — a martial melee weapon."
+description = "A chain whispers over leather as the weighted head circles, gathering menace with every turn. In a practiced grip, the weapon feels alive with sudden momentum—awkward only until its rhythm becomes an extension of the wielder’s stride. One clean swing can turn a shield wall’s confidence into scattered splinters."
 display_name = "Flail"
 entity_def_id = "srd/weapon/flail"
 grants_capability_while_equipped = ""

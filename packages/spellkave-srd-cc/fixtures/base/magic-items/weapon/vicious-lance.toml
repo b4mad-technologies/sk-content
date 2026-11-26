@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its polished shaft hums beneath a rider’s grip, eager for the violent certainty of a charge. When it finds its mark, the lance seems to drive deeper than steel should allow, carrying the thunderous momentum of horse, heart, and battlefield into a single merciless stroke."
 display_name = "Vicious Lance"
 entity_def_id = "srd/magic_item/vicious-lance"
 grants_capability_while_equipped = ""

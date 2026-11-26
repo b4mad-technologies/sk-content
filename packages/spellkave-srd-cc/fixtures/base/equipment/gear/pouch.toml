@@ -36,6 +36,7 @@ tag = "srd.item.container"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Soft leather, drawstring pulled tight, the pouch sits small against the hip and warms to the body. The cord has darkened where fingers pinch it open, and the mouth gapes just wide enough for a hand. Whatever goes in disappears into a warm, close dark and stays until the string is loosened again."
 display_name = "Pouch"
 entity_def_id = "srd/item/pouch"
 grants_capability_while_equipped = ""

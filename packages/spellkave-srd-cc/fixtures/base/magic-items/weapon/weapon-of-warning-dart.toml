@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "This slim dart hums faintly in its case, as though listening beyond the nearest door. At the first stir of danger, its balance shifts against the hand and sleep loosens its hold on nearby companions. Those who carry its warning rise with hearts already racing, poised before the first blade is drawn."
 display_name = "Weapon of Warning (Dart)"
 entity_def_id = "srd/magic_item/weapon-of-warning-dart"
 grants_capability_while_equipped = ""

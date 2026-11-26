@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The spear’s ashwood shaft seems light until a towering foe looms near, when its balance settles with uncanny certainty. Cold iron rings along the blade hum beneath the hand, eager for the thunderous fall of oversized footsteps. In battle, each thrust carries the stubborn force of a mountain cracking at its roots."
 display_name = "Giant Slayer (Spear)"
 entity_def_id = "srd/magic_item/giant-slayer-spear"
 grants_capability_while_equipped = ""

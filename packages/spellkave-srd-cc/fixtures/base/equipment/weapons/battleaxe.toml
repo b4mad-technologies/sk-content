@@ -77,7 +77,7 @@ tag = "srd.damage_type.slashing"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Battleaxe — a martial melee weapon."
+description = "A broad crescent of honed steel crowns a stout haft, built to bite deep where lighter blades glance away. Its weight settles into the shoulders and hips, rewarding a committed swing with a jarring, timber-splitting force. Fresh oil darkens the grain beneath the grip, while old nicks along the edge tell of hard use."
 display_name = "Battleaxe"
 entity_def_id = "srd/weapon/battleaxe"
 grants_capability_while_equipped = ""

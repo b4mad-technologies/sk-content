@@ -164,6 +164,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A werebear carries a quiet strength that feels more like a mountain than a beast. Many keep to lonely forests and high valleys, avoiding conflict until their territory or companions are threatened. When anger finally breaks their restraint, fur and fury rise together, and even hardened hunters learn to fear the sound of heavy paws in the dark."
 display_name = "Werebear"
 entity_def_id = "srd/creature/werebear"
 grants_capability_while_equipped = ""

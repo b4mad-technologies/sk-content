@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Painted silk stretches across lacquered ribs, cool beneath the fingers and scented faintly with rain on distant stone. A single sweeping motion stirs the air into a sudden, willful gale, tugging cloaks, scattering ash, and setting loose banners snapping like startled birds. Each use leaves the fan a little more fragile, as though the wind longs to reclaim its borrowed wings."
 display_name = "Wind Fan"
 entity_def_id = "srd/magic_item/wind-fan"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale glimmer clings to the sickle’s inward curve, like moonlight caught on a threshing blade. In still rooms it gives off the faintest tremor before danger stirs, a silent urgency that prickles across nearby skin. Sleep near it is never entirely deep; when violence gathers, its presence pulls companions sharply back into the waking world."
 display_name = "Weapon of Warning (Sickle)"
 entity_def_id = "srd/magic_item/weapon-of-warning-sickle"
 grants_capability_while_equipped = ""

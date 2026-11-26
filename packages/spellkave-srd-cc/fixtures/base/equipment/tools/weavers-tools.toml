@@ -40,6 +40,7 @@ tag = "srd.tool.category.artisan"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A weaver’s kit hums softly with the small industry of thread, needle, shuttle, and shears. Fibers slip through practiced fingers, drawing loose strands into sturdy cordage or quiet patterns that catch the light. In a patient hand, even a torn seam becomes an invitation to make something finer."
 display_name = "Weaver's Tools"
 entity_def_id = "srd/tool/weavers-tools"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A low, eager warmth sleeps beneath the great blade’s darkened steel, stirring at a spoken breath. When roused, fire races along its length without consuming leather, hand, or scabbard, painting nearby stone in fierce amber and throwing long shadows into retreat. The weapon seems to hum with the appetite of a forge left burning through the night."
 display_name = "Flame Tongue Greatsword"
 entity_def_id = "srd/magic_item/flame-tongue-greatsword"
 grants_capability_while_equipped = ""

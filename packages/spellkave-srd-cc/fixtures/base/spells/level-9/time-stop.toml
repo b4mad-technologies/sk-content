@@ -72,6 +72,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A syllable falls from the caster’s lips, and the world is caught between heartbeats. Dust hangs like constellations in still air while torchlight becomes a motionless ribbon, leaving one solitary figure to walk the silent seam of the moment. When the hush breaks, reality lurches forward as though nothing ever paused."
 display_name = "Time Stop"
 entity_def_id = "srd/spell/time-stop"
 grants_capability_while_equipped = ""

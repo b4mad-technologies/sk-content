@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Dark, star-flecked metal bands the breastplate’s core beneath a tempered outer sheen, cool even beside a forge. Its surface bears the quiet scars of old blows without yielding, as though each strike is swallowed by the mountain-deep strength within. Worn close, it lends the wearer the grave certainty of stone standing against a storm."
 display_name = "Adamantine Armor (Breastplate)"
 entity_def_id = "srd/magic_item/adamantine-armor-breastplate"
 grants_capability_while_equipped = ""

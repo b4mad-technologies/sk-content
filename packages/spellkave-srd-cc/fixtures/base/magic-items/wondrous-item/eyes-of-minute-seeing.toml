@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Two flawless crystal lenses, cool against the skin, turn every nearby surface into a hidden landscape. Dust becomes a trail of broken motes, hairline seams become roads, and ink reveals the tremor of the hand that set it down. In their pale gleam, darkness close at hand yields its smallest secrets."
 display_name = "Eyes of Minute Seeing"
 entity_def_id = "srd/magic_item/eyes-of-minute-seeing"
 grants_capability_while_equipped = ""

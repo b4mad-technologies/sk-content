@@ -1,0 +1,1381 @@
+{
+	"schema": "spellkave-prose-manifest/v1",
+	"output_dir": "packages/spellkave-srd-cc/authored/flavor/.runs",
+	"entries": [
+		{
+			"id": "gear/acid",
+			"display_name": "Acid",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "When you take the Attack action, you can replace one of your attacks with throwing a vial of Acid. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 2d6 Acid damage."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/alchemists-fire",
+			"display_name": "Alchemist's Fire",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "When you take the Attack action, you can replace one of your attacks with throwing a flask of Alchemist's Fire. Target one creature or object you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 1d4 Fire damage and start burning (see \"Rules Glossary\")."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/antitoxin",
+			"display_name": "Antitoxin",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "As a Bonus Action, you can drink a vial of Antitoxin to gain Advantage on saving throws to avoid or end the Poisoned condition for 1 hour. abo"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/arrows-20",
+			"display_name": "Arrows (20)",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ammunition for weapons that use arrows. Comes in a pack of 20. Typically stored in a quiver."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/backpack",
+			"display_name": "Backpack",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Backpack holds up to 30 pounds within 1 cubic foot. It can also serve as a saddlebag."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/ball-bearings",
+			"display_name": "Ball Bearings",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "As a Utilize action, you can spill Ball Bearings from their pouch. They spread to cover a level, 10-footsquare area within 10 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 10 Dexterity saving throw or have the Prone condition. It takes 10 minutes to recover the Ball Bearings."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/barrel",
+			"display_name": "Barrel",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Barrel holds up to 40 gallons of liquid or up to 4 cubic feet of dry goods."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/basket",
+			"display_name": "Basket",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Basket holds up to 40 pounds within 2 cubic feet."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/bedroll",
+			"display_name": "Bedroll",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Bedroll sleeps one Small or Medium creature. While in a Bedroll, you automatically succeed on saving throws against extreme cold (see \"Gameplay Toolbox\")."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/bell",
+			"display_name": "Bell",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "When rung as a Utilize action, a Bell produces a sound that can be heard up to 60 feet away."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/blanket",
+			"display_name": "Blanket",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "While wrapped in a blanket, you have Advantage on saving throws against extreme cold (see \"Gameplay Toolbox\")."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/bolts-20",
+			"display_name": "Bolts (20)",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ammunition for weapons that use bolts. Comes in a pack of 20. Typically stored in a case."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/bullets-firearm-10",
+			"display_name": "Bullets, Firearm (10)",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ammunition for weapons that use bullets, firearm. Comes in a pack of 10. Typically stored in a pouch."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/bullets-sling-20",
+			"display_name": "Bullets, Sling (20)",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ammunition for weapons that use bullets, sling. Comes in a pack of 20. Typically stored in a pouch."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/block-and-tackle",
+			"display_name": "Block and Tackle",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Block and Tackle allows you to hoist up to four times the weight you can normally lift."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/book",
+			"display_name": "Book",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Book contains fiction or nonfiction. If you consult an accurate nonfiction Book about its topic, you gain a +5 bonus to Intelligence (Arcana, History, Nature, or Religion) checks you make about that topic."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/bottle-glass",
+			"display_name": "Bottle, Glass",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Glass Bottle holds up to 1 0.5 pints."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/bucket",
+			"display_name": "Bucket",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Bucket holds up to half a cubic foot of contents."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/burglars-pack",
+			"display_name": "Burglar's Pack",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Burglar's Pack contains the following items: Backpack, Ball Bearings, Bell, 10 Candles, Crowbar, Hooded Lantern, 7 flasks of Oil, 5 days of Rations, Rope, Tinderbox, and Waterskin."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/caltrops",
+			"display_name": "Caltrops",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "As a Utilize action, you can spread Caltrops from their bag to cover a 5-foot-square area within 5 feet of yourself. A creature that enters this area for the first time on a turn must succeed on a DC 15 Dexterity saving throw or take 1 Piercing damage and have its Speed reduced to 0 until the start of its next turn. It takes 10 minutes to recover the Caltrops."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/candle",
+			"display_name": "Candle",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "For 1 hour, a lit Candle sheds Bright Light in a 5-foot radius and Dim Light for an additional 5 feet."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/case-crossbow-bolt",
+			"display_name": "Case, Crossbow Bolt",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Crossbow Bolt Case holds up to 20 Bolts."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/case-map-or-scroll",
+			"display_name": "Case, Map or Scroll",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Map or Scroll Case holds up to 10 sheets of paper or 5 sheets of parchment."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/chain",
+			"display_name": "Chain",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "As a Utilize action, you can wrap a Chain around an unwilling creature within 5 feet of yourself that has the Grappled, Incapacitated, or Restrained condition if you succeed on a DC 13 Strength (Athletics) check. If the creature's legs are bound, the creature has the Restrained condition until it escapes. Escaping the Chain requires the creature to make a successful DC 18 Dexterity (Acrobatics) check as an action. Bursting the Chain requires a successful DC 20 Strength (Athletics) check as an action."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/chest",
+			"display_name": "Chest",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Chest holds up to 12 cubic feet of contents."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/clothes-fine",
+			"display_name": "Clothes, Fine",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Fine Clothes are made of expensive fabrics and adorned with expertly crafted details. Some events and locations admit only people wearing these clothes."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/clothes-travelers",
+			"display_name": "Clothes, Traveler's",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Traveler's Clothes are resilient garments designed for travel in various environments."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/component-pouch",
+			"display_name": "Component Pouch",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Component Pouch is watertight and filled with compartments that hold all the free Material components of your spells."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/costume",
+			"display_name": "Costume",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "While wearing a Costume, you have Advantage on any ability check you make to impersonate the person or type of person it represents."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/crowbar",
+			"display_name": "Crowbar",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Using a Crowbar gives you Advantage on Strength checks where the Crowbar's leverage can be applied."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/druidic-focus-sprig-of-mistletoe",
+			"display_name": "Druidic Focus, Sprig of Mistletoe",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Druidic Focus is carved, tied with ribbon, or painted to channel primal magic. A Druid or Ranger can use such an object as a Spellcasting Focus."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/diplomats-pack",
+			"display_name": "Diplomat's Pack",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Diplomat's Pack contains the following items: Chest, Fine Clothes, Ink, 5 Ink Pens, Lamp, 2 Map or Scroll Cases, 4 flasks of Oil, 5 sheets of Paper, 5 sheets of Parchment, Perfume, and Tinderbox."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/druidic-focus-yew-wand",
+			"display_name": "Druidic Focus, Yew Wand",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Druidic Focus is carved, tied with ribbon, or painted to channel primal magic. A Druid or Ranger can use such an object as a Spellcasting Focus."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/dungeoneers-pack",
+			"display_name": "Dungeoneer's Pack",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Dungeoneer's Pack contains the following items: Backpack, Caltrops, Crowbar, 2 flasks of Oil, 10 days of Rations, Rope, Tinderbox, 10 Torches, and Waterskin."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/entertainers-pack",
+			"display_name": "Entertainer's Pack",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "An Entertainer's Pack contains the following items: Backpack, Bedroll, Bell, Bullseye Lantern, 3 Costumes, Mirror, 8 flasks of Oil, 9 days of Rations, Tinderbox, and Waterskin."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/explorers-pack",
+			"display_name": "Explorer's Pack",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "An Explorer's Pack contains the following items: Backpack, Bedroll, 2 flasks of Oil, 10 days of Rations, Rope, Tinderbox, 10 Torches, and Waterskin."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/feed-per-day",
+			"display_name": "Feed (per day)",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Daily feed for a mount."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/flask",
+			"display_name": "Flask",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Flask holds up to 1 pint."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/grappling-hook",
+			"display_name": "Grappling Hook",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "As a Utilize action, you can throw the Grappling Hook at a railing, a ledge, or another catch within 50 feet of yourself, and the hook catches on if you succeed on a DC 13 Dexterity (Acrobatics) check. If you tied a Rope to the hook, you can then climb it."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/herbalism-kit",
+			"display_name": "Herbalism Kit",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ability: Intelligence. Utilize: Identify a plant (DC 15). Craft: Antitoxin, Potion of Healing"
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/holy-symbol-amulet",
+			"display_name": "Holy Symbol, Amulet)",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Holy Symbol Amulet is bejeweled or painted to channel divine magic. A Cleric or Paladin can use it as a Spellcasting Focus. It can be worn around the neck or held in hand."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/holy-symbol-emblem",
+			"display_name": "Holy Symbol, Emblem)",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Holy Symbol Emblem is bejeweled or painted to channel divine magic. A Cleric or Paladin can use it as a Spellcasting Focus. It must be borne on fabric (such as a tabard or banner) or a Shield."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/holy-symbol-reliquary",
+			"display_name": "Holy Symbol, Reliquary",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Holy Symbol Reliquary is bejeweled or painted to channel divine magic. A Cleric or Paladin can use it as a Spellcasting Focus. It must be held in hand."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/holy-water",
+			"display_name": "Holy Water",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "When you take the Attack action, you can replace one of your attacks with throwing a flask of Holy Water. Target one creature you can see within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or take 2d8 Radiant damage if it is a Fiend or an Undead."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/hunting-trap",
+			"display_name": "Hunting Trap",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "As a Utilize action, you can set a Hunting Trap, which is a sawtooth steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 Piercing damage and have its Speed reduced to 0 until the start of its next turn. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet). A creature can use its action to make a DC 13 Strength (Athletics) check, freeing itself or another creature within its reach on a success. Each failed check deals 1 Piercing damage to the trapped creature."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/ink",
+			"display_name": "Ink",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ink comes in a 1-ounce bottle, which provides enough ink to write about 500 pages."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/ink-pen",
+			"display_name": "Ink Pen",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Using Ink, an Ink Pen is used to write or draw."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/jug",
+			"display_name": "Jug",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Jug holds up to 1 gallon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/ladder",
+			"display_name": "Ladder",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Ladder is 10 feet tall. You must climb to move up or down it."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/lamp",
+			"display_name": "Lamp",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Lamp burns Oil as fuel to cast Bright Light in a 15 foot radius and Dim Light for an additional 30 feet."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/lantern-bullseye",
+			"display_name": "Lantern, Bullseye",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Bullseye Lantern burns Oil as fuel to cast Bright Light in a 60-foot Cone and Dim Light for an additional 60 feet."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/lantern-hooded",
+			"display_name": "Lantern, Hooded",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Hooded Lantern burns Oil as fuel to cast Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. As a Bonus Action, you can lower the hood, reducing the light to Dim Light in a 5-foot radius, or raise it again."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/lock",
+			"display_name": "Lock",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Lock comes with a key. Without the key, a creature can use Thieves' Tools to pick this Lock with a successful DC 15 Dexterity (Sleight of Hand) check."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/magnifying-glass",
+			"display_name": "Magnifying Glass",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Magnifying Glass grants Advantage on any ability check made to appraise or inspect a highly detailed item. Lighting a fire with a Magnifying Glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/manacles",
+			"display_name": "Manacles",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "As a Utilize action, you can use Manacles to bind an unwilling Small or Medium creature within 5 feet of yourself that has the Grappled, Incapacitated, or Restrained condition if you succeed on a DC 13 Dexterity (Sleight of Hand) check. While bound, a creature has Disadvantage on attack rolls, and the creature is Restrained if the Manacles are attached to a chain or hook that is fixed in place. Escaping the Manacles requires a successful DC 20 Dexterity (Sleight of Hand) check as an action. Bursting them requires a successful DC 25 Strength (Athletics) check as an action. Each set of Manacles comes with a key. Without the key, a creature can use Thieves' Tools to pick the Manacles' lock with a successful DC 15 Dexterity (Sleight of Hand) check."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/map",
+			"display_name": "Map",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "If you consult an accurate Map, you gain a +5 bonus to Wisdom (Survival) checks you make to find your way in the place represented on it."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/mirror",
+			"display_name": "Mirror",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A handheld steel Mirror is useful for personal cosmetics but also for peeking around corners and reflecting light as a signal."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/needles-50",
+			"display_name": "Needles (50)",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ammunition for weapons that use needles. Comes in a pack of 50. Typically stored in a pouch."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/net",
+			"display_name": "Net",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "When you take the Attack action, you can replace one of your attacks with throwing a Net. Target a creature you can see within 15 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or have the Restrained condition until it escapes. The target succeeds automatically if it is Huge or larger. To escape, the target or a creature within 5 feet of it must take an action to make a DC 10 Strength (Athletics) check, freeing the Restrained creature on a success. Destroying the Net (AC 10; 5 HP; Immunity to Bludgeoning, Poison, and Psychic damage) also frees the target, ending the effect."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/oil",
+			"display_name": "Oil",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "You can douse a creature, object, or space with Oil or use it as fuel, as detailed below. Dousing a Creature or an Object. When you take the Attack action, you can replace one of your attacks with throwing an Oil flask. Target one creature or object within 20 feet of yourself. The target must succeed on a Dexterity saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus) or be covered in oil. If the target takes Fire damage before the oil dries (after 1 minute), the target takes an extra 5 Fire damage from burning oil. Dousing a Space. You can take the Utilize action to pour an Oil flask on level ground to cover a 5-foot-square area within 5 feet of yourself. If lit, the oil burns until the end of the turn 2 rounds from when the oil was lit (or 12 seconds) and deals 5 Fire damage to any creature that enters the area or ends its turn there. A creature can take this damage only once per turn. Fuel. Oil serves as fuel for Lamps and Lanterns. Once lit, a flask of Oil burns for 6 hours in a Lamp or Lantern. That duration doesn't need to be consecutive; you can extinguish the burning Oil (as a Utilize action) and rekindle it again until it has burned for a total of 6 hours."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/paper",
+			"display_name": "Paper",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "One sheet of Paper can hold about 250 handwritten words."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/parchment",
+			"display_name": "Parchment",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "One sheet of Parchment can hold about 250 handwritten words."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/perfume",
+			"display_name": "Perfume",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Perfume comes in a 4-ounce vial. For 1 hour after applying Perfume to yourself, you have Advantage on Charisma (Persuasion) checks made to influence an Indifferent Humanoid within 5 feet of yourself."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/poison-basic",
+			"display_name": "Poison, Basic",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "As a Bonus Action, you can use a vial of Basic Poison to coat one weapon or up to three pieces of ammunition. A creature that takes Piercing or Slashing damage from the poisoned weapon or ammunition takes an extra 1d4 Poison damage. Once applied, the poison retains potency for 1 minute or until its damage is dealt, whichever comes first."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/pole",
+			"display_name": "Pole",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Pole is 10 feet long. You can use it to touch something up to 10 feet away. If you must make a Strength (Athletics) check as part of a High or Long Jump, you can use the Pole to vault, giving yourself Advantage on the check."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/pot-iron",
+			"display_name": "Pot, Iron",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "An Iron Pot holds up to 1 gallon."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/pouch",
+			"display_name": "Pouch",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Pouch holds up to 6 pounds within one-fifth of a cubic foot."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/priests-pack",
+			"display_name": "Priest's Pack",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Priest's Pack contains the following items: Backpack, Blanket, Holy Water, Lamp, 7 days of Rations, Robe, and Tinderbox."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/quiver",
+			"display_name": "Quiver",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Quiver holds up to 20 Arrows."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/ram-portable",
+			"display_name": "Ram, Portable",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "You can use a Portable Ram to break down doors. When doing so, you gain a +4 bonus to the Strength check. One other character can help you use the ram, giving you Advantage on this check."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/rations",
+			"display_name": "Rations",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Rations consist of travel-ready food, including jerky, dried fruit, hardtack, and nuts. See \"Malnutrition\" in \"Rules Glossary\" for the risks of not eating."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/robe",
+			"display_name": "Robe",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Robe has vocational or ceremonial significance. Some events and locations admit only people wearing a Robe bearing certain colors or symbols."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/rope",
+			"display_name": "Rope",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "As a Utilize action, you can tie a knot with Rope if you succeed on a DC 10 Dexterity (Sleight of Hand) check. The Rope can be burst with a successful DC 20 Strength (Athletics) check. You can bind an unwilling creature with the Rope only if the creature has the Grappled, Incapacitated, or Restrained condition. If the creature's legs are bound, the creature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Acrobatics) check as an action."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/sack",
+			"display_name": "Sack",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Sack holds up to 30 pounds within 1 cubic foot."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/saddle-exotic",
+			"display_name": "Saddle (Exotic)",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A saddle designed for unusual mounts, such as aquatic or flying creatures."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/saddle-military",
+			"display_name": "Saddle (Military)",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A saddle designed for combat, providing advantage on checks to remain mounted."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/saddle-riding",
+			"display_name": "Saddle (Riding)",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A standard saddle for riding mounts."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/scholars-pack",
+			"display_name": "Scholar's Pack",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Scholar's Pack contains the following items: Backpack, Book, Ink, Ink Pen, Lamp, 10 flasks of Oil, 10 sheets of Parchment, and Tinderbox."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/shovel",
+			"display_name": "Shovel",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Working for 1 hour, you can use a Shovel to dig a hole that is 5 feet on each side in soil or similar material."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/signal-whistle",
+			"display_name": "Signal Whistle",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "When blown as a Utilize action, a Signal Whistle produces a sound that can be heard up to 600 feet away."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/spikes-iron",
+			"display_name": "Spikes, Iron",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Iron Spikes come in bundles of ten. As a Utilize action, you can use a blunt object, such as a Light Hammer, to hammer a spike into wood, earth, or a similar material. You can do so to jam a door shut or to then tie a Rope or Chain to the Spike."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/spyglass",
+			"display_name": "Spyglass",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Objects viewed through a Spyglass are magnified to twice their size."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/string",
+			"display_name": "String",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "String is 10 feet long. You can tie a knot in it as a Utilize action."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/tent",
+			"display_name": "Tent",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Tent sleeps up to two Small or Medium creatures."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/tinderbox",
+			"display_name": "Tinderbox",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Tinderbox is a small container holding flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a Candle, Lamp, Lantern, or Torch—or anything else with exposed fuel—takes a Bonus Action. Lighting any other fire takes 1 minute."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/torch",
+			"display_name": "Torch",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Torch burns for 1 hour, casting Bright Light in a 20-foot radius and Dim Light for an additional 20 feet. When you take the Attack action, you can attack with the Torch, using it as a Simple Melee weapon. On a hit, the target takes 1 Fire damage."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/vial",
+			"display_name": "Vial",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Vial holds up to 4 ounces."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/waterskin",
+			"display_name": "Waterskin",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Waterskin holds up to 4 pints. If you don't drink sufficient water, you risk dehydration (see \"Rules Glossary\")."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/copper-piece",
+			"display_name": "Copper Piece",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A coin from the Coin Values table."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/silver-piece",
+			"display_name": "Silver Piece",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A coin from the Coin Values table."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/electrum-piece",
+			"display_name": "Electrum Piece",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A coin from the Coin Values table."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/gold-piece",
+			"display_name": "Gold Piece",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A coin from the Coin Values table."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/platinum-piece",
+			"display_name": "Platinum Piece",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A coin from the Coin Values table."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/camel",
+			"display_name": "Camel",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Camel from the Mounts and Vehicles tables."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/elephant",
+			"display_name": "Elephant",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Elephant from the Mounts and Vehicles tables."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/horse-draft",
+			"display_name": "Horse, Draft",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Horse, Draft from the Mounts and Vehicles tables."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/horse-riding",
+			"display_name": "Horse, Riding",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Horse, Riding from the Mounts and Vehicles tables."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/mastiff",
+			"display_name": "Mastiff",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Mastiff from the Mounts and Vehicles tables."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/mule",
+			"display_name": "Mule",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Mule from the Mounts and Vehicles tables."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/pony",
+			"display_name": "Pony",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Pony from the Mounts and Vehicles tables."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/warhorse",
+			"display_name": "Warhorse",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Warhorse from the Mounts and Vehicles tables."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/carriage",
+			"display_name": "Carriage",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Carriage from the Mounts and Vehicles tables."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/cart",
+			"display_name": "Cart",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Cart from the Mounts and Vehicles tables."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/chariot",
+			"display_name": "Chariot",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Chariot from the Mounts and Vehicles tables."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/sled",
+			"display_name": "Sled",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Sled from the Mounts and Vehicles tables."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/wagon",
+			"display_name": "Wagon",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Wagon from the Mounts and Vehicles tables."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/stabling-per-day",
+			"display_name": "Stabling per day",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Stabling per day from the Mounts and Vehicles tables."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/airship",
+			"display_name": "Airship",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Airship from the Mounts and Vehicles tables."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/galley",
+			"display_name": "Galley",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Galley from the Mounts and Vehicles tables."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/keelboat",
+			"display_name": "Keelboat",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Keelboat from the Mounts and Vehicles tables."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/longship",
+			"display_name": "Longship",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Longship from the Mounts and Vehicles tables."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/rowboat",
+			"display_name": "Rowboat",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Rowboat from the Mounts and Vehicles tables."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/sailing-ship",
+			"display_name": "Sailing Ship",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Sailing Ship from the Mounts and Vehicles tables."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/warship",
+			"display_name": "Warship",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Warship from the Mounts and Vehicles tables."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/ale-mug",
+			"display_name": "Ale (mug)",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Ale (mug) costs 4 CP on the Food, Drink, and Lodging table."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/bread-loaf",
+			"display_name": "Bread (loaf)",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Bread (loaf) costs 2 CP on the Food, Drink, and Lodging table."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/cheese-wedge",
+			"display_name": "Cheese (wedge)",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Cheese (wedge) costs 1 SP on the Food, Drink, and Lodging table."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/wine-common",
+			"display_name": "Wine (bottle), Common",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Wine (bottle), Common costs 2 SP on the Food, Drink, and Lodging table."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/wine-fine",
+			"display_name": "Wine (bottle), Fine",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Wine (bottle), Fine costs 10 GP on the Food, Drink, and Lodging table."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/arcane-focus-crystal",
+			"display_name": "Arcane Focus (crystal)",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "An Arcane Focus takes one of the forms in the Arcane Focuses table and is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/arcane-focus-orb",
+			"display_name": "Arcane Focus (orb)",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "An Arcane Focus takes one of the forms in the Arcane Focuses table and is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/arcane-focus-rod",
+			"display_name": "Arcane Focus (rod)",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "An Arcane Focus takes one of the forms in the Arcane Focuses table and is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/arcane-focus-wand",
+			"display_name": "Arcane Focus (wand)",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "An Arcane Focus takes one of the forms in the Arcane Focuses table and is bejeweled or carved to channel arcane magic. A Sorcerer, Warlock, or Wizard can use such an item as a Spellcasting Focus."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/holy-symbol",
+			"display_name": "Holy Symbol",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "A Holy Symbol takes one of the forms in the Holy Symbol table and is bejeweled or painted to channel divine magic. A Cleric or Paladin can use a Holy Symbol as a Spellcasting Focus."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		},
+		{
+			"id": "gear/spellbook",
+			"display_name": "Spellbook",
+			"prompt_id": "flavor-gear",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"srd_text": "Your wizardly apprenticeship culminated in the creation of a unique book: your spellbook. It is a Tiny object that weighs 3 pounds, contains 100 pages, and can be read only by you or someone casting _Identify_. You determine the book's appearance and materials, such as a gilt-edged tome or a collection of vellum bound with twine."
+			},
+			"must_include": [],
+			"must_not": ["Forgotten Realms", "Greyhawk", "Eberron", "d4", "d6", "d8", "d10", "d12", "d20"]
+		}
+	]
+}

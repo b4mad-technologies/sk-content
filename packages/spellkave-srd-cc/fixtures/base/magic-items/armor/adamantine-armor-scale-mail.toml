@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Dark, overlapping scales catch the light like river stones beneath winter ice, each one edged with a faint metallic chill. Beneath a hammer’s blow, the suit answers with a low, stubborn ring, as though some buried mountain has lent it its patience. Its wearer moves wrapped in the calm certainty of unyielding stone."
 display_name = "Adamantine Armor (Scale Mail)"
 entity_def_id = "srd/magic_item/adamantine-armor-scale-mail"
 grants_capability_while_equipped = ""

@@ -96,6 +96,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The land answers in a deep, grinding murmur, its skin loosening beneath an unseen hand. Fields swell into ramparts, hollows yawn where firm ground stood, and whole slopes crawl patiently into new shapes. Roots, stones, and old foundations ride the shifting soil like debris upon a slow brown tide."
 display_name = "Move Earth"
 entity_def_id = "srd/spell/move-earth"
 grants_capability_while_equipped = ""

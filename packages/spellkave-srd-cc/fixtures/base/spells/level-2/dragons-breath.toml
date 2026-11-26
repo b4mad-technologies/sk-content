@@ -94,6 +94,7 @@ tag = "srd.damage_type.fire"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A borrowed ember stirs behind the teeth, tinting breath with the wild grandeur of ancient wyrms. When released, it erupts in a fierce wash of chosen ruin—searing flame, biting frost, crackling stormlight, caustic spray, or a choking venomous haze. For a few heartbeats, even an ordinary creature carries the terror of a dragon’s gaze."
 display_name = "Dragon's Breath"
 entity_def_id = "srd/spell/dragons-breath"
 grants_capability_while_equipped = ""
@@ -120,7 +121,7 @@ target_ref = "srd/spell/dragons-breath"
 action_id = "srd/spell/dragons-breath/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Dragon's Breath — a spell action."
+description = "You cast a spell that lets a willing creature exhale destructive energy for a short time. Choose the damage type when you cast it."
 display_name = "Cast Dragon's Breath"
 non_steering = true
 on_failure = ""

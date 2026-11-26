@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A faint silver sheen follows the blade even in a darkened hall, as though moonlight has chosen to cling to its edge. Its balance feels uncannily true in the hand, turning each practiced motion into something cleaner, surer, and quietly inevitable."
 display_name = "Longsword (+1)"
 entity_def_id = "srd/magic_item/longsword-plus-1"
 grants_capability_while_equipped = ""

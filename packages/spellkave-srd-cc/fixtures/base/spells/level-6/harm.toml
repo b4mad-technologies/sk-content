@@ -72,6 +72,7 @@ tag = "srd.spell.list.cleric"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A sickly hush gathers around the caster’s hand before racing outward as a stain of winter-black light. Where it settles, color drains from flesh and breath turns thin, as though some deep reserve of vitality has been quietly spoiled. Even after the glow is gone, the victim may carry the awful sense that recovery has become a distant shore."
 display_name = "Harm"
 entity_def_id = "srd/spell/harm"
 grants_capability_while_equipped = ""

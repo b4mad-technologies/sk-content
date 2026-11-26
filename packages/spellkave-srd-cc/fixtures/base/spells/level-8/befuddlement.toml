@@ -96,6 +96,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A soundless peal passes through the air, and certainty comes apart like ash in rain. Thoughts snag on empty doors and unfinished patterns, leaving the victim awake within a maze of missing connections. Even after the first shock fades, the mind may remain a dim, echoing chamber where once-familiar wonders refuse to answer."
 display_name = "Befuddlement"
 entity_def_id = "srd/spell/befuddlement"
 grants_capability_while_equipped = ""

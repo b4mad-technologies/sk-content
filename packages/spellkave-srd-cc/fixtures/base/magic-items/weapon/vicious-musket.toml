@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its dark barrel bears tiny, thornlike engravings that seem to shift in the corner of the eye. When raised, the musket settles against the shoulder with hungry certainty, and its report leaves a sharp metallic taste in the air. Even after the smoke thins, the echo feels strangely eager to be heard again."
 display_name = "Vicious Musket"
 entity_def_id = "srd/magic_item/vicious-musket"
 grants_capability_while_equipped = ""

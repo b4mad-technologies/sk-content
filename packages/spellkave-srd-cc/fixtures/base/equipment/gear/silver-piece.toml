@@ -14,6 +14,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Cooler than copper and brighter where a thumb has rubbed it, the silver piece catches lantern-light in a thin line. The minting is still readable if it is tilted. It has the quiet weight of a fair wage, not a treasure. It spends easily and vanishes just as easily."
 display_name = "Silver Piece"
 entity_def_id = "srd/item/silver-piece"
 grants_capability_while_equipped = ""

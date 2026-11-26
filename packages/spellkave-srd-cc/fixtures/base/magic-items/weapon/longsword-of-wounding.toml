@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its darkened edge drinks the torchlight, leaving only a bruised gleam along the fuller. Wounds opened by this blade seem to remember it, staining the air with a cold, metallic scent and refusing the comfort of warmth or healing. Even sheathed, it carries the hush of an old battlefield after the crows have gone."
 display_name = "Longsword of Wounding"
 entity_def_id = "srd/magic_item/longsword-of-wounding"
 grants_capability_while_equipped = ""

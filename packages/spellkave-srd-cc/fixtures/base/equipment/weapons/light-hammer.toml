@@ -83,7 +83,7 @@ tag = "srd.damage_type.bludgeoning"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Light Hammer — a simple melee weapon."
+description = "A compact head of iron sits snug on its ashwood haft, balanced for a quick snap of the wrist. It feels equally at home tapping stubborn pegs into place or sailing end over end through torchlit air. The grip bears the smooth polish of a tool carried close and used often."
 display_name = "Light Hammer"
 entity_def_id = "srd/weapon/light-hammer"
 grants_capability_while_equipped = ""

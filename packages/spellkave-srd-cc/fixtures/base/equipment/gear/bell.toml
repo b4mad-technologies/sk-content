@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A thumb-sized clapper answers with a bright, clean peal that hangs in stale corridors and misty lanes alike. Its bronze cup grows warm in the palm after repeated ringing, while the sound slips ahead to wake sleepers, summon companions, or unsettle whatever waits beyond the torchlight."
 display_name = "Bell"
 entity_def_id = "srd/item/bell"
 grants_capability_while_equipped = ""

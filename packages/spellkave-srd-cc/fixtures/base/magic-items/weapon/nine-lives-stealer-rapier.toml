@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A slim rapier of midnight steel, its guard shaped like curling feline claws and its blade alive with a faint, hungry chill. In stillness, nine dim motes seem to drift beneath the metal’s surface, fading one by one when the weapon drinks deeply of a living foe. It feels unnervingly light in the hand, as though eager to dart toward an unguarded heartbeat."
 display_name = "Nine Lives Stealer (Rapier)"
 entity_def_id = "srd/magic_item/nine-lives-stealer-rapier"
 grants_capability_while_equipped = ""

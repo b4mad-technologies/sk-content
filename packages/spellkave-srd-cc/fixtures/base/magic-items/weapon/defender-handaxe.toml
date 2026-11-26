@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The handaxe bears a calm, pale gleam along its edge, as though moonlight has settled into the steel. In a fighter’s grip, its balance seems to shift with each threat, urging the wrist toward a killing stroke or a timely guard. Even amid clamor, it carries the quiet assurance of a shield raised at exactly the right moment."
 display_name = "Defender (Handaxe)"
 entity_def_id = "srd/magic_item/defender-handaxe"
 grants_capability_while_equipped = ""

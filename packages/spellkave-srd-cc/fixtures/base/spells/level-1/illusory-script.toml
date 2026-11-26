@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Ink drinks the last whisper of intent, settling into strokes that wear different faces for different eyes. Trusted readers find a familiar hand and a chosen meaning waiting on the page, while strangers meet elegant nonsense or a message meant to lead them astray. The parchment keeps its secret with the quiet patience of sealed wax."
 display_name = "Illusory Script"
 entity_def_id = "srd/spell/illusory-script"
 grants_capability_while_equipped = ""

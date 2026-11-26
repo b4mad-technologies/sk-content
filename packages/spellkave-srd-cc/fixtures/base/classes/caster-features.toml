@@ -15,7 +15,7 @@
 action_id = "srd/cleric/divine-spark-heal"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "SRD Divine Spark heal path (classes.md:2221): Magic action, spend one Channel Divinity use, restore 1d8 HP (omits Wisdom modifier — same simplification as Cure Wounds)."
+description = "You spend a use of Channel Divinity as a Magic action to restore hit points to a creature you can see."
 display_name = "Channel Divinity: Divine Spark (Heal)"
 on_failure = ""
 on_success = "srd/cleric/divine-spark-heal/success"
@@ -32,7 +32,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/paladin/channel-divinity-spend"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Spend one Paladin Channel Divinity use."
+description = "You spend one use of your Channel Divinity to fuel a paladin feature that calls for it."
 display_name = "Channel Divinity (spend)"
 on_failure = ""
 on_success = "srd/paladin/channel-divinity-spend/success"
@@ -49,7 +49,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/bard/bardic-inspiration"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Bonus Action: inspire another creature within 60 feet. Spends one use; grants Bardic Inspiration condition."
+description = "You spend a use as a Bonus Action to inspire a creature you can see within 60 feet, giving it Bardic Inspiration."
 display_name = "Bardic Inspiration"
 on_failure = ""
 on_success = "srd/bard/bardic-inspiration/success"
@@ -66,7 +66,7 @@ spends_channel = "srd/economy_channel/bonus"
 action_id = "srd/druid/wild-shape"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Bonus Action: spend one Wild Shape use. No form swap (BL-65)."
+description = "You use a bonus action and spend one use of this feature to assume a beast form. You cannot change directly from one form to another."
 display_name = "Wild Shape (spend use)"
 on_failure = ""
 on_success = "srd/druid/wild-shape/success"
@@ -83,7 +83,7 @@ spends_channel = "srd/economy_channel/bonus"
 action_id = "srd/paladin/lay-on-hands"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Spend 5 pool to restore 5 HP."
+description = "You spend 5 points from your healing pool to restore 5 hit points to a creature you touch."
 display_name = "Lay On Hands (5 HP)"
 on_failure = ""
 on_success = "srd/paladin/lay-on-hands/success"
@@ -100,7 +100,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/ranger/favored-enemy"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Spend one Favored Enemy use."
+description = "You spend one use of this feature to activate one of your Favored Enemy options."
 display_name = "Favored Enemy (spend use)"
 on_failure = ""
 on_success = "srd/ranger/favored-enemy/success"
@@ -117,7 +117,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/sorcerer/innate-sorcery"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Bonus Action: spend one use; apply self buff condition."
+description = "You use a bonus action and expend a use to empower your innate magic for a limited time."
 display_name = "Innate Sorcery"
 on_failure = ""
 on_success = "srd/sorcerer/innate-sorcery/success"
@@ -134,7 +134,7 @@ spends_channel = "srd/economy_channel/bonus"
 action_id = "srd/wizard/arcane-recovery"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Finish a Short Rest and recover spell slots of combined level ≤ half Wizard level round up (classes.md:10241-10245 (§ Wizard > Level 1: Arcane Recovery)). LIVE L1-4: restore into spell_slot_1 then spell_slot_2."
+description = "After a short rest, you can regain expended spell slots with a combined level up to half your wizard level, rounded up."
 display_name = "Arcane Recovery"
 on_failure = ""
 on_success = "srd/wizard/arcane-recovery/success"
@@ -151,7 +151,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/warlock/magical-cunning"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "1-minute rite: regain up to half your maximum Pact Magic slots round up (classes.md:8998-9000 (§ Warlock > Level 2: Magical Cunning)). LIVE: applies to spell_slot_1 and spell_slot_2."
+description = "Spend 1 minute in a rite to regain expended Pact Magic spell slots, up to half your maximum number, rounded up."
 display_name = "Magical Cunning"
 on_failure = ""
 on_success = "srd/warlock/magical-cunning/success"
@@ -168,7 +168,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/cleric/divine-spark-damage"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "SRD Divine Spark damage path (classes.md:2221): Magic action, spend one Channel Divinity use; target CON save DC 13 (baked) or take 1d8 Radiant (half on success). Omits Wisdom modifier — same simplification as the heal path."
+description = "You spend a Channel Divinity use to force a creature to make a Constitution save. On a failed save, it takes radiant damage; on a success, it takes half as much."
 display_name = "Channel Divinity: Divine Spark (Damage)"
 on_failure = "srd/cleric/divine-spark-damage/failure"
 on_success = "srd/cleric/divine-spark-damage/success"
@@ -185,7 +185,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/cleric/turn-undead"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "SRD Turn Undead (classes.md:2223): Magic action, spend one CD use. Each Undead within 30 ft makes a WIS save (DC 13 baked); on failure Frightened + Incapacitated. A per-target save gates the conditions. Limits: the sphere ignores walls, and the conditions do not yet end after 1 minute or on damage (sk-jay0.1.55.53)."
+description = "You spend a use of Channel Divinity to repel Undead within 30 feet. Each affected creature becomes Frightened and Incapacitated."
 display_name = "Channel Divinity: Turn Undead"
 on_failure = ""
 on_success = "srd/cleric/turn-undead/success"
@@ -202,7 +202,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/cleric/preserve-life"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "SRD Preserve Life (classes.md:3001): spend one CD use; restore 5×Cleric level HP to one bloodied creature within 30 ft (multi-split deferred; half-max cap deferred)."
+description = "You spend a use of Channel Divinity to restore hit points to a bloodied creature you can see within 30 feet. The amount restored equals five times your cleric level."
 display_name = "Channel Divinity: Preserve Life"
 on_failure = ""
 on_success = "srd/cleric/preserve-life/success"
@@ -219,7 +219,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/paladin/lay-on-hands-1"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Spend 1 pool to restore 1 HP (variable-spend menu rung)."
+description = "Spend 1 point from your healing pool to restore 1 hit point to a creature you touch."
 display_name = "Lay On Hands (1 HP)"
 on_failure = ""
 on_success = "srd/paladin/lay-on-hands-1/success"
@@ -236,7 +236,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/paladin/lay-on-hands-10"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Spend 10 pool to restore 10 HP (variable-spend menu rung)."
+description = "Spend 10 points from your healing pool to restore 10 hit points to a creature you touch."
 display_name = "Lay On Hands (10 HP)"
 on_failure = ""
 on_success = "srd/paladin/lay-on-hands-10/success"
@@ -253,7 +253,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/paladin/divine-smite"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Bonus Action: spend one level-1 spell slot; the target takes 2d8 Radiant damage (higher-slot ladder and Fiend/Undead +1d8 deferred)."
+description = "You spend a 1st-level spell slot as a bonus action to deal radiant damage to the target."
 display_name = "Divine Smite"
 on_failure = ""
 on_success = "srd/paladin/divine-smite/success"
@@ -271,7 +271,7 @@ spends_channel = "srd/economy_channel/bonus"
 action_id = "srd/sorcerer/convert-slot-1-to-points"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "No action: expend a L1 slot to gain 1 Sorcery Point (classes.md:7643)."
+description = "You expend a 1st-level spell slot to gain 1 sorcery point."
 display_name = "Convert Spell Slot (1) → Sorcery Points"
 on_failure = ""
 on_success = "srd/sorcerer/convert-slot-1-to-points/success"
@@ -287,7 +287,7 @@ session_def_id = ""
 action_id = "srd/sorcerer/convert-slot-2-to-points"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "No action: expend a L2 slot to gain 2 Sorcery Points."
+description = "You expend a 2nd-level spell slot to regain 2 sorcery points."
 display_name = "Convert Spell Slot (2) → Sorcery Points"
 on_failure = ""
 on_success = "srd/sorcerer/convert-slot-2-to-points/success"
@@ -303,7 +303,7 @@ session_def_id = ""
 action_id = "srd/sorcerer/create-spell-slot-1"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Bonus Action: spend 2 Sorcery Points to create a L1 slot (classes.md table)."
+description = "You spend 2 Sorcery Points as a bonus action to create a 1st-level spell slot."
 display_name = "Create Spell Slot (1)"
 on_failure = ""
 on_success = "srd/sorcerer/create-spell-slot-1/success"
@@ -320,7 +320,7 @@ spends_channel = "srd/economy_channel/bonus"
 action_id = "srd/sorcerer/create-spell-slot-2"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Bonus Action: spend 3 Sorcery Points to create a L2 slot (min Sorcerer 3)."
+description = "As a bonus action, you spend 3 Sorcery Points to create a 2nd-level spell slot. You can use this option once you reach 3rd level in this class."
 display_name = "Create Spell Slot (2)"
 on_failure = ""
 on_success = "srd/sorcerer/create-spell-slot-2/success"
@@ -337,7 +337,7 @@ spends_channel = "srd/economy_channel/bonus"
 action_id = "srd/sorcerer/metamagic-careful-spell"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Arm Careful Spell for 1 Sorcery Point (cast-time ally exclusion deferred)."
+description = "You spend 1 Sorcery Point to prepare a spell with Careful Spell when you cast it."
 display_name = "Metamagic: Careful Spell"
 on_failure = ""
 on_success = "srd/sorcerer/metamagic-careful-spell/success"
@@ -353,7 +353,7 @@ session_def_id = ""
 action_id = "srd/druid/wild-companion"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Magic action: spend one Wild Shape use; summon a cat familiar at your node (Find Familiar without a slot — classes.md:3588)."
+description = "You expend a use of Wild Shape to summon a cat familiar in your space. It serves as though called by the familiar-summoning spell, without using a spell slot."
 display_name = "Wild Companion"
 on_failure = ""
 on_success = "srd/druid/wild-companion/success"
@@ -370,7 +370,7 @@ spends_channel = "srd/economy_channel/primary"
 action_id = "srd/bard/spend-bardic-inspiration-die"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Expend your banked Bardic Inspiration die (classes.md:856-858). LIVE: removes the banked condition and grants a short-lived +3 ability-check boost. True post-roll auto-spend on a failed D20 Test is substrate (BL-61 remainder)."
+description = "Spend your banked Bardic Inspiration die to remove it and gain a brief bonus to ability checks."
 display_name = "Spend Bardic Inspiration Die"
 on_failure = ""
 on_success = "srd/bard/spend-bardic-inspiration-die/success"
@@ -386,7 +386,7 @@ session_def_id = ""
 action_id = "srd/warlock/armor-of-shadows"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Cast Mage Armor on yourself without expending a spell slot."
+description = "You cast Mage Armor on yourself without spending a spell slot."
 display_name = "Armor of Shadows"
 on_failure = ""
 on_success = "srd/warlock/armor-of-shadows/success"
@@ -887,7 +887,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/class-feature/cleric/channel-divinity"
 default_visibility = "Public"
-description = "Cleric Channel Divinity (classes.md:2213). Option menu LIVE: Divine Spark heal/damage, Turn Undead, Preserve Life (L12c / BL-63)."
+description = "You call on sacred power to produce a Channel Divinity effect granted by your class or subclass. You use it to choose from options such as healing, harming, or driving away undead."
 display_name = "Channel Divinity"
 
 [[capability_definitions]]
@@ -895,7 +895,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/class-feature/paladin/channel-divinity"
 default_visibility = "Public"
-description = "Paladin Channel Divinity spend stub LIVE; oath options deferred."
+description = "You draw on sacred power to fuel a Channel Divinity option granted by your oath. You can use it only when an option tells you how to spend it."
 display_name = "Channel Divinity (Paladin)"
 
 [[capability_definitions]]
@@ -903,7 +903,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/class-feature/bard/bardic-inspiration"
 default_visibility = "Public"
-description = "Bardic Inspiration (classes.md:852-862). Banked die LIVE; ally spends via srd/bard/spend-bardic-inspiration-die (L12c). Post-roll auto-add is substrate."
+description = "You inspire an ally, giving them a die they can spend after rolling to improve a check, attack, or saving throw."
 display_name = "Bardic Inspiration"
 
 [[capability_definitions]]
@@ -911,7 +911,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/class-feature/druid/wild-shape"
 default_visibility = "Public"
-description = "Wild Shape uses spend LIVE; form-swap is substrate (docs/substrate-verdicts/wild-shape-form-swap.md). Wild Companion LIVE (BL-66)."
+description = "You magically take on a beast’s form for a limited time. You use it to gain that form’s movement and physical abilities, returning to your normal form when the effect ends."
 display_name = "Wild Shape"
 
 [[capability_definitions]]
@@ -919,7 +919,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/class-feature/paladin/lay-on-hands"
 default_visibility = "Public"
-description = "Lay On Hands menu LIVE: 1 / 5 / 10 HP spends (L12c / BL-67)."
+description = "You draw on a pool of healing power to restore a creature’s hit points. Choose how much to spend, up to the power you have remaining."
 display_name = "Lay On Hands"
 
 [[capability_definitions]]
@@ -927,7 +927,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/class-feature/ranger/favored-enemy"
 default_visibility = "Public"
-description = "Favored Enemy uses spend LIVE."
+description = "Choose a type of creature you know how to track and fight. You gain special advantages when recalling information about it or pursuing it through the wild."
 display_name = "Favored Enemy"
 
 [[capability_definitions]]
@@ -935,7 +935,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/class-feature/sorcerer/innate-sorcery"
 default_visibility = "Public"
-description = "Innate Sorcery spend + self condition."
+description = "You can draw on your innate magical power to heighten your spellcasting. When you activate it, you gain its benefits for a short time."
 display_name = "Innate Sorcery"
 
 [[capability_definitions]]
@@ -943,7 +943,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/class-feature/wizard/arcane-recovery"
 default_visibility = "Public"
-description = "Wizard Arcane Recovery (classes.md:10241-10245 (§ Wizard > Level 1: Arcane Recovery))."
+description = "Once between long rests, you recover expended spell slots during a short rest. The slots you regain have a combined level based on your wizard level."
 display_name = "Arcane Recovery"
 
 [[capability_definitions]]
@@ -951,7 +951,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/class-feature/warlock/magical-cunning"
 default_visibility = "Public"
-description = "Warlock Magical Cunning (classes.md:8998-9000 (§ Warlock > Level 2: Magical Cunning))."
+description = "Once between long rests, you can perform a brief rite to regain some of your expended pact magic. You use it when you have time to prepare but cannot complete a long rest."
 display_name = "Magical Cunning"
 
 [[capability_definitions]]
@@ -959,7 +959,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/class-feature/cleric/life-domain/disciple-of-life"
 default_visibility = "Public"
-description = "Life Domain Disciple of Life (classes.md:2964): when you cast a slot-heal spell, target regains extra 2 + spell level HP. LIVE: Cure Wounds (+3) reads this capability."
+description = "When you cast a spell using a spell slot that restores hit points, each creature healed regains additional hit points equal to 2 plus the spell’s level."
 display_name = "Disciple of Life"
 
 [[capability_definitions]]
@@ -967,7 +967,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/class-feature/cleric/life-domain/preserve-life"
 default_visibility = "Public"
-description = "Life Domain Channel Divinity: Preserve Life (classes.md:3001-3003). Multi-target pool is approximated as single-target heal of 5×Cleric level on a bloodied creature."
+description = "You use your Channel Divinity to restore a large amount of hit points to a wounded creature that is below half its hit point maximum."
 display_name = "Preserve Life"
 
 [[capability_definitions]]
@@ -975,7 +975,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/class-feature/paladin/divine-smite"
 default_visibility = "Public"
-description = "Paladin Divine Smite (spells.md Divine Smite / classes.md Paladin's Smite): Bonus Action immediately after a melee hit; spend a L1 spell slot for +2d8 Radiant on the target."
+description = "After you hit a creature with a melee attack, you can use a bonus action and expend a 1st-level spell slot to deal extra radiant damage to it."
 display_name = "Divine Smite"
 
 [[capability_definitions]]
@@ -983,7 +983,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/class-feature/sorcerer/font-of-magic"
 default_visibility = "Public"
-description = "Sorcerer Font of Magic (classes.md:7635): convert spell slots ↔ sorcery points. L1-4 LIVE: slot1↔1 SP, slot2↔2 SP create costs 2/3 SP."
+description = "You convert sorcery points into spell slots, or expend spell slots to regain sorcery points. The spell slot’s level determines the points gained or required."
 display_name = "Font of Magic"
 
 [[capability_definitions]]
@@ -991,7 +991,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/metamagic/careful-spell"
 default_visibility = "Public"
-description = "Careful Spell Metamagic option (classes.md:7726). Cost 1 SP."
+description = "When you cast a spell that forces saving throws, you can spend 1 sorcery point to protect chosen creatures from its effects if they succeed on the save."
 display_name = "Metamagic: Careful Spell"
 
 [[capability_definitions]]
@@ -999,7 +999,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/class-feature/druid/wild-companion"
 default_visibility = "Public"
-description = "Druid Wild Companion (classes.md:3588): Magic action, expend a Wild Shape use to cast Find Familiar without Material components. LIVE: Spawn srd/creature/cat as Fey-ish familiar."
+description = "You use a Magic action and expend a use of Wild Shape to summon a familiar without providing material components. The familiar is a Fey spirit in animal form."
 display_name = "Wild Companion"
 
 [[capability_definitions]]
@@ -1007,13 +1007,13 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/eldritch-invocation/armor-of-shadows"
 default_visibility = "Public"
-description = "Eldritch Invocation Armor of Shadows (classes.md): cast Mage Armor on self without a slot."
+description = "You can cast Mage Armor on yourself without expending a spell slot."
 display_name = "Armor of Shadows"
 
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/bardic-inspiration"
-description = "Banked Bardic Inspiration die (classes.md:856-858). Holder spends it via srd/bard/spend-bardic-inspiration-die for a short-lived +3 ability-check boost. True post-roll auto-spend is substrate (docs/substrate-verdicts/bardic-inspiration-post-roll-die.md)."
+description = "You have an inspiration die from a bard. You can spend it after an ability check to gain a brief bonus to that check."
 display_name = "Bardic Inspiration (banked die)"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []
@@ -1028,7 +1028,7 @@ suppresses_capability_while_active = []
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/innate-sorcery"
-description = "Innate Sorcery active marker until next turn_start."
+description = "A magical state that lasts until the start of your next turn."
 display_name = "Innate Sorcery"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []
@@ -1043,7 +1043,7 @@ suppresses_capability_while_active = []
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/metamagic-careful"
-description = "Careful Spell armed (classes.md:7726). LIVE: marker only — per-ally auto-success on the next save-spell is the same cast-rider gap as Sculpt Spells (BL-71)."
+description = "You have prepared Careful Spell for your next spell that calls for saving throws. When you cast it, chosen allies automatically succeed on their saving throws against that spell."
 display_name = "Metamagic: Careful Spell (armed)"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []
@@ -1058,7 +1058,7 @@ suppresses_capability_while_active = []
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/bardic-inspiration-spent-boost"
-description = "Short-lived +3 (d6 mean) after spending a banked Bardic Inspiration die. Expires at next turn_start of the holder."
+description = "You have a bonus from a spent Bardic Inspiration die. Add it to one ability check, attack roll, or saving throw before the start of your next turn."
 display_name = "Bardic Inspiration Die (spent)"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []
@@ -1073,7 +1073,7 @@ suppresses_capability_while_active = []
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/mage-armor"
-description = "Mage Armor AC baseline 13 + Dex (simplified as +3 AC Plus while active)."
+description = "While it lasts, your Armor Class gains a +3 bonus. It ends when its duration expires or the magic is dismissed."
 display_name = "Mage Armor"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []
@@ -1640,7 +1640,7 @@ primitives_csv = "Spawn"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/cleric/1/divine-order (unique under metadata_attachment natural key). Names srd/divine-order/protector."
+description = "At 1st level, you choose this order to gain training with martial weapons and heavy armor."
 display_name = "Advancement choice: cleric L1 → divine-order/protector"
 entity_def_id = "srd/advancement-choice-option/cleric/1/divine-order/protector"
 grants_capability_while_equipped = ""
@@ -1656,7 +1656,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/cleric/1/divine-order (unique under metadata_attachment natural key). Names srd/divine-order/thaumaturge."
+description = "Choose this divine order at 1st level to gain training in a priestly tradition and its associated benefits."
 display_name = "Advancement choice: cleric L1 → divine-order/thaumaturge"
 entity_def_id = "srd/advancement-choice-option/cleric/1/divine-order/thaumaturge"
 grants_capability_while_equipped = ""
@@ -1672,7 +1672,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/druid/1/primal-order (unique under metadata_attachment natural key). Names srd/primal-order/magician."
+description = "You gain a scholarly connection to primal magic. You can prepare an additional druid cantrip and add a ritual-focused spell list to your prepared spells."
 display_name = "Advancement choice: druid L1 → primal-order/magician"
 entity_def_id = "srd/advancement-choice-option/druid/1/primal-order/magician"
 grants_capability_while_equipped = ""
@@ -1688,7 +1688,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/druid/1/primal-order (unique under metadata_attachment natural key). Names srd/primal-order/warden."
+description = "Choose this order at 1st level to gain training in martial weapons and medium armor. You can use that training while you remain a druid."
 display_name = "Advancement choice: druid L1 → primal-order/warden"
 entity_def_id = "srd/advancement-choice-option/druid/1/primal-order/warden"
 grants_capability_while_equipped = ""
@@ -1704,7 +1704,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/paladin/2/fighting-style (unique under metadata_attachment natural key). Names srd/feat/archery."
+description = "Choose this option at 2nd level to gain the Archery fighting style feat."
 display_name = "Advancement choice: paladin L2 → feat/archery"
 entity_def_id = "srd/advancement-choice-option/paladin/2/feat/archery"
 grants_capability_while_equipped = ""
@@ -1720,7 +1720,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/paladin/2/fighting-style (unique under metadata_attachment natural key). Names srd/feat/defense."
+description = "A fighting style option that improves your defense while you wear armor. Choose it when you gain this paladin feature."
 display_name = "Advancement choice: paladin L2 → feat/defense"
 entity_def_id = "srd/advancement-choice-option/paladin/2/feat/defense"
 grants_capability_while_equipped = ""
@@ -1736,7 +1736,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/paladin/2/fighting-style (unique under metadata_attachment natural key). Names srd/feat/great-weapon-fighting."
+description = "Choose this fighting style at paladin level 2. When you roll low damage with a two-handed or versatile melee weapon you wield in both hands, you can reroll the die."
 display_name = "Advancement choice: paladin L2 → feat/great-weapon-fighting"
 entity_def_id = "srd/advancement-choice-option/paladin/2/feat/great-weapon-fighting"
 grants_capability_while_equipped = ""
@@ -1752,7 +1752,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/paladin/2/fighting-style (unique under metadata_attachment natural key). Names srd/feat/two-weapon-fighting."
+description = "A fighting style option for paladins. Choose it when you gain your fighting style to add your ability modifier to the damage of an off-hand weapon attack."
 display_name = "Advancement choice: paladin L2 → feat/two-weapon-fighting"
 entity_def_id = "srd/advancement-choice-option/paladin/2/feat/two-weapon-fighting"
 grants_capability_while_equipped = ""
@@ -1768,7 +1768,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/ranger/2/fighting-style (unique under metadata_attachment natural key). Names srd/feat/archery."
+description = "Choose this option when you gain your ranger fighting style. It improves your accuracy with ranged weapon attacks."
 display_name = "Advancement choice: ranger L2 → feat/archery"
 entity_def_id = "srd/advancement-choice-option/ranger/2/feat/archery"
 grants_capability_while_equipped = ""
@@ -1784,7 +1784,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/ranger/2/fighting-style (unique under metadata_attachment natural key). Names srd/feat/defense."
+description = "A combat training option you choose as a ranger. It grants a defensive benefit while you meet its requirements."
 display_name = "Advancement choice: ranger L2 → feat/defense"
 entity_def_id = "srd/advancement-choice-option/ranger/2/feat/defense"
 grants_capability_while_equipped = ""
@@ -1800,7 +1800,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/ranger/2/fighting-style (unique under metadata_attachment natural key). Names srd/feat/great-weapon-fighting."
+description = "A fighting style option for rangers. When you roll low damage with a two-handed or versatile melee weapon, you can reroll the damage die."
 display_name = "Advancement choice: ranger L2 → feat/great-weapon-fighting"
 entity_def_id = "srd/advancement-choice-option/ranger/2/feat/great-weapon-fighting"
 grants_capability_while_equipped = ""
@@ -1816,7 +1816,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/ranger/2/fighting-style (unique under metadata_attachment natural key). Names srd/feat/two-weapon-fighting."
+description = "You gain a fighting style that improves how you wield a weapon in each hand, helping you strike more effectively with your second weapon."
 display_name = "Advancement choice: ranger L2 → feat/two-weapon-fighting"
 entity_def_id = "srd/advancement-choice-option/ranger/2/feat/two-weapon-fighting"
 grants_capability_while_equipped = ""
@@ -1832,7 +1832,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/acrobatics."
+description = "Choose Acrobatics as one of your Expertise skills. Your proficiency bonus is doubled for ability checks you make with Acrobatics."
 display_name = "Advancement choice: bard L2 → expertise-option/acrobatics"
 entity_def_id = "srd/advancement-choice-option/bard/2/expertise-option/acrobatics"
 grants_capability_while_equipped = ""
@@ -1848,7 +1848,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/animal-handling."
+description = "Choose Animal Handling as one of your Expertise skills. Your proficiency bonus is doubled for checks you make with it."
 display_name = "Advancement choice: bard L2 → expertise-option/animal-handling"
 entity_def_id = "srd/advancement-choice-option/bard/2/expertise-option/animal-handling"
 grants_capability_while_equipped = ""
@@ -1864,7 +1864,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/arcana."
+description = "When you gain bard Expertise, you can choose Arcana to double your proficiency bonus for ability checks you make with that skill."
 display_name = "Advancement choice: bard L2 → expertise-option/arcana"
 entity_def_id = "srd/advancement-choice-option/bard/2/expertise-option/arcana"
 grants_capability_while_equipped = ""
@@ -1880,7 +1880,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/athletics."
+description = "Choose Athletics as one of your Expertise skills. Your proficiency bonus is doubled for ability checks you make with Athletics."
 display_name = "Advancement choice: bard L2 → expertise-option/athletics"
 entity_def_id = "srd/advancement-choice-option/bard/2/expertise-option/athletics"
 grants_capability_while_equipped = ""
@@ -1896,7 +1896,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/deception."
+description = "Choose Deception as one of your Expertise skills. Your proficiency bonus is doubled for ability checks you make with it."
 display_name = "Advancement choice: bard L2 → expertise-option/deception"
 entity_def_id = "srd/advancement-choice-option/bard/2/expertise-option/deception"
 grants_capability_while_equipped = ""
@@ -1912,7 +1912,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/history."
+description = "Choose the History skill for your Expertise feature. Your proficiency bonus is doubled for checks you make with that skill."
 display_name = "Advancement choice: bard L2 → expertise-option/history"
 entity_def_id = "srd/advancement-choice-option/bard/2/expertise-option/history"
 grants_capability_while_equipped = ""
@@ -1928,7 +1928,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/insight."
+description = "Choose Insight as one of the skills you enhance with your Expertise feature. Your proficiency bonus is doubled for checks you make with that skill."
 display_name = "Advancement choice: bard L2 → expertise-option/insight"
 entity_def_id = "srd/advancement-choice-option/bard/2/expertise-option/insight"
 grants_capability_while_equipped = ""
@@ -1944,7 +1944,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/intimidation."
+description = "Choose Intimidation as one of your Expertise skills. You add twice your proficiency bonus to checks you make with it."
 display_name = "Advancement choice: bard L2 → expertise-option/intimidation"
 entity_def_id = "srd/advancement-choice-option/bard/2/expertise-option/intimidation"
 grants_capability_while_equipped = ""
@@ -1960,7 +1960,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/investigation."
+description = "Choose Investigation as one of your Expertise skills. Your proficiency bonus is doubled for ability checks you make with Investigation."
 display_name = "Advancement choice: bard L2 → expertise-option/investigation"
 entity_def_id = "srd/advancement-choice-option/bard/2/expertise-option/investigation"
 grants_capability_while_equipped = ""
@@ -1976,7 +1976,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/medicine."
+description = "When you gain bard Expertise, you can choose Medicine. Your proficiency bonus is doubled for ability checks you make using that skill."
 display_name = "Advancement choice: bard L2 → expertise-option/medicine"
 entity_def_id = "srd/advancement-choice-option/bard/2/expertise-option/medicine"
 grants_capability_while_equipped = ""
@@ -1992,7 +1992,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/nature."
+description = "Choose Nature as one of the skills enhanced by your Expertise feature. You gain the feature’s increased proficiency benefit whenever you make a Nature check."
 display_name = "Advancement choice: bard L2 → expertise-option/nature"
 entity_def_id = "srd/advancement-choice-option/bard/2/expertise-option/nature"
 grants_capability_while_equipped = ""
@@ -2008,7 +2008,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/perception."
+description = "Choose Perception for your Expertise. Your proficiency bonus is doubled for ability checks you make using Perception."
 display_name = "Advancement choice: bard L2 → expertise-option/perception"
 entity_def_id = "srd/advancement-choice-option/bard/2/expertise-option/perception"
 grants_capability_while_equipped = ""
@@ -2024,7 +2024,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/performance."
+description = "Choose Performance as one of your Expertise skills. Your proficiency bonus is doubled for ability checks you make with Performance."
 display_name = "Advancement choice: bard L2 → expertise-option/performance"
 entity_def_id = "srd/advancement-choice-option/bard/2/expertise-option/performance"
 grants_capability_while_equipped = ""
@@ -2040,7 +2040,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/persuasion."
+description = "Choose Persuasion for your Expertise. Your proficiency bonus is doubled for ability checks you make with Persuasion."
 display_name = "Advancement choice: bard L2 → expertise-option/persuasion"
 entity_def_id = "srd/advancement-choice-option/bard/2/expertise-option/persuasion"
 grants_capability_while_equipped = ""
@@ -2056,7 +2056,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/religion."
+description = "A bard advancement choice that grants you specialized training in Religion, improving your proficiency with that skill."
 display_name = "Advancement choice: bard L2 → expertise-option/religion"
 entity_def_id = "srd/advancement-choice-option/bard/2/expertise-option/religion"
 grants_capability_while_equipped = ""
@@ -2072,7 +2072,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/sleight-of-hand."
+description = "Choose Sleight of Hand as one of your Expertise skills. Your proficiency bonus is doubled for ability checks you make with it."
 display_name = "Advancement choice: bard L2 → expertise-option/sleight-of-hand"
 entity_def_id = "srd/advancement-choice-option/bard/2/expertise-option/sleight-of-hand"
 grants_capability_while_equipped = ""
@@ -2088,7 +2088,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/stealth."
+description = "Choose Stealth as one of your Expertise skills. Your proficiency bonus is doubled for ability checks you make with Stealth."
 display_name = "Advancement choice: bard L2 → expertise-option/stealth"
 entity_def_id = "srd/advancement-choice-option/bard/2/expertise-option/stealth"
 grants_capability_while_equipped = ""
@@ -2104,7 +2104,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/survival."
+description = "Choose Survival as one of the skills improved by your Expertise feature. Your proficiency bonus is doubled for ability checks you make with Survival."
 display_name = "Advancement choice: bard L2 → expertise-option/survival"
 entity_def_id = "srd/advancement-choice-option/bard/2/expertise-option/survival"
 grants_capability_while_equipped = ""
@@ -2120,7 +2120,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/sorcerer/2/metamagic (unique under metadata_attachment natural key). Names srd/metamagic/careful-spell."
+description = "When you cast a spell that forces saving throws, you can spend a sorcery point to protect chosen creatures from its full effect on a successful save."
 display_name = "Advancement choice: sorcerer L2 → metamagic/careful-spell"
 entity_def_id = "srd/advancement-choice-option/sorcerer/2/metamagic/careful-spell"
 grants_capability_while_equipped = ""
@@ -2136,7 +2136,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/sorcerer/2/metamagic (unique under metadata_attachment natural key). Names srd/metamagic/distant-spell."
+description = "A Metamagic option that lets you spend sorcery points to increase a spell’s range or make a touch spell reach farther. Choose it when you cast the spell."
 display_name = "Advancement choice: sorcerer L2 → metamagic/distant-spell"
 entity_def_id = "srd/advancement-choice-option/sorcerer/2/metamagic/distant-spell"
 grants_capability_while_equipped = ""
@@ -2152,7 +2152,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/sorcerer/2/metamagic (unique under metadata_attachment natural key). Names srd/metamagic/empowered-spell."
+description = "When you cast a spell, you can spend sorcery points to reroll some of its damage dice. You must use the new rolls."
 display_name = "Advancement choice: sorcerer L2 → metamagic/empowered-spell"
 entity_def_id = "srd/advancement-choice-option/sorcerer/2/metamagic/empowered-spell"
 grants_capability_while_equipped = ""
@@ -2168,7 +2168,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/sorcerer/2/metamagic (unique under metadata_attachment natural key). Names srd/metamagic/extended-spell."
+description = "When you cast a spell that lasts at least a minute, you can spend sorcery points to double its duration, up to a day."
 display_name = "Advancement choice: sorcerer L2 → metamagic/extended-spell"
 entity_def_id = "srd/advancement-choice-option/sorcerer/2/metamagic/extended-spell"
 grants_capability_while_equipped = ""
@@ -2184,7 +2184,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/sorcerer/2/metamagic (unique under metadata_attachment natural key). Names srd/metamagic/heightened-spell."
+description = "When you cast a spell, you can spend sorcery points to make one target less able to resist it. The target has disadvantage on the spell’s first saving throw."
 display_name = "Advancement choice: sorcerer L2 → metamagic/heightened-spell"
 entity_def_id = "srd/advancement-choice-option/sorcerer/2/metamagic/heightened-spell"
 grants_capability_while_equipped = ""
@@ -2200,7 +2200,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/sorcerer/2/metamagic (unique under metadata_attachment natural key). Names srd/metamagic/quickened-spell."
+description = "When you cast a spell with a casting time of one action, you can spend sorcery points to cast it as a bonus action instead."
 display_name = "Advancement choice: sorcerer L2 → metamagic/quickened-spell"
 entity_def_id = "srd/advancement-choice-option/sorcerer/2/metamagic/quickened-spell"
 grants_capability_while_equipped = ""
@@ -2216,7 +2216,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/sorcerer/2/metamagic (unique under metadata_attachment natural key). Names srd/metamagic/seeking-spell."
+description = "When you miss with a spell attack, you can spend sorcery points to reroll the attack against the same target."
 display_name = "Advancement choice: sorcerer L2 → metamagic/seeking-spell"
 entity_def_id = "srd/advancement-choice-option/sorcerer/2/metamagic/seeking-spell"
 grants_capability_while_equipped = ""
@@ -2232,7 +2232,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/sorcerer/2/metamagic (unique under metadata_attachment natural key). Names srd/metamagic/transmuted-spell."
+description = "When you cast a spell that deals acid, cold, fire, lightning, poison, or thunder damage, you can spend sorcery points to change that damage to another type from that list."
 display_name = "Advancement choice: sorcerer L2 → metamagic/transmuted-spell"
 entity_def_id = "srd/advancement-choice-option/sorcerer/2/metamagic/transmuted-spell"
 grants_capability_while_equipped = ""
@@ -2248,7 +2248,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/sorcerer/2/metamagic (unique under metadata_attachment natural key). Names srd/metamagic/twinned-spell."
+description = "When you cast a spell that targets only one creature, you can spend sorcery points to make it affect a second creature in range. The spell must be unable to target more than one creature at its current level."
 display_name = "Advancement choice: sorcerer L2 → metamagic/twinned-spell"
 entity_def_id = "srd/advancement-choice-option/sorcerer/2/metamagic/twinned-spell"
 grants_capability_while_equipped = ""
@@ -2264,7 +2264,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/agonizing-blast."
+description = "When you cast eldritch blast, you can add your spellcasting ability modifier to the damage it deals on a hit."
 display_name = "Advancement choice: warlock L1 → eldritch-invocation/agonizing-blast"
 entity_def_id = "srd/advancement-choice-option/warlock/1/eldritch-invocation/agonizing-blast"
 grants_capability_while_equipped = ""
@@ -2280,7 +2280,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/armor-of-shadows."
+description = "You can cast Mage Armor on yourself whenever you wish, without spending a spell slot or providing material components."
 display_name = "Advancement choice: warlock L1 → eldritch-invocation/armor-of-shadows"
 entity_def_id = "srd/advancement-choice-option/warlock/1/eldritch-invocation/armor-of-shadows"
 grants_capability_while_equipped = ""
@@ -2296,7 +2296,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/ascendant-step."
+description = "A mystical talent you can choose for your warlock. It lets you cast levitate on yourself at will, without spending a spell slot or providing material components."
 display_name = "Advancement choice: warlock L1 → eldritch-invocation/ascendant-step"
 entity_def_id = "srd/advancement-choice-option/warlock/1/eldritch-invocation/ascendant-step"
 grants_capability_while_equipped = ""
@@ -2312,7 +2312,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/devils-sight."
+description = "You gain supernatural sight that lets you see normally in darkness, including magical darkness, out to its listed range."
 display_name = "Advancement choice: warlock L1 → eldritch-invocation/devils-sight"
 entity_def_id = "srd/advancement-choice-option/warlock/1/eldritch-invocation/devils-sight"
 grants_capability_while_equipped = ""
@@ -2328,7 +2328,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/devouring-blade."
+description = "An eldritch invocation that improves your pact weapon attacks, letting you deal extra damage when you strike with it."
 display_name = "Advancement choice: warlock L1 → eldritch-invocation/devouring-blade"
 entity_def_id = "srd/advancement-choice-option/warlock/1/eldritch-invocation/devouring-blade"
 grants_capability_while_equipped = ""
@@ -2344,7 +2344,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/eldritch-mind."
+description = "You gain an invocation that helps you maintain concentration on a spell when you take damage."
 display_name = "Advancement choice: warlock L1 → eldritch-invocation/eldritch-mind"
 entity_def_id = "srd/advancement-choice-option/warlock/1/eldritch-invocation/eldritch-mind"
 grants_capability_while_equipped = ""
@@ -2360,7 +2360,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/eldritch-smite."
+description = "An invocation option that lets you empower a weapon attack with your pact magic. When you hit, you can expend a spell slot to deal extra force damage and knock a Large or smaller target prone."
 display_name = "Advancement choice: warlock L1 → eldritch-invocation/eldritch-smite"
 entity_def_id = "srd/advancement-choice-option/warlock/1/eldritch-invocation/eldritch-smite"
 grants_capability_while_equipped = ""
@@ -2376,7 +2376,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/eldritch-spear."
+description = "An invocation you choose for your warlock. It extends the reach of your eldritch blast."
 display_name = "Advancement choice: warlock L1 → eldritch-invocation/eldritch-spear"
 entity_def_id = "srd/advancement-choice-option/warlock/1/eldritch-invocation/eldritch-spear"
 grants_capability_while_equipped = ""
@@ -2392,7 +2392,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/fiendish-vigor."
+description = "You gain a supernatural reserve of vitality. You can cast false life on yourself at will without using a spell slot or material components."
 display_name = "Advancement choice: warlock L1 → eldritch-invocation/fiendish-vigor"
 entity_def_id = "srd/advancement-choice-option/warlock/1/eldritch-invocation/fiendish-vigor"
 grants_capability_while_equipped = ""
@@ -2408,7 +2408,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/gaze-of-two-minds."
+description = "You can perceive through a willing creature’s senses while it remains on your plane of existence. You use this invocation as an action and can end it whenever you choose."
 display_name = "Advancement choice: warlock L1 → eldritch-invocation/gaze-of-two-minds"
 entity_def_id = "srd/advancement-choice-option/warlock/1/eldritch-invocation/gaze-of-two-minds"
 grants_capability_while_equipped = ""
@@ -2424,7 +2424,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/gift-of-the-depths."
+description = "You gain a swimming speed and can breathe underwater. You can also teach a willing creature to do the same for a time."
 display_name = "Advancement choice: warlock L1 → eldritch-invocation/gift-of-the-depths"
 entity_def_id = "srd/advancement-choice-option/warlock/1/eldritch-invocation/gift-of-the-depths"
 grants_capability_while_equipped = ""
@@ -2440,7 +2440,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/gift-of-the-protectors."
+description = "Choose this invocation to protect creatures whose names you record in your pact book. When one of them would fall unconscious, your magic can instead leave them barely standing."
 display_name = "Advancement choice: warlock L1 → eldritch-invocation/gift-of-the-protectors"
 entity_def_id = "srd/advancement-choice-option/warlock/1/eldritch-invocation/gift-of-the-protectors"
 grants_capability_while_equipped = ""
@@ -2456,7 +2456,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/investment-of-the-chain-master."
+description = "You empower your pact familiar with greater speed, resilience, and combat options. When you command it to attack, you can let it use your spell attack bonus."
 display_name = "Advancement choice: warlock L1 → eldritch-invocation/investment-of-the-chain-master"
 entity_def_id = "srd/advancement-choice-option/warlock/1/eldritch-invocation/investment-of-the-chain-master"
 grants_capability_while_equipped = ""
@@ -2472,7 +2472,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/lessons-of-the-first-ones."
+description = "An eldritch invocation you choose as a warlock. It grants an additional origin feat of your choice, representing a foundational gift of your pact magic."
 display_name = "Advancement choice: warlock L1 → eldritch-invocation/lessons-of-the-first-ones"
 entity_def_id = "srd/advancement-choice-option/warlock/1/eldritch-invocation/lessons-of-the-first-ones"
 grants_capability_while_equipped = ""
@@ -2488,7 +2488,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/lifedrinker."
+description = "A warlock invocation you choose when eligible. Your weapon strikes deal extra necrotic damage equal to your Charisma modifier."
 display_name = "Advancement choice: warlock L1 → eldritch-invocation/lifedrinker"
 entity_def_id = "srd/advancement-choice-option/warlock/1/eldritch-invocation/lifedrinker"
 grants_capability_while_equipped = ""
@@ -2504,7 +2504,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/mask-of-many-faces."
+description = "You can cast Disguise Self whenever you choose without spending a spell slot or providing material components."
 display_name = "Advancement choice: warlock L1 → eldritch-invocation/mask-of-many-faces"
 entity_def_id = "srd/advancement-choice-option/warlock/1/eldritch-invocation/mask-of-many-faces"
 grants_capability_while_equipped = ""
@@ -2520,7 +2520,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/master-of-myriad-forms."
+description = "You can cast alter self on yourself whenever you wish, without spending a spell slot or providing material components."
 display_name = "Advancement choice: warlock L1 → eldritch-invocation/master-of-myriad-forms"
 entity_def_id = "srd/advancement-choice-option/warlock/1/eldritch-invocation/master-of-myriad-forms"
 grants_capability_while_equipped = ""
@@ -2536,7 +2536,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/misty-visions."
+description = "You can cast Silent Image at will without spending a spell slot or providing material components."
 display_name = "Advancement choice: warlock L1 → eldritch-invocation/misty-visions"
 entity_def_id = "srd/advancement-choice-option/warlock/1/eldritch-invocation/misty-visions"
 grants_capability_while_equipped = ""
@@ -2552,7 +2552,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/one-with-shadows."
+description = "When you are in dim light or darkness, you can use an action to become invisible until you move, take an action, or take a reaction."
 display_name = "Advancement choice: warlock L1 → eldritch-invocation/one-with-shadows"
 entity_def_id = "srd/advancement-choice-option/warlock/1/eldritch-invocation/one-with-shadows"
 grants_capability_while_equipped = ""
@@ -2568,7 +2568,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/otherworldly-leap."
+description = "You can cast a jump-enhancing spell on yourself whenever you could normally cast a spell, without spending a spell slot or providing its material components."
 display_name = "Advancement choice: warlock L1 → eldritch-invocation/otherworldly-leap"
 entity_def_id = "srd/advancement-choice-option/warlock/1/eldritch-invocation/otherworldly-leap"
 grants_capability_while_equipped = ""
@@ -2584,7 +2584,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/pact-of-the-blade."
+description = "You gain a pact weapon you can summon or dismiss, and you can use it as your spellcasting focus. Choose this invocation when you gain an eldritch invocation."
 display_name = "Advancement choice: warlock L1 → eldritch-invocation/pact-of-the-blade"
 entity_def_id = "srd/advancement-choice-option/warlock/1/eldritch-invocation/pact-of-the-blade"
 grants_capability_while_equipped = ""
@@ -2600,7 +2600,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/pact-of-the-chain."
+description = "You learn a ritual that lets you summon and command an unusually capable familiar, choosing from special forms as well as the usual ones."
 display_name = "Advancement choice: warlock L1 → eldritch-invocation/pact-of-the-chain"
 entity_def_id = "srd/advancement-choice-option/warlock/1/eldritch-invocation/pact-of-the-chain"
 grants_capability_while_equipped = ""
@@ -2616,7 +2616,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/pact-of-the-tome."
+description = "A pact option that grants you a grimoire of magical knowledge. You gain extra cantrips and can use the book to record and cast certain rituals."
 display_name = "Advancement choice: warlock L1 → eldritch-invocation/pact-of-the-tome"
 entity_def_id = "srd/advancement-choice-option/warlock/1/eldritch-invocation/pact-of-the-tome"
 grants_capability_while_equipped = ""
@@ -2632,7 +2632,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/repelling-blast."
+description = "When you hit a creature with eldritch blast, you can push it away from you."
 display_name = "Advancement choice: warlock L1 → eldritch-invocation/repelling-blast"
 entity_def_id = "srd/advancement-choice-option/warlock/1/eldritch-invocation/repelling-blast"
 grants_capability_while_equipped = ""
@@ -2648,7 +2648,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/thirsting-blade."
+description = "When you take the Attack action with your pact weapon, you can make an additional attack with it."
 display_name = "Advancement choice: warlock L1 → eldritch-invocation/thirsting-blade"
 entity_def_id = "srd/advancement-choice-option/warlock/1/eldritch-invocation/thirsting-blade"
 grants_capability_while_equipped = ""
@@ -2664,7 +2664,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/visions-of-distant-realms."
+description = "You can cast Arcane Eye without spending a spell slot. Once you do, you cannot cast it this way again until you finish a long rest."
 display_name = "Advancement choice: warlock L1 → eldritch-invocation/visions-of-distant-realms"
 entity_def_id = "srd/advancement-choice-option/warlock/1/eldritch-invocation/visions-of-distant-realms"
 grants_capability_while_equipped = ""
@@ -2680,7 +2680,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/whispers-of-the-grave."
+description = "An eldritch invocation that lets you cast speak with dead without spending a spell slot. You can use it whenever you are able to cast spells."
 display_name = "Advancement choice: warlock L1 → eldritch-invocation/whispers-of-the-grave"
 entity_def_id = "srd/advancement-choice-option/warlock/1/eldritch-invocation/whispers-of-the-grave"
 grants_capability_while_equipped = ""
@@ -2696,7 +2696,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/witch-sight."
+description = "You gain supernatural sight that reveals creatures hidden by shapechanging magic while they are within your view."
 display_name = "Advancement choice: warlock L1 → eldritch-invocation/witch-sight"
 entity_def_id = "srd/advancement-choice-option/warlock/1/eldritch-invocation/witch-sight"
 grants_capability_while_equipped = ""
@@ -2712,7 +2712,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/agonizing-blast."
+description = "When you cast eldritch blast, add your spellcasting ability modifier to the damage it deals on a hit."
 display_name = "Advancement choice: warlock L2 → eldritch-invocation/agonizing-blast"
 entity_def_id = "srd/advancement-choice-option/warlock/2/eldritch-invocation/agonizing-blast"
 grants_capability_while_equipped = ""
@@ -2728,7 +2728,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/armor-of-shadows."
+description = "You can cast Mage Armor on yourself whenever you want, without spending a spell slot or needing material components."
 display_name = "Advancement choice: warlock L2 → eldritch-invocation/armor-of-shadows"
 entity_def_id = "srd/advancement-choice-option/warlock/2/eldritch-invocation/armor-of-shadows"
 grants_capability_while_equipped = ""
@@ -2744,7 +2744,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/ascendant-step."
+description = "You gain a magical movement ability that lets you rise or cross open space more easily. Choose this invocation when you gain or replace an eldritch invocation."
 display_name = "Advancement choice: warlock L2 → eldritch-invocation/ascendant-step"
 entity_def_id = "srd/advancement-choice-option/warlock/2/eldritch-invocation/ascendant-step"
 grants_capability_while_equipped = ""
@@ -2760,7 +2760,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/devils-sight."
+description = "You can see normally in darkness, including darkness created by magic, out to a limited distance."
 display_name = "Advancement choice: warlock L2 → eldritch-invocation/devils-sight"
 entity_def_id = "srd/advancement-choice-option/warlock/2/eldritch-invocation/devils-sight"
 grants_capability_while_equipped = ""
@@ -2776,7 +2776,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/devouring-blade."
+description = "An eldritch enhancement for a weapon you conjure through your pact. When you strike with it, you can deal extra necrotic damage and regain a small amount of health."
 display_name = "Advancement choice: warlock L2 → eldritch-invocation/devouring-blade"
 entity_def_id = "srd/advancement-choice-option/warlock/2/eldritch-invocation/devouring-blade"
 grants_capability_while_equipped = ""
@@ -2792,7 +2792,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/eldritch-mind."
+description = "A magical focus that steadies your concentration. You have advantage on checks to maintain a spell when you take damage."
 display_name = "Advancement choice: warlock L2 → eldritch-invocation/eldritch-mind"
 entity_def_id = "srd/advancement-choice-option/warlock/2/eldritch-invocation/eldritch-mind"
 grants_capability_while_equipped = ""
@@ -2808,7 +2808,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/eldritch-smite."
+description = "When you hit a creature with your pact weapon, you can expend a spell slot to deal extra force damage and knock it prone if it is Huge or smaller."
 display_name = "Advancement choice: warlock L2 → eldritch-invocation/eldritch-smite"
 entity_def_id = "srd/advancement-choice-option/warlock/2/eldritch-invocation/eldritch-smite"
 grants_capability_while_equipped = ""
@@ -2824,7 +2824,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/eldritch-spear."
+description = "An invocation option that extends the range of your eldritch blast. Choose it when you gain an eldritch invocation."
 display_name = "Advancement choice: warlock L2 → eldritch-invocation/eldritch-spear"
 entity_def_id = "srd/advancement-choice-option/warlock/2/eldritch-invocation/eldritch-spear"
 grants_capability_while_equipped = ""
@@ -2840,7 +2840,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/fiendish-vigor."
+description = "You gain a supernatural reserve of vitality. You can cast false life on yourself at will without using a spell slot or material components."
 display_name = "Advancement choice: warlock L2 → eldritch-invocation/fiendish-vigor"
 entity_def_id = "srd/advancement-choice-option/warlock/2/eldritch-invocation/fiendish-vigor"
 grants_capability_while_equipped = ""
@@ -2856,7 +2856,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/gaze-of-two-minds."
+description = "You magically perceive through a willing creature’s senses while it remains nearby, letting you see and hear as it does."
 display_name = "Advancement choice: warlock L2 → eldritch-invocation/gaze-of-two-minds"
 entity_def_id = "srd/advancement-choice-option/warlock/2/eldritch-invocation/gaze-of-two-minds"
 grants_capability_while_equipped = ""
@@ -2872,7 +2872,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/gift-of-the-depths."
+description = "You gain a swimming speed and can breathe underwater. You also gain a spectral companion that can carry you and others beneath the waves."
 display_name = "Advancement choice: warlock L2 → eldritch-invocation/gift-of-the-depths"
 entity_def_id = "srd/advancement-choice-option/warlock/2/eldritch-invocation/gift-of-the-depths"
 grants_capability_while_equipped = ""
@@ -2888,7 +2888,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/gift-of-the-protectors."
+description = "Choose this invocation to record a creature’s name in your pact gift. When that creature would fall unconscious from damage, it instead drops to 1 hit point, then the name is removed."
 display_name = "Advancement choice: warlock L2 → eldritch-invocation/gift-of-the-protectors"
 entity_def_id = "srd/advancement-choice-option/warlock/2/eldritch-invocation/gift-of-the-protectors"
 grants_capability_while_equipped = ""
@@ -2904,7 +2904,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/investment-of-the-chain-master."
+description = "A choice that enhances your pact familiar. Its attacks become magical, it gains improved movement or defenses, and you can command it to attack with your bonus action."
 display_name = "Advancement choice: warlock L2 → eldritch-invocation/investment-of-the-chain-master"
 entity_def_id = "srd/advancement-choice-option/warlock/2/eldritch-invocation/investment-of-the-chain-master"
 grants_capability_while_equipped = ""
@@ -2920,7 +2920,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/lessons-of-the-first-ones."
+description = "An Eldritch Invocation you can choose as a warlock. It grants an Origin feat of your choice, representing a lesson drawn from ancient supernatural power."
 display_name = "Advancement choice: warlock L2 → eldritch-invocation/lessons-of-the-first-ones"
 entity_def_id = "srd/advancement-choice-option/warlock/2/eldritch-invocation/lessons-of-the-first-ones"
 grants_capability_while_equipped = ""
@@ -2936,7 +2936,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/lifedrinker."
+description = "Choose this invocation when you gain a warlock invocation. It strengthens your weapon strikes with your pact magic."
 display_name = "Advancement choice: warlock L2 → eldritch-invocation/lifedrinker"
 entity_def_id = "srd/advancement-choice-option/warlock/2/eldritch-invocation/lifedrinker"
 grants_capability_while_equipped = ""
@@ -2952,7 +2952,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/mask-of-many-faces."
+description = "You can cast Disguise Self at will without spending a spell slot or providing material components."
 display_name = "Advancement choice: warlock L2 → eldritch-invocation/mask-of-many-faces"
 entity_def_id = "srd/advancement-choice-option/warlock/2/eldritch-invocation/mask-of-many-faces"
 grants_capability_while_equipped = ""
@@ -2968,7 +2968,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/master-of-myriad-forms."
+description = "Choose this invocation to cast alter self on yourself without spending a spell slot. You can use it whenever you are able to cast spells."
 display_name = "Advancement choice: warlock L2 → eldritch-invocation/master-of-myriad-forms"
 entity_def_id = "srd/advancement-choice-option/warlock/2/eldritch-invocation/master-of-myriad-forms"
 grants_capability_while_equipped = ""
@@ -2984,7 +2984,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/misty-visions."
+description = "You can cast Silent Image at will without spending a spell slot or providing material components."
 display_name = "Advancement choice: warlock L2 → eldritch-invocation/misty-visions"
 entity_def_id = "srd/advancement-choice-option/warlock/2/eldritch-invocation/misty-visions"
 grants_capability_while_equipped = ""
@@ -3000,7 +3000,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/one-with-shadows."
+description = "You can become invisible in dim light or darkness while you remain still. The effect ends when you move, take an action, or react."
 display_name = "Advancement choice: warlock L2 → eldritch-invocation/one-with-shadows"
 entity_def_id = "srd/advancement-choice-option/warlock/2/eldritch-invocation/one-with-shadows"
 grants_capability_while_equipped = ""
@@ -3016,7 +3016,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/otherworldly-leap."
+description = "You can cast jump on yourself at will, without using a spell slot or providing material components."
 display_name = "Advancement choice: warlock L2 → eldritch-invocation/otherworldly-leap"
 entity_def_id = "srd/advancement-choice-option/warlock/2/eldritch-invocation/otherworldly-leap"
 grants_capability_while_equipped = ""
@@ -3032,7 +3032,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/pact-of-the-blade."
+description = "You can conjure a bonded melee weapon and use your spellcasting ability for its attacks. You can also make it serve as your focus and call it back if it is lost."
 display_name = "Advancement choice: warlock L2 → eldritch-invocation/pact-of-the-blade"
 entity_def_id = "srd/advancement-choice-option/warlock/2/eldritch-invocation/pact-of-the-blade"
 grants_capability_while_equipped = ""
@@ -3048,7 +3048,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/pact-of-the-chain."
+description = "You gain a special benefit that strengthens the familiar you summon through your pact. Choose it as an eldritch invocation when you meet its prerequisite."
 display_name = "Advancement choice: warlock L2 → eldritch-invocation/pact-of-the-chain"
 entity_def_id = "srd/advancement-choice-option/warlock/2/eldritch-invocation/pact-of-the-chain"
 grants_capability_while_equipped = ""
@@ -3064,7 +3064,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/pact-of-the-tome."
+description = "An invocation option for tome-bearing warlocks. It improves the magical book granted by your pact and adds spells or other arcane benefits to it."
 display_name = "Advancement choice: warlock L2 → eldritch-invocation/pact-of-the-tome"
 entity_def_id = "srd/advancement-choice-option/warlock/2/eldritch-invocation/pact-of-the-tome"
 grants_capability_while_equipped = ""
@@ -3080,7 +3080,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/repelling-blast."
+description = "When you hit a creature with your eldritch blast, you can push it away from you."
 display_name = "Advancement choice: warlock L2 → eldritch-invocation/repelling-blast"
 entity_def_id = "srd/advancement-choice-option/warlock/2/eldritch-invocation/repelling-blast"
 grants_capability_while_equipped = ""
@@ -3096,7 +3096,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/thirsting-blade."
+description = "You can attack twice, instead of once, when you take the Attack action with your pact weapon."
 display_name = "Advancement choice: warlock L2 → eldritch-invocation/thirsting-blade"
 entity_def_id = "srd/advancement-choice-option/warlock/2/eldritch-invocation/thirsting-blade"
 grants_capability_while_equipped = ""
@@ -3112,7 +3112,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/visions-of-distant-realms."
+description = "You gain the ability to cast Arcane Eye without using a spell slot. You can do so again after you finish a long rest."
 display_name = "Advancement choice: warlock L2 → eldritch-invocation/visions-of-distant-realms"
 entity_def_id = "srd/advancement-choice-option/warlock/2/eldritch-invocation/visions-of-distant-realms"
 grants_capability_while_equipped = ""
@@ -3128,7 +3128,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/whispers-of-the-grave."
+description = "You can cast Speak with Dead without spending a spell slot. Once you do, you cannot cast it this way again until you finish a long rest."
 display_name = "Advancement choice: warlock L2 → eldritch-invocation/whispers-of-the-grave"
 entity_def_id = "srd/advancement-choice-option/warlock/2/eldritch-invocation/whispers-of-the-grave"
 grants_capability_while_equipped = ""
@@ -3144,7 +3144,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/witch-sight."
+description = "You gain magical sight that lets you see a creature’s true form through shapechanging and illusion magic."
 display_name = "Advancement choice: warlock L2 → eldritch-invocation/witch-sight"
 entity_def_id = "srd/advancement-choice-option/warlock/2/eldritch-invocation/witch-sight"
 grants_capability_while_equipped = ""
@@ -3160,7 +3160,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/wizard/2/scholar (unique under metadata_attachment natural key). Names srd/expertise-option/arcana."
+description = "Choose Arcana for your expertise. Your proficiency bonus is doubled for Intelligence checks you make using Arcana."
 display_name = "Advancement choice: wizard L2 → expertise-option/arcana"
 entity_def_id = "srd/advancement-choice-option/wizard/2/expertise-option/arcana"
 grants_capability_while_equipped = ""
@@ -3176,7 +3176,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/wizard/2/scholar (unique under metadata_attachment natural key). Names srd/expertise-option/history."
+description = "Choose the History skill for your Expertise option. Your proficiency bonus is doubled for ability checks you make with that skill."
 display_name = "Advancement choice: wizard L2 → expertise-option/history"
 entity_def_id = "srd/advancement-choice-option/wizard/2/expertise-option/history"
 grants_capability_while_equipped = ""
@@ -3192,7 +3192,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/wizard/2/scholar (unique under metadata_attachment natural key). Names srd/expertise-option/investigation."
+description = "Choose Investigation as one of your areas of expertise. You gain the listed benefit whenever you make an Intelligence check to investigate clues, objects, or information."
 display_name = "Advancement choice: wizard L2 → expertise-option/investigation"
 entity_def_id = "srd/advancement-choice-option/wizard/2/expertise-option/investigation"
 grants_capability_while_equipped = ""
@@ -3208,7 +3208,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/wizard/2/scholar (unique under metadata_attachment natural key). Names srd/expertise-option/medicine."
+description = "Choose this option to gain expertise in Medicine, doubling your proficiency bonus for checks you make with that skill."
 display_name = "Advancement choice: wizard L2 → expertise-option/medicine"
 entity_def_id = "srd/advancement-choice-option/wizard/2/expertise-option/medicine"
 grants_capability_while_equipped = ""
@@ -3224,7 +3224,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/wizard/2/scholar (unique under metadata_attachment natural key). Names srd/expertise-option/nature."
+description = "Choose Nature expertise to gain deeper training in the Nature skill. Your proficiency bonus is doubled for ability checks you make with that skill."
 display_name = "Advancement choice: wizard L2 → expertise-option/nature"
 entity_def_id = "srd/advancement-choice-option/wizard/2/expertise-option/nature"
 grants_capability_while_equipped = ""
@@ -3240,7 +3240,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Menu member for srd/wizard/2/scholar (unique under metadata_attachment natural key). Names srd/expertise-option/religion."
+description = "Choose this option to gain expertise in Religion. Your proficiency bonus is doubled for ability checks you make using that skill."
 display_name = "Advancement choice: wizard L2 → expertise-option/religion"
 entity_def_id = "srd/advancement-choice-option/wizard/2/expertise-option/religion"
 grants_capability_while_equipped = ""
@@ -3256,7 +3256,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Cleric Divine Order option Protector (classes.md:2205-2211). Trained for battle, you gain proficiency with Martial weapons and training with Heavy armor. Menu member only — dialogue grants the mechanical benefits when chosen."
+description = "You are trained for battle. You gain proficiency with martial weapons and heavy armor."
 display_name = "Divine Order: Protector"
 entity_def_id = "srd/divine-order/protector"
 grants_capability_while_equipped = ""
@@ -3272,7 +3272,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Cleric Divine Order option Thaumaturge (classes.md:2205-2211). You know one extra cantrip from the Cleric spell list. In addition, your mystical connection to the divine gives you a bonus to your Intelligence (Arcana or Religion) checks equal to your Wisdom modifier (minimum of +1). Menu member only — dialogue grants the benefits when chosen."
+description = "Choose this order to learn an extra Cleric cantrip and add your Wisdom modifier, at least +1, to Intelligence checks using Arcana or Religion."
 display_name = "Divine Order: Thaumaturge"
 entity_def_id = "srd/divine-order/thaumaturge"
 grants_capability_while_equipped = ""
@@ -3288,7 +3288,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Druid Primal Order option Magician (classes.md:3521-3527). You know one extra cantrip from the Druid spell list. In addition, your mystical connection to nature gives you a bonus to your Intelligence (Arcana or Nature) checks equal to your Wisdom modifier (minimum bonus of +1). Menu member only — dialogue grants the benefits when chosen."
+description = "You learn an extra Druid cantrip and add your Wisdom modifier, at least +1, to Intelligence checks for Arcana or Nature."
 display_name = "Primal Order: Magician"
 entity_def_id = "srd/primal-order/magician"
 grants_capability_while_equipped = ""
@@ -3304,7 +3304,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Druid Primal Order option Warden (classes.md:3521-3527). Trained for battle, you gain proficiency with Martial weapons and training with Medium armor. Menu member only — dialogue grants the benefits when chosen."
+description = "A druidic path for battle training. When you choose it, you gain proficiency with martial weapons and training with medium armor."
 display_name = "Primal Order: Warden"
 entity_def_id = "srd/primal-order/warden"
 grants_capability_while_equipped = ""
@@ -3320,7 +3320,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Careful Spell — a Sorcerer Metamagic option."
+description = "Power gathers at the fingertips like a storm seeking release, yet its path is traced with a surgeon’s restraint. Amid the roar of unleashed flame or frost, chosen companions feel only a passing warmth, spared by the caster’s steady hand."
 display_name = "Metamagic: Careful Spell"
 entity_def_id = "srd/metamagic/careful-spell"
 grants_capability_while_equipped = ""
@@ -3336,7 +3336,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Distant Spell — a Sorcerer Metamagic option."
+description = "A practiced caster learns to loosen a spell from the tether of outstretched hands, sending its shimmer across a moonlit field or through the smoke of a crowded hall. Distance becomes less a barrier than a thread drawn taut between intent and outcome."
 display_name = "Metamagic: Distant Spell"
 entity_def_id = "srd/metamagic/distant-spell"
 grants_capability_while_equipped = ""
@@ -3352,7 +3352,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Empowered Spell — a Sorcerer Metamagic option."
+description = "A practiced spark of will runs through the spell at the moment of impact, refusing to let a weak flare gutter out. Embers brighten, thunder finds its full voice, and frost bites deeper beneath the caster’s steady gaze. The magic carries a fierce insistence: not merely cast, but made to matter."
 display_name = "Metamagic: Empowered Spell"
 entity_def_id = "srd/metamagic/empowered-spell"
 grants_capability_while_equipped = ""
@@ -3368,7 +3368,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Extended Spell — a Sorcerer Metamagic option."
+description = "Their magic is taught patience: a ward hums through the long watches, a summoned glow lingers past dawn, and delicate enchantments refuse to unravel when danger presses close. The spellcaster carries each working like a steady lantern flame, sheltered from wind and time alike."
 display_name = "Metamagic: Extended Spell"
 entity_def_id = "srd/metamagic/extended-spell"
 grants_capability_while_equipped = ""
@@ -3384,7 +3384,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Heightened Spell — a Sorcerer Metamagic option."
+description = "A practiced arcanist can tighten a spell’s weave around a chosen foe until every avenue of escape seems to narrow. The air grows heavy with inevitability, and even a seasoned will may falter beneath the focused pressure of the casting."
 display_name = "Metamagic: Heightened Spell"
 entity_def_id = "srd/metamagic/heightened-spell"
 grants_capability_while_equipped = ""
@@ -3400,7 +3400,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Quickened Spell — a Sorcerer Metamagic option."
+description = "Their magic answers in the space between heartbeats, shaped before an enemy can read the first spark of intent. A practiced flicker of will sends power racing ahead of gesture and chant, leaving only the sharp scent of ozone and the hush of astonishment behind."
 display_name = "Metamagic: Quickened Spell"
 entity_def_id = "srd/metamagic/quickened-spell"
 grants_capability_while_equipped = ""
@@ -3416,7 +3416,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Seeking Spell — a Sorcerer Metamagic option."
+description = "A spellcaster of this discipline lets magic slip free without a whisper, gesture, or telltale gleam of prepared focus. When a bolt strays, their will catches its fading trail and bends fate toward a second, sharper path. Their art is quiet as breath beneath a locked door, yet relentless in pursuit."
 display_name = "Metamagic: Seeking Spell"
 entity_def_id = "srd/metamagic/seeking-spell"
 grants_capability_while_equipped = ""
@@ -3432,7 +3432,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Transmuted Spell — a Sorcerer Metamagic option."
+description = "Their magic refuses to be chained to a single temperament. A flame can arrive with winter’s hush, a thunderclap can leave venomous green mist in its wake, and familiar incantations take on strange new colors at the last breath. Each alteration carries the thrill of an element taught to wear another’s face."
 display_name = "Metamagic: Transmuted Spell"
 entity_def_id = "srd/metamagic/transmuted-spell"
 grants_capability_while_equipped = ""
@@ -3448,7 +3448,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Twinned Spell — a Sorcerer Metamagic option."
+description = "A single incantation divides like light through a prism, carrying the same intent along two shimmering paths. The caster holds both threads in perfect tension, feeling the spell settle upon separate hearts without thinning or faltering."
 display_name = "Metamagic: Twinned Spell"
 entity_def_id = "srd/metamagic/twinned-spell"
 grants_capability_while_equipped = ""
@@ -3464,7 +3464,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Agonizing Blast — a Warlock Eldritch Invocation."
+description = "A familiar spark of pact-born power learns the shape of its bearer’s will, striking with a sting that lingers beyond flame, frost, or shadow. Each uttered charm carries a sharper personal weight, as though the unseen patron listens closely to every syllable."
 display_name = "Eldritch Invocation: Agonizing Blast"
 entity_def_id = "srd/eldritch-invocation/agonizing-blast"
 grants_capability_while_equipped = ""
@@ -3480,7 +3480,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Armor of Shadows — a Warlock Eldritch Invocation."
+description = "A whisper of old power settles over the skin like cool dusk, unseen yet steadfast. The bearer moves with the quiet assurance of one wrapped in moonlit glass, where claws glance aside and steel finds only a shimmer."
 display_name = "Eldritch Invocation: Armor of Shadows"
 entity_def_id = "srd/eldritch-invocation/armor-of-shadows"
 grants_capability_while_equipped = ""
@@ -3496,7 +3496,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Ascendant Step — a Warlock Eldritch Invocation."
+description = "A hush gathers beneath the feet, and the familiar pull of earth loosens like a knot undone. With a breath and a thought, the air becomes a hidden stairway, carrying its practiced rider above torch smoke, grasping hands, and uneven ground."
 display_name = "Eldritch Invocation: Ascendant Step"
 entity_def_id = "srd/eldritch-invocation/ascendant-step"
 grants_capability_while_equipped = ""
@@ -3512,7 +3512,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Devil's Sight — a Warlock Eldritch Invocation."
+description = "Darkness loses its mystery before eyes steeped in forbidden bargains. Where others grope through smoke, moonless halls, and sorcerous gloom, every edge remains sharp and every hidden movement leaves a trace. The night becomes less a veil than a familiar landscape, cold and perfectly clear."
 display_name = "Eldritch Invocation: Devil's Sight"
 entity_def_id = "srd/eldritch-invocation/devils-sight"
 grants_capability_while_equipped = ""
@@ -3528,7 +3528,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Devouring Blade — a Warlock Eldritch Invocation."
+description = "A pact-bound weapon becomes a hungry rhythm in the hand, each swing drawing another from the same dark cadence. In the crush of battle, its bearer moves as though the blade has learned the shape of every opening and refuses to leave a foe breathing room."
 display_name = "Eldritch Invocation: Devouring Blade"
 entity_def_id = "srd/eldritch-invocation/devouring-blade"
 grants_capability_while_equipped = ""
@@ -3544,7 +3544,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Eldritch Mind — a Warlock Eldritch Invocation."
+description = "Amid clashing steel and bursting flame, the warlock’s thoughts settle into a cold, unwavering stillness. A whispered pact hums beneath the ribs, holding fragile magic together while the world strains to tear it loose."
 display_name = "Eldritch Invocation: Eldritch Mind"
 entity_def_id = "srd/eldritch-invocation/eldritch-mind"
 grants_capability_while_equipped = ""
@@ -3560,7 +3560,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Eldritch Smite — a Warlock Eldritch Invocation."
+description = "A pact-bound weapon answers with a thunderless crack, its edge shearing through flesh and certainty alike. The bearer feels the force of a sealed bargain surge down their arm, leaving even towering foes sprawled amid dust and ringing stone."
 display_name = "Eldritch Invocation: Eldritch Smite"
 entity_def_id = "srd/eldritch-invocation/eldritch-smite"
 grants_capability_while_equipped = ""
@@ -3576,7 +3576,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Eldritch Spear — a Warlock Eldritch Invocation."
+description = "A thread of otherworldly force stretches far beyond the reach of torchlight, thin as a whispered promise and keen as a hunting hawk’s cry. Its bearer learns to cast ruin across open ground, over battlements, and into the dim places where enemies mistake distance for safety."
 display_name = "Eldritch Invocation: Eldritch Spear"
 entity_def_id = "srd/eldritch-invocation/eldritch-spear"
 grants_capability_while_equipped = ""
@@ -3592,7 +3592,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Fiendish Vigor — a Warlock Eldritch Invocation."
+description = "A dark warmth settles beneath the skin, like banked coals behind a furnace grate. Bruises seem slower to bloom, and cuts lose their urgency beneath an unseen, borrowed hardiness. The bargain leaves no visible armor—only the unsettling sense that something else is willing to suffer first."
 display_name = "Eldritch Invocation: Fiendish Vigor"
 entity_def_id = "srd/eldritch-invocation/fiendish-vigor"
 grants_capability_while_equipped = ""
@@ -3608,7 +3608,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Gaze of Two Minds — a Warlock Eldritch Invocation."
+description = "A thread of alien sympathy passes between companions, carrying sight, sound, and the taste of rain across the dark. For a fleeting while, two horizons overlap: a scout’s hidden path, a sentry’s lantern-lit hall, a friend’s breath held behind a door. Magic follows the shared awareness like a whisper finding either ear."
 display_name = "Eldritch Invocation: Gaze of Two Minds"
 entity_def_id = "srd/eldritch-invocation/gaze-of-two-minds"
 grants_capability_while_equipped = ""
@@ -3624,7 +3624,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Gift of the Depths — a Warlock Eldritch Invocation."
+description = "The sea’s cold hush becomes a familiar cloak, and drowning loses its terror beneath the moonlit surface. Saltwater fills the lungs like clean air while hidden currents carry the practiced traveler through drowned halls, kelp forests, and the silent domains beneath the waves."
 display_name = "Eldritch Invocation: Gift of the Depths"
 entity_def_id = "srd/eldritch-invocation/gift-of-the-depths"
 grants_capability_while_equipped = ""
@@ -3640,7 +3640,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Gift of the Protectors — a Warlock Eldritch Invocation."
+description = "Between the book’s familiar leaves waits a page that drinks ink with a faint, ember-warm sigh. Names written there seem to settle into the binding like promises made beside a midnight fire. When doom closes its hand around one of the marked, some stubborn spark remains—thin as a candlewick, yet enough to keep the dark from claiming them."
 display_name = "Eldritch Invocation: Gift of the Protectors"
 entity_def_id = "srd/eldritch-invocation/gift-of-the-protectors"
 grants_capability_while_equipped = ""
@@ -3656,7 +3656,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Investment of the Chain Master — a Warlock Eldritch Invocation."
+description = "A familiar touched by deeper patronage becomes more than a watchful companion. Shadow gathers beneath its claws, or pale brilliance gleams in its wake, while an unseen tether turns peril aside at the last instant. Whether skimming dark water or cutting through storm winds, it hunts with a sliver of borrowed will."
 display_name = "Eldritch Invocation: Investment of the Chain Master"
 entity_def_id = "srd/eldritch-invocation/investment-of-the-chain-master"
 grants_capability_while_equipped = ""
@@ -3672,7 +3672,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "**Lessons of the First Ones** — a Warlock Eldritch Invocation."
+description = "Whispers from before the first crown and hearth linger behind the eyes, carrying fragments of crafts, instincts, and stubborn mortal virtues. Each secret arrives like an old scar remembered by the soul, leaving its bearer altered in small, useful ways. The elder powers rarely explain why they share such gifts."
 display_name = "Eldritch Invocation: **Lessons of the First Ones**"
 entity_def_id = "srd/eldritch-invocation/lessons-of-the-first-ones"
 grants_capability_while_equipped = ""
@@ -3688,7 +3688,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Lifedrinker — a Warlock Eldritch Invocation."
+description = "A pact-bound blade becomes a conduit for hunger, drawing pale vigor from the moment steel finds flesh. Its wounds may bloom with grave-cold shadow, searing inner light, or a whisper of anguish that leaves enemies hollow-eyed. Each hard-won strike carries the intimate, unsettling comfort of strength returning through the hand that dealt it."
 display_name = "Eldritch Invocation: Lifedrinker"
 entity_def_id = "srd/eldritch-invocation/lifedrinker"
 grants_capability_while_equipped = ""
@@ -3704,7 +3704,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Mask of Many Faces — a Warlock Eldritch Invocation."
+description = "A practiced glamour settles over the bearer like cool mist, softening edges and persuading every eye to see a different story. Faces become costumes, voices gain new colors, and a crowded room turns into a stage with no fixed role. Beneath the borrowed appearance, the old self waits quietly, smiling behind the mask."
 display_name = "Eldritch Invocation: Mask of Many Faces"
 entity_def_id = "srd/eldritch-invocation/mask-of-many-faces"
 grants_capability_while_equipped = ""
@@ -3720,7 +3720,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Master of Myriad Forms — a Warlock Eldritch Invocation."
+description = "Their reflection has become a suggestion rather than a certainty. With a breath and a shift of will, bone, skin, and voice answer like wax near a flame, shaping a new passage through the world. No mask fits so closely as the body remade from within."
 display_name = "Eldritch Invocation: Master of Myriad Forms"
 entity_def_id = "srd/eldritch-invocation/master-of-myriad-forms"
 grants_capability_while_equipped = ""
@@ -3736,7 +3736,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Misty Visions — a Warlock Eldritch Invocation."
+description = "A flick of the wrist, and the air learns to lie: a distant doorway, a lurking beast, a bridge over a black ravine. The illusion hangs silent and convincing until doubt, touch, or sharp-eyed scrutiny unravels its borrowed shape. Such craft turns empty space into a stage where caution and fear perform the rest."
 display_name = "Eldritch Invocation: Misty Visions"
 entity_def_id = "srd/eldritch-invocation/misty-visions"
 grants_capability_while_equipped = ""
@@ -3752,7 +3752,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "One with Shadows — a Warlock Eldritch Invocation."
+description = "In the hush between torchlight and true dark, the body learns to loosen its claim on the eye. A practiced stillness gathers around every breath, folding silhouette into shadow until even watchful rooms seem to forget someone was ever there."
 display_name = "Eldritch Invocation: One with Shadows"
 entity_def_id = "srd/eldritch-invocation/one-with-shadows"
 grants_capability_while_equipped = ""
@@ -3768,7 +3768,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Otherworldly Leap — a Warlock Eldritch Invocation."
+description = "A strange buoyancy gathers in the bones, as though the earth has briefly forgotten its claim. Rooftops, ravines, and battlefield wreckage become invitations instead of barriers. Each landing arrives with the faint chill of a pact honored in motion."
 display_name = "Eldritch Invocation: Otherworldly Leap"
 entity_def_id = "srd/eldritch-invocation/otherworldly-leap"
 grants_capability_while_equipped = ""
@@ -3784,7 +3784,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Pact of the Blade — a Warlock Eldritch Invocation."
+description = "A chosen blade answers like a thought made steel, arriving cold in the palm or awakening beneath familiar fingers. Its edge carries the patron’s distant hush: grave-dark, star-bright, or sharp with secret dread. In the press of battle, wielder and weapon move as though guided by a single, unspoken vow."
 display_name = "Eldritch Invocation: Pact of the Blade"
 entity_def_id = "srd/eldritch-invocation/pact-of-the-blade"
 grants_capability_while_equipped = ""
@@ -3800,7 +3800,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Pact of the Chain — a Warlock Eldritch Invocation."
+description = "A watchful presence gathers at the edge of every campfire, arriving on silent wings, scaled coils, or tiny clawed feet. The bond hums through danger and distance alike, carrying flashes of mischief, warning, and fierce little devotion. In battle, master and companion move with the practiced rhythm of a shared secret."
 display_name = "Eldritch Invocation: Pact of the Chain"
 entity_def_id = "srd/eldritch-invocation/pact-of-the-chain"
 grants_capability_while_equipped = ""
@@ -3816,7 +3816,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Pact of the Tome — a Warlock Eldritch Invocation."
+description = "A private grimoire waits at the edge of sleep, its cover changing with the bearer’s mood: cracked leather, moon-pale bark, or pages that whisper like moth wings. Within, borrowed fragments of many traditions settle into obedient ink. Carried close, it lends old rites and small wonders the intimate certainty of a secret kept alive."
 display_name = "Eldritch Invocation: Pact of the Tome"
 entity_def_id = "srd/eldritch-invocation/pact-of-the-tome"
 grants_capability_while_equipped = ""
@@ -3832,7 +3832,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Repelling Blast — a Warlock Eldritch Invocation."
+description = "A crackling utterance becomes a battering wind, carrying foes backward on a surge of unseen force. The air snaps with each release, and even a charging beast may find its momentum broken by a single lance of hostile magic."
 display_name = "Eldritch Invocation: Repelling Blast"
 entity_def_id = "srd/eldritch-invocation/repelling-blast"
 grants_capability_while_equipped = ""
@@ -3848,7 +3848,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Thirsting Blade — a Warlock Eldritch Invocation."
+description = "A bound blade answers like a second pulse, eager to return to motion before its last note fades. In the press of battle, its bearer moves with relentless cadence, each sweeping cut drawing the weapon’s hungry will closer to the surface."
 display_name = "Eldritch Invocation: Thirsting Blade"
 entity_def_id = "srd/eldritch-invocation/thirsting-blade"
 grants_capability_while_equipped = ""
@@ -3864,7 +3864,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Visions of Distant Realms — a Warlock Eldritch Invocation."
+description = "A quiet focus opens a window beyond walls, sending an unseen witness drifting through locked halls, moonlit ruins, and storm-wracked towers. Distant places arrive as silvered impressions: the curl of torch smoke, the hush before an ambush, the secret paths no boot has traced."
 display_name = "Eldritch Invocation: Visions of Distant Realms"
 entity_def_id = "srd/eldritch-invocation/visions-of-distant-realms"
 grants_capability_while_equipped = ""
@@ -3880,7 +3880,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Whispers of the Grave — a Warlock Eldritch Invocation."
+description = "Grave-dust clings to the breath as silence loosens around old bones. A patient voice can draw the last embers of memory from sealed lips, bargaining with echoes that remember fear, betrayal, and unfinished vows. The dead rarely offer comfort, but they often know where the truth was buried."
 display_name = "Eldritch Invocation: Whispers of the Grave"
 entity_def_id = "srd/eldritch-invocation/whispers-of-the-grave"
 grants_capability_while_equipped = ""
@@ -3896,7 +3896,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Witch Sight — a Warlock Eldritch Invocation."
+description = "Nothing cloaked in glamour remains comfortably hidden nearby. Painted smiles, borrowed faces, and shadows stitched from spellwork fray beneath an unwavering gaze. The world becomes stranger, but also honest: every concealed shape hums at the edge of certainty."
 display_name = "Eldritch Invocation: Witch Sight"
 entity_def_id = "srd/eldritch-invocation/witch-sight"
 grants_capability_while_equipped = ""
@@ -4745,7 +4745,7 @@ priority = 0
 
 [[niche_definitions]]
 bundle_id = "srd"
-description = "sk-0m4.69: class features are actor-carried — capability carries this niche everywhere."
+description = "A cleric’s sacred power, used to produce a divine effect granted by your calling. You spend it when a feature tells you to do so."
 display_name = "Channel Divinity (Cleric)"
 niche_id = "capability:srd/class-feature/cleric/channel-divinity"
 predicate_source = ""
@@ -4753,7 +4753,7 @@ provider = "actor"
 
 [[niche_definitions]]
 bundle_id = "srd"
-description = "sk-0m4.69: class features are actor-carried — capability carries this niche everywhere."
+description = "A sacred power granted by your oath. You use it to fuel certain paladin features, then regain uses when you rest."
 display_name = "Channel Divinity (Paladin)"
 niche_id = "capability:srd/class-feature/paladin/channel-divinity"
 predicate_source = ""
@@ -4761,7 +4761,7 @@ provider = "actor"
 
 [[niche_definitions]]
 bundle_id = "srd"
-description = "sk-0m4.69: class features are actor-carried — capability carries this niche everywhere."
+description = "You magically take the form of a beast you have learned to emulate. You use this feature to assume that form for a limited time, gaining its physical traits while retaining key parts of yourself."
 display_name = "Wild Shape"
 niche_id = "capability:srd/class-feature/druid/wild-shape"
 predicate_source = ""
@@ -4769,7 +4769,7 @@ provider = "actor"
 
 [[niche_definitions]]
 bundle_id = "srd"
-description = "sk-0m4.69: class features are actor-carried — capability carries this niche everywhere."
+description = "A healing reserve you carry with you. You spend points from it to restore a creature’s health or cure certain ailments by touch."
 display_name = "Lay On Hands"
 niche_id = "capability:srd/class-feature/paladin/lay-on-hands"
 predicate_source = ""
@@ -4777,7 +4777,7 @@ provider = "actor"
 
 [[niche_definitions]]
 bundle_id = "srd"
-description = "sk-0m4.69: class features are actor-carried — capability carries this niche everywhere."
+description = "A ranger specialty that marks certain creature kinds as familiar quarry. You gain related tracking and knowledge benefits against the kinds you choose."
 display_name = "Favored Enemy"
 niche_id = "capability:srd/class-feature/ranger/favored-enemy"
 predicate_source = ""
@@ -4785,7 +4785,7 @@ provider = "actor"
 
 [[niche_definitions]]
 bundle_id = "srd"
-description = "sk-0m4.69: class features are actor-carried — capability carries this niche everywhere."
+description = "You draw on your inborn magic to heighten your spells for a limited time. You activate it as a bonus action, gaining its benefits until the effect ends."
 display_name = "Innate Sorcery"
 niche_id = "capability:srd/class-feature/sorcerer/innate-sorcery"
 predicate_source = ""
@@ -4793,7 +4793,7 @@ provider = "actor"
 
 [[niche_definitions]]
 bundle_id = "srd"
-description = "sk-0m4.69: class features are actor-carried — capability carries this niche everywhere."
+description = "Once per day after a short rest, you can regain expended spell power. The spells you recover must fit within your class’s recovery limit."
 display_name = "Arcane Recovery"
 niche_id = "capability:srd/class-feature/wizard/arcane-recovery"
 predicate_source = ""
@@ -4801,7 +4801,7 @@ provider = "actor"
 
 [[niche_definitions]]
 bundle_id = "srd"
-description = "sk-0m4.69: class features are actor-carried — capability carries this niche everywhere."
+description = "You briefly focus to regain some expended magical power. You can use it once between rests."
 display_name = "Magical Cunning"
 niche_id = "capability:srd/class-feature/warlock/magical-cunning"
 predicate_source = ""
@@ -4809,7 +4809,7 @@ provider = "actor"
 
 [[niche_definitions]]
 bundle_id = "srd"
-description = "sk-0m4.69: class features are actor-carried — capability carries this niche everywhere."
+description = "When you hit a creature with a melee weapon attack, you can expend a spell slot to deal extra radiant damage to it."
 display_name = "Divine Smite"
 niche_id = "capability:srd/class-feature/paladin/divine-smite"
 predicate_source = ""
@@ -4817,7 +4817,7 @@ provider = "actor"
 
 [[niche_definitions]]
 bundle_id = "srd"
-description = "sk-0m4.69: class features are actor-carried — capability carries this niche everywhere."
+description = "You draw on an inner reserve of magical power to fuel your sorcerer abilities. You can convert that power into spell slots or turn spell slots into more of it."
 display_name = "Font of Magic"
 niche_id = "capability:srd/class-feature/sorcerer/font-of-magic"
 predicate_source = ""
@@ -4825,7 +4825,7 @@ provider = "actor"
 
 [[niche_definitions]]
 bundle_id = "srd"
-description = "sk-0m4.69: class features are actor-carried — capability carries this niche everywhere."
+description = "You use your druid magic to temporarily summon a spirit in animal form to aid you as a familiar. You perform the summoning by spending a use of your Wild Shape."
 display_name = "Wild Companion"
 niche_id = "capability:srd/class-feature/druid/wild-companion"
 predicate_source = ""
@@ -4833,7 +4833,7 @@ provider = "actor"
 
 [[niche_definitions]]
 bundle_id = "srd"
-description = "sk-0m4.69: class features are actor-carried — capability carries this niche everywhere."
+description = "You can cast Mage Armor on yourself whenever you wish, without spending a spell slot or providing material components."
 display_name = "Armor of Shadows"
 niche_id = "capability:srd/eldritch-invocation/armor-of-shadows"
 predicate_source = ""
@@ -5048,6 +5048,7 @@ sense_visibility = "local"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "A limited resource you spend to use your cleric’s Channel Divinity effects. You regain some uses after a short rest and all expended uses after a long rest."
 display_name = "Channel Divinity Uses (Cleric)"
 initial_value = 2
 max_value = 3
@@ -5058,6 +5059,7 @@ value_kind = "int"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "A reserve for your paladin’s divine effects. You spend a use to create one of those effects, regain one after a Short Rest, and restore all uses after a Long Rest."
 display_name = "Channel Divinity Uses (Paladin)"
 initial_value = 2
 max_value = 3
@@ -5068,6 +5070,7 @@ value_kind = "int"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "How often you can inspire another creature with a Bonus Action. You regain all expended uses when you finish a Long Rest."
 display_name = "Bardic Inspiration Uses"
 initial_value = 1
 max_value = 5
@@ -5078,6 +5081,7 @@ value_kind = "int"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "Your uses of Wild Shape. Spend one to assume a known Beast form; you regain uses when you finish a Short Rest or Long Rest."
 display_name = "Wild Shape Uses"
 initial_value = 2
 max_value = 4
@@ -5088,6 +5092,7 @@ value_kind = "int"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "Your reservoir of healing power. As a Bonus Action, touch a creature to restore Hit Points or spend some to end its Poisoned condition; it refills when you finish a Long Rest."
 display_name = "Lay On Hands Pool"
 initial_value = 0
 max_value = 20
@@ -5098,6 +5103,7 @@ value_kind = "int"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "Free castings of Hunter’s Mark from your ranger training. You spend one to cast it without a spell slot and regain all uses when you finish a Long Rest."
 display_name = "Favored Enemy Uses"
 initial_value = 2
 max_value = 6
@@ -5108,6 +5114,7 @@ value_kind = "int"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "Uses of your Innate Sorcery feature. You spend one as a Bonus Action to empower your Sorcerer spells for 1 minute, and regain all uses when you finish a Long Rest."
 display_name = "Innate Sorcery Uses"
 initial_value = 2
 max_value = 2
@@ -5118,6 +5125,7 @@ value_kind = "int"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "Your Arcane Recovery use lets you restore expended spell slots after a Short Rest. You regain it when you finish a Long Rest."
 display_name = "Arcane Recovery Uses"
 initial_value = 1
 max_value = 1
@@ -5128,6 +5136,7 @@ value_kind = "int"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "A limited recovery use that restores some expended Pact Magic spell slots after a brief rite. You regain it when you finish a Long Rest."
 display_name = "Magical Cunning Uses"
 initial_value = 1
 max_value = 1
@@ -5138,6 +5147,7 @@ value_kind = "int"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "Your reserve for Metamagic and other sorcerer features. You spend points for magical effects or turn them into spell slots, and regain all spent points when you finish a Long Rest."
 display_name = "Sorcery Points"
 initial_value = 0
 max_value = 20

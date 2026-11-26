@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Pale leather, soft as high mist, is clasped with a buckle of silvered cloudglass that hums beneath the fingertips. Around the wearer’s waist it settles almost weightlessly, yet each breath seems to gather the force of distant thunderheads. Stone feels less permanent, iron less certain, when their hands close around it."
 display_name = "Belt of Giant Strength (Cloud)"
 entity_def_id = "srd/magic_item/belt-of-giant-strength-cloud"
 grants_capability_while_equipped = ""

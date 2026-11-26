@@ -44,6 +44,7 @@ tag = "srd.consumable"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Cloudy green liquid rolls within the vial like a tide caught in glass, carrying the briny scent of distant reefs. A translucent bubble drifts through it with slow, delicate pulses, luminous as a creature glimpsed beneath moonlit waves. When uncorked, the air nearby seems suddenly cooler and salted."
 display_name = "Potion of Water Breathing"
 entity_def_id = "srd/magic_item/potion-of-water-breathing"
 grants_capability_while_equipped = ""
@@ -84,7 +85,7 @@ template_id = "srd/magic_item/potion-of-water-breathing/consume/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/magic_item/potion-of-water-breathing"
-description = "Breathe underwater for 24 hours (magic-items.md § Potion of Water Breathing)."
+description = "You can breathe underwater for 24 hours after drinking this potion."
 display_name = "Potion of Water Breathing"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

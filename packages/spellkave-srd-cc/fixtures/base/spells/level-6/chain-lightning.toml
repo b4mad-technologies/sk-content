@@ -84,6 +84,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A white-blue lance tears through the air with the crack of a split stormcloud, striking one chosen point in a shower of harsh light. From there, hungry branches of electricity race outward across nearby forms, stitching the battlefield together in blinding, thunder-scented flashes. For an instant, every shadow is burned sharp against the world."
 display_name = "Chain Lightning"
 entity_def_id = "srd/spell/chain-lightning"
 grants_capability_while_equipped = ""

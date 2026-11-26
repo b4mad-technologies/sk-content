@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A slender rod of dark wood, warm beneath the fingers, with a pale ember glimmering behind its polished grain. At a whispered command, that ember divides into darting sparks that streak unerringly through smoke and shadow. Each dawn, the wand seems to drink the first light, though its final flicker carries the dry scent of ash."
 display_name = "Wand of Magic Missiles"
 entity_def_id = "srd/magic_item/wand-of-magic-missiles"
 grants_capability_while_equipped = ""
@@ -68,7 +69,7 @@ target_ref = "srd/magic_item/wand-of-magic-missiles"
 action_id = "srd/magic_item/wand-of-magic-missiles/cast_l1"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Spend 1 charge to cast Magic Missile at 1st level. Charge debit only this slice — spell resolution reuses the Spells chapter."
+description = "Spend 1 charge to cast magic missile at its lowest level. Resolve the spell normally."
 display_name = "Wand of Magic Missiles (1 charge)"
 on_failure = ""
 on_success = "srd/magic_item/wand-of-magic-missiles/cast_l1/success"
@@ -107,7 +108,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/magic_item/wand-of-magic-missiles/cast"
 default_visibility = "Public"
-description = "Expend charges from a Wand of Magic Missiles to cast Magic Missile (magic-items.md; spell identity srd/spell/magic-missile)."
+description = "You expend charges from a Wand of Magic Missiles to cast Magic Missile."
 display_name = "Use Wand of Magic Missiles"
 
 [[consequence_frame_writes]]
@@ -149,6 +150,7 @@ tag = "srd.magic_item.charges"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "The stored power you spend to activate the wand. While attuned to it, you know how many charges remain and how many it regains."
 display_name = "Wand of Magic Missiles Charges"
 initial_value = 7
 max_value = 7

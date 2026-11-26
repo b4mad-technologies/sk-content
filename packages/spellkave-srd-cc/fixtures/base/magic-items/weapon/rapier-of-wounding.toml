@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its slender blade drinks the torchlight, leaving only a bruised gleam along the edge. A wound opened by this rapier seems reluctant to close, as though the steel has taught the flesh to remember every cut. Even sheathed, it carries the faint chill of a midnight sickroom."
 display_name = "Rapier of Wounding"
 entity_def_id = "srd/magic_item/rapier-of-wounding"
 grants_capability_while_equipped = ""

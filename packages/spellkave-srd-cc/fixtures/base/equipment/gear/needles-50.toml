@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A paper of fine needles, thin as grass stems, is wrapped so the points cannot find a finger by accident. They glint when the fold is opened, and they prick the cloth if the wrap is rushed. Blowgun ammunition, or a tailor's last resort, depending on the hand. The paper wrapper crackles like dry leaves."
 display_name = "Needles (50)"
 entity_def_id = "srd/item/needles-50"
 grants_capability_while_equipped = ""

@@ -102,6 +102,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A thin, singing note gathers around joined hands, and the world seems briefly no thicker than painted glass. Colors drain, then return with an unfamiliar sky above and alien weather on the skin. For a breath, every traveler carries the dizzy certainty that home is not a place, but merely one shore among countless others."
 display_name = "Plane Shift"
 entity_def_id = "srd/spell/plane-shift"
 grants_capability_while_equipped = ""

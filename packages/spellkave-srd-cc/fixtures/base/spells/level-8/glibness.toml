@@ -72,6 +72,7 @@ tag = "srd.spell.list.warlock"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A silken certainty settles behind every phrase, polishing wit into something bright and irresistible. Doubt slides harmlessly from the speaker’s words, while listening hearts find each claim perfectly shaped to believe. Even watchful enchantments taste only honesty in the velvet cadence."
 display_name = "Glibness"
 entity_def_id = "srd/spell/glibness"
 grants_capability_while_equipped = ""

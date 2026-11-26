@@ -1,0 +1,6144 @@
+{
+	"schema": "spellkave-prose-manifest/v1",
+	"output_dir": "packages/spellkave-srd-cc/authored/flavor/.runs",
+	"entries": [
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/battleaxe",
+			"display_name": "Advancement choice: barbarian L1 → weapon/battleaxe",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/battleaxe."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/blowgun",
+			"display_name": "Advancement choice: barbarian L1 → weapon/blowgun",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/blowgun."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/club",
+			"display_name": "Advancement choice: barbarian L1 → weapon/club",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/club."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/dagger",
+			"display_name": "Advancement choice: barbarian L1 → weapon/dagger",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/dagger."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/dart",
+			"display_name": "Advancement choice: barbarian L1 → weapon/dart",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/dart."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/flail",
+			"display_name": "Advancement choice: barbarian L1 → weapon/flail",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/flail."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/glaive",
+			"display_name": "Advancement choice: barbarian L1 → weapon/glaive",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/glaive."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/greataxe",
+			"display_name": "Advancement choice: barbarian L1 → weapon/greataxe",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/greataxe."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/greatclub",
+			"display_name": "Advancement choice: barbarian L1 → weapon/greatclub",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/greatclub."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/greatsword",
+			"display_name": "Advancement choice: barbarian L1 → weapon/greatsword",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/greatsword."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/halberd",
+			"display_name": "Advancement choice: barbarian L1 → weapon/halberd",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/halberd."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/hand-crossbow",
+			"display_name": "Advancement choice: barbarian L1 → weapon/hand-crossbow",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/hand-crossbow."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/handaxe",
+			"display_name": "Advancement choice: barbarian L1 → weapon/handaxe",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/handaxe."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/heavy-crossbow",
+			"display_name": "Advancement choice: barbarian L1 → weapon/heavy-crossbow",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/heavy-crossbow."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/javelin",
+			"display_name": "Advancement choice: barbarian L1 → weapon/javelin",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/javelin."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/lance",
+			"display_name": "Advancement choice: barbarian L1 → weapon/lance",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/lance."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/light-crossbow",
+			"display_name": "Advancement choice: barbarian L1 → weapon/light-crossbow",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/light-crossbow."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/light-hammer",
+			"display_name": "Advancement choice: barbarian L1 → weapon/light-hammer",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/light-hammer."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/longbow",
+			"display_name": "Advancement choice: barbarian L1 → weapon/longbow",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/longbow."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/longsword",
+			"display_name": "Advancement choice: barbarian L1 → weapon/longsword",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/longsword."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/mace",
+			"display_name": "Advancement choice: barbarian L1 → weapon/mace",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/mace."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/maul",
+			"display_name": "Advancement choice: barbarian L1 → weapon/maul",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/maul."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/morningstar",
+			"display_name": "Advancement choice: barbarian L1 → weapon/morningstar",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/morningstar."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/musket",
+			"display_name": "Advancement choice: barbarian L1 → weapon/musket",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/musket."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/pike",
+			"display_name": "Advancement choice: barbarian L1 → weapon/pike",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/pike."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/pistol",
+			"display_name": "Advancement choice: barbarian L1 → weapon/pistol",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/pistol."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/quarterstaff",
+			"display_name": "Advancement choice: barbarian L1 → weapon/quarterstaff",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/quarterstaff."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/rapier",
+			"display_name": "Advancement choice: barbarian L1 → weapon/rapier",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/rapier."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/scimitar",
+			"display_name": "Advancement choice: barbarian L1 → weapon/scimitar",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/scimitar."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/shortbow",
+			"display_name": "Advancement choice: barbarian L1 → weapon/shortbow",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/shortbow."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/shortsword",
+			"display_name": "Advancement choice: barbarian L1 → weapon/shortsword",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/shortsword."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/sickle",
+			"display_name": "Advancement choice: barbarian L1 → weapon/sickle",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/sickle."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/sling",
+			"display_name": "Advancement choice: barbarian L1 → weapon/sling",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/sling."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/spear",
+			"display_name": "Advancement choice: barbarian L1 → weapon/spear",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/spear."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/trident",
+			"display_name": "Advancement choice: barbarian L1 → weapon/trident",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/trident."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/war-pick",
+			"display_name": "Advancement choice: barbarian L1 → weapon/war-pick",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/war-pick."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/warhammer",
+			"display_name": "Advancement choice: barbarian L1 → weapon/warhammer",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/warhammer."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/1/weapon/whip",
+			"display_name": "Advancement choice: barbarian L1 → weapon/whip",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/whip."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/3/skill-option/animal-handling",
+			"display_name": "Advancement choice: barbarian L3 → skill-option/animal-handling",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/3/primal-knowledge (unique under metadata_attachment natural key). Names srd/skill-option/animal-handling."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/3/skill-option/athletics",
+			"display_name": "Advancement choice: barbarian L3 → skill-option/athletics",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/3/primal-knowledge (unique under metadata_attachment natural key). Names srd/skill-option/athletics."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/3/skill-option/intimidation",
+			"display_name": "Advancement choice: barbarian L3 → skill-option/intimidation",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/3/primal-knowledge (unique under metadata_attachment natural key). Names srd/skill-option/intimidation."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/3/skill-option/nature",
+			"display_name": "Advancement choice: barbarian L3 → skill-option/nature",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/3/primal-knowledge (unique under metadata_attachment natural key). Names srd/skill-option/nature."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/3/skill-option/perception",
+			"display_name": "Advancement choice: barbarian L3 → skill-option/perception",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/3/primal-knowledge (unique under metadata_attachment natural key). Names srd/skill-option/perception."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/3/skill-option/survival",
+			"display_name": "Advancement choice: barbarian L3 → skill-option/survival",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/3/primal-knowledge (unique under metadata_attachment natural key). Names srd/skill-option/survival."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/3/subclass/path-of-the-berserker",
+			"display_name": "Advancement choice: barbarian L3 → subclass/path-of-the-berserker",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/3/subclass (unique under metadata_attachment natural key). Names srd/subclass/path-of-the-berserker."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/4/feat/ability-score-improvement",
+			"display_name": "Advancement choice: barbarian L4 → feat/ability-score-improvement",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/ability-score-improvement."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/barbarian/4/feat/grappler",
+			"display_name": "Advancement choice: barbarian L4 → feat/grappler",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/barbarian/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/grappler."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/bard/2/expertise-option/acrobatics",
+			"display_name": "Advancement choice: bard L2 → expertise-option/acrobatics",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/acrobatics."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/bard/2/expertise-option/animal-handling",
+			"display_name": "Advancement choice: bard L2 → expertise-option/animal-handling",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/animal-handling."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/bard/2/expertise-option/arcana",
+			"display_name": "Advancement choice: bard L2 → expertise-option/arcana",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/arcana."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/bard/2/expertise-option/athletics",
+			"display_name": "Advancement choice: bard L2 → expertise-option/athletics",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/athletics."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/bard/2/expertise-option/deception",
+			"display_name": "Advancement choice: bard L2 → expertise-option/deception",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/deception."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/bard/2/expertise-option/history",
+			"display_name": "Advancement choice: bard L2 → expertise-option/history",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/history."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/bard/2/expertise-option/insight",
+			"display_name": "Advancement choice: bard L2 → expertise-option/insight",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/insight."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/bard/2/expertise-option/intimidation",
+			"display_name": "Advancement choice: bard L2 → expertise-option/intimidation",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/intimidation."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/bard/2/expertise-option/investigation",
+			"display_name": "Advancement choice: bard L2 → expertise-option/investigation",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/investigation."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/bard/2/expertise-option/medicine",
+			"display_name": "Advancement choice: bard L2 → expertise-option/medicine",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/medicine."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/bard/2/expertise-option/nature",
+			"display_name": "Advancement choice: bard L2 → expertise-option/nature",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/nature."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/bard/2/expertise-option/perception",
+			"display_name": "Advancement choice: bard L2 → expertise-option/perception",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/perception."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/bard/2/expertise-option/performance",
+			"display_name": "Advancement choice: bard L2 → expertise-option/performance",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/performance."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/bard/2/expertise-option/persuasion",
+			"display_name": "Advancement choice: bard L2 → expertise-option/persuasion",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/persuasion."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/bard/2/expertise-option/religion",
+			"display_name": "Advancement choice: bard L2 → expertise-option/religion",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/religion."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/bard/2/expertise-option/sleight-of-hand",
+			"display_name": "Advancement choice: bard L2 → expertise-option/sleight-of-hand",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/sleight-of-hand."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/bard/2/expertise-option/stealth",
+			"display_name": "Advancement choice: bard L2 → expertise-option/stealth",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/stealth."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/bard/2/expertise-option/survival",
+			"display_name": "Advancement choice: bard L2 → expertise-option/survival",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/bard/2/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/survival."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/bard/3/subclass/college-of-lore",
+			"display_name": "Advancement choice: bard L3 → subclass/college-of-lore",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/bard/3/subclass (unique under metadata_attachment natural key). Names srd/subclass/college-of-lore."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/bard/4/feat/ability-score-improvement",
+			"display_name": "Advancement choice: bard L4 → feat/ability-score-improvement",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/bard/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/ability-score-improvement."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/bard/4/feat/grappler",
+			"display_name": "Advancement choice: bard L4 → feat/grappler",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/bard/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/grappler."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/cleric/1/divine-order/protector",
+			"display_name": "Advancement choice: cleric L1 → divine-order/protector",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/cleric/1/divine-order (unique under metadata_attachment natural key). Names srd/divine-order/protector."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/cleric/1/divine-order/thaumaturge",
+			"display_name": "Advancement choice: cleric L1 → divine-order/thaumaturge",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/cleric/1/divine-order (unique under metadata_attachment natural key). Names srd/divine-order/thaumaturge."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/cleric/3/subclass/life-domain",
+			"display_name": "Advancement choice: cleric L3 → subclass/life-domain",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/cleric/3/subclass (unique under metadata_attachment natural key). Names srd/subclass/life-domain."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/cleric/4/feat/ability-score-improvement",
+			"display_name": "Advancement choice: cleric L4 → feat/ability-score-improvement",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/cleric/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/ability-score-improvement."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/cleric/4/feat/grappler",
+			"display_name": "Advancement choice: cleric L4 → feat/grappler",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/cleric/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/grappler."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/druid/1/primal-order/magician",
+			"display_name": "Advancement choice: druid L1 → primal-order/magician",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/druid/1/primal-order (unique under metadata_attachment natural key). Names srd/primal-order/magician."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/druid/1/primal-order/warden",
+			"display_name": "Advancement choice: druid L1 → primal-order/warden",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/druid/1/primal-order (unique under metadata_attachment natural key). Names srd/primal-order/warden."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/druid/3/subclass/circle-of-the-land",
+			"display_name": "Advancement choice: druid L3 → subclass/circle-of-the-land",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/druid/3/subclass (unique under metadata_attachment natural key). Names srd/subclass/circle-of-the-land."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/druid/4/feat/ability-score-improvement",
+			"display_name": "Advancement choice: druid L4 → feat/ability-score-improvement",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/druid/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/ability-score-improvement."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/druid/4/feat/grappler",
+			"display_name": "Advancement choice: druid L4 → feat/grappler",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/druid/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/grappler."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/feat/archery",
+			"display_name": "Advancement choice: fighter L1 → feat/archery",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/fighting-style (unique under metadata_attachment natural key). Names srd/feat/archery."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/feat/defense",
+			"display_name": "Advancement choice: fighter L1 → feat/defense",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/fighting-style (unique under metadata_attachment natural key). Names srd/feat/defense."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/feat/great-weapon-fighting",
+			"display_name": "Advancement choice: fighter L1 → feat/great-weapon-fighting",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/fighting-style (unique under metadata_attachment natural key). Names srd/feat/great-weapon-fighting."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/feat/two-weapon-fighting",
+			"display_name": "Advancement choice: fighter L1 → feat/two-weapon-fighting",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/fighting-style (unique under metadata_attachment natural key). Names srd/feat/two-weapon-fighting."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/battleaxe",
+			"display_name": "Advancement choice: fighter L1 → weapon/battleaxe",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/battleaxe."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/blowgun",
+			"display_name": "Advancement choice: fighter L1 → weapon/blowgun",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/blowgun."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/club",
+			"display_name": "Advancement choice: fighter L1 → weapon/club",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/club."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/dagger",
+			"display_name": "Advancement choice: fighter L1 → weapon/dagger",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/dagger."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/dart",
+			"display_name": "Advancement choice: fighter L1 → weapon/dart",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/dart."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/flail",
+			"display_name": "Advancement choice: fighter L1 → weapon/flail",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/flail."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/glaive",
+			"display_name": "Advancement choice: fighter L1 → weapon/glaive",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/glaive."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/greataxe",
+			"display_name": "Advancement choice: fighter L1 → weapon/greataxe",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/greataxe."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/greatclub",
+			"display_name": "Advancement choice: fighter L1 → weapon/greatclub",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/greatclub."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/greatsword",
+			"display_name": "Advancement choice: fighter L1 → weapon/greatsword",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/greatsword."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/halberd",
+			"display_name": "Advancement choice: fighter L1 → weapon/halberd",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/halberd."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/hand-crossbow",
+			"display_name": "Advancement choice: fighter L1 → weapon/hand-crossbow",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/hand-crossbow."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/handaxe",
+			"display_name": "Advancement choice: fighter L1 → weapon/handaxe",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/handaxe."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/heavy-crossbow",
+			"display_name": "Advancement choice: fighter L1 → weapon/heavy-crossbow",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/heavy-crossbow."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/javelin",
+			"display_name": "Advancement choice: fighter L1 → weapon/javelin",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/javelin."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/lance",
+			"display_name": "Advancement choice: fighter L1 → weapon/lance",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/lance."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/light-crossbow",
+			"display_name": "Advancement choice: fighter L1 → weapon/light-crossbow",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/light-crossbow."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/light-hammer",
+			"display_name": "Advancement choice: fighter L1 → weapon/light-hammer",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/light-hammer."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/longbow",
+			"display_name": "Advancement choice: fighter L1 → weapon/longbow",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/longbow."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/longsword",
+			"display_name": "Advancement choice: fighter L1 → weapon/longsword",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/longsword."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/mace",
+			"display_name": "Advancement choice: fighter L1 → weapon/mace",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/mace."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/maul",
+			"display_name": "Advancement choice: fighter L1 → weapon/maul",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/maul."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/morningstar",
+			"display_name": "Advancement choice: fighter L1 → weapon/morningstar",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/morningstar."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/musket",
+			"display_name": "Advancement choice: fighter L1 → weapon/musket",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/musket."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/pike",
+			"display_name": "Advancement choice: fighter L1 → weapon/pike",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/pike."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/pistol",
+			"display_name": "Advancement choice: fighter L1 → weapon/pistol",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/pistol."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/quarterstaff",
+			"display_name": "Advancement choice: fighter L1 → weapon/quarterstaff",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/quarterstaff."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/rapier",
+			"display_name": "Advancement choice: fighter L1 → weapon/rapier",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/rapier."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/scimitar",
+			"display_name": "Advancement choice: fighter L1 → weapon/scimitar",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/scimitar."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/shortbow",
+			"display_name": "Advancement choice: fighter L1 → weapon/shortbow",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/shortbow."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/shortsword",
+			"display_name": "Advancement choice: fighter L1 → weapon/shortsword",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/shortsword."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/sickle",
+			"display_name": "Advancement choice: fighter L1 → weapon/sickle",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/sickle."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/sling",
+			"display_name": "Advancement choice: fighter L1 → weapon/sling",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/sling."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/spear",
+			"display_name": "Advancement choice: fighter L1 → weapon/spear",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/spear."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/trident",
+			"display_name": "Advancement choice: fighter L1 → weapon/trident",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/trident."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/war-pick",
+			"display_name": "Advancement choice: fighter L1 → weapon/war-pick",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/war-pick."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/warhammer",
+			"display_name": "Advancement choice: fighter L1 → weapon/warhammer",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/warhammer."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/1/weapon/whip",
+			"display_name": "Advancement choice: fighter L1 → weapon/whip",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/whip."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/3/subclass/champion",
+			"display_name": "Advancement choice: fighter L3 → subclass/champion",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/3/subclass (unique under metadata_attachment natural key). Names srd/subclass/champion."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/4/feat/ability-score-improvement",
+			"display_name": "Advancement choice: fighter L4 → feat/ability-score-improvement",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/ability-score-improvement."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/fighter/4/feat/grappler",
+			"display_name": "Advancement choice: fighter L4 → feat/grappler",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/fighter/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/grappler."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/monk/3/subclass/warrior-of-the-open-hand",
+			"display_name": "Advancement choice: monk L3 → subclass/warrior-of-the-open-hand",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/monk/3/subclass (unique under metadata_attachment natural key). Names srd/subclass/warrior-of-the-open-hand."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/monk/4/feat/ability-score-improvement",
+			"display_name": "Advancement choice: monk L4 → feat/ability-score-improvement",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/monk/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/ability-score-improvement."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/monk/4/feat/grappler",
+			"display_name": "Advancement choice: monk L4 → feat/grappler",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/monk/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/grappler."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/paladin/2/feat/archery",
+			"display_name": "Advancement choice: paladin L2 → feat/archery",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/paladin/2/fighting-style (unique under metadata_attachment natural key). Names srd/feat/archery."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/paladin/2/feat/defense",
+			"display_name": "Advancement choice: paladin L2 → feat/defense",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/paladin/2/fighting-style (unique under metadata_attachment natural key). Names srd/feat/defense."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/paladin/2/feat/great-weapon-fighting",
+			"display_name": "Advancement choice: paladin L2 → feat/great-weapon-fighting",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/paladin/2/fighting-style (unique under metadata_attachment natural key). Names srd/feat/great-weapon-fighting."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/paladin/2/feat/two-weapon-fighting",
+			"display_name": "Advancement choice: paladin L2 → feat/two-weapon-fighting",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/paladin/2/fighting-style (unique under metadata_attachment natural key). Names srd/feat/two-weapon-fighting."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/paladin/3/subclass/oath-of-devotion",
+			"display_name": "Advancement choice: paladin L3 → subclass/oath-of-devotion",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/paladin/3/subclass (unique under metadata_attachment natural key). Names srd/subclass/oath-of-devotion."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/paladin/4/feat/ability-score-improvement",
+			"display_name": "Advancement choice: paladin L4 → feat/ability-score-improvement",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/paladin/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/ability-score-improvement."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/paladin/4/feat/grappler",
+			"display_name": "Advancement choice: paladin L4 → feat/grappler",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/paladin/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/grappler."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/ranger/2/feat/archery",
+			"display_name": "Advancement choice: ranger L2 → feat/archery",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/ranger/2/fighting-style (unique under metadata_attachment natural key). Names srd/feat/archery."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/ranger/2/feat/defense",
+			"display_name": "Advancement choice: ranger L2 → feat/defense",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/ranger/2/fighting-style (unique under metadata_attachment natural key). Names srd/feat/defense."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/ranger/2/feat/great-weapon-fighting",
+			"display_name": "Advancement choice: ranger L2 → feat/great-weapon-fighting",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/ranger/2/fighting-style (unique under metadata_attachment natural key). Names srd/feat/great-weapon-fighting."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/ranger/2/feat/two-weapon-fighting",
+			"display_name": "Advancement choice: ranger L2 → feat/two-weapon-fighting",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/ranger/2/fighting-style (unique under metadata_attachment natural key). Names srd/feat/two-weapon-fighting."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/ranger/3/subclass/hunter",
+			"display_name": "Advancement choice: ranger L3 → subclass/hunter",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/ranger/3/subclass (unique under metadata_attachment natural key). Names srd/subclass/hunter."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/ranger/4/feat/ability-score-improvement",
+			"display_name": "Advancement choice: ranger L4 → feat/ability-score-improvement",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/ranger/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/ability-score-improvement."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/ranger/4/feat/grappler",
+			"display_name": "Advancement choice: ranger L4 → feat/grappler",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/ranger/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/grappler."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/expertise-option/acrobatics",
+			"display_name": "Advancement choice: rogue L1 → expertise-option/acrobatics",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/acrobatics."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/expertise-option/animal-handling",
+			"display_name": "Advancement choice: rogue L1 → expertise-option/animal-handling",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/animal-handling."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/expertise-option/arcana",
+			"display_name": "Advancement choice: rogue L1 → expertise-option/arcana",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/arcana."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/expertise-option/athletics",
+			"display_name": "Advancement choice: rogue L1 → expertise-option/athletics",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/athletics."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/expertise-option/deception",
+			"display_name": "Advancement choice: rogue L1 → expertise-option/deception",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/deception."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/expertise-option/history",
+			"display_name": "Advancement choice: rogue L1 → expertise-option/history",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/history."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/expertise-option/insight",
+			"display_name": "Advancement choice: rogue L1 → expertise-option/insight",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/insight."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/expertise-option/intimidation",
+			"display_name": "Advancement choice: rogue L1 → expertise-option/intimidation",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/intimidation."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/expertise-option/investigation",
+			"display_name": "Advancement choice: rogue L1 → expertise-option/investigation",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/investigation."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/expertise-option/medicine",
+			"display_name": "Advancement choice: rogue L1 → expertise-option/medicine",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/medicine."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/expertise-option/nature",
+			"display_name": "Advancement choice: rogue L1 → expertise-option/nature",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/nature."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/expertise-option/perception",
+			"display_name": "Advancement choice: rogue L1 → expertise-option/perception",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/perception."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/expertise-option/performance",
+			"display_name": "Advancement choice: rogue L1 → expertise-option/performance",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/performance."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/expertise-option/persuasion",
+			"display_name": "Advancement choice: rogue L1 → expertise-option/persuasion",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/persuasion."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/expertise-option/religion",
+			"display_name": "Advancement choice: rogue L1 → expertise-option/religion",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/religion."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/expertise-option/sleight-of-hand",
+			"display_name": "Advancement choice: rogue L1 → expertise-option/sleight-of-hand",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/sleight-of-hand."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/expertise-option/stealth",
+			"display_name": "Advancement choice: rogue L1 → expertise-option/stealth",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/stealth."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/expertise-option/survival",
+			"display_name": "Advancement choice: rogue L1 → expertise-option/survival",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/expertise (unique under metadata_attachment natural key). Names srd/expertise-option/survival."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/battleaxe",
+			"display_name": "Advancement choice: rogue L1 → weapon/battleaxe",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/battleaxe."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/blowgun",
+			"display_name": "Advancement choice: rogue L1 → weapon/blowgun",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/blowgun."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/club",
+			"display_name": "Advancement choice: rogue L1 → weapon/club",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/club."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/dagger",
+			"display_name": "Advancement choice: rogue L1 → weapon/dagger",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/dagger."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/dart",
+			"display_name": "Advancement choice: rogue L1 → weapon/dart",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/dart."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/flail",
+			"display_name": "Advancement choice: rogue L1 → weapon/flail",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/flail."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/glaive",
+			"display_name": "Advancement choice: rogue L1 → weapon/glaive",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/glaive."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/greataxe",
+			"display_name": "Advancement choice: rogue L1 → weapon/greataxe",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/greataxe."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/greatclub",
+			"display_name": "Advancement choice: rogue L1 → weapon/greatclub",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/greatclub."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/greatsword",
+			"display_name": "Advancement choice: rogue L1 → weapon/greatsword",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/greatsword."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/halberd",
+			"display_name": "Advancement choice: rogue L1 → weapon/halberd",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/halberd."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/hand-crossbow",
+			"display_name": "Advancement choice: rogue L1 → weapon/hand-crossbow",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/hand-crossbow."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/handaxe",
+			"display_name": "Advancement choice: rogue L1 → weapon/handaxe",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/handaxe."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/heavy-crossbow",
+			"display_name": "Advancement choice: rogue L1 → weapon/heavy-crossbow",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/heavy-crossbow."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/javelin",
+			"display_name": "Advancement choice: rogue L1 → weapon/javelin",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/javelin."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/lance",
+			"display_name": "Advancement choice: rogue L1 → weapon/lance",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/lance."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/light-crossbow",
+			"display_name": "Advancement choice: rogue L1 → weapon/light-crossbow",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/light-crossbow."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/light-hammer",
+			"display_name": "Advancement choice: rogue L1 → weapon/light-hammer",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/light-hammer."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/longbow",
+			"display_name": "Advancement choice: rogue L1 → weapon/longbow",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/longbow."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/longsword",
+			"display_name": "Advancement choice: rogue L1 → weapon/longsword",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/longsword."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/mace",
+			"display_name": "Advancement choice: rogue L1 → weapon/mace",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/mace."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/maul",
+			"display_name": "Advancement choice: rogue L1 → weapon/maul",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/maul."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/morningstar",
+			"display_name": "Advancement choice: rogue L1 → weapon/morningstar",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/morningstar."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/musket",
+			"display_name": "Advancement choice: rogue L1 → weapon/musket",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/musket."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/pike",
+			"display_name": "Advancement choice: rogue L1 → weapon/pike",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/pike."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/pistol",
+			"display_name": "Advancement choice: rogue L1 → weapon/pistol",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/pistol."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/quarterstaff",
+			"display_name": "Advancement choice: rogue L1 → weapon/quarterstaff",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/quarterstaff."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/rapier",
+			"display_name": "Advancement choice: rogue L1 → weapon/rapier",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/rapier."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/scimitar",
+			"display_name": "Advancement choice: rogue L1 → weapon/scimitar",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/scimitar."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/shortbow",
+			"display_name": "Advancement choice: rogue L1 → weapon/shortbow",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/shortbow."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/shortsword",
+			"display_name": "Advancement choice: rogue L1 → weapon/shortsword",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/shortsword."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/sickle",
+			"display_name": "Advancement choice: rogue L1 → weapon/sickle",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/sickle."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/sling",
+			"display_name": "Advancement choice: rogue L1 → weapon/sling",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/sling."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/spear",
+			"display_name": "Advancement choice: rogue L1 → weapon/spear",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/spear."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/trident",
+			"display_name": "Advancement choice: rogue L1 → weapon/trident",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/trident."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/war-pick",
+			"display_name": "Advancement choice: rogue L1 → weapon/war-pick",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/war-pick."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/warhammer",
+			"display_name": "Advancement choice: rogue L1 → weapon/warhammer",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/warhammer."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/1/weapon/whip",
+			"display_name": "Advancement choice: rogue L1 → weapon/whip",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/1/weapon-mastery (unique under metadata_attachment natural key). Names srd/weapon/whip."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/3/subclass/thief",
+			"display_name": "Advancement choice: rogue L3 → subclass/thief",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/3/subclass (unique under metadata_attachment natural key). Names srd/subclass/thief."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/4/feat/ability-score-improvement",
+			"display_name": "Advancement choice: rogue L4 → feat/ability-score-improvement",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/ability-score-improvement."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/rogue/4/feat/grappler",
+			"display_name": "Advancement choice: rogue L4 → feat/grappler",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/rogue/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/grappler."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/sorcerer/2/metamagic/careful-spell",
+			"display_name": "Advancement choice: sorcerer L2 → metamagic/careful-spell",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/sorcerer/2/metamagic (unique under metadata_attachment natural key). Names srd/metamagic/careful-spell."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/sorcerer/2/metamagic/distant-spell",
+			"display_name": "Advancement choice: sorcerer L2 → metamagic/distant-spell",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/sorcerer/2/metamagic (unique under metadata_attachment natural key). Names srd/metamagic/distant-spell."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/sorcerer/2/metamagic/empowered-spell",
+			"display_name": "Advancement choice: sorcerer L2 → metamagic/empowered-spell",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/sorcerer/2/metamagic (unique under metadata_attachment natural key). Names srd/metamagic/empowered-spell."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/sorcerer/2/metamagic/extended-spell",
+			"display_name": "Advancement choice: sorcerer L2 → metamagic/extended-spell",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/sorcerer/2/metamagic (unique under metadata_attachment natural key). Names srd/metamagic/extended-spell."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/sorcerer/2/metamagic/heightened-spell",
+			"display_name": "Advancement choice: sorcerer L2 → metamagic/heightened-spell",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/sorcerer/2/metamagic (unique under metadata_attachment natural key). Names srd/metamagic/heightened-spell."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/sorcerer/2/metamagic/quickened-spell",
+			"display_name": "Advancement choice: sorcerer L2 → metamagic/quickened-spell",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/sorcerer/2/metamagic (unique under metadata_attachment natural key). Names srd/metamagic/quickened-spell."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/sorcerer/2/metamagic/seeking-spell",
+			"display_name": "Advancement choice: sorcerer L2 → metamagic/seeking-spell",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/sorcerer/2/metamagic (unique under metadata_attachment natural key). Names srd/metamagic/seeking-spell."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/sorcerer/2/metamagic/transmuted-spell",
+			"display_name": "Advancement choice: sorcerer L2 → metamagic/transmuted-spell",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/sorcerer/2/metamagic (unique under metadata_attachment natural key). Names srd/metamagic/transmuted-spell."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/sorcerer/2/metamagic/twinned-spell",
+			"display_name": "Advancement choice: sorcerer L2 → metamagic/twinned-spell",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/sorcerer/2/metamagic (unique under metadata_attachment natural key). Names srd/metamagic/twinned-spell."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/sorcerer/3/subclass/draconic-sorcery",
+			"display_name": "Advancement choice: sorcerer L3 → subclass/draconic-sorcery",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/sorcerer/3/subclass (unique under metadata_attachment natural key). Names srd/subclass/draconic-sorcery."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/sorcerer/4/feat/ability-score-improvement",
+			"display_name": "Advancement choice: sorcerer L4 → feat/ability-score-improvement",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/sorcerer/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/ability-score-improvement."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/sorcerer/4/feat/grappler",
+			"display_name": "Advancement choice: sorcerer L4 → feat/grappler",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/sorcerer/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/grappler."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/1/eldritch-invocation/agonizing-blast",
+			"display_name": "Advancement choice: warlock L1 → eldritch-invocation/agonizing-blast",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/agonizing-blast."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/1/eldritch-invocation/armor-of-shadows",
+			"display_name": "Advancement choice: warlock L1 → eldritch-invocation/armor-of-shadows",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/armor-of-shadows."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/1/eldritch-invocation/ascendant-step",
+			"display_name": "Advancement choice: warlock L1 → eldritch-invocation/ascendant-step",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/ascendant-step."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/1/eldritch-invocation/devils-sight",
+			"display_name": "Advancement choice: warlock L1 → eldritch-invocation/devils-sight",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/devils-sight."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/1/eldritch-invocation/devouring-blade",
+			"display_name": "Advancement choice: warlock L1 → eldritch-invocation/devouring-blade",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/devouring-blade."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/1/eldritch-invocation/eldritch-mind",
+			"display_name": "Advancement choice: warlock L1 → eldritch-invocation/eldritch-mind",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/eldritch-mind."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/1/eldritch-invocation/eldritch-smite",
+			"display_name": "Advancement choice: warlock L1 → eldritch-invocation/eldritch-smite",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/eldritch-smite."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/1/eldritch-invocation/eldritch-spear",
+			"display_name": "Advancement choice: warlock L1 → eldritch-invocation/eldritch-spear",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/eldritch-spear."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/1/eldritch-invocation/fiendish-vigor",
+			"display_name": "Advancement choice: warlock L1 → eldritch-invocation/fiendish-vigor",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/fiendish-vigor."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/1/eldritch-invocation/gaze-of-two-minds",
+			"display_name": "Advancement choice: warlock L1 → eldritch-invocation/gaze-of-two-minds",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/gaze-of-two-minds."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/1/eldritch-invocation/gift-of-the-depths",
+			"display_name": "Advancement choice: warlock L1 → eldritch-invocation/gift-of-the-depths",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/gift-of-the-depths."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/1/eldritch-invocation/gift-of-the-protectors",
+			"display_name": "Advancement choice: warlock L1 → eldritch-invocation/gift-of-the-protectors",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/gift-of-the-protectors."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/1/eldritch-invocation/investment-of-the-chain-master",
+			"display_name": "Advancement choice: warlock L1 → eldritch-invocation/investment-of-the-chain-master",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/investment-of-the-chain-master."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/1/eldritch-invocation/lessons-of-the-first-ones",
+			"display_name": "Advancement choice: warlock L1 → eldritch-invocation/lessons-of-the-first-ones",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/lessons-of-the-first-ones."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/1/eldritch-invocation/lifedrinker",
+			"display_name": "Advancement choice: warlock L1 → eldritch-invocation/lifedrinker",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/lifedrinker."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/1/eldritch-invocation/mask-of-many-faces",
+			"display_name": "Advancement choice: warlock L1 → eldritch-invocation/mask-of-many-faces",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/mask-of-many-faces."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/1/eldritch-invocation/master-of-myriad-forms",
+			"display_name": "Advancement choice: warlock L1 → eldritch-invocation/master-of-myriad-forms",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/master-of-myriad-forms."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/1/eldritch-invocation/misty-visions",
+			"display_name": "Advancement choice: warlock L1 → eldritch-invocation/misty-visions",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/misty-visions."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/1/eldritch-invocation/one-with-shadows",
+			"display_name": "Advancement choice: warlock L1 → eldritch-invocation/one-with-shadows",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/one-with-shadows."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/1/eldritch-invocation/otherworldly-leap",
+			"display_name": "Advancement choice: warlock L1 → eldritch-invocation/otherworldly-leap",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/otherworldly-leap."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/1/eldritch-invocation/pact-of-the-blade",
+			"display_name": "Advancement choice: warlock L1 → eldritch-invocation/pact-of-the-blade",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/pact-of-the-blade."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/1/eldritch-invocation/pact-of-the-chain",
+			"display_name": "Advancement choice: warlock L1 → eldritch-invocation/pact-of-the-chain",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/pact-of-the-chain."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/1/eldritch-invocation/pact-of-the-tome",
+			"display_name": "Advancement choice: warlock L1 → eldritch-invocation/pact-of-the-tome",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/pact-of-the-tome."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/1/eldritch-invocation/repelling-blast",
+			"display_name": "Advancement choice: warlock L1 → eldritch-invocation/repelling-blast",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/repelling-blast."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/1/eldritch-invocation/thirsting-blade",
+			"display_name": "Advancement choice: warlock L1 → eldritch-invocation/thirsting-blade",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/thirsting-blade."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/1/eldritch-invocation/visions-of-distant-realms",
+			"display_name": "Advancement choice: warlock L1 → eldritch-invocation/visions-of-distant-realms",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/visions-of-distant-realms."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/1/eldritch-invocation/whispers-of-the-grave",
+			"display_name": "Advancement choice: warlock L1 → eldritch-invocation/whispers-of-the-grave",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/whispers-of-the-grave."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/1/eldritch-invocation/witch-sight",
+			"display_name": "Advancement choice: warlock L1 → eldritch-invocation/witch-sight",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/1/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/witch-sight."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/2/eldritch-invocation/agonizing-blast",
+			"display_name": "Advancement choice: warlock L2 → eldritch-invocation/agonizing-blast",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/agonizing-blast."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/2/eldritch-invocation/armor-of-shadows",
+			"display_name": "Advancement choice: warlock L2 → eldritch-invocation/armor-of-shadows",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/armor-of-shadows."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/2/eldritch-invocation/ascendant-step",
+			"display_name": "Advancement choice: warlock L2 → eldritch-invocation/ascendant-step",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/ascendant-step."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/2/eldritch-invocation/devils-sight",
+			"display_name": "Advancement choice: warlock L2 → eldritch-invocation/devils-sight",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/devils-sight."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/2/eldritch-invocation/devouring-blade",
+			"display_name": "Advancement choice: warlock L2 → eldritch-invocation/devouring-blade",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/devouring-blade."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/2/eldritch-invocation/eldritch-mind",
+			"display_name": "Advancement choice: warlock L2 → eldritch-invocation/eldritch-mind",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/eldritch-mind."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/2/eldritch-invocation/eldritch-smite",
+			"display_name": "Advancement choice: warlock L2 → eldritch-invocation/eldritch-smite",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/eldritch-smite."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/2/eldritch-invocation/eldritch-spear",
+			"display_name": "Advancement choice: warlock L2 → eldritch-invocation/eldritch-spear",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/eldritch-spear."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/2/eldritch-invocation/fiendish-vigor",
+			"display_name": "Advancement choice: warlock L2 → eldritch-invocation/fiendish-vigor",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/fiendish-vigor."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/2/eldritch-invocation/gaze-of-two-minds",
+			"display_name": "Advancement choice: warlock L2 → eldritch-invocation/gaze-of-two-minds",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/gaze-of-two-minds."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/2/eldritch-invocation/gift-of-the-depths",
+			"display_name": "Advancement choice: warlock L2 → eldritch-invocation/gift-of-the-depths",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/gift-of-the-depths."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/2/eldritch-invocation/gift-of-the-protectors",
+			"display_name": "Advancement choice: warlock L2 → eldritch-invocation/gift-of-the-protectors",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/gift-of-the-protectors."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/2/eldritch-invocation/investment-of-the-chain-master",
+			"display_name": "Advancement choice: warlock L2 → eldritch-invocation/investment-of-the-chain-master",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/investment-of-the-chain-master."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/2/eldritch-invocation/lessons-of-the-first-ones",
+			"display_name": "Advancement choice: warlock L2 → eldritch-invocation/lessons-of-the-first-ones",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/lessons-of-the-first-ones."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/2/eldritch-invocation/lifedrinker",
+			"display_name": "Advancement choice: warlock L2 → eldritch-invocation/lifedrinker",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/lifedrinker."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/2/eldritch-invocation/mask-of-many-faces",
+			"display_name": "Advancement choice: warlock L2 → eldritch-invocation/mask-of-many-faces",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/mask-of-many-faces."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/2/eldritch-invocation/master-of-myriad-forms",
+			"display_name": "Advancement choice: warlock L2 → eldritch-invocation/master-of-myriad-forms",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/master-of-myriad-forms."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/2/eldritch-invocation/misty-visions",
+			"display_name": "Advancement choice: warlock L2 → eldritch-invocation/misty-visions",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/misty-visions."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/2/eldritch-invocation/one-with-shadows",
+			"display_name": "Advancement choice: warlock L2 → eldritch-invocation/one-with-shadows",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/one-with-shadows."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/2/eldritch-invocation/otherworldly-leap",
+			"display_name": "Advancement choice: warlock L2 → eldritch-invocation/otherworldly-leap",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/otherworldly-leap."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/2/eldritch-invocation/pact-of-the-blade",
+			"display_name": "Advancement choice: warlock L2 → eldritch-invocation/pact-of-the-blade",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/pact-of-the-blade."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/2/eldritch-invocation/pact-of-the-chain",
+			"display_name": "Advancement choice: warlock L2 → eldritch-invocation/pact-of-the-chain",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/pact-of-the-chain."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/2/eldritch-invocation/pact-of-the-tome",
+			"display_name": "Advancement choice: warlock L2 → eldritch-invocation/pact-of-the-tome",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/pact-of-the-tome."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/2/eldritch-invocation/repelling-blast",
+			"display_name": "Advancement choice: warlock L2 → eldritch-invocation/repelling-blast",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/repelling-blast."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/2/eldritch-invocation/thirsting-blade",
+			"display_name": "Advancement choice: warlock L2 → eldritch-invocation/thirsting-blade",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/thirsting-blade."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/2/eldritch-invocation/visions-of-distant-realms",
+			"display_name": "Advancement choice: warlock L2 → eldritch-invocation/visions-of-distant-realms",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/visions-of-distant-realms."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/2/eldritch-invocation/whispers-of-the-grave",
+			"display_name": "Advancement choice: warlock L2 → eldritch-invocation/whispers-of-the-grave",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/whispers-of-the-grave."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/2/eldritch-invocation/witch-sight",
+			"display_name": "Advancement choice: warlock L2 → eldritch-invocation/witch-sight",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/2/eldritch-invocations (unique under metadata_attachment natural key). Names srd/eldritch-invocation/witch-sight."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/3/subclass/fiend-patron",
+			"display_name": "Advancement choice: warlock L3 → subclass/fiend-patron",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/3/subclass (unique under metadata_attachment natural key). Names srd/subclass/fiend-patron."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/4/feat/ability-score-improvement",
+			"display_name": "Advancement choice: warlock L4 → feat/ability-score-improvement",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/ability-score-improvement."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/warlock/4/feat/grappler",
+			"display_name": "Advancement choice: warlock L4 → feat/grappler",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/warlock/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/grappler."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/wizard/2/expertise-option/arcana",
+			"display_name": "Advancement choice: wizard L2 → expertise-option/arcana",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/wizard/2/scholar (unique under metadata_attachment natural key). Names srd/expertise-option/arcana."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/wizard/2/expertise-option/history",
+			"display_name": "Advancement choice: wizard L2 → expertise-option/history",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/wizard/2/scholar (unique under metadata_attachment natural key). Names srd/expertise-option/history."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/wizard/2/expertise-option/investigation",
+			"display_name": "Advancement choice: wizard L2 → expertise-option/investigation",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/wizard/2/scholar (unique under metadata_attachment natural key). Names srd/expertise-option/investigation."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/wizard/2/expertise-option/medicine",
+			"display_name": "Advancement choice: wizard L2 → expertise-option/medicine",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/wizard/2/scholar (unique under metadata_attachment natural key). Names srd/expertise-option/medicine."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/wizard/2/expertise-option/nature",
+			"display_name": "Advancement choice: wizard L2 → expertise-option/nature",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/wizard/2/scholar (unique under metadata_attachment natural key). Names srd/expertise-option/nature."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/wizard/2/expertise-option/religion",
+			"display_name": "Advancement choice: wizard L2 → expertise-option/religion",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/wizard/2/scholar (unique under metadata_attachment natural key). Names srd/expertise-option/religion."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/wizard/3/subclass/evoker",
+			"display_name": "Advancement choice: wizard L3 → subclass/evoker",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/wizard/3/subclass (unique under metadata_attachment natural key). Names srd/subclass/evoker."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/wizard/4/feat/ability-score-improvement",
+			"display_name": "Advancement choice: wizard L4 → feat/ability-score-improvement",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/wizard/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/ability-score-improvement."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		},
+		{
+			"id": "advancement-choice-option/wizard/4/feat/grappler",
+			"display_name": "Advancement choice: wizard L4 → feat/grappler",
+			"prompt_id": "flavor-rule",
+			"model": "openai/gpt-5.6-terra",
+			"core_traits": {
+				"kind": "option",
+				"srd_text": "Menu member for srd/wizard/4/asi-or-feat (unique under metadata_attachment natural key). Names srd/feat/grappler."
+			},
+			"must_include": [],
+			"must_not": [
+				"Forgotten Realms",
+				"Greyhawk",
+				"Eberron",
+				"classes.md",
+				"cache/",
+				"SRD:",
+				"pk='",
+				"Menu member",
+				"metadata_attachment"
+			]
+		}
+	]
+}

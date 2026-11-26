@@ -78,6 +78,7 @@ tag = "srd.spell.list.paladin"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A warm, steadfast radiance gathers around the caster, like dawn pressing through a battlefield’s smoke. Its presence turns deathly chill aside and keeps the living tethered to their strength. Those who falter within its glow find a stubborn breath returning, called back by the pulse of nearby hearts."
 display_name = "Aura of Life"
 entity_def_id = "srd/spell/aura-of-life"
 grants_capability_while_equipped = ""

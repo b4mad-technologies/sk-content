@@ -88,6 +88,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A bruise-dark veil blossoms across the air, swallowing lantern glow and moonlit edges alike. Within its hush, shapes lose their names and even keen nocturnal sight finds only blank velvet. A small hidden focus can carry the gloom like a secret ember, waiting beneath a lid to be released."
 display_name = "Darkness"
 entity_def_id = "srd/spell/darkness"
 grants_capability_while_equipped = ""
@@ -115,7 +116,7 @@ target_ref = "srd/spell/darkness"
 action_id = "srd/spell/darkness/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Darkness — a spell action."
+description = "You cast the Darkness spell, creating an area of magical darkness as described by the spell."
 display_name = "Cast Darkness"
 non_steering = true
 on_failure = ""

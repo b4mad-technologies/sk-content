@@ -102,6 +102,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hard glint of iron passes through the caster’s gesture, and even the wildest beast seems to hear an ancient command beneath the noise of battle. Muscles lock mid-lunge, claws hang motionless, and furious eyes remain awake within a body turned suddenly to stone-like stillness. For a breathless span, the creature’s rage has nowhere to go but inward."
 display_name = "Hold Monster"
 entity_def_id = "srd/spell/hold-monster"
 grants_capability_while_equipped = ""

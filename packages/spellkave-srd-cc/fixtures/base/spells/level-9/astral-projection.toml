@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Silver light gathers at the shoulders, then unspools into a silent road beyond waking worlds. Bodies lie hushed and untouched while their brighter selves drift through a starless immensity, tethered to home by a thread too fine for mortal hands. Across impossible distances, thought becomes voyage and distant realms open like doors in a dream."
 display_name = "Astral Projection"
 entity_def_id = "srd/spell/astral-projection"
 grants_capability_while_equipped = ""

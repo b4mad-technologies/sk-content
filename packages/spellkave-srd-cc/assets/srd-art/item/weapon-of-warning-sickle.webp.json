@@ -1,0 +1,24 @@
+{
+  "schema": "spellkave-design-asset-provenance/v1",
+  "provider": "compose-overlay",
+  "overlay_of": "item-sickle",
+  "overlay_template": "weapon-of-warning",
+  "overlay_badge": "rune",
+  "base_sha256": "3f8632586e1ef292b89cc2b0d3ab30679a6b04794e7a79e7ad4c0d51ece8b331",
+  "overlay_sha256": "ed9b733c49d6fc246eb945a819df4069cadc2a65041679925c6fe215845c9e7d",
+  "style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+  "provenance": {
+    "license": "CC-BY-4.0",
+    "source": "Generated from packages/spellkave-srd-cc/fixtures/base by scripts/art-manifest.ts"
+  },
+  "usage": {
+    "type": "generations",
+    "generations": 0
+  },
+  "generated_at": "2026-09-20T17:52:52.388Z",
+  "source_manifest": "packages/spellkave-srd-cc/art/art-manifest.json",
+  "sha256": "d2b07f0410804ddc1810d28167289f5039e686605f81a45bdcb433957a42a22d",
+  "target_attachment_ref": "srd/magic_item/weapon-of-warning-sickle#srd.art.image",
+  "kind": "item",
+  "entry_id": "item-weapon-of-warning-sickle"
+}

@@ -36,6 +36,7 @@ tag = "srd.item.container"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The bucket swings from a rope handle, its wooden sides beaded with old water and rough where the grain has risen. The bottom is heavier than the rim, stained dark where spills have soaked in. Set down, it rings once against stone and then sits, open-mouthed, waiting to be filled."
 display_name = "Bucket"
 entity_def_id = "srd/item/bucket"
 grants_capability_while_equipped = ""

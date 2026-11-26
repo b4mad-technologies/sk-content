@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its slender blade catches no common light, but gleams like dawn through cathedral glass. In the hand, it carries a calm, steadfast warmth, and the air around its drawn point seems to grow clearer and less afraid. Shadows recoil from its presence, while companions feel an unseen shelter gather close."
 display_name = "Holy Avenger (Rapier)"
 entity_def_id = "srd/magic_item/holy-avenger-rapier"
 grants_capability_while_equipped = ""

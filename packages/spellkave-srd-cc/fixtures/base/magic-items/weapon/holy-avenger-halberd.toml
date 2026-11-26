@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its broad blade catches even the faintest light and returns it as a solemn, dawn-bright gleam. In a steadfast hand, the halberd seems to make the air clearer, pressing back grave-cold shadows and the sour presence of unholy things. Allies standing near it find their courage settling into something calm and immovable."
 display_name = "Holy Avenger (Halberd)"
 entity_def_id = "srd/magic_item/holy-avenger-halberd"
 grants_capability_while_equipped = ""

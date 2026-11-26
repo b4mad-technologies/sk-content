@@ -76,6 +76,7 @@ tag = "srd.damage_type.force"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A sharp gesture tears a seam of violet-white force across the air, leaving the scent of rain on hot stone. The unleashed power strikes with a deep, bell-like impact, as though the world itself has been rung. When the caster’s will swells, the darkness answers in a chorus of blazing bolts."
 display_name = "Eldritch Blast"
 entity_def_id = "srd/spell/eldritch-blast"
 grants_capability_while_equipped = ""
@@ -102,7 +103,7 @@ target_ref = "srd/spell/eldritch-blast"
 action_id = "srd/spell/eldritch-blast/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Eldritch Blast — a spell action."
+description = "You cast a spell that hurls crackling force at a creature you can see within range. Make a ranged spell attack; on a hit, the target takes force damage."
 display_name = "Cast Eldritch Blast"
 non_steering = true
 on_failure = "srd/spell/eldritch-blast/cast/miss"

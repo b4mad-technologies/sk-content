@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A thin band of darkened silver, cool as a moonless windowpane, it seems to drink the color from fingertips that turn it slowly. When worn, the world grows hushed and distant, as though even the air has forgotten to acknowledge its bearer. A faint chill lingers after the hand is revealed again."
 display_name = "Ring of Invisibility"
 entity_def_id = "srd/magic_item/ring-of-invisibility"
 grants_capability_while_equipped = ""

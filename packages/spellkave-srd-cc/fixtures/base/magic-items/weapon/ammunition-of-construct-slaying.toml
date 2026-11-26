@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale glyph spirals along this arrowhead or bolt, clicking faintly like tiny gears settling into place. Near fashioned bodies of wood, stone, iron, or clay, its chill sharpens into a hungry vibration. Once loosed, it carries the stern finality of a hammer striking the flaw in a masterwork."
 display_name = "Ammunition of Construct Slaying"
 entity_def_id = "srd/magic_item/ammunition-of-construct-slaying"
 grants_capability_while_equipped = ""

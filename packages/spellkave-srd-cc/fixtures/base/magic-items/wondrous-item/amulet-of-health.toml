@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A warm pulse rests beneath the throat, steady as a banked hearth in winter. Its plain metal seems to drink in fatigue, leaving the wearer clear-breathed and stubbornly vital even after long marches. In candlelight, the amulet bears a faint inner glow, like dawn caught behind a closed fist."
 display_name = "Amulet of Health"
 entity_def_id = "srd/magic_item/amulet-of-health"
 grants_capability_while_equipped = ""

@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Iron tines curve back from a heavy shank, the points nicked and the rope-eye worn bright. It has the balance of something meant to be thrown and trusted to bite a ledge. When it catches, the line goes taut with a hard little shudder that travels all the way to the hand."
 display_name = "Grappling Hook"
 entity_def_id = "srd/item/grappling-hook"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its curved steel drinks the light along its edge, leaving a bruise-dark glimmer where it passes. Wounds opened by the blade seem reluctant to close, their warmth fading beneath a hush of grave-cold air. Even sheathed, it carries the faint scent of rain on old iron."
 display_name = "Scimitar of Wounding"
 entity_def_id = "srd/magic_item/scimitar-of-wounding"
 grants_capability_while_equipped = ""

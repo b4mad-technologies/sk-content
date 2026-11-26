@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The fabric drinks in stray light, shifting from mossy green to weathered bark as it moves. Its hood carries the hush of deep woods after rain, softening every footfall and blurring the wearer’s outline among shadow, leaf, and stone. In stillness, it seems less worn than grown around the shoulders."
 display_name = "Cloak of Elvenkind"
 entity_def_id = "srd/magic_item/cloak-of-elvenkind"
 grants_capability_while_equipped = ""

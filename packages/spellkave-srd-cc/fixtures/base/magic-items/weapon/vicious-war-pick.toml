@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A cruel gleam clings to the pick’s narrow beak, as though it remembers every chink in armor it has found. Its haft thrums softly in a tightened grip, eager for the sudden jolt of impact. When swung in earnest, the weapon seems to seek the deepest fracture in flesh, bone, and steel alike."
 display_name = "Vicious War Pick"
 entity_def_id = "srd/magic_item/vicious-war-pick"
 grants_capability_while_equipped = ""

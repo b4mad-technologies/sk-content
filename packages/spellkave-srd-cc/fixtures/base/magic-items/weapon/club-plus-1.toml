@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A humble length of hardwood, darkened by old smoke and polished smooth where countless hands have gripped it. When raised, it seems to gather the weight of the wielder’s intent, turning a simple swing into something stern and certain. Faint warmth lingers in its grain after a hard-fought clash."
 display_name = "Club (+1)"
 entity_def_id = "srd/magic_item/club-plus-1"
 grants_capability_while_equipped = ""

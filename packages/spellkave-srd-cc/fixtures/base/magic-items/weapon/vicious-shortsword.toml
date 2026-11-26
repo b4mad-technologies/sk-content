@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its narrow blade gleams with a cruel, eager luster, as though it remembers every gap in armor it has found. In the hand, it feels quick and impatient, pulling toward the nearest weakness with a predator’s certainty. A struck foe may carry away a wound that seems far deeper than the steel should have made."
 display_name = "Vicious Shortsword"
 entity_def_id = "srd/magic_item/vicious-shortsword"
 grants_capability_while_equipped = ""

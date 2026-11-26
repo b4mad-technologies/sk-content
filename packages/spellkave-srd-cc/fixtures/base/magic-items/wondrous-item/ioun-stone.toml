@@ -36,6 +36,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A small crystal refuses to stay in a pouch for long. Set on a table, it ticks once and rises to a patient circle at about the height of a brow. The orbit is quiet. Light breaks across its faces in a thin ring that follows the head when the head turns, and the stone smells of nothing at all."
 display_name = "Ioun Stone"
 entity_def_id = "srd/magic_item/ioun-stone"
 grants_capability_while_equipped = ""

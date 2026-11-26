@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Pale runes stir along the limbs when an arrow is drawn, and a low elven murmur threads through the bowstring’s hum. Once its judgment falls upon a foe, the weapon seems to narrow the whole world to a single distant heartbeat. Until that silence comes, every other blade and bow feels strangely faithless in the bearer’s hands."
 display_name = "Oathbow (Longbow)"
 entity_def_id = "srd/magic_item/oathbow-longbow"
 grants_capability_while_equipped = ""

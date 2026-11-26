@@ -84,6 +84,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Space folds like silk drawn through a ring, and the caster vanishes between one heartbeat and the next. A companion may be caught in that impossible shortcut, carried through a breathless dark where direction becomes a matter of thought. Then stone, starlight, or open air rushes back into being exactly where intent has led."
 display_name = "Dimension Door"
 entity_def_id = "srd/spell/dimension-door"
 grants_capability_while_equipped = ""

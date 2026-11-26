@@ -1,0 +1,24 @@
+{
+	"schema": "spellkave-design-asset-provenance/v1",
+	"provider": "pixellab-pixen",
+	"prompt": "Hobgoblin Warrior. A hobgoblin warrior of Ghorza's road raiders.. Full-body south-facing creature sprite, readable silhouette, one subject. Theme-neutral Spellkave pixel art: mid-contrast cream, charcoal, muted gold, forest, and rust. Selective outline, basic-to-medium shading, no gloss or bloom. Transparent background, no frame, no baked scenery, no letters, words, numerals, logo, watermark, photorealism, or D&D branding. Centered, native pixel size.",
+	"style_pack": ".impeccable/style-packs/entity-art-v1/manifest.json",
+	"provenance": {
+		"license": "CC-BY-4.0",
+		"source": "Elven Mini remaining cast and items (entity-art-v1 Pixen + reduce-colors)"
+	},
+	"usage": {
+		"type": "generations",
+		"generations": 1.1
+	},
+	"generated_at": "2026-09-07T14:49:41.902Z",
+	"source_manifest": "packages/spellkave-adventure-elven-mini/art/art-manifest.json",
+	"sha256": "fd17c26bc90cc78fe5b876f16e7b1220b039eae061229f1cfaed8f9d333e56a9",
+	"target_attachment_ref": "entity_definition:srd/creature/hobgoblin-warrior#elven_mini.art.image",
+	"kind": "creature",
+	"entry_id": "hobgoblin-warrior",
+	"provider_ids": {
+		"api_base_url": "https://api.pixellab.ai/v2",
+		"route": "/create-image-pixen"
+	}
+}

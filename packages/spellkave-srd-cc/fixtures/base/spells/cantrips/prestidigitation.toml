@@ -88,6 +88,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A flick of the wrist coaxes small wonders from the air: sparks that skitter like fireflies, a teasing breeze, the scent of rain on distant stone. Dust slips from a travel-stained cloak, embers wake or fade, and a cup of plain broth gains the warmth and savor of a remembered feast. It is the art of making the ordinary briefly behave as though it has a secret."
 display_name = "Prestidigitation"
 entity_def_id = "srd/spell/prestidigitation"
 grants_capability_while_equipped = ""
@@ -115,7 +116,7 @@ target_ref = "srd/spell/prestidigitation"
 action_id = "srd/spell/prestidigitation/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Prestidigitation — a spell action."
+description = "You perform a minor magical trick, creating a small sensory effect, cleaning or soiling an object, or producing another harmless magical change."
 display_name = "Cast Prestidigitation"
 non_steering = true
 on_failure = ""

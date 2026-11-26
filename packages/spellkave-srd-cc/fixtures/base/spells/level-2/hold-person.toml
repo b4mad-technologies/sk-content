@@ -112,6 +112,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A rigid hush sweeps through the air, as though unseen chains have cinched around a living form. Muscles lock beneath skin, breath catches, and even a raised weapon hangs suspended in a moment stretched thin as wire. The enchantment leaves its victim awake within the stillness, trapped behind unmoving eyes."
 display_name = "Hold Person"
 entity_def_id = "srd/spell/hold-person"
 grants_capability_while_equipped = ""
@@ -139,7 +140,7 @@ target_ref = "srd/spell/hold-person"
 action_id = "srd/spell/hold-person/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Hold Person — a spell action."
+description = "You cast this spell to paralyze a humanoid you can see, if it fails its saving throw. The effect can end early if it resists again or you lose concentration."
 display_name = "Cast Hold Person"
 non_steering = true
 on_failure = "srd/spell/hold-person/cast/success"
@@ -173,7 +174,7 @@ template_id = "srd/spell/hold-person/cast/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/spell/held-person"
-description = "Hold Person — a spell condition."
+description = "A magical restraint that leaves a humanoid unable to move or act. It lasts while the spell holds you, ending if the spell ends or the caster’s focus is broken."
 display_name = "Hold Person"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its long ash shaft hums with a restrained hymn, and the silvered head catches even the faintest candlelight like dawn on snow. In a steadfast grip, the pike casts a calm ward over nearby companions, making hostile sorcery feel distant and thin. Dark spirits recoil from its shining point as though confronted by an old, terrible promise."
 display_name = "Holy Avenger (Pike)"
 entity_def_id = "srd/magic_item/holy-avenger-pike"
 grants_capability_while_equipped = ""

@@ -15,6 +15,7 @@ target_ref = "srd/cost_cp"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "The price in copper pieces. You spend these coins to buy goods and services, and add more when you earn or find them."
 display_name = "Cost (copper)"
 initial_value = 0
 max_value = 10000000
@@ -25,6 +26,7 @@ value_kind = "int"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "How heavy an item is. Add the weight of your carried gear to track how much you are transporting."
 display_name = "Weight (tenths of a pound)"
 initial_value = 0
 max_value = 10000
@@ -35,6 +37,7 @@ value_kind = "int"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "Your armor’s base Armor Class. Wear it to help determine how difficult you are to hit; some armor also limits movement or stealth."
 display_name = "Armor AC base"
 initial_value = 0
 max_value = 30
@@ -45,6 +48,7 @@ value_kind = "int"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "The maximum Dexterity contribution an armor allows toward your Armor Class. If your Dexterity would add more, use only the allowed amount."
 display_name = "Armor Dexterity cap"
 initial_value = 0
 max_value = 10
@@ -55,6 +59,7 @@ value_kind = "int"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "The Strength needed to move normally in this armor. If you do not meet it, your Speed is reduced while you wear it."
 display_name = "Armor Strength required"
 initial_value = 0
 max_value = 30
@@ -65,6 +70,7 @@ value_kind = "int"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "Armor marked this way makes you less quiet. You have disadvantage on Dexterity (Stealth) checks while wearing it."
 display_name = "Armor stealth disadvantage"
 initial_value = 0
 max_value = 1

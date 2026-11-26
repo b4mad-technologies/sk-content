@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its polished length grows faintly warm when malice stirs nearby, as though a hidden compass has found north. In the hand, it tugs the attention toward veiled footsteps, false faces, and watchful presences behind walls or shadow. At dawn, pale sparks creep back beneath its grain, restoring its wary pulse."
 display_name = "Wand of Enemy Detection"
 entity_def_id = "srd/magic_item/wand-of-enemy-detection"
 grants_capability_while_equipped = ""

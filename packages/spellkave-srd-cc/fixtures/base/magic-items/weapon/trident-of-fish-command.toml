@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its three prongs gleam with the dim blue of water seen from below, always cool and faintly beaded with brine. When lifted near a river, lake, or shore, unseen currents seem to gather around the haft, carrying a silent summons into the depths. Fish turn in sudden unison beneath its shadow."
 display_name = "Trident of Fish Command"
 entity_def_id = "srd/magic_item/trident-of-fish-command"
 grants_capability_while_equipped = ""
