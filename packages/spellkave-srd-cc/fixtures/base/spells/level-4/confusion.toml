@@ -102,6 +102,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A ripple of fractured thought passes through the gathered minds, turning certainty to static and instinct to a broken compass. Allies stare past one another, blades hesitate, and sudden motion blooms without purpose. For a few breathless moments, the field belongs to whim, panic, and the treacherous laughter of chance."
 display_name = "Confusion"
 entity_def_id = "srd/spell/confusion"
 grants_capability_while_equipped = ""

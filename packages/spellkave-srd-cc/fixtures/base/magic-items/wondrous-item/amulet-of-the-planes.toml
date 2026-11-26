@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A small, cold disk hangs at the throat, its surface holding a depth no metal should possess. When clasped in a steady hand, it hums with distant weather: furnace winds, moonless tides, bright impossible forests, and the hush between stars. Its bearer feels every remembered horizon draw suddenly near—and every unknown one waiting just beyond the next breath."
 display_name = "Amulet of the Planes"
 entity_def_id = "srd/magic_item/amulet-of-the-planes"
 grants_capability_while_equipped = ""

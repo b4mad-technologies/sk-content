@@ -157,6 +157,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pirate captain commands a vessel with a weathered grin, a quick temper, and an eye always fixed on profit. Their crew follows as much from fear as loyalty, drawn by promises of glittering plunder and freedom beyond any crown’s reach. In battle, the captain turns chaos into opportunity, barking orders over cannon smoke and crashing waves."
 display_name = "Pirate Captain"
 entity_def_id = "srd/creature/pirate-captain"
 grants_capability_while_equipped = ""

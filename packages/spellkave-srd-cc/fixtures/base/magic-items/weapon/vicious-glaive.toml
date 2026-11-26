@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its broad blade bears a dark, glassy sheen that seems to drink the color from torchlight. In practiced hands, the glaive moves with a cruel, sweeping grace, leaving the air trembling behind each arc. Those struck by its edge often carry wounds that seem unnaturally eager to deepen."
 display_name = "Vicious Glaive"
 entity_def_id = "srd/magic_item/vicious-glaive"
 grants_capability_while_equipped = ""

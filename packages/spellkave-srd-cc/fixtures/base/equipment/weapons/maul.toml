@@ -83,7 +83,7 @@ tag = "srd.damage_type.bludgeoning"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Maul — a martial melee weapon."
+description = "A maul carries its promise in the slow, heavy arc before the blow lands. The haft shudders beneath both hands, and the broad iron head answers with a bell-deep crash that rattles teeth and splinters stubborn things. It favors patience, footing, and a clear space to swing."
 display_name = "Maul"
 entity_def_id = "srd/weapon/maul"
 grants_capability_while_equipped = ""

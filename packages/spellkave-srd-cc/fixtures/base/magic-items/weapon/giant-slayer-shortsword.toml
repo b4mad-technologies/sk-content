@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The short blade hums with a stubborn, bell-like note when held beneath towering shadows. Its edge seems to seek the fault lines in massive foes, flashing upward with the spiteful certainty of a falling stone. In its wake, even the surest giant step may falter."
 display_name = "Giant Slayer (Shortsword)"
 entity_def_id = "srd/magic_item/giant-slayer-shortsword"
 grants_capability_while_equipped = ""

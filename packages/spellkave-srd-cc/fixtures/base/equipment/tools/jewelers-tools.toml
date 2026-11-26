@@ -40,6 +40,7 @@ tag = "srd.tool.category.artisan"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Velvet-lined trays, fine-pointed picks, and tiny cups of polishing grit turn a cluttered bench into a place of patient revelation. Under a steady lens, cloudy stones yield hidden fire and delicate settings become bright enough to catch candlelight. Each careful adjustment asks for a quiet hand and an eye that notices the smallest flaw."
 display_name = "Jeweler's Tools"
 entity_def_id = "srd/tool/jewelers-tools"
 grants_capability_while_equipped = ""

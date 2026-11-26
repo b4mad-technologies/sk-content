@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Each interlocked ring bears a faint, silvery sheen, cool as rainwater against the skin. When worn beneath a cloak or tunic, the shirt settles with surprising ease, its links whispering together like distant leaves. Blows seem to glance aside from its quiet latticework, leaving only a tremor in the metal."
 display_name = "Chain Shirt (+1)"
 entity_def_id = "srd/magic_item/chain-shirt-plus-1"
 grants_capability_while_equipped = ""

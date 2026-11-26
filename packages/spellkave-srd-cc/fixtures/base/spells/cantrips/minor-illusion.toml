@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A thread of fancy catches in the air, becoming a suspicious footprint, a forgotten keepsake, or the hush of a voice behind a locked door. The trick has no weight beneath a searching hand, yet in a dim corridor or crowded market, certainty can be as easily misplaced as a coin."
 display_name = "Minor Illusion"
 entity_def_id = "srd/spell/minor-illusion"
 grants_capability_while_equipped = ""

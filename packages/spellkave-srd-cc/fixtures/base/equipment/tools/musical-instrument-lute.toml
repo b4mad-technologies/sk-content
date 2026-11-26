@@ -40,6 +40,7 @@ tag = "srd.tool.category.instrument"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pear-shaped body rests warm against the ribs, its polished wood carrying each plucked note farther than seems possible. Fingers find familiar paths along the neck while the strings answer with bright laughter, low murmurs, or a mournful ache fit for rain-dark taverns. Even silent, it smells faintly of resin, old cloth, and hearth smoke."
 display_name = "Musical Instrument, Lute"
 entity_def_id = "srd/tool/musical-instrument-lute"
 grants_capability_while_equipped = ""

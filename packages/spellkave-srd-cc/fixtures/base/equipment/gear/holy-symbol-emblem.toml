@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The emblem is flat and meant to be seen, paint or small stones set into a shape that reads across a room. It has almost no heft of its own; its presence is the cloth or shield it is borne upon. In torchlight the device flashes once, then settles into the fold of a banner."
 display_name = "Holy Symbol, Emblem)"
 entity_def_id = "srd/item/holy-symbol-emblem"
 grants_capability_while_equipped = ""

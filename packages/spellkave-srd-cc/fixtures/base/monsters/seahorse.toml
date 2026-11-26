@@ -140,6 +140,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A seahorse drifts through sunlit shallows with a curled tail hooked around reeds or coral, watching the water with bright, wary eyes. Its delicate fins beat in a near-constant flutter, carrying it through currents that would tumble less nimble swimmers. Though gentle and easily startled, it is perfectly at home among swaying kelp and hidden tidal pools."
 display_name = "Seahorse"
 entity_def_id = "srd/creature/seahorse"
 grants_capability_while_equipped = ""

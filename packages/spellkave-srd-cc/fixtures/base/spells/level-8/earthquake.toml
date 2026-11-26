@@ -96,6 +96,7 @@ tag = "srd.spell.list.sorcerer"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The earth answers with a bass-deep roar, shuddering like a wounded giant beneath every footfall. Stone splits into sudden black mouths, roads heave into jagged waves, and towers groan as their foundations betray them. Dust billows through the chaos while the horizon itself seems to stagger."
 display_name = "Earthquake"
 entity_def_id = "srd/spell/earthquake"
 grants_capability_while_equipped = ""

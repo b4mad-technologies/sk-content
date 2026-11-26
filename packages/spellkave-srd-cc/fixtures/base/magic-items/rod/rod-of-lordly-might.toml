@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Six small studs lie cool beneath the thumb, each answering with a different mechanical murmur: steel unfolding, hooks biting stone, or a furnace-bright edge breathing to life. Its haft carries the grave authority of a sceptre and the practical certainty of a tool made for gates, heights, and battlefields. In desperate hands, its touch can leave foes trembling, motionless, or strangely hollow."
 display_name = "Rod of Lordly Might"
 entity_def_id = "srd/magic_item/rod-of-lordly-might"
 grants_capability_while_equipped = ""

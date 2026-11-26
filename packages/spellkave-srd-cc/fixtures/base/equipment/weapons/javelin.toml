@@ -77,7 +77,7 @@ tag = "srd.damage_type.piercing"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Javelin — a simple melee weapon."
+description = "A javelin sits easy in the hand, its long shaft balanced for a quick cast from saddle, shield line, or hunting trail. The point catches pale light before vanishing into rain or reeds, carrying a warrior’s reach beyond the press of blades."
 display_name = "Javelin"
 entity_def_id = "srd/weapon/javelin"
 grants_capability_while_equipped = ""

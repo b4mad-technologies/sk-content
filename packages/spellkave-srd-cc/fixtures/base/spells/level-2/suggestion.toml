@@ -94,6 +94,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A single thought slips into the air like honey stirred through warm tea, sweetened just enough to seem like it was always there. The listener’s gaze softens, and an ordinary notion acquires the quiet weight of destiny. Around that small, spoken seed, doubt folds its wings."
 display_name = "Suggestion"
 entity_def_id = "srd/spell/suggestion"
 grants_capability_while_equipped = ""
@@ -121,7 +122,7 @@ target_ref = "srd/spell/suggestion"
 action_id = "srd/spell/suggestion/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Suggestion — a spell action."
+description = "You cast the spell, choosing its targets and following its casting time, range, and other requirements."
 display_name = "Cast Suggestion"
 non_steering = true
 on_failure = "srd/spell/suggestion/cast/success"
@@ -155,7 +156,7 @@ template_id = "srd/spell/suggestion/cast/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/spell/suggested"
-description = "Suggestion — a spell condition."
+description = "A magical command guides your actions toward a stated course. It lasts until you complete the task, the magic ends, or the command becomes unreasonable."
 display_name = "Suggestion"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

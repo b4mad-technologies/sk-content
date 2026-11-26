@@ -36,6 +36,7 @@ tag = "srd.item.container"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A plain pack carries the quiet necessities of roadside devotion: a folded robe, a travel lamp, consecrated water sealed against dust, and enough humble comforts to endure a week beyond familiar walls. Its straps smell faintly of oil, wool, and old smoke. Unpacked beside a cold campfire, its contents turn a patch of earth into a small, solemn sanctuary."
 display_name = "Priest's Pack"
 entity_def_id = "srd/item/priests-pack"
 grants_capability_while_equipped = ""

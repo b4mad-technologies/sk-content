@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A cold blue sheen lingers along the axe’s broad head, even beneath mud or blood. In the hands of a seasoned warrior, its balance seems to settle with quiet certainty, turning every swing into a cleaner, surer stroke. The haft carries the faint scent of rain on old iron."
 display_name = "Battleaxe (+1)"
 entity_def_id = "srd/magic_item/battleaxe-plus-1"
 grants_capability_while_equipped = ""

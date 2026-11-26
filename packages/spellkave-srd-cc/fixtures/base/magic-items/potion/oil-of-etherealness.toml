@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Cloudy droplets gather along the vial’s lip, vanishing with a chill that leaves no trace on the glass. When worked across cloth, steel, and skin, the oil carries the scent of rain on cold stone, while every touched surface seems to lose its certainty beneath the hand. For a while, the world feels thin as mist and distant as a remembered dream."
 display_name = "Oil of Etherealness"
 entity_def_id = "srd/magic_item/oil-of-etherealness"
 grants_capability_while_equipped = ""

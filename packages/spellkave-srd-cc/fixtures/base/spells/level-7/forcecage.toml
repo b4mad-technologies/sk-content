@@ -96,6 +96,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A gesture closes like an iron verdict, and the air around its quarry becomes an unseen geometry of absolute refusal. Some prisoners glimpse faint ruby glints along the edges; others find only empty space that will not yield. Every avenue of escape turns back upon itself, leaving the captive alone with the sound of their own breath."
 display_name = "Forcecage"
 entity_def_id = "srd/spell/forcecage"
 grants_capability_while_equipped = ""

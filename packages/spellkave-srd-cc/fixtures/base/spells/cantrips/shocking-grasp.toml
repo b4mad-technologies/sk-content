@@ -82,6 +82,7 @@ tag = "srd.damage_type.lightning"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Blue-white fire crawls over the caster’s fingers with the sharp scent of rain striking hot stone. At the briefest contact, the charge leaps across skin and metal alike, leaving muscles clenched and the air ringing with a brittle, thunderous snap."
 display_name = "Shocking Grasp"
 entity_def_id = "srd/spell/shocking-grasp"
 grants_capability_while_equipped = ""
@@ -108,7 +109,7 @@ target_ref = "srd/spell/shocking-grasp"
 action_id = "srd/spell/shocking-grasp/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Shocking Grasp — a spell action."
+description = "You cast a lightning spell through a touch, jolting a creature you can reach and briefly disrupting its ability to make quick reactions."
 display_name = "Cast Shocking Grasp"
 non_steering = true
 on_failure = "srd/spell/shocking-grasp/cast/miss"

@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pearl-bright glimmer travels beneath the fingers, tracing hidden seams in steel, silk, bone, or living skin. For a breath, the world’s quiet enchantments rise like ink in clear water, revealing their habits, hungers, and lingering knots. What seemed ordinary acquires a secret history, waiting patiently to be read."
 display_name = "Identify"
 entity_def_id = "srd/spell/identify"
 grants_capability_while_equipped = ""

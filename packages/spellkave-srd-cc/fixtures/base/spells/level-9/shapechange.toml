@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A remembered beast stirs behind the caster’s eyes, then surges outward in a rush of altered bone, hide, feather, and breath. The mind remains steady within the borrowed wildness, choosing each new guise like a mask drawn from living memory. Armor and tools may vanish into the transformation’s shifting silhouette, leaving only the creature’s impossible presence."
 display_name = "Shapechange"
 entity_def_id = "srd/spell/shapechange"
 grants_capability_while_equipped = ""

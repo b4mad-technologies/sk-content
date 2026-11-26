@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its darkwood stock bears a tracery of silver threads that seem to tighten whenever danger draws near. In the hand, it feels less like a weapon than a wary companion, its poised mechanism lending a quiet certainty to every movement. A faint chime follows each released bolt, like a ward snapping shut."
 display_name = "Defender (Hand Crossbow)"
 entity_def_id = "srd/magic_item/defender-hand-crossbow"
 grants_capability_while_equipped = ""

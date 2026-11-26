@@ -82,6 +82,7 @@ tag = "srd.spell.list.cleric"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush rolls through clenched jaws and raised steel, cooling panic into a distant memory. Old grudges blur at the edges, their heat smothered beneath a still, clear calm. For a fleeting breath of peace, even sworn enemies may find no reason to strike."
 display_name = "Calm Emotions"
 entity_def_id = "srd/spell/calm-emotions"
 grants_capability_while_equipped = ""
@@ -108,7 +109,7 @@ target_ref = "srd/spell/calm-emotions"
 action_id = "srd/spell/calm-emotions/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Calm Emotions — a spell action."
+description = "You cast this spell to soothe strong feelings in nearby creatures, making them less likely to fight or react with fear."
 display_name = "Cast Calm Emotions"
 non_steering = true
 on_failure = ""

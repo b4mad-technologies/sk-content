@@ -23,7 +23,7 @@
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/cover/half"
-description = "Half Cover (playing-the-game.md § Combat > Cover): +2 to AC and Dexterity saving throws while a target has at least half of its body blocked by another creature or an object. Landed on a target via ApplyStatus (a DM call, not a generation-time literal — maxim-audit F1); modifies the 'srd/ac' axis only — the Dexterity-saving-throw half of this row's own SRD text has no substrate save-modifier axis to compose against yet, recorded honestly, not silently dropped."
+description = "You gain a +2 bonus to AC while at least half your body is blocked by a creature or object."
 display_name = "Half Cover"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []
@@ -38,7 +38,7 @@ suppresses_capability_while_active = []
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/cover/three-quarters"
-description = "Three-Quarters Cover (playing-the-game.md § Combat > Cover): +5 to AC and Dexterity saving throws while at least three-quarters of a target's body is blocked by an object. Landed on a target via ApplyStatus (maxim-audit F1); modifies the 'srd/ac' axis only — same Dexterity-save scope caveat as Half Cover's own description."
+description = "While most of your body is blocked by an object, you gain a +5 bonus to AC and Dexterity saving throws."
 display_name = "Three-Quarters Cover"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

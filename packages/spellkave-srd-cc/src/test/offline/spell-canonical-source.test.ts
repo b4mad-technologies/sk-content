@@ -91,8 +91,7 @@ describe("canonical SRD spell text", () => {
 		}
 	});
 
-	// sk-content: needs the held SRD flavor texts (PROVENANCE.md).
-	it.skip("uses authored flavor blurbs, not the SRD first sentence", () => {
+	it("uses authored flavor blurbs, not the SRD first sentence", () => {
 		for (const unit of buildSpellUnits()) {
 			expect(unit.description.length, unit.slug).toBeGreaterThan(40);
 			expect(unit.description, unit.slug).not.toMatch(
@@ -102,8 +101,7 @@ describe("canonical SRD spell text", () => {
 		}
 	});
 
-	// sk-content: needs the held SRD flavor texts (PROVENANCE.md).
-	it.skip("keeps every generated spell runtime description equal to the current fixture row", () => {
+	it("keeps every generated spell runtime description equal to the current fixture row", () => {
 		const manifest = loadBundleChainDetailed({
 			rootManifestPath: path.join(FIXTURES, "manifest.toml"),
 			resolveDependency: () => undefined,

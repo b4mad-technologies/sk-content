@@ -78,6 +78,7 @@ tag = "srd.spell.list.druid"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A warm, clear radiance gathers around the wounded like dawn through storm clouds. Bruises fade, breath steadies, and the body recalls the shape of wholeness beneath pain and poison. Even senses dimmed by injury return as the glow sinks quietly into living flesh."
 display_name = "Heal"
 entity_def_id = "srd/spell/heal"
 grants_capability_while_equipped = ""

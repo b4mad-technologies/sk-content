@@ -78,6 +78,7 @@ tag = "srd.spell.list.druid"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The sky blackens into a wrathful crown, its thunder rolling through bone and breath before the first cruel drops descend. Caustic rain, spears of white fire, and hammering ice arrive in merciless procession, remaking the ground into a drowned and frozen wasteland. Within its shadow, even seasoned armies become scattered silhouettes beneath an uncaring storm."
 display_name = "Storm of Vengeance"
 entity_def_id = "srd/spell/storm-of-vengeance"
 grants_capability_while_equipped = ""

@@ -88,6 +88,7 @@ tag = "srd.spell.list.ranger"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A cool, clean hush spreads from the caster’s touch, like rain washing bitter sap from a blade. Sickly color drains from the afflicted, and a faint silver sheen lingers beneath the skin. Venoms meet that quiet ward and lose their bite, breaking harmlessly against an unseen veil."
 display_name = "Protection from Poison"
 entity_def_id = "srd/spell/protection-from-poison"
 grants_capability_while_equipped = ""
@@ -115,7 +116,7 @@ target_ref = "srd/spell/protection-from-poison"
 action_id = "srd/spell/protection-from-poison/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Protection from Poison — a spell action."
+description = "You cast a spell that neutralizes poison affecting a willing creature and protects it from further poisoning for a time."
 display_name = "Cast Protection from Poison"
 non_steering = true
 on_failure = ""
@@ -149,7 +150,7 @@ template_id = "srd/spell/protection-from-poison/cast/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/spell/protection-from-poison"
-description = "Protection from Poison — a spell condition."
+description = "You have resistance to poison damage and cannot be poisoned for the spell’s duration."
 display_name = "Protection from Poison"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

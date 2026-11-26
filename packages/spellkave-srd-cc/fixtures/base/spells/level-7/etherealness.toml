@@ -96,6 +96,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The world loses its color and weight, becoming a distant charcoal sketch beyond a veil of cold silver mist. Footsteps pass unheard through locked doors and crowded halls, while familiar faces drift by like memories seen through deep water. For a while, the traveler belongs to the hush between places, where walls are only suggestions and solitude has a shadow."
 display_name = "Etherealness"
 entity_def_id = "srd/spell/etherealness"
 grants_capability_while_equipped = ""

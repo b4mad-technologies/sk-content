@@ -84,6 +84,7 @@ tag = "srd.spell.list.druid"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "At a woven gesture, dry vessels ring with sudden clarity as fresh water gathers where none stood before. The same quiet command can leave a basin bare, draw mist apart into tatters, or send a brief silver shower hissing across hungry flame. It smells of wet earth, cooled stone, and the sharp clean breath after rain."
 display_name = "Create or Destroy Water"
 entity_def_id = "srd/spell/create-or-destroy-water"
 grants_capability_while_equipped = ""

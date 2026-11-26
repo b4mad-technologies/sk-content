@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its broad steel holds a faint, restless chill, as though storm clouds have been hammered beneath the blade’s surface. Near a campfire, the greatsword gives a barely audible hum when danger creeps close, stirring sleepers with the sharp instinct of a drawn breath. Those gathered around it find their senses keen before the first shout breaks the dark."
 display_name = "Weapon of Warning (Greatsword)"
 entity_def_id = "srd/magic_item/weapon-of-warning-greatsword"
 grants_capability_while_equipped = ""

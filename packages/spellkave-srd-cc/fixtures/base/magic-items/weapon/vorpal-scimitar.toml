@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The curved blade drinks torchlight along an edge so fine it seems to divide the air before it moves. In hand, it carries a cold, eager balance, whispering through silks, scales, and armor with the certainty of a closing door. A single flawless stroke leaves even seasoned warriors listening for the dreadful hush that follows."
 display_name = "Vorpal Scimitar"
 entity_def_id = "srd/magic_item/vorpal-scimitar"
 grants_capability_while_equipped = ""

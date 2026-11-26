@@ -77,7 +77,7 @@ tag = "srd.damage_type.piercing"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "War Pick — a martial melee weapon."
+description = "A hard-beaked head of iron rides atop a stout haft, balanced for sudden, brutal certainty. In the hand it feels less like a blade than a miner’s tool turned toward darker work, its narrow point made to seek the smallest weakness in mail, hide, or shield-rim."
 display_name = "War Pick"
 entity_def_id = "srd/weapon/war-pick"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Broad plates of darkened metal encircle the waist, their seams breathing a faint furnace glow. When fastened, the belt settles with the weight of a smith’s anvil and sends a slow, volcanic warmth through muscle and bone. Each movement carries the hush of banked coals and the promise of stone yielding beneath an iron grip."
 display_name = "Belt of Giant Strength (Fire)"
 entity_def_id = "srd/magic_item/belt-of-giant-strength-fire"
 grants_capability_while_equipped = ""

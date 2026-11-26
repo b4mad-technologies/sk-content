@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A single dark feather, sleek as lacquer and warm at the quill, seems to twitch when danger draws near. Cast loose, it unfurls into a sinuous lash that hangs in the air with predatory poise. Its crack carries no thunder—only the sharp, breathless sensation of space itself being struck."
 display_name = "Feather Token (Whip)"
 entity_def_id = "srd/magic_item/feather-token-whip"
 grants_capability_while_equipped = ""

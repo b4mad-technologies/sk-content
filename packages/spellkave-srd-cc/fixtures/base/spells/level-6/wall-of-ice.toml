@@ -84,6 +84,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Winter answers in an instant: a towering barricade erupts from bare stone, its blue heart webbed with frost and trapped silver light. The air snaps sharp around its edges, driving foes apart beneath a burst of killing cold. Even shattered, the vanished wall leaves a breath of deep winter hanging where it stood."
 display_name = "Wall of Ice"
 entity_def_id = "srd/spell/wall-of-ice"
 grants_capability_while_equipped = ""

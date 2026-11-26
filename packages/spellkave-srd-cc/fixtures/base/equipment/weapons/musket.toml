@@ -95,7 +95,7 @@ tag = "srd.damage_type.piercing"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Musket — a martial ranged weapon."
+description = "A long ashwood stock braces against the shoulder, its barrel cold even beside a campfire. The hammer’s sharp fall is followed by a bloom of smoke that clings to wool and beard alike. Reloading demands calm hands, measured powder, and a moment of stillness before thunder answers."
 display_name = "Musket"
 entity_def_id = "srd/weapon/musket"
 grants_capability_while_equipped = ""

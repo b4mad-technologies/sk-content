@@ -108,6 +108,7 @@ tag = "srd.spell.list.ranger"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A cool, bitter clarity settles behind the caster’s eyes, as though the world has exhaled its hidden rot. Tainted draughts gleam with sickly intent, venomous hearts stir like distant thorns, and unnatural fevers leave a faint bruise upon the air. Even sealed places seem to hold their breath around what they conceal."
 display_name = "Detect Poison and Disease"
 entity_def_id = "srd/spell/detect-poison-and-disease"
 grants_capability_while_equipped = ""

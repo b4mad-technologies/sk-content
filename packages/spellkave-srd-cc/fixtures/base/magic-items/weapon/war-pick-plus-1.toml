@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The squat iron beak seems to drink in torchlight, leaving only a hard glimmer along its edge. Its haft rests steady in the hand, carrying the stern assurance of a tool made for cracking mail, stone, and resolve alike. When swung, it cuts the air with a low, eager whisper."
 display_name = "War Pick (+1)"
 entity_def_id = "srd/magic_item/war-pick-plus-1"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A faint green gleam lingers along this shaft or sling stone, as though it has slept beneath a canopy after rain. Near living vines, thorned guardians, and root-bound horrors, its surface grows cool and restless. When loosed, it carries the sharp hush of winter through leaves, leaving only an ordinary fragment behind."
 display_name = "Ammunition of Plant Slaying"
 entity_def_id = "srd/magic_item/ammunition-of-plant-slaying"
 grants_capability_while_equipped = ""

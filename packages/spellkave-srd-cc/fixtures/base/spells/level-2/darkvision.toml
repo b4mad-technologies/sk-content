@@ -94,6 +94,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A cool dusk settles over the recipient’s eyes, and the world’s hidden contours rise from blackness in soft, silvered relief. Stone seams, prowling shapes, and distant passages reveal themselves without a spark of flame. Colors retreat, but the night loses its teeth."
 display_name = "Darkvision"
 entity_def_id = "srd/spell/darkvision"
 grants_capability_while_equipped = ""
@@ -120,7 +121,7 @@ target_ref = "srd/spell/darkvision"
 action_id = "srd/spell/darkvision/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Darkvision — a spell action."
+description = "You cast a spell that lets a creature see in darkness for a time."
 display_name = "Cast Darkvision"
 non_steering = true
 on_failure = ""
@@ -154,7 +155,7 @@ template_id = "srd/spell/darkvision/cast/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/spell/darkvision"
-description = "Darkvision — a spell condition."
+description = "You can see in darkness as though it were dim light, and in dim light as though it were bright light. You can’t see color in darkness."
 display_name = "Darkvision"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

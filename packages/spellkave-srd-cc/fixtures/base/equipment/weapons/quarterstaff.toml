@@ -77,7 +77,7 @@ tag = "srd.damage_type.bludgeoning"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Quarterstaff — a simple melee weapon."
+description = "A seasoned length of hardwood, smooth where countless palms have found their grip and darkened at either end by rain and road dust. It turns easily through the hands, swift enough for a warding sweep or a sharp crack against stone. In camp, it also serves as a walking aid, tent pole, and patient companion to long miles."
 display_name = "Quarterstaff"
 entity_def_id = "srd/weapon/quarterstaff"
 grants_capability_while_equipped = ""

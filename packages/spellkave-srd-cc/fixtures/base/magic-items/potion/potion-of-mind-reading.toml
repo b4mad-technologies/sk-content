@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Dense violet liquor turns slowly in its vial, cradling a rose-colored cloud that never quite settles. When uncorked, it carries the hush of a crowded room gone suddenly still, as though every unspoken thought has leaned nearer to listen."
 display_name = "Potion of Mind Reading"
 entity_def_id = "srd/magic_item/potion-of-mind-reading"
 grants_capability_while_equipped = ""

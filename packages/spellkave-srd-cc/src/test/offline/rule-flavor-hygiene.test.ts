@@ -20,8 +20,7 @@ function skip(_kind: string, _id: string): boolean {
 }
 
 describe("player-facing rule descriptions", () => {
-	// sk-content: needs the held SRD flavor texts (PROVENANCE.md).
-	it.skip("keep compiler notes out of player-facing rule descriptions", () => {
+	it("keep compiler notes out of player-facing rule descriptions", () => {
 		const files: string[] = [];
 		walkToml(FIXTURES, files);
 		const leaks: string[] = [];

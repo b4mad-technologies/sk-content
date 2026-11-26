@@ -40,6 +40,7 @@ tag = "srd.tool.category.instrument"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A goatskin bag swells beneath the arm, feeding a chorus of reedy pipes that can carry across a rain-dark field. Its voice begins as a low, stubborn drone, then rises into bright, piercing turns that set boots moving and banners trembling. The instrument smells faintly of oil, wool, and old festival smoke."
 display_name = "Musical Instrument, Bagpipes"
 entity_def_id = "srd/tool/musical-instrument-bagpipes"
 grants_capability_while_equipped = ""

@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush gathers around the chosen figure, softening their outline until even moonlight forgets where it fell. Footprints may stir dust and doors may whisper on their hinges, but the unseen presence moves through the world like a thought no eye can seize."
 display_name = "Greater Invisibility"
 entity_def_id = "srd/spell/greater-invisibility"
 grants_capability_while_equipped = ""

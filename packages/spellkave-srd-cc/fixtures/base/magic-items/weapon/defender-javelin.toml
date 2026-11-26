@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "This balanced javelin carries the quiet certainty of a raised shield, its polished head catching light like a watchful eye. In a warrior’s grip, its weight seems to shift with the danger at hand—eager for the cast, yet ready to turn aside the blow that follows. Faint warding lines gleam along the shaft whenever steel draws near."
 display_name = "Defender (Javelin)"
 entity_def_id = "srd/magic_item/defender-javelin"
 grants_capability_while_equipped = ""

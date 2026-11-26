@@ -133,6 +133,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A badger is a compact, earth-streaked burrower with a stubborn temper far larger than its frame. It shuffles through hedgerows and woodland floors in search of grubs, roots, and small prey, keeping close to the safety of its tunnels. When cornered or disturbed near its den, it becomes a snarling whirlwind of claws and teeth."
 display_name = "Badger"
 entity_def_id = "srd/creature/badger"
 grants_capability_while_equipped = ""

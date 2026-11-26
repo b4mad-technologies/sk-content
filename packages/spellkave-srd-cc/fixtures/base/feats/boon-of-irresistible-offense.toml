@@ -18,6 +18,7 @@ tag = "srd.feat.epic_boon"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Steel, stone, scale, and sorcery all learn the same hard lesson beneath their hand: nothing remains unbroken forever. Their blows arrive with a dreadful certainty, finding the hidden fault in armor and the soft seam beneath enchanted hide. In the rare, breathless instant when instinct and force align perfectly, even seasoned foes feel the world give way."
 display_name = "Boon of Irresistible Offense"
 entity_def_id = "srd/feat/boon-of-irresistible-offense"
 grants_capability_while_equipped = ""

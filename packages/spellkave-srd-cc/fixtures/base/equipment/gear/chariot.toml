@@ -31,6 +31,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Light wood and a low rail, built to be pulled fast rather than to carry a household. The floor is scuffed by boots that braced. Wind would live here. Standing in it, the absence of a roof feels like a dare. Dust climbs the rails and stays there until someone cares."
 display_name = "Chariot"
 entity_def_id = "srd/item/chariot"
 grants_capability_while_equipped = ""

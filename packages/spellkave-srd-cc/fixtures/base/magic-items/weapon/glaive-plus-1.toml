@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale gleam travels along the glaive’s long edge whenever it is lifted beneath open sky. Its haft sits sure in the hands, balanced with an uncanny patience, while the blade seems to hunger for the clean arc of a practiced sweep. Even at rest, it carries the quiet authority of a weapon made for holding a line."
 display_name = "Glaive (+1)"
 entity_def_id = "srd/magic_item/glaive-plus-1"
 grants_capability_while_equipped = ""

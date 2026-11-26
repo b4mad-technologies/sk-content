@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A griffon rears from the bronze in a posture of eternal challenge, every feather and leonine curl worked with a smith’s fierce patience. It feels warm in the palm when danger gathers, carrying the faint scent of sun-struck stone and high mountain air. In open ground, its metal poise seems almost impatient to trade stillness for wings."
 display_name = "Figurine of Wondrous Power (Bronze Griffon)"
 entity_def_id = "srd/magic_item/figurine-of-wondrous-power-bronze-griffon"
 grants_capability_while_equipped = ""

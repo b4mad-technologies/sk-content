@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A broad, moon-pale blade crowns this long haft, etched with tiny scenes of toppled colossi and broken crowns. In the hands of a determined bearer, it seems to lean toward towering foes, humming like a distant avalanche. Each sweeping stroke carries the stern certainty that even mountains may be brought low."
 display_name = "Giant Slayer (Glaive)"
 entity_def_id = "srd/magic_item/giant-slayer-glaive"
 grants_capability_while_equipped = ""

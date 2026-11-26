@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_3"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale gleam runs along the pike’s long steel head, gathering at the point like frost before dawn. Its ash shaft is smooth beneath the hand, yet seems to urge every thrust onward with stern, unwavering purpose. In a crowded battle line, it carries the cold certainty of a wall that will not yield."
 display_name = "Pike (+3)"
 entity_def_id = "srd/magic_item/pike-plus-3"
 grants_capability_while_equipped = ""

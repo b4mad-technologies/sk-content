@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Silver filigree winds along the dark wood, catching even the faintest candlelight with a quiet, dawnlike gleam. When its string is drawn, the air nearby seems steadier, as though a chapel’s hush has settled over the bearer and their companions. Bolts loosed from its rail carry a clean, bell-clear radiance that leaves foul shadows trembling in their wake."
 display_name = "Holy Avenger (Heavy Crossbow)"
 entity_def_id = "srd/magic_item/holy-avenger-heavy-crossbow"
 grants_capability_while_equipped = ""

@@ -82,6 +82,7 @@ tag = "srd.spell.list.warlock"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A velvet cadence unfurls through the air, catching stray thoughts like moths in lamplight. Faces turn toward the speaker; watchful eyes soften, and the world beyond the performance seems suddenly distant and unimportant. Even guarded listeners may find their attention wandering down the winding road of a well-chosen tale."
 display_name = "Enthrall"
 entity_def_id = "srd/spell/enthrall"
 grants_capability_while_equipped = ""
@@ -109,7 +110,7 @@ target_ref = "srd/spell/enthrall"
 action_id = "srd/spell/enthrall/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Enthrall — a spell action."
+description = "You cast a spell that draws nearby creatures’ attention toward you, making it harder for them to notice others."
 display_name = "Cast Enthrall"
 non_steering = true
 on_failure = "srd/spell/enthrall/cast/success"
@@ -143,7 +144,7 @@ template_id = "srd/spell/enthrall/cast/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/spell/enthralled"
-description = "Enthrall — a spell condition."
+description = "You are captivated by a creature’s magic and focus on it while the effect lasts. The effect ends if its spell ends or its concentration is broken."
 display_name = "Enthrall"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

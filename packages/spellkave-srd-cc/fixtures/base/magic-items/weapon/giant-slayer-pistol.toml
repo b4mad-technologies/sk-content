@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its barrel is etched with tiny climbing figures, each one pressing a spear toward the muzzle. In the hand, the pistol carries a stubborn, earthbound heft, as though it remembers the fall of every towering foe. When it fires, the report cracks low and hard, like a felled oak striking stone."
 display_name = "Giant Slayer (Pistol)"
 entity_def_id = "srd/magic_item/giant-slayer-pistol"
 grants_capability_while_equipped = ""

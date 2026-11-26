@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its dark barrel holds a faint, steady warmth, as though a coal smolders somewhere beyond the muzzle. When drawn, the mechanism settles with uncanny precision, every click crisp beneath the thumb. Powder smoke clings to it only briefly before curling away in silver threads."
 display_name = "Pistol (+2)"
 entity_def_id = "srd/magic_item/pistol-plus-2"
 grants_capability_while_equipped = ""

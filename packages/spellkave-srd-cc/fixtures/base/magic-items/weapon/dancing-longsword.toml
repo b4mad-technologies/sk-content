@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its polished blade hums with the anticipation of a courtly dancer awaiting the first note. Loosed into open air, it traces bright, deliberate circles around its chosen foe, turning each stroke into a flash of cold light. When the brief performance ends, the sword comes gliding home with the eager grace of a loyal hawk."
 display_name = "Dancing Longsword"
 entity_def_id = "srd/magic_item/dancing-longsword"
 grants_capability_while_equipped = ""

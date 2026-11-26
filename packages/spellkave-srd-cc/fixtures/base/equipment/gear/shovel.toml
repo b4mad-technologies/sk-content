@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The shovel's blade is nicked and earth-stained, the shaft smooth where both hands have closed around it for hours. It bites soil with a gritty sigh and comes up heavier than it went in. Leaned against a wall it looks like nothing special, until the hole it leaves says otherwise."
 display_name = "Shovel"
 entity_def_id = "srd/item/shovel"
 grants_capability_while_equipped = ""

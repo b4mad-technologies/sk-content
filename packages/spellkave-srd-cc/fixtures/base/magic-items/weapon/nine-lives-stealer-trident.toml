@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Three blackened prongs rise from a shaft wrapped in cold sharkskin, each tip seeming to drink the light around it. In battle, the trident hums with a low, hungry note, as though listening for the stutter of a failing heart. Those who hold it too long sometimes wake from dreams of nine distant candles guttering in the dark."
 display_name = "Nine Lives Stealer (Trident)"
 entity_def_id = "srd/magic_item/nine-lives-stealer-trident"
 grants_capability_while_equipped = ""

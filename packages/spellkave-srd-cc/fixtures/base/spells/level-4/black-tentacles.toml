@@ -84,6 +84,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The earth splits with a wet, ink-dark shudder, and slick limbs coil across the ground in frantic search. Their touch is cold and crushing, dragging at boots, armor, and fleeing ankles with tireless hunger. Around the writhing patch, even seasoned warriors hear the awful slap and suck of something that should never have surfaced."
 display_name = "Black Tentacles"
 entity_def_id = "srd/spell/black-tentacles"
 grants_capability_while_equipped = ""

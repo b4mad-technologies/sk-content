@@ -157,6 +157,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A weretiger moves through civilized streets with a predator’s patience, wearing a familiar face until moonlight or fury strips the disguise away. In beast form, it is all silent muscle, bright eyes, and sudden violence; in human form, its pride and territorial instincts are harder to hide. Those who earn its respect may find a fierce guardian, while trespassers become quarry."
 display_name = "Weretiger"
 entity_def_id = "srd/creature/weretiger"
 grants_capability_while_equipped = ""

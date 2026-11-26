@@ -18,6 +18,7 @@ tag = "srd.feat.general"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Close quarters become a language of balance, leverage, and unyielding intent. A practiced wrestler turns a clash into a tightening knot of limbs and momentum, keeping foes off-balance while carrying the struggle across broken ground. Every hold is a promise that escape will be costly."
 display_name = "Grappler"
 entity_def_id = "srd/feat/grappler"
 grants_capability_while_equipped = ""

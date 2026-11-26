@@ -96,6 +96,7 @@ tag = "srd.spell.list.warlock"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush settles over the wild as clicks, chirrs, and growls unfold into living meaning. The nearest creatures answer in thoughts of shelter, hunger, danger, and familiar trails, their small concerns bright as sparks in the undergrowth. For a little while, the boundary between folk and feather, fur, or scale grows wonderfully thin."
 display_name = "Speak with Animals"
 entity_def_id = "srd/spell/speak-with-animals"
 grants_capability_while_equipped = ""

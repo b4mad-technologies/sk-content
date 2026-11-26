@@ -31,6 +31,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Small enough to lift between two people, honest enough to ship water if a passenger shifts wrong. The oars are mismatched. It smells of algae and wet rope. Across a quiet inlet it is freedom. Across a rough one it is a prayer. Tied to a post, it knocks the pilings all night."
 display_name = "Rowboat"
 entity_def_id = "srd/item/rowboat"
 grants_capability_while_equipped = ""

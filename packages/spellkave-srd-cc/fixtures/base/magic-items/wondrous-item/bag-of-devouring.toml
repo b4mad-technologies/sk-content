@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its velvet mouth hangs limp until something warm passes near, when a distant, wet hunger stirs beneath the stitching. Coins and cold tools may rest within for a time, but living breath draws the unseen appetite’s full attention. Turning the bag inside out leaves only a harmless-looking fold of cloth—and an uneasy silence."
 display_name = "Bag of Devouring"
 entity_def_id = "srd/magic_item/bag-of-devouring"
 grants_capability_while_equipped = ""

@@ -78,6 +78,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "From a sculpted drift rises a familiar face, pale as moonlit glass and breathing no warmth into the air. It moves with borrowed habits and remembers the shape of another’s smile, yet frost glimmers beneath every gesture. Bound to its maker by silent purpose, the duplicate endures until violence or thaw returns it to nameless water."
 display_name = "Simulacrum"
 entity_def_id = "srd/spell/simulacrum"
 grants_capability_while_equipped = ""

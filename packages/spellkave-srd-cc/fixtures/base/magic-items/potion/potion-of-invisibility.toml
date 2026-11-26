@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The glass seems vacant until it is tilted, when a cool, soundless tide slides along its inner walls. Its stopper lifts with a faint sigh, releasing the scent of rain on old stone. For a fleeting while after the draught is taken, even candlelight appears to forget where it fell."
 display_name = "Potion of Invisibility"
 entity_def_id = "srd/magic_item/potion-of-invisibility"
 grants_capability_while_equipped = ""

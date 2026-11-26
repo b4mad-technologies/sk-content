@@ -34,6 +34,7 @@ tag = "srd.tool"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Greasepaint, a false mustache that has seen better lies, powder that blooms if the tin is dropped. The mirror is cracked at one corner. It smells of spirit and cheap roses. A face can be edited here, if the light is kind. A good job survives a second glance and fails a third."
 display_name = "Disguise Kit"
 entity_def_id = "srd/tool/disguise-kit"
 grants_capability_while_equipped = ""

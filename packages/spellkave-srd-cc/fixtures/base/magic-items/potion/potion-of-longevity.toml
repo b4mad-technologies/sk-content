@@ -36,6 +36,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The liquid is pale and slow, and the vial smells of cedar chests and green wood cut years ago. Light takes a long time to cross it. A sip tastes of rain that has been standing in a stone bowl. Afterward the pulse in the wrist feels as if it has decided to count more carefully."
 display_name = "Potion of Longevity"
 entity_def_id = "srd/magic_item/potion-of-longevity"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Pale fire gathers along the polished grain when the staff is raised, casting hard shadows that seem to flee its touch. In its bearer’s hands, the wood feels steady as an oath kept through storm and grief. A hush of clear air surrounds it, and foul sorcery seems to lose its courage at the edge of that light."
 display_name = "Holy Avenger (Quarterstaff)"
 entity_def_id = "srd/magic_item/holy-avenger-quarterstaff"
 grants_capability_while_equipped = ""

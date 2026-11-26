@@ -84,6 +84,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush falls over the condemned as the world chooses a shape for their absence: root-bound iron, dreamless sleep, a jewel’s cold brilliance, or a prison beyond familiar skies. Time passes without touching them, while seeking eyes and far-reaching omens find only silence. Their release waits behind a chosen deed, patient as prophecy and just as difficult to fulfill."
 display_name = "Imprisonment"
 entity_def_id = "srd/spell/imprisonment"
 grants_capability_while_equipped = ""

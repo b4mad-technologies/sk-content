@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush settles behind the eyes as separate thoughts find a shared hearth. Across leagues of storm, stone, and shadow, companions trade warnings, laughter, and unspoken resolve with the ease of a single breath. Foreign tongues lose their thorns; meaning arrives whole, warmed by the familiar presence of trusted minds."
 display_name = "Telepathic Bond"
 entity_def_id = "srd/spell/telepathic-bond"
 grants_capability_while_equipped = ""

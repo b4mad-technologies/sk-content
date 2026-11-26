@@ -78,6 +78,7 @@ tag = "srd.spell.list.cleric"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A clear radiance gathers around chosen companions, steady as a lighthouse through storm and smoke. Fear loosens its grip beneath that glow, and every restorative touch seems to find exactly the wound that needs it most. For a few bright heartbeats, despair has nowhere to hide."
 display_name = "Beacon of Hope"
 entity_def_id = "srd/spell/beacon-of-hope"
 grants_capability_while_equipped = ""

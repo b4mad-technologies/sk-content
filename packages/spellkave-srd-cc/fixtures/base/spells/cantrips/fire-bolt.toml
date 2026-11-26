@@ -82,6 +82,7 @@ tag = "srd.damage_type.fire"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A coal-bright spark gathers between outstretched fingers, fed by a breath of heat and a flicker of intent. It streaks through the air with a hiss, leaving a brief ember-trail in its wake before bursting against its mark. Dry wood, old cloth, and scattered kindling seem to remember the touch long after the flash is gone."
 display_name = "Fire Bolt"
 entity_def_id = "srd/spell/fire-bolt"
 grants_capability_while_equipped = ""
@@ -108,7 +109,7 @@ target_ref = "srd/spell/fire-bolt"
 action_id = "srd/spell/fire-bolt/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Fire Bolt — a spell action."
+description = "You cast this spell to hurl a burst of fire at a target within range. Make a ranged spell attack; on a hit, it takes fire damage."
 display_name = "Cast Fire Bolt"
 non_steering = true
 on_failure = "srd/spell/fire-bolt/cast/miss"

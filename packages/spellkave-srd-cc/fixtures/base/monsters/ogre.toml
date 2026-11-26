@@ -163,6 +163,7 @@ tag = "srd.creature.role.archer"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "An ogre is a towering brute with a hunger as large as its temper. It lurks near lonely roads, ruined steadings, and forest clearings, trusting raw strength and a heavy weapon to settle any dispute. Its crude habits can seem almost comical—until the trees begin to shake with its approach."
 display_name = "Ogre"
 entity_def_id = "srd/creature/ogre"
 grants_capability_while_equipped = ""

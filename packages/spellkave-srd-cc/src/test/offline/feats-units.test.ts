@@ -94,8 +94,7 @@ describe("buildOriginFeatUnits", () => {
 });
 
 describe("buildOriginFeatDescription", () => {
-	// sk-content: needs the held SRD flavor texts (PROVENANCE.md).
-	it.skip("uses authored flavor, not compiler provenance", () => {
+	it("uses authored flavor, not compiler provenance", () => {
 		const unit = buildOriginFeatUnits().find((candidate) => candidate.slug === "alert");
 		if (unit === undefined) throw new Error("test setup: no 'alert' unit.");
 		const description = buildOriginFeatDescription(unit);

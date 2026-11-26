@@ -100,6 +100,7 @@ tag = "srd.spell.list.ranger"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A quiet benediction settles over weary companions like warm cloth laid across old wounds. Color returns to strained faces, breath deepens, and a steadier strength gathers beneath the skin. For a while, even the battered carry themselves as though hardship has forgotten their names."
 display_name = "Aid"
 entity_def_id = "srd/spell/aid"
 grants_capability_while_equipped = ""
@@ -126,7 +127,7 @@ target_ref = "srd/spell/aid"
 action_id = "srd/spell/aid/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Aid — a spell action."
+description = "You cast the aid spell, bolstering up to three creatures with increased hit point maximums and current hit points for its duration."
 display_name = "Cast Aid"
 non_steering = true
 on_failure = ""

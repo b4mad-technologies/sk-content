@@ -12,24 +12,24 @@
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Ability-score generation methods — Standard Array, Random Generation, or Point Cost."
+description = "The method you use to determine your character’s ability scores before play. Choose the standard array, generate scores randomly, or spend points to build them."
 prefix = "srd"
 tag = "srd.character_creation"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Ability Score Point Costs — the Point Cost generation table."
+description = "The point cost of each ability score when you build a character with the point-buy method. You spend from a limited pool to raise your scores."
 prefix = "srd.character_creation"
 tag = "srd.character_creation.point_cost"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Standard Array by Class — suggested ability-score placement per class."
+description = "A suggested set of ability scores arranged to support your class’s main strengths. You can use it instead of generating or customizing your scores."
 prefix = "srd.character_creation"
 tag = "srd.character_creation.standard_array"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Background ability-score adjustment — apply the +2 and +1 from the chosen origin."
+description = "Your background increases one ability score by 2 and a different ability score by 1, as chosen from its listed options."
 prefix = "srd.character_creation"
 tag = "srd.character_creation.background_adjustment"

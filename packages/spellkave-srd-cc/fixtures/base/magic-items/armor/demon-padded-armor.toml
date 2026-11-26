@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Black hide clings like a second skin, its seams warm with a feverish pulse and its gauntlets ending in polished, hungry talons. Harsh syllables stir behind the wearer’s teeth whenever abyssal creatures draw near. Once buckled closed, the armor settles with intimate certainty, as though it has finally found the body it was promised."
 display_name = "Demon Padded Armor"
 entity_def_id = "srd/magic_item/demon-padded-armor"
 grants_capability_while_equipped = ""

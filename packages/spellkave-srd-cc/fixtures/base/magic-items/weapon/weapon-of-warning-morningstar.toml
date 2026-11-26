@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its iron head seems to listen when the camp grows still, each cruel point catching moonlight like a watchful eye. At the first stir of danger, the haft trembles with a low, urgent hum, rousing nearby companions from ordinary sleep before blades leave their sheaths. In a bearer’s grip, the morningstar lends the uncanny poise of someone who heard the ambush coming."
 display_name = "Weapon of Warning (Morningstar)"
 entity_def_id = "srd/magic_item/weapon-of-warning-morningstar"
 grants_capability_while_equipped = ""

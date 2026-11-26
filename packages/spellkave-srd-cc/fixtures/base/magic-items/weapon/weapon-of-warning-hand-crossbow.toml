@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its lacquered limbs carry a faint, restless tension, as though the bowstring listens for danger even in darkness. Near it, sleep lies lightly upon the camp, and the first stir of violence seems to snap every heartbeat awake. In the hand, the little crossbow feels eager—not for blood, but for the instant before the world turns hostile."
 display_name = "Weapon of Warning (Hand Crossbow)"
 entity_def_id = "srd/magic_item/weapon-of-warning-hand-crossbow"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "This long-barreled musket bears old hammer marks along its stock, each one like a tally carved by a patient hunter. Its report cracks across the field with a force that seems to buckle even towering foes, leaving the air sharp with smoke and splinters. In steady hands, it feels eager to bring the mighty low."
 display_name = "Giant Slayer (Musket)"
 entity_def_id = "srd/magic_item/giant-slayer-musket"
 grants_capability_while_equipped = ""

@@ -84,6 +84,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A silent boundary flashes into being, marked only by the sudden halt of rain, dust, and charging steel. It may stand like an unseen rampart, curve into a sheltering shell, or divide a battlefield with cruel precision. Even drifting spirits find their passage barred by its flawless, untouchable edge."
 display_name = "Wall of Force"
 entity_def_id = "srd/spell/wall-of-force"
 grants_capability_while_equipped = ""

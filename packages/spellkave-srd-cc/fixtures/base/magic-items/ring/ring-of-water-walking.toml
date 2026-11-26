@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A thin silver band cool to the touch, this ring carries the hush of moonlit lakes and rain-darkened stones. When worn, even restless waters seem to firm beneath each step, welcoming the bearer across their gleaming surface without a ripple of doubt."
 display_name = "Ring of Water Walking"
 entity_def_id = "srd/magic_item/ring-of-water-walking"
 grants_capability_while_equipped = ""

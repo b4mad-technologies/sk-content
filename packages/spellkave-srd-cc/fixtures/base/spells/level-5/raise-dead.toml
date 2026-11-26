@@ -90,6 +90,7 @@ tag = "srd.spell.list.paladin"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush gathers around the still form as warmth returns in hesitant waves, drawing color back beneath the skin and breath into silent lungs. Old wounds knit beneath a fading spectral glow, while the survivor wakes as though dragged through a distant, lightless tide. Life has answered—but it leaves the returned soul trembling with the weight of the crossing."
 display_name = "Raise Dead"
 entity_def_id = "srd/spell/raise-dead"
 grants_capability_while_equipped = ""

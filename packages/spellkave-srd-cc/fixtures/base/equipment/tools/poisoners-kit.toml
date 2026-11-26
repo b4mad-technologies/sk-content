@@ -34,6 +34,7 @@ tag = "srd.tool"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Small vials, glass stir-rods, gloves that smell of bitter almond and soap. The case is plain on purpose. Nothing is labeled in a hand a stranger could read. It is a craft that prefers dim light and a locked door. The owner washes twice and still checks the cuffs."
 display_name = "Poisoner's Kit"
 entity_def_id = "srd/tool/poisoners-kit"
 grants_capability_while_equipped = ""

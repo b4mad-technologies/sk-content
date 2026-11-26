@@ -163,6 +163,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Small, quick, and loud when courage fails, goblin minions thrive in the confusion around stronger foes. They dart from cover to cover, hurling insults as readily as weapons, then scatter the moment a fight turns against them. Alone they are skittish nuisances; in a pack, their reckless energy can turn a quiet ruin into a frantic ambush."
 display_name = "Goblin Minion"
 entity_def_id = "srd/creature/goblin-minion"
 grants_capability_while_equipped = ""

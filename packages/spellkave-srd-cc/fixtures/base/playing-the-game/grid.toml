@@ -119,7 +119,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/capability/walk"
 default_visibility = "Public"
-description = "Walking capability the Step edge affordance's predicate gates on for ordinary place edges and tactical grid cells (actor.has_capability('srd/capability/walk')) — playing-the-game.md § Playing on a Grid (917-929). Promoted from a bare id to a real capability_definitions row (`ledger/designs/prone-free-action.md` Slice B item 4); stable srd.creature identity grants it through creature-identity.toml."
+description = "You can move across ordinary ground and through spaces you can normally enter. Use it when moving on a tactical grid or between connected places."
 display_name = "Walk"
 
 [[capability_definitions]]
@@ -127,7 +127,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/capability/swim"
 default_visibility = "Public"
-description = "Swimming capability the Swim edge affordance's predicate gates on (actor.has_capability('srd/capability/swim')) — ADR-0101 movement-modes-defaults-and-terrain-cost's alternative-mode content (A-3, walk-OR-swim). Promoted to a real capability_definitions row, same as srd/capability/walk."
+description = "You can move through water using your swimming speed when a rule or effect allows you to swim."
 display_name = "Swim"
 
 [[capability_definitions]]
@@ -135,7 +135,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/capability/fly"
 default_visibility = "Public"
-description = "Flying capability the Fly edge affordance's predicate gates on (actor.has_capability('srd/capability/fly')) — ADR-0101 movement-modes-defaults-and-terrain-cost's replace-mode content (A-2, fly-only edges). Promoted to a real capability_definitions row, same as srd/capability/walk."
+description = "You can move through the air using your flying speed. Use it when a rule or movement path allows flying."
 display_name = "Fly"
 
 [[capability_definitions]]
@@ -143,7 +143,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/capability/climb"
 default_visibility = "Public"
-description = "Climbing capability (Thief Second-Story Work). Climb Speed is srd/speed-climb."
+description = "You gain a Climb Speed, letting you move up, down, or across suitable surfaces without spending extra movement."
 display_name = "Climb"
 
 [[combat_grid_blueprints]]
@@ -204,6 +204,7 @@ sense_visibility = "local"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "How far you can move on your turn. Spend it in any order around your actions; difficult terrain uses it faster."
 display_name = "Walking Speed"
 initial_value = 6
 max_value = 120
@@ -214,6 +215,7 @@ value_kind = "int"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "How quickly you can move while climbing. When you use this speed to climb, you ignore the usual extra movement cost."
 display_name = "Climbing Speed"
 initial_value = 0
 max_value = 120
@@ -224,6 +226,7 @@ value_kind = "int"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "How fast you can move through water. When you use this speed to swim, you move without the usual extra movement cost."
 display_name = "Swimming Speed"
 initial_value = 6
 max_value = 120
@@ -234,6 +237,7 @@ value_kind = "int"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "How fast you move through the air. If you become incapacitated, fall prone, or lose this speed, you fall unless you can hover."
 display_name = "Flying Speed"
 initial_value = 6
 max_value = 120
@@ -246,7 +250,7 @@ value_kind = "int"
 auto_join_on_targeting = false
 bundle_id = "srd"
 combat_grid_blueprint_id = ""
-description = "Clock-only Sequential travel session for over-reach r_move (sk-0m4.30). The kernel names the long_running_move_session BINDING; this row is the srd-owned session_definition that binding points at. Empty turn_scheduler_id on purpose — a clock, not combat initiative."
+description = "A timed travel procedure for long-distance movement. You track its progress by the session clock rather than taking turns in initiative order."
 grid_edge_affordance_bindings_json = ""
 grid_edge_affordance_template_id = ""
 initial_state = ""

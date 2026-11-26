@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A smooth black rod, cold as deep stone, seems to drink the color from hostile sorcery before it can bloom. Faint seams of violet light stir beneath its surface afterward, like lightning trapped under ice. In a practiced hand, that captive radiance waits with the tense silence of a storm held behind a locked door."
 display_name = "Rod of Absorption"
 entity_def_id = "srd/magic_item/rod-of-absorption"
 grants_capability_while_equipped = ""

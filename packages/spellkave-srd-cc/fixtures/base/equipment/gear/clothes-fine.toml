@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The cloth catches light in a soft sheen, seams so fine they nearly disappear under the fingers. Embroidery sits raised along the cuff, the thread slightly warm from the body that has worn it. Worn into a hall, the garments hold their shape as if they expect a gate, a bow, and a second look."
 display_name = "Clothes, Fine"
 entity_def_id = "srd/item/clothes-fine"
 grants_capability_while_equipped = ""

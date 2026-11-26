@@ -96,6 +96,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush settles behind the caster’s gaze, softening wary instincts into curious regard. Even fangs, claws, and alien eyes may lose their edge beneath that gentle pull, as though an old friendship has suddenly been remembered. When the warmth fades, the creature is left with the uneasy knowledge that its trust was not entirely its own."
 display_name = "Charm Monster"
 entity_def_id = "srd/spell/charm-monster"
 grants_capability_while_equipped = ""

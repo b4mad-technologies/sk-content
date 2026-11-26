@@ -40,6 +40,7 @@ tag = "srd.tool.category.artisan"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A mason’s kit carries the cold, patient language of stone: steel edges, a square-faced hammer, and chalk dust ground into every seam of its case. Each measured strike sends a clean vibration up the wrist, while small, deliberate cuts turn stubborn rock into marks meant to endure long after the scaffolds come down."
 display_name = "Mason's Tools"
 entity_def_id = "srd/tool/masons-tools"
 grants_capability_while_equipped = ""

@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The manacles are paired iron cuffs joined by a short run of chain, the inner edges worn smoother than the outside. They are cold at first touch, and the hinge pin ticks when they swing against each other. A small key rides with them, plain and easy to mislay in a cluttered pouch."
 display_name = "Manacles"
 entity_def_id = "srd/item/manacles"
 grants_capability_while_equipped = ""

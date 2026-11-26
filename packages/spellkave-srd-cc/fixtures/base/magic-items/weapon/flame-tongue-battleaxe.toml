@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its broad steel head drinks the dark, then answers a whispered command with a roar of living flame. Heat gathers along the crescent edge without scorching the haft, filling nearby shadows with restless amber light. In battle, each swing trails sparks like a forge door flung open."
 display_name = "Flame Tongue Battleaxe"
 entity_def_id = "srd/magic_item/flame-tongue-battleaxe"
 grants_capability_while_equipped = ""

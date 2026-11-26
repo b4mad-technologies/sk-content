@@ -84,6 +84,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "At a subtle gesture, the little forces of the world lean close: dust gathers, a shutter sighs, and mist pearls across warm stone. Ember-smoke blooms in colors and scents chosen from memory, while a puddle or curl of sand briefly takes on a playful, imperfect form. It is humble magic, but the room remembers its passing."
 display_name = "Elementalism"
 entity_def_id = "srd/spell/elementalism"
 grants_capability_while_equipped = ""

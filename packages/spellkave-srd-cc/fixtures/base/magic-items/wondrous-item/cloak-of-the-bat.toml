@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Black velvet drinks the light around its hem, carrying the dry, mineral scent of old caverns. Drawn close beneath moonless skies, it gathers into broad, whispering folds that seem eager to catch a night wind. For a breathless while, its wearer becomes little more than a passing shadow among eaves and rafters."
 display_name = "Cloak of the Bat"
 entity_def_id = "srd/magic_item/cloak-of-the-bat"
 grants_capability_while_equipped = ""

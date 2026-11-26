@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Cold metal warms beneath the hand, its rim engraved with feasting halls, storm-tossed banners, and warriors locked in eternal contest. When its call rolls across a battlefield, the air seems to sharpen with frost and distant laughter. Figures answer from beyond the veil, breathing hard and gripping old weapons, their allegiance as fierce as the note that summoned them."
 display_name = "Horn of Valhalla"
 entity_def_id = "srd/magic_item/horn-of-valhalla"
 grants_capability_while_equipped = ""

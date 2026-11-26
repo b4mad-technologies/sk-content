@@ -88,6 +88,7 @@ tag = "srd.damage_type.psychic"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A needle of cold thought slips between memory and instinct, leaving the victim reeling beneath an unseen pressure. Even through walls, smoke, or shifting crowds, their presence tugs at the caster’s awareness like a barbed thread drawn taut through the dark."
 display_name = "Mind Spike"
 entity_def_id = "srd/spell/mind-spike"
 grants_capability_while_equipped = ""
@@ -114,7 +115,7 @@ target_ref = "srd/spell/mind-spike"
 action_id = "srd/spell/mind-spike/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Mind Spike — a spell action."
+description = "You cast the spell, choosing its targets and following its casting time, range, and other requirements."
 display_name = "Cast Mind Spike"
 non_steering = true
 on_failure = "srd/spell/mind-spike/cast/failure"

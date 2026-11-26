@@ -36,6 +36,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The liquid is pale grey and slow, with a skin of frost that reforms if the vial is still. It smells of a quarry in winter and cold metal. A sip numbs the tongue and then leaves the arms feeling cut from the same rock as the room. The cork comes away stiff."
 display_name = "Potion of Giant Strength (frost or stone)"
 entity_def_id = "srd/magic_item/potion-of-giant-strength-frost-or-stone"
 grants_capability_while_equipped = ""

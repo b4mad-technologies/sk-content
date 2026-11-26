@@ -84,6 +84,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A small court of elemental spirits answers the call: cinders whirl like fireflies, frost whispers along steel, and sparks snap between bootprints. They orbit their summoner in a restless halo, turning every nearby clash into a burst of primal weather. Beneath hostile feet, the earth grows treacherous with rime, glassy heat, clinging mire, or crackling stone."
 display_name = "Conjure Minor Elementals"
 entity_def_id = "srd/spell/conjure-minor-elementals"
 grants_capability_while_equipped = ""

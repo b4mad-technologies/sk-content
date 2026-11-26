@@ -30,6 +30,7 @@ tag = "srd.item.food"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A dense loaf, crust dark where the oven kissed it, crumb still soft if it was baked this morning. It smells of flour and a faint scorch. Broken in the hand, it sheds crumbs into a lap and makes a meal out of almost nothing else."
 display_name = "Bread (loaf)"
 entity_def_id = "srd/item/bread-loaf"
 grants_capability_while_equipped = ""

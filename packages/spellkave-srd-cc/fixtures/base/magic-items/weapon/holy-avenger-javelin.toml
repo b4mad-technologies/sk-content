@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale fire gathers along its polished shaft, brightening whenever grave-cold malice or infernal breath draws near. In the hand, it feels solemn and steady, as though carrying the hush of a sanctuary into battle. Companions standing close find the world's cruel enchantments less able to take hold."
 display_name = "Holy Avenger (Javelin)"
 entity_def_id = "srd/magic_item/holy-avenger-javelin"
 grants_capability_while_equipped = ""

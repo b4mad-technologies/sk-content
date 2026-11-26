@@ -78,6 +78,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A cold breath stirs the dust where an unseen sentinel pads its endless circuit. Its warning erupts from empty air—a deep, furious bark that makes intruders feel teeth closing around their courage. Those who press onward find the darkness itself has learned to bite."
 display_name = "Faithful Hound"
 entity_def_id = "srd/spell/faithful-hound"
 grants_capability_while_equipped = ""

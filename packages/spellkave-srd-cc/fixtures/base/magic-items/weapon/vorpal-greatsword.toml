@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The great blade carries a hush like the pause before an executioner’s signal. Its edge seems to find the invisible seams beneath helm, hide, and scales, drinking torchlight into a line of cold silver. When it swings in earnest, even the boldest foe feels the sudden, instinctive urge to guard the throat."
 display_name = "Vorpal Greatsword"
 entity_def_id = "srd/magic_item/vorpal-greatsword"
 grants_capability_while_equipped = ""

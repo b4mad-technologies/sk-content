@@ -96,6 +96,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Marked tokens tumble across the cloth, each click seeming to arrive from a moment not yet lived. A hush gathers around the question, then breaks in a fleeting sign: a promise of favor, a warning shadow, a tangled road, or only silence. The answer is never a map—merely a chill or warmth at the threshold of choice."
 display_name = "Augury"
 entity_def_id = "srd/spell/augury"
 grants_capability_while_equipped = ""

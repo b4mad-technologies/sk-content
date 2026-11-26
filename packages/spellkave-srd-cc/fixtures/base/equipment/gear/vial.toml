@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The vial is a slim finger of glass, stoppered tight, almost without heft until a liquid inside gives it a small voice. Tilted toward a lamp, the contents slide in a thin bright line. It vanishes among larger bottles and is found again by the tiny click of glass against glass."
 display_name = "Vial"
 entity_def_id = "srd/item/vial"
 grants_capability_while_equipped = ""

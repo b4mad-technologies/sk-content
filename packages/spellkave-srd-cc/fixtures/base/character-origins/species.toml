@@ -19,97 +19,97 @@
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as one of the 9 SRD species (character-origins.md:65-95 (§ Character Species / Parts of a Species))."
+description = "Marks a character ancestry option. It determines the traits and features you gain from your chosen people."
 prefix = "srd"
 tag = "srd.species"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Dragonborn species. Size: Medium. Speed: 30 feet."
+description = "A dragonborn is a Medium humanoid with a walking speed of 30 feet. Your draconic heritage grants additional traits chosen when you create your character."
 prefix = "srd.species"
 tag = "srd.species.dragonborn"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Dwarf species. Size: Medium. Speed: 30 feet."
+description = "A sturdy, Medium folk with a walking speed of 30 feet. You choose this species for its dwarven traits."
 prefix = "srd.species"
 tag = "srd.species.dwarf"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Elf species. Size: Medium. Speed: 30 feet."
+description = "A Medium humanoid species with a walking speed of 30 feet. Choose this species when you create your character."
 prefix = "srd.species"
 tag = "srd.species.elf"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Gnome species. Size: Small. Speed: 30 feet."
+description = "A Small humanoid species with a walking speed of 30 feet."
 prefix = "srd.species"
 tag = "srd.species.gnome"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Goliath species. Size: Medium. Speed: 35 feet."
+description = "A tall, hardy humanoid species. You are Medium, and your walking speed is 35 feet."
 prefix = "srd.species"
 tag = "srd.species.goliath"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Halfling species. Size: Small. Speed: 30 feet."
+description = "A Small species with a walking speed of 30 feet. You can choose it when creating your character."
 prefix = "srd.species"
 tag = "srd.species.halfling"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Human species. Size: Medium or Small. Speed: 30 feet."
+description = "A versatile humanoid ancestry. You are Medium or Small, and your walking speed is 30 feet."
 prefix = "srd.species"
 tag = "srd.species.human"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Orc species. Size: Medium. Speed: 30 feet."
+description = "A Medium humanoid species with a walking speed of 30 feet."
 prefix = "srd.species"
 tag = "srd.species.orc"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Tiefling species. Size: Medium or Small. Speed: 30 feet."
+description = "A fiend-touched humanoid species. You choose Medium or Small size, and your walking speed is 30 feet."
 prefix = "srd.species"
 tag = "srd.species.tiefling"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Tiny — a creature size category."
+description = "A size category for very small creatures. Your size can affect the space you control, what you can carry, and how other rules apply to you."
 prefix = "srd.creature_size"
 tag = "srd.creature_size.tiny"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Small — a creature size category."
+description = "A creature size category for beings smaller than most humanoids. Your size can affect the space you occupy and the equipment you use."
 prefix = "srd.creature_size"
 tag = "srd.creature_size.small"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Medium — a creature size category."
+description = "A creature size category for human-sized beings and similar creatures. It affects the space you occupy and how some rules apply to you."
 prefix = "srd.creature_size"
 tag = "srd.creature_size.medium"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Large — a creature size category."
+description = "A size category for creatures that occupy more space and often have greater reach than smaller creatures."
 prefix = "srd.creature_size"
 tag = "srd.creature_size.large"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Huge — a creature size category."
+description = "A size category for very large creatures. Your size can affect the space you control and which spaces you can move through."
 prefix = "srd.creature_size"
 tag = "srd.creature_size.huge"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Gargantuan — a creature size category."
+description = "A size category for the largest creatures. Your size affects the space you control and may limit where you can move."
 prefix = "srd.creature_size"
 tag = "srd.creature_size.gargantuan"
 [[entity_definition_initial_state]]
@@ -415,6 +415,7 @@ tag = "srd.creature_size.small"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Dragonborn carry the presence of ancient storms and banked volcanoes, whether their lineage runs bright as dawn or dark as deep earth. Pride, discipline, and a fierce sense of personal honor often shape their paths, but no two bear that legacy alike. Many seek deeds worthy of the legends their ancestors left in ash, scale, and song."
 display_name = "Dragonborn"
 entity_def_id = "srd/species/dragonborn"
 grants_capability_while_equipped = ""
@@ -430,6 +431,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Dwarves carry the patience of stone and the warmth of a well-kept hearth. Their communities prize skilled hands, plain promises, and the stories earned through labor, laughter, and hardship. Whether delving for lost craftwork or standing firm beside trusted companions, a dwarf often finds purpose in making something that outlasts the day."
 display_name = "Dwarf"
 entity_def_id = "srd/species/dwarf"
 grants_capability_while_equipped = ""
@@ -445,6 +447,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Elves carry long memory like a second heartbeat, gathering songs, grudges, and moments of beauty across years that pass swiftly for others. Their communities prize patience, craft, and the quiet discipline needed to notice what change leaves behind. Even far from home, an elf often seems touched by a distant horizon, always listening for the next wonder worth preserving."
 display_name = "Elf"
 entity_def_id = "srd/species/elf"
 grants_capability_while_equipped = ""
@@ -460,6 +463,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Gnomes meet the world with bright attention, finding wonder in clockwork hinges, rare spices, and the peculiar habits of strangers. Their communities prize clever hands, lively debate, and the kind of jokes that improve with retelling. Beneath their playfulness lies a stubborn affection for home, friends, and every small mystery still waiting to be solved."
 display_name = "Gnome"
 entity_def_id = "srd/species/gnome"
 grants_capability_while_equipped = ""
@@ -475,6 +479,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Goliaths are shaped by high places, hard weather, and the quiet pride of meeting every challenge head-on. Their communities prize endurance, honest achievement, and the strength to carry burdens that would break another traveler. Though competition runs deep in their traditions, so does a fierce respect for those who stand beside them when the climb grows steep."
 display_name = "Goliath"
 entity_def_id = "srd/species/goliath"
 grants_capability_while_equipped = ""
@@ -490,6 +495,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Halflings carry a talent for making room: at crowded tables, in wary company, and within homes brightened by small comforts. Their communities prize practical skill, quick laughter, and the stubborn belief that ordinary joys are worth protecting. Though often underestimated, they meet danger with nimble courage and a remarkable instinct for finding the hopeful path forward."
 display_name = "Halfling"
 entity_def_id = "srd/species/halfling"
 grants_capability_while_equipped = ""
@@ -505,6 +511,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Humans meet a wide world with restless curiosity and a talent for becoming more than circumstance intended. Their communities rise in every climate and along every road, shaped by countless customs, ambitions, and hard-won hopes. Among them are patient stewards, bold inventors, and wanderers who see every horizon as an invitation."
 display_name = "Human"
 entity_def_id = "srd/species/human"
 grants_capability_while_equipped = ""
@@ -520,6 +527,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Orcs are forged in loud halls, hard journeys, and the certainty that a promise means something. Their communities prize visible courage, plain speech, and the strength to carry others when the path turns cruel. Whether defending a clanstead, pursuing a personal oath, or seeking a wider world, an orc often meets each day with fierce purpose."
 display_name = "Orc"
 entity_def_id = "srd/species/orc"
 grants_capability_while_equipped = ""
@@ -535,6 +543,7 @@ stackable = false
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Tieflings carry a presence that makes ordinary rooms feel suddenly charged, whether through ember-bright eyes, curling horns, or a confidence sharpened by hard-won self-knowledge. Many learn early to read a crowd, answer suspicion with wit, and choose their own place in the world rather than wait for it to be offered. Their communities are as varied as their ambitions, bound more often by chosen loyalty than blood."
 display_name = "Tiefling"
 entity_def_id = "srd/species/tiefling"
 grants_capability_while_equipped = ""
@@ -622,6 +631,7 @@ target_ref = "srd/species/tiefling"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "Your size category describes your character’s physical scale. Your species sets it, though some species let you choose between Small and Medium."
 display_name = "Size Category"
 initial_value = 3
 max_value = 6

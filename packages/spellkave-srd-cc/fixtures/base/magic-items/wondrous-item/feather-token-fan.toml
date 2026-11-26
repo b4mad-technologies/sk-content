@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale feather curls around a sliver of lacquered wood, light as a gull’s cast plume yet restless in the hand. When loosed above a deck, it blooms into a vast floating fan whose measured strokes set canvas snapping and rigging singing. Salt spray scatters before its invisible breath as the vessel surges toward the horizon."
 display_name = "Feather Token (Fan)"
 entity_def_id = "srd/magic_item/feather-token-fan"
 grants_capability_while_equipped = ""

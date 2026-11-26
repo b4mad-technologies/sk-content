@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Overlapping steel splints lie snug against a backing of dark, weathered hide, each rivet catching light like a cold star. When worn, the armor settles with a reassuring heft, its fitted bands moving in a measured whisper rather than a clatter. A faint, enduring sheen clings to the metal even beneath mud, rain, and battlefield smoke."
 display_name = "Splint Armor (+1)"
 entity_def_id = "srd/magic_item/splint-armor-plus-1"
 grants_capability_while_equipped = ""

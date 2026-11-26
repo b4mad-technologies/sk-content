@@ -82,6 +82,7 @@ tag = "srd.spell.list.druid"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A quiet ward settles over the chosen soul like a second skin, tuned to the threat most likely to find them. When danger strikes, the air shivers and the blow seems to lose a little of its hunger, bled harmlessly into a fading halo of light."
 display_name = "Resistance"
 entity_def_id = "srd/spell/resistance"
 grants_capability_while_equipped = ""
@@ -109,7 +110,7 @@ target_ref = "srd/spell/resistance"
 action_id = "srd/spell/resistance/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Resistance — a spell action."
+description = "You cast this spell to bolster a willing creature against the next saving throw it makes before the spell ends."
 display_name = "Cast Resistance"
 non_steering = true
 on_failure = ""
@@ -143,7 +144,7 @@ template_id = "srd/spell/resistance/cast/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/spell/resistance"
-description = "Resistance — a spell condition."
+description = "You take reduced damage from a specified source while this condition lasts."
 display_name = "Resistance"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

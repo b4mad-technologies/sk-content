@@ -76,6 +76,7 @@ tag = "srd.spell.list.druid"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush of jewel-toned radiance spills across the field, clinging to armor, branches, and fleeing silhouettes alike. Violet, green, or blue fire traces every edge with mischievous clarity, turning concealment into a glowing betrayal. Even the smallest movement leaves a bright whisper in the dark."
 display_name = "Faerie Fire"
 entity_def_id = "srd/spell/faerie-fire"
 grants_capability_while_equipped = ""
@@ -103,7 +104,7 @@ target_ref = "srd/spell/faerie-fire"
 action_id = "srd/spell/faerie-fire/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Faerie Fire — a spell action."
+description = "You cast a spell that outlines creatures and objects in colored light, making hidden targets easier to reveal and see."
 display_name = "Cast Faerie Fire"
 non_steering = true
 on_failure = "srd/spell/faerie-fire/cast/success"
@@ -138,7 +139,7 @@ template_id = "srd/spell/faerie-fire/cast/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/spell/faerie-fire"
-description = "Faerie Fire — a spell condition."
+description = "You are outlined in colored light, making you easier to see. Attacks against you gain an advantage while the light remains."
 display_name = "Faerie Fire"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

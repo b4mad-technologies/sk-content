@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Dark, star-flecked metal reinforces every overlapping plate, lending the armor a grave, immovable presence. Blows that should find some cruel seam instead shriek across its hardened surface in showers of sparks. Beneath its weight, the wearer carries the quiet assurance of a mountain refusing the storm."
 display_name = "Adamantine Armor (Half Plate)"
 entity_def_id = "srd/magic_item/adamantine-armor-half-plate-armor"
 grants_capability_while_equipped = ""

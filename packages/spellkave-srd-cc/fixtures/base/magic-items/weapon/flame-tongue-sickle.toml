@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its hooked blade wakes with a whispered word, spilling hungry fire along the inner curve without warming the hand that bears it. The sickle’s glow turns shadowed fields and ruined halls into wavering amber, while every sweep leaves the air smelling of charred grain and summer lightning. When lowered, the flame vanishes as neatly as a snuffed candle."
 display_name = "Flame Tongue Sickle"
 entity_def_id = "srd/magic_item/flame-tongue-sickle"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Soft leather clings close to the ankle, cool as leaf-shadow and supple as moss after rain. Even across loose gravel or dry autumn branches, their passage leaves only a faint stirring of dust. The boots seem to borrow the hush of deep woodland glades, carrying their wearer through the world like a secret."
 display_name = "Boots of Elvenkind"
 entity_def_id = "srd/magic_item/boots-of-elvenkind"
 grants_capability_while_equipped = ""

@@ -78,6 +78,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "At a whispered gesture, stubborn stone remembers that it was once dust, and timber forgets the grain that held it fast. A dark, smooth threshold blooms where no door was built, carrying travelers through the secret thickness of a fortress or tomb. When the enchantment fades, the wall seals its silence behind them."
 display_name = "Passwall"
 entity_def_id = "srd/spell/passwall"
 grants_capability_while_equipped = ""

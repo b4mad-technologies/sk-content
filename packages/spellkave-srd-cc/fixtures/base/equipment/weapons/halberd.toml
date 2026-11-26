@@ -89,7 +89,7 @@ tag = "srd.damage_type.slashing"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Halberd — a martial melee weapon."
+description = "A halberd carries the chill of a gatehouse morning, its long haft balanced between reach and control. The broad blade bites through brush and armor alike, while the rear hook waits to drag shields aside or wrench riders from the saddle. In practiced hands, it turns a narrow road into defended ground."
 display_name = "Halberd"
 entity_def_id = "srd/weapon/halberd"
 grants_capability_while_equipped = ""

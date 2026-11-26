@@ -36,6 +36,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "This stone is a dull grey marble that takes a slow orbit and seems to drink the brightness out of nearby sparks. A hand passed under it feels briefly less stung by heat or glare. The circle it keeps is tight and quiet. After a moment the grey looks deeper, as if it had been fed."
 display_name = "Ioun Stone (Absorption)"
 entity_def_id = "srd/magic_item/ioun-stone-absorption"
 grants_capability_while_equipped = ""

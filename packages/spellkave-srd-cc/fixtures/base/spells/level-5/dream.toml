@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Sleep becomes a threshold, and beyond it a waiting mind may find a visitor beneath unfamiliar stars. Velvet halls, drowned gardens, or a childhood doorway can bloom at the messenger’s whim, each detail sharp enough to linger after waking. Yet the same silver path can lead into terror, where a few whispered words leave morning light feeling cold and thin."
 display_name = "Dream"
 entity_def_id = "srd/spell/dream"
 grants_capability_while_equipped = ""

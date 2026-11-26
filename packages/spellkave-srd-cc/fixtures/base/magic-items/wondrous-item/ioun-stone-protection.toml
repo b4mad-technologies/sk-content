@@ -36,6 +36,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A milky stone keeps a close orbit, a thin brightness that refuses to be called a halo. The air just outside the shoulders feels a little thicker. A raised arm finds the circle still there, untroubled. It is cool and smells of clean steel. Even a careless elbow seems to meet the brightness before it meets a wall."
 display_name = "Ioun Stone (Protection)"
 entity_def_id = "srd/magic_item/ioun-stone-protection"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its wax bears a subtle, clean fragrance like rain on temple stone, though no flame has touched it. Once kindled, the small light seems to gather resolve from every shadow around it, lending quiet certainty to those who keep close. For a brief while, its wick may burn with the color of a distant horizon—and the air behind it may begin to open."
 display_name = "Candle of Invocation"
 entity_def_id = "srd/magic_item/candle-of-invocation"
 grants_capability_while_equipped = ""

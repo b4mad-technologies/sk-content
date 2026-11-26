@@ -94,6 +94,7 @@ tag = "srd.spell.list.ranger"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A steady hand and a murmured cadence draw warmth back through a stricken body. Clouded sight clears like mist before dawn, silence breaks beneath returning birdsong, and seized limbs remember their purpose. Even venom seems to recoil, chased from the blood by a clean, bright pulse."
 display_name = "Lesser Restoration"
 entity_def_id = "srd/spell/lesser-restoration"
 grants_capability_while_equipped = ""
@@ -120,7 +121,7 @@ target_ref = "srd/spell/lesser-restoration"
 action_id = "srd/spell/lesser-restoration/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Lesser Restoration — a spell action."
+description = "You cast this spell to end one disease or one harmful condition affecting a creature you can touch."
 display_name = "Cast Lesser Restoration"
 non_steering = true
 on_failure = ""

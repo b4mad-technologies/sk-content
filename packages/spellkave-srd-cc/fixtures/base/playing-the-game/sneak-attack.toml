@@ -14,7 +14,7 @@
 action_id = "srd/attack/sneak-attack"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Once per turn, strike with a Finesse or Ranged weapon for weapon damage plus Nd6 when you have Advantage on the attack roll, or when a non-Incapacitated ally sharing a srd.faction.* tag is within 5 ft of the target and you do not have Disadvantage (classes.md:7039-7043 (§ Rogue > Level 1: Sneak Attack)). Uses K-A facts core/resolution_roll_modifier and peers_near_target. Dice count from srd/class-feature/rogue/sneak-attack's srd/rogue/sneak-attack-dice resource. Once-per-turn: condition srd/condition/sneak-attack-expended expires_at_boundary turn_start owner=Actor."
+description = "Once on each of your turns, add extra damage to a hit with a finesse or ranged weapon when you have an edge on the attack or an active ally is close to the target."
 display_name = "Sneak Attack"
 non_steering = true
 on_failure = "srd/attack/sneak-attack/miss"
@@ -65,7 +65,7 @@ template_id = "srd/attack/sneak-attack/affordance-ranged"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/sneak-attack-expended"
-description = "Sneak Attack once-per-turn marker (classes.md:7039-7043 (§ Rogue > Level 1: Sneak Attack)). Applied on a hit with the dedicated srd/attack/sneak-attack action. Cleared at the rogue's next turn_start (condition srd/condition/sneak-attack-expended expires_at_boundary turn_start owner=Actor). Identity-only — no modifiers."
+description = "You have used Sneak Attack this turn. It ends at the start of your next turn, when you can use Sneak Attack again."
 display_name = "Sneak Attack Expended"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

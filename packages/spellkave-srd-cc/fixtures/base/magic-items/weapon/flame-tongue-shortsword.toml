@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A low, eager heat stirs beneath the blade’s polished surface, as though a forge-fire has been taught patience. At the proper whispered cue, crimson flame races along its edge without consuming leather, cloth, or hand. In darkness, its glow turns every drawn breath coppery and every shadow sharp."
 display_name = "Flame Tongue Shortsword"
 entity_def_id = "srd/magic_item/flame-tongue-shortsword"
 grants_capability_while_equipped = ""

@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The squat, beaklike head glimmers with a cold inner sheen, as though it remembers every seam of armor it has ever found. Its haft sits heavy and steady in the hand, inviting a single decisive stroke rather than a flurry of wild blows. When swung, the air seems to tighten around its pointed edge."
 display_name = "War Pick (+2)"
 entity_def_id = "srd/magic_item/war-pick-plus-2"
 grants_capability_while_equipped = ""

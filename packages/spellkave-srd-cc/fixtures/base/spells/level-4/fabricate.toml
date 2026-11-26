@@ -72,6 +72,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Under steady hands, scattered substance remembers a finer purpose. Timber knots into beams, loose fiber twists into useful lengths, and pale stone settles into clean, deliberate form as though guided by an invisible craftsperson. The finished work bears every virtue and flaw of what it was made from."
 display_name = "Fabricate"
 entity_def_id = "srd/spell/fabricate"
 grants_capability_while_equipped = ""

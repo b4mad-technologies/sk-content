@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its polished face seems to watch the battlefield, catching the faintest tremor of bowstrings and sling cords. In the crush of danger, missiles bend from their intended paths as though drawn by a stern, invisible hand. Those standing close behind its bearer often feel a sudden hush—the brief, sheltering certainty of being guarded."
 display_name = "Arrow-Catching Shield"
 entity_def_id = "srd/magic_item/arrow-catching-shield"
 grants_capability_while_equipped = ""

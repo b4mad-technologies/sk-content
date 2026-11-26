@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its dark barrel bears a mirrored sheen, catching threats at the edge of sight before they draw near. In a steady hand, the pistol seems to weigh each heartbeat, lending its certainty either to the shot or to the space between steel and skin. A faint, cool pressure gathers around its wielder when danger closes."
 display_name = "Defender (Pistol)"
 entity_def_id = "srd/magic_item/defender-pistol"
 grants_capability_while_equipped = ""

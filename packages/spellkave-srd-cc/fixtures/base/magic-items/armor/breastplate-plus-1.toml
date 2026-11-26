@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "This fitted cuirass carries a quiet dignity, its burnished plates catching firelight like a banked sunrise. When worn, it settles close to the body with surprising ease, lending each movement the confidence of a shield wall holding firm. Fine chased borders hint at a smith who believed protection could be beautiful."
 display_name = "Breastplate (+1)"
 entity_def_id = "srd/magic_item/breastplate-plus-1"
 grants_capability_while_equipped = ""

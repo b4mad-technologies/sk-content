@@ -84,6 +84,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A single utterance lands like a struck bell inside the mind, drowning thought beneath a vast, terrible resonance. Muscles forget their purpose; breath catches; even the fiercest motion may falter into helpless stillness. For an instant, the battlefield seems to hold its breath around the silenced victim."
 display_name = "Power Word Stun"
 entity_def_id = "srd/spell/power-word-stun"
 grants_capability_while_equipped = ""

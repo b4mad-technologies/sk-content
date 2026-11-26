@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale glimmer stirs beneath its polished band, as though moonlight were trapped in the metal. When awakened, the ring turns walls to ghostly veils and hidden hollows to stark, colorless shapes. Prolonged searching leaves the wearer with a deep ache behind the eyes, as if stone itself resents being made transparent."
 display_name = "Ring of X-ray Vision"
 entity_def_id = "srd/magic_item/ring-of-x-ray-vision"
 grants_capability_while_equipped = ""

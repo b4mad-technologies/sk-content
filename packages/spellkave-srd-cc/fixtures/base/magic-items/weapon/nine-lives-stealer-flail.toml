@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Nine iron tails whisper around the haft, each barbed head cold enough to numb a gauntlet. In battle, the flail seems to pull toward a living heartbeat, striking with a dreadful finality that leaves the air briefly thin and hushed. Faint, fading cries sometimes cling to its links after a killing blow."
 display_name = "Nine Lives Stealer (Flail)"
 entity_def_id = "srd/magic_item/nine-lives-stealer-flail"
 grants_capability_while_equipped = ""

@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Cold iron bites into seams that stubborn hands cannot master alone. Its hooked end finds purchase beneath swollen doors, nailed lids, and stones set too snugly in their beds. When the shaft flexes and groans, even ancient fastenings begin to remember that nothing stays shut forever."
 display_name = "Crowbar"
 entity_def_id = "srd/item/crowbar"
 grants_capability_while_equipped = ""

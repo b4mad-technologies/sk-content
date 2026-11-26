@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its polished face seems to drink the glint from distant arrowheads, answering every drawn bow with a faint, eager tremor. Behind its bearer, companions may feel an uncanny hush—while every missile in the room appears to remember the shield’s gleaming invitation."
 display_name = "Shield of Missile Attraction"
 entity_def_id = "srd/magic_item/shield-of-missile-attraction"
 grants_capability_while_equipped = ""

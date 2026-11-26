@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Four dark-steel shoes gleam with a restless, wind-polished sheen, their edges warm beneath the hand. Once fitted, they seem to drink the earth’s resistance from every stride, leaving hoofbeats sharp and swift across road, meadow, and moonlit stone. A mounted beast wearing the full set carries the eager hush of an approaching storm."
 display_name = "Horseshoes of Speed"
 entity_def_id = "srd/magic_item/horseshoes-of-speed"
 grants_capability_while_equipped = ""

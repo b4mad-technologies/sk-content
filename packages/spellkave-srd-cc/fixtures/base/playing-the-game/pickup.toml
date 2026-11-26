@@ -13,7 +13,7 @@
 action_id = "srd/pickup"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Pick up an item that is on the ground, or loose inside a grounded container (playing-the-game.md:769-780) — spends one of your turn's free object interactions."
+description = "You take an item that is lying on the ground, or sitting loose inside an open container, into your own hands."
 display_name = "Pick Up"
 on_failure = ""
 on_success = "srd/pickup/success"
@@ -54,7 +54,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/action/pickup"
 default_visibility = "Public"
-description = "Move a loose item on the ground, or loose inside a grounded container, into your own carriage — one of your turn's free object interactions (playing-the-game.md:769-780)."
+description = "You can pick up a loose item on the ground, or loose inside a container within reach, as one of your turn's free object interactions."
 display_name = "Pick Up"
 
 [[consequence_frame_writes]]

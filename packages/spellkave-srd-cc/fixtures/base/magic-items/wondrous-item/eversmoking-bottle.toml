@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A squat glass vessel with a stopper darkened by old soot, warm even in a winter grip. When unsealed, it breathes out a choking gray shroud that coils through halls and over battlements, swallowing lamplight and silhouettes alike. Closing it leaves the haze hanging behind like the lingering breath of a vanished fire."
 display_name = "Eversmoking Bottle"
 entity_def_id = "srd/magic_item/eversmoking-bottle"
 grants_capability_while_equipped = ""

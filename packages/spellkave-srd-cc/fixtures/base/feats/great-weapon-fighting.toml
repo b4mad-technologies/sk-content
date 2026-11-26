@@ -18,6 +18,7 @@ tag = "srd.feat.fighting_style"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A heavy blade becomes an extension of breath and balance, guided through wide, deliberate arcs. Each strike carries the patience of endless drills against wind, post, and armored straw. In both hands, the weapon’s weight no longer drags at the body; it gathers force like a storm cloud before breaking."
 display_name = "Great Weapon Fighting"
 entity_def_id = "srd/feat/great-weapon-fighting"
 grants_capability_while_equipped = ""

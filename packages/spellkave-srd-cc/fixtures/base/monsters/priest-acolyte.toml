@@ -171,6 +171,7 @@ tag = "srd.creature.role.caster-boss"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A priest acolyte moves with quiet purpose, carrying incense, sacred symbols, and the steady confidence of practiced ritual. Though not a great champion, they can turn a frightened crowd into a faithful shield or lend courage to companions in desperate moments. Their devotion may be gentle and charitable—or sharpened into zeal when their sanctuary is threatened."
 display_name = "Priest Acolyte"
 entity_def_id = "srd/creature/priest-acolyte"
 grants_capability_while_equipped = ""

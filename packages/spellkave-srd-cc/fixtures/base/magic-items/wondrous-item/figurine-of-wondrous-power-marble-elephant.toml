@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Cool marble curls into the likeness of a trumpeting elephant, its raised trunk seeming to hold a breath of distant thunder. In the palm, it is smooth and solemn; cast upon open ground, it answers with the immense presence of a patient, tusked companion. When its borrowed life ebbs, the stone remains faintly warm beneath the fingers."
 display_name = "Figurine of Wondrous Power (Marble Elephant)"
 entity_def_id = "srd/magic_item/figurine-of-wondrous-power-marble-elephant"
 grants_capability_while_equipped = ""

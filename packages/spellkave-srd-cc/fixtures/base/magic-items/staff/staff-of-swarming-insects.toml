@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its dark wood hums with the restless vibration of wings, and tiny legs seem to skitter beneath its polished grain. When raised, the air thickens with a dry buzz and the sharp scent of crushed leaves. Even at rest, a few bright-eyed beetles linger along the carving, as though listening for a summons."
 display_name = "Staff of Swarming Insects"
 entity_def_id = "srd/magic_item/staff-of-swarming-insects"
 grants_capability_while_equipped = ""

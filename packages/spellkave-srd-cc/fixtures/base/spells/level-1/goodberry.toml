@@ -82,6 +82,7 @@ tag = "srd.spell.list.ranger"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "At a whispered blessing, a small harvest gathers in the palm: bright fruit beaded with dew and carrying the clean scent of rain-soaked leaves. Each berry holds a quiet spark of summer, easing weary bodies and filling hollow stomachs with the comfort of a woodland meal. By the next turning of the day, any untasted gifts fade like frost beneath morning sun."
 display_name = "Goodberry"
 entity_def_id = "srd/spell/goodberry"
 grants_capability_while_equipped = ""
@@ -108,7 +109,7 @@ target_ref = "srd/spell/goodberry"
 action_id = "srd/spell/goodberry/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Goodberry — a spell action."
+description = "You cast the spell, creating nourishing berries that restore a little health or provide a day’s sustenance when eaten."
 display_name = "Cast Goodberry"
 non_steering = true
 on_failure = ""

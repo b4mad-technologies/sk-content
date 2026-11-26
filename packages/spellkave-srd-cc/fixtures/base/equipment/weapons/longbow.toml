@@ -95,7 +95,7 @@ tag = "srd.damage_type.piercing"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Longbow — a martial ranged weapon."
+description = "Tall as a sapling and taut with patient strength, this bow hums faintly beneath a practiced hand. Its long curve rewards a steady breath and an unhurried draw, sending arrows whispering high over walls, fields, and the chaos of a distant melee."
 display_name = "Longbow"
 entity_def_id = "srd/weapon/longbow"
 grants_capability_while_equipped = ""

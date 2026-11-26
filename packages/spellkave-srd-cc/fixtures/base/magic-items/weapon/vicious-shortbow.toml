@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its dark yew limbs seem to drink the light, while the string hums with a note too low to be called music. Arrows loosed from it fly with a cruel certainty, leaving wounds that bloom deeper than the eye expects. Even at rest, the bow carries the tense, watchful air of a hunting beast."
 display_name = "Vicious Shortbow"
 entity_def_id = "srd/magic_item/vicious-shortbow"
 grants_capability_while_equipped = ""

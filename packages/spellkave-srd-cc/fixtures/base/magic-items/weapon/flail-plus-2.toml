@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A cool, deliberate weight settles into the hand when this flail is lifted, its links whispering with a rhythm like distant chains in a crypt. The iron head seems to gather momentum before the swing begins, eager to turn every opening in an enemy’s guard into a ringing, merciless impact."
 display_name = "Flail (+2)"
 entity_def_id = "srd/magic_item/flail-plus-2"
 grants_capability_while_equipped = ""

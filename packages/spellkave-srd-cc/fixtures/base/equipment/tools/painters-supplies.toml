@@ -40,6 +40,7 @@ tag = "srd.tool.category.artisan"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Pigments bloom across canvas, plaster, or weathered wood, carrying the sharp scent of mineral dust and linseed oil. A practiced hand coaxes likeness from a few quick strokes: the bend of a tower, the wary glint in a captain’s eye, the impossible blue of distant mountains. Brushes, charcoal, and tiny jars turn memory into something that can be carried."
 display_name = "Painter's Supplies"
 entity_def_id = "srd/tool/painters-supplies"
 grants_capability_while_equipped = ""

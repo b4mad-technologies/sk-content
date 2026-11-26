@@ -96,6 +96,7 @@ tag = "srd.spell.list.ranger"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A strand of fur, a whispered name, and the wild answers in subtle tugs beneath the ribs. Hidden groves seem to breathe through the soil; distant beasts leave a faint pressure in the air, like a scent carried on a wind no one else can feel. The seeker follows an instinct older than roads."
 display_name = "Locate Animals or Plants"
 entity_def_id = "srd/spell/locate-animals-or-plants"
 grants_capability_while_equipped = ""

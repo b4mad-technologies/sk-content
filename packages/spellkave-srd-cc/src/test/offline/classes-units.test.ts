@@ -155,8 +155,7 @@ describe("buildClassUnits", () => {
 });
 
 describe("buildClassDescription", () => {
-	// sk-content: needs the held SRD flavor texts (PROVENANCE.md).
-	it.skip("is the authored flavor blurb, not Core Traits or compiler notes", () => {
+	it("is the authored flavor blurb, not Core Traits or compiler notes", () => {
 		const DEV_MARKERS = [
 			"Source: cache/",
 			"pk='",
@@ -238,8 +237,7 @@ describe("buildSubclassUnits", () => {
 });
 
 describe("buildSubclassDescription", () => {
-	// sk-content: needs the held SRD flavor texts (PROVENANCE.md).
-	it.skip("keeps developer detail out and NEVER repeats a hit-die/hp_per_level number (die-inheritance quirk guard stays in the generator, not player text — sk-jay0.3.5.95)", () => {
+	it("keeps developer detail out and NEVER repeats a hit-die/hp_per_level number (die-inheritance quirk guard stays in the generator, not player text — sk-jay0.3.5.95)", () => {
 		const DEV_MARKERS = ["Source: cache/", "pk='", "cache/markdown/", "quirk guard", "K2+ scope"];
 		for (const unit of buildSubclassUnits()) {
 			const description = buildSubclassDescription(unit);

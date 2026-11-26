@@ -114,6 +114,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A remembered face becomes a tug beneath the ribs, a living thread drawn taut through walls, woods, and crowded streets. The caster feels the quarry’s unseen course as surely as a hound catches scent on rain-dark earth. Yet certain heavy veils can leave that inner compass silent, and altered flesh may conceal even a beloved presence."
 display_name = "Locate Creature"
 entity_def_id = "srd/spell/locate-creature"
 grants_capability_while_equipped = ""

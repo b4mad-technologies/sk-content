@@ -102,6 +102,7 @@ tag = "srd.spell.list.ranger"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush of brilliant motes gathers beneath the caster’s hand, sinking through bruised spirit and weary flesh alike. Old malice loosens its hooks, stone-soft stillness cracks away, and stolen vigor returns like warmth to winter roots. When the light fades, the afflicted stands with a clearer gaze and a burdened soul made lighter."
 display_name = "Greater Restoration"
 entity_def_id = "srd/spell/greater-restoration"
 grants_capability_while_equipped = ""

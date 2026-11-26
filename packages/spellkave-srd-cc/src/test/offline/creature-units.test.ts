@@ -242,8 +242,7 @@ describe("creature-units.ts", () => {
 });
 
 describe("buildCreatureDescription (authored flavor blurb)", () => {
-	// sk-content: needs the held SRD flavor texts (PROVENANCE.md).
-	it.skip("never leaks stat-block markup or numbers for any of the 331 creatures", () => {
+	it("never leaks stat-block markup or numbers for any of the 331 creatures", () => {
 		for (const record of readCreatures()) {
 			const description = buildCreatureDescription(
 				record,

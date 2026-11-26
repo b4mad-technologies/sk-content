@@ -36,6 +36,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The vial is cool and the liquid inside is almost clear, with a faint green film that refuses to mix. Unstoppered, it smells of crushed mint and a sickroom that has just been aired. A sip leaves the tongue clean and the brow less hot. Whatever had been lingering in the joints seems to lose interest."
 display_name = "Elixir of Health"
 entity_def_id = "srd/magic_item/elixir-of-health"
 grants_capability_while_equipped = ""

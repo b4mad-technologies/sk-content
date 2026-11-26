@@ -102,6 +102,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A costly gem gutters into cold radiance as names, promises, and old authority are drawn tight around an otherworldly will. The air grows heavy with the scent of storm-wet stone and distant incense, while a reluctant presence feels the invisible leash settle upon it. Even in obedience, its gaze may gleam with patience, pride, or quietly sharpened spite."
 display_name = "Planar Binding"
 entity_def_id = "srd/spell/planar-binding"
 grants_capability_while_equipped = ""

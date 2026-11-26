@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A soot-dark shaft and polished steel point give off the faint scent of struck flint. At a whispered call, fire races along the lancehead in a steady, windless crown, casting restless copper light across armor and banners. Even in rain or fog, its blaze burns with the eager silence of a hunting star."
 display_name = "Flame Tongue Lance"
 entity_def_id = "srd/magic_item/flame-tongue-lance"
 grants_capability_while_equipped = ""

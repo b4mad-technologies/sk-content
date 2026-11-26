@@ -76,6 +76,7 @@ tag = "srd.damage_type.radiant"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A struck foe blooms with hard, merciless radiance, as though dawn has found a crack in its armor and poured through. Every motion leaves a glare in the air, stripping shadows from its path and making concealment a hopeless thing. The battlefield turns briefly sacred and stark beneath that accusing light."
 display_name = "Shining Smite"
 entity_def_id = "srd/spell/shining-smite"
 grants_capability_while_equipped = ""
@@ -102,7 +103,7 @@ target_ref = "srd/spell/shining-smite"
 action_id = "srd/spell/shining-smite/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Shining Smite — a spell action."
+description = "You cast this spell to surround a weapon strike with radiant power, dealing extra damage and making the target easier to see."
 display_name = "Cast Shining Smite"
 non_steering = true
 on_failure = "srd/spell/shining-smite/cast/miss"

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its blackened limbs hum faintly when colossal footsteps draw near, as though the bow remembers every hill-shaking stride it has answered. The stock is carved with tiny toppled towers, worn smooth where steady hands have braced it against the shoulder. A loosed bolt flies with the hard certainty of an avalanche breaking loose."
 display_name = "Giant Slayer (Heavy Crossbow)"
 entity_def_id = "srd/magic_item/giant-slayer-heavy-crossbow"
 grants_capability_while_equipped = ""

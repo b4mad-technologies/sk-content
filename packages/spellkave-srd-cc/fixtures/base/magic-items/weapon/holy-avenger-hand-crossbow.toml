@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Silver filigree winds along its compact frame like a prayer captured in metal, warming at the touch of a steadfast hand. When its string is drawn, the air around it grows clear and hushed, as though a chapel bell has sounded beyond the veil. Bolts loosed from its groove carry a pale, sunlit gleam that leaves darkness with nowhere to linger."
 display_name = "Holy Avenger (Hand Crossbow)"
 entity_def_id = "srd/magic_item/holy-avenger-hand-crossbow"
 grants_capability_while_equipped = ""

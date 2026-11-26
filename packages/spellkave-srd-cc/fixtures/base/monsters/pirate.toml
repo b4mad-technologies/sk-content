@@ -157,6 +157,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Salt-stiff coats, bright blades, and louder boasts mark these raiders wherever they make port. A pirate crew may descend on a merchant vessel with practiced speed, but their greatest weapon is the sudden certainty that no distant authority can answer the call. Beneath the swagger lies a hard-earned talent for reading tides, tempers, and opportunities."
 display_name = "Pirate"
 entity_def_id = "srd/creature/pirate"
 grants_capability_while_equipped = ""

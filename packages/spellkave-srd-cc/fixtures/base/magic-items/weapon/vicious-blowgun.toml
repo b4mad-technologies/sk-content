@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The slender tube feels unnaturally eager in the hand, its dark wood polished smooth by hunts that ended too quickly. A breath sent through it carries a faint, hungry whistle, and its tiny darts strike with the cruel precision of a thorn driven deep beneath the skin."
 display_name = "Vicious Blowgun"
 entity_def_id = "srd/magic_item/vicious-blowgun"
 grants_capability_while_equipped = ""

@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its curved steel catches stray light like a smile shared by fate itself. The grip rests warm in the hand, carrying a quiet assurance through narrow escapes and desperate turns. At rare moments, the blade seems to hum with impossible promise, as though the world might briefly consent to be rewritten."
 display_name = "Luck Blade (Scimitar)"
 entity_def_id = "srd/magic_item/luck-blade-scimitar"
 grants_capability_while_equipped = ""

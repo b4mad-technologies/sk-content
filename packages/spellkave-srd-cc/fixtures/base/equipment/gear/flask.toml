@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The flask is a small metal belly with a narrow throat, cool and a little dented from travel. Liquid shifts inside with a soft slap when it is turned over in the hand. The stopper seats with a firm twist, and the whole thing disappears easily into a palm or a deep pocket."
 display_name = "Flask"
 entity_def_id = "srd/item/flask"
 grants_capability_while_equipped = ""

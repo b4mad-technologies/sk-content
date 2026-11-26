@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The helm’s old bronze brow-band is chased with tiny scripts that seem to rearrange whenever unfamiliar voices rise nearby. Beneath its cool weight, foreign speech loses its thorns and becomes a flowing current of meaning. Even the scratch of a distant quill or the cadence of a market cry may seem to carry a hidden, patient clarity."
 display_name = "Helm of Comprehending Languages"
 entity_def_id = "srd/magic_item/helm-of-comprehending-languages"
 grants_capability_while_equipped = ""

@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "This compact crossbow wears a midnight sheen along its limbs, as though moonlight settled there and never left. Its mechanism draws with a whisper-soft certainty, and each bolt seems eager to find the narrowest opening in steel or scale. In the hand, it feels balanced like a secret kept close."
 display_name = "Hand Crossbow (+1)"
 entity_def_id = "srd/magic_item/hand-crossbow-plus-1"
 grants_capability_while_equipped = ""

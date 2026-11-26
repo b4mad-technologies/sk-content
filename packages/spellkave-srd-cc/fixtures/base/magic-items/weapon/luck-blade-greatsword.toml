@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its broad blade holds a quiet gleam like dawn caught beneath clear ice, and chance seems to lean closer whenever it is drawn. In battle, missed moments sometimes twist back into possibility beneath its edge. Those who carry it speak carefully around their deepest desires, for the steel listens with a patient, perilous stillness."
 display_name = "Luck Blade (Greatsword)"
 entity_def_id = "srd/magic_item/luck-blade-greatsword"
 grants_capability_while_equipped = ""

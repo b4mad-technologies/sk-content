@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The halberd’s long blade carries a cold, mountain-bright gleam, as though it remembers every towering shadow it has brought low. Its ash shaft hums faintly beneath the grip when great footfalls shake the earth. In battle, each sweeping stroke seems to find the hinge behind impossible strength."
 display_name = "Giant Slayer (Halberd)"
 entity_def_id = "srd/magic_item/giant-slayer-halberd"
 grants_capability_while_equipped = ""

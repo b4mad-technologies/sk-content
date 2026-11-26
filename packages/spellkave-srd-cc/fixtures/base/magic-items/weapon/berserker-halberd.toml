@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its dark steel head seems to drink the light, while the haft settles into the palm with a disturbingly familiar warmth. A faint pulse travels through the wood whenever blood is spilled nearby, urging its bearer toward the nearest breathing shape. Even sheathed or leaned against a wall, it feels less like a tool than a watchful companion awaiting insult."
 display_name = "Berserker Halberd"
 entity_def_id = "srd/magic_item/berserker-halberd"
 grants_capability_while_equipped = ""

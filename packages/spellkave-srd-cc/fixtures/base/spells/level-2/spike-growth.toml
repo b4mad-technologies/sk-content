@@ -94,6 +94,7 @@ tag = "srd.damage_type.piercing"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A whispered urging sinks into the soil, and the earth answers with a patient cruelty. Brambles, splintered roots, and needle-hard shoots crowd together beneath a deceptively natural cover, waiting for careless feet. Even the boldest charge can become a ragged, stumbling retreat when the land itself turns hostile."
 display_name = "Spike Growth"
 entity_def_id = "srd/spell/spike-growth"
 grants_capability_while_equipped = ""
@@ -121,7 +122,7 @@ target_ref = "srd/spell/spike-growth"
 action_id = "srd/spell/spike-growth/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Spike Growth — a spell action."
+description = "You cast a spell that covers nearby ground in harmful spikes. Creatures crossing the area are slowed and injured until the spell ends."
 display_name = "Cast Spike Growth"
 non_steering = true
 on_failure = ""

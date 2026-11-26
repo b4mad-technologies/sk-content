@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush spreads outward, swallowing sparks, sigils, and the bright hum beneath enchanted steel. Glamours gutter into plainness; impossible doors become stubborn walls; charms lie cold and ordinary in their bearers’ hands. Within that still circle, the world remembers how to be merely real."
 display_name = "Antimagic Field"
 entity_def_id = "srd/spell/antimagic-field"
 grants_capability_while_equipped = ""

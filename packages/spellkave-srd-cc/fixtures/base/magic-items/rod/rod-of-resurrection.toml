@@ -36,6 +36,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The rod is dark wood capped in dull metal, and it holds a warmth like a wrist pressed to a sleeping chest. Held near a still face, the warmth gathers rather than spreads. The air around the tip smells of clean linen and a window opened at dawn. Something in the wood seems to be listening for a breath that has not come back yet."
 display_name = "Rod of Resurrection"
 entity_def_id = "srd/magic_item/rod-of-resurrection"
 grants_capability_while_equipped = ""

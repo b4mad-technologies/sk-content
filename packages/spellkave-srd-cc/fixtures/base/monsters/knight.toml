@@ -157,6 +157,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A knight cuts a striking figure in polished mail and heraldic colors, bearing the weight of oath and reputation as surely as shield and blade. Some serve noble courts, others guard lonely roads or hunt down old grudges beneath borrowed banners. Whether honorable champion or hardened mercenary, a knight turns disciplined training into a formidable presence on the field."
 display_name = "Knight"
 entity_def_id = "srd/creature/knight"
 grants_capability_while_equipped = ""

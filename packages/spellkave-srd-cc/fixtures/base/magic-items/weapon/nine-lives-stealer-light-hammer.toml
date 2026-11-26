@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A squat, dark-headed hammer that seems heavier in moonlight, its handle wrapped in cracked leather warm as a pulse. Each blow lands with a hush that lingers too long, as though the air itself is listening for a departing breath. Faint, catlike scratches score the metal, deepening whenever its bearer’s grip tightens."
 display_name = "Nine Lives Stealer (Light Hammer)"
 entity_def_id = "srd/magic_item/nine-lives-stealer-light-hammer"
 grants_capability_while_equipped = ""

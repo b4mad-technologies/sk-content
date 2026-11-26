@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Within its flawless depths, distant faces bloom like memories caught beneath clear ice. A hand resting on the orb feels the hush of unspoken thoughts gathering at the fingertips, intimate and unsettling. Across impossible miles, a watcher may offer comfort, warning, or a gently planted notion that lingers long after the vision fades."
 display_name = "Crystal Ball of Telepathy"
 entity_def_id = "srd/magic_item/crystal-ball-of-telepathy"
 grants_capability_while_equipped = ""

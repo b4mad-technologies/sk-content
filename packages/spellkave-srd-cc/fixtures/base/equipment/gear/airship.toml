@@ -24,6 +24,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hull that should be in water hangs instead against the sky, ropes singing, envelope or wing casting a moving shade. The deck tilts when the wind changes its mind. Below, roads become threads. The air tastes clean and a little frightening. Crew move with one hand always on a line."
 display_name = "Airship"
 entity_def_id = "srd/item/airship"
 grants_capability_while_equipped = ""

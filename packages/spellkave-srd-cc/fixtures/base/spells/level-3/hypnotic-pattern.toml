@@ -96,6 +96,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A sudden bloom of impossible color unfurls in the air, folding through itself like silk caught in moonlight. Onlookers find their thoughts drifting after its radiant spirals, every urgency softened into a hushed, dreamlike stillness. For one breathless instant, the battlefield seems to forget it was ever a place of violence."
 display_name = "Hypnotic Pattern"
 entity_def_id = "srd/spell/hypnotic-pattern"
 grants_capability_while_equipped = ""

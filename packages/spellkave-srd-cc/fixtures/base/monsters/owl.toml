@@ -140,6 +140,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Silent wings carry the owl through moonlit boughs and shadowed ruins alike. Its wide eyes miss little, and a sudden call can turn a quiet night uncanny. Though small and wary, it is often seen as a patient watcher of lonely places."
 display_name = "Owl"
 entity_def_id = "srd/creature/owl"
 grants_capability_while_equipped = ""

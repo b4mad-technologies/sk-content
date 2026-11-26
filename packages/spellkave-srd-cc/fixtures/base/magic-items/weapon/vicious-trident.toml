@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Three blackened prongs rise from a shaft slick with cold sea-sheen, their edges seeming to lean toward living warmth. When it strikes, the weapon lands with a cruel finality, as though the tide itself has found a wound and worries it deeper. A faint, briny iron scent lingers around its barbs."
 display_name = "Vicious Trident"
 entity_def_id = "srd/magic_item/vicious-trident"
 grants_capability_while_equipped = ""

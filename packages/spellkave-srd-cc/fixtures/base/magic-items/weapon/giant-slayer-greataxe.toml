@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A broad-headed greataxe fashioned for foes too tall to fear ordinary steel, its edge bears deep, deliberate grooves like old mountain scars. In the hands, it seems to settle with a hungry weight, urging every swing low and hard. When towering enemies loom overhead, the haft thrums faintly, as though recalling the sound of fallen colossi."
 display_name = "Giant Slayer (Greataxe)"
 entity_def_id = "srd/magic_item/giant-slayer-greataxe"
 grants_capability_while_equipped = ""

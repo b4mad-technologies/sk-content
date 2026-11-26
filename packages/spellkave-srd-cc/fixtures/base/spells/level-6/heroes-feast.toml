@@ -90,6 +90,7 @@ tag = "srd.spell.list.druid"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A banquet blooms from empty air: steaming breads, jeweled fruits, spiced roasts, and bright cups that seem to hold a midsummer dawn. As companions share its abundance, weary faces warm and old terrors lose their purchase. When the last plate fades, a quiet, unshakable vigor remains beneath the skin."
 display_name = "Heroes' Feast"
 entity_def_id = "srd/spell/heroes-feast"
 grants_capability_while_equipped = ""

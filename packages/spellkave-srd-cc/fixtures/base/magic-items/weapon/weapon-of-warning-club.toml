@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The stout club never lies quiet for long. In darkness, its grain tightens beneath the palm, humming like a drawn bowstring when danger gathers nearby. Sleep around it grows shallow and restless, and even the drowsiest campfire watch wakes with breath caught, already listening."
 display_name = "Weapon of Warning (Club)"
 entity_def_id = "srd/magic_item/weapon-of-warning-club"
 grants_capability_while_equipped = ""

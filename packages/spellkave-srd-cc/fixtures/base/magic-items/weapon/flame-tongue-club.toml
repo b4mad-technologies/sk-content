@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A murmur and a twist of the wrist wake hungry fire along the club’s battered grain. Its glow paints wavering gold across stone and steel, while heat curls from every splintered ridge. In the hand, it feels less like a carved branch than a torch taught to strike."
 display_name = "Flame Tongue Club"
 entity_def_id = "srd/magic_item/flame-tongue-club"
 grants_capability_while_equipped = ""

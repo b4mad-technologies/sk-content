@@ -24,6 +24,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A darker bottle, wax still intact at the neck, glass thicker than a tavern pour deserves. It smells, once opened, of fruit and oak and a room that keeps its curtains drawn. People lower their cups when it appears, as if the bottle had rank."
 display_name = "Wine (bottle), Fine"
 entity_def_id = "srd/item/wine-fine"
 grants_capability_while_equipped = ""

@@ -44,6 +44,7 @@ tag = "srd.consumable"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Cobalt vapor curls from the bottle’s neck, carrying the sharp scent of rain on bronze. Its restless bubbles climb like sparks seeking a banner, and the first swallow kindles a steady warmth behind the ribs. For a fleeting hour, fear seems smaller, allies seem nearer, and every perilous step finds a brighter path."
 display_name = "Potion of Heroism"
 entity_def_id = "srd/magic_item/potion-of-heroism"
 grants_capability_while_equipped = ""
@@ -84,7 +85,7 @@ template_id = "srd/magic_item/potion-of-heroism/consume/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/magic_item/potion-of-heroism"
-description = "Gain 10 Temporary Hit Points and the Bless spell effect (+1d4 on attack rolls and saving throws) for 1 hour (magic-items.md § Potion of Heroism)."
+description = "You gain 10 temporary hit points and a blessing that improves your attack rolls and saving throws for 1 hour."
 display_name = "Potion of Heroism"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

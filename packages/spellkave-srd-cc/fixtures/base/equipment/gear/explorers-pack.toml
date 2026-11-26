@@ -36,6 +36,7 @@ tag = "srd.item.container"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A road-worn bundle of practical comforts, packed tight beneath weathered straps and smelling faintly of lamp oil, canvas, and dry grain. Its contents promise a little warmth, light, and shelter when the trail disappears into rain or darkness. Each item bears the quiet assurance of someone who expects the wilds to ask difficult questions."
 display_name = "Explorer's Pack"
 entity_def_id = "srd/item/explorers-pack"
 grants_capability_while_equipped = ""

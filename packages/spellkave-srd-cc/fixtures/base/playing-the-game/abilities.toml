@@ -180,6 +180,7 @@ tag = "srd.ability_score"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "Measures your force of personality, confidence, and charm. You use it when your presence, influence, or performance matters."
 display_name = "Charisma"
 initial_value = 10
 max_value = 30
@@ -213,6 +214,7 @@ tag = "srd.ability_score"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "Measures your health and stamina. It helps determine your durability and how well you resist effects that strain your body."
 display_name = "Constitution"
 initial_value = 10
 max_value = 30
@@ -246,6 +248,7 @@ tag = "srd.ability_score"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "Measures your agility, reflexes, and balance. You use it for quick movement, precise actions, and avoiding danger."
 display_name = "Dexterity"
 initial_value = 10
 max_value = 30
@@ -279,6 +282,7 @@ tag = "srd.ability_score"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "Measures your reasoning, memory, and ability to understand complex information. You use it when recalling knowledge, investigating clues, or casting certain spells."
 display_name = "Intelligence"
 initial_value = 10
 max_value = 30
@@ -312,6 +316,7 @@ tag = "srd.ability_score"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "Measures your physical power for lifting, pushing, carrying, and forcing movement. You use it for attacks and tasks that rely on raw muscle."
 display_name = "Strength"
 initial_value = 10
 max_value = 30
@@ -345,6 +350,7 @@ tag = "srd.ability_score"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "Your measure of awareness, intuition, and mental resilience. You use it to notice threats, read situations, and resist effects that challenge your mind."
 display_name = "Wisdom"
 initial_value = 10
 max_value = 30

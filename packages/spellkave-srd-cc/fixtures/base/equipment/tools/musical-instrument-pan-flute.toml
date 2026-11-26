@@ -40,6 +40,7 @@ tag = "srd.tool.category.instrument"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A cluster of hollow reeds rests lightly between the hands, each pipe holding a different breath of wind. Its voice is soft but clear, wandering over campfires and moonlit roads in nimble, birdlike phrases. A practiced player coaxes old melodies from it with little more than steady lungs and patient fingers."
 display_name = "Musical Instrument, Pan Flute"
 entity_def_id = "srd/tool/musical-instrument-pan-flute"
 grants_capability_while_equipped = ""

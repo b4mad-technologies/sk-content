@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The lock is a compact iron lump, its keyhole a dark slot and its shackle thick enough to trust at a glance. The key that comes with it is small and notched, warm after a moment in the pocket. Turned, the mechanism answers with a single clean click and then silence."
 display_name = "Lock"
 entity_def_id = "srd/item/lock"
 grants_capability_while_equipped = ""

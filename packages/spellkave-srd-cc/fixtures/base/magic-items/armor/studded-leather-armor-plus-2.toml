@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Supple dark hide, studded with rivets that catch torchlight like watchful embers, moves with the wearer instead of against them. Each leather panel seems to settle into place at the first hint of danger, lending a quiet certainty to every turn, tumble, and narrow escape."
 display_name = "Studded Leather Armor (+2)"
 entity_def_id = "srd/magic_item/studded-leather-armor-plus-2"
 grants_capability_while_equipped = ""

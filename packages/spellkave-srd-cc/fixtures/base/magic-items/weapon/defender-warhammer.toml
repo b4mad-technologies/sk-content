@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A low, steady hum gathers in the warhammer’s head when danger closes, like a fortress bell heard through deep stone. Its balance seems to shift with the bearer’s resolve: one moment eager to break a shield, the next braced against the world’s answering blow. Faint runes along its haft glimmer like embers beneath ash."
 display_name = "Defender (Warhammer)"
 entity_def_id = "srd/magic_item/defender-warhammer"
 grants_capability_while_equipped = ""

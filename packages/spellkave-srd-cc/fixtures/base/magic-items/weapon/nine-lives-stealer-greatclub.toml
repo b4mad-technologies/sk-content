@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A scarred greatclub bound in blackened iron rings, its grain resembles knotted muscle beneath old bark. Each swing drags a chill through the air, and the final blow against a living foe lands with a hungry, breathless silence. Faint murmurs stir within its battered head, as though several stolen endings still wait to be heard."
 display_name = "Nine Lives Stealer (Greatclub)"
 entity_def_id = "srd/magic_item/nine-lives-stealer-greatclub"
 grants_capability_while_equipped = ""

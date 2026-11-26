@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A whisper-thin mesh of silvered links drapes like moonlit cloth, cool against the skin and nearly silent in motion. Each ring catches the light with a leaflike gleam, yet the shirt settles easily beneath travel-worn cloaks and courtly finery alike. Its wearer moves with the unburdened grace of a dancer slipping through a midnight grove."
 display_name = "Elven Chain Shirt"
 entity_def_id = "srd/magic_item/elven-chain-shirt"
 grants_capability_while_equipped = ""

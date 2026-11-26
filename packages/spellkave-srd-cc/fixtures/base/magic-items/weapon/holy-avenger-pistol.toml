@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its polished barrel bears tiny sunbursts that catch even the faintest candlelight, and the grip warms beneath a steadfast hand. When drawn, a hush of clean radiance seems to settle over nearby companions, turning dread-laden whispers and eldritch chill strangely distant. Before creatures steeped in grave-darkness or infernal malice, its report rings like a temple bell through storm clouds."
 display_name = "Holy Avenger (Pistol)"
 entity_def_id = "srd/magic_item/holy-avenger-pistol"
 grants_capability_while_equipped = ""

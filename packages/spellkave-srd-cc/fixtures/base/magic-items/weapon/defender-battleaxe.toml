@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A broad-headed axe of dark steel, its edge holds a pale, watchful gleam even in torch smoke. In a warrior’s grip, the haft seems to settle against each incoming threat, lending a quiet certainty to every stance. Its balance shifts with intent: eager to bite when pressed forward, steadfast as a shield when danger closes."
 display_name = "Defender (Battleaxe)"
 entity_def_id = "srd/magic_item/defender-battleaxe"
 grants_capability_while_equipped = ""

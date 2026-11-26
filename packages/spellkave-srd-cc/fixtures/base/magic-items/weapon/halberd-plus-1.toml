@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale shimmer clings to the halberd’s crescent blade, gathering along its edges like moonlight on winter water. Its ash haft sits perfectly balanced in the hand, eager to turn a guarded step into a decisive sweep. When raised, the weapon seems to draw a thin, keen hush from the air around it."
 display_name = "Halberd (+1)"
 entity_def_id = "srd/magic_item/halberd-plus-1"
 grants_capability_while_equipped = ""

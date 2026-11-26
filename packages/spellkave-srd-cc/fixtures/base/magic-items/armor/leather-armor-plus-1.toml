@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Supple hide, darkened by smoke and rain, settles over the wearer like a second shadow. Its seams carry a quiet firmness that turns hurried claws and glancing steel aside with surprising grace. In torchlight, the leather seems to drink the glow before giving back a muted, watchful sheen."
 display_name = "Leather Armor (+1)"
 entity_def_id = "srd/magic_item/leather-armor-plus-1"
 grants_capability_while_equipped = ""

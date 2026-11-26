@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Thick, weathered hides lie close against the body, carrying the faint scent of rain-soaked earth and old campfires. Their supple layers shift with each breath, as though remembering the broad-shouldered beast that once wore them. In torchlight, the stitched seams catch a muted gleam, promising stubborn protection without sacrificing a hunter’s freedom of movement."
 display_name = "Hide Armor (+1)"
 entity_def_id = "srd/magic_item/hide-armor-plus-1"
 grants_capability_while_equipped = ""

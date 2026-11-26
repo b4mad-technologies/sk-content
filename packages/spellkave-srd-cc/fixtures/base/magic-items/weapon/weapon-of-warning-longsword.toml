@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The blade keeps a faint, wakeful hum beneath its polished edge, as though listening to every creak beyond the campfire’s glow. In still hands it feels impatient, balanced toward the next unseen motion. When danger gathers, its presence seems to pull nearby companions from sleep with the sharp certainty of a drawn breath."
 display_name = "Weapon of Warning (Longsword)"
 entity_def_id = "srd/magic_item/weapon-of-warning-longsword"
 grants_capability_while_equipped = ""

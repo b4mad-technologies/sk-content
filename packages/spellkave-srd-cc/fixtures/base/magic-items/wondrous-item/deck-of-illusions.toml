@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A lacquered case of thin, cool cards, each painted with figures that seem to shift whenever the eye wanders. One cast upon the earth may unfurl into a startling presence: a beast, a warrior, or something grand enough to steal the breath from a silent room. When the apparition fades, its card is left pale and empty, like a dream spent at dawn."
 display_name = "Deck of Illusions"
 entity_def_id = "srd/magic_item/deck-of-illusions"
 grants_capability_while_equipped = ""

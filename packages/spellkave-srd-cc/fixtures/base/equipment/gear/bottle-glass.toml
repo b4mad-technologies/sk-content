@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The glass bottle is thick at the base and cool against the fingers, its neck narrow enough to pinch shut with a thumb. Light bends through the greenish wall and pools in the empty curve. A stopper sits ready in the mouth, smelling faintly of cellar dust and old cork."
 display_name = "Bottle, Glass"
 entity_def_id = "srd/item/bottle-glass"
 grants_capability_while_equipped = ""

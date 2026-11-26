@@ -84,6 +84,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A towering presence answers the call: a cyclone with a hunter’s patience, a walking ridge of stone, a furnace given purpose, or a crushing surge in mortal shape. The air tightens around it, charged with the authority of distant, untamed realms. Those caught near its shifting form find the world itself turning suddenly hostile."
 display_name = "Conjure Elemental"
 entity_def_id = "srd/spell/conjure-elemental"
 grants_capability_while_equipped = ""

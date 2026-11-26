@@ -40,6 +40,7 @@ tag = "srd.tool.category.artisan"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Awls, waxed thread, tiny hammers, and a scatter of shaped wooden forms ride in a cobbler’s worn case. Leather softens beneath patient fingers, then draws snug around a sole with each careful stitch. By lanternlight, scuffed boots become dependable companions again, ready for slick stones, crooked ladders, and long roads."
 display_name = "Cobbler's Tools"
 entity_def_id = "srd/tool/cobblers-tools"
 grants_capability_while_equipped = ""

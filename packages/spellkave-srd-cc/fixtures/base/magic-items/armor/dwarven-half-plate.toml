@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Dark steel plates sit close to the body, their hammered faces bearing the quiet geometry of mountain halls. When a sudden force tries to drag its bearer across stone or soil, the armor answers with a deep, stubborn shudder, as though bedrock itself has caught hold."
 display_name = "Dwarven Half Plate"
 entity_def_id = "srd/magic_item/dwarven-half-plate"
 grants_capability_while_equipped = ""

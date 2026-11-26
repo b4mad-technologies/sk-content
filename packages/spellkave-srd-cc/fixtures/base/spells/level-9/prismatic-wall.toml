@@ -78,6 +78,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A towering veil of living color unfurls with the hush of a storm breaking over glass. Each radiant hue pulses with its own terrible temperament—searing, freezing, binding, or swallowing sight beneath impossible depths. Those welcomed by its maker pass through a festival of light; all others find the rainbow has teeth."
 display_name = "Prismatic Wall"
 entity_def_id = "srd/spell/prismatic-wall"
 grants_capability_while_equipped = ""

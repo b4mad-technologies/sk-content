@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Fine silver-blue scales overlap like the skin of a river fish, cool and supple beneath the hand. Though fashioned for battle, the mail settles against the body with the quiet ease of tailored cloth, its links whispering rather than clattering. Beneath a cloak or courtly coat, only a faint metallic sheen betrays the hidden protection."
 display_name = "Mithral Armor (Scale Mail)"
 entity_def_id = "srd/magic_item/mithral-armor-scale-mail"
 grants_capability_while_equipped = ""

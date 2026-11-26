@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A rime of pale blue crystal clings to its dark wood, never melting even beside a roaring hearth. In its bearer’s grip, the air grows sharp and still, carrying the clean scent of high glaciers and distant snowfall. A slow pulse of winter sleeps beneath the surface, eager to spill into fog, storm, and shining barriers."
 display_name = "Staff of Frost"
 entity_def_id = "srd/magic_item/staff-of-frost"
 grants_capability_while_equipped = ""

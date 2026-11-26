@@ -100,6 +100,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A patient hum gathers around fractured edges, drawing splinters, threads, and shards toward their proper places. Metal remembers its seamless curve; cloth closes its ragged wound; a cracked vessel holds whole again. When the quiet work is finished, only the faintest warmth lingers where ruin had been."
 display_name = "Mending"
 entity_def_id = "srd/spell/mending"
 grants_capability_while_equipped = ""
@@ -127,7 +128,7 @@ target_ref = "srd/spell/mending"
 action_id = "srd/spell/mending/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Mending — a spell action."
+description = "You cast a minor repair spell to fix a break or tear in a nonmagical object you can reach. The object must be small enough for the spell to mend in a single casting."
 display_name = "Cast Mending"
 non_steering = true
 on_failure = ""

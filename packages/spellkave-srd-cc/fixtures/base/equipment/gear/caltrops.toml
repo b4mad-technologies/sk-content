@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A small pouch of wicked iron points, cold enough to sting the palm and eager to vanish into dust, reeds, or torch-shadow. Scattered across a narrow passage, they turn careless footing into a sudden, sharp lesson. Gathering them afterward is slow work, each barb demanding patience and a careful grip."
 display_name = "Caltrops"
 entity_def_id = "srd/item/caltrops"
 grants_capability_while_equipped = ""

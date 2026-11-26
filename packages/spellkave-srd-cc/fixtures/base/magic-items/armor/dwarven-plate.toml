@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Hammered steel plates overlap like the scales of a sleeping mountain wyrm, each bearing the patient marks of a master’s chisel. When worn, the armor settles with profound certainty, making shoves and violent tides seem to break against an unseen bedrock. Its weight feels less like burden than inheritance: steady, immovable, and old as the roots beneath a citadel."
 display_name = "Dwarven Plate"
 entity_def_id = "srd/magic_item/dwarven-plate"
 grants_capability_while_equipped = ""

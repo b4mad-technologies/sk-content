@@ -102,6 +102,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush of warding settles across the chosen bearer, tuning flesh and spirit against a single hostile force. Flame gutters at their silhouette, frost loses its bite, and stormlight breaks into harmless sparks. Even roaring alchemical fumes or shattering thunder seem to meet an unseen, yielding shield."
 display_name = "Protection from Energy"
 entity_def_id = "srd/spell/protection-from-energy"
 grants_capability_while_equipped = ""

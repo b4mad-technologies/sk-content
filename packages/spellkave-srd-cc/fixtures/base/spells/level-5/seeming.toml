@@ -84,6 +84,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush passes over the gathered figures, and familiar faces become strangers beneath borrowed poise, altered silhouettes, and finery that never quite catches the light correctly. A troop may emerge as nobles, monsters, pilgrims, or one another, each illusion tailored like a dream remembered imperfectly. Only a careful touch or a suspicious eye finds the hollowness beneath the glamour."
 display_name = "Seeming"
 entity_def_id = "srd/spell/seeming"
 grants_capability_while_equipped = ""

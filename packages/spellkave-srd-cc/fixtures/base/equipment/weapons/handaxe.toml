@@ -83,7 +83,7 @@ tag = "srd.damage_type.slashing"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Handaxe — a simple melee weapon."
+description = "A handaxe sits snug in the palm, its short haft polished by travel and hard use. The head bites cleanly through kindling, rope, or the tough stems of wild brush, then returns to the belt with a satisfying, familiar weight. In a cramped fight, it moves like an extension of the forearm."
 display_name = "Handaxe"
 entity_def_id = "srd/weapon/handaxe"
 grants_capability_while_equipped = ""

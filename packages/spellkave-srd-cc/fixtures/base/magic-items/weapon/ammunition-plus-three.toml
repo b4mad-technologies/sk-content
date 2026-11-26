@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_3"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Each shaft bears a faint, silvery shimmer along its fletching, as though moonlight has been pressed into the grain. Drawn to the string, it seems to steady the hand and hush the world beyond the bow. Its brief radiance ends at the moment of impact, leaving only an ordinary missile amid the dust."
 display_name = "Ammunition (+3)"
 entity_def_id = "srd/magic_item/ammunition-plus-three"
 grants_capability_while_equipped = ""

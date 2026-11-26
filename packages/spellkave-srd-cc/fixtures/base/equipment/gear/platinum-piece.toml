@@ -14,6 +14,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Heavy for its size, white as a fresh blade, the platinum piece does not tarnish in a sweaty palm. People lower their voices when it appears. The stamp is crisp. It feels less like spending money than like setting down a small, cold promise. Few pouches hold more than one without a story attached."
 display_name = "Platinum Piece"
 entity_def_id = "srd/item/platinum-piece"
 grants_capability_while_equipped = ""

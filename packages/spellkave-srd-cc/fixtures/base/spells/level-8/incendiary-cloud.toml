@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A black-red storm blossoms low to the ground, its rolling heart alive with sparks that hiss like furious insects. Smoke swallows silhouettes whole while cinders whirl through armor seams and open breath. Under a steady hand, the blaze drifts onward like a hunting weather front, leaving only scorched earth and wavering heat behind."
 display_name = "Incendiary Cloud"
 entity_def_id = "srd/spell/incendiary-cloud"
 grants_capability_while_equipped = ""

@@ -84,6 +84,7 @@ tag = "srd.spell.list.cleric"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Ruby-bright sigils sink into stone and timber, knitting a hush around every threshold. Doors remain where they stand, yet unseen roads fold away from the warded ground, leaving would-be intruders stranded beyond its boundaries. For those marked unwelcome, the air itself turns severe—cold with judgment or blazing with merciless light—while a guarded word grants safe passage."
 display_name = "Forbiddance"
 entity_def_id = "srd/spell/forbiddance"
 grants_capability_while_equipped = ""

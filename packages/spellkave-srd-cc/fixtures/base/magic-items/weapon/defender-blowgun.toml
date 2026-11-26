@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its lacquered tube bears a dark, mirrorlike sheen that seems to drink in torchlight. In a steady hand, it feels less like a hunting tool than a slender warding rod, poised between threat and protection. A faint pressure gathers around its bearer whenever danger closes, as though each breath held behind it might turn aside a blade."
 display_name = "Defender (Blowgun)"
 entity_def_id = "srd/magic_item/defender-blowgun"
 grants_capability_while_equipped = ""

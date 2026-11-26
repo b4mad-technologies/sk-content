@@ -36,6 +36,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The vial is squat and the liquid is muddy brown, thick as stew left too long on a banked fire. It smells of turned earth and a hillside after rain. A swallow leaves the jaw heavy and the stance wider. The glass feels as if it had been buried and dug up still warm."
 display_name = "Potion of Giant Strength (hill)"
 entity_def_id = "srd/magic_item/potion-of-giant-strength-hill"
 grants_capability_while_equipped = ""

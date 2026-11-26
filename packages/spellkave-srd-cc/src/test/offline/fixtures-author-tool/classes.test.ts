@@ -38,8 +38,7 @@ describe("fixtures/ Classes base classes", () => {
 		);
 	});
 
-	// sk-content: needs the held SRD flavor texts (PROVENANCE.md).
-	it.skip("tags every class with srd.class + srd.class.<slug>, description player-facing only (provenance lives on the srd.text attachment — sk-jay0.3.5.95)", async () => {
+	it("tags every class with srd.class + srd.class.<slug>, description player-facing only (provenance lives on the srd.text attachment — sk-jay0.3.5.95)", async () => {
 		const tools = buildTools();
 		for (const unit of buildClassUnits()) {
 			const detail = (await query(tools, {
@@ -124,8 +123,7 @@ describe("fixtures/ Classes subclasses", () => {
 		);
 	});
 
-	// sk-content: needs the held SRD flavor texts (PROVENANCE.md).
-	it.skip("tags every subclass with srd.subclass + srd.subclass.<slug> + its parent's own srd.class.<slug> linkage tag", async () => {
+	it("tags every subclass with srd.subclass + srd.subclass.<slug> + its parent's own srd.class.<slug> linkage tag", async () => {
 		const tools = buildTools();
 		for (const unit of buildSubclassUnits()) {
 			const detail = (await query(tools, {

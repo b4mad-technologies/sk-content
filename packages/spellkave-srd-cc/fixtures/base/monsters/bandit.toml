@@ -157,6 +157,7 @@ tag = "srd.creature.role.archer"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A bandit survives by knowing which roads are poorly watched and which travelers look worth the risk. Some gather in rough camps beneath hidden ridges, while others pass as laborers or guides until a lonely stretch of trail presents an opening. Their threats are sharp, practical, and often backed by companions waiting just beyond sight."
 display_name = "Bandit"
 entity_def_id = "srd/creature/bandit"
 grants_capability_while_equipped = ""

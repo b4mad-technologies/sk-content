@@ -36,6 +36,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale blue stone keeps a quicker orbit than its siblings, ticking like a knuckle against glass. The neck wants to turn with it. Footing feels a little more certain while it circles, and the air at the temples is cool. It smells faintly of rain on a practice yard."
 display_name = "Ioun Stone (Agility)"
 entity_def_id = "srd/magic_item/ioun-stone-agility"
 grants_capability_while_equipped = ""

@@ -140,6 +140,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A spider waits where dust gathers and light fails, its patience as fine as the silk it spins. Some hunt from hidden burrows, while others turn ruined corners and forest boughs into glittering traps. The faint tremble of a web is often the only warning before it descends."
 display_name = "Spider"
 entity_def_id = "srd/creature/spider"
 grants_capability_while_equipped = ""

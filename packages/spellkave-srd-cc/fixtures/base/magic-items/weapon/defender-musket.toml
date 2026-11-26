@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its dark barrel bears a subtle sheen like rain on slate, and the stock settles against the shoulder with uncanny steadiness. In the moment before the trigger breaks, its spirit seems to choose between guiding the shot and turning danger aside. Held firm amid smoke and panic, it lends its bearer the poise of a veteran behind a fortress wall."
 display_name = "Defender (Musket)"
 entity_def_id = "srd/magic_item/defender-musket"
 grants_capability_while_equipped = ""

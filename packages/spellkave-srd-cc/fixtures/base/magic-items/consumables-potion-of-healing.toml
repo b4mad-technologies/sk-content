@@ -93,7 +93,7 @@ template_id = "srd/item/potion-of-giant-strength/consume/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/potion-of-giant-strength"
-description = "Strength score changes to 21 (Hill Giant) for 1 hour (magic-items.md § Potion of Giant Strength)."
+description = "For 1 hour, your Strength becomes 21 if it was lower."
 display_name = "Potion of Giant Strength"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

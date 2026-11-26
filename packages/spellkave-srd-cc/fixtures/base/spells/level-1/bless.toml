@@ -88,6 +88,7 @@ tag = "srd.spell.list.paladin"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A quiet radiance settles over chosen companions like dawn through chapel glass, warming the breath and steadying the hand. In the clash of steel and terror, small chances bend kindly around them: a footing holds, a blade finds its opening, a faltering resolve rises again."
 display_name = "Bless"
 entity_def_id = "srd/spell/bless"
 grants_capability_while_equipped = ""
@@ -115,7 +116,7 @@ target_ref = "srd/spell/bless"
 action_id = "srd/spell/bless/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Bless — a spell action."
+description = "You cast the bless spell, empowering selected creatures with a divine boon for a limited time."
 display_name = "Cast Bless"
 non_steering = true
 on_failure = ""
@@ -149,7 +150,7 @@ template_id = "srd/spell/bless/cast/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/spell/blessed"
-description = "Bless — a spell condition."
+description = "A magical effect that bolsters you. While it lasts, you gain a bonus to attacks and saving throws."
 display_name = "Bless"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

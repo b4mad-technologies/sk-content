@@ -36,6 +36,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A heavy amber-brown stone drags its orbit a little lower than the others, and the shoulders under it feel set. The crystal is warm and dense. A closed fist feels more willing. It smells of a quarry after rain. The lower orbit tugs at the collar, a small weight that makes the neck proud rather than tired."
 display_name = "Ioun Stone (Strength)"
 entity_def_id = "srd/magic_item/ioun-stone-strength"
 grants_capability_while_equipped = ""

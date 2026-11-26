@@ -36,6 +36,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A clear stone with a blue heart circles in a precise, almost fussy path. Words come to the mouth already ordered. Light through it throws small marks that are not writing onto the cheek. It is cool and smells of chalk dust. A quiet settles behind the eyes, the kind a library keeps between shelves."
 display_name = "Ioun Stone (Intellect)"
 entity_def_id = "srd/magic_item/ioun-stone-intellect"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale green sheen clings to this shaft or shot, sliding across its surface like a thought beneath still water. Near slime, jelly, and creeping filth, it grows faintly warm and seems to lean toward the nearest pulse of amorphous life. Its flight leaves a brief, clean streak through the air, as though the world itself recoils from the thing it seeks."
 display_name = "Ammunition of Ooze Slaying"
 entity_def_id = "srd/magic_item/ammunition-of-ooze-slaying"
 grants_capability_while_equipped = ""

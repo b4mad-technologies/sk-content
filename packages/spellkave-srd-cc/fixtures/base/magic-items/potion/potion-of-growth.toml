@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Within the clear glass, a crimson seed swells into a blooming stain, then gathers itself back to a single trembling bead. The bottle seems oddly small in the hand, as though the space around it has begun to yield. Its scent carries warm iron, crushed berries, and the sharp promise of towering over the room."
 display_name = "Potion of Growth"
 entity_def_id = "srd/magic_item/potion-of-growth"
 grants_capability_while_equipped = ""

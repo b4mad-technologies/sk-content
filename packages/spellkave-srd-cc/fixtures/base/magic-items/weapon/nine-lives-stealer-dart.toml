@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "This slim dart wears a lacquered sheen like spilled midnight, its point cold even beside a flame. When balanced across the fingers, it seems to tug toward every pulse in the room, hungry for the brief hush between heartbeats. Faint scratches along its shaft resemble tally marks, though no hand can agree on how many there are."
 display_name = "Nine Lives Stealer (Dart)"
 entity_def_id = "srd/magic_item/nine-lives-stealer-dart"
 grants_capability_while_equipped = ""

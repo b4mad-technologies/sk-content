@@ -94,6 +94,7 @@ tag = "srd.damage_type.thunder"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A splinter of mica flashes between poised fingers, and the air tightens like glass under strain. Then a single brutal chord bursts outward, rattling bones, cracking stone, and turning brittle craftwork into a storm of bright fragments. In its wake, even silence seems to tremble."
 display_name = "Shatter"
 entity_def_id = "srd/spell/shatter"
 grants_capability_while_equipped = ""
@@ -120,7 +121,7 @@ target_ref = "srd/spell/shatter"
 action_id = "srd/spell/shatter/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Shatter — a spell action."
+description = "You cast a sudden burst of destructive sound at a point within range, damaging creatures and objects nearby. Inorganic materials are especially vulnerable to the blast."
 display_name = "Cast Shatter"
 non_steering = true
 on_failure = ""

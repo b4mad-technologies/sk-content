@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Polished leather embraces the forearms with the quiet certainty of a seasoned bowyer’s grip. When a bowstring is drawn nearby, the bracers seem to settle into place, guiding wrist and elbow toward a cleaner, swifter release. Their worn surfaces carry the faint scent of cedar, wax, and old rain."
 display_name = "Bracers of Archery"
 entity_def_id = "srd/magic_item/bracers-of-archery"
 grants_capability_while_equipped = ""

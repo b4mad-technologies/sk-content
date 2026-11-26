@@ -77,7 +77,7 @@ tag = "srd.damage_type.bludgeoning"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Greatclub — a simple melee weapon."
+description = "A single length of seasoned timber, heavy at the far end and scarred by old knots, turns every swing into a committed act. Its grip warms slowly in the hand, while the head carries the blunt certainty of a falling branch. Crude though it may appear, the weapon rewards broad shoulders and an unflinching stance."
 display_name = "Greatclub"
 entity_def_id = "srd/weapon/greatclub"
 grants_capability_while_equipped = ""

@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A cold thought slips behind another mind’s eyes, threading will through memory and instinct. The victim’s posture softens, then turns with eerie purpose, answering silent urges as though they were its own. Beneath the borrowed obedience, a stubborn spark waits for pain, doubt, or defiance to break the unseen reins."
 display_name = "Dominate Person"
 entity_def_id = "srd/spell/dominate-person"
 grants_capability_while_equipped = ""

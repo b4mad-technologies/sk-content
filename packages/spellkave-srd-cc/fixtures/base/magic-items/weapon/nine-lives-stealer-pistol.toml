@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Blackened steel frames a chamber engraved with tiny, curling talismans, each one warm as a held breath. When its trigger is drawn, the report arrives with a strange hollow echo, as though something unseen has fled ahead of the smoke. Those who linger near its muzzle sometimes hear a faint, dwindling heartbeat beneath the scent of burnt powder."
 display_name = "Nine Lives Stealer (Pistol)"
 entity_def_id = "srd/magic_item/nine-lives-stealer-pistol"
 grants_capability_while_equipped = ""

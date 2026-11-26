@@ -100,6 +100,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Iron-bright motes spiral through the air as flesh, wood, and steel answer an unseen tide. One figure swells into a hulking silhouette, each footfall heavy with borrowed grandeur; another dwindles to a quick, delicate shape amid suddenly cavernous surroundings. Gear follows the change like a loyal shadow, then snaps back to its familiar proportions when parted from its bearer."
 display_name = "Enlarge/Reduce"
 entity_def_id = "srd/spell/enlargereduce"
 grants_capability_while_equipped = ""
@@ -127,7 +128,7 @@ target_ref = "srd/spell/enlargereduce"
 action_id = "srd/spell/enlargereduce/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Enlarge/Reduce — a spell action."
+description = "You cast this spell to make a creature or object larger or smaller for its duration. Choose the effect when you cast it."
 display_name = "Cast Enlarge/Reduce"
 non_steering = true
 on_failure = ""
@@ -161,7 +162,7 @@ template_id = "srd/spell/enlargereduce/cast/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/spell/enlargereduce"
-description = "Enlarge/Reduce — a spell condition."
+description = "A spell effect that makes you larger or smaller for a time. Your size changes, along with related limits and benefits, until the effect ends."
 display_name = "Enlarge/Reduce"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

@@ -78,6 +78,7 @@ tag = "srd.spell.list.cleric"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The air tightens beneath an unseen judgment, then splits with a thunderous rush of descending flame. Gold-white brilliance and furnace-red heat entwine in a single merciless pillar, turning dust to sparks and shadows to stark silhouettes. In its wake, the ground smolders as though the sky itself has struck an accusation into the earth."
 display_name = "Flame Strike"
 entity_def_id = "srd/spell/flame-strike"
 grants_capability_while_equipped = ""

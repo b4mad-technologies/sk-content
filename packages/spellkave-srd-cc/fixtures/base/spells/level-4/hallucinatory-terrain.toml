@@ -96,6 +96,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Across a chosen stretch of wilderness, the land dons another face: reeds whisper where dry earth lies, a harmless meadow seems to hide deep water, and stone paths vanish beneath imagined briars. Wind carries borrowed scents and sounds through the false landscape. Only a boot finding solid ground beneath a phantom marsh reveals the dream layered over the world."
 display_name = "Hallucinatory Terrain"
 entity_def_id = "srd/spell/hallucinatory-terrain"
 grants_capability_while_equipped = ""

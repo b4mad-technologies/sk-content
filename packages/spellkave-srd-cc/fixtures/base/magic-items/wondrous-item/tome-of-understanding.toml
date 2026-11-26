@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its pages smell faintly of rain on old stone, and the script seems to settle into new shapes whenever the mind grows still. Margins bloom with quiet diagrams: the curve of a listening ear, the patience of a tree root, the many meanings hidden in a bird’s flight. Long study leaves the reader hushed, as though the world has begun speaking in a language it always knew."
 display_name = "Tome of Understanding"
 entity_def_id = "srd/magic_item/tome-of-understanding"
 grants_capability_while_equipped = ""

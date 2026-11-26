@@ -24,6 +24,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A broad skull, a low growl kept mostly in the chest, and paws that leave deep prints in mud. The mastiff smells of wet dog and smoke. It plants itself between a person and the dark and does not explain the decision. Children reach for its ears. Strangers do not."
 display_name = "Mastiff"
 entity_def_id = "srd/item/mastiff"
 grants_capability_while_equipped = ""

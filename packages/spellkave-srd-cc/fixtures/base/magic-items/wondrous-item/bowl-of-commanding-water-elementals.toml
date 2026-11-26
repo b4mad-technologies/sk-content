@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its deep basin seems to hold more than water, reflecting stormclouds even beneath a clear ceiling. When fingers trail across its surface, the liquid gathers in silent spirals, carrying the cold scent of rain-soaked stone and distant surf. A patient, tidal presence waits beneath every ripple."
 display_name = "Bowl of Commanding Water Elementals"
 entity_def_id = "srd/magic_item/bowl-of-commanding-water-elementals"
 grants_capability_while_equipped = ""

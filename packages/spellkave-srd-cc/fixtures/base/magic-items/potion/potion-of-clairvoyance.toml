@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale eye drifts beneath the golden surface, turning slowly toward sounds no ear can catch. When the stopper is lifted, it slips away like a thought at waking, leaving the vessel faintly warm. Its sharp herbal scent carries the unsettling promise of far-off rooms, hidden paths, and secrets briefly laid bare."
 display_name = "Potion of Clairvoyance"
 entity_def_id = "srd/magic_item/potion-of-clairvoyance"
 grants_capability_while_equipped = ""

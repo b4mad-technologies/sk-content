@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A stern hush gathers around this polished scepter, as though every nearby voice has paused to hear an unspoken decree. Its grip feels warm and certain in the hand, carrying the gravity of a throne room into camps, courts, and bloodied roads alike. Those who meet its gleaming tip may find obedience suddenly seems like the most sensible course."
 display_name = "Rod of Rulership"
 entity_def_id = "srd/magic_item/rod-of-rulership"
 grants_capability_while_equipped = ""

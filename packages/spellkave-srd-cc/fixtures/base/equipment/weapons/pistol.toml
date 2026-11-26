@@ -89,7 +89,7 @@ tag = "srd.damage_type.piercing"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Pistol — a martial ranged weapon."
+description = "A compact thunder-maker of dark wood and cold metal, its grip settles heavily into the palm. When its mechanism is drawn taut, every small click seems loud in the hush before trouble. Smoke and sharp powder scent linger around its muzzle long after the flash is gone."
 display_name = "Pistol"
 entity_def_id = "srd/weapon/pistol"
 grants_capability_while_equipped = ""

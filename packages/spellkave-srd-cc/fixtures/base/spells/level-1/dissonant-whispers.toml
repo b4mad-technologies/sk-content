@@ -70,6 +70,7 @@ tag = "srd.damage_type.psychic"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A thin, wrong melody slips between heartbeats, heard by no ear yet impossible to ignore. Color drains from the victim’s face as unseen harmonies scrape across thought and memory, turning every nearby shadow into a threat. Panic lends their feet sudden purpose, carrying them away from the source of that intimate, merciless song."
 display_name = "Dissonant Whispers"
 entity_def_id = "srd/spell/dissonant-whispers"
 grants_capability_while_equipped = ""
@@ -96,7 +97,7 @@ target_ref = "srd/spell/dissonant-whispers"
 action_id = "srd/spell/dissonant-whispers/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Dissonant Whispers — a spell action."
+description = "You cast the spell, forcing a creature you can see to resist a painful mental assault or take psychic harm and flee from you."
 display_name = "Cast Dissonant Whispers"
 non_steering = true
 on_failure = "srd/spell/dissonant-whispers/cast/success"

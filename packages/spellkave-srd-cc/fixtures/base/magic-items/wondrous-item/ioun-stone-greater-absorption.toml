@@ -36,6 +36,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "This larger grey stone rides a slower circle and pulls a wider dimness out of the air around the head. Sparks that pass near it lose their bite before they fade. The orbit has weight. After a while the crystal looks like a well that has not yet filled. The circle it keeps never quite lets a spark finish its trip."
 display_name = "Ioun Stone (Greater Absorption)"
 entity_def_id = "srd/magic_item/ioun-stone-greater-absorption"
 grants_capability_while_equipped = ""

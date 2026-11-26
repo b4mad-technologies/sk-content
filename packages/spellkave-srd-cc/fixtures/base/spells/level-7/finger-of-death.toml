@@ -84,6 +84,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pallid lance leaps from the caster’s hand, carrying the hush of a tomb unopened for centuries. Where it strikes, warmth gutters out and flesh withers beneath an unseen winter. Should death claim a mortal shape, it may rise again with vacant eyes, bound to the voice that called it back."
 display_name = "Finger of Death"
 entity_def_id = "srd/spell/finger-of-death"
 grants_capability_while_equipped = ""

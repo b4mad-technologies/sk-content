@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A faint silver sheen clings to this compact blade, brightest along the edge where candlelight gathers. It moves with a quick, eager balance in the hand, as though each thrust has already found the narrow opening in an enemy’s guard."
 display_name = "Shortsword (+1)"
 entity_def_id = "srd/magic_item/shortsword-plus-1"
 grants_capability_while_equipped = ""

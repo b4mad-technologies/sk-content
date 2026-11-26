@@ -100,6 +100,7 @@ tag = "srd.damage_type.fire"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A molten globe blooms at ground level, its surface folding and surging like a furnace given will. It prowls across stone and soil at a caster’s silent urging, casting restless amber light through smoke and shadow. Wherever it passes, dry wood blackens, air ripples, and the scent of hot ash clings to the scene."
 display_name = "Flaming Sphere"
 entity_def_id = "srd/spell/flaming-sphere"
 grants_capability_while_equipped = ""
@@ -127,7 +128,7 @@ target_ref = "srd/spell/flaming-sphere"
 action_id = "srd/spell/flaming-sphere/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Flaming Sphere — a spell action."
+description = "You cast the spell, creating and directing a rolling ball of fire that burns creatures it reaches."
 display_name = "Cast Flaming Sphere"
 non_steering = true
 on_failure = ""

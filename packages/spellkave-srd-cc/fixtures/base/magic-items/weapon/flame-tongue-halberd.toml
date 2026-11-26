@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A low, eager warmth sleeps within the halberd’s long haft, stirring at a whispered command. Fire races along the axe head and spear point without charring wood or leather, painting nearby steel in restless amber. In battle, its glow turns each sweeping stroke into a brief, roaring sunrise."
 display_name = "Flame Tongue Halberd"
 entity_def_id = "srd/magic_item/flame-tongue-halberd"
 grants_capability_while_equipped = ""

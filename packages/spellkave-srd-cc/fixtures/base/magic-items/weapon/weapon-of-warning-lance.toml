@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its long shaft thrums faintly in the stillness before danger, as though catching distant hoofbeats no ear can hear. Resting beside a bedroll, the lance keeps a silent vigil, its point turning almost imperceptibly toward coming violence. When the first breath of battle stirs the dark, sleep breaks like thin ice."
 display_name = "Weapon of Warning (Lance)"
 entity_def_id = "srd/magic_item/weapon-of-warning-lance"
 grants_capability_while_equipped = ""

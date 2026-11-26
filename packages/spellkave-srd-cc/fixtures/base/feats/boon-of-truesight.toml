@@ -18,6 +18,7 @@ tag = "srd.feat.epic_boon"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The world sheds its costumes before such a gaze. Glamours gutter like candle smoke, hidden shapes stand stark in the dark, and false faces cannot hold beneath eyes tempered by long experience. Even shadows seem to part, unwilling to keep their secrets."
 display_name = "Boon of Truesight"
 entity_def_id = "srd/feat/boon-of-truesight"
 grants_capability_while_equipped = ""

@@ -102,6 +102,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush gathers around the chosen figure, swallowing color, outline, and the small betrayals of movement. Footsteps may still stir dust, and breath may still fog cold air, yet the eye slides past them as though the world has forgotten they were there. The veil is delicate, breaking when open violence or fresh sorcery tears through its silence."
 display_name = "Invisibility"
 entity_def_id = "srd/spell/invisibility"
 grants_capability_while_equipped = ""

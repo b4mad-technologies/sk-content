@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The hide is warm beneath the hand, slick as rain-dark leather and threaded with a pulse that is not quite a heartbeat. Its hooked gauntlets flex eagerly around a clenched fist, leaving shallow crescents in wood and stone. When worn, harsh syllables gather at the edge of thought, while a distant, hungry laughter seems to recognize its own."
 display_name = "Demon Hide Armor"
 entity_def_id = "srd/magic_item/demon-hide-armor"
 grants_capability_while_equipped = ""

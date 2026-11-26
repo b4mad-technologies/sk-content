@@ -78,6 +78,7 @@ tag = "srd.spell.list.paladin"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale sigil settles beneath the skin like a last ember guarded from the dark. When fate closes its hand, the ward flares with grave-cold light, refusing the final silence for one precious breath. It leaves behind the scent of rain on stone and the unsettling sense that death has been made to wait."
 display_name = "Death Ward"
 entity_def_id = "srd/spell/death-ward"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A clear green stone hangs in a simple silver cradle, cool against the skin even beside a fevered pulse. When sickness gathers in the blood, the pendant seems to drink the bitterness away, leaving a clean, rain-washed breath in its wake. At dawn, its color brightens like new leaves after a storm."
 display_name = "Periapt of Health"
 entity_def_id = "srd/magic_item/periapt-of-health"
 grants_capability_while_equipped = ""

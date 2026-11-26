@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Within its clear glass, the liquid catches the light with a comforting warmth, carrying the familiar scent of herbs and honeyed fruit. Even the first taste is gentle, soothing, almost reassuring. Only after the swallow does a bitter chill begin to creep beneath the skin, turning that promise of relief into dread."
 display_name = "Potion of Poison"
 entity_def_id = "srd/magic_item/potion-of-poison"
 grants_capability_while_equipped = ""

@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A dusting of pale powder stirs on the air, and the unseen loses its confidence. Hidden figures emerge as wavering outlines, while nearby objects reveal their secret silhouettes. Beyond the familiar world, a dim shore of drifting phantoms presses close, visible only as a spectral afterimage."
 display_name = "See Invisibility"
 entity_def_id = "srd/spell/see-invisibility"
 grants_capability_while_equipped = ""

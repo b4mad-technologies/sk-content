@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "This heavy mantle seems to drink in candlelight, its folds swallowing stray sparks of color before they can settle. When sorcery gathers nearby, the fabric stirs with a cool, steady hush, as though an unseen wind presses close around the wearer."
 display_name = "Mantle of Spell Resistance"
 entity_def_id = "srd/magic_item/mantle-of-spell-resistance"
 grants_capability_while_equipped = ""

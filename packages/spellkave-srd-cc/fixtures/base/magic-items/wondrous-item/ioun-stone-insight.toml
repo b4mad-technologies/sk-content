@@ -36,6 +36,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A violet stone keeps an uneven orbit, pausing when a thought pauses. The space just above the brow feels clearer, as if a curtain had been drawn an inch. It ticks once when a nearby voice almost changes its mind. The smell is of old paper and a closed book."
 display_name = "Ioun Stone (Insight)"
 entity_def_id = "srd/magic_item/ioun-stone-insight"
 grants_capability_while_equipped = ""

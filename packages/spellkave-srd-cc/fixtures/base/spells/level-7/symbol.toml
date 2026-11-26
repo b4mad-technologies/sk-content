@@ -96,6 +96,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A patient hand leaves a secret mark where stone, steel, or sealed wood can keep its silence. To careless eyes it is only a faint wrongness in the dust, but the chosen moment wakes it in cold radiance. Then the air itself remembers the inscription’s purpose: dread, agony, slumber, discord, stillness, or a final hollow touch."
 display_name = "Symbol"
 entity_def_id = "srd/spell/symbol"
 grants_capability_while_equipped = ""

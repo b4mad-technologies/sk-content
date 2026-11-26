@@ -82,6 +82,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A wet, amber sheen ripples across the floor, catching torchlight in treacherous colors. Boots skid, claws scrabble, and even practiced footing becomes suddenly unreliable as the slick spreads beneath the fray. The air carries a faint, rich smell like a cookfire gone disastrously wrong."
 display_name = "Grease"
 entity_def_id = "srd/spell/grease"
 grants_capability_while_equipped = ""
@@ -109,7 +110,7 @@ target_ref = "srd/spell/grease"
 action_id = "srd/spell/grease/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Grease — a spell action."
+description = "You cast a spell that coats a small area in slick grease, making creatures there more likely to fall prone."
 display_name = "Cast Grease"
 non_steering = true
 on_failure = "srd/spell/grease/cast/success"

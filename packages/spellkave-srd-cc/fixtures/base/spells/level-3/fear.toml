@@ -102,6 +102,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale feather’s drift becomes a waking nightmare, spilling outward in a breathless tide of dread. Faces blanch, weapons clatter from numb hands, and even seasoned hearts turn toward any shadow that promises escape. The caster stands at the storm’s eye while terror gives every path a desperate urgency."
 display_name = "Fear"
 entity_def_id = "srd/spell/fear"
 grants_capability_while_equipped = ""

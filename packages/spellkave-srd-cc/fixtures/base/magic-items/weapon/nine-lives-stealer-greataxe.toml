@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its broad, darkened blade seems to drink the light around every notch and scar, while a faint warmth lingers in the haft like a captive pulse. In battle, each clean stroke carries an unsettling hush, as though the weapon listens for the moment a living spirit falters. Those who linger near it sometimes count distant heartbeats where none should be."
 display_name = "Nine Lives Stealer (Greataxe)"
 entity_def_id = "srd/magic_item/nine-lives-stealer-greataxe"
 grants_capability_while_equipped = ""

@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_3"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A mirror-dark edge runs along the crescent blade, holding stray candlelight in a cold blue gleam. Its ashwood shaft feels balanced even in armored hands, eager to wheel, hook, and strike with a precision that seems almost impatient. When raised, the weapon leaves the air tasting faintly of rain and iron."
 display_name = "Halberd (+3)"
 entity_def_id = "srd/magic_item/halberd-plus-3"
 grants_capability_while_equipped = ""

@@ -94,6 +94,7 @@ tag = "srd.damage_type.fire"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A curved edge of living fire coils into the wielder’s grasp, its ember-bright contour humming like a drawn breath before a storm. Heat ripples through the air around it, painting nearby faces in restless gold and casting long, quivering shadows. Each sweep leaves the scent of scorched leaves and a fading ribbon of sparks."
 display_name = "Flame Blade"
 entity_def_id = "srd/spell/flame-blade"
 grants_capability_while_equipped = ""
@@ -120,7 +121,7 @@ target_ref = "srd/spell/flame-blade"
 action_id = "srd/spell/flame-blade/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Flame Blade — a spell action."
+description = "You cast a spell that forms a fiery blade in your hand. While it lasts, you can strike with it to deal fire damage."
 display_name = "Cast Flame Blade"
 non_steering = true
 on_failure = "srd/spell/flame-blade/cast/miss"

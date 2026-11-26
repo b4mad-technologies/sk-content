@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Under a moonless vault, black stones drink the last warmth from abandoned flesh. Limbs jerk awake with a wet scrape, and hollow mouths taste the air for a master’s will. A cold, invisible leash gathers the risen dead into a patient, hungry procession."
 display_name = "Create Undead"
 entity_def_id = "srd/spell/create-undead"
 grants_capability_while_equipped = ""

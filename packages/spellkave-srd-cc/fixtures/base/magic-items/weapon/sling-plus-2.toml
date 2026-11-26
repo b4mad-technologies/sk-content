@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A braided leather cradle, darkened by rain and long roads, hums faintly when a stone settles into its pouch. In a steady hand it feels eager and precise, as though each gathered pebble remembers the arc of a falling star."
 display_name = "Sling (+2)"
 entity_def_id = "srd/magic_item/sling-plus-2"
 grants_capability_while_equipped = ""

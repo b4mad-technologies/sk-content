@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A cool, steady pressure settles around the finger that bears this unassuming band, like the hush before a shield wall closes. Its polished surface catches stray light without gleaming, and danger seems to hesitate at the edge of its wearer’s shadow."
 display_name = "Ring of Protection"
 entity_def_id = "srd/magic_item/ring-of-protection"
 grants_capability_while_equipped = ""

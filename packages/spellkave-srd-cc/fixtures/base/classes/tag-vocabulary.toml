@@ -1,1511 +1,1511 @@
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as one of the 12 SRD classes (classes.md (§ Classes — 12 classes, IDENTICAL section shape: Core Traits table -> Becoming a X -> Class Features table -> per-feature sections -> optional Spell List -> ONE subclass))."
+description = "Marks an entity as one of the game’s core character classes. A class provides its traits, level-based features, and any available subclass or spell options."
 prefix = "srd"
 tag = "srd.class"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Barbarian class. Primary ability: Strength. Hit Point Die: d12."
+description = "A warrior class built for direct combat. You rely on Strength and have a large Hit Point die."
 prefix = "srd.class"
 tag = "srd.class.barbarian"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Bard class. Primary ability: Charisma. Hit Point Die: d8."
+description = "A versatile performer who uses Charisma to shape magic, support allies, and hinder foes. You gain a moderate Hit Point die when you take bard levels."
 prefix = "srd.class"
 tag = "srd.class.bard"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Cleric class. Primary ability: Wisdom. Hit Point Die: d8."
+description = "A divine spellcaster who uses Wisdom to cast cleric spells. Your class Hit Point die is an eight-sided die."
 prefix = "srd.class"
 tag = "srd.class.cleric"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Druid class. Primary ability: Wisdom. Hit Point Die: d8."
+description = "A nature-focused class that uses Wisdom to cast spells and shape its magic around the natural world. You use an eight-sided Hit Point die when you gain levels or recover during a rest."
 prefix = "srd.class"
 tag = "srd.class.druid"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Fighter class. Primary ability: Strength or Dexterity. Hit Point Die: d10."
+description = "A martial class trained for combat. You rely on Strength or Dexterity for your fighting techniques and have a sturdy Hit Point die."
 prefix = "srd.class"
 tag = "srd.class.fighter"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Monk class. Primary ability: Dexterity and Wisdom. Hit Point Die: d8."
+description = "A disciplined martial artist who fights with speed, precision, and inner focus. Dexterity and Wisdom guide your techniques, and you use a moderate Hit Point die."
 prefix = "srd.class"
 tag = "srd.class.monk"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Paladin class. Primary ability: Strength and Charisma. Hit Point Die: d10."
+description = "A holy warrior who combines martial skill with divine magic. Your Strength and Charisma guide your class features, and you use a ten-sided Hit Point die."
 prefix = "srd.class"
 tag = "srd.class.paladin"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Ranger class. Primary ability: Dexterity and Wisdom. Hit Point Die: d10."
+description = "A wilderness-focused class that relies on Dexterity and Wisdom. You track foes, explore dangerous terrain, and fight with weapons, spells, and survival skill."
 prefix = "srd.class"
 tag = "srd.class.ranger"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Rogue class. Primary ability: Dexterity. Hit Point Die: d8."
+description = "A Dexterity-focused class that relies on skill, stealth, and precise attacks. You use its features to outmaneuver foes and exploit openings."
 prefix = "srd.class"
 tag = "srd.class.rogue"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Sorcerer class. Primary ability: Charisma. Hit Point Die: d6."
+description = "A spellcasting class that draws magic from an innate source. Your Charisma fuels your spells, and your class Hit Point die is smaller than most."
 prefix = "srd.class"
 tag = "srd.class.sorcerer"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Warlock class. Primary ability: Charisma. Hit Point Die: d8."
+description = "A spellcaster who draws power from a supernatural pact. You use Charisma for your class features and spells, and you gain a moderate Hit Point die each level."
 prefix = "srd.class"
 tag = "srd.class.warlock"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Wizard class. Primary ability: Intelligence. Hit Point Die: d6."
+description = "An Intelligence-based spellcasting class that studies arcane magic. You use a smaller Hit Point die than most classes when you gain levels or recover during rests."
 prefix = "srd.class"
 tag = "srd.class.wizard"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as one of the 12 SRD subclasses (classes.md (§ Classes — 12 classes, IDENTICAL section shape: Core Traits table -> Becoming a X -> Class Features table -> per-feature sections -> optional Spell List -> ONE subclass))."
+description = "Marks a class specialization. You choose it through your class features, gaining the traits and options of that class’s focused path."
 prefix = "srd"
 tag = "srd.subclass"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Champion subclass of the Fighter class."
+description = "A Fighter subclass focused on exceptional physical prowess and reliable martial skill. You choose it as your martial archetype."
 prefix = "srd.subclass"
 tag = "srd.subclass.champion"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Circle of the Land subclass of the Druid class."
+description = "A druid subclass that draws magic from a chosen natural region. It grants circle spells and features tied to the land you protect."
 prefix = "srd.subclass"
 tag = "srd.subclass.circle-of-the-land"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD College of Lore subclass of the Bard class."
+description = "A Bard subclass focused on broad learning, sharp wit, and magical secrets beyond the usual Bard repertoire. You choose it when you gain a Bard college."
 prefix = "srd.subclass"
 tag = "srd.subclass.college-of-lore"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Draconic Sorcery subclass of the Sorcerer class."
+description = "A Sorcerer subclass whose magic draws on draconic power. You choose it when you gain your sorcerous origin."
 prefix = "srd.subclass"
 tag = "srd.subclass.draconic-sorcery"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Evoker subclass of the Wizard class."
+description = "A Wizard subclass focused on shaping destructive spells. You choose it to gain features that improve your evocation magic."
 prefix = "srd.subclass"
 tag = "srd.subclass.evoker"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Fiend Patron subclass of the Warlock class."
+description = "A Warlock subclass bound to a powerful fiend. It grants features that reflect your patron’s infernal influence."
 prefix = "srd.subclass"
 tag = "srd.subclass.fiend-patron"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Hunter subclass of the Ranger class."
+description = "The Ranger subclass focused on tracking prey and defeating dangerous foes. You choose it to gain hunting techniques as you advance in the class."
 prefix = "srd.subclass"
 tag = "srd.subclass.hunter"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Life Domain subclass of the Cleric class."
+description = "A cleric subclass centered on restoring vitality and protecting life. You choose it for your cleric to gain its domain features as you advance."
 prefix = "srd.subclass"
 tag = "srd.subclass.life-domain"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Oath of Devotion subclass of the Paladin class."
+description = "A Paladin subclass centered on duty, courage, and protection. It grants sacred abilities that support allies and oppose evil."
 prefix = "srd.subclass"
 tag = "srd.subclass.oath-of-devotion"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Path of the Berserker subclass of the Barbarian class."
+description = "A Barbarian subclass for warriors who embrace reckless battle fury and its brutal power."
 prefix = "srd.subclass"
 tag = "srd.subclass.path-of-the-berserker"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Thief subclass of the Rogue class."
+description = "A Rogue subclass built around agility, stealth, and quick hands. You choose it to gain features for climbing, skulking, and using items efficiently."
 prefix = "srd.subclass"
 tag = "srd.subclass.thief"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Warrior of the Open Hand subclass of the Monk class."
+description = "A Monk subclass that focuses on controlling foes with unarmed techniques and disciplined movement. You choose it to gain its features as you advance in the Monk class."
 prefix = "srd.subclass"
 tag = "srd.subclass.warrior-of-the-open-hand"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as one SRD class feature (classes.md:4579-4896 (§ Fighter + § Fighter Subclass: Champion), K2 exemplar)."
+description = "Marks an entry as a class feature: an ability granted by a class or subclass as you gain levels."
 prefix = "srd"
 tag = "srd.class_feature"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Ability Score Improvement class feature."
+description = "A class feature that increases one or more of your ability scores as you gain levels."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.ability-score-improvement"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Action Surge class feature."
+description = "You push beyond your normal limits to take one additional action on your turn. You can use it only a limited number of times before resting."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.action-surge"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Core Traits class feature."
+description = "A classification tag for entity definitions that represent class features from the core rules."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.core-traits"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Epic Boon class feature."
+description = "A label for a special class feature that grants a powerful, lasting benefit."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.epic-boon"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Extra Attack class feature."
+description = "A class feature that lets you make more than one attack when you take the Attack action."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.extra-attack"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Fighter Subclass class feature."
+description = "Marks a class feature as belonging to a Fighter subclass. You gain it only if you choose that subclass."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.fighter-subclass"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Fighting Style class feature."
+description = "A class feature that grants a focused combat benefit. You choose a style when your class gives you this feature."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.fighting-style"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Indomitable class feature."
+description = "A fighter feature that lets you reroll a failed saving throw. You can use it a limited number of times between long rests."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.indomitable"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Proficiency Bonus class feature."
+description = "A bonus based on your character level. You add it to checks, attacks, saves, and other rolls when a rule says you are proficient."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.proficiency-bonus"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Second Wind class feature."
+description = "You can draw on a reserve of stamina to regain hit points as a bonus action. You use it a limited number of times before resting."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.second-wind"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Second Wind Uses class feature."
+description = "Marks the class feature that tracks how often you can use Second Wind before you need to recover its uses."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.second-wind-uses"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Studied Attacks class feature."
+description = "A class feature that lets you learn from a foe’s defenses and turn that knowledge into more effective attacks against it."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.studied-attacks"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Tactical Master class feature."
+description = "A class feature that marks the Tactical Master’s advanced combat options and related rules."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.tactical-master"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Tactical Mind class feature."
+description = "A fighter feature that lets you add a burst of focus to an ability check after seeing the result. You can use it when a check falls short, spending a limited resource to improve the total."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.tactical-mind"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Tactical Shift class feature."
+description = "A class feature that lets you quickly reposition yourself or direct an ally’s movement when its stated trigger occurs."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.tactical-shift"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Three Extra Attacks class feature."
+description = "You can attack four times, instead of once, whenever you take the Attack action on your turn."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.three-extra-attacks"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Two Extra Attacks class feature."
+description = "A class feature that lets you make three attacks, instead of one, when you take the Attack action on your turn."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.two-extra-attacks"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Weapon Mastery class feature."
+description = "Marks a class feature that lets you apply special properties to weapons you have mastered. You gain access to it through the appropriate class feature."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.weapon-mastery"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Weapon Mastery Count class feature."
+description = "Shows how many weapon mastery options you can use from your class. This number can increase as you gain levels."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.weapon-mastery-count"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Additional Fighting Style class feature."
+description = "Marks a class feature that grants you another fighting style option. You choose an additional style when the feature tells you to do so."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.additional-fighting-style"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Heroic Warrior class feature."
+description = "Marks an entity as the Heroic Warrior class feature for rules that refer to it."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.heroic-warrior"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Improved Critical class feature."
+description = "A martial feature that lets your weapon attacks score critical hits more often."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.improved-critical"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Remarkable Athlete class feature."
+description = "A class feature that improves certain physical ability checks and helps you make longer running jumps."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.remarkable-athlete"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Superior Critical class feature."
+description = "A fighter feature that lets your weapon attacks score a critical hit on a wider range of attack rolls."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.superior-critical"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Survivor class feature."
+description = "Marks an entity as the Survivor class feature for rules that refer to it."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.survivor"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Barbarian Subclass class feature."
+description = "A tag that marks a class feature as belonging to a Barbarian subclass. It helps identify features gained through that subclass."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.barbarian-subclass"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Brutal Strike class feature."
+description = "Marks the class feature that lets you trade a reckless attack’s extra accuracy for a powerful weapon effect when you hit."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.brutal-strike"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Danger Sense class feature."
+description = "A class feature that helps you react to sudden threats. You gain an edge on certain Dexterity saving throws while you are able to move and perceive the danger."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.danger-sense"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Fast Movement class feature."
+description = "A class feature that increases your walking speed while you are not wearing armor."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.fast-movement"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Feral Instinct class feature."
+description = "You have heightened reflexes that help you act quickly when danger begins, and you can still respond if surprise catches you off guard."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.feral-instinct"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Improved Brutal Strike class feature."
+description = "A barbarian feature that improves the extra effects you can apply when you use Brutal Strike. You choose from additional strike options as you gain barbarian levels."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.improved-brutal-strike"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Improved Brutal Strike Enhanced class feature."
+description = "A barbarian class feature that improves your forceful weapon strikes. It gives you additional ways to hinder or reposition a creature when you use Brutal Strike."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.improved-brutal-strike-enhanced"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Indomitable Might class feature."
+description = "Your Strength checks use your Strength score when a roll would be lower. This helps you overcome physical challenges that rely on raw power."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.indomitable-might"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Instinctive Pounce class feature."
+description = "A class feature that lets you move quickly when combat begins, closing distance before you take your first turn."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.instinctive-pounce"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Persistent Rage class feature."
+description = "A barbarian feature that lets your rage continue despite brief interruptions, as long as you maintain its requirements."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.persistent-rage"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Primal Champion class feature."
+description = "A class feature that marks a creature’s greatest barbarian prowess, greatly increasing its physical strength and toughness."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.primal-champion"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Primal Knowledge class feature."
+description = "A class feature that grants additional ways to use your primal power, letting you draw on instinct and nature for specialized effects."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.primal-knowledge"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Rage class feature."
+description = "A label for the barbarian feature that lets you enter a battle fury and gain its benefits for a limited time."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.rage"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Rage Damage class feature."
+description = "Marks the barbarian feature that adds extra damage to certain attacks while you are raging."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.rage-damage"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Rages class feature."
+description = "Marks the barbarian feature that lets you enter a battle fury for a limited time, gaining its benefits until it ends."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.rages"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Reckless Attack class feature."
+description = "At the start of your turn, you can fight recklessly to gain an edge on your melee attacks using Strength. Until your next turn, attacks against you also gain an edge."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.reckless-attack"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Relentless Rage class feature."
+description = "A barbarian feature that can keep you conscious after a blow would reduce you to zero hit points, if you succeed on the required saving throw."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.relentless-rage"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Unarmored Defense class feature."
+description = "Your training lets you rely on agility or endurance instead of armor. While unarmored, your Armor Class uses the formula provided by your class."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.unarmored-defense"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Frenzy class feature."
+description = "A barbarian feature that lets you make an extra attack as a bonus action while raging, at the cost of later exhaustion."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.frenzy"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Intimidating Presence class feature."
+description = "A class feature that lets you frighten a creature with your presence. You use it to force a nearby creature to resist becoming frightened of you."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.intimidating-presence"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Mindless Rage class feature."
+description = "A barbarian feature that lets you enter a battle fury. While raging, you gain its usual benefits and may resist effects that would control your mind."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.mindless-rage"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Retaliation class feature."
+description = "Marks a class feature that lets you make a response attack when a creature harms you or triggers its stated condition."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.retaliation"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Bard Spell List class feature."
+description = "Marks this entry as the spell list used by bards. Bard spells are chosen from this list when a rule grants you a bard spell."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.bard-spell-list"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Bard Subclass class feature."
+description = "A label for a class feature that belongs to a bard subclass. It identifies features gained from your chosen bard specialization."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.bard-subclass"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Bardic Die class feature."
+description = "Marks this as the bard feature that grants an inspiration die for supporting others."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.bardic-die"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Bardic Inspiration class feature."
+description = "Marks this as the bard feature that lets you encourage a creature, giving it a die to add to a later roll."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.bardic-inspiration"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Cantrips class feature."
+description = "Marks this as the class feature that grants and governs your cantrips: minor spells you can cast without using a spell slot."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.cantrips"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Countercharm class feature."
+description = "This label marks the bard feature that helps nearby allies resist magical charm and fear while you perform."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.countercharm"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Expertise class feature."
+description = "A class feature that makes you especially skilled with selected proficiencies, letting you add a larger bonus when you use them."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.expertise"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Font Of Inspiration class feature."
+description = "Your inspiration pool grows as you gain levels, letting you grant more uses of Bardic Inspiration between rests."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.font-of-inspiration"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Jack Of All Trades class feature."
+description = "A bard feature that lets you add part of your proficiency bonus to ability checks you make without your proficiency bonus."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.jack-of-all-trades"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Magical Secrets class feature."
+description = "Marks the class feature that lets you learn spells from other classes’ spell lists. You choose the spells when you gain this feature."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.magical-secrets"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Prepared Spells class feature."
+description = "A class feature that lets you choose which spells from your class list are ready to cast. You prepare them after a rest or whenever your class allows."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.prepared-spells"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Level 1 Spell Slots class feature."
+description = "Your first-tier spellcasting resources. You expend them to cast spells of that level, and regain them as your class allows."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.slots-1st"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Level 2 Spell Slots class feature."
+description = "A class feature that shows how many spell slots you have for casting spells of the second level. You regain expended slots when you finish a long rest."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.slots-2nd"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Level 3 Spell Slots class feature."
+description = "Your spellcasting capacity for spells of 3rd level. You gain these slots from your class and expend them to cast eligible spells."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.slots-3rd"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Level 4 Spell Slots class feature."
+description = "Your fourth-rank spellcasting resources. You expend them to cast spells of that rank or to empower lower-rank spells."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.slots-4th"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Level 5 Spell Slots class feature."
+description = "A class feature that shows how many spells of each level you can cast before you rest. It updates as you gain levels in a spellcasting class."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.slots-5th"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Level 6 Spell Slots class feature."
+description = "A class feature that gives you spell slots for casting spells of up to 6th level. You regain expended slots when you finish a long rest."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.slots-6th"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Level 7 Spell Slots class feature."
+description = "A class feature that shows how many spell slots you have for casting spells at seventh level."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.slots-7th"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Level 8 Spell Slots class feature."
+description = "Your highest-level spell slots from this class. You use them to cast spells of that level."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.slots-8th"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Level 9 Spell Slots class feature."
+description = "Marks the spell slots you gain for casting spells of the highest standard spell level. You use these slots to cast your most powerful class spells."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.slots-9th"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Spellcasting class feature."
+description = "Marks a class feature that lets you cast spells. Its rules tell you which spells you know or prepare and how often you can cast them."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.spellcasting"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Superior Inspiration class feature."
+description = "You regain one use of your bardic inspiration when you roll initiative and have none remaining."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.superior-inspiration"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Words Of Creation class feature."
+description = "A bard feature that lets you inspire others with magical words. Using it can improve healing or cause harm, but it may also hurt you."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.words-of-creation"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Bonus Proficiencies class feature."
+description = "A class feature that grants you proficiency with additional skills, tools, weapons, or other options when you gain it."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.bonus-proficiencies"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Cutting Words class feature."
+description = "A bardic feature that lets you use a quick remark to weaken a nearby creature’s attack, ability check, or damage roll. You spend a use of Bardic Inspiration after it rolls."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.cutting-words"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Magical Discoveries class feature."
+description = "A class feature that marks options your character can uncover through magical study and advancement."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.magical-discoveries"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Peerless Skill class feature."
+description = "A high-level bard feature that lets you add an inspiration die to an ability check after seeing the result. You can use it even when you have no inspiration die left."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.peerless-skill"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Blessed Strikes class feature."
+description = "A cleric feature that empowers your weapon attacks and cantrips with extra radiant damage once on each of your turns."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.blessed-strikes"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Channel Divinity class feature."
+description = "A class feature that lets you call on sacred power for a special effect. You use it in the way your class or subclass describes."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.channel-divinity"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Channel Divinity Uses class feature."
+description = "Marks a class feature that gives you a limited pool for Channel Divinity options. You spend a use when an option says to do so, and regain uses as the feature describes."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.channel-divinity-uses"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Cleric Spell List class feature."
+description = "Marks this entry as part of the cleric’s available spells. Clerics use this list when choosing or preparing spells."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.cleric-spell-list"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Cleric Subclasses class feature."
+description = "Marks a cleric feature that grants options tied to the divine path you choose for your character."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.cleric-subclasses"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Divine Intervention class feature."
+description = "A high-level divine calling you use to ask your deity for direct aid. If the plea succeeds, the deity chooses how to intervene."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.divine-intervention"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Divine Order class feature."
+description = "A class feature that lets a cleric choose a sacred focus for their training, gaining benefits from either combat skill or deeper spell study."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.divine-order"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Greater Divine Intervention class feature."
+description = "Marks a class feature that lets you call on divine aid for an extraordinary intervention. You use it when your other prayers are not enough."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.greater-divine-intervention"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Improved Blessed Strikes class feature."
+description = "A cleric feature that strengthens your weapon and cantrip attacks. When you strike with either, you deal extra radiant damage."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.improved-blessed-strikes"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Sear Undead class feature."
+description = "Identifies this class feature as Sear Undead for rules that refer to it."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.sear-undead"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Blessed Healer class feature."
+description = "When you restore another creature’s hit points with a healing spell, you regain hit points as well. The healing you receive depends on the spell’s level."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.blessed-healer"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Disciple Of Life class feature."
+description = "A class feature that improves the healing from your spells. When you restore hit points with a spell, the creature regains additional hit points."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.disciple-of-life"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Life Domain Spells class feature."
+description = "A cleric feature that adds a set of life-focused spells to your prepared spells at certain class levels. These spells are always available to you and do not count against your normal preparation limit."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.life-domain-spells"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Preserve Life class feature."
+description = "A cleric feature that lets you restore vitality to several wounded creatures. You use it to divide a pool of healing among allies who are below half their maximum health."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.preserve-life"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Supreme Healing class feature."
+description = "A class feature that makes your healing spells restore the greatest possible amount instead of requiring a roll."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.supreme-healing"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Archdruid class feature."
+description = "Marks an entity as the Archdruid class feature for rules that refer to it."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.archdruid"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Beast Spells class feature."
+description = "A class feature that lets you cast certain spells while transformed by a shape-changing ability."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.beast-spells"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Druid Spell List class feature."
+description = "Identifies the class feature that gives druids access to their class’s spells. You use it when choosing or preparing druid spells."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.druid-spell-list"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Druid Subclass class feature."
+description = "A tag for a class feature that grants a druid’s subclass abilities. Use it to identify features tied to a druid’s chosen circle."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.druid-subclass"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Druidic class feature."
+description = "Marks a class feature as belonging to the druid. It identifies rules and abilities used by characters with that class."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.druidic"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Elemental Fury class feature."
+description = "A class feature that lets you channel elemental power through your attacks or magic. Its effects depend on the option you choose when you gain it."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.elemental-fury"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Improved Elemental Fury class feature."
+description = "A class feature that improves your elemental strikes, letting them deal greater harm when you use them."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.improved-elemental-fury"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Primal Order class feature."
+description = "A class feature that marks your chosen path as part of the primal tradition. It identifies abilities and options tied to that class feature."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.primal-order"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Wild Companion class feature."
+description = "A class feature that lets you use your magic to call a temporary animal companion to serve you."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.wild-companion"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Wild Resurgence class feature."
+description = "A class feature that lets you draw on your bond with nature to regain magical power in a limited way."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.wild-resurgence"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Wild Shape class feature."
+description = "A druid ability that lets you take the form of a beast. You use it to adopt a beast’s physical traits and actions for a limited time."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.wild-shape"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Wild Shape Uses class feature."
+description = "Marks the class feature that tracks how often you can assume an alternate beast form before you rest."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.wild-shape-uses"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Lands Aid class feature."
+description = "A class feature that lets you call on the land for magical help. You use it as described by your class when you gain access to it."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.lands-aid"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Natural Recovery class feature."
+description = "A druid feature that lets you regain some expended spell power during a short rest. You use it once between long rests."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.natural-recovery"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Natures Sanctuary class feature."
+description = "A class feature that lets you ward nearby creatures with nature’s protection. You use it to discourage certain creatures from harming you."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.natures-sanctuary"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Natures Ward class feature."
+description = "A class feature that protects you from certain magical effects of fey and elemental creatures. It also prevents some natural hazards from affecting you."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.natures-ward"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Spell List class feature."
+description = "Marks this entry as a class feature that grants access to a defined group of spells."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.spell-list"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Acrobatic Movement class feature."
+description = "Marks a creature with the Acrobatic Movement feature, which improves its ability to move through difficult terrain."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.acrobatic-movement"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Body And Mind class feature."
+description = "A monk technique that lets you strike a creature’s body and disrupt its mind, leaving it reeling after a successful hit."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.body-and-mind"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Deflect Attacks class feature."
+description = "This class feature lets you use a reaction to reduce the damage from an attack that hits you."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.deflect-attacks"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Deflect Energy class feature."
+description = "A class feature that lets you use your reaction to reduce damage from an energy-based attack that hits you."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.deflect-energy"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Disciplined Survivor class feature."
+description = "A class feature that marks an entity as having Disciplined Survivor. Its specific effects are defined by the feature’s rules."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.disciplined-survivor"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Empowered Strikes class feature."
+description = "A class feature that makes your unarmed strikes count as magical for overcoming resistance and immunity to nonmagical attacks."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.empowered-strikes"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Evasion class feature."
+description = "A class feature that lets you avoid harm from certain effects that allow a Dexterity saving throw. On a success, you take no damage instead of reduced damage."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.evasion"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Focus Points class feature."
+description = "A class resource that fuels certain martial techniques. You spend these points to use your features, and regain them when you complete the appropriate rest."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.focus-points"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Heightened Focus class feature."
+description = "A class feature that marks your training in heightened concentration and its related rules."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.heightened-focus"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Martial Arts class feature."
+description = "A class feature that lets you fight effectively without weapons or with certain simple weapons, using agility and practiced techniques."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.martial-arts"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Martial Arts Dice class feature."
+description = "A monk feature that improves certain unarmed strikes and monk weapon attacks as you gain levels. It also supports several other monk abilities."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.martial-arts-dice"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Monk Subclass class feature."
+description = "A label for a class feature gained from a Monk subclass. It marks features tied to your chosen Monk tradition."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.monk-subclass"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Monks Focus class feature."
+description = "Marks this entry as the monk feature that fuels certain disciplined techniques. You spend points from it to enhance your actions or use special abilities."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.monks-focus"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Perfect Focus class feature."
+description = "A class feature that marks a character or entity as having Perfect Focus. It identifies the feature for rules that refer to it."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.perfect-focus"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Self Restoration class feature."
+description = "Marks a class feature that lets you restore your own health by drawing on your inner reserves. You use it when you need to recover without outside aid."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.self-restoration"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Slow Fall class feature."
+description = "A monk technique that lets you reduce damage from a fall when you can react before you hit the ground."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.slow-fall"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Stunning Strike class feature."
+description = "A monk technique that can leave a creature briefly unable to act. When you hit with an unarmed strike, you can spend ki to force the target to resist being stunned."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.stunning-strike"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Superior Defense class feature."
+description = "Marks a creature or character as having the Superior Defense class feature, which improves its resilience against harmful effects."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.superior-defense"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Unarmored Movement class feature."
+description = "Your speed increases while you aren’t wearing armor or using a shield. The increase grows as you gain levels in the class that grants this feature."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.unarmored-movement"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Uncanny Metabolism class feature."
+description = "A class feature that lets you regain some vigor and recover from certain harmful effects when you enter a fighting focus."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.uncanny-metabolism"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Fleet Step class feature."
+description = "A class feature that lets you move with exceptional speed or agility when its requirements are met."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.fleet-step"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Open Hand Technique class feature."
+description = "Your martial arts can disrupt, push, or unbalance a creature you strike. You choose one of these effects when you spend your focus to enhance an unarmed hit."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.open-hand-technique"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Quivering Palm class feature."
+description = "A monk technique that leaves a delayed vibration in a creature you strike. You can later end the effect to severely harm the creature, with a chance of killing it outright."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.quivering-palm"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Wholeness Of Body class feature."
+description = "A monk feature that lets you draw on inner discipline to restore your own hit points. You use it on your turn by spending a bonus action."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.wholeness-of-body"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Abjure Foes class feature."
+description = "You present your holy symbol and force nearby enemies to resist your will or become frightened and flee from you."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.abjure-foes"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Aura Expansion class feature."
+description = "A class feature that lets you extend the reach of an aura you create. It applies when you use an ability that produces an aura."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.aura-expansion"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Aura Of Courage class feature."
+description = "A paladin feature that steadies you and nearby allies against fear while you remain conscious."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.aura-of-courage"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Aura Of Protection class feature."
+description = "A protective aura surrounds you and nearby allies while you are conscious. Those within it add your Charisma modifier to their saving throws."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.aura-of-protection"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Faithful Steed class feature."
+description = "A class feature that gives you a loyal mount or companion to aid your travel and carry you in battle."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.faithful-steed"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Lay On Hands class feature."
+description = "A paladin healing reserve you use as an action to restore a creature’s hit points or cure certain poisons and diseases. You choose how much of the reserve to spend each time."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.lay-on-hands"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Paladin Subclass class feature."
+description = "A label for a class feature that belongs to a paladin’s chosen subclass. It marks abilities gained from that subclass as you advance in the class."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.paladin-subclass"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Paladins Smite class feature."
+description = "Marks the paladin feature that lets you channel divine power through a weapon strike to deal extra radiant damage."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.paladins-smite"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Radiant Strikes class feature."
+description = "A class feature that lets your unarmed attacks deal radiant energy damage instead of their normal damage type."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.radiant-strikes"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Restoring Touch class feature."
+description = "You can use an action to touch a creature and restore some of its lost hit points."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.restoring-touch"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Aura Of Devotion class feature."
+description = "You project a protective aura that prevents you and nearby allies from being charmed while you are conscious."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.aura-of-devotion"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Holy Nimbus class feature."
+description = "A class feature that surrounds you with radiant power, harming nearby foes and shielding you from hostile magic."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.holy-nimbus"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Sacred Weapon class feature."
+description = "A paladin feature that lets you empower a weapon with sacred power, improving its accuracy and making it shine with bright light for a time."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.sacred-weapon"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Smite Of Protection class feature."
+description = "A paladin feature that lets you channel divine power through a weapon strike to protect yourself or an ally. You use it when you hit, expending a spell slot to grant a defensive benefit."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.smite-of-protection"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Spells class feature."
+description = "Marks a class feature that lets you cast and prepare spells according to your class’s spellcasting rules."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.spells"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Deft Explorer class feature."
+description = "A ranger feature that sharpens your travel and survival skills as you gain levels. It grants benefits for exploring, moving through terrain, and enduring the wilds."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.deft-explorer"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Favored Enemy class feature."
+description = "A ranger feature that marks certain creature kinds as familiar prey. You gain special advantages when tracking, recalling lore about, and dealing with those foes."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.favored-enemy"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Favored Enemy Uses class feature."
+description = "A class feature that lets you call on your training against your chosen foes. You use it when another class rule tells you to spend one of its uses."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.favored-enemy-uses"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Feral Senses class feature."
+description = "Your senses can detect nearby creatures even when you cannot see them clearly. You use this awareness to locate hidden foes within its range."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.feral-senses"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Foe Slayer class feature."
+description = "A ranger’s late-career talent for striking favored enemies with exceptional precision and force. You apply it when you attack a creature you have studied as prey."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.foe-slayer"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Natures Veil class feature."
+description = "A ranger feature that lets you briefly vanish from sight. You use it to become invisible until the effect ends."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.natures-veil"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Precise Hunter class feature."
+description = "A class feature that lets you make carefully aimed attacks with greater accuracy. You use it when its requirements are met on your turn."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.precise-hunter"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Ranger Subclass class feature."
+description = "A marker for a class feature that belongs to a ranger archetype. It identifies options gained from your ranger subclass."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.ranger-subclass"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Relentless Hunter class feature."
+description = "A class feature that marks you as an especially determined tracker and pursuer. Its specific benefits are described in your class rules."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.relentless-hunter"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Roving class feature."
+description = "A class feature that improves your travel through favored terrain, helping you move and explore more efficiently."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.roving"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Tireless class feature."
+description = "A class feature that lets you draw on your endurance to recover from exhaustion and push through long days."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.tireless"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Defensive Tactics class feature."
+description = "A class feature that gives you a defensive option based on your chosen fighting style or training. You use the option described by your subclass or feature."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.defensive-tactics"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Hunters Lore class feature."
+description = "A class feature that represents your accumulated knowledge of prey. It marks the feature’s rules as part of the hunter’s training."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.hunters-lore"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Hunters Prey class feature."
+description = "A ranger feature that lets you choose a special tactic when you take it, improving how you hinder or pursue your chosen foes."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.hunters-prey"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Superior Hunters Defense class feature."
+description = "A ranger feature that improves your defenses against the creatures you hunt. Its benefits apply as described by your subclass."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.superior-hunters-defense"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Superior Hunters Prey class feature."
+description = "A ranger feature that grants an enhanced hunting technique. You choose one option when you gain it, improving how you hinder, evade, or pursue foes."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.superior-hunters-prey"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Cunning Action class feature."
+description = "Starting at 2nd level, you can use a bonus action on your turn to Dash, Disengage, or Hide."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.cunning-action"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Cunning Strike class feature."
+description = "A rogue feature that lets you trade some Sneak Attack damage for a hindering effect when your attack hits. You choose the effect as part of the attack."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.cunning-strike"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Devious Strikes class feature."
+description = "A rogue feature that lets you add special effects to your Sneak Attack. You choose an available effect when you deal Sneak Attack damage."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.devious-strikes"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Elusive class feature."
+description = "A class feature that lets you avoid a foe’s attempts to pin down your position. It applies when that foe tries to gain an advantage by watching or anticipating your movement."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.elusive"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Improved Cunning Strike class feature."
+description = "Your precise attacks can apply two Cunning Strike effects at once. You must meet each effect’s requirements and pay the combined Sneak Attack cost."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.improved-cunning-strike"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Reliable Talent class feature."
+description = "Your practiced skills produce dependable results. When you make an ability check using a proficiency you have mastered, treat a low roll as a moderate success."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.reliable-talent"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Rogue Subclass class feature."
+description = "A class feature that identifies a rogue’s specialized path and grants its related abilities as you gain rogue levels."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.rogue-subclass"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Slippery Mind class feature."
+description = "A class feature that strengthens your mental defenses, granting you proficiency in Wisdom saving throws."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.slippery-mind"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Sneak Attack class feature."
+description = "A rogue feature that lets you deal extra damage once on your turn when you strike with a precise, well-timed attack."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.sneak-attack"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Sneak Attack Column Data class feature."
+description = "Marks a class feature that shows how your extra damage from striking unaware or distracted foes improves as you gain levels."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.sneak-attack-column-data"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Steady Aim class feature."
+description = "A rogue feature that lets you steady yourself before attacking to gain an edge on one attack, but leaves you unable to move that turn."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.steady-aim"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Stroke Of Luck class feature."
+description = "A rogue feature that lets you turn a failed attack or ability check into a success, and improve a missed attack into a hit when you use it."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.stroke-of-luck"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Thieves Cant class feature."
+description = "A secret language of signs, symbols, and coded phrases used to share hidden messages with others who know it."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.thieves-cant"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Uncanny Dodge class feature."
+description = "When an attacker you can see hits you, use your reaction to halve that attack’s damage against you."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.uncanny-dodge"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Fast Hands class feature."
+description = "Lets you use an object or make a Sleight of Hand check as a bonus action. It also lets you use thieves’ tools to disarm traps or open locks that way."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.fast-hands"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Second Story Work class feature."
+description = "A class feature that lets you climb more quickly and jump farther than usual. You use it whenever you make a climb or standing jump."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.second-story-work"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Supreme Sneak class feature."
+description = "Identifies the Supreme Sneak class feature in game data. It marks an entity as using that feature’s rules."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.supreme-sneak"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Thiefs Reflexes class feature."
+description = "A rogue feature that sharpens your reactions. It helps you act quickly when danger catches you off guard."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.thiefs-reflexes"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Use Magic Device class feature."
+description = "This tag identifies the class feature that lets you meet magic item requirements you would not normally satisfy."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.use-magic-device"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Arcane Apotheosis class feature."
+description = "Identifies this entry as the Arcane Apotheosis class feature and its associated rules."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.arcane-apotheosis"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Font Of Magic class feature."
+description = "A sorcerer feature that lets you draw on an inner reserve of magical power, using it to fuel other sorcerer abilities."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.font-of-magic"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Innate Sorcery class feature."
+description = "A spellcasting feature that lets you draw on inborn magic to cast spells without relying on training or study."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.innate-sorcery"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Metamagic class feature."
+description = "Marks the sorcerer feature that lets you alter how a spell works by spending sorcery points."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.metamagic"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Metamagic Options class feature."
+description = "A class feature that lets you alter how a spell works by spending sorcery points when you cast it."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.metamagic-options"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Sorcerer Spell List class feature."
+description = "Marks this as the spell list used by sorcerers. It determines which spells a sorcerer can choose when learning or replacing a spell."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.sorcerer-spell-list"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Sorcerer Subclass class feature."
+description = "A label for a class feature that belongs to a Sorcerer’s chosen magical origin. You gain these features as you advance in the Sorcerer class."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.sorcerer-subclass"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Sorcerous Restoration class feature."
+description = "A sorcerer feature that lets you regain some of your magical power after a brief rest, provided you have no sorcery points remaining."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.sorcerous-restoration"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Sorcery Incarnate class feature."
+description = "Identifies the class feature that lets you embody your innate magic, strengthening certain spells and limiting when you can use other magic."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.sorcery-incarnate"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Sorcery Points class feature."
+description = "A resource you gain from your sorcerer class. You spend it to fuel Metamagic and other sorcerer features, and regain it as your class rules allow."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.sorcery-points"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Draconic Resilience class feature."
+description = "A sorcerous trait that makes your unarmored body harder to harm. While you are not wearing armor, your base Armor Class improves, and your hit point maximum increases when you gain this feature and each sorcerer level thereafter."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.draconic-resilience"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Draconic Spells class feature."
+description = "A class feature that grants you magic drawn from your draconic heritage. It lets you learn and cast spells as your class rules describe."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.draconic-spells"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Dragon Companion class feature."
+description = "Marks a creature as a dragon companion granted by a class feature. Its statistics and options are determined by that feature."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.dragon-companion"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Dragon Wings class feature."
+description = "A dragon feature that grants wings for flight. You use it to move through the air while your wings can carry you."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.dragon-wings"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Elemental Affinity class feature."
+description = "Marks a feature as belonging to the Elemental Affinity class option. It identifies the rule for use where that class feature is granted."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.elemental-affinity"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Contact Patron class feature."
+description = "Marks a class feature that lets you reach out to a powerful patron for guidance or aid, using the feature’s listed requirements and limits."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.contact-patron"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Eldritch Invocation Count class feature."
+description = "Marks the class feature that determines how many eldritch invocations you know. You gain more invocations as you advance in the class."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.eldritch-invocation-count"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Eldritch Invocation Options class feature."
+description = "Marks this entry as the warlock feature that grants special invocations. You choose from its available options as you gain warlock levels."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.eldritch-invocation-options"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Eldritch Invocations class feature."
+description = "A warlock feature that lets you choose magical enhancements for your eldritch abilities. You select invocations as you gain warlock levels."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.eldritch-invocations"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Eldritch Master class feature."
+description = "A high-level warlock feature that lets you spend time in meditation to regain expended pact magic after calling on your patron."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.eldritch-master"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Magical Cunning class feature."
+description = "A class feature that lets you recover some expended magical resources during a brief rest. You can use it only under the limits set by your class."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.magical-cunning"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Mystic Arcanum class feature."
+description = "A warlock feature that grants a powerful spell for limited use. You choose it at certain class levels and regain its use after a long rest."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.mystic-arcanum"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Pact Magic class feature."
+description = "Marks a class feature that grants spellcasting through a magical pact. Its spells and recovery rules follow the Pact Magic feature."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.pact-magic"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Slot Level class feature."
+description = "Marks a class feature that represents the level of spell slots you can use. Higher-level slots can power stronger spell effects."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.slot-level"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Spell Slots class feature."
+description = "A magical resource used to cast spells. Your class determines how many you have and what spell levels they can power."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.spell-slots"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Warlock Spell List class feature."
+description = "Marks this entry as the spell list for the warlock class. Warlocks choose their spells from this list when a class feature allows them to learn or replace a spell."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.warlock-spell-list"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Warlock Subclass class feature."
+description = "A class feature that marks a warlock’s otherworldly patron path. It identifies features granted by that subclass."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.warlock-subclass"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Dark Ones Blessing class feature."
+description = "A warlock feature that grants you temporary hit points when you reduce a hostile creature to 0 hit points."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.dark-ones-blessing"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Dark Ones Own Luck class feature."
+description = "Your fiendish fortune lets you add a bonus to an ability check or saving throw after seeing the roll. You can use it again after resting."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.dark-ones-own-luck"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Fiend Spells class feature."
+description = "Marks this as a class feature that grants spells associated with a fiendish source. Its details list which spells you gain and when you can use them."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.fiend-spells"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Fiendish Resilience class feature."
+description = "A fiendish defense that lets you choose a damage type to resist. You can change the chosen type after a rest."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.fiendish-resilience"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Hurl Through Hell class feature."
+description = "A warlock ability that sends a creature you hit into a nightmarish realm for a moment, then returns it harmed by the experience."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.hurl-through-hell"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Arcane Recovery class feature."
+description = "A wizard feature that lets you regain some expended spell slots during a short rest. Once you use it, you must finish a long rest before using it again."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.arcane-recovery"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Memorize Spell class feature."
+description = "Marks a class feature that lets you prepare spells from your class list for use after you rest."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.memorize-spell"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Ritual Adept class feature."
+description = "Marks a class feature that lets you cast certain spells as rituals when you have the time and required materials."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.ritual-adept"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Scholar class feature."
+description = "A tag that identifies a class feature belonging to the Scholar."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.scholar"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Signature Spells class feature."
+description = "A class feature that marks certain spells as your signature magic, granting the special benefits described by your class."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.signature-spells"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Spell Mastery class feature."
+description = "Marks the class feature that lets you cast certain practiced spells without using spell slots."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.spell-mastery"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Wizard Spell List class feature."
+description = "Identifies this entry as the Wizard’s spell list feature, which determines the spells available to that class."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.wizard-spell-list"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Wizard Subclass class feature."
+description = "A label for a class feature that belongs to a wizard’s chosen magical tradition."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.wizard-subclass"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Empowered Evocation class feature."
+description = "A wizard feature that lets you add your Intelligence modifier to one damage roll of an evocation spell you cast."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.empowered-evocation"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Evocation Savant class feature."
+description = "A wizard feature that makes evocation spells easier for you to copy into your spellbook. When you copy one, you spend less time and gold than usual."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.evocation-savant"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Overchannel class feature."
+description = "A class feature that lets you push certain spells beyond their normal limits, at the risk of harming yourself."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.overchannel"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Potent Cantrip class feature."
+description = "A class feature that makes your damaging cantrips still harm a target that succeeds on its saving throw."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.potent-cantrip"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Identifies an entity definition as the SRD Sculpt Spells class feature."
+description = "A wizard feature that lets you protect chosen creatures from the effects of your area spells. You choose which creatures are spared when you cast the spell."
 prefix = "srd.class_feature"
 tag = "srd.class_feature.sculpt-spells"

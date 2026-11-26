@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its stitched cover carries the faint scent of dust, lamp smoke, and pressed flowers from some earlier reader. Pages whisper beneath careful fingers, offering maps of old events, careful observations, and arguments preserved long after their authors fell silent. In a quiet room or beside a wavering campfire, its margins seem almost alive with patient voices."
 display_name = "Book"
 entity_def_id = "srd/item/book"
 grants_capability_while_equipped = ""

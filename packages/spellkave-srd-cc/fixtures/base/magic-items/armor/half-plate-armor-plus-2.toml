@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Smoke-dark steel overlaps in careful, weighty layers, each plate catching torchlight with a restrained silver gleam. When fastened, it settles around its bearer like the composure of an old fortress—solid, deliberate, and quietly unyielding."
 display_name = "Half Plate Armor (+2)"
 entity_def_id = "srd/magic_item/half-plate-armor-plus-2"
 grants_capability_while_equipped = ""

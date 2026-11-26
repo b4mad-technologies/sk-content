@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Black iron plates cling with a furnace-warm insistence, their seams breathing a dry scent of ash and old slaughter. Hooked gauntlets flex eagerly around the wearer’s hands, turning every clenched fist into a predatory shape. In the quiet between battles, faint snarls seem to travel through the metal, answering distant voices from below."
 display_name = "Demon Plate Armor"
 entity_def_id = "srd/magic_item/demon-plate-armor"
 grants_capability_while_equipped = ""

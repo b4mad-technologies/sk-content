@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A braided leather sling, darkened by rain and old use, hums faintly when a stone settles in its cradle. Each cast leaves a sharp whistle in the air, followed by the ugly certainty of impact. Its cord seems eager for the next turn of the wrist, tightening like a predator’s grin."
 display_name = "Vicious Sling"
 entity_def_id = "srd/magic_item/vicious-sling"
 grants_capability_while_equipped = ""

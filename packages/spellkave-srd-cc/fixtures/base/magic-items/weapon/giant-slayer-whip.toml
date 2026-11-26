@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The braided lash seems almost weightless until it cracks through the air, whereupon its sound rolls like distant thunder among high cliffs. In the hand, it tugs toward towering foes with a hungry, stubborn purpose, wrapping ankles and pride alike in its snapping coils."
 display_name = "Giant Slayer (Whip)"
 entity_def_id = "srd/magic_item/giant-slayer-whip"
 grants_capability_while_equipped = ""

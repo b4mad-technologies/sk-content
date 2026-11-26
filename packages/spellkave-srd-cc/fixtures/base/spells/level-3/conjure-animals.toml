@@ -84,6 +84,7 @@ tag = "srd.spell.list.ranger"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush passes over the ground, then the air fills with pale movement: antlers in mist, wings like torn moonlight, or a rush of ghostly scales. The summoned herd circles its keeper with wild devotion, flowing across the field as one living omen. Those who stray too near feel the brush of unseen claws and the cold breath of the untamed world."
 display_name = "Conjure Animals"
 entity_def_id = "srd/spell/conjure-animals"
 grants_capability_while_equipped = ""

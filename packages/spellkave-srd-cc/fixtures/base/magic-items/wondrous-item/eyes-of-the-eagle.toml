@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Two cool crystal lenses rest lightly against the brow, catching distant light like fragments of winter sky. Through them, far horizons sharpen: a hawk’s turn above a ridge, a banner stirring beyond the valley, the small betrayals of motion in places ordinary sight would dismiss as haze."
 display_name = "Eyes of the Eagle"
 entity_def_id = "srd/magic_item/eyes-of-the-eagle"
 grants_capability_while_equipped = ""

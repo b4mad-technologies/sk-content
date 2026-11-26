@@ -40,6 +40,7 @@ tag = "srd.tool.category.artisan"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A soot-darkened case of hollow tubes, iron shears, and polished paddles, warm to the touch long after the furnace cools. In practiced hands, a glowing gather turns soft as honey, stretching into delicate curves beneath steady breath. Every finished piece holds a faint shimmer of firelight, as though remembering the moment it first took shape."
 display_name = "Glassblower's Tools"
 entity_def_id = "srd/tool/glassblowers-tools"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Pale rime veins the long glaive’s blade, and its haft remains cold even beside a roaring hearth. When drawn, its presence hushes nearby flames into curling smoke, leaving only a clean winter glow along the steel. In bitter weather, the weapon shines like moonlight caught on a frozen river."
 display_name = "Frost Brand (Glaive)"
 entity_def_id = "srd/magic_item/frost-brand-glaive"
 grants_capability_while_equipped = ""

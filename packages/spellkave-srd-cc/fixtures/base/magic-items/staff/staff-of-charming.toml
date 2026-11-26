@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A polished wooden shaft, warm as a familiar hand, is banded with silver filigree that seems to rearrange itself around every spoken word. In crowded halls, its presence lends a quiet gravity to the bearer’s voice, while hostile whispers lose their sting and curl back toward their source. At dawn, faint music stirs within its grain like birdsong beneath leaves."
 display_name = "Staff of Charming"
 entity_def_id = "srd/magic_item/staff-of-charming"
 grants_capability_while_equipped = ""

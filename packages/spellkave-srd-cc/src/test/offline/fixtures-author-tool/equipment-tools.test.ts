@@ -26,8 +26,7 @@ describe("fixtures/ Thieves' Tools vertical slice", () => {
 		expect(String(row.description).length).toBeGreaterThan(0);
 	});
 
-	// sk-content: needs the held SRD flavor texts (PROVENANCE.md).
-	it.skip("emits a separately tagged proficiency capability and a concrete lock-picking action", async () => {
+	it("emits a separately tagged proficiency capability and a concrete lock-picking action", async () => {
 		const tools = buildTools();
 		const proficiency = (await query(tools, {
 			kind: "capability_definitions",

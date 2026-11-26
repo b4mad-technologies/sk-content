@@ -18,6 +18,7 @@ tag = "srd.feat.epic_boon"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Battle narrows to a single breath, a single opening between guard and steel. Seasoned instinct guides the hand through the space where failure should have landed, turning a near miss into the decisive stroke. Even amid clamor and smoke, their purpose finds its mark."
 display_name = "Boon of Combat Prowess"
 entity_def_id = "srd/feat/boon-of-combat-prowess"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A sleek black horse, no larger than a clenched hand, drinks the light from every room it enters. Its polished flanks seem warm despite the stone’s chill, and a faint scent of cinders clings to its mane. When loosed beneath an open sky, it carries the hush of distant hoofbeats and roads that lead somewhere far less forgiving."
 display_name = "Figurine of Wondrous Power (Obsidian Stead)"
 entity_def_id = "srd/magic_item/figurine-of-wondrous-power-obsidian-stead"
 grants_capability_while_equipped = ""

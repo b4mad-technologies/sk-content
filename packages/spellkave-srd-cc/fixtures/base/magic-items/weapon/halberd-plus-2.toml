@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale shimmer clings to the long axe blade, gathering along its hooked edge like frost beneath moonlight. In practiced hands, the haft seems to settle into every guard and sweeping turn with uncanny certainty. Its stroke leaves a brief silver wake in the air, then silence."
 display_name = "Halberd (+2)"
 entity_def_id = "srd/magic_item/halberd-plus-2"
 grants_capability_while_equipped = ""

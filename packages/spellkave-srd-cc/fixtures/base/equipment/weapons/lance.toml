@@ -89,7 +89,7 @@ tag = "srd.damage_type.piercing"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Lance — a martial melee weapon."
+description = "A long ash shaft settles beneath the arm, its polished grain alive with the tremor of a charging mount. The steel head flashes once before the world narrows to hoofbeats, wind, and the sudden jolt of impact. In quieter hands, it is an awkward thing—too proud to belong to a footbound skirmish."
 display_name = "Lance"
 entity_def_id = "srd/weapon/lance"
 grants_capability_while_equipped = ""

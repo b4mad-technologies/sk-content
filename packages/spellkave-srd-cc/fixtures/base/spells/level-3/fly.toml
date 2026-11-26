@@ -96,6 +96,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale lift gathers beneath the feet like an unseen tide, loosening earth’s claim with a feather-light shiver. Cloaks stream, hair rises, and the air opens into a silent road above the battlefield. When the enchantment fades, the world below remembers its pull."
 display_name = "Fly"
 entity_def_id = "srd/spell/fly"
 grants_capability_while_equipped = ""

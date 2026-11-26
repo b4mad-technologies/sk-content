@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale gleam clings to the spearhead even beneath mud and rain, as though the metal remembers every dawn it has seen. Its shaft sits sure in the hand, balanced with a hunter’s patience, and the point seems always eager to find the narrowest opening."
 display_name = "Spear (+1)"
 entity_def_id = "srd/magic_item/spear-plus-1"
 grants_capability_while_equipped = ""

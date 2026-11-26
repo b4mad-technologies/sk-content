@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Coarse fibers rasp against the palms, leaving behind the dry, grassy scent of hemp and road dust. Coiled at a traveler’s hip or slung over a pack, it unspools with patient reliability across ravines, up stone faces, and around stubborn cargo. A well-drawn knot settles tight with a satisfying creak."
 display_name = "Rope"
 entity_def_id = "srd/item/rope"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its supple pages whisper beneath nimble fingers, each diagram tracing impossible pivots, balanced leaps, and the quiet poise of a blade of grass in wind. Ink seems to shift when watched from the corner of the eye, inviting the reader’s body to answer every measured stroke. Long practice leaves muscles singing with a new, instinctive grace."
 display_name = "Manual of Quickness of Action"
 entity_def_id = "srd/magic_item/manual-of-quickness-of-action"
 grants_capability_while_equipped = ""

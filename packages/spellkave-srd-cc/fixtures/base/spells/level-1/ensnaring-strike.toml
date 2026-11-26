@@ -76,6 +76,7 @@ tag = "srd.damage_type.piercing"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "At the moment steel finds its mark, green fury races along the wound. Thorned runners coil around limb and weapon alike, tightening with every desperate struggle as leaves shiver in a wind no one else can feel. The air fills with the sharp scent of crushed stems and fresh sap."
 display_name = "Ensnaring Strike"
 entity_def_id = "srd/spell/ensnaring-strike"
 grants_capability_while_equipped = ""
@@ -102,7 +103,7 @@ target_ref = "srd/spell/ensnaring-strike"
 action_id = "srd/spell/ensnaring-strike/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Ensnaring Strike — a spell action."
+description = "You cast a spell that empowers your next weapon hit to bind the target in grasping vines."
 display_name = "Cast Ensnaring Strike"
 non_steering = true
 on_failure = "srd/spell/ensnaring-strike/cast/miss"
@@ -137,7 +138,7 @@ template_id = "srd/spell/ensnaring-strike/cast/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/spell/ensnared"
-description = "Ensnaring Strike — a spell condition."
+description = "You are restrained by magical vines. The effect ends when you break free or the spell ends."
 display_name = "Ensnaring Strike (ensnared)"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

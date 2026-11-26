@@ -34,6 +34,7 @@ tag = "srd.tool"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A roll of slim steel whispers against the ribs of its leather case, each pick and probe worn smooth by patient fingers. In a shuttered doorway or beneath a dust-choked stair, their tiny movements demand a held breath and a steady hand. A soft click can sound like triumph—or warning."
 display_name = "Thieves' Tools"
 entity_def_id = "srd/tool/thieves-tools"
 grants_capability_while_equipped = ""

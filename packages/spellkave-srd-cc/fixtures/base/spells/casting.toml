@@ -17,6 +17,7 @@ target_ref = "srd/spell_slot_1"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "A measure of your ability to cast level 1 spells. You expend it to cast a level 1 spell or higher-level slot when available, and regain expended slots after a Long Rest."
 display_name = "Level 1 Spell Slot"
 initial_value = 0
 max_value = 9
@@ -26,6 +27,7 @@ resource_definition_id = "srd/spell_slot_1"
 value_kind = "int"
 [[resource_definitions]]
 bundle_id = "srd"
+description = "A reserve of magic for casting level 2 spells or lower. You expend it when you cast a qualifying spell, and regain it when you finish a Long Rest."
 display_name = "Level 2 Spell Slot"
 initial_value = 0
 max_value = 9
@@ -35,6 +37,7 @@ resource_definition_id = "srd/spell_slot_2"
 value_kind = "int"
 [[resource_definitions]]
 bundle_id = "srd"
+description = "The ability modifier used for your spells. Use the modifier tied to the class that granted each spell when you cast it."
 display_name = "Spellcasting Modifier"
 initial_value = 0
 max_value = 10
@@ -45,7 +48,7 @@ value_kind = "int"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/concentrating"
-description = "Concentrating (cache/markdown/rules-glossary.md § Concentration; playing-the-game concentration break on damage). Applied by concentration spells. On HP damage to the holder, auto-resolves a Constitution saving throw (DC 10 for damage 1–19; pattern condition-hook-on-event). Failed save removes this condition; concentration-sourced spell effects on the same holder drop via their own ConditionDelta hooks."
+description = "You are maintaining a spell effect that requires your focus. When you take damage, make a Constitution saving throw or lose this condition and end the effects it supports."
 display_name = "Concentrating"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

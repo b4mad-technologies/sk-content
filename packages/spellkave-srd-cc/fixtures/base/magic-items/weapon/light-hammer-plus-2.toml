@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A squat hammer of dark iron, its face polished to a moonlit gleam and its haft wrapped in weathered blue leather. It rests with a curious balance in the palm, as though eager for the brief, decisive arc of a smith’s stroke. When raised, a faint chime seems to gather along the metal’s edge."
 display_name = "Light Hammer (+2)"
 entity_def_id = "srd/magic_item/light-hammer-plus-2"
 grants_capability_while_equipped = ""

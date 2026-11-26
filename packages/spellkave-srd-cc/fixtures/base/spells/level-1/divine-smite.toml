@@ -70,6 +70,7 @@ tag = "srd.damage_type.radiant"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A weapon’s strike blooms with a sudden, sanctifying glare, as though dawn has been caught along its edge. The air rings with a clear, bell-like force, and shadows recoil from the wound it leaves behind. Against creatures steeped in death or malice, that radiance burns with an especially merciless purity."
 display_name = "Divine Smite"
 entity_def_id = "srd/spell/divine-smite"
 grants_capability_while_equipped = ""
@@ -96,7 +97,7 @@ target_ref = "srd/spell/divine-smite"
 action_id = "srd/spell/divine-smite/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Divine Smite — a spell action."
+description = "You cast a divine smite spell, channeling sacred power through your attack. Use it when you take the Cast a Spell action."
 display_name = "Cast Divine Smite"
 non_steering = true
 on_failure = "srd/spell/divine-smite/cast/miss"

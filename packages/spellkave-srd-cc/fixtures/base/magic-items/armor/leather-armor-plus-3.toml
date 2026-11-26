@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_3"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "This supple hide carries a midnight sheen, its stitched edges warm against the skin even in a winter wind. When danger draws near, the leather seems to settle into place of its own accord, guiding every movement with quiet, unyielding confidence."
 display_name = "Leather Armor (+3)"
 entity_def_id = "srd/magic_item/leather-armor-plus-3"
 grants_capability_while_equipped = ""

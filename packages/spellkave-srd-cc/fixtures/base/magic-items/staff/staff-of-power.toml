@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Dark wood, silver filigree, and a crystal headpiece seem to contain a storm caught at the moment before it breaks. In a practiced hand, the staff thrums with layered possibilities: winter’s breath, sudden flame, invisible ramparts, and thunder held behind a calm surface. Its quiet authority makes even the air nearby feel wary."
 display_name = "Staff of Power"
 entity_def_id = "srd/magic_item/staff-of-power"
 grants_capability_while_equipped = ""

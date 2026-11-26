@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The reliquary sits heavy in the palm, a small closed case of metal worked with paint and bright stones. The surface is cool, the ornament raised enough to find by touch in the dark. It is not worn. It is carried, and the hand that holds it tends to close a little tighter."
 display_name = "Holy Symbol, Reliquary"
 entity_def_id = "srd/item/holy-symbol-reliquary"
 grants_capability_while_equipped = ""

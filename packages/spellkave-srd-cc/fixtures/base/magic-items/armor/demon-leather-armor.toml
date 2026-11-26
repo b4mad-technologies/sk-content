@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The black hide clings with a feverish warmth, its seams twitching like old wounds beneath the hand. Hooked fingers gleam at the gauntlets, eager for flesh, while harsh syllables gather unbidden at the edge of thought. Once buckled closed, the armor settles around its bearer with the possessive stillness of a watching predator."
 display_name = "Demon Leather Armor"
 entity_def_id = "srd/magic_item/demon-leather-armor"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its long blade gives a faint, restless hum in the dark, as though it resents stillness. Campfires seem to crackle louder around its haft, and sleeping hands find it before waking eyes do. When danger gathers nearby, the halberd’s cold metal carries a sudden shiver through every companion close enough to heed its warning."
 display_name = "Weapon of Warning (Halberd)"
 entity_def_id = "srd/magic_item/weapon-of-warning-halberd"
 grants_capability_while_equipped = ""

@@ -18,6 +18,7 @@ tag = "srd.feat.fighting_style"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A practiced archer reads the wind in drifting ash and the tremor of a distant branch. Each draw settles into the same quiet rhythm: breath held, string singing, and a shaft vanishing toward a chosen point."
 display_name = "Archery"
 entity_def_id = "srd/feat/archery"
 grants_capability_while_equipped = ""

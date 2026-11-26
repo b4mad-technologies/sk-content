@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A low command wakes a furnace-heart within the maul, sending orange fire crawling over its brutal head without consuming the haft. Heat shimmers in its wake, and every swing leaves the air smelling of struck iron and distant bonfires. In darkness, its blaze turns grim corridors into wavering halls of emberlight."
 display_name = "Flame Tongue Maul"
 entity_def_id = "srd/magic_item/flame-tongue-maul"
 grants_capability_while_equipped = ""

@@ -102,6 +102,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Silver dust clings to the lashes, and the world sheds its practiced disguises. Glamours thin like mist beneath a harsh dawn; hidden doors, veiled spirits, and false faces stand exposed in cold, intricate clarity. For a little while, sight becomes an unforgiving lantern."
 display_name = "True Seeing"
 entity_def_id = "srd/spell/true-seeing"
 grants_capability_while_equipped = ""

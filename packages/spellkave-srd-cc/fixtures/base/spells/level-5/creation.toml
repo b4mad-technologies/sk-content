@@ -84,6 +84,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A careful gesture draws substance from the borderland between thought and shadow, where remembered shapes wait to be given weight. Grain rises into timber, dark veins harden into stone, and bright facets gather light as though newly born. Yet every marvel carries a faint chill of impermanence, destined to loosen back into dusk when its borrowed certainty fades."
 display_name = "Creation"
 entity_def_id = "srd/spell/creation"
 grants_capability_while_equipped = ""

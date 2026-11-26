@@ -36,6 +36,7 @@ tag = "srd.item.container"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A scholar’s pack carries the quiet clutter of long nights: lamp smoke, sharp ink, dry parchment, and a book softened by many opened pages. Its straps creak beneath the burden of careful thought, while a spark-maker and oil promise that study need not end when daylight fails."
 display_name = "Scholar's Pack"
 entity_def_id = "srd/item/scholars-pack"
 grants_capability_while_equipped = ""

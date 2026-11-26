@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_3"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "This slim bow hums softly when strung, its polished limbs bending with the easy confidence of a seasoned hunter. Arrows leave it in a clean, eager whisper, seeming to find the narrow spaces between leaves, armor, and shadow. In the hand, its balance feels almost prescient."
 display_name = "Shortbow (+3)"
 entity_def_id = "srd/magic_item/shortbow-plus-3"
 grants_capability_while_equipped = ""

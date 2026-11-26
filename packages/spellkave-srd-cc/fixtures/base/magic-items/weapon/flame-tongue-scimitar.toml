@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A whispered syllable wakes a ribbon of living fire along the scimitar’s curved edge, casting wavering gold across steel and stone. Its heat never clouds the wielder’s grip, yet the air near its arc tastes of cinders and sun-baked dust. When still, the blade retains the faint scent of a hearth recently abandoned."
 display_name = "Flame Tongue Scimitar"
 entity_def_id = "srd/magic_item/flame-tongue-scimitar"
 grants_capability_while_equipped = ""

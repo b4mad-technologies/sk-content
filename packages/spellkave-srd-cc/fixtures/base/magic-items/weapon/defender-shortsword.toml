@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its narrow blade carries a watchful gleam, brightening whenever danger closes around its bearer. In a practiced hand, the sword seems to weigh every opening: sometimes lunging with merciless certainty, sometimes turning its cold light outward like an unseen shield. Even at rest, the hilt feels poised between strike and safeguard."
 display_name = "Defender (Shortsword)"
 entity_def_id = "srd/magic_item/defender-shortsword"
 grants_capability_while_equipped = ""

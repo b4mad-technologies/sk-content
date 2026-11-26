@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A slender rod of dark lacquered wood, its surface traced with pale strands that seem to shift when no one is watching. It leaves a faint tackiness on the fingers and carries the dusty scent of abandoned rafters. In moonlight, tiny beads of silver moisture gather along its length, trembling like a spider’s patient breath."
 display_name = "Wand of Web"
 entity_def_id = "srd/magic_item/wand-of-web"
 grants_capability_while_equipped = ""

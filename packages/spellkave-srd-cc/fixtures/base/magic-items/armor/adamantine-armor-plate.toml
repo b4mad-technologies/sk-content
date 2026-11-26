@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Dark, mirror-dull plates overlap with the weighty certainty of a mountain’s heart. Each joint moves with a deep, measured hush, as though the armor remembers every hammerstroke that shaped it. Blows that would shatter lesser steel meet its surface in a shower of harmless sparks and grudging echoes."
 display_name = "Adamantine Armor (Plate)"
 entity_def_id = "srd/magic_item/adamantine-armor-plate"
 grants_capability_while_equipped = ""

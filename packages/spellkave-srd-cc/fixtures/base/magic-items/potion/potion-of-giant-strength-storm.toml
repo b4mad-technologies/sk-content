@@ -36,6 +36,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The vial crackles faintly against the palm, and the dark liquid flashes once if it is shaken. It smells of rain on hot stone and a sky that has made up its mind. A swallow leaves the teeth humming. The air around the open neck feels briefly too large. A faint smell of wet iron lingers on the lip of the glass."
 display_name = "Potion of Giant Strength (storm)"
 entity_def_id = "srd/magic_item/potion-of-giant-strength-storm"
 grants_capability_while_equipped = ""

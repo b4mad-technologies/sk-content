@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The long ash shaft seems to lean toward towering foes, its iron head humming with a low, eager tension. In battle, it bites deep beneath massive ribs and behind ponderous knees, turning brute strength into stumbling panic. Even at rest, the pike carries the cold assurance of a weapon made for bringing the mighty down."
 display_name = "Giant Slayer (Pike)"
 entity_def_id = "srd/magic_item/giant-slayer-pike"
 grants_capability_while_equipped = ""

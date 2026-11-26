@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its needle-bright blade seems to savor the instant before contact, humming softly in a duelist’s grip. Each thrust leaves a cold, precise ache in the air, as though the steel has found a grievance deeper than flesh. Even sheathed, it carries the tense silence of an unfinished quarrel."
 display_name = "Vicious Rapier"
 entity_def_id = "srd/magic_item/vicious-rapier"
 grants_capability_while_equipped = ""

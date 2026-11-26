@@ -72,6 +72,7 @@ tag = "srd.spell.list.cleric"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A single clear invocation rises above the chaos, carrying like a bell note through smoke and steel. Warmth answers in scattered bodies at once: breath steadies, color returns, and the fallen find strength enough to rise. For a heartbeat, the battlefield remembers hope."
 display_name = "Mass Healing Word"
 entity_def_id = "srd/spell/mass-healing-word"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Moon-pale links flow like woven water, each ring so finely wrought that the mail settles without the usual burden of steel. A wearer hears only the faintest whisper when it moves, as though a forest breeze has found its way between the links. Its cool, silken weight carries an old confidence: protection made graceful enough for a dancer’s step."
 display_name = "Elven Chain Mail"
 entity_def_id = "srd/magic_item/elven-chain-mail"
 grants_capability_while_equipped = ""

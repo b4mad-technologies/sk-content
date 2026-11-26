@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The map is a creased sheet, edges soft from folding, ink gone brown at the corners. Rivers and roads wander across it in a hand that knew the ground. Spread on a table it smells of paper and road dust, and a finger finds the old crease before the eye does."
 display_name = "Map"
 entity_def_id = "srd/item/map"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its long ash shaft hums softly beneath a mailed grip, as though listening for the next rush of hooves. The lance’s pale steel point catches every glimmer of light, then seems to turn it outward in a warding sheen. In a charge, it feels less like a weapon than a steadfast companion bracing against the storm."
 display_name = "Defender (Lance)"
 entity_def_id = "srd/magic_item/defender-lance"
 grants_capability_while_equipped = ""

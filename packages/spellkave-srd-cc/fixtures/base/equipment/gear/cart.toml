@@ -31,6 +31,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Two wheels, a flat bed, and a tongue waiting for a beast that has not arrived yet. Splinters lift along the rail. It smells of turnips, straw, and last week's rain. Empty, it still looks like work. A rope under the bed keeps the load from walking off on the first hill."
 display_name = "Cart"
 entity_def_id = "srd/item/cart"
 grants_capability_while_equipped = ""

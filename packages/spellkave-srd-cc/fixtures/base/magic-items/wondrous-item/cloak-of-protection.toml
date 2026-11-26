@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Fine threads of midnight blue seem to drink in torchlight, then return it as a muted silver sheen along the hem. Settled across the shoulders, the cloak carries a quiet, watchful weight, as though every fold remembers the path of a near-miss. Even in a crowded hall, its wearer seems wrapped in a pocket of calm."
 display_name = "Cloak of Protection"
 entity_def_id = "srd/magic_item/cloak-of-protection"
 grants_capability_while_equipped = ""

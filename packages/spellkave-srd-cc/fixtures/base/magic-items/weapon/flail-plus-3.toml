@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_3"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Three iron stars swing from its dark haft, each link whispering with a cold, patient rhythm. When raised, the weapon seems to gather the weight of a storm cloud, its balance settling perfectly into a warrior’s grip. A faint blue sheen travels across the metal whenever battle draws near."
 display_name = "Flail (+3)"
 entity_def_id = "srd/magic_item/flail-plus-3"
 grants_capability_while_equipped = ""

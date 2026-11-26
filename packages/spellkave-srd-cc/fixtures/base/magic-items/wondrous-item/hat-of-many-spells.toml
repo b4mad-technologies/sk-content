@@ -36,6 +36,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The hat is soft and slightly too tall, and the brim smells of dried ink and candle smoke. When it is lifted, the crown seems heavier than the cloth accounts for, as if pages were tucked where no pocket shows. A hand on the brim hears a faint rustle that is not wind. The shadow it throws looks briefly written on."
 display_name = "Hat of Many Spells"
 entity_def_id = "srd/magic_item/hat-of-many-spells"
 grants_capability_while_equipped = ""

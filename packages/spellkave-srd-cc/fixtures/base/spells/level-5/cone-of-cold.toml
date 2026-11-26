@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale breath gathers around the caster’s hands, sharp with the scent of winter stone. It bursts outward in a roaring white gale, glazing armor, blackening leaves with frost, and stealing warmth from the air itself. In its wake, the fallen may stand silent and glassy beneath a skin of ice."
 display_name = "Cone of Cold"
 entity_def_id = "srd/spell/cone-of-cold"
 grants_capability_while_equipped = ""

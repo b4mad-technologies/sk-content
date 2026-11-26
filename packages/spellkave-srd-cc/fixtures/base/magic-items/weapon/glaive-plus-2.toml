@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A dark, crescent blade crowns this long-shafted weapon, its edge holding a pale, patient gleam even beneath soot and rain. When raised, the haft settles into the hands with uncanny balance, inviting broad, sweeping arcs that seem to carve a hush through the air."
 display_name = "Glaive (+2)"
 entity_def_id = "srd/magic_item/glaive-plus-2"
 grants_capability_while_equipped = ""

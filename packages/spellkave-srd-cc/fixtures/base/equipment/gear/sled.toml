@@ -31,6 +31,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Runners worn bright, lashings stiff with cold or dried mud, depending on the country. The bed is a shallow tray that wants a hide thrown over it. It whispers when dragged, a long soft scrape instead of the knock of a wheel. In deep snow it is lighter work than any wheel ever managed."
 display_name = "Sled"
 entity_def_id = "srd/item/sled"
 grants_capability_while_equipped = ""

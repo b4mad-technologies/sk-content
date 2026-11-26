@@ -140,6 +140,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A piranha turns still water into a place of sudden, flashing violence. Drawn by blood, splashing, and the panic of trapped prey, a feeding school can strip confidence from even seasoned river travelers. Alone they are wary and quick to flee, but in a frenzy they move as one hungry current."
 display_name = "Piranha"
 entity_def_id = "srd/creature/piranha"
 grants_capability_while_equipped = ""

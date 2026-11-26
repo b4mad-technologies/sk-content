@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A broad, darkened blade balances with uncanny poise, its edge seeming to turn aside danger before it arrives. In a warrior’s hands, the greataxe answers each shift of stance—sometimes eager for the killing stroke, sometimes settling like an iron bulwark between its bearer and the world."
 display_name = "Defender (Greataxe)"
 entity_def_id = "srd/magic_item/defender-greataxe"
 grants_capability_while_equipped = ""

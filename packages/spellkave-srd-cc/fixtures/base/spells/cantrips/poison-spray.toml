@@ -94,6 +94,7 @@ tag = "srd.damage_type.poison"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A sickly vapor coils from the caster’s hand, glittering with an oily sheen before it rushes toward its mark. Its stench recalls crushed nightshade and stagnant water, clinging to the air long after the cloud has thinned. Those caught in its path feel a bitter chill bloom beneath the skin."
 display_name = "Poison Spray"
 entity_def_id = "srd/spell/poison-spray"
 grants_capability_while_equipped = ""
@@ -120,7 +121,7 @@ target_ref = "srd/spell/poison-spray"
 action_id = "srd/spell/poison-spray/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Poison Spray — a spell action."
+description = "You release a puff of poisonous magic at a nearby creature. It must resist the venom or take poison damage."
 display_name = "Cast Poison Spray"
 non_steering = true
 on_failure = "srd/spell/poison-spray/cast/miss"

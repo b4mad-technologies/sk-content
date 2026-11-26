@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its iron head bears a dark, glassy sheen, as though it has cooled only moments after leaving a forge. At a spoken spark, fire coils around the striking face without consuming the haft, filling nearby shadows with a furnace glow. In battle, each swing carries the roar and heat of a smithy unleashed."
 display_name = "Flame Tongue Warhammer"
 entity_def_id = "srd/magic_item/flame-tongue-warhammer"
 grants_capability_while_equipped = ""

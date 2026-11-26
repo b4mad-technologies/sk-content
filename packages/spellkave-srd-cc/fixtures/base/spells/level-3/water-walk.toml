@@ -102,6 +102,7 @@ tag = "srd.spell.list.sorcerer"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale buoyancy gathers beneath each footfall, turning treacherous sheen into a path that answers like firm earth. Boots skim black marsh, churning surf, or smoking crimson flows without sinking, leaving only ripples and startled silence behind. Beneath the travelers, the deep waits close enough to hear."
 display_name = "Water Walk"
 entity_def_id = "srd/spell/water-walk"
 grants_capability_while_equipped = ""

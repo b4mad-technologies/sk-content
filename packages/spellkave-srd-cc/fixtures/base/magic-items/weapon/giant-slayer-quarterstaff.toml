@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A knot of dark, iron-hard wood runs beneath the quarterstaff’s weathered grain, as though a mountain root were trapped inside it. In the hands, it hums with a low, stubborn certainty, growing heavier only when towering foes draw near. A sharp crack follows each sweeping strike, carrying the sound of old trunks splitting in a winter storm."
 display_name = "Giant Slayer (Quarterstaff)"
 entity_def_id = "srd/magic_item/giant-slayer-quarterstaff"
 grants_capability_while_equipped = ""

@@ -18,6 +18,7 @@ tag = "srd.feat.fighting_style"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Steel answers steel in a quicksilver rhythm, each hand learning the other's intent before thought can intervene. A practiced fighter turns close quarters into a whirling conversation of feints, crossings, and sudden openings. The weight of two blades becomes not a burden, but a pulse carried through the wrists."
 display_name = "Two-Weapon Fighting"
 entity_def_id = "srd/feat/two-weapon-fighting"
 grants_capability_while_equipped = ""

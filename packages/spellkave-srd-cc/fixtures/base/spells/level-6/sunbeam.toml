@@ -102,6 +102,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A fierce shard of noon gathers overhead, humming with the clean, merciless brilliance of an uncovered sky. At a gesture, its light lashes outward in a searing path, bleaching color from stone and shadow alike. The caster stands beneath a small captive sun, haloed in warmth while darkness recoils from every renewed flare."
 display_name = "Sunbeam"
 entity_def_id = "srd/spell/sunbeam"
 grants_capability_while_equipped = ""

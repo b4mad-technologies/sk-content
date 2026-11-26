@@ -13,7 +13,7 @@
 action_id = "srd/dodge"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Take the Dodge action; the resulting condition lasts until this actor's next turn_start boundary."
+description = "You focus on avoiding harm until the start of your next turn, making attacks against you less likely to succeed."
 display_name = "Dodge"
 on_failure = ""
 on_success = "srd/dodge/success"
@@ -46,7 +46,7 @@ template_id = "srd/dodge/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/dodging/dex-save"
-description = "Internal actor-side half of Dodge: while Dodging, Dexterity saving throws made by this creature have Advantage."
+description = "While you are Dodging, you have advantage on Dexterity saving throws."
 display_name = "Dodging: Dexterity Save Advantage"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []
@@ -61,7 +61,7 @@ suppresses_capability_while_active = []
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/dodging"
-description = "Dodge: attacks against this creature have Disadvantage, and its Dexterity saving throws have Advantage, until the start of its next turn."
+description = "While this lasts, attacks against you are less likely to hit, and you have an edge on Dexterity saving throws. It ends at the start of your next turn."
 display_name = "Dodging"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []
@@ -144,7 +144,7 @@ priority = 0
 
 [[niche_definitions]]
 bundle_id = "srd"
-description = "actor-carried-verbs D1/D7 (ruling bead sk-rd0): revives Dodge as a universal self-verb — the acting creature's own capability carries this niche everywhere, no spatial_niche_attachment required (V1: Dodge was dead content without it)."
+description = "You focus on avoiding danger. Until your next turn, attacks against you are harder to land, and you have an edge on avoiding effects you can see."
 display_name = "Dodge (self)"
 niche_id = "capability:srd/action/dodge"
 predicate_source = ""

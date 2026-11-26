@@ -96,6 +96,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A captive dawn erupts at the caster’s chosen point, flooding the air with white-gold fire and casting hard, trembling shadows across the battlefield. Darkness peels away before it, leaving scorched vision and ringing silence in its wake. For an instant, even the boldest shapes become silhouettes against a merciless sky."
 display_name = "Sunburst"
 entity_def_id = "srd/spell/sunburst"
 grants_capability_while_equipped = ""

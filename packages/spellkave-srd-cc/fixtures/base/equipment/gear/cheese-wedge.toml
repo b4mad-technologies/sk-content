@@ -30,6 +30,7 @@ tag = "srd.item.food"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale wedge, rind a little sharp, the cut face sweating in warm air. It smells of cellar and salt. It travels well, wrapped in cloth, and it is the sort of food a person eats standing up without sitting down to admit they are hungry."
 display_name = "Cheese (wedge)"
 entity_def_id = "srd/item/cheese-wedge"
 grants_capability_while_equipped = ""

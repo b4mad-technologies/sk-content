@@ -14,6 +14,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A small, dull disc, greened at the edge, warm only after it has lived in a fist. The stamp is worn nearly smooth. It clicks against its siblings with a cheap, cheerful sound, the coin of bread, tolls, and a night that was not fine. A barman bites it, out of habit more than doubt."
 display_name = "Copper Piece"
 entity_def_id = "srd/item/copper-piece"
 grants_capability_while_equipped = ""

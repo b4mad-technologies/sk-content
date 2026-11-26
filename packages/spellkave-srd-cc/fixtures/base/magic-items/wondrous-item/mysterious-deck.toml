@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Ivory leaves whisper against one another with the dry hush of sealed tombs. Their painted figures seem to shift at the corner of the eye—crowns, gallows, stars, and grinning masks awaiting a finger’s choice. The deck feels warm with promise and cold with consequence, as though fate itself has been shuffled into a hand-sized prison."
 display_name = "Mysterious Deck"
 entity_def_id = "srd/magic_item/mysterious-deck"
 grants_capability_while_equipped = ""

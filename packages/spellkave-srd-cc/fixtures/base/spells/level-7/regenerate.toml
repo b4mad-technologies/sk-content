@@ -90,6 +90,7 @@ tag = "srd.spell.list.druid"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A low, steady warmth gathers beneath the skin, knitting torn flesh with the patience of roots seeking water. Blood quiets, breath deepens, and wounds close as though time itself has been persuaded to turn backward. Where loss once marked the body, pale new life unfurls—bone, sinew, and skin returning in solemn, miraculous silence."
 display_name = "Regenerate"
 entity_def_id = "srd/spell/regenerate"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A coronet of blackened steel, its jeweled surface holds dawnlight, banked embers, and impossible colors beneath each facet. In a tomb’s hush, the stones seem to wake one by one, casting wary glimmers across old bones and drawn blades. Heat gathers gently around its wearer, while every gem waits with the tense, bright patience of a star about to fall."
 display_name = "Helm of Brilliance"
 entity_def_id = "srd/magic_item/helm-of-brilliance"
 grants_capability_while_equipped = ""

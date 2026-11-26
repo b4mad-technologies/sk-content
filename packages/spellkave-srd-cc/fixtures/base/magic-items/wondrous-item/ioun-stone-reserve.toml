@@ -36,6 +36,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A stone the color of deep water rides a lazy circle and seems to be holding something back. The mouth tastes faintly of a word saved for later. Light goes in and does not all come out. It is cool, and the orbit never hurries. Whoever stands under it keeps glancing at the stone as if a sentence were waiting there."
 display_name = "Ioun Stone (Reserve)"
 entity_def_id = "srd/magic_item/ioun-stone-reserve"
 grants_capability_while_equipped = ""

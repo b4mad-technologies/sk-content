@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The broad blade carries a low, steady chill, as though it remembers moonlit marches and banners snapping above distant fields. Along its edge, pale light gathers whenever it is drawn, lending each practiced swing the clean certainty of a bell’s final note."
 display_name = "Greatsword (+1)"
 entity_def_id = "srd/magic_item/greatsword-plus-1"
 grants_capability_while_equipped = ""

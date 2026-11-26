@@ -96,6 +96,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Time thickens like amber around the chosen, turning swift intent into a laborious struggle. Blades arrive late, shouted warnings seem to drift through syrup, and even practiced gestures lose their sure rhythm. Amid the confusion, the untouched move with the terrible clarity of a world suddenly moving too fast."
 display_name = "Slow"
 entity_def_id = "srd/spell/slow"
 grants_capability_while_equipped = ""

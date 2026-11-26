@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its polished barrel bears pale sigils that catch the light like dawn on still water. When raised against unclean shadows, the weapon answers with a thunderclap edged in sunfire, leaving the air sharp with incense and spent powder. Those who stand beside its bearer feel a quiet ward settle over them, steadfast as a chapel door in a storm."
 display_name = "Holy Avenger (Musket)"
 entity_def_id = "srd/magic_item/holy-avenger-musket"
 grants_capability_while_equipped = ""

@@ -36,6 +36,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The greatclub is a length of dark, knotted wood that makes the air feel thicker before it moves. It will not hide behind a leg, let alone in a hand. A practice swing leaves a low pressure in the ears, like a door slammed in a stone hall. The grip smells of pitch and a storm that stayed indoors."
 display_name = "Thunderous Greatclub"
 entity_def_id = "srd/magic_item/thunderous-greatclub"
 grants_capability_while_equipped = ""

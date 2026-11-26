@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A slender rod of black lacquer, cold even beside a hearth, with a pale vein of blue trapped beneath its surface. When lifted, the air around its tip seems to hold its breath, and distant muscles twitch at an unseen command. At dawn, a faint frost blooms along the handle before fading into silence."
 display_name = "Wand of Paralysis"
 entity_def_id = "srd/magic_item/wand-of-paralysis"
 grants_capability_while_equipped = ""

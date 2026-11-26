@@ -84,6 +84,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The air curdles with private nightmares given sudden shape: each victim beholds the one horror no companion can see. Courage unravels beneath phantom claws, accusing voices, and memories that bare their teeth. Around the caster, even the unafraid may feel the room grow colder, as though terror itself has found a door."
 display_name = "Weird"
 entity_def_id = "srd/spell/weird"
 grants_capability_while_equipped = ""

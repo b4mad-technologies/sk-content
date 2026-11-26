@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its darkwood stock bears tiny iron silhouettes of towering foes, each worn smooth where anxious thumbs have traced them. When raised against a hulking adversary, the crossbow seems to settle into the hands with startling certainty, its string humming like a taut bridge cable before the bolt flies."
 display_name = "Giant Slayer (Light Crossbow)"
 entity_def_id = "srd/magic_item/giant-slayer-light-crossbow"
 grants_capability_while_equipped = ""

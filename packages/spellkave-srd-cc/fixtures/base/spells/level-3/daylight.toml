@@ -96,6 +96,7 @@ tag = "srd.spell.list.sorcerer"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A clean blaze unfurls at the caster’s will, washing cellar, cavern, or battlefield in the candid glare of noon. Shadows recoil into thin, trembling borders, and false gloom gutters out where the radiance reaches. Even a humble stone can become a captive dawn, carried like a fragment of the open sky."
 display_name = "Daylight"
 entity_def_id = "srd/spell/daylight"
 grants_capability_while_equipped = ""

@@ -84,6 +84,7 @@ tag = "srd.spell.list.ranger"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush gathers beneath the boughs, then breaks into a whirl of moss-bright figures and laughing leaves. They circle their summoner like a living thicket, brushing past intruders with invisible antlers, thorned hands, and the sudden weight of old forest judgment. Within their dance, every step feels watched by roots beneath the earth."
 display_name = "Conjure Woodland Beings"
 entity_def_id = "srd/spell/conjure-woodland-beings"
 grants_capability_while_equipped = ""

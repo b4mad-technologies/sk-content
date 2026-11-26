@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A fine gray powder that clings to the fingertips with an oddly sweet, dry scent. When scattered, it blooms into a glittering haze that catches in every breath, turning laughter to gasps and steady hands to trembling desperation. Its little vessel often bears no warning beyond a stubbornly tarnished lid."
 display_name = "Dust of Sneezing and Choking"
 entity_def_id = "srd/magic_item/dust-of-sneezing-and-choking"
 grants_capability_while_equipped = ""

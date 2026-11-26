@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A band of polished silver-blue metal, cool and slick as river stone, with faint ripples gliding across its surface. When worn, it seems to lighten every limb, lending the wearer the easy, tireless grace of a creature born beneath the waves."
 display_name = "Ring of Swimming"
 entity_def_id = "srd/magic_item/ring-of-swimming"
 grants_capability_while_equipped = ""

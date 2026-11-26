@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Smoked crystal lenses sit cool against the brow, drinking in the last embers of dusk. Beneath their shadow, moonless halls soften into shades of silver and charcoal, and distant movement stirs plainly at the edge of sight. Even old darkness seems less like a wall than a curtain."
 display_name = "Goggles of Night"
 entity_def_id = "srd/magic_item/goggles-of-night"
 grants_capability_while_equipped = ""

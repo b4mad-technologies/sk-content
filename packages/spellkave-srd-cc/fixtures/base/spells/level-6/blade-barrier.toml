@@ -78,6 +78,7 @@ tag = "srd.spell.list.cleric"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A shriek like iron dragged across a tombstone rises as luminous edges assemble from empty air. They wheel in ruthless, measured ranks, carving a glittering boundary through dust, rain, and courage alike. Beyond their spinning veil, even the battlefield seems to hold its breath."
 display_name = "Blade Barrier"
 entity_def_id = "srd/spell/blade-barrier"
 grants_capability_while_equipped = ""

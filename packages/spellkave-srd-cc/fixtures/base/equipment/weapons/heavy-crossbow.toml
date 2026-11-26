@@ -101,7 +101,7 @@ tag = "srd.damage_type.piercing"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Heavy Crossbow — a martial ranged weapon."
+description = "A heavy crossbow settles into the hands like a piece of siegecraft pared down for the road. Its stock presses hard against the shoulder, and every winding motion carries the stern resistance of taut cord and heavy limbs. When it speaks, the crack seems to leave the air trembling around the bolt’s path."
 display_name = "Heavy Crossbow"
 entity_def_id = "srd/weapon/heavy-crossbow"
 grants_capability_while_equipped = ""

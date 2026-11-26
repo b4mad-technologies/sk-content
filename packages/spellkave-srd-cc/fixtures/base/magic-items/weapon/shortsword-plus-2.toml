@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its narrow blade holds a pale, unwavering sheen, as though moonlight were trapped beneath the steel. In the hand, it feels eager and perfectly balanced, turning each practiced motion into something swifter, cleaner, and quietly assured."
 display_name = "Shortsword (+2)"
 entity_def_id = "srd/magic_item/shortsword-plus-2"
 grants_capability_while_equipped = ""

@@ -40,6 +40,7 @@ tag = "srd.tool.category.instrument"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A viol rests lightly beneath the chin, its polished wood warm against the skin and its voice dark as old wine. Drawn slowly, the bow coaxes out mournful notes that linger in rafters and candle smoke. In practiced hands, even a half-remembered melody can be teased from its strings like a secret from silence."
 display_name = "Musical Instrument, Viol"
 entity_def_id = "srd/tool/musical-instrument-viol"
 grants_capability_while_equipped = ""

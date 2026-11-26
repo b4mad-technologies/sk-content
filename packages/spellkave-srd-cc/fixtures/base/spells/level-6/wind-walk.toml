@@ -78,6 +78,7 @@ tag = "srd.spell.list.druid"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A candle’s flame gutters, and a traveling company loosens into pale streamers of vapor. They race above hills and rivers on a tireless current, untouchable by brambles, blades, and broken roads below. When solid ground calls them back, the wind reluctantly gathers itself into breathing flesh."
 display_name = "Wind Walk"
 entity_def_id = "srd/spell/wind-walk"
 grants_capability_while_equipped = ""

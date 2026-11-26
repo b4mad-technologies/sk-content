@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its curved edge drinks candlelight without ever shining, and a faint pulse travels through the hilt when blood is near. In the stillness after a perfect stroke, the blade seems to listen for a departing breath. Each life it claims leaves the steel colder, as though some unseen hunger has been briefly satisfied."
 display_name = "Nine Lives Stealer (Scimitar)"
 entity_def_id = "srd/magic_item/nine-lives-stealer-scimitar"
 grants_capability_while_equipped = ""

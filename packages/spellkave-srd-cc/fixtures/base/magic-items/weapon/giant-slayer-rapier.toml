@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its narrow blade carries a deep, patient resonance, like a bell struck beneath a mountain. In the hand, it seems to lean toward towering foes, eager to find the joints beneath armor and the weak places behind colossal strides. When drawn against something enormous, the rapier’s silver glint becomes startlingly bright."
 display_name = "Giant Slayer (Rapier)"
 entity_def_id = "srd/magic_item/giant-slayer-rapier"
 grants_capability_while_equipped = ""

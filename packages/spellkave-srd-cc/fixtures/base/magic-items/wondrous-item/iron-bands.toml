@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A palm-sized knot of rusted iron, heavy with the smell of rain on old gates. When hurled, it blooms in midair with a shriek of unfolding metal, each strip snapping toward its quarry like a hungry vine. Afterward, the tangled bands draw themselves back into a silent, innocent-looking sphere."
 display_name = "Iron Bands"
 entity_def_id = "srd/magic_item/iron-bands"
 grants_capability_while_equipped = ""

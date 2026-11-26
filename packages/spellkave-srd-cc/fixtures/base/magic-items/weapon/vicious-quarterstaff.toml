@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A dark grain runs beneath the staff’s polished surface, like a bruise trapped in old wood. In motion it seems eager to find the gap in a guard, striking with a crack that leaves the air briefly hushed. Even at rest, its smooth length carries a faint, predatory tension."
 display_name = "Vicious Quarterstaff"
 entity_def_id = "srd/magic_item/vicious-quarterstaff"
 grants_capability_while_equipped = ""

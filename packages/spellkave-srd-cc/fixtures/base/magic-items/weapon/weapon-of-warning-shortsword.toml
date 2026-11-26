@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its narrow blade seems to listen more keenly than any sentry, humming faintly when danger gathers beyond the firelight. In a sleeping hand, the hilt grows suddenly warm at the first stir of violence, wrenching dreams apart before steel is drawn. Companions nearby often find themselves awake and moving before they know what woke them."
 display_name = "Weapon of Warning (Shortsword)"
 entity_def_id = "srd/magic_item/weapon-of-warning-shortsword"
 grants_capability_while_equipped = ""

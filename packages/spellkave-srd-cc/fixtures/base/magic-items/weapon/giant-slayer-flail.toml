@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its iron heads swing with a deep, hungry rhythm, as though remembering the thunder of colossal footsteps. In the hands of a determined bearer, each crack of the chain seems to carry the force of a falling tower. Giants who hear it whistling through the air often find their confidence shaken before the blow lands."
 display_name = "Giant Slayer (Flail)"
 entity_def_id = "srd/magic_item/giant-slayer-flail"
 grants_capability_while_equipped = ""

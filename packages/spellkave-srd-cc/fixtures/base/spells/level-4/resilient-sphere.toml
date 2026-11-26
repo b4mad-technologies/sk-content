@@ -84,6 +84,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A clear, humming globe blossoms around its captive, catching torchlight in rippling bands of color. Blades halt at its skin, flame gutters harmlessly across its surface, and even thunder seems to slide away into silence. Within, the enclosed figure drifts in a private stillness, able only to nudge the shining prison onward like a bubble upon the wind."
 display_name = "Resilient Sphere"
 entity_def_id = "srd/spell/resilient-sphere"
 grants_capability_while_equipped = ""

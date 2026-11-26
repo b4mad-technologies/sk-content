@@ -36,6 +36,7 @@ tag = "srd.item.light"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A squat metal lamp warms quickly in the hand, its glass chimney breathing with a soft, steady flame. The scent of hot oil clings to cloaks and gloves while its glow turns nearby stone honey-colored and leaves distant corners wavering in shadow."
 display_name = "Lamp"
 entity_def_id = "srd/item/lamp"
 grants_capability_while_equipped = ""

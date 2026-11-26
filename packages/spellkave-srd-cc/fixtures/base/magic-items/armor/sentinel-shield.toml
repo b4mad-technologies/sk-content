@@ -36,6 +36,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The shield is broad enough to cover a torso, and its face has a dull sheen that seems to watch the edge of the room. It is not a thing that fits in a palm. A strap creaks when the arm settles in, and the eyes want to check a corner that was empty a moment ago. The metal smells of oil and night air."
 display_name = "Sentinel Shield"
 entity_def_id = "srd/magic_item/sentinel-shield"
 grants_capability_while_equipped = ""

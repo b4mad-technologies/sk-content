@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A quiet green promise sleeps within this pale feather, its barbs cool and faintly scented with rain-dark earth. At a touch, the air seems to hold its breath before roots thunder downward and a mighty oak unfurls overhead, leaves whispering where empty ground stood moments before."
 display_name = "Feather Token (Tree)"
 entity_def_id = "srd/magic_item/feather-token-tree"
 grants_capability_while_equipped = ""

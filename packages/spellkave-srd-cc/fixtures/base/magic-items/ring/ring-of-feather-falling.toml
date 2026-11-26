@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale silver band, light as shed down, seems to resist the pull of every outstretched hand. When its bearer slips from a ledge or vanishes into open air, the world’s roar softens to a hush and the long drop becomes a drifting descent. Tiny motes of light trail behind it like feathers caught in moonlit wind."
 display_name = "Ring of Feather Falling"
 entity_def_id = "srd/magic_item/ring-of-feather-falling"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its black iron belly is cold even beside a forge, while the brass stopper hums with a pressure no hand can quite name. Peering into its narrow mouth reveals only a depthless murk and, sometimes, the faint suggestion of something patient beyond it. When unsealed, the air seems to hold its breath."
 display_name = "Iron Flask"
 entity_def_id = "srd/magic_item/iron-flask"
 grants_capability_while_equipped = ""

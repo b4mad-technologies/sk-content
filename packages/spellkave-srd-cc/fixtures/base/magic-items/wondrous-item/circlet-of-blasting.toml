@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A band of dark brass, warm even in winter, its rim is etched with tiny sunbursts blackened at their centers. When settled upon a brow, it hums like a furnace heard through a stone wall. In moments of anger, the air before it seems to ripple with dry heat and the sharp scent of struck flint."
 display_name = "Circlet of Blasting"
 entity_def_id = "srd/magic_item/circlet-of-blasting"
 grants_capability_while_equipped = ""

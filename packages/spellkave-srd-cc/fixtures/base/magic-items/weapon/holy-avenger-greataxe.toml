@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The broad blade bears a sun-bright sheen that never gathers rust, its edge humming softly when grave-cold shadows draw near. In a steadfast hand, it fills the air with the scent of storm-cleansed stone and ringing chapel bells. Companions standing close feel their courage settle like iron beneath a mantle of warm, watchful light."
 display_name = "Holy Avenger (Greataxe)"
 entity_def_id = "srd/magic_item/holy-avenger-greataxe"
 grants_capability_while_equipped = ""

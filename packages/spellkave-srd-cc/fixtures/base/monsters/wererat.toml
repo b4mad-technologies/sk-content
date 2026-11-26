@@ -164,6 +164,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A wererat thrives where crowded streets, cellar tunnels, and forgotten drains offer endless places to vanish. In mortal guise, it cultivates suspicion with whispered bargains and stolen secrets; when cornered, its true nature erupts in claws, fangs, and frantic cunning. Few infestations begin with a scream—most begin with something missing."
 display_name = "Wererat"
 entity_def_id = "srd/creature/wererat"
 grants_capability_while_equipped = ""

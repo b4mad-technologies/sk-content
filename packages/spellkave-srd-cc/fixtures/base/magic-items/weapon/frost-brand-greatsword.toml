@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A breath of winter clings to this broad, pale blade, frosting its edge even beside a roaring hearth. When drawn, warmth falters and nearby candles gutter into silence, leaving the air sharp and clean. In deep snow or glacial dark, the sword kindles with a cold, moonlike radiance that follows its bearer."
 display_name = "Frost Brand (Greatsword)"
 entity_def_id = "srd/magic_item/frost-brand-greatsword"
 grants_capability_while_equipped = ""

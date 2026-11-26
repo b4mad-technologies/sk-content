@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A bare hilt warms the palm like dawn caught in metal. At a thought, it unfolds into a keen bar of living sunlight, filling crypts and moonless corridors with clean, merciless gold. Shadows recoil from its presence, and the restless dead seem to remember the sky."
 display_name = "Sun Blade"
 entity_def_id = "srd/magic_item/sun-blade"
 grants_capability_while_equipped = ""

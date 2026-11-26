@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The squat-headed hammer hums with a deep, quarry-born impatience, its haft warm beneath the palm. When raised against towering foes, it seems to gather the weight of fallen mountains, turning each blow into a thunderous rebuke that can buckle knees and shake the ground beneath colossal feet."
 display_name = "Giant Slayer (Warhammer)"
 entity_def_id = "srd/magic_item/giant-slayer-warhammer"
 grants_capability_while_equipped = ""

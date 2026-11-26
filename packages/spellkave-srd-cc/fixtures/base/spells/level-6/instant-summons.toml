@@ -84,6 +84,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A sapphire drinks in the chosen treasure’s quiet identity, holding it like a secret beneath flawless blue depths. Across locked vaults, storm-tossed seas, and stranger horizons, the bond waits without a sound. When the gem is broken, absence itself reaches for the lost thing—or betrays the hand that keeps it."
 display_name = "Instant Summons"
 entity_def_id = "srd/spell/instant-summons"
 grants_capability_while_equipped = ""

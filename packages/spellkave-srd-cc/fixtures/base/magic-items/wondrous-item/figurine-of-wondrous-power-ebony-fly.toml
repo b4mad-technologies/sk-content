@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Polished black wood catches the light along the ridges of its folded wings, warm and faintly humming in the palm. A sharp scent of rain-soaked earth clings to it when stirred. In open air, its tiny carved legs seem poised to spring skyward, promising a swift, droning passage above tangled roads and moonlit fields."
 display_name = "Figurine of Wondrous Power (Ebony Fly)"
 entity_def_id = "srd/magic_item/figurine-of-wondrous-power-ebony-fly"
 grants_capability_while_equipped = ""

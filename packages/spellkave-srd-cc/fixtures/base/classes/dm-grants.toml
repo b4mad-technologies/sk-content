@@ -367,1716 +367,1716 @@ tag = "srd.advancement.fighter.3"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Barbarian level 1: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned barbarian level 1. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.barbarian.1"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Barbarian level 2: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned barbarian level 2. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.barbarian.2"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Barbarian level 3: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned barbarian level 3. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.barbarian.3"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Barbarian level 4: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned barbarian level 4. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.barbarian.4"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Barbarian level 5: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned barbarian level 5. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.barbarian.5"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Barbarian level 6: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned barbarian level 6. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.barbarian.6"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Barbarian level 7: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned barbarian level 7. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.barbarian.7"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Barbarian level 8: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned barbarian level 8. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.barbarian.8"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Barbarian level 9: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned barbarian level 9. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.barbarian.9"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Barbarian level 10: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned barbarian level 10. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.barbarian.10"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Barbarian level 11: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned barbarian level 11. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.barbarian.11"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Barbarian level 12: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned barbarian level 12. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.barbarian.12"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Barbarian level 13: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned barbarian level 13. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.barbarian.13"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Barbarian level 14: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned barbarian level 14. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.barbarian.14"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Barbarian level 15: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned barbarian level 15. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.barbarian.15"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Barbarian level 16: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned barbarian level 16. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.barbarian.16"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Barbarian level 17: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned barbarian level 17. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.barbarian.17"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Barbarian level 18: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned barbarian level 18. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.barbarian.18"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Barbarian level 19: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned barbarian level 19. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.barbarian.19"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Barbarian level 20: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned barbarian level 20. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.barbarian.20"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Bard level 1: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned bard level 1. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.bard.1"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Bard level 2: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned bard level 2. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.bard.2"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Bard level 3: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned bard level 3. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.bard.3"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Bard level 4: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned bard level 4. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.bard.4"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Bard level 5: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned bard level 5. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.bard.5"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Bard level 6: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned bard level 6. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.bard.6"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Bard level 7: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned bard level 7. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.bard.7"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Bard level 8: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned bard level 8. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.bard.8"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Bard level 9: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned bard level 9. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.bard.9"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Bard level 10: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned bard level 10. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.bard.10"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Bard level 11: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned bard level 11. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.bard.11"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Bard level 12: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned bard level 12. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.bard.12"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Bard level 13: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned bard level 13. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.bard.13"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Bard level 14: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned bard level 14. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.bard.14"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Bard level 15: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned bard level 15. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.bard.15"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Bard level 16: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned bard level 16. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.bard.16"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Bard level 17: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned bard level 17. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.bard.17"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Bard level 18: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned bard level 18. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.bard.18"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Bard level 19: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned bard level 19. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.bard.19"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Bard level 20: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned bard level 20. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.bard.20"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Cleric level 1: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned cleric level 1. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.cleric.1"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Cleric level 2: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned cleric level 2. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.cleric.2"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Cleric level 3: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned cleric level 3. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.cleric.3"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Cleric level 4: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned cleric level 4. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.cleric.4"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Cleric level 5: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned cleric level 5. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.cleric.5"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Cleric level 6: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned cleric level 6. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.cleric.6"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Cleric level 7: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned cleric level 7. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.cleric.7"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Cleric level 8: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned cleric level 8. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.cleric.8"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Cleric level 9: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned cleric level 9. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.cleric.9"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Cleric level 10: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned cleric level 10. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.cleric.10"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Cleric level 11: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned cleric level 11. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.cleric.11"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Cleric level 12: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned cleric level 12. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.cleric.12"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Cleric level 13: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned cleric level 13. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.cleric.13"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Cleric level 14: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned cleric level 14. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.cleric.14"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Cleric level 15: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned cleric level 15. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.cleric.15"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Cleric level 16: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned cleric level 16. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.cleric.16"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Cleric level 17: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned cleric level 17. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.cleric.17"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Cleric level 18: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned cleric level 18. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.cleric.18"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Cleric level 19: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned cleric level 19. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.cleric.19"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Cleric level 20: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned cleric level 20. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.cleric.20"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Druid level 1: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned druid level 1. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.druid.1"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Druid level 2: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned druid level 2. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.druid.2"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Druid level 3: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned druid level 3. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.druid.3"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Druid level 4: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned druid level 4. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.druid.4"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Druid level 5: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned druid level 5. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.druid.5"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Druid level 6: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned druid level 6. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.druid.6"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Druid level 7: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned druid level 7. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.druid.7"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Druid level 8: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned druid level 8. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.druid.8"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Druid level 9: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned druid level 9. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.druid.9"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Druid level 10: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned druid level 10. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.druid.10"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Druid level 11: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned druid level 11. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.druid.11"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Druid level 12: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned druid level 12. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.druid.12"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Druid level 13: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned druid level 13. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.druid.13"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Druid level 14: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned druid level 14. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.druid.14"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Druid level 15: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned druid level 15. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.druid.15"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Druid level 16: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned druid level 16. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.druid.16"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Druid level 17: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned druid level 17. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.druid.17"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Druid level 18: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned druid level 18. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.druid.18"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Druid level 19: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned druid level 19. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.druid.19"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Druid level 20: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned druid level 20. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.druid.20"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Fighter level 1: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned fighter level 1. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.fighter.1"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Fighter level 2: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned fighter level 2. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.fighter.2"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Fighter level 3: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned fighter level 3. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.fighter.3"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Fighter level 4: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned fighter level 4. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.fighter.4"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Fighter level 5: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned fighter level 5. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.fighter.5"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Fighter level 6: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned fighter level 6. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.fighter.6"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Fighter level 7: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned fighter level 7. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.fighter.7"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Fighter level 8: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned fighter level 8. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.fighter.8"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Fighter level 9: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned fighter level 9. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.fighter.9"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Fighter level 10: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned fighter level 10. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.fighter.10"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Fighter level 11: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned fighter level 11. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.fighter.11"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Fighter level 12: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned fighter level 12. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.fighter.12"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Fighter level 13: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned fighter level 13. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.fighter.13"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Fighter level 14: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned fighter level 14. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.fighter.14"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Fighter level 15: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned fighter level 15. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.fighter.15"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Fighter level 16: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned fighter level 16. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.fighter.16"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Fighter level 17: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned fighter level 17. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.fighter.17"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Fighter level 18: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned fighter level 18. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.fighter.18"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Fighter level 19: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned fighter level 19. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.fighter.19"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Fighter level 20: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned fighter level 20. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.fighter.20"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Monk level 1: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned monk level 1. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.monk.1"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Monk level 2: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned monk level 2. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.monk.2"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Monk level 3: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned monk level 3. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.monk.3"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Monk level 4: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned monk level 4. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.monk.4"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Monk level 5: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned monk level 5. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.monk.5"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Monk level 6: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned monk level 6. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.monk.6"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Monk level 7: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned monk level 7. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.monk.7"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Monk level 8: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned monk level 8. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.monk.8"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Monk level 9: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned monk level 9. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.monk.9"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Monk level 10: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned monk level 10. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.monk.10"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Monk level 11: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned monk level 11. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.monk.11"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Monk level 12: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned monk level 12. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.monk.12"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Monk level 13: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned monk level 13. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.monk.13"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Monk level 14: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned monk level 14. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.monk.14"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Monk level 15: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned monk level 15. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.monk.15"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Monk level 16: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned monk level 16. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.monk.16"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Monk level 17: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned monk level 17. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.monk.17"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Monk level 18: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned monk level 18. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.monk.18"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Monk level 19: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned monk level 19. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.monk.19"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Monk level 20: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned monk level 20. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.monk.20"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Paladin level 1: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned paladin level 1. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.paladin.1"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Paladin level 2: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned paladin level 2. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.paladin.2"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Paladin level 3: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned paladin level 3. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.paladin.3"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Paladin level 4: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned paladin level 4. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.paladin.4"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Paladin level 5: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned paladin level 5. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.paladin.5"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Paladin level 6: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned paladin level 6. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.paladin.6"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Paladin level 7: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned paladin level 7. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.paladin.7"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Paladin level 8: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned paladin level 8. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.paladin.8"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Paladin level 9: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned paladin level 9. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.paladin.9"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Paladin level 10: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned paladin level 10. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.paladin.10"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Paladin level 11: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned paladin level 11. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.paladin.11"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Paladin level 12: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned paladin level 12. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.paladin.12"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Paladin level 13: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned paladin level 13. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.paladin.13"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Paladin level 14: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned paladin level 14. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.paladin.14"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Paladin level 15: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned paladin level 15. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.paladin.15"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Paladin level 16: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned paladin level 16. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.paladin.16"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Paladin level 17: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned paladin level 17. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.paladin.17"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Paladin level 18: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned paladin level 18. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.paladin.18"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Paladin level 19: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned paladin level 19. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.paladin.19"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Paladin level 20: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned paladin level 20. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.paladin.20"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Ranger level 1: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned ranger level 1. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.ranger.1"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Ranger level 2: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned ranger level 2. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.ranger.2"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Ranger level 3: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned ranger level 3. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.ranger.3"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Ranger level 4: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned ranger level 4. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.ranger.4"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Ranger level 5: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned ranger level 5. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.ranger.5"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Ranger level 6: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned ranger level 6. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.ranger.6"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Ranger level 7: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned ranger level 7. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.ranger.7"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Ranger level 8: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned ranger level 8. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.ranger.8"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Ranger level 9: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned ranger level 9. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.ranger.9"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Ranger level 10: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned ranger level 10. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.ranger.10"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Ranger level 11: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned ranger level 11. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.ranger.11"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Ranger level 12: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned ranger level 12. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.ranger.12"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Ranger level 13: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned ranger level 13. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.ranger.13"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Ranger level 14: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned ranger level 14. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.ranger.14"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Ranger level 15: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned ranger level 15. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.ranger.15"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Ranger level 16: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned ranger level 16. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.ranger.16"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Ranger level 17: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned ranger level 17. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.ranger.17"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Ranger level 18: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned ranger level 18. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.ranger.18"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Ranger level 19: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned ranger level 19. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.ranger.19"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Ranger level 20: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned ranger level 20. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.ranger.20"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Rogue level 1: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned rogue level 1. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.rogue.1"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Rogue level 2: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned rogue level 2. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.rogue.2"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Rogue level 3: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned rogue level 3. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.rogue.3"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Rogue level 4: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned rogue level 4. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.rogue.4"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Rogue level 5: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned rogue level 5. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.rogue.5"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Rogue level 6: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned rogue level 6. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.rogue.6"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Rogue level 7: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned rogue level 7. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.rogue.7"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Rogue level 8: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned rogue level 8. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.rogue.8"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Rogue level 9: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned rogue level 9. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.rogue.9"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Rogue level 10: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned rogue level 10. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.rogue.10"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Rogue level 11: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned rogue level 11. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.rogue.11"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Rogue level 12: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned rogue level 12. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.rogue.12"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Rogue level 13: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned rogue level 13. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.rogue.13"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Rogue level 14: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned rogue level 14. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.rogue.14"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Rogue level 15: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned rogue level 15. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.rogue.15"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Rogue level 16: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned rogue level 16. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.rogue.16"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Rogue level 17: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned rogue level 17. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.rogue.17"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Rogue level 18: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned rogue level 18. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.rogue.18"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Rogue level 19: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned rogue level 19. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.rogue.19"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Rogue level 20: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned rogue level 20. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.rogue.20"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Sorcerer level 1: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned sorcerer level 1. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.sorcerer.1"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Sorcerer level 2: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned sorcerer level 2. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.sorcerer.2"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Sorcerer level 3: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned sorcerer level 3. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.sorcerer.3"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Sorcerer level 4: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned sorcerer level 4. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.sorcerer.4"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Sorcerer level 5: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned sorcerer level 5. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.sorcerer.5"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Sorcerer level 6: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned sorcerer level 6. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.sorcerer.6"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Sorcerer level 7: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned sorcerer level 7. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.sorcerer.7"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Sorcerer level 8: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned sorcerer level 8. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.sorcerer.8"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Sorcerer level 9: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned sorcerer level 9. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.sorcerer.9"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Sorcerer level 10: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned sorcerer level 10. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.sorcerer.10"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Sorcerer level 11: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned sorcerer level 11. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.sorcerer.11"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Sorcerer level 12: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned sorcerer level 12. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.sorcerer.12"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Sorcerer level 13: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned sorcerer level 13. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.sorcerer.13"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Sorcerer level 14: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned sorcerer level 14. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.sorcerer.14"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Sorcerer level 15: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned sorcerer level 15. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.sorcerer.15"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Sorcerer level 16: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned sorcerer level 16. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.sorcerer.16"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Sorcerer level 17: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned sorcerer level 17. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.sorcerer.17"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Sorcerer level 18: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned sorcerer level 18. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.sorcerer.18"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Sorcerer level 19: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned sorcerer level 19. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.sorcerer.19"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Sorcerer level 20: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned sorcerer level 20. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.sorcerer.20"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Warlock level 1: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned warlock level 1. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.warlock.1"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Warlock level 2: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned warlock level 2. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.warlock.2"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Warlock level 3: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned warlock level 3. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.warlock.3"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Warlock level 4: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned warlock level 4. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.warlock.4"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Warlock level 5: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned warlock level 5. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.warlock.5"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Warlock level 6: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned warlock level 6. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.warlock.6"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Warlock level 7: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned warlock level 7. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.warlock.7"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Warlock level 8: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned warlock level 8. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.warlock.8"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Warlock level 9: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned warlock level 9. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.warlock.9"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Warlock level 10: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned warlock level 10. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.warlock.10"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Warlock level 11: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned warlock level 11. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.warlock.11"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Warlock level 12: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned warlock level 12. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.warlock.12"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Warlock level 13: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned warlock level 13. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.warlock.13"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Warlock level 14: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned warlock level 14. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.warlock.14"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Warlock level 15: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned warlock level 15. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.warlock.15"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Warlock level 16: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned warlock level 16. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.warlock.16"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Warlock level 17: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned warlock level 17. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.warlock.17"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Warlock level 18: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned warlock level 18. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.warlock.18"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Warlock level 19: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned warlock level 19. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.warlock.19"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Warlock level 20: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned warlock level 20. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.warlock.20"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Wizard level 1: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned wizard level 1. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.wizard.1"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Wizard level 2: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned wizard level 2. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.wizard.2"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Wizard level 3: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned wizard level 3. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.wizard.3"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Wizard level 4: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned wizard level 4. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.wizard.4"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Wizard level 5: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned wizard level 5. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.wizard.5"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Wizard level 6: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned wizard level 6. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.wizard.6"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Wizard level 7: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned wizard level 7. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.wizard.7"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Wizard level 8: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned wizard level 8. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.wizard.8"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Wizard level 9: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned wizard level 9. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.wizard.9"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Wizard level 10: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned wizard level 10. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.wizard.10"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Wizard level 11: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned wizard level 11. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.wizard.11"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Wizard level 12: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned wizard level 12. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.wizard.12"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Wizard level 13: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned wizard level 13. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.wizard.13"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Wizard level 14: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned wizard level 14. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.wizard.14"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Wizard level 15: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned wizard level 15. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.wizard.15"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Wizard level 16: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned wizard level 16. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.wizard.16"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Wizard level 17: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned wizard level 17. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.wizard.17"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Wizard level 18: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned wizard level 18. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.wizard.18"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Wizard level 19: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned wizard level 19. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.wizard.19"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Wizard level 20: backed srd.advancement_grant capabilities. Unsupported grants remain in the advancement gap report."
+description = "Your earned wizard level 20. It grants the class abilities available at this stage of your progression."
 prefix = "srd.advancement"
 tag = "srd.advancement.wizard.20"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/feat/alert."
+description = "Your chosen Feat: Alert (Initiative Proficiency) training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.feat.alert"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/proficiency/tool/alchemists-supplies."
+description = "Your chosen Tool Proficiency: Alchemist's Supplies training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.proficiency.tool.alchemists-supplies"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/proficiency/tool/brewers-supplies."
+description = "Your chosen Tool Proficiency: Brewer's Supplies training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.proficiency.tool.brewers-supplies"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/proficiency/tool/calligraphers-supplies."
+description = "Your chosen Tool Proficiency: Calligrapher's Supplies training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.proficiency.tool.calligraphers-supplies"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/proficiency/tool/carpenters-tools."
+description = "Your chosen Tool Proficiency: Carpenter's Tools training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.proficiency.tool.carpenters-tools"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/proficiency/tool/cartographers-tools."
+description = "Your chosen Tool Proficiency: Cartographer's Tools training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.proficiency.tool.cartographers-tools"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/proficiency/tool/cobblers-tools."
+description = "Your chosen Tool Proficiency: Cobbler's Tools training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.proficiency.tool.cobblers-tools"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/proficiency/tool/cooks-utensils."
+description = "Your chosen Tool Proficiency: Cook's Utensils training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.proficiency.tool.cooks-utensils"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/proficiency/tool/glassblowers-tools."
+description = "Your chosen Tool Proficiency: Glassblower's Tools training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.proficiency.tool.glassblowers-tools"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/proficiency/tool/jewelers-tools."
+description = "Your chosen Tool Proficiency: Jeweler's Tools training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.proficiency.tool.jewelers-tools"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/proficiency/tool/leatherworkers-tools."
+description = "Your chosen Tool Proficiency: Leatherworker's Tools training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.proficiency.tool.leatherworkers-tools"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/proficiency/tool/masons-tools."
+description = "Your chosen Tool Proficiency: Mason's Tools training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.proficiency.tool.masons-tools"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/proficiency/tool/musical-instrument-bagpipes."
+description = "Your chosen Tool Proficiency: Musical Instrument, Bagpipes training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.proficiency.tool.musical-instrument-bagpipes"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/proficiency/tool/musical-instrument-drum."
+description = "Your chosen Tool Proficiency: Musical Instrument, Drum training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.proficiency.tool.musical-instrument-drum"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/proficiency/tool/musical-instrument-dulcimer."
+description = "Your chosen Tool Proficiency: Musical Instrument, Dulcimer training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.proficiency.tool.musical-instrument-dulcimer"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/proficiency/tool/musical-instrument-flute."
+description = "Your chosen Tool Proficiency: Musical Instrument, Flute training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.proficiency.tool.musical-instrument-flute"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/proficiency/tool/musical-instrument-horn."
+description = "Your chosen Tool Proficiency: Musical Instrument, Horn training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.proficiency.tool.musical-instrument-horn"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/proficiency/tool/musical-instrument-lute."
+description = "Your chosen Tool Proficiency: Musical Instrument, Lute training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.proficiency.tool.musical-instrument-lute"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/proficiency/tool/musical-instrument-lyre."
+description = "Your chosen Tool Proficiency: Musical Instrument, Lyre training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.proficiency.tool.musical-instrument-lyre"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/proficiency/tool/musical-instrument-pan-flute."
+description = "Your chosen Tool Proficiency: Musical Instrument, Pan Flute training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.proficiency.tool.musical-instrument-pan-flute"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/proficiency/tool/musical-instrument-shawm."
+description = "Your chosen Tool Proficiency: Musical Instrument, Shawm training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.proficiency.tool.musical-instrument-shawm"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/proficiency/tool/musical-instrument-viol."
+description = "Your chosen Tool Proficiency: Musical Instrument, Viol training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.proficiency.tool.musical-instrument-viol"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/proficiency/tool/painters-supplies."
+description = "Your chosen Tool Proficiency: Painter's Supplies training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.proficiency.tool.painters-supplies"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/proficiency/tool/potters-tools."
+description = "Your chosen Tool Proficiency: Potter's Tools training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.proficiency.tool.potters-tools"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/proficiency/tool/smiths-tools."
+description = "Your chosen Tool Proficiency: Smith's Tools training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.proficiency.tool.smiths-tools"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/proficiency/tool/tinkers-tools."
+description = "Your chosen Tool Proficiency: Tinker's Tools training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.proficiency.tool.tinkers-tools"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/proficiency/tool/weavers-tools."
+description = "Your chosen Tool Proficiency: Weaver's Tools training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.proficiency.tool.weavers-tools"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/proficiency/tool/woodcarvers-tools."
+description = "Your chosen Tool Proficiency: Woodcarver's Tools training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.proficiency.tool.woodcarvers-tools"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/skill/acrobatics."
+description = "Your chosen Acrobatics training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.skill.acrobatics"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/skill/animal-handling."
+description = "Your chosen Animal Handling training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.skill.animal-handling"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/skill/arcana."
+description = "Your chosen Arcana training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.skill.arcana"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/skill/athletics."
+description = "Your chosen Athletics training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.skill.athletics"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/skill/deception."
+description = "Your chosen Deception training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.skill.deception"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/skill/history."
+description = "Your chosen History training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.skill.history"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/skill/insight."
+description = "Your chosen Insight training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.skill.insight"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/skill/intimidation."
+description = "Your chosen Intimidation training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.skill.intimidation"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/skill/investigation."
+description = "Your chosen Investigation training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.skill.investigation"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/skill/medicine."
+description = "Your chosen Medicine training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.skill.medicine"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/skill/nature."
+description = "Your chosen Nature training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.skill.nature"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/skill/perception."
+description = "Your chosen Perception training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.skill.perception"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/skill/performance."
+description = "Your chosen Performance training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.skill.performance"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/skill/persuasion."
+description = "Your chosen Persuasion training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.skill.persuasion"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/skill/religion."
+description = "Your chosen Religion training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.skill.religion"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/skill/sleight-of-hand."
+description = "Your chosen Sleight Of Hand training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.skill.sleight-of-hand"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/skill/stealth."
+description = "Your chosen Stealth training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.skill.stealth"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Chosen capability: srd/skill/survival."
+description = "Your chosen Survival training. It grants that ability alongside your other character choices."
 prefix = "srd.feature"
 tag = "srd.feature.srd.skill.survival"

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A thousand stitched pupils drift across the velvet folds, opening and closing with a faint, wet whisper. In darkness, their gaze kindles like banked coals, tracing hidden seams in stone and falsehood alike. Yet beneath a harsh radiance, the robe shudders and draws every eye tightly shut."
 display_name = "Robe of Eyes"
 entity_def_id = "srd/magic_item/robe-of-eyes"
 grants_capability_while_equipped = ""

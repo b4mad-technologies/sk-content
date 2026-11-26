@@ -18,6 +18,7 @@ tag = "srd.feat.epic_boon"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Old incantations settle into the mind like embers banked beneath ash, ready to flare again when least expected. A practiced gesture may leave no hollow ache behind it, as though the weave itself has chosen to remember the spell on the caster’s behalf."
 display_name = "Boon of Spell Recall"
 entity_def_id = "srd/feat/boon-of-spell-recall"
 grants_capability_while_equipped = ""

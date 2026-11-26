@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A thumb-worn agate, smooth as river glass, its muted bands seem to settle the eye and steady the hand. Kept close, it carries the quiet reassurance of a path that bends away from loose stones, missed steps, and doors that might otherwise remain shut."
 display_name = "Stone of Good Luck (Luckstone)"
 entity_def_id = "srd/magic_item/stone-of-good-luck-luckstone"
 grants_capability_while_equipped = ""

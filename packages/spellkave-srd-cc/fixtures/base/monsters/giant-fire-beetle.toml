@@ -140,6 +140,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A giant fire beetle creeps through dark tunnels with ember-bright glands glowing along its shell. Its steady radiance draws scavengers, prospectors, and hungrier things from far beyond the reach of a torch. When startled, it clatters into motion, filling cramped passages with heat, light, and the scrape of hooked legs."
 display_name = "Giant Fire Beetle"
 entity_def_id = "srd/creature/giant-fire-beetle"
 grants_capability_while_equipped = ""

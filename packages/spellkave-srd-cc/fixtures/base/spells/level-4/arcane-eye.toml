@@ -84,6 +84,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A cool prickle gathers behind the caster’s brow as a bodiless gaze slips into the world. It drifts through keyholes, cracks, and moonless corridors, returning every hidden stair and waiting silhouette in a silent stream of borrowed sight. Darkness offers it no sanctuary; even sealed chambers seem to hold their breath beneath its attention."
 display_name = "Arcane Eye"
 entity_def_id = "srd/spell/arcane-eye"
 grants_capability_while_equipped = ""

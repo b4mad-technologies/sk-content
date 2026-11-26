@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush settles as color drains from leaf and limb alike. Green curls to ash-brown, sap recoils into bitter knots, and even sturdy trunks seem to remember every dry season at once. Where the spell’s shadow falls, living vigor is seized by a sudden, merciless autumn."
 display_name = "Blight"
 entity_def_id = "srd/spell/blight"
 grants_capability_while_equipped = ""

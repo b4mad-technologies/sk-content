@@ -96,6 +96,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A gray hush settles over skin and sinew as living motion begins to stiffen into cold mineral certainty. Joints lock with the scrape of stone on stone, breath caught behind an expression that can no longer change. When the last trace of warmth fades, even a heartbeat seems like something remembered by the statue."
 display_name = "Flesh to Stone"
 entity_def_id = "srd/spell/flesh-to-stone"
 grants_capability_while_equipped = ""

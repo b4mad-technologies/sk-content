@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Their tarnished reeds breathe a thin, wet melody that slips through cellar cracks and beneath iron grates. At its sound, skittering feet gather from the dark, and hungry eyes gleam where no eyes seemed to be. Even the boldest sewer rat pauses to listen, whiskers trembling in uneasy devotion."
 display_name = "Pipes of the Sewers"
 entity_def_id = "srd/magic_item/pipes-of-the-sewers"
 grants_capability_while_equipped = ""

@@ -108,6 +108,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A dark mirror clouds, then clears into a borrowed horizon. Distant voices arrive softened by miles, while familiar faces and cherished keepsakes tug the wandering gaze toward their owners. Somewhere beyond the veil, an unseen presence may brush the skin like a sudden draft—and, for those with the sight to notice, gleam as a small and watchful star."
 display_name = "Scrying"
 entity_def_id = "srd/spell/scrying"
 grants_capability_while_equipped = ""

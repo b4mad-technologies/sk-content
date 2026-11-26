@@ -14,6 +14,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Warm metal flashes between thumb and forefinger, stamped with the proud profile of some long-dead ruler or a crest no one bothers to question. Its familiar ring on a tavern table can brighten a merchant’s smile, settle an argument, or invite a thief’s attention."
 display_name = "Gold Piece"
 entity_def_id = "srd/item/gold-piece"
 grants_capability_while_equipped = ""

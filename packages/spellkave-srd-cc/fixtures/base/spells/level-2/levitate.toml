@@ -88,6 +88,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A faint, springlike tension gathers beneath the chosen form, and gravity loosens its ancient grip. Cloaks drift, dust spirals, and every nearby surface becomes a possible handhold in the hush of open air. When the enchantment fades, the suspended traveler descends with the gentleness of a falling leaf."
 display_name = "Levitate"
 entity_def_id = "srd/spell/levitate"
 grants_capability_while_equipped = ""
@@ -114,7 +115,7 @@ target_ref = "srd/spell/levitate"
 action_id = "srd/spell/levitate/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Levitate — a spell action."
+description = "You cast a spell that lifts a creature or object into the air. While it lasts, you can control its vertical movement within the spell’s limits."
 display_name = "Cast Levitate"
 non_steering = true
 on_failure = ""
@@ -148,7 +149,7 @@ template_id = "srd/spell/levitate/cast/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/spell/levitating"
-description = "Levitate — a spell condition."
+description = "You rise off the ground and remain suspended in the air for the effect’s duration. You can move as the effect allows, but you cannot stand on a surface while it lasts."
 display_name = "Levitate"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

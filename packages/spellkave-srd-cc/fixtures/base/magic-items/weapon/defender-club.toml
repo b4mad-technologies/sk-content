@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Dark grain swirls beneath the club’s polished surface like storm clouds trapped in old wood. In a steady grip, its balance seems to shift with the bearer’s need—eager to strike, then suddenly stout and sheltering against an incoming blow. A low, reassuring thrum travels up the arm whenever danger closes in."
 display_name = "Defender (Club)"
 entity_def_id = "srd/magic_item/defender-club"
 grants_capability_while_equipped = ""

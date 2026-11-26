@@ -114,6 +114,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A sharp gesture scatters unseen threads, and the air rings like a cracked bell. Glamours gutter, bindings loosen, and borrowed radiance drains away in pale sparks. For an instant, the world seems stripped of its false colors before settling into its own unadorned shape."
 display_name = "Dispel Magic"
 entity_def_id = "srd/spell/dispel-magic"
 grants_capability_while_equipped = ""

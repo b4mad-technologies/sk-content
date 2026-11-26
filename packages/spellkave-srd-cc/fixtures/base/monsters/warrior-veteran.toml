@@ -157,6 +157,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Scarred by campaigns that broke lesser soldiers, the warrior veteran moves with patient confidence rather than bravado. Every feint, shouted order, and measured step reflects long familiarity with chaos. Whether serving a banner, guarding a cause, or selling hard-won skill, such fighters are dangerous precisely because they know when not to waste a blow."
 display_name = "Warrior Veteran"
 entity_def_id = "srd/creature/warrior-veteran"
 grants_capability_while_equipped = ""

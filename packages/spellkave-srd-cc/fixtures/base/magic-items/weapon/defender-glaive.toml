@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The glaive’s long haft hums faintly beneath the palm, as though listening for the next threat. Its blade catches more than candlelight, bending the air around its bearer into a poised, watchful calm. In motion, it feels less like a weapon than a vigilant companion, turning resolve into a shelter of steel."
 display_name = "Defender (Glaive)"
 entity_def_id = "srd/magic_item/defender-glaive"
 grants_capability_while_equipped = ""

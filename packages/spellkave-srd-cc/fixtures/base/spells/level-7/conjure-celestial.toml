@@ -78,6 +78,7 @@ tag = "srd.spell.list.cleric"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A towering radiance descends without sound, its heart alive with distant choral warmth. Within its glow, the wounded find torn flesh knit by gentle fire, while foes are outlined in merciless brilliance that scours shadow from bone. The luminous column glides across the field like a solemn judgment, carrying both sanctuary and ruin."
 display_name = "Conjure Celestial"
 entity_def_id = "srd/spell/conjure-celestial"
 grants_capability_while_equipped = ""

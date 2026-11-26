@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its iron head seems to settle heavier in the hands when towering foes draw near, humming with a deep, quarry-born resentment. Each swing carries the blunt certainty of a collapsing wall, built to bring high crowns down into dust."
 display_name = "Giant Slayer (Maul)"
 entity_def_id = "srd/magic_item/giant-slayer-maul"
 grants_capability_while_equipped = ""

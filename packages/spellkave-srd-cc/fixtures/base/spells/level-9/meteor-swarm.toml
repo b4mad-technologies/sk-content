@@ -78,6 +78,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The sky bruises red, then tears open in four places. Vast burning stones roar downward, trailing furnace-winds and thunderous force before they strike and turn the earth into a scattering of flame, shattered stone, and rising ash. For a breath afterward, the horizon glows like a forge left open to the night."
 display_name = "Meteor Swarm"
 entity_def_id = "srd/spell/meteor-swarm"
 grants_capability_while_equipped = ""

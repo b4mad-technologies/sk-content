@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its polished edge seems to drink the light around it, leaving only a hard, hungry gleam. In the hand, the sword carries a faint, eager tremor, as though each swing awakens an old appetite for the sound of steel finding flesh."
 display_name = "Vicious Longsword"
 entity_def_id = "srd/magic_item/vicious-longsword"
 grants_capability_while_equipped = ""

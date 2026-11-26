@@ -95,7 +95,7 @@ tag = "srd.damage_type.piercing"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Light Crossbow — a simple ranged weapon."
+description = "A compact stock settles neatly against the shoulder, its wooden frame cool beneath the palm. The string gives a taut, musical hum when drawn back, followed by a sharp snap that carries through still air. It is a patient hunter’s companion, equally at home behind a ruined wall or beneath dripping boughs."
 display_name = "Light Crossbow"
 entity_def_id = "srd/weapon/light-crossbow"
 grants_capability_while_equipped = ""

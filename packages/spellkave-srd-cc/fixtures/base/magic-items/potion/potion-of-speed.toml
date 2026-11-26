@@ -44,6 +44,7 @@ tag = "srd.consumable"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Within the vial, amber brightness coils around threads of black like stormclouds chasing sunlight. The glass seems to hum against the palm, eager as a drawn bowstring. Once uncorked, its sharp, metallic scent makes the room feel briefly too slow."
 display_name = "Potion of Speed"
 entity_def_id = "srd/magic_item/potion-of-speed"
 grants_capability_while_equipped = ""
@@ -84,7 +85,7 @@ template_id = "srd/magic_item/potion-of-speed/consume/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/magic_item/potion-of-speed"
-description = "Gain the effect of Haste (+2 AC, Advantage on Dex saves, doubled Speed) for 1 minute without lethargy (magic-items.md § Potion of Speed)."
+description = "For 1 minute, your speed doubles, you gain a bonus to AC, and you have advantage on Dexterity saving throws. When it ends, you do not suffer a lethargic backlash."
 display_name = "Potion of Speed"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

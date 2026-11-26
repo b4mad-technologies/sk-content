@@ -96,6 +96,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Silver dust settles into a flawless ring, its pale symbols kindling one by one along stone, soil, or timber. Within its boundary, the air grows still and resolute, as though an unseen gate has closed against unwelcome spirits. Turned inward, the same shining ward becomes a quiet prison no otherworldly trespasser can easily escape."
 display_name = "Magic Circle"
 entity_def_id = "srd/spell/magic-circle"
 grants_capability_while_equipped = ""

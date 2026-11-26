@@ -34,6 +34,7 @@ tag = "srd.tool"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Bandages rolled tight, a needle, salve that smells of pine and something sharper. The kit is lighter than it should be after a bad night. Everything has a place. A steady hand can make a wound wait. The clasp is stiff, opened more often than it is admired. Thread ends are bitten short, never cut fancy."
 display_name = "Healer's Kit"
 entity_def_id = "srd/tool/healers-kit"
 grants_capability_while_equipped = ""

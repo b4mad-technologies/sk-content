@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its spearhead is dark as a shuttered window, yet a faint warmth stirs beneath the metal whenever blood is near. In the stillness after a clean thrust, the shaft seems to drink the room’s last breath, leaving even seasoned warriors uneasy. Pale, catlike glimmers sometimes gather along its edge, then vanish before dawn."
 display_name = "Nine Lives Stealer (Spear)"
 entity_def_id = "srd/magic_item/nine-lives-stealer-spear"
 grants_capability_while_equipped = ""

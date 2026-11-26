@@ -83,7 +83,7 @@ tag = "srd.damage_type.piercing"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Spear — a simple melee weapon."
+description = "A straight ash shaft hums softly in the hand, balanced between walking staff and battlefield promise. Its leaf-shaped head catches pale light along a keen edge, while the butt bites into earth for leverage. Carried over the shoulder, it lends even a lone traveler the bearing of a watchful guard."
 display_name = "Spear"
 entity_def_id = "srd/weapon/spear"
 grants_capability_while_equipped = ""

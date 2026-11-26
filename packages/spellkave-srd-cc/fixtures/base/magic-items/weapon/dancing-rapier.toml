@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its slender blade hums with impatient poise, as though each polished inch remembers a courtly duel played beneath chandeliers. Loosed from the hand, it wheels through the air in glittering arcs, pursuing its bearer’s intent with the fierce elegance of a trained falcon. When the dance is done, it returns with a soft, satisfied chime."
 display_name = "Dancing Rapier"
 entity_def_id = "srd/magic_item/dancing-rapier"
 grants_capability_while_equipped = ""

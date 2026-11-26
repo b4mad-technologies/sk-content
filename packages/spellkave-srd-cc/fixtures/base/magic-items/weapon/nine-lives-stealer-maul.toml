@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The maul’s iron head bears nine faint hollows, each colder than the last beneath a searching thumb. When raised in anger, it seems to drink the noise from the air, leaving only the dull pulse of living hearts. A killing blow lands with a graveyard hush, and for an instant the wielder feels something unseen flee through the haft."
 display_name = "Nine Lives Stealer (Maul)"
 entity_def_id = "srd/magic_item/nine-lives-stealer-maul"
 grants_capability_while_equipped = ""

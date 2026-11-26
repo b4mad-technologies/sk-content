@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its squat steel head gives a faint, impatient tremor whenever danger gathers beyond the firelight. Resting beside a bedroll, the hammer seems to listen through stone and canvas alike, its handle cool and wakeful in the dark. At the first stir of violence, it jolts its companions from ordinary sleep with the urgency of a struck bell."
 display_name = "Weapon of Warning (Light Hammer)"
 entity_def_id = "srd/magic_item/weapon-of-warning-light-hammer"
 grants_capability_while_equipped = ""

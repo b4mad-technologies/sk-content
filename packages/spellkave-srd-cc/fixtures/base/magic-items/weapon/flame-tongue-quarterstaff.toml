@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A whispered syllable wakes a ribbon of fire along the staff’s seasoned grain, turning every carved knot and polished scar amber-bright. It carries the dry scent of summer kindling and old hearthstones, its flames curling close without consuming the wood. In a dark hall, the burning length paints walls with restless gold and makes every motion feel like a spark struck from the night."
 display_name = "Flame Tongue Quarterstaff"
 entity_def_id = "srd/magic_item/flame-tongue-quarterstaff"
 grants_capability_while_equipped = ""

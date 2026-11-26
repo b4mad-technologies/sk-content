@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Folded close, this weather-dark cloak stirs with the faint rustle of distant treetops. At a whispered impulse, its hem unfurls into broad, wind-catching pinions, lifting the wearer into cold bright air. When the enchantment fades, the cloth settles heavily once more, carrying the scent of rain and high clouds."
 display_name = "Wings of Flying"
 entity_def_id = "srd/magic_item/wings-of-flying"
 grants_capability_while_equipped = ""

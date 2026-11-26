@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Fine links of darkened steel lie cool and supple against the skin, each ring humming with a patient, hidden ward. When the chosen peril draws near, the shirt seems to tighten its weave and drink the threat into its silent depths. A faint scent—ozone, ash, rain, or grave-soil—often clings to it afterward."
 display_name = "Armor of Resistance (Chain Shirt)"
 entity_def_id = "srd/magic_item/armor-of-resistance-chain-shirt"
 grants_capability_while_equipped = ""

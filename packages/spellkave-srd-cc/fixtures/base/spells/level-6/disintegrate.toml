@@ -84,6 +84,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A thin emerald lance hisses through the air, carrying the scent of hot stone and storm-struck metal. Where it strikes, solidity loses its argument with the world: armor, barricades, and summoned bulwarks crumble into a drifting veil of cold gray powder. For a breath, even the silence seems scraped clean."
 display_name = "Disintegrate"
 entity_def_id = "srd/spell/disintegrate"
 grants_capability_while_equipped = ""

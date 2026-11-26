@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Shadow gathers around the caster’s hand like cold smoke, dimming every flame it passes. At a brush of skin, warmth is drawn away in a shuddering breath and threads of stolen vitality race back through the darkness. The air tastes faintly of iron, while the caster’s pallor gives way to a terrible, borrowed color."
 display_name = "Vampiric Touch"
 entity_def_id = "srd/spell/vampiric-touch"
 grants_capability_while_equipped = ""

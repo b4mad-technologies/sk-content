@@ -24,7 +24,7 @@
 action_id = "srd/rest/short/complete"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Declare that this creature has completed at least 1 hour of qualifying downtime; this action records the completion boundary."
+description = "You declare that you have finished at least 1 hour of qualifying downtime. This marks the end of your short rest. If you are hurt and have a Hit Point Die left, you spend one: roll it, add your Constitution modifier, and regain that many Hit Points. You have one die per level, and a Long Rest gives them all back."
 display_name = "Complete a Short Rest"
 on_failure = ""
 on_success = "srd/rest/short/complete/success"
@@ -103,7 +103,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/action/short-rest"
 default_visibility = "Public"
-description = "After at least 1 hour of qualifying downtime, finish a Short Rest and fire this creature's short-rest boundary."
+description = "After at least 1 hour of qualifying downtime, you complete a Short Rest and trigger effects that occur when it ends."
 display_name = "Complete a Short Rest"
 
 [[capability_definitions]]
@@ -111,7 +111,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/action/long-rest"
 default_visibility = "Public"
-description = "After at least 8 hours of qualifying downtime, finish a Long Rest and fire this creature's long-rest boundary. A creature with the Resourceful trait (tagged 'srd.trait.resourceful') also gains Heroic Inspiration."
+description = "After at least 8 hours of qualifying downtime, you complete a Long Rest and regain the benefits tied to it. If you have the Resourceful trait, you also gain Heroic Inspiration."
 display_name = "Complete a Long Rest"
 
 [[consequence_frame_writes]]
@@ -394,7 +394,7 @@ template_id = "srd/rest/long/complete/success"
 
 [[niche_definitions]]
 bundle_id = "srd"
-description = "actor-carried-verbs D1/D7 (sk-rd0): revives Short Rest completion as a universal self-verb — see fragments/dodge.ts's own header for the full V1 dead-content finding this applies identically to."
+description = "You finish a short rest after spending at least an hour resting. When it ends, you can spend Hit Dice to recover hit points and regain features that return on a short rest."
 display_name = "Complete a Short Rest (self)"
 niche_id = "capability:srd/action/short-rest"
 predicate_source = ""
@@ -402,7 +402,7 @@ provider = "actor"
 
 [[niche_definitions]]
 bundle_id = "srd"
-description = "actor-carried-verbs D1/D7 (sk-rd0): revives Long Rest completion as a universal self-verb — same rationale as Short Rest above."
+description = "You finish an extended rest to restore your strength and reset features that return when you complete one."
 display_name = "Complete a Long Rest (self)"
 niche_id = "capability:srd/action/long-rest"
 predicate_source = ""
@@ -428,6 +428,7 @@ sense_visibility = "local"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "Counts the Hit Point Dice you have spent. You have one die per level. A Short Rest spends one to heal you when you are hurt; a Long Rest gives every spent die back."
 display_name = "Hit Point Dice spent"
 initial_value = 0
 max_value = 20
@@ -438,6 +439,7 @@ value_kind = "int"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "Holds what your last Short Rest healed with its Hit Point Die. The rest itself uses this value; you do not spend or track it."
 display_name = "Hit Point Die — last heal (scratch)"
 initial_value = 0
 max_value = 999
@@ -450,6 +452,7 @@ value_kind = "int"
 auto_join_on_targeting = false
 bundle_id = "srd"
 combat_grid_blueprint_id = ""
+description = "A period of rest that finishes after its session clock has run for the required duration."
 grid_edge_affordance_bindings_json = ""
 grid_edge_affordance_template_id = ""
 initial_state = ""

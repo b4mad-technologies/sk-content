@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A raven no larger than a thumb rests in the palm, its silver feathers chased with midnight-dark grooves. When stirred from stillness, it carries a keen, watchful presence, as though every distant rooftop and forest path has already been measured beneath its bright metal eyes. Its quiet weight seems to remember the open sky."
 display_name = "Figurine of Wondrous Power (Silver Raven)"
 entity_def_id = "srd/magic_item/figurine-of-wondrous-power-silver-raven"
 grants_capability_while_equipped = ""

@@ -78,6 +78,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush deeper than sleep settles behind the subject’s eyes, sealing every thought beneath still, starless water. Scrying visions slide past without finding purchase, and probing whispers return only silence. Even the sharpest unseen gaze loses its trail, while the mind within remains a locked chamber no enchantment can enter."
 display_name = "Mind Blank"
 entity_def_id = "srd/spell/mind-blank"
 grants_capability_while_equipped = ""

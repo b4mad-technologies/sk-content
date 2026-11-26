@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A spoken charge settles behind the listener’s eyes like a barbed thread of silver, winding through thought and instinct. The bound soul may wander far, but each deliberate step against the decree draws a private storm across the mind. Obedience becomes an echo that outlasts anger, distance, and many changing moons."
 display_name = "Geas"
 entity_def_id = "srd/spell/geas"
 grants_capability_while_equipped = ""

@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A sheet of paper is thin enough to whisper when turned, its surface faintly toothed under a fingertip. The edges are clean, the color a warm off-white that takes ink without fuss or bleed. Stacked, the sheets make a soft block that bends if a hand grips them too tightly."
 display_name = "Paper"
 entity_def_id = "srd/item/paper"
 grants_capability_while_equipped = ""

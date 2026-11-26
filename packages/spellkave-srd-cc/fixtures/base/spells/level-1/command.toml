@@ -76,6 +76,7 @@ tag = "srd.spell.list.paladin"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A single utterance lands with the weight of an iron bell, slipping past noise and nerve to seize the moment between thought and motion. For an instant, the hearer’s own will seems to stumble, and a simple impulse blooms into an overwhelming certainty. Blades fall, feet turn, and proud posture may crumble beneath the sound."
 display_name = "Command"
 entity_def_id = "srd/spell/command"
 grants_capability_while_equipped = ""
@@ -103,7 +104,7 @@ target_ref = "srd/spell/command"
 action_id = "srd/spell/command/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Command — a spell action."
+description = "You cast a spell that issues a brief magical order. A creature that hears and understands you must obey if it is affected."
 display_name = "Cast Command"
 non_steering = true
 on_failure = "srd/spell/command/cast/success"
@@ -137,7 +138,7 @@ template_id = "srd/spell/command/cast/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/spell/commanded"
-description = "Command — a spell condition."
+description = "A magical order compels you to follow a brief instruction on your next turn, if you can understand it. The effect ends after you carry out the order or cannot do so."
 display_name = "Command"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

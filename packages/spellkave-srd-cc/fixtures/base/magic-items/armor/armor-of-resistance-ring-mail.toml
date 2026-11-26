@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Each linked iron ring carries a quiet, stubborn warmth, as though the mail remembers a storm survived long ago. When danger gathers, the armor answers with a faint pressure across the shoulders and a shimmer of unseen resolve. Its protection takes the character of some elemental omen, felt in the air before a blow can land."
 display_name = "Armor of Resistance (Ring Mail)"
 entity_def_id = "srd/magic_item/armor-of-resistance-ring-mail"
 grants_capability_while_equipped = ""

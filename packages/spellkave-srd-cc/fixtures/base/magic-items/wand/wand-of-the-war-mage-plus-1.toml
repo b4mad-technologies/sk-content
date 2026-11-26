@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A slender rod of dark ashwood, its tip forever warm as though a spark sleeps beneath the grain. In a spellcaster’s hand, distant targets seem to stand in sharper relief, their hiding places outlined by a faint shimmer. Even through tangled branches and crowded battlements, its aim feels uncannily certain."
 display_name = "Wand of the War Mage +1"
 entity_def_id = "srd/magic_item/wand-of-the-war-mage-plus-1"
 grants_capability_while_equipped = ""

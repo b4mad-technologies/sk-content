@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The clay flask is warm even through a glove, as if a coal were sleeping inside. Pitch beads along the lip, and a shake sends a thick, glowing syrup sliding up the glass. It wants a careful hand. One hard knock and the warmth becomes a promise of sudden light."
 display_name = "Alchemist's Fire"
 entity_def_id = "srd/item/alchemists-fire"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A faint, cold sigil clings to the shaft or blade, shifting like a shadow cast by an unseen hunter. In the presence of its chosen quarry, the weapon seems to grow impatient, humming with a purpose too precise to mistake. Its brief fury leaves behind only ordinary steel and the sharp scent of spent stormlight."
 display_name = "Ammunition of Humanoid Slaying"
 entity_def_id = "srd/magic_item/ammunition-of-humanoid-slaying"
 grants_capability_while_equipped = ""

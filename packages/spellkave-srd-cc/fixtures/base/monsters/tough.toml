@@ -157,6 +157,7 @@ tag = "srd.creature.role.archer"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A tough is a hard-bitten enforcer who survives on nerve, bruises, and a reputation for finishing ugly work. Whether guarding a crooked merchant, collecting debts, or standing watch in a rough tavern, these brawlers bring a practiced menace that can turn a crowded room silent."
 display_name = "Tough"
 entity_def_id = "srd/creature/tough"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale plume coils from its perforated bronze bowl, carrying the scent of rain on distant stone. When set in motion, its chain hums with a low, hollow note, and every loose curtain, candle flame, and strand of hair seems to lean toward its passing. The air nearby grows watchful, as though the sky itself has paused to listen."
 display_name = "Censer of Controlling Air Elementals"
 entity_def_id = "srd/magic_item/censer-of-controlling-air-elementals"
 grants_capability_while_equipped = ""

@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The iron head bears nine shallow hollows, each darkened as though thumbed by old soot. In battle, the mace lands with a muffled finality that seems to swallow the room’s breath, leaving even hardened foes suddenly pale and distant. A faint, heartlike chill lingers along its haft after a killing stroke."
 display_name = "Nine Lives Stealer (Mace)"
 entity_def_id = "srd/magic_item/nine-lives-stealer-mace"
 grants_capability_while_equipped = ""

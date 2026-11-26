@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A cool, clear jewel that seems to hold a dawn sky beneath its facets. When raised to the eye, painted walls lose their confidence, shadows thin, and hidden workings glimmer with a quiet, accusatory light. Its gaze leaves the bearer with the uneasy sense that the world has been wearing a mask."
 display_name = "Gem of Seeing"
 entity_def_id = "srd/magic_item/gem-of-seeing"
 grants_capability_while_equipped = ""

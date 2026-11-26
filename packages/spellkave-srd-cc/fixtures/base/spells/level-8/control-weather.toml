@@ -96,6 +96,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The horizon answers in slow, majestic obedience: clouds gather like an army’s banners, warmth drains from the stones, and the air turns beneath an unseen hand. Birds fall silent as wind finds a new road through the hills. Across the open land, the sky wears the caster’s mood until the old season patiently reclaims its throne."
 display_name = "Control Weather"
 entity_def_id = "srd/spell/control-weather"
 grants_capability_while_equipped = ""

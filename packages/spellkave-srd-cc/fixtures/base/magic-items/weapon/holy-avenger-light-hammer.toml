@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its silvered head carries the hush of a chapel at dawn, though no shrine has ever claimed it. In a steady hand, the little hammer seems to gather the air into a calm, bright stillness that presses back against sorcery and grave-cold malice. When it strikes, a clean peal lingers like a bell heard beyond the clouds."
 display_name = "Holy Avenger (Light Hammer)"
 entity_def_id = "srd/magic_item/holy-avenger-light-hammer"
 grants_capability_while_equipped = ""

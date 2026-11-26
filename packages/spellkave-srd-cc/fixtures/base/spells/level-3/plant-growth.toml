@@ -84,6 +84,7 @@ tag = "srd.spell.list.ranger"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pulse passes through root and stem, waking the green world with sudden, unruly purpose. Grass knots around boots, vines seize old stones, and hedges swell into living walls where open ground once lay. Given patient tending instead, the same blessing sinks deep into the soil, promising heavy boughs, full grain, and a season of uncommon plenty."
 display_name = "Plant Growth"
 entity_def_id = "srd/spell/plant-growth"
 grants_capability_while_equipped = ""

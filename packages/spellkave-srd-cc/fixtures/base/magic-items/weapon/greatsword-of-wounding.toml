@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its broad blade bears a dark sheen that drinks the firelight and leaves the air tasting faintly of iron. Wounds opened by its edge linger with an unnatural chill, resisting the warmth of bandage, balm, and breath. Even sheathed, the sword seems to remember every heartbeat it has silenced."
 display_name = "Greatsword of Wounding"
 entity_def_id = "srd/magic_item/greatsword-of-wounding"
 grants_capability_while_equipped = ""

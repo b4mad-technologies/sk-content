@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Pale green sigils drift beneath the polished surface of this arrowhead, shifting like leaves caught in moonlit water. Near the fair folk, it grows unnaturally still, its fletching humming with a thin, bitter note. Once loosed, it carries the cold finality of an old grievance through the twilight."
 display_name = "Ammunition of Fey Slaying"
 entity_def_id = "srd/magic_item/ammunition-of-fey-slaying"
 grants_capability_while_equipped = ""

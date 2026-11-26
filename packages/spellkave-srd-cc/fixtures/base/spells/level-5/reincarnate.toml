@@ -78,6 +78,7 @@ tag = "srd.spell.list.druid"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Warm oils hiss across cold earth as rootlets, breath, and buried starlight gather around a vanished name. From that patient spiral rises a living vessel unlike the one memory remembers, while an old soul stirs behind unfamiliar eyes. The miracle carries both comfort and strangeness: a second dawn, wearing a different face."
 display_name = "Reincarnate"
 entity_def_id = "srd/spell/reincarnate"
 grants_capability_while_equipped = ""

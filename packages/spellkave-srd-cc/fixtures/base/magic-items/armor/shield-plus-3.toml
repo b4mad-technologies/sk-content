@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_3"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A mirror-bright bulwark whose polished face catches torchlight in hard, unwavering lines. Its rim carries the faint chill of a mountain gale, and every blow turned aside leaves behind a brief, bell-like shiver in the bearer’s arm. Held close, it lends the quiet certainty of a locked gate before a storm."
 display_name = "Shield (+3)"
 entity_def_id = "srd/magic_item/shield-plus-3"
 grants_capability_while_equipped = ""

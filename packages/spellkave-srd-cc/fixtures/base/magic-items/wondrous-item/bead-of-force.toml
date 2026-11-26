@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A bead of force is a midnight-black pearl that seems to drink the light around it, cold and unnaturally dense between finger and thumb. When cast, it answers with a silent flash and the sudden certainty of an invisible wall closing around the world. Within its glass-clear prison, even a furious struggle becomes a drifting, muffled spectacle."
 display_name = "Bead of Force"
 entity_def_id = "srd/magic_item/bead-of-force"
 grants_capability_while_equipped = ""

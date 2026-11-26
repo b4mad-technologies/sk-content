@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Black iron splints cling to the body with a feverish grip, their hooked gauntlets whispering across stone like talons seeking purchase. A harsh, guttural tongue coils at the edge of thought whenever the plates are touched. Beneath their protection lies an unwelcome kinship: infernal shapes seem less threatening, and far more difficult to resist."
 display_name = "Demon Splint Armor"
 entity_def_id = "srd/magic_item/demon-splint-armor"
 grants_capability_while_equipped = ""

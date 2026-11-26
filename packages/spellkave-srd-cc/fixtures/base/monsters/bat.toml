@@ -140,6 +140,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Bats slip through dusk on soundless wings, turning caverns, belfries, and ruined halls into restless roosts. A sudden flutter overhead can send lesser creatures scrambling, while their sharp senses find prey where torchlight fails. Most avoid larger foes, but a disturbed colony can fill the dark with a whirlwind of leathery wings."
 display_name = "Bat"
 entity_def_id = "srd/creature/bat"
 grants_capability_while_equipped = ""

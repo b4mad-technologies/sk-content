@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_3"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Blackened walnut and cold-forged steel meet in a weapon that seems to steady itself in the hand. Its compact limbs hum with a patient, coiled purpose, and each drawn bolt settles into place with uncanny certainty. In torchlight, faint silver lines along the stock gleam like a hunter’s intent made visible."
 display_name = "Hand Crossbow (+3)"
 entity_def_id = "srd/magic_item/hand-crossbow-plus-3"
 grants_capability_while_equipped = ""

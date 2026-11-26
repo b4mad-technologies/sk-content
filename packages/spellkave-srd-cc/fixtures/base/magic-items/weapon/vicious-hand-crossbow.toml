@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its compact limbs flex with a predator’s impatience, the lacquered stock warm beneath the palm. When its trigger is drawn, the bolt leaves with a cruel, whispering snap, carrying an echo of hunger that lingers in the air long after the shot."
 display_name = "Vicious Hand Crossbow"
 entity_def_id = "srd/magic_item/vicious-hand-crossbow"
 grants_capability_while_equipped = ""

@@ -140,6 +140,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A weasel is a quick, curious hunter that slips through brush, burrows, and stone cracks in search of smaller prey. Its bright eyes and restless nose miss little, and it vanishes almost as quickly as it appears. Though easily overlooked, a cornered weasel can become a fierce bundle of teeth and determination."
 display_name = "Weasel"
 entity_def_id = "srd/creature/weasel"
 grants_capability_while_equipped = ""

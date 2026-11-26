@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its long blade holds a silence sharper than steel, catching torchlight in a thin, merciless line. When set into motion, the glaive seems to hunger for the cleanest path through armor, scale, and sinew. Even great beasts instinctively lower their heads before its sweeping arc."
 display_name = "Vorpal Glaive"
 entity_def_id = "srd/magic_item/vorpal-glaive"
 grants_capability_while_equipped = ""

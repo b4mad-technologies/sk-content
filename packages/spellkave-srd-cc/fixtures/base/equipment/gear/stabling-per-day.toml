@@ -24,6 +24,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A stall that is not yours, paid for until morning: straw that has been turned, a water bucket, a hook for tack. The stable smells of horses and lantern oil. The hostler nods, takes the coin, and does not ask your name twice. By dawn the straw is flat and the animal is still there."
 display_name = "Stabling per day"
 entity_def_id = "srd/item/stabling-per-day"
 grants_capability_while_equipped = ""

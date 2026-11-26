@@ -66,6 +66,7 @@ tag = "srd.spell.list.cleric"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A towering sentinel of pale fire gathers from prayer and purpose, its form shaped by the sacred ideals called upon. It hangs motionless over the chosen ground, a silent warning crowned in radiance. Those who press too near feel the air harden with judgment, and light answers their trespass like a ringing blade."
 display_name = "Guardian of Faith"
 entity_def_id = "srd/spell/guardian-of-faith"
 grants_capability_while_equipped = ""

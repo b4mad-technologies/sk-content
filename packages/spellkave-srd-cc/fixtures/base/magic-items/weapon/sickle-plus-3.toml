@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_3"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The crescent blade gleams with a pale, unwavering sheen, as though moonlight has settled along its edge. In the hand, its balance feels uncannily eager, guiding each sweeping cut with quiet certainty. Even among tangled briars or clashing steel, it leaves the impression of a harvest no obstacle can deny."
 display_name = "Sickle (+3)"
 entity_def_id = "srd/magic_item/sickle-plus-3"
 grants_capability_while_equipped = ""

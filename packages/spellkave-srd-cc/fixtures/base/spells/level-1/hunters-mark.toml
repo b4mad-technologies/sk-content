@@ -70,6 +70,7 @@ tag = "srd.spell.list.ranger"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hunter’s focus settles like a cold star behind the eyes, fastening upon a chosen foe with unerring intent. Footprints sharpen in mud, snapped twigs speak plainly, and every glimpse of motion seems to draw the quarry closer. Once the chase begins, the mark clings through thicket, darkness, and desperate flight."
 display_name = "Hunter's Mark"
 entity_def_id = "srd/spell/hunters-mark"
 grants_capability_while_equipped = ""
@@ -96,7 +97,7 @@ target_ref = "srd/spell/hunters-mark"
 action_id = "srd/spell/hunters-mark/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Hunter's Mark — a spell action."
+description = "You cast this spell to mark a creature you can see, making it easier for you to track and harm with weapon attacks."
 display_name = "Cast Hunter's Mark"
 non_steering = true
 on_failure = ""
@@ -130,7 +131,7 @@ template_id = "srd/spell/hunters-mark/cast/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/spell/hunters-mark"
-description = "Hunter's Mark — a spell condition."
+description = "A creature you mark with a spell becomes easier for you to track and strike. The mark lasts while you maintain the spell or until it ends."
 display_name = "Hunter's Mark"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

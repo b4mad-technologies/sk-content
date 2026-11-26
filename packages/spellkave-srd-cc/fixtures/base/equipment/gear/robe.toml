@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Soft folds trail behind the wearer like quiet banners, dyed in hues that speak before any oath is voiced. Stitched emblems and carefully chosen trims can turn plain cloth into a passport through solemn doors. In crowded halls, its rustle carries the calm authority of office, ritual, or hard-won learning."
 display_name = "Robe"
 entity_def_id = "srd/item/robe"
 grants_capability_while_equipped = ""

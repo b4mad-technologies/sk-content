@@ -135,82 +135,86 @@ export function parseFlavorMarkdown(raw: string, path: string): FlavorDoc {
 	};
 }
 
-/** Missing optional flavor leaves the authored rules and mechanics available. */
-export function readFlavorFile(path: string): { body: string } {
+function readFlavorFile(path: string, promptHint: string): FlavorDoc {
 	try {
 		return parseFlavorMarkdown(readFileSync(path, "utf8"), path);
 	} catch (error) {
-		if ((error as NodeJS.ErrnoException).code === "ENOENT") return { body: "" };
+		if ((error as NodeJS.ErrnoException).code === "ENOENT") {
+			throw new Error(
+				`missing flavor blurb ${path} — generate with skgen (openai/gpt-5.6-terra, ${promptHint}) then scripts/flavor-ingest.ts`,
+			);
+		}
 		throw error;
 	}
 }
 
-export function readClassFlavor(slug: string, locale = "en"): { body: string } {
-	return readFlavorFile(classFlavorPath(slug, locale));
+export function readClassFlavor(slug: string, locale = "en"): FlavorDoc {
+	return readFlavorFile(classFlavorPath(slug, locale), "prompt_id flavor");
 }
 
-export function readCreatureFlavor(slug: string, locale = "en"): { body: string } {
-	return readFlavorFile(creatureFlavorPath(slug, locale));
+export function readCreatureFlavor(slug: string, locale = "en"): FlavorDoc {
+	return readFlavorFile(creatureFlavorPath(slug, locale), "prompt_id flavor-creature");
 }
 
-export function readSpellFlavor(slug: string, locale = "en"): { body: string } {
-	return readFlavorFile(spellFlavorPath(slug, locale));
+export function readSpellFlavor(slug: string, locale = "en"): FlavorDoc {
+	return readFlavorFile(spellFlavorPath(slug, locale), "prompt_id flavor-spell");
 }
 
-export function readItemFlavor(slug: string, locale = "en"): { body: string } {
-	return readFlavorFile(itemFlavorPath(slug, locale));
+export function readItemFlavor(slug: string, locale = "en"): FlavorDoc {
+	return readFlavorFile(itemFlavorPath(slug, locale), "prompt_id flavor-item");
 }
 
-export function readBackgroundFlavor(slug: string, locale = "en"): { body: string } {
-	return readFlavorFile(backgroundFlavorPath(slug, locale));
+export function readBackgroundFlavor(slug: string, locale = "en"): FlavorDoc {
+	return readFlavorFile(backgroundFlavorPath(slug, locale), "prompt_id flavor-background");
 }
 
-export function readSpeciesFlavor(slug: string, locale = "en"): { body: string } {
-	return readFlavorFile(speciesFlavorPath(slug, locale));
+export function readSpeciesFlavor(slug: string, locale = "en"): FlavorDoc {
+	return readFlavorFile(speciesFlavorPath(slug, locale), "prompt_id flavor-species");
 }
 
-export function readFeatFlavor(slug: string, locale = "en"): { body: string } {
-	return readFlavorFile(featFlavorPath(slug, locale));
+export function readFeatFlavor(slug: string, locale = "en"): FlavorDoc {
+	return readFlavorFile(featFlavorPath(slug, locale), "prompt_id flavor-feat");
 }
 
-export function readArmorFlavor(slug: string, locale = "en"): { body: string } {
-	return readFlavorFile(armorFlavorPath(slug, locale));
+export function readArmorFlavor(slug: string, locale = "en"): FlavorDoc {
+	return readFlavorFile(armorFlavorPath(slug, locale), "prompt_id flavor-gear");
 }
 
-export function readGearFlavor(slug: string, locale = "en"): { body: string } {
-	return readFlavorFile(gearFlavorPath(slug, locale));
+export function readGearFlavor(slug: string, locale = "en"): FlavorDoc {
+	return readFlavorFile(gearFlavorPath(slug, locale), "prompt_id flavor-gear");
 }
 
-export function readToolFlavor(slug: string, locale = "en"): { body: string } {
-	return readFlavorFile(toolFlavorPath(slug, locale));
+export function readToolFlavor(slug: string, locale = "en"): FlavorDoc {
+	return readFlavorFile(toolFlavorPath(slug, locale), "prompt_id flavor-gear");
 }
 
-export function readResourceFlavor(slug: string, locale = "en"): { body: string } {
-	return readFlavorFile(resourceFlavorPath(slug, locale));
+export function readResourceFlavor(slug: string, locale = "en"): FlavorDoc {
+	return readFlavorFile(resourceFlavorPath(slug, locale), "prompt_id flavor-resource");
 }
 
-export function readSubclassFlavor(slug: string, locale = "en"): { body: string } {
-	return readFlavorFile(subclassFlavorPath(slug, locale));
+export function readSubclassFlavor(slug: string, locale = "en"): FlavorDoc {
+	return readFlavorFile(subclassFlavorPath(slug, locale), "prompt_id flavor-subclass");
 }
 
 export function classFeatureFlavorSlug(entityId: string): string {
 	return entityId.replace(/^srd\/class-feature\//, "").replaceAll("/", "-");
 }
 
-export function readClassFeatureFlavor(entityId: string, locale = "en"): { body: string } {
+export function readClassFeatureFlavor(entityId: string, locale = "en"): FlavorDoc {
 	return readFlavorFile(
 		classFeatureFlavorPath(classFeatureFlavorSlug(entityId), locale),
+		"prompt_id flavor-resource",
 	);
 }
 
-export function readCapabilityFlavor(id: string, locale = "en"): { body: string } {
-	return readFlavorFile(capabilityFlavorPath(ruleFlavorSlug(id), locale));
+export function readCapabilityFlavor(id: string, locale = "en"): FlavorDoc {
+	return readFlavorFile(capabilityFlavorPath(ruleFlavorSlug(id), locale), "prompt_id flavor-rule");
 }
 
-export function readConditionFlavor(id: string, locale = "en"): { body: string } {
-	return readFlavorFile(conditionFlavorPath(ruleFlavorSlug(id), locale));
+export function readConditionFlavor(id: string, locale = "en"): FlavorDoc {
+	return readFlavorFile(conditionFlavorPath(ruleFlavorSlug(id), locale), "prompt_id flavor-rule");
 }
 
-export function readActionFlavor(id: string, locale = "en"): { body: string } {
-	return readFlavorFile(actionFlavorPath(ruleFlavorSlug(id), locale));
+export function readActionFlavor(id: string, locale = "en"): FlavorDoc {
+	return readFlavorFile(actionFlavorPath(ruleFlavorSlug(id), locale), "prompt_id flavor-rule");
 }

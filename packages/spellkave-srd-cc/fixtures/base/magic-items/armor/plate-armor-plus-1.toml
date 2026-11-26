@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Each overlapping plate bears a muted sheen, as though moonlight settled into the metal and never left. When worn, it moves with the grave, reassuring cadence of a fortress gate closing against the storm. Beneath its cool weight, every breath feels measured, protected, and unyielding."
 display_name = "Plate Armor (+1)"
 entity_def_id = "srd/magic_item/plate-armor-plus-1"
 grants_capability_while_equipped = ""

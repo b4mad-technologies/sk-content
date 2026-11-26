@@ -24,6 +24,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Muscle under a groomed coat, scars pale along one shoulder, tack kept ready rather than pretty. The warhorse mouths the bit and stamps once, a sound with iron in it. When the reins come up, the fidgeting stops. The stable goes quiet when that stamp lands. Its tack is oiled, never ornamental."
 display_name = "Warhorse"
 entity_def_id = "srd/item/warhorse"
 grants_capability_while_equipped = ""

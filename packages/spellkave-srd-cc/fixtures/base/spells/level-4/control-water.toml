@@ -96,6 +96,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A still pond rises like a breath drawn by the world, while rivers bend from their ancient courses at a silent command. Waters may peel apart to reveal a glistening path below, or gather their strength into a roaring wall of foam. Where the current is given hunger, it coils downward in a dark, relentless spiral."
 display_name = "Control Water"
 entity_def_id = "srd/spell/control-water"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A sun-bright hush clings to this consecrated mace, its head warm as a hearthstone beneath the hand. When raised against grave-born horrors or creatures steeped in wickedness, it answers with a clean, bell-like radiance. Companions gathering near its glow find their courage steadied, as though sheltered beneath an unseen sanctuary."
 display_name = "Holy Avenger (Mace)"
 entity_def_id = "srd/magic_item/holy-avenger-mace"
 grants_capability_while_equipped = ""

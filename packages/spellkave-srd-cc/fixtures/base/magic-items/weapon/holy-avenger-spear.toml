@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its bright spearhead holds dawn beneath the steel, casting pale fire across armor, stone, and trembling hands. In its bearer’s grasp, hostile sorcery seems to falter at the edge of a quiet, consecrated calm. Against creatures shaped by death or infernal malice, the weapon answers with a sunlit wrath that leaves only smoking shadows."
 display_name = "Holy Avenger (Spear)"
 entity_def_id = "srd/magic_item/holy-avenger-spear"
 grants_capability_while_equipped = ""

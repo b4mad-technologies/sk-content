@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its curved steel carries a faint, restless hum, like wind threading through a shuttered camp. In still hours, the hilt grows warm at the first stir of danger, and sleepers find their dreams abruptly scattered. Those gathered near its bearer stand a little straighter, as though some unseen scout has already spotted trouble on the road."
 display_name = "Weapon of Warning (Scimitar)"
 entity_def_id = "srd/magic_item/weapon-of-warning-scimitar"
 grants_capability_while_equipped = ""

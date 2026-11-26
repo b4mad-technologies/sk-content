@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "These supple traveling boots seem always poised at the edge of a sprint, their leather warm with restless energy. When their heels meet, the world blurs at the margins and pursuing hands find only a gust of displaced dust. Even standing still, they carry the faint, impatient rhythm of distant thunder."
 display_name = "Boots of Speed"
 entity_def_id = "srd/magic_item/boots-of-speed"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its braided lash hums with a watchful tension, as though each knot remembers a duelist’s last breath. In motion, the whip can turn its fierce purpose inward, coiling an unseen guard around the hand that commands it. Steel-seeking force and sheltering instinct trade places with every measured crack."
 display_name = "Defender (Whip)"
 entity_def_id = "srd/magic_item/defender-whip"
 grants_capability_while_equipped = ""

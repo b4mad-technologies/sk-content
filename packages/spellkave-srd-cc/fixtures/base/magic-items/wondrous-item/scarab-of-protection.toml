@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A lacquer-black beetle clings to its chain with an unsettling warmth, its carved wings catching light like polished obsidian. Near graves, restless spirits, or whispered curses, it seems to tighten against the breastbone, humming with a faint, dry vibration. Each brush of its shell carries the stillness of sealed tombs and the stubborn refusal of life to yield."
 display_name = "Scarab of Protection"
 entity_def_id = "srd/magic_item/scarab-of-protection"
 grants_capability_while_equipped = ""

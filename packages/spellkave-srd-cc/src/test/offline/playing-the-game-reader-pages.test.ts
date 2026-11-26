@@ -126,8 +126,7 @@ describe("Playing the Game reader pages", () => {
 		).toBeGreaterThan(1);
 	});
 
-	// sk-content: needs the held SRD flavor texts (PROVENANCE.md).
-	it.skip("replaces only the source Ability Descriptions table with ordered compact resources", () => {
+	it("replaces only the source Ability Descriptions table with ordered compact resources", () => {
 		const article = readSixAbilitiesReaderFragmentMetadata();
 		const source = pages[1]?.body;
 		if (source === undefined) throw new Error("Six Abilities source page is missing.");

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Dark gray links lie close and heavy, each one cold as deep-mined stone and reluctant to yield beneath the hand. When worn, the ring mail settles with a stubborn, grounding weight, as though every blow must first argue with the mountain it came from. Faint metallic whispers follow the wearer’s stride, steady and unhurried."
 display_name = "Adamantine Armor (Ring Mail)"
 entity_def_id = "srd/magic_item/adamantine-armor-ring-mail"
 grants_capability_while_equipped = ""

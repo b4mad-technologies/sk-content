@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The broad crescent of its blade carries a cold, pale sheen that never dulls, even after long travel through rain or blood. When raised, it seems to gather the wielder’s resolve into a single brutal arc, leaving the air shivering in its wake. Its haft is worn smooth beneath the hands, as though it has awaited a worthy grip for centuries."
 display_name = "Greataxe (+2)"
 entity_def_id = "srd/magic_item/greataxe-plus-2"
 grants_capability_while_equipped = ""

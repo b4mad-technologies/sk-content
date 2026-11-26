@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "This slender blade carries the poised hush of a drawn curtain before an ambush. In a duelist’s grip, its balance seems to shift with every threat, lending either a keener answer or an unseen ward against the next flashing stroke. Its polished edge catches torchlight like a watchful eye."
 display_name = "Defender (Dagger)"
 entity_def_id = "srd/magic_item/defender-dagger"
 grants_capability_while_equipped = ""

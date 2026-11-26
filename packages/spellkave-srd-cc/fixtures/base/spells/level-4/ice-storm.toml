@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A bruise-dark cloud coils overhead, swallowing light before it bursts into a roaring cataract of ice. Hail strikes like thrown stone, shattering shields, rooftops, and courage beneath its merciless descent. When the thunderous barrage passes, the ground lies pale, jagged, and treacherous under a crust of broken winter."
 display_name = "Ice Storm"
 entity_def_id = "srd/spell/ice-storm"
 grants_capability_while_equipped = ""

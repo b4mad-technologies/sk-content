@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Dark ash wood runs beneath a lacquered surface, warm to the palm even in winter air. When spun, the staff cuts a clean whisper through the silence, its iron-shod ends leaving faint silver crescents in the eye. It seems to settle eagerly into a practiced grip, balanced as though it remembers every strike."
 display_name = "Quarterstaff (+2)"
 entity_def_id = "srd/magic_item/quarterstaff-plus-2"
 grants_capability_while_equipped = ""

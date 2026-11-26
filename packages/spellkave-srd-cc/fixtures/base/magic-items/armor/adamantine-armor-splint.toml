@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Dark, dense plates overlap like the scales of some buried mountain beast, each one carrying a muted sheen that drinks torchlight. When struck, the suit answers with a deep, bell-like shudder, turning sudden violent fortune into nothing more than another bruise against unyielding metal."
 display_name = "Adamantine Armor (Splint)"
 entity_def_id = "srd/magic_item/adamantine-armor-splint"
 grants_capability_while_equipped = ""

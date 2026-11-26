@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A neat sheaf of straight-shafted arrows, each fletching trimmed to catch the faintest breath of wind. Their wooden scent mingles with oil, feather, and cold metal, while the bundle gives a soft dry rustle whenever it shifts in its quiver."
 display_name = "Arrows (20)"
 entity_def_id = "srd/item/arrows-20"
 grants_capability_while_equipped = ""

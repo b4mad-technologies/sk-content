@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its dark limbs hum with a tension that seems eager to be loosed, while the stock bears shallow scars like claw marks in old oak. When raised, the weapon feels cold and deliberate, granting every bolt a cruel certainty as it flies."
 display_name = "Vicious Heavy Crossbow"
 entity_def_id = "srd/magic_item/vicious-heavy-crossbow"
 grants_capability_while_equipped = ""

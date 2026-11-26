@@ -157,6 +157,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Scouts move ahead of armies, caravans, and raiding bands, reading the land for danger long before others arrive. Quiet feet, sharp eyes, and practiced signals let them vanish into brush or shadow at a moment’s notice. An encounter with a scout often begins with the uneasy sense of being watched—and ends with reinforcements closing in."
 display_name = "Scout"
 entity_def_id = "srd/creature/scout"
 grants_capability_while_equipped = ""

@@ -112,6 +112,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A brief touch kindles a hidden excellence: muscles coil with tireless purpose, thoughts sharpen like polished glass, or a voice gathers the warmth of a hearthfire. The recipient seems more wholly themselves, moving through challenge with an uncanny surety that draws the eye."
 display_name = "Enhance Ability"
 entity_def_id = "srd/spell/enhance-ability"
 grants_capability_while_equipped = ""
@@ -139,7 +140,7 @@ target_ref = "srd/spell/enhance-ability"
 action_id = "srd/spell/enhance-ability/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Enhance Ability — a spell action."
+description = "You cast this spell to bolster a creature’s natural talents, granting it an advantage tied to a chosen ability for the spell’s duration."
 display_name = "Cast Enhance Ability"
 non_steering = true
 on_failure = ""
@@ -173,7 +174,7 @@ template_id = "srd/spell/enhance-ability/cast/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/spell/enhanced-ability"
-description = "Enhance Ability — a spell condition."
+description = "A spell effect that boosts one of your abilities. It grants the benefit chosen when the spell is cast until the effect ends."
 display_name = "Enhance Ability"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

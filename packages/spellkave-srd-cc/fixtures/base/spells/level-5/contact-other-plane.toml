@@ -78,6 +78,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The air thins around the seeker’s thoughts, and a vast attention turns from beyond the familiar dark. Answers arrive as cold certainties, each carrying the dust of dead stars and impossible distances. Some minds return bearing revelation; others return with the silence between worlds lodged behind their eyes."
 display_name = "Contact Other Plane"
 entity_def_id = "srd/spell/contact-other-plane"
 grants_capability_while_equipped = ""

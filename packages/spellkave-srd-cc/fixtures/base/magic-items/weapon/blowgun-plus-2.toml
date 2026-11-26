@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "This slender reed weapon is lacquered in deep green, its mouthpiece cool and smooth against the lips. A faint silver glimmer follows each dart as it leaves the tube, vanishing almost before the eye can mark its flight. In quiet hands, it seems to reward patience with uncanny precision."
 display_name = "Blowgun (+2)"
 entity_def_id = "srd/magic_item/blowgun-plus-2"
 grants_capability_while_equipped = ""

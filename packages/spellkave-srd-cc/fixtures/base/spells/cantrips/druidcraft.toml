@@ -70,6 +70,7 @@ tag = "srd.spell.list.druid"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A quiet gesture stirs the small attentions of the wild: a bud unfurls, a flame bows low, or leaves wheel through still air on an unseen breeze. For a heartbeat, the land answers in scents, birdsong, drifting motes, and tiny signs that hint at rain, frost, or a clear tomorrow."
 display_name = "Druidcraft"
 entity_def_id = "srd/spell/druidcraft"
 grants_capability_while_equipped = ""
@@ -97,7 +98,7 @@ target_ref = "srd/spell/druidcraft"
 action_id = "srd/spell/druidcraft/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Druidcraft — a spell action."
+description = "You use a minor nature spell to create a small magical effect, such as predicting weather, making a flower bloom, or producing a sensory sign."
 display_name = "Cast Druidcraft"
 non_steering = true
 on_failure = ""

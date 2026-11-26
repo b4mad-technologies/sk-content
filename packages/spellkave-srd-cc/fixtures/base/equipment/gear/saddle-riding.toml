@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A familiar riding saddle, the seat broken in and the stirrup leathers darkened by weather and sweat. Horn and cantle frame a place a body already knows how to find without looking. It creaks once when weight settles, then goes quiet, as if the road ahead were an ordinary one."
 display_name = "Saddle (Riding)"
 entity_def_id = "srd/item/saddle-riding"
 grants_capability_while_equipped = ""

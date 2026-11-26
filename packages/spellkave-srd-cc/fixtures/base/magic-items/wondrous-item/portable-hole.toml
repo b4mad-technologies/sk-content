@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A square of midnight cloth slips through the fingers like cool water, yet clings to stone, timber, or earth with uncanny certainty. Its dark circle invites the eye downward into a silence deeper than shadow, where packed belongings and hidden companions may wait beyond the world’s ordinary reach. Folding its edges restores the innocent look of a traveler’s handkerchief."
 display_name = "Portable Hole"
 entity_def_id = "srd/magic_item/portable-hole"
 grants_capability_while_equipped = ""

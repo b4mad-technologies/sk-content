@@ -82,6 +82,7 @@ tag = "srd.spell.list.paladin"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush settles over the gathered, sharp as winter air and impossible to mistake for comfort. Words still come easily enough, but every falsehood catches behind the teeth, leaving only silence, careful omission, or the bare gleam of fact. Even the most practiced deceiver feels the unseen boundary listening."
 display_name = "Zone of Truth"
 entity_def_id = "srd/spell/zone-of-truth"
 grants_capability_while_equipped = ""
@@ -109,7 +110,7 @@ target_ref = "srd/spell/zone-of-truth"
 action_id = "srd/spell/zone-of-truth/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Zone of Truth — a spell action."
+description = "You cast a spell that creates an area where creatures cannot knowingly speak lies. Creatures that resist the spell know they are unaffected."
 display_name = "Cast Zone of Truth"
 non_steering = true
 on_failure = ""

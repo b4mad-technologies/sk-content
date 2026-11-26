@@ -36,6 +36,7 @@ tag = "srd.item.container"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The barrel waits in the corner like a patient beast, its staves darkened by years of cellar damp. Iron hoops bite into the wood, cool and slightly gritty under a palm. When the lid lifts, the hollow breathes out a faint sour sweetness, the ghost of whatever was stored and the promise of room enough for more."
 display_name = "Barrel"
 entity_def_id = "srd/item/barrel"
 grants_capability_while_equipped = ""

@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Facets within this clear prism seem to hold captive dawns, shifting from pale candle-glow to a brilliance sharp enough to turn shadowed faces away. Warm in the palm, it hums faintly when awakened, as though sunlight were pressing against its crystal skin. A spoken syllable can make its inner radiance spill outward in a sudden, merciless bloom."
 display_name = "Gem of Brightness"
 entity_def_id = "srd/magic_item/gem-of-brightness"
 grants_capability_while_equipped = ""

@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale fork of mistletoe, bound with soft green thread, keeps its woodland scent even after weeks in a pouch. Its waxy leaves feel cool against the palm, and the clustered berries seem to catch stray moonlight beneath boughs. When lifted in quiet ritual, it carries the hush of roots, rain, and sleeping soil."
 display_name = "Druidic Focus, Sprig of Mistletoe"
 entity_def_id = "srd/item/druidic-focus-sprig-of-mistletoe"
 grants_capability_while_equipped = ""

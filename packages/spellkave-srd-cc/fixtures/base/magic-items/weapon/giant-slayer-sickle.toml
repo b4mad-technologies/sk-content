@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its curved blade bears a cold, pale gleam that seems to sharpen beneath towering shadows. In the hand, the sickle feels eager and uncommonly sure, hooking at balance and leverage with a cruel, practiced pull. Even the thunder of colossal footsteps seems to falter around its edge."
 display_name = "Giant Slayer (Sickle)"
 entity_def_id = "srd/magic_item/giant-slayer-sickle"
 grants_capability_while_equipped = ""

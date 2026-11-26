@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Within the clear gel drift glints so fine they seem more like captured moonlight than metal. Spread across a blade or point, the substance vanishes into the surface with a cold, whispering shimmer, leaving every edge keen enough to make the air seem wary."
 display_name = "Oil of Sharpness"
 entity_def_id = "srd/magic_item/oil-of-sharpness"
 grants_capability_while_equipped = ""

@@ -78,6 +78,7 @@ tag = "srd.spell.list.druid"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale, windless shimmer gathers around the caster, bending grass and candle smoke away as though life itself has met an unseen shore. Beasts balk, warriors find their steps arrested, and grasping hands recoil from a boundary with no wall to touch. Yet arrows, hooks, and hostile sorcery may still streak across the silent divide."
 display_name = "Antilife Shell"
 entity_def_id = "srd/spell/antilife-shell"
 grants_capability_while_equipped = ""

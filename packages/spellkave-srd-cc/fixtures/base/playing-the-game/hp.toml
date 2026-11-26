@@ -26,6 +26,7 @@ target_ref = "srd/hp"
 
 [[resource_definitions]]
 bundle_id = "srd"
+description = "Your measure of health and endurance. Damage reduces your current total; at 0, you fall unconscious. Rest and healing can restore lost Hit Points."
 display_name = "Hit Points"
 initial_value = 999
 max_value = 999

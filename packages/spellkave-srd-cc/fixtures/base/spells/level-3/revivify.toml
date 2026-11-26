@@ -96,6 +96,7 @@ tag = "srd.spell.list.ranger"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A bright shard of possibility flares in the hush around a fallen body, drawn through clasped hands and a desperate voice. For one trembling instant, death loosens its grip; breath rushes back, eyes open, and the world returns in a flood of pain and astonishment. The miracle is swift, costly, and mercilessly unable to mend every wound left behind."
 display_name = "Revivify"
 entity_def_id = "srd/spell/revivify"
 grants_capability_while_equipped = ""

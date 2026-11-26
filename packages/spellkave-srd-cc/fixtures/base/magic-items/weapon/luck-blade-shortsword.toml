@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A faint warmth gathers along the hilt, like sunlight caught beneath clear water. In desperate moments, the blade seems to tilt fate aside with a quiet, almost playful certainty. Its polished edge reflects not merely a face, but a fleeting glimpse of roads not taken—and promises that, once in a lifetime, the impossible may answer."
 display_name = "Luck Blade (Shortsword)"
 entity_def_id = "srd/magic_item/luck-blade-shortsword"
 grants_capability_while_equipped = ""

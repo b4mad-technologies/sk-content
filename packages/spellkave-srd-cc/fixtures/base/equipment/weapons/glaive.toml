@@ -89,7 +89,7 @@ tag = "srd.damage_type.slashing"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Glaive — a martial melee weapon."
+description = "A long ash haft gives the wielder room to guide the sweeping blade in broad, disciplined arcs. Its hooked steel head whispers through cloth and catches torchlight like a crescent of winter. In a guard’s hands, it makes a corridor feel suddenly narrow."
 display_name = "Glaive"
 entity_def_id = "srd/weapon/glaive"
 grants_capability_while_equipped = ""

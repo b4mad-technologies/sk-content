@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its shaft bears a faint, deliberate warmth, as though it remembers an enemy too large to forgive. Near a true giant, the head begins to hum beneath the fingers, drawing the eye toward joints, throat, and the thin mortal places beneath towering strength. Once loosed, its purpose is spent in a single terrible instant."
 display_name = "Ammunition of Giant Slaying"
 entity_def_id = "srd/magic_item/ammunition-of-giant-slaying"
 grants_capability_while_equipped = ""

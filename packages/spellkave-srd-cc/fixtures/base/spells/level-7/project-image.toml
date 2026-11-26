@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Across impossible distances, a familiar figure steps into a place remembered in perfect detail. Its voice carries warmth, wit, or warning, while unseen senses drink in every shadow and whispered reply. Yet beneath the flawless mannerisms lies the faint emptiness of moonlight on glass—convincing until the world reaches out and finds nothing there."
 display_name = "Project Image"
 entity_def_id = "srd/spell/project-image"
 grants_capability_while_equipped = ""

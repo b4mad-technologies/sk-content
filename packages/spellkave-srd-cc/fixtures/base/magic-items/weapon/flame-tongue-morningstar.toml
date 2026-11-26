@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "At a whispered command, fire coils around the morningstar’s iron head without consuming haft or hand. Its blazing flanges cast restless shadows across stone and steel, filling the air with the sharp scent of hot metal and old ash. Each swing leaves a brief ember-bright arc in the dark."
 display_name = "Flame Tongue Morningstar"
 entity_def_id = "srd/magic_item/flame-tongue-morningstar"
 grants_capability_while_equipped = ""

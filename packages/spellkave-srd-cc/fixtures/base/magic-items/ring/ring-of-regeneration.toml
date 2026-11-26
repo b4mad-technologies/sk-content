@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A warm pulse circles the finger, steady as a distant hearth beneath the skin. Scrapes knit cleanly after the battle’s noise has faded, and old hurts seem reluctant to linger in its presence. Given time and breath enough to endure, even grievous loss yields to the ring’s patient, green-gold promise."
 display_name = "Ring of Regeneration"
 entity_def_id = "srd/magic_item/ring-of-regeneration"
 grants_capability_while_equipped = ""

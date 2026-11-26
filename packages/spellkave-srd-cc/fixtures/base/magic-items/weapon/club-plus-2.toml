@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A darkwood cudgel banded in tarnished silver, its grain polished smooth by countless hard-fought grips. When raised, it seems to gather the weight of a falling branch and the certainty of a storm-bent oak. Each swing leaves a brief, low tremor in the air, like distant thunder trapped beneath bark."
 display_name = "Club (+2)"
 entity_def_id = "srd/magic_item/club-plus-2"
 grants_capability_while_equipped = ""

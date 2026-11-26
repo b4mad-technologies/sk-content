@@ -129,8 +129,7 @@ describe("buildBackgroundUnits", () => {
 });
 
 describe("buildBackgroundDescription", () => {
-	// sk-content: needs the held SRD flavor texts (PROVENANCE.md).
-	it.skip("is the authored flavor blurb, not grants or compiler notes", () => {
+	it("is the authored flavor blurb, not grants or compiler notes", () => {
 		const DEV_MARKERS = ["Source: cache/", "pk='", "Ability Scores:", "srd/skill/", "srd/feat/"];
 		for (const unit of buildBackgroundUnits()) {
 			const description = buildBackgroundDescription(unit);

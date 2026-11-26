@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its woven borders ripple in windless rooms, as though remembering high passes and moonlit towers. At a whispered cue, the thick pile lifts with unnerving gentleness, carrying its riders above cobbles, chasms, and treetops. The scent of dust and distant rain clings to its fringe."
 display_name = "Carpet of Flying"
 entity_def_id = "srd/magic_item/carpet-of-flying"
 grants_capability_while_equipped = ""

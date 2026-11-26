@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A slim band of spring-bright metal, this ring seems to hum faintly when held near open ground. Its wearer feels a buoyant pull in the knees and a sudden confidence in every ledge, wall, and moonlit rooftop. For a breath, the world below appears less like an obstacle than an invitation."
 display_name = "Ring of Jumping"
 entity_def_id = "srd/magic_item/ring-of-jumping"
 grants_capability_while_equipped = ""

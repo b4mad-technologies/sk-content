@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its dark iron head seems to thrum beneath the palm, warming with every heartbeat and growing strangely familiar in the hand. Once blood is spilled nearby, the haft shivers with a hungry impatience, urging its bearer toward the nearest living breath. Even in stillness, it rests like a loyal hound with bared teeth."
 display_name = "Berserker Battleaxe"
 entity_def_id = "srd/magic_item/berserker-battleaxe"
 grants_capability_while_equipped = ""

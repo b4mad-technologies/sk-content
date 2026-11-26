@@ -102,6 +102,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A cocoon-thin shimmer passes over flesh and bone, rewriting familiar contours into fur, feather, scale, or claw. For a while, thought remains behind bright animal eyes, though speech and cunning tools fall silent beneath the pull of instinct. When the borrowed shape is shaken apart, the old self emerges amid drifting motes of wild magic."
 display_name = "Polymorph"
 entity_def_id = "srd/spell/polymorph"
 grants_capability_while_equipped = ""

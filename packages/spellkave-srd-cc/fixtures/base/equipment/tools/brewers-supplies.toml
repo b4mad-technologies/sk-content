@@ -40,6 +40,7 @@ tag = "srd.tool.category.artisan"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Copper kettles, stained paddles, and squat glass bottles carry the warm, sharp perfume of malt and yeast. In practiced hands, the tools turn cloudy mash into bright drink, while a sour note or strange sediment can reveal trouble lurking beneath the foam."
 display_name = "Brewer's Supplies"
 entity_def_id = "srd/tool/brewers-supplies"
 grants_capability_while_equipped = ""

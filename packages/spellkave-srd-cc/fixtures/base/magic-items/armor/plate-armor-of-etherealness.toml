@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Pale sigils drift across the steel like breath on a winter window, vanishing whenever a gauntlet reaches for them. When buckled closed, the armor seems to loosen the world’s grip: footsteps grow distant, torchlight thins, and solid walls acquire the hush of deep water. Its wearer carries the eerie stillness of a knight caught between one heartbeat and the next."
 display_name = "Plate Armor of Etherealness"
 entity_def_id = "srd/magic_item/plate-armor-of-etherealness"
 grants_capability_while_equipped = ""

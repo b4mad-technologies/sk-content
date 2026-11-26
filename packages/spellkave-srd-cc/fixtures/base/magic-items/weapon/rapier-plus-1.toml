@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A thin line of moon-pale steel, this rapier seems to drink the candlelight along its edge and return it in a colder gleam. Its guard curls like a frozen thorn, balanced so delicately that every feint feels already anticipated. In a practiced hand, the blade moves with the quiet certainty of a whispered secret."
 display_name = "Rapier (+1)"
 entity_def_id = "srd/magic_item/rapier-plus-1"
 grants_capability_while_equipped = ""

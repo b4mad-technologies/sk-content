@@ -140,6 +140,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A crab scuttles through tide pools, muddy banks, and shadowed shorelines with patient, sideways purpose. Its armored shell and snapping claws make even a small specimen seem boldly territorial when disturbed. Most vanish beneath rocks or into burrows at the first sign of danger, leaving only bubbles and a trail of sharp tracks."
 display_name = "Crab"
 entity_def_id = "srd/creature/crab"
 grants_capability_while_equipped = ""

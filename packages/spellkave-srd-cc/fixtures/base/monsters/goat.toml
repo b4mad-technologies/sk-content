@@ -140,6 +140,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A goat picks its way across crumbling ledges and thorny hillsides with infuriating confidence, treating impossible footing as a private joke. Its sharp eyes miss little, especially unattended packs, garden fences, and anything that might be edible. Though usually stubborn rather than hostile, a cornered goat can turn a peaceful path into a sudden, horn-led commotion."
 display_name = "Goat"
 entity_def_id = "srd/creature/goat"
 grants_capability_while_equipped = ""

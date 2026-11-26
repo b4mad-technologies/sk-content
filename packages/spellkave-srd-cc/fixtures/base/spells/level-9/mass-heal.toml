@@ -72,6 +72,7 @@ tag = "srd.spell.list.cleric"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A great hush falls over the wounded as warm radiance spills outward in sweeping waves. Torn flesh knits, dimmed senses clear, and venomous shadows are driven from blood and breath. For a heartbeat, an entire company seems to stand beneath the shelter of a merciful dawn."
 display_name = "Mass Heal"
 entity_def_id = "srd/spell/mass-heal"
 grants_capability_while_equipped = ""

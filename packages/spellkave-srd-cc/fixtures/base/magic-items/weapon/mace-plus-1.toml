@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A pale gleam clings to the mace’s flanged head, gathering in its grooves like moonlight caught in old stone. Its haft sits warmly in the hand, balanced with an almost eager certainty. When lifted, the air around it seems to tighten before the blow falls."
 display_name = "Mace (+1)"
 entity_def_id = "srd/magic_item/mace-plus-1"
 grants_capability_while_equipped = ""

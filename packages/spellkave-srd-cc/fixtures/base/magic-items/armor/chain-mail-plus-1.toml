@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Each interlocking ring bears the faint sheen of rain on iron, cold at first touch and steadying once donned. When its weight settles across the shoulders, every link seems to whisper a quiet promise: let the storm break here."
 display_name = "Chain Mail (+1)"
 entity_def_id = "srd/magic_item/chain-mail-plus-1"
 grants_capability_while_equipped = ""

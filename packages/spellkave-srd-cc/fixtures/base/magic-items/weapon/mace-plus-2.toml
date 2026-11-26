@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A dense, star-dark mace head crowns a haft wrapped in worn black leather, its flanges catching light like the edges of a storm cloud. In hand, it carries a grave, steady purpose, and each swing seems to leave the air ringing a heartbeat longer than it should."
 display_name = "Mace (+2)"
 entity_def_id = "srd/magic_item/mace-plus-2"
 grants_capability_while_equipped = ""

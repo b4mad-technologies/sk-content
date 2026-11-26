@@ -96,6 +96,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Darkness wells across the caster’s gaze, swallowing every glint of color until their eyes resemble two doors left open on a starless void. Those caught beneath that stare may crumple into uneasy slumber, flee with terror clawing at their thoughts, or stagger beneath a sudden, soul-deep nausea. The spell leaves the air cold and watchful, as though something unseen has noticed."
 display_name = "Eyebite"
 entity_def_id = "srd/spell/eyebite"
 grants_capability_while_equipped = ""

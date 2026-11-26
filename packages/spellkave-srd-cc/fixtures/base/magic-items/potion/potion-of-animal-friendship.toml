@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Within the cloudy draught, tiny tokens drift and vanish—a silver scale, a feather bright as dawn, a curved claw, a whisper of fur. When uncorked, it smells of wet leaves and sun-warmed nests. Animals that catch its scent seem to pause, listening with old, watchful patience."
 display_name = "Potion of Animal Friendship"
 entity_def_id = "srd/magic_item/potion-of-animal-friendship"
 grants_capability_while_equipped = ""

@@ -163,6 +163,7 @@ tag = "srd.creature.role.archer"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A kobold warrior is rarely found alone; its shrill calls and skittering footsteps quickly draw allies from tunnels, ruins, and shadowed burrows. Small hands grip scavenged weapons with surprising discipline, especially when a larger foe strays into a prepared ambush. Though easily rattled when isolated, a pack of kobolds can turn cramped ground into a frantic, dangerous battlefield."
 display_name = "Kobold Warrior"
 entity_def_id = "srd/creature/kobold-warrior"
 grants_capability_while_equipped = ""

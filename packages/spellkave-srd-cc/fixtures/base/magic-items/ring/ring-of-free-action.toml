@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A slim band of pale metal that never seems to catch on glove, sleeve, or chain. When worn, its surface hums faintly against the pulse, lending every motion an uncanny ease—as though mud, grasping vines, and unseen pressure have all forgotten how to hold fast."
 display_name = "Ring of Free Action"
 entity_def_id = "srd/magic_item/ring-of-free-action"
 grants_capability_while_equipped = ""

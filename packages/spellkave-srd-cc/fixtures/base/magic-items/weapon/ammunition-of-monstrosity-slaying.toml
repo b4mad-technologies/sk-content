@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Each piece bears a subtle, unsettling likeness of the quarry it was made to find: a scaled glint, a thorned seam, a pale curl like old bone. In the hand it seems quietly impatient, drawing the eye toward tracks and shadows no ordinary hunter would notice. Once loosed against its destined prey, its strange purpose gutters out, leaving only spent metal or wood behind."
 display_name = "Ammunition of Monstrosity Slaying"
 entity_def_id = "srd/magic_item/ammunition-of-monstrosity-slaying"
 grants_capability_while_equipped = ""

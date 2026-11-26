@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its broad, consecrated head seems to hold dawn beneath the steel, casting a clean glow across knuckles and mail. In a steadfast grip, the warhammer hums with solemn purpose, its presence turning dread sorcery thin and distant. When raised against the restless dead or infernal malice, every strike rings like a bell heard through a ruined shrine."
 display_name = "Holy Avenger (Warhammer)"
 entity_def_id = "srd/magic_item/holy-avenger-warhammer"
 grants_capability_while_equipped = ""

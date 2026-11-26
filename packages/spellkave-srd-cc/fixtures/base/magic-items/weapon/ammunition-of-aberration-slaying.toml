@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its head bears a faint, shifting sigil that stirs uneasily near minds shaped by alien stars and impossible depths. Nocked beneath moonlight, the shaft seems to hum with a cold, focused hunger. When loosed against its chosen prey, the air briefly tightens around the wound before the enchantment gutters away."
 display_name = "Ammunition of Aberration Slaying"
 entity_def_id = "srd/magic_item/ammunition-of-aberration-slaying"
 grants_capability_while_equipped = ""

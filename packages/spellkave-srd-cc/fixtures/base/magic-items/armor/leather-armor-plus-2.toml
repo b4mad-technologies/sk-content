@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "This supple cuirass carries the faint scent of cedar smoke and rain-darkened leaves. Its surface drinks in torchlight, then returns it as a soft, watchful sheen along every stitched seam. Worn close beneath a cloak, it moves with the body like a second hide, quiet as a stalking cat."
 display_name = "Leather Armor (+2)"
 entity_def_id = "srd/magic_item/leather-armor-plus-2"
 grants_capability_while_equipped = ""

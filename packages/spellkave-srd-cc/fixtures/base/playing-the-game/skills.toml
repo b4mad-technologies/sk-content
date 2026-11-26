@@ -34,7 +34,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/skill/acrobatics"
 default_visibility = "Public"
-description = "Stay on your feet in a tricky situation, or perform an acrobatic stunt."
+description = "Your ability to keep your balance, move through tight spaces, and perform agile stunts when the situation calls for it."
 display_name = "Skill: Acrobatics"
 
 # open5e: SkillDescription.json pk=srd-2024_animal-handling
@@ -57,7 +57,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/skill/animal-handling"
 default_visibility = "Public"
-description = "Calm or train an animal, or get an animal to behave in a certain way."
+description = "Your ability to calm, train, or direct animals. You use it when you try to influence an animal’s behavior."
 display_name = "Skill: Animal Handling"
 
 # open5e: SkillDescription.json pk=srd-2024_arcana
@@ -80,7 +80,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/skill/arcana"
 default_visibility = "Public"
-description = "Recall lore about spells, magic items, and the planes of existence."
+description = "Your knowledge of magic, enchanted objects, and other planes. You use it to recall lore and identify magical phenomena."
 display_name = "Skill: Arcana"
 
 # open5e: SkillDescription.json pk=srd-2024_athletics
@@ -103,7 +103,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/skill/athletics"
 default_visibility = "Public"
-description = "Jump farther than normal, stay afloat in rough water, or break something."
+description = "You use this skill to make demanding jumps, swim through dangerous water, or force open and break sturdy objects."
 display_name = "Skill: Athletics"
 
 # open5e: SkillDescription.json pk=srd-2024_deception
@@ -126,7 +126,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/skill/deception"
 default_visibility = "Public"
-description = "Tell a convincing lie, or wear a disguise convincingly."
+description = "Your ability to mislead others with lies, false appearances, or convincing disguises when someone might question what they see or hear."
 display_name = "Skill: Deception"
 
 # open5e: SkillDescription.json pk=srd-2024_history
@@ -149,7 +149,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/skill/history"
 default_visibility = "Public"
-description = "Recall lore about historical events, people, nations, and cultures."
+description = "Your knowledge of past events, notable people, nations, and cultures. You use it to recall lore and recognize historical context."
 display_name = "Skill: History"
 
 # open5e: SkillDescription.json pk=srd-2024_insight
@@ -172,7 +172,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/skill/insight"
 default_visibility = "Public"
-description = "Discern a person's mood and intentions."
+description = "Your ability to read a creature’s mood and intentions. You use it when you study someone’s behavior for clues."
 display_name = "Skill: Insight"
 
 # open5e: SkillDescription.json pk=srd-2024_intimidation
@@ -195,7 +195,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/skill/intimidation"
 default_visibility = "Public"
-description = "Awe or threaten someone into doing what you want."
+description = "You use forceful presence, threats, or displays of power to pressure someone into doing what you want."
 display_name = "Skill: Intimidation"
 
 # open5e: SkillDescription.json pk=srd-2024_investigation
@@ -218,7 +218,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/skill/investigation"
 default_visibility = "Public"
-description = "Find obscure information in books, or deduce how something works."
+description = "You search records for hidden information or study clues to work out how something functions."
 display_name = "Skill: Investigation"
 
 # open5e: SkillDescription.json pk=srd-2024_medicine
@@ -241,7 +241,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/skill/medicine"
 default_visibility = "Public"
-description = "Diagnose an illness, or determine what killed the recently slain."
+description = "You can examine a creature to identify an illness or learn the cause of a recent death."
 display_name = "Skill: Medicine"
 
 # open5e: SkillDescription.json pk=srd-2024_nature
@@ -264,7 +264,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/skill/nature"
 default_visibility = "Public"
-description = "Recall lore about terrain, plants, animals, and weather."
+description = "Your knowledge of the natural world. You use it to recall lore about terrain, plants, animals, and weather."
 display_name = "Skill: Nature"
 
 # open5e: SkillDescription.json pk=srd-2024_perception
@@ -287,7 +287,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/skill/perception"
 default_visibility = "Public"
-description = "Using a combination of senses, notice something that's easy to miss."
+description = "Your ability to spot hidden details, unusual activity, and other things that might escape notice. You use it when your senses could reveal something important."
 display_name = "Skill: Perception"
 
 # open5e: SkillDescription.json pk=srd-2024_performance
@@ -310,7 +310,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/skill/performance"
 default_visibility = "Public"
-description = "Act, tell a story, perform music, or dance."
+description = "You use it to entertain an audience through acting, storytelling, music, or dance."
 display_name = "Skill: Performance"
 
 # open5e: SkillDescription.json pk=srd-2024_persuasion
@@ -333,7 +333,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/skill/persuasion"
 default_visibility = "Public"
-description = "Honestly and graciously convince someone of something."
+description = "Your ability to influence others through tact, honesty, and a convincing manner. You use it when trying to win someone’s trust, agreement, or cooperation."
 display_name = "Skill: Persuasion"
 
 # open5e: SkillDescription.json pk=srd-2024_religion
@@ -356,7 +356,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/skill/religion"
 default_visibility = "Public"
-description = "Recall lore about gods, religious rituals, and holy symbols."
+description = "Your knowledge of religions, sacred rites, deities, and holy symbols. You use it to recall relevant lore."
 display_name = "Skill: Religion"
 
 # open5e: SkillDescription.json pk=srd-2024_sleight-of-hand
@@ -379,7 +379,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/skill/sleight-of-hand"
 default_visibility = "Public"
-description = "Pick a pocket, conceal a handheld object, or perform legerdemain."
+description = "Your knack for nimble fingerwork and misdirection. You use it to lift small items, hide objects on your person, or perform subtle tricks by hand."
 display_name = "Skill: Sleight Of Hand"
 
 # open5e: SkillDescription.json pk=srd-2024_stealth
@@ -402,7 +402,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/skill/stealth"
 default_visibility = "Public"
-description = "Escape notice by moving quietly and hiding behind things."
+description = "Your ability to avoid notice by moving quietly and using cover or concealment. You use it when you try to hide, sneak past others, or move without drawing attention."
 display_name = "Skill: Stealth"
 
 # open5e: SkillDescription.json pk=srd-2024_survival
@@ -425,5 +425,5 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/skill/survival"
 default_visibility = "Public"
-description = "Follow tracks, forage, find a trail, or avoid natural hazards."
+description = "Your ability to navigate the wilds and read signs in nature. You use it to track creatures, gather food, find routes, and avoid environmental dangers."
 display_name = "Skill: Survival"

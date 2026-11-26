@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "At a silent summons, the forgotten clutter of a room shudders awake. Candlesticks scuttle, chairs lurch forward, and a hanging blade turns with sudden purpose, each moved by an unseen will. The air fills with the clatter of household things made fierce, as though the chamber itself has chosen a side."
 display_name = "Animate Objects"
 entity_def_id = "srd/spell/animate-objects"
 grants_capability_while_equipped = ""

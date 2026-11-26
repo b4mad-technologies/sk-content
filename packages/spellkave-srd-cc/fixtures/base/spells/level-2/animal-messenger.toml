@@ -94,6 +94,7 @@ tag = "srd.spell.list.ranger"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A crumb offered with gentle intent becomes a promise carried on quick paws or bright wings. The chosen creature slips through hedgerows, over roofs, and along moonlit trails, bearing a borrowed voice toward a familiar place. For a fleeting moment, the wild world remembers the shape of a human secret."
 display_name = "Animal Messenger"
 entity_def_id = "srd/spell/animal-messenger"
 grants_capability_while_equipped = ""
@@ -121,7 +122,7 @@ target_ref = "srd/spell/animal-messenger"
 action_id = "srd/spell/animal-messenger/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Animal Messenger — a spell action."
+description = "You cast a spell that sends a small beast to deliver a spoken message to a creature you name. The animal travels to find the recipient, then repeats your words."
 display_name = "Cast Animal Messenger"
 non_steering = true
 on_failure = ""

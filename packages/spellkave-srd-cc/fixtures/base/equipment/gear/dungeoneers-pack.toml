@@ -36,6 +36,7 @@ tag = "srd.item.container"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A stout pack of practical burdens, smelling of lamp oil, dry hemp, and smoked provisions. Its pockets clink with sharp little answers to locked doors, dark tunnels, and uncertain footing, while bundled torchwood knocks softly against the frame. Slung over the shoulder, it carries the reassuring weight of preparation into places that have forgotten the sun."
 display_name = "Dungeoneer's Pack"
 entity_def_id = "srd/item/dungeoneers-pack"
 grants_capability_while_equipped = ""

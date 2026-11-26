@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its iron head catches the light in cold, star-like sparks, each spike polished by use and old violence. The haft rests solidly in the hand, carrying a faint, eager hum that rises whenever danger draws near. Even at rest, it seems built to turn a single committed swing into a decisive answer."
 display_name = "Morningstar (+1)"
 entity_def_id = "srd/magic_item/morningstar-plus-1"
 grants_capability_while_equipped = ""

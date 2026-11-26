@@ -41,8 +41,7 @@ describe("fixtures/ Character Origins Backgrounds", () => {
 		);
 	});
 
-	// sk-content: needs the held SRD flavor texts (PROVENANCE.md).
-	it.skip("tags every background with srd.background + srd.background.<slug>; description is flavor, not grants", async () => {
+	it("tags every background with srd.background + srd.background.<slug>; description is flavor, not grants", async () => {
 		const tools = buildTools();
 		for (const unit of buildBackgroundUnits()) {
 			const detail = (await query(tools, {
@@ -89,8 +88,7 @@ describe("fixtures/ Character Origins Species", () => {
 		);
 	});
 
-	// sk-content: needs the held SRD flavor texts (PROVENANCE.md).
-	it.skip("tags every species with srd.species + srd.species.<slug> + srd.creature_size.<category> (both categories for the 2 choice-size species)", async () => {
+	it("tags every species with srd.species + srd.species.<slug> + srd.creature_size.<category> (both categories for the 2 choice-size species)", async () => {
 		const tools = buildTools();
 		for (const unit of buildSpeciesUnits()) {
 			const detail = (await query(tools, {
@@ -172,8 +170,7 @@ describe("fixtures/ Character Origins Traits", () => {
 		);
 	});
 
-	// sk-content: needs the held SRD flavor texts (PROVENANCE.md).
-	it.skip("tags every trait with srd.trait + srd.trait.<slug> + a reference to its owning species' srd.species.<slug> tag, description citing provenance", async () => {
+	it("tags every trait with srd.trait + srd.trait.<slug> + a reference to its owning species' srd.species.<slug> tag, description citing provenance", async () => {
 		const tools = buildTools();
 		for (const unit of buildTraitUnits()) {
 			const detail = (await query(tools, {

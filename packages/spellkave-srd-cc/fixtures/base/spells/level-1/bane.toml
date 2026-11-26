@@ -94,6 +94,7 @@ tag = "srd.spell.list.warlock"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A cold thread of ill fortune coils around the chosen foes, dulling instinct and turning certainty brittle. Blades hesitate at the crucial instant, courage catches in the throat, and even practiced defenses seem to open like poorly fastened doors. The air tastes faintly of iron as fate begins to lean the wrong way."
 display_name = "Bane"
 entity_def_id = "srd/spell/bane"
 grants_capability_while_equipped = ""
@@ -121,7 +122,7 @@ target_ref = "srd/spell/bane"
 action_id = "srd/spell/bane/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Bane — a spell action."
+description = "You cast a spell that weakens selected creatures, making their attacks and saving throws less reliable while the spell lasts."
 display_name = "Cast Bane"
 non_steering = true
 on_failure = ""
@@ -155,7 +156,7 @@ template_id = "srd/spell/bane/cast/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/spell/baned"
-description = "Bane — a spell condition."
+description = "A harmful spell effect that weakens your efforts. While it lasts, your attacks and attempts to resist danger are less reliable."
 display_name = "Bane"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

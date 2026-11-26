@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Dark steel limbs frame a stock of weathered ash, its string humming like a drawn breath before a storm. In practiced hands, the crossbow seems to decide whether its strength belongs in the bolt’s flight or in the unseen ward gathering around its bearer. Faint silver lines kindle along the mechanism whenever danger closes."
 display_name = "Defender (Heavy Crossbow)"
 entity_def_id = "srd/magic_item/defender-heavy-crossbow"
 grants_capability_while_equipped = ""

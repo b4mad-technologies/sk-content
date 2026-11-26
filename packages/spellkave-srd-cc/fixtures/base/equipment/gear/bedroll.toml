@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A bedroll is a traveler’s small refuge: wool, canvas, and careful stitching wrapped tight against the road’s damp breath. Unfurled beside a guttering fire, it gathers warmth close and keeps the night’s bitter edge from settling into bone. By dawn, it smells faintly of smoke, pine needles, and yesterday’s rain."
 display_name = "Bedroll"
 entity_def_id = "srd/item/bedroll"
 grants_capability_while_equipped = ""

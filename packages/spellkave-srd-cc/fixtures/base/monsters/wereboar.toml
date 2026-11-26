@@ -157,6 +157,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A wereboar carries a stubborn rage beneath an ordinary face, quick to take offense and slower still to forgive it. When the beast rises, bristled hide, tusks, and crushing strength turn tavern quarrels or roadside insults into bloody disasters. Many prefer isolation, but pride can draw them into feuds that last for generations."
 display_name = "Wereboar"
 entity_def_id = "srd/creature/wereboar"
 grants_capability_while_equipped = ""

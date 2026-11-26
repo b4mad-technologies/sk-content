@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The knotted hardwood seems to hold a storm behind its grain, faintly thrumming whenever danger gathers beyond the firelight. In a sleeping camp, it stirs like an old hound, rapping softly against stone or earth before blades are drawn. Those who keep close to it wake with breath caught and hands already searching for steel."
 display_name = "Weapon of Warning (Greatclub)"
 entity_def_id = "srd/magic_item/weapon-of-warning-greatclub"
 grants_capability_while_equipped = ""

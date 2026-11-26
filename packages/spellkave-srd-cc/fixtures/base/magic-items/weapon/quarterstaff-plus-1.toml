@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_1"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "This seasoned length of hardwood bears a quiet sheen, as though rain has polished it for a hundred autumns. In the hand, it settles with uncanny balance, turning each practiced sweep into a clean, certain motion. A faint warmth lingers along its grain after battle."
 display_name = "Quarterstaff (+1)"
 entity_def_id = "srd/magic_item/quarterstaff-plus-1"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its heavy grain is blackened as though drawn from a hearth that never cooled, yet the wood remains smooth beneath a warrior’s palm. At a whispered summons, fire coils along the crushing head in bright, eager ribbons, painting nearby steel and stone in restless amber. Even unlit, it carries the dry scent of old smoke after rain."
 display_name = "Flame Tongue Greatclub"
 entity_def_id = "srd/magic_item/flame-tongue-greatclub"
 grants_capability_while_equipped = ""

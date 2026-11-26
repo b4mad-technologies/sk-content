@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Moonlight gathers along the breastplate’s polished ribs, then fades as though swallowed by deep water. Its fitted metal rests close and balanced, carrying the reassuring hush of a closed gate in a storm. When danger nears, the armor seems to settle around its wearer with a calm, immovable certainty."
 display_name = "Breastplate (+2)"
 entity_def_id = "srd/magic_item/breastplate-plus-2"
 grants_capability_while_equipped = ""

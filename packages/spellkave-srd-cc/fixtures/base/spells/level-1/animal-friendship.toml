@@ -88,6 +88,7 @@ tag = "srd.spell.list.ranger"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A soft hush settles over wary fur and feather, carrying the comfort of a shared fire and an offered meal. Wild eyes lose their hard shine; ears tilt toward the caster’s voice, and even a creature born to flee may linger close. The bond is gentle as a hand held open, asking trust rather than demanding it."
 display_name = "Animal Friendship"
 entity_def_id = "srd/spell/animal-friendship"
 grants_capability_while_equipped = ""
@@ -115,7 +116,7 @@ target_ref = "srd/spell/animal-friendship"
 action_id = "srd/spell/animal-friendship/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Animal Friendship — a spell action."
+description = "You cast a spell that charms a beast you can reach with magic. The creature may resist, and the effect ends if you or your allies harm it."
 display_name = "Cast Animal Friendship"
 non_steering = true
 on_failure = "srd/spell/animal-friendship/cast/success"

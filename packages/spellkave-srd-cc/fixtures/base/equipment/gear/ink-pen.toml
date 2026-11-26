@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A slender shaft of polished wood or bone, balanced to rest lightly between finger and thumb. Its nib catches the lamplight before dipping into a dark well, then glides across parchment with a faint, scratchy whisper. In steady hands, it turns fleeting thought into letters meant to outlast the speaker."
 display_name = "Ink Pen"
 entity_def_id = "srd/item/ink-pen"
 grants_capability_while_equipped = ""

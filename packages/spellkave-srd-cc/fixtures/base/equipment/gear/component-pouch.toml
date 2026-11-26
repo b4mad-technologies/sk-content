@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The pouch is waxed against damp, its flap stiff and the stitching tight as a drum. Inside, small compartments shift with a dry rustle, each one a private pocket kept apart from the next. It rides the belt like a quiet kit, closed to weather and ready to the hand that knows a spell."
 display_name = "Component Pouch"
 entity_def_id = "srd/item/component-pouch"
 grants_capability_while_equipped = ""

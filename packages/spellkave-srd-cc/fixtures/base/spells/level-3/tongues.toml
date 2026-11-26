@@ -96,6 +96,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A quiet pattern settles behind the eyes, and every voice becomes threaded with meaning. Market cries, courtly gestures, sailors’ cant, and the silent grammar of distant hands unfold like familiar songs. When the enchanted speaker answers, strangers hear not foreign sounds, but the intent laid bare beneath them."
 display_name = "Tongues"
 entity_def_id = "srd/spell/tongues"
 grants_capability_while_equipped = ""

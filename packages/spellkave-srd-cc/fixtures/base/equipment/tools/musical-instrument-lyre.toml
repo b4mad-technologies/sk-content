@@ -40,6 +40,7 @@ tag = "srd.tool.category.instrument"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A lyre rests lightly against the hip, its polished wood warm beneath wandering fingers. When plucked, its strings spill bright, bell-like notes that linger in rafters, moonlit courtyards, and the hush after a long road. A practiced hand can coax old melodies from its frame as though waking them from sleep."
 display_name = "Musical Instrument, Lyre"
 entity_def_id = "srd/tool/musical-instrument-lyre"
 grants_capability_while_equipped = ""

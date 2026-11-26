@@ -133,6 +133,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A shrieker fungus squats in lightless places, its pallid cap trembling at the slightest disturbance. When startled, it unleashes a piercing wail that ricochets through tunnels and ruins, turning silence into panic. Delvers soon learn that its cry is less a threat than an invitation to every hungry thing nearby."
 display_name = "Shrieker Fungus"
 entity_def_id = "srd/creature/shrieker-fungus"
 grants_capability_while_equipped = ""

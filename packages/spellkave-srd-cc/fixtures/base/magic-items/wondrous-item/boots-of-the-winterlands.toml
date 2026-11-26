@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Thick white fur spills over the cuffs, yet the leather beneath remains pleasantly warm even in a killing gale. Frost gathers along their seams without biting through, and each step settles lightly upon drifts and glazed paths. In their wake, winter seems less a hostile wilderness than a silent road waiting to be crossed."
 display_name = "Boots of the Winterlands"
 entity_def_id = "srd/magic_item/boots-of-the-winterlands"
 grants_capability_while_equipped = ""

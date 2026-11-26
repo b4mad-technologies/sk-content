@@ -71,7 +71,7 @@ tag = "srd.damage_type.bludgeoning"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Mace — a simple melee weapon."
+description = "A squat iron head crowns a haft worn smooth by restless palms, its balance plain and honest. It carries the dull promise of cracked shields, ringing helms, and doors persuaded to yield. In torchlight, its flanges catch a hard, colorless gleam."
 display_name = "Mace"
 entity_def_id = "srd/weapon/mace"
 grants_capability_while_equipped = ""

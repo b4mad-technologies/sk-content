@@ -76,6 +76,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Gold motes vanish into seams and keyholes, leaving the threshold hushed beneath an unseen ward. Hinges seem to remember their duty, wood and iron settling into a stubborn stillness that resists every ordinary hand. Yet those welcomed into the enchantment find the barrier yielding with the quiet familiarity of a trusted home."
 display_name = "Arcane Lock"
 entity_def_id = "srd/spell/arcane-lock"
 grants_capability_while_equipped = ""
@@ -102,7 +103,7 @@ target_ref = "srd/spell/arcane-lock"
 action_id = "srd/spell/arcane-lock/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Arcane Lock — a spell action."
+description = "You cast a spell that secures a closed door, window, gate, or similar entry against unwanted opening."
 display_name = "Cast Arcane Lock"
 non_steering = true
 on_failure = ""

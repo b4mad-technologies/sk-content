@@ -78,6 +78,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A hush gathers at the threshold, thick as velvet and cold as moonlit iron. Beyond it, windows cloud to blind watchers, whispers die before reaching the hall, and distant seeking arts find only a sealed, unanswering dark. Even paths meant to fold the world shut themselves against the chamber’s quiet claim."
 display_name = "Private Sanctum"
 entity_def_id = "srd/spell/private-sanctum"
 grants_capability_while_equipped = ""

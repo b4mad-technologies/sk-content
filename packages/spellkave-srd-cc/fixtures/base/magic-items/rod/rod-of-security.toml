@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its polished length holds the quiet promise of a door where none should be: a refuge shaped by longing, memory, or the shared dream of a desperate company. At its touch, battle’s grime and the world’s hard weather seem suddenly far away, replaced by an impossible haven that welcomes every weary soul within reach. Even the air around it feels patient, as though guarding a secret garden behind reality."
 display_name = "Rod of Security"
 entity_def_id = "srd/magic_item/rod-of-security"
 grants_capability_while_equipped = ""

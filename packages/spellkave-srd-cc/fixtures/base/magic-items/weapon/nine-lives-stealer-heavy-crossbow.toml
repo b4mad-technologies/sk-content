@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Black iron limbs embrace a stock of ash-dark wood, its surface scored with tiny tally marks that seem to deepen under moonlight. When the string is drawn, the air grows thin and breathless around the bolt’s cruel head. Those who linger near it sometimes wake from dreams of distant heartbeats suddenly falling silent."
 display_name = "Nine Lives Stealer (Heavy Crossbow)"
 entity_def_id = "srd/magic_item/nine-lives-stealer-heavy-crossbow"
 grants_capability_while_equipped = ""

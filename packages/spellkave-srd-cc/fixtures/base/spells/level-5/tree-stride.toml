@@ -84,6 +84,7 @@ tag = "srd.spell.list.ranger"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "At a whispered summons, bark softens into a shadowed threshold and the forest draws close around the wanderer. Beneath root and cambium lies a hush threaded through every kindred trunk, where distant groves seem no farther than a held breath. Leaves stir at the arrival, and an ancient woodland briefly remembers how to carry its own."
 display_name = "Tree Stride"
 entity_def_id = "srd/spell/tree-stride"
 grants_capability_while_equipped = ""

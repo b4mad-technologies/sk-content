@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A squat haft of dark wood balances beneath a blade veined with ember-red metal. At a whispered cue, fire coils along its edge without charring the grip, casting restless sparks across nearby stone. In the hand, it feels eager and warm, as though each swing stirs a furnace that has been waiting in silence."
 display_name = "Flame Tongue Handaxe"
 entity_def_id = "srd/magic_item/flame-tongue-handaxe"
 grants_capability_while_equipped = ""

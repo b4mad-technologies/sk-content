@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its braided length shivers with a predator’s impatience, each knot darkened as though steeped in old thunder. When unfurled, the lash cuts the air with a hungry crack that seems to linger a heartbeat too long, promising pain far beyond its reach."
 display_name = "Vicious Whip"
 entity_def_id = "srd/magic_item/vicious-whip"
 grants_capability_while_equipped = ""

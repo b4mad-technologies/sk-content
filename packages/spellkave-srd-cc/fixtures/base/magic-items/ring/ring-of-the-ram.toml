@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A squat ram’s head is worked into the band, its curled horns polished smooth by restless thumbs. When stirred, cold pressure gathers in the air ahead of it, followed by the distant crack of a mountain gale striking stone. Doors shudder, shields ring, and whatever stands before its unseen charge feels the weight of a battering beast."
 display_name = "Ring of the Ram"
 entity_def_id = "srd/magic_item/ring-of-the-ram"
 grants_capability_while_equipped = ""

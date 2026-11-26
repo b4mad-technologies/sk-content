@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Pale runes coil along the shortbow’s limbs like old scars, tightening whenever a towering silhouette crosses its sight. Its string hums with a low, hungry note, and each drawn arrow seems to carry the stubborn weight of a mountain’s answer. In smaller hands, the bow feels almost eager to humble the overgrown."
 display_name = "Giant Slayer (Shortbow)"
 entity_def_id = "srd/magic_item/giant-slayer-shortbow"
 grants_capability_while_equipped = ""

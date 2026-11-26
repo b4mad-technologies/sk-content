@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The spearhead bears a dark, mirror-like sheen that seems to drink the light around it. In the hand, it carries a hungry balance, always eager to lunge farther than its wielder intends. Each thrust leaves a brief shiver in the air, as though the weapon resents any foe left standing."
 display_name = "Vicious Spear"
 entity_def_id = "srd/magic_item/vicious-spear"
 grants_capability_while_equipped = ""

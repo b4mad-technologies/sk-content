@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its slender blade hums softly in the quiet hours, a silver note that stirs beneath the skin when danger draws near. Sleeping companions wake with breath caught and hands already reaching for steel, while the rapier’s guard seems to turn toward unseen threats. In its presence, even a peaceful camp feels poised on the edge of motion."
 display_name = "Weapon of Warning (Rapier)"
 entity_def_id = "srd/magic_item/weapon-of-warning-rapier"
 grants_capability_while_equipped = ""

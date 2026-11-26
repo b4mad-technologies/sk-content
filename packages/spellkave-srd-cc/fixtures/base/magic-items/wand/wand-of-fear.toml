@@ -36,6 +36,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The wand is a short, cold stick, and the room seems to draw in around whoever holds it. A fingertip along the grain finds a tremor that is not in the wood. Nearby candles lean away. The smell is of a cellar door left open and a voice that has not spoken yet."
 display_name = "Wand of Fear"
 entity_def_id = "srd/magic_item/wand-of-fear"
 grants_capability_while_equipped = ""

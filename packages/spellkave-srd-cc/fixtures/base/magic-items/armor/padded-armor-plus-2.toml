@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Soft layers of quilted hide settle close to the body, moving with the hush of falling ash. Beneath its worn stitching lies an unexpected firmness, as though each padded fold remembers the shape of blows turned aside. In dim light, the seams carry a faint, steady warmth."
 display_name = "Padded Armor (+2)"
 entity_def_id = "srd/magic_item/padded-armor-plus-2"
 grants_capability_while_equipped = ""

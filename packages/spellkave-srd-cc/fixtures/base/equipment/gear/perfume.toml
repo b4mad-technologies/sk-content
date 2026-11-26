@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "The vial is small and stoppered, and the scent that escapes is floral with a darker undertone, like crushed petals laid over warm skin. A drop on the wrist blooms, then settles into something quieter. It travels among duller tools and still manages to be the thing people notice first."
 display_name = "Perfume"
 entity_def_id = "srd/item/perfume"
 grants_capability_while_equipped = ""

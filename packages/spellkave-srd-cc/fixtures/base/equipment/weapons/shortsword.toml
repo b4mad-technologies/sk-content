@@ -83,7 +83,7 @@ tag = "srd.damage_type.piercing"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Shortsword — a martial melee weapon."
+description = "A compact blade built for quick decisions in crowded halls, narrow alleys, and the press of a shield line. Its grip settles close to the hand, letting the point dart between ribs of leather, gaps in mail, or the hanging folds of a foe’s cloak. Bright steel catches little light before it is gone again."
 display_name = "Shortsword"
 entity_def_id = "srd/weapon/shortsword"
 grants_capability_while_equipped = ""

@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A length of blackened wood, dry as old bone, its grain twists beneath the hand like a thing remembering drought. When raised in anger, a chill seeps along its shaft and the air seems briefly drained of warmth. Those struck by its touch often stagger as though some deep reserve of vigor has been quietly siphoned away."
 display_name = "Staff of Withering"
 entity_def_id = "srd/magic_item/staff-of-withering"
 grants_capability_while_equipped = ""

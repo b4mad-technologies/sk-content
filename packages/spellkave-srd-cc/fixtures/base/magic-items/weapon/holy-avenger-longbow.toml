@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Pale radiance gathers along the bow’s limbs when its string is drawn, lending the air the stillness of a dawn vigil. Its arrows leave bright, silent trails that make shadows recoil from stone and leaf alike. Those standing close feel steadied, as though a clear bell has sounded somewhere beyond the battlefield."
 display_name = "Holy Avenger (Longbow)"
 entity_def_id = "srd/magic_item/holy-avenger-longbow"
 grants_capability_while_equipped = ""

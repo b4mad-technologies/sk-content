@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its long haft hums faintly when leveled, as though eager for the violent certainty of the charge. The pikehead gleams with a cold, hungry luster, leaving wounds that seem to deepen after the thrust is withdrawn. Even at rest, it makes a battlefield feel narrower."
 display_name = "Vicious Pike"
 entity_def_id = "srd/magic_item/vicious-pike"
 grants_capability_while_equipped = ""

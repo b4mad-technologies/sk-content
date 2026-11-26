@@ -171,6 +171,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A priest carries the weight of sacred duty into places where fear and doubt have taken root. Whether tending the wounded, guiding frightened villagers, or standing firm against unholy threats, they draw authority from conviction as much as ceremony. Their prayers can soothe, command, or blaze with divine judgment when gentler words fail."
 display_name = "Priest"
 entity_def_id = "srd/creature/priest"
 grants_capability_while_equipped = ""

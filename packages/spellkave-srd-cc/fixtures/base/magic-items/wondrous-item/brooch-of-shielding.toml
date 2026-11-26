@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A small silver clasp shaped like a warding eye, its surface cool even beside a hearth. When hostile sorcery gathers in the air, a faint pressure blooms beneath the wearer’s collarbone, as though an unseen hand has turned aside an incoming storm. Pale motes sometimes gutter against its polished face and vanish without a sound."
 display_name = "Brooch of Shielding"
 entity_def_id = "srd/magic_item/brooch-of-shielding"
 grants_capability_while_equipped = ""

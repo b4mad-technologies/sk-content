@@ -44,6 +44,7 @@ tag = "srd.magic_item.charges"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A slender rod of storm-dark wood, its surface veined with pale metallic threads that prickle beneath the fingertips. When raised, the air gathers a sharp rain-scent and every loose hair seems to reach toward its tip. Deep within, a captive thunderhead murmurs impatiently, eager for open sky."
 display_name = "Wand of Lightning Bolts"
 entity_def_id = "srd/magic_item/wand-of-lightning-bolts"
 grants_capability_while_equipped = ""

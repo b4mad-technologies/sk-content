@@ -72,6 +72,7 @@ tag = "srd.spell.list.cleric"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A solemn appeal ripples beyond the world’s thin skin, drawing notice from courts of radiance, storm, ash, and hungering shadow. An envoy arrives with alien poise and a will entirely its own, filling the air with the scent of distant realms. What follows is not command, but covenant: favors weighed against offerings, promises, and the peril of the work ahead."
 display_name = "Planar Ally"
 entity_def_id = "srd/spell/planar-ally"
 grants_capability_while_equipped = ""

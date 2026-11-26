@@ -83,7 +83,7 @@ tag = "srd.damage_type.slashing"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
-description = "Whip — a martial melee weapon."
+description = "A braided lash coils quietly at the belt, all worn leather and patient menace. In skilled hands it unspools with a crack like a snapped branch, tracing a swift line through dust and torchlight. Its grip rewards balance, timing, and a steady wrist."
 display_name = "Whip"
 entity_def_id = "srd/weapon/whip"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "These paired cuffs seem to tighten around the wrists with a quiet, reassuring pressure, their polished surfaces catching light like still water. In an unarmored fighter’s stance, they lend each motion a poised precision, as though unseen currents turn aside the nearest edge."
 display_name = "Bracers of Defense"
 entity_def_id = "srd/magic_item/bracers-of-defense"
 grants_capability_while_equipped = ""

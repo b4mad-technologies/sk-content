@@ -18,6 +18,7 @@ tag = "srd.feat.general"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A season of deliberate practice settles into the body and mind alike: steadier hands, sharper instincts, a memory that catches what once slipped away. The change is rarely dramatic in a single dawn, but it endures, honed through repetition until old limits begin to feel like distant shores."
 display_name = "Ability Score Improvement"
 entity_def_id = "srd/feat/ability-score-improvement"
 grants_capability_while_equipped = ""

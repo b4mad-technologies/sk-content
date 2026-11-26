@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_3"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Soft leather panels overlap like dark leaves, each stud catching the light with a cold, watchful gleam. When worn, it settles close to the body without a whisper, lending the wearer the poised certainty of a duelist beneath drawn curtains. Even in a crowded hall, its fitted seams seem to turn glancing danger aside."
 display_name = "Studded Leather Armor (+3)"
 entity_def_id = "srd/magic_item/studded-leather-armor-plus-3"
 grants_capability_while_equipped = ""

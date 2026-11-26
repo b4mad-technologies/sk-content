@@ -22,7 +22,7 @@
 action_id = "srd/speak-aloud"
 bundle_id = "srd"
 cost_time_ms = 100
-description = "Speak aloud with no specific addressee — inscribes a srd/speech trace at the speaker's own current place (ActorSpatialRef); free overhearing by anyone co-located falls out from the trace's Local visibility, no separate broadcast mechanism needed."
+description = "You speak aloud at your current location without choosing a specific listener. Anyone there can hear you."
 display_name = "Speak Aloud"
 on_failure = ""
 on_success = "srd/speak-aloud/success"
@@ -38,7 +38,7 @@ session_def_id = ""
 action_id = "srd/speak-to-room"
 bundle_id = "srd"
 cost_time_ms = 100
-description = "Speak toward an addressee loud enough for the whole room to hear: fans a srd/speech trace out to every actor inside a hall-scale metric sphere around the SPEAKER (ForEachActorInRadius, core/area/sphere radius_m 10 — BL-33's topological node_ball radius > 0 stays open; this bypasses it). Each per-hearer Inscribe rebinds ActorSpatialRef to that hearer's OWN node (for_each_actor_in_radius.rs's per_actor_bindings)."
+description = "You speak to someone loudly enough for everyone nearby to hear. Each creature in the room receives your words from its own position."
 display_name = "Speak Aloud to Room"
 non_steering = true
 on_failure = ""
@@ -55,7 +55,7 @@ session_def_id = ""
 action_id = "srd/speak-to"
 bundle_id = "srd"
 cost_time_ms = 100
-description = "Speak directly to an addressee: inscribes a srd/speech trace at the ADDRESSEE's current place (TargetSpatialRef — the place, never TargetEntityRef) and names the addressee INSIDE the payload (carry_addressee merges the dispatch target's entity id under an 'addressee' key). Admission is the ordinary co-location rule at that place: the addressee hears it, bystanders at the addressee's node overhear it, and nobody at the speaker's node does unless they share it. No recipient column, ADR-0095's Alternative A rejection stands. A dead creature is not offered (sk-0m4.4 / run 6 slime corpse)."
+description = "Speak to a living creature at its current location. The creature hears you, and others in the same place may overhear."
 display_name = "Speak To"
 non_steering = true
 on_failure = ""
@@ -72,7 +72,7 @@ session_def_id = ""
 action_id = "srd/communicate/telepathy"
 bundle_id = "srd"
 cost_time_ms = 100
-description = "Address a creature within range without speaking aloud: inscribes a srd/speech trace at the ADDRESSEE's current place (TargetSpatialRef) and names them in the payload. range_m 50 covers an inn-scale graph; cross-graph addressability is a grant extent (sk-0m4.34), not a bigger range. A dead creature is not offered."
+description = "You silently send a message to a living creature within range, addressing them at their current location."
 display_name = "Telepathy"
 non_steering = true
 on_failure = ""
@@ -166,7 +166,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/action/communicate/speak"
 default_visibility = "Public"
-description = "Actor performs a deterministic speech act that inscribes a srd/speech trace, carrying its own dispatched text, for co-located bodies to perceive."
+description = "You communicate aloud to creatures near you. Your spoken words can be perceived by those who can hear you."
 display_name = "Speak"
 
 [[capability_definitions]]
@@ -174,7 +174,7 @@ actor_kind = "entity"
 bundle_id = "srd"
 capability_id = "srd/action/communicate/telepathy"
 default_visibility = "Public"
-description = "Actor addresses a creature within an authored metric range without sharing a node (sk-0m4.33). A grant extent on this capability additionally admits the extent's members across place graphs (sk-0m4.34); range alone stays same-graph. Separate from Speak — vocal identity does not grant this. Inherits ADR-0070 wall occlusion via the shared validate_reachability path; a magical wall-bypass is out of scope (BL-35)."
+description = "You mentally address a creature within range, even without sharing its space. You cannot reach through barriers that block this contact."
 display_name = "Telepathy"
 
 [[consequence_frame_writes]]
@@ -255,7 +255,7 @@ template_id = "srd/communicate/telepathy/success"
 
 [[niche_definitions]]
 bundle_id = "srd"
-description = "actor-carried-verbs (sk-0m4.4): Speak Aloud is a performance the acting creature's own Speak capability carries everywhere — no spatial_niche_attachment, no per-room opt-in. Place-level speech prohibitions are a later separate mechanism, not this row."
+description = "You can speak aloud wherever you are, using your own capability rather than a feature of the place."
 display_name = "Speak (actor-carried)"
 niche_id = "capability:srd/action/communicate/speak"
 predicate_source = ""

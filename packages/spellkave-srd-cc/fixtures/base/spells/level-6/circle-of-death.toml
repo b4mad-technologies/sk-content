@@ -90,6 +90,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A black pearl’s dust lifts into the air, gathering around a point of dreadful stillness. Then the world seems to exhale rot and winter at once, a widening hush that drains color from skin and strength from bone. When it passes, even the surviving air feels thin and afraid."
 display_name = "Circle of Death"
 entity_def_id = "srd/spell/circle-of-death"
 grants_capability_while_equipped = ""

@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Within its plain tube swirls a pale fluid that stings the nose like harsh spirits and leaves a cold slickness on the fingertips. A single careful spill sends stubborn seams, old paste, and impossible bonds sighing apart as though they had never held."
 display_name = "Universal Solvent"
 entity_def_id = "srd/magic_item/universal-solvent"
 grants_capability_while_equipped = ""

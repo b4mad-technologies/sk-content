@@ -101,8 +101,7 @@ describe("creatureSizeRankByCategory", () => {
 });
 
 describe("buildSpeciesDescription", () => {
-	// sk-content: needs the held SRD flavor texts (PROVENANCE.md).
-	it.skip("is the authored flavor blurb, not size/speed or compiler notes", () => {
+	it("is the authored flavor blurb, not size/speed or compiler notes", () => {
 		const DEV_MARKERS = ["Source: cache/", "pk='", "Creature Type:", "srd/size", "srd/speed"];
 		for (const unit of buildSpeciesUnits()) {
 			const description = buildSpeciesDescription(unit);

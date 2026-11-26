@@ -223,12 +223,12 @@ on_demand = true
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Tool choice category: artisan."
+description = "A tool category for making and repairing crafted goods. You choose a specific artisan’s tool when a rule grants you proficiency or access to one."
 prefix = "srd.tool.category"
 tag = "srd.tool.category.artisan"
 
 [[tag_value_definitions]]
 bundle_id = "srd"
-description = "Tool choice category: instrument."
+description = "A tool category for making music. You choose a specific instrument when a feature or proficiency refers to one."
 prefix = "srd.tool.category"
 tag = "srd.tool.category.instrument"

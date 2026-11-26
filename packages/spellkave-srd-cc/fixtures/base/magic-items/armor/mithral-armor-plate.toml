@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Pale silver plates nest together with the hush of folded silk, cool against the skin and startlingly light in the hand. Beneath a cloak or courtly coat, its polished seams catch only the briefest glimmer of candlelight. It moves with its wearer rather than against them, lending the quiet confidence of a shadow clad in moonlit steel."
 display_name = "Mithral Armor (Plate)"
 entity_def_id = "srd/magic_item/mithral-armor-plate"
 grants_capability_while_equipped = ""

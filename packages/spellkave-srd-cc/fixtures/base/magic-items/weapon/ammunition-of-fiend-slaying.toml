@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.none"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its shaft bears a cold, hairline sigil that seems to twitch in the presence of infernal blood. Drawn beneath a darkened sky, it hums with a note too thin for mortal ears, eager for the moment it finds the thing it was made to unmake. After its terrible purpose is fulfilled, the mark fades like frost beneath a flame."
 display_name = "Ammunition of Fiend Slaying"
 entity_def_id = "srd/magic_item/ammunition-of-fiend-slaying"
 grants_capability_while_equipped = ""

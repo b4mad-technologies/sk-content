@@ -30,6 +30,7 @@ tag = "srd.item.gear"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Powdered wigs, false beards, painted masks, and borrowed finery transform a familiar face into a passing stranger. The costume settles over the wearer like a second skin, inviting new posture, new gestures, and a voice shaped to match the part. In candlelight or crowded streets, even close acquaintances may hesitate."
 display_name = "Costume"
 entity_def_id = "srd/item/costume"
 grants_capability_while_equipped = ""

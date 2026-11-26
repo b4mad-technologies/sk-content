@@ -88,6 +88,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A muted sheen runs along the weapon’s edge, as though starlight has settled into the steel. Its balance sharpens in the wielder’s hand, every stroke guided by a quiet, certain purpose. Even an old blade seems to remember the legend it was meant to become."
 display_name = "Magic Weapon"
 entity_def_id = "srd/spell/magic-weapon"
 grants_capability_while_equipped = ""
@@ -115,7 +116,7 @@ target_ref = "srd/spell/magic-weapon"
 action_id = "srd/spell/magic-weapon/cast"
 bundle_id = "srd"
 cost_time_ms = 0
-description = "Magic Weapon — a spell action."
+description = "You cast the magic weapon spell, empowering a nonmagical weapon you touch for a time."
 display_name = "Cast Magic Weapon"
 non_steering = true
 on_failure = ""
@@ -149,7 +150,7 @@ template_id = "srd/spell/magic-weapon/cast/affordance"
 [[condition_definitions]]
 bundle_id = "srd"
 condition_definition_id = "srd/condition/spell/magic-weapon"
-description = "Magic Weapon — a spell condition."
+description = "A weapon you touch becomes magical for a limited time, letting its attacks overcome defenses against ordinary weapons."
 display_name = "Magic Weapon"
 gate_predicate_source = "1 == 1"
 grants_capability_while_active = []

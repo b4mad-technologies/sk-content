@@ -78,6 +78,7 @@ tag = "srd.spell.list.wizard"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A sharp gesture cuts across the air, and the gathering threads of another working shudder apart. Sparks gutter into silence; a half-formed incantation dies on the caster’s lips, leaving only the cold echo of power denied. For an instant, the world seems to hold its breath."
 display_name = "Counterspell"
 entity_def_id = "srd/spell/counterspell"
 grants_capability_while_equipped = ""

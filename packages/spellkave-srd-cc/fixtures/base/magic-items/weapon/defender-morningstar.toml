@@ -38,6 +38,7 @@ tag = "srd.magic_item.attunement.required"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Its dark steel head seems to drink the torchlight, while the flanges gleam with a cold, watchful sheen. In a warrior’s grip, the morningstar carries a curious balance: eager to strike, yet always ready to turn aside the answering blow. A faint ring hums through its haft whenever danger draws near."
 display_name = "Defender (Morningstar)"
 entity_def_id = "srd/magic_item/defender-morningstar"
 grants_capability_while_equipped = ""

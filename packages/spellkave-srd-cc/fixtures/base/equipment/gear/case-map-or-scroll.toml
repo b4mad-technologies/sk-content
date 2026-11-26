@@ -36,6 +36,7 @@ tag = "srd.item.container"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "A stiff leather tube, capped at both ends, keeps paper from the rain and from being folded into ruin. The caps seat with a hollow pop. Inside, sheets slide against one another with a dry whisper, safe from mud, sweat, and a careless elbow. A traveler learns the caps by feel, even in the dark."
 display_name = "Case, Map or Scroll"
 entity_def_id = "srd/item/case-map-or-scroll"
 grants_capability_while_equipped = ""

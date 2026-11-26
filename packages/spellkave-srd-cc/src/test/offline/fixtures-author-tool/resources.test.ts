@@ -335,8 +335,7 @@ describe("fixtures/ resource identities read through spellkave_query", () => {
 		expect(row.recovery_rule).toBe(ACTION_SURGE_USES_RESOURCE_BOUNDS.recoveryRule);
 	});
 
-	// sk-content: needs the held SRD flavor texts (PROVENANCE.md).
-	it.skip("kind+id detail carries the binary Heroic Inspiration identity row", async () => {
+	it("kind+id detail carries the binary Heroic Inspiration identity row", async () => {
 		const tools = buildTools();
 		const inspiration = expectedHeroicInspirationIdentity();
 		const detail = (await query(tools, {

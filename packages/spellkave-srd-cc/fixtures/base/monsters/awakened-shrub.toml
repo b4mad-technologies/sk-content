@@ -151,6 +151,7 @@ tag = "srd.creature.role.skirmisher"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "At first glance, it seems like harmless undergrowth until its branches twitch with purpose. An awakened shrub shuffles through gardens, ruins, and forest edges, rustling softly as it guards a place, follows a simple command, or pursues an unexpected sense of freedom. Its leafy silhouette makes every thicket feel faintly watchful."
 display_name = "Awakened Shrub"
 entity_def_id = "srd/creature/awakened-shrub"
 grants_capability_while_equipped = ""

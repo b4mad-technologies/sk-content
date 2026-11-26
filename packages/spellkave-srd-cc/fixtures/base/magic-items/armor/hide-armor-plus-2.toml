@@ -44,6 +44,7 @@ tag = "srd.magic_item.bonus.plus_2"
 [[entity_definitions]]
 affordance_seed_id = ""
 bundle_id = "srd"
+description = "Thick, smoke-cured hides overlap in a rugged mantle that seems to settle into place with a hunter’s patience. Its seams are bound with dark cord and faintly polished bone, giving the wearer the quiet assurance of bark, bramble, and old stone between skin and steel."
 display_name = "Hide Armor (+2)"
 entity_def_id = "srd/magic_item/hide-armor-plus-2"
 grants_capability_while_equipped = ""
